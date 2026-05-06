@@ -79,7 +79,9 @@ async function postFormUrlencoded(url, params) {
  * @returns {Promise<object>}
  */
 export async function loadTokenData() {
-  const tokenData = JSON.parse(await fs.readFile(TOKEN_FILE, 'utf-8'));
+  let raw = await fs.readFile(TOKEN_FILE, 'utf-8');
+  if (raw.charCodeAt(0) === 0xFEFF) raw = raw.slice(1);
+  const tokenData = JSON.parse(raw);
   const expiresAt = new Date(tokenData.expires_at);
   const daysLeft = Math.floor((expiresAt - new Date()) / (1000 * 60 * 60 * 24));
   if (daysLeft <= 0) {
