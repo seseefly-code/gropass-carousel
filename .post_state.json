@@ -1,8 +1,8 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 1,
+    "솔직인사이트": 2,
     "공감페인": 1,
     "케이스스터디": 1
   },
@@ -37,6 +37,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DX_qnIbiTrE",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_케이스스터디_매출_1억_회사가_RD_5억_받은_사례.md",
       "posted_at": "2026-05-06T11:01:21.284Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "자금 받고도 망하는 회사들 공통점",
+      "char_count": 268,
+      "media_id": "18323089168248825",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_vo1jmk2b",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_솔직인사이트_자금_받고도_망하는_회사들_공통점.md",
+      "posted_at": "2026-05-06T11:45:17.045Z"
     }
   ]
 }
