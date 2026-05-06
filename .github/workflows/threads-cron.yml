@@ -35,15 +35,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Restore .threads-token.json from secret
+      - name: Restore .threads-token.json from base64 secret
         env:
-          TOKEN_JSON: ${{ secrets.THREADS_TOKEN_JSON }}
+          TOKEN_B64: ${{ secrets.THREADS_TOKEN_B64 }}
         run: |
-          printf '%s' "$TOKEN_JSON" > .threads-token.json
-          if [ ! -s .threads-token.json ]; then
-            echo "::error::THREADS_TOKEN_JSON secret is empty"
+          if [ -z "$TOKEN_B64" ]; then
+            echo "::error::THREADS_TOKEN_B64 secret is missing"
             exit 1
           fi
+          printf '%s' "$TOKEN_B64" | base64 -d > .threads-token.json
+          # JSON 검증
+          node -e "JSON.parse(require('fs').readFileSync('.threads-token.json','utf-8'))" || {
+            echo "::error::Restored .threads-token.json is not valid JSON"
+            exit 1
+          }
+          echo "Token file restored (size: $(wc -c < .threads-token.json) bytes)"
 
       - name: Determine slot
         id: pick
