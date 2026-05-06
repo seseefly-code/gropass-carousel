@@ -1,6 +1,6 @@
 {
-  "lunch_index": 0,
-  "evening_index": 2,
+  "evening_index": 1,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 1

@@ -1,13 +1,15 @@
 // auto_post.js — 슬롯에 맞춰 1개 포스트 자동 생성 + 즉시 게시
 //
 // 사용법:
-//   node auto_post.js --slot=morning           아침: 마감알림 (D-1~D-7 자금 자동 픽)
-//   node auto_post.js --slot=lunch             점심: 자금해설/숫자팩트 회전
-//   node auto_post.js --slot=evening           저녁: 인사이트류 5개 회전
+//   node auto_post.js --slot=morning           08:00 KST 마감알림 (D-1~D-7 자금)
+//   node auto_post.js --slot=noon              12:00 KST 숫자팩트
+//   node auto_post.js --slot=afternoon         15:00 KST 자금해설 (신선 공고)
+//   node auto_post.js --slot=evening           19:00 KST 솔직인사이트 ↔ 케이스스터디
+//   node auto_post.js --slot=night             22:00 KST 공감페인 → 오해풀기 → 트렌드
 //   node auto_post.js --slot=morning --dry-run 게시 없이 생성만 (state도 안 바뀜)
 //
 // State (.post_state.json):
-//   - lunch_index, evening_index : 회전 카운터
+//   - evening_index, night_index : 회전 카운터
 //   - topic_pool_indexes         : 타입별 풀 인덱스 (다음 회전 시 어디부터 픽할지)
 //   - used_announcements         : 이미 사용한 pblancId 배열 (중복 게시 방지)
 //   - history                    : 최근 게시 100개 (디버그용)
@@ -23,9 +25,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(__dirname, '.post_state.json');
 const POOL_FILE = path.join(__dirname, 'topic_pool.json');
 
-const LUNCH_TYPES = ['자금해설', '숫자팩트'];
-const EVENING_TYPES = ['솔직인사이트', '공감페인', '오해풀기', '케이스스터디', '트렌드'];
-const SLOTS = ['morning', 'lunch', 'evening'];
+const EVENING_TYPES = ['솔직인사이트', '케이스스터디'];
+const NIGHT_TYPES = ['공감페인', '오해풀기', '트렌드'];
+const SLOTS = ['morning', 'noon', 'afternoon', 'evening', 'night'];
 
 function parseArgs(argv) {
   const out = { slot: null, dryRun: false };
@@ -42,8 +44,8 @@ async function loadState() {
   } catch (e) {
     if (e.code !== 'ENOENT') throw e;
     return {
-      lunch_index: 0,
       evening_index: 0,
+      night_index: 0,
       topic_pool_indexes: {},
       used_announcements: [],
       history: [],
@@ -105,27 +107,30 @@ async function pickPost(slot, state, pool) {
     return { type: '마감알림', topic: nextFromPool(pool, '마감알림', state) };
   }
 
-  if (slot === 'lunch') {
-    const type = LUNCH_TYPES[state.lunch_index % LUNCH_TYPES.length];
-    state.lunch_index = (state.lunch_index + 1) % LUNCH_TYPES.length;
+  if (slot === 'noon') {
+    return { type: '숫자팩트', topic: nextFromPool(pool, '숫자팩트', state) };
+  }
 
-    if (type === '자금해설') {
-      // 신선한 공고 (D > 7) 중 안 쓴 것 픽
-      const fresh = sorted.find(a =>
-        a.dDay !== null && a.dDay > 7 && !state.used_announcements.includes(a.pblancId)
-      );
-      if (fresh) {
-        state.used_announcements.push(fresh.pblancId);
-        return { type, topic: `${fresh.title} 자금 해설 (${fresh.ministry || fresh.agency || ''})` };
-      }
-      return { type, topic: nextFromPool(pool, type, state) };
+  if (slot === 'afternoon') {
+    const fresh = sorted.find(a =>
+      a.dDay !== null && a.dDay > 7 && !state.used_announcements.includes(a.pblancId)
+    );
+    if (fresh) {
+      state.used_announcements.push(fresh.pblancId);
+      return { type: '자금해설', topic: `${fresh.title} 자금 해설 (${fresh.ministry || fresh.agency || ''})` };
     }
-    return { type, topic: nextFromPool(pool, type, state) };
+    return { type: '자금해설', topic: nextFromPool(pool, '자금해설', state) };
   }
 
   if (slot === 'evening') {
-    const type = EVENING_TYPES[state.evening_index % EVENING_TYPES.length];
-    state.evening_index = (state.evening_index + 1) % EVENING_TYPES.length;
+    const type = EVENING_TYPES[(state.evening_index || 0) % EVENING_TYPES.length];
+    state.evening_index = ((state.evening_index || 0) + 1) % EVENING_TYPES.length;
+    return { type, topic: nextFromPool(pool, type, state) };
+  }
+
+  if (slot === 'night') {
+    const type = NIGHT_TYPES[(state.night_index || 0) % NIGHT_TYPES.length];
+    state.night_index = ((state.night_index || 0) + 1) % NIGHT_TYPES.length;
     return { type, topic: nextFromPool(pool, type, state) };
   }
 
@@ -135,7 +140,7 @@ async function pickPost(slot, state, pool) {
 async function main() {
   const { slot, dryRun } = parseArgs(process.argv);
   if (!SLOTS.includes(slot)) {
-    console.error('사용법: node auto_post.js --slot=<morning|lunch|evening> [--dry-run]');
+    console.error('사용법: node auto_post.js --slot=<morning|noon|afternoon|evening|night> [--dry-run]');
     process.exit(1);
   }
 
