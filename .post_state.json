@@ -1,8 +1,9 @@
 {
   "lunch_index": 0,
-  "evening_index": 1,
+  "evening_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 1
+    "솔직인사이트": 1,
+    "공감페인": 1
   },
   "used_announcements": [],
   "history": [
@@ -15,6 +16,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DX_aiBkFBjX",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
       "posted_at": "2026-05-06T08:40:49.088Z"
+    },
+    {
+      "slot": "evening",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 182,
+      "media_id": "18055918700708278",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_bIsIFIez",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_공감페인_사업계획서_쓰다가_새벽_3시인_대표.md",
+      "posted_at": "2026-05-06T08:46:06.403Z"
     }
   ]
 }
