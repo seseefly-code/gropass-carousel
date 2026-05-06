@@ -1,0 +1,20 @@
+{
+  "lunch_index": 0,
+  "evening_index": 1,
+  "topic_pool_indexes": {
+    "솔직인사이트": 1
+  },
+  "used_announcements": [],
+  "history": [
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
+      "char_count": 234,
+      "media_id": "18054934982713936",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_aiBkFBjX",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
+      "posted_at": "2026-05-06T08:40:49.088Z"
+    }
+  ]
+}
