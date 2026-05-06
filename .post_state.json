@@ -6,7 +6,9 @@
     "공감페인": 1,
     "케이스스터디": 1
   },
-  "used_announcements": [],
+  "used_announcements": [
+    "PBLN_000000000121636"
+  ],
   "history": [
     {
       "slot": "evening",
@@ -47,6 +49,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DX_vo1jmk2b",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_솔직인사이트_자금_받고도_망하는_회사들_공통점.md",
       "posted_at": "2026-05-06T11:45:17.045Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[경북] 경산시 2026년 무역사절단 파견 지원사업 참여기업 추가 모집 공고 D-6 마감 임박 (경상북도)",
+      "char_count": 188,
+      "media_id": "18192342679367209",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYBCcYADYYl",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_마감알림_경북_경산시_2026년_무역사절단_파견_지원사업_참여기.md",
+      "posted_at": "2026-05-06T23:48:50.832Z"
     }
   ]
 }
