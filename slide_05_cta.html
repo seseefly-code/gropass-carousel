@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>슬라이드 5 — CTA</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    background: #FFFFFF;
+    position: relative;
+    padding: 84px 88px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .deco-circle {
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #DBEAFE 0%, transparent 70%);
+  }
+
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .crumb {
+    color: #64748B;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  .pager {
+    color: #94A3B8;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .pager strong { color: #0A1F44; font-weight: 700; }
+
+  .center-block {
+    position: relative;
+    margin: auto 0;
+    text-align: left;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 28px;
+  }
+  .badge::before {
+    content: '★';
+    font-size: 18px;
+  }
+
+  .headline {
+    color: #0A1F44;
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+  .headline em {
+    font-style: normal;
+    color: #2563EB;
+  }
+  .sub {
+    color: #475569;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: -0.02em;
+    margin-top: 28px;
+  }
+
+  .actions {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 720px;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 18px;
+    padding: 22px 28px;
+  }
+  .action-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: #0A1F44;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+  .action-icon.blue { background: #2563EB; }
+  .action-text {
+    color: #0F172A;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+  }
+  .action-text strong { color: #2563EB; font-weight: 800; }
+
+  .footer {
+    position: relative;
+    margin-top: auto;
+    padding-top: 36px;
+    border-top: 2px solid #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .logo {
+    width: 180px;
+    height: auto;
+    display: block;
+    filter: brightness(0);
+  }
+  .brand-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .brand-tag {
+    color: #0A1F44;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .brand-tag-sub {
+    color: #64748B;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .url {
+    color: #2563EB;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="deco-circle"></div>
+
+    <div class="header">
+      <div class="crumb">정책자금 위클리 · 마무리</div>
+      <div class="pager"><strong>07</strong> / 07</div>
+    </div>
+
+    <div class="center-block">
+      <div class="badge">DON'T MISS</div>
+      <h1 class="headline">사업자번호 하나로<br><em>1분 만에</em> 매칭.</h1>
+      <p class="sub">94% 매칭 정확도, 마감 자동 알림까지.<br>대표님은 경영에만 집중하세요.</p>
+
+      <div class="actions">
+        <div class="action">
+          <div class="action-icon">↗</div>
+          <div class="action-text">프로필 링크에서 <strong>무료 자금진단</strong> 받기</div>
+        </div>
+        <div class="action">
+          <div class="action-icon blue">♡</div>
+          <div class="action-text">이 글 <strong>저장</strong>하고 마감 전에 다시 확인</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand">
+        <img src="logo.png" alt="GroPass" class="logo">
+        <div class="brand-info">
+          <div class="brand-tag">AI 정책자금 매칭 플랫폼</div>
+          <div class="brand-tag-sub">중소기업·소상공인 대표를 위한</div>
+        </div>
+      </div>
+      <div class="url">gropass.co.kr</div>
+    </div>
+  </div>
+</body>
+</html>

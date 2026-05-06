@@ -1,0 +1,89 @@
+{
+  "carousel_id": "deadline_may_w2",
+  "_topic": "이번 주 마감 임박 정책자금 5선",
+  "_generated_at": "2026-05-06T06:50:28.392Z",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "이번 주 마감 임박",
+        ".headline": "이번 주 안 넣으면<br>다음은 <em>1년 뒤</em><br><em>마감 임박 5</em>",
+        ".sub": "5월 8일~15일 마감되는<br>핵심 정책자금만 모았습니다"
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 07",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "혁신 프리미어 1000 AI·디지털 기술사업화",
+        ".meta": "<span class=\"tag\">과기정통부</span><span class=\"tag\">AI·디지털 중기</span><span class=\"tag\">D-8</span>",
+        ".body": "<strong>AI·디지털 분야 유망 중소기업</strong>을 골라 사업화·스케일업까지 패키지로 지원. 기술력은 있지만 시장 진입이 막힌 대표라면 <strong>이번 주가 마지막 기회</strong>입니다.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 규모",
+        ".stats .stat:nth-child(1) .stat-value": "패키지<span class=\"unit\">지원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/14</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관",
+        ".stats .stat:nth-child(3) .stat-value": "과기정통<span class=\"unit\">부</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>06</strong> / 07",
+        ".eyebrow": "SUMMARY",
+        ".title": "5월 둘째 주 안에<br>마감되는 <em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "혁신 프리미어 1000 AI·디지털 기술사업화",
+        ".item:nth-child(1) .item-desc": "AI·디지털 기술 보유 중소기업 · 사업화 단계",
+        ".item:nth-child(1) .item-amount": "패키지 지원",
+        ".item:nth-child(1) .item-deadline": "D-8 · 5/14 마감",
+        ".item:nth-child(2) .item-name": "글로벌 혁신특구 육성(비R&D)",
+        ".item:nth-child(2) .item-desc": "중기부 · 글로벌 혁신특구 입주·연계 기업",
+        ".item:nth-child(2) .item-amount": "실증·사업화",
+        ".item:nth-child(2) .item-deadline": "D-1 · 5/7 마감",
+        ".item:nth-child(3) .item-name": "인천공항 스타트업 육성사업",
+        ".item:nth-child(3) .item-desc": "인천시 · 모빌리티·물류·관광 초기 창업기업",
+        ".item:nth-child(3) .item-amount": "액셀러레이팅",
+        ".item:nth-child(3) .item-deadline": "D-8 · 5/14 마감",
+        ".item:nth-child(4) .item-name": "AI 허브 투자 연계 지원사업",
+        ".item:nth-child(4) .item-desc": "서울시 · AI 스타트업 · 투자유치 준비 단계",
+        ".item:nth-child(4) .item-amount": "IR·투자유치",
+        ".item:nth-child(4) .item-deadline": "D-6 · 5/12 마감",
+        ".item:nth-child(5) .item-name": "경북 알리바바 입점 추가 모집",
+        ".item:nth-child(5) .item-desc": "경북도 · 수출 희망 제조 중소기업 · 추가 모집",
+        ".item:nth-child(5) .item-amount": "입점·바이어매칭",
+        ".item:nth-child(5) .item-deadline": "D-9 · 5/15 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>05</strong> / 07",
+        ".quote": "정책자금은 <em>아는 사람</em>이 아니라<br><span class=\"underline\">제때 신청한 사람</span>이 받는다.",
+        ".att-text": "정책자금 컨설팅 15년 차 코멘트",
+        ".footer-quote": "공고는 평균 2~3주 열리고 닫힙니다.<br>주차별 마감 체크가 곧 자금 확보의 시작입니다.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>07</strong> / 07",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em><br>이번 주 마감 자금 매칭",
+        ".sub": "그로패스가 D-day별로 정렬해<br>지금 넣어야 할 공고만 알려드립니다",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}

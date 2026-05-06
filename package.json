@@ -1,0 +1,13 @@
+{
+  "name": "gropass-carousel",
+  "version": "1.0.0",
+  "description": "GroPass Instagram carousel renderer (HTML templates -> PNG via Puppeteer)",
+  "type": "module",
+  "scripts": {
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.94.0",
+    "puppeteer": "^23.0.0"
+  }
+}

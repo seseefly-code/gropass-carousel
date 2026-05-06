@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>GroPass 캐러셀 시안 — 전체 보기</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0F172A;
+    font-family: 'Pretendard Variable', Pretendard, sans-serif;
+    padding: 60px 40px;
+    color: #FFFFFF;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.03em;
+  }
+  .lede {
+    color: #94A3B8;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 48px;
+    line-height: 1.6;
+  }
+  .lede a { color: #60A5FA; text-decoration: none; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 32px;
+  }
+  .card {
+    background: #1E293B;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #334155;
+  }
+  .card-head {
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .card-tag {
+    font-size: 12px;
+    color: #94A3B8;
+    background: #0F172A;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .frame-wrap {
+    background: #0F172A;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .frame {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: none;
+    transform-origin: top left;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+  /* Scale the 1080x1080 iframe down to fit container */
+  .frame-inner {
+    width: 1080px;
+    height: 1080px;
+    transform: scale(var(--scale, 0.35));
+    transform-origin: top left;
+  }
+  .frame-outer {
+    width: calc(1080px * var(--scale, 0.35));
+    height: calc(1080px * var(--scale, 0.35));
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+  .actions {
+    padding: 16px 24px;
+    display: flex;
+    gap: 12px;
+    border-top: 1px solid #334155;
+  }
+  .btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #2563EB;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.15s;
+  }
+  .btn:hover { background: #1D4ED8; }
+  .btn.secondary {
+    background: transparent;
+    border: 1px solid #475569;
+    color: #CBD5E1;
+  }
+  .btn.secondary:hover { background: #334155; }
+
+  .info {
+    background: #1E40AF22;
+    border: 1px solid #2563EB55;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #DBEAFE;
+  }
+  .info code {
+    background: #0F172A;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 13px;
+    color: #FCD34D;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>GroPass 캐러셀 시안 (5종)</h1>
+    <p class="lede">
+      그로패스 정책자금 위클리 캐러셀의 슬라이드 5종 시안.<br>
+      각 슬라이드 1080×1080 기준. 아래는 35% 축소 미리보기 — 카드의 "원본 보기"를 누르면 실제 크기로 열립니다.
+    </p>
+
+    <div class="info">
+      💡 <strong>팁</strong> · 인스타그램 캐러셀은 보통 7~10장. 위 5종 템플릿을 조합하면 됩니다.<br>
+      예: <code>cover → info×3 → list → quote → cta</code> = 7장 / <code>cover → info×5 → list → quote → cta</code> = 9장
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">01 · 표지 (Cover)</div>
+          <div class="card-tag">캐러셀 첫 장</div>
+        </div>
+        <div class="frame-wrap">
+          <div class="frame-outer">
+            <iframe class="frame frame-inner" src="slide_01_cover.html"></iframe>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="slide_01_cover.html" target="_blank" class="btn">원본 보기</a>
+          <a href="slide_01_cover.html" class="btn secondary">코드 열기</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">02 · 정보 (Info)</div>
+          <div class="card-tag">개별 자금 소개</div>
+        </div>
+        <div class="frame-wrap">
+          <div class="frame-outer">
+            <iframe class="frame frame-inner" src="slide_02_info.html"></iframe>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="slide_02_info.html" target="_blank" class="btn">원본 보기</a>
+          <a href="slide_02_info.html" class="btn secondary">코드 열기</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">03 · 리스트 (List)</div>
+          <div class="card-tag">한눈에 보기</div>
+        </div>
+        <div class="frame-wrap">
+          <div class="frame-outer">
+            <iframe class="frame frame-inner" src="slide_03_list.html"></iframe>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="slide_03_list.html" target="_blank" class="btn">원본 보기</a>
+          <a href="slide_03_list.html" class="btn secondary">코드 열기</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">04 · 강조 (Quote)</div>
+          <div class="card-tag">핵심 인사이트</div>
+        </div>
+        <div class="frame-wrap">
+          <div class="frame-outer">
+            <iframe class="frame frame-inner" src="slide_04_quote.html"></iframe>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="slide_04_quote.html" target="_blank" class="btn">원본 보기</a>
+          <a href="slide_04_quote.html" class="btn secondary">코드 열기</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div class="card-title">05 · CTA</div>
+          <div class="card-tag">마지막 장</div>
+        </div>
+        <div class="frame-wrap">
+          <div class="frame-outer">
+            <iframe class="frame frame-inner" src="slide_05_cta.html"></iframe>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="slide_05_cta.html" target="_blank" class="btn">원본 보기</a>
+          <a href="slide_05_cta.html" class="btn secondary">코드 열기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

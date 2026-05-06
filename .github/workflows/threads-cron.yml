@@ -1,0 +1,91 @@
+name: Threads Auto-Post
+
+on:
+  schedule:
+    - cron: '0 23 * * *'    # 08:00 KST (UTC+9, previous day UTC)
+    - cron: '30 3 * * *'    # 12:30 KST
+    - cron: '0 10 * * *'    # 19:00 KST
+  workflow_dispatch:
+    inputs:
+      slot:
+        type: choice
+        description: '게시 슬롯'
+        options: [morning, lunch, evening]
+        default: morning
+      dry_run:
+        type: boolean
+        description: 'dry-run (생성만, 게시 안함)'
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore .threads-token.json from secret
+        env:
+          TOKEN_JSON: ${{ secrets.THREADS_TOKEN_JSON }}
+        run: |
+          printf '%s' "$TOKEN_JSON" > .threads-token.json
+          if [ ! -s .threads-token.json ]; then
+            echo "::error::THREADS_TOKEN_JSON secret is empty"
+            exit 1
+          fi
+
+      - name: Determine slot
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ inputs.slot }}"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 23 * * *") SLOT=morning ;;
+              "30 3 * * *") SLOT=lunch ;;
+              "0 10 * * *") SLOT=evening ;;
+              *) echo "::error::Unknown cron schedule"; exit 1 ;;
+            esac
+          fi
+          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+          echo "Slot: $SLOT"
+
+      - name: Refresh announcements (best effort)
+        continue-on-error: true
+        run: node crawl.js --pages=2
+
+      - name: Run auto_post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DRY=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
+          node auto_post.js --slot=${{ steps.pick.outputs.slot }} $DRY
+
+      - name: Wipe token file before commit
+        if: always()
+        run: rm -f .threads-token.json
+
+      - name: Commit state changes
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .post_state.json threads/ data/announcements/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto-post: ${{ steps.pick.outputs.slot }} $(TZ=Asia/Seoul date +%Y-%m-%d_%H:%M)"
+            git push
+          fi

@@ -1,0 +1,89 @@
+{
+  "carousel_id": "venture_certification_benefits",
+  "_topic": "벤처기업 인증 받으면 좋은 점 5가지",
+  "_generated_at": "2026-05-06T05:55:45.040Z",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "벤처인증 위클리",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "인증 하나로 열리는 문",
+        ".headline": "벤처인증 받으면<br>받을 수 있는<br><em>혜택 5가지</em>",
+        ".sub": "세금 50% 감면부터 TIPS 5억까지<br>인증서 한 장이 만드는 차이"
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 07",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "TIPS 프로그램 (민간투자주도형 기술창업)",
+        ".meta": "<span class=\"tag\">중기부·창업진흥원</span><span class=\"tag\">벤처기업 가점</span><span class=\"tag\">창업 7년 이내</span>",
+        ".body": "운용사 투자 1억 + 정부 R&D <strong>최대 5억</strong>까지.<br>벤처인증 보유 시 서류·발표 평가에서 가점.<br>기술창업 기업이라면 <strong>1순위로 노려야 할 트랙</strong>.",
+        ".stats .stat:nth-child(1) .stat-label": "정부 R&D",
+        ".stats .stat:nth-child(1) .stat-value": "5<span class=\"unit\">억원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/22</span>",
+        ".stats .stat:nth-child(3) .stat-label": "연간 선발",
+        ".stats .stat:nth-child(3) .stat-value": "500<span class=\"unit\">개사</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>06</strong> / 07",
+        ".eyebrow": "SUMMARY",
+        ".title": "인증서 한 장으로 열리는<br><em>벤처 혜택 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "TIPS 프로그램 (민간투자주도형 기술창업)",
+        ".item:nth-child(1) .item-desc": "중기부 · 벤처인증 가점 · 창업 7년 이내",
+        ".item:nth-child(1) .item-amount": "정부지원 최대 5억",
+        ".item:nth-child(1) .item-deadline": "D-9 · 5/22 마감",
+        ".item:nth-child(2) .item-name": "기술보증기금 벤처기업 우대보증",
+        ".item:nth-child(2) .item-desc": "기보 · 벤처인증 필수 · 보증비율 90%",
+        ".item:nth-child(2) .item-amount": "보증 최대 70억",
+        ".item:nth-child(2) .item-deadline": "상시 접수",
+        ".item:nth-child(3) .item-name": "중소벤처기업진흥공단 벤처기업 전용자금",
+        ".item:nth-child(3) .item-desc": "중진공 · 벤처인증 · 시설·운전자금",
+        ".item:nth-child(3) .item-amount": "융자 최대 100억",
+        ".item:nth-child(3) .item-deadline": "D-17 · 5/30 마감",
+        ".item:nth-child(4) .item-name": "벤처기업 법인세 50% 감면",
+        ".item:nth-child(4) .item-desc": "국세청 · 창업벤처 · 5년간 적용",
+        ".item:nth-child(4) .item-amount": "법인세 50% 감면",
+        ".item:nth-child(4) .item-deadline": "인증 후 5년간",
+        ".item:nth-child(5) .item-name": "산업기능요원·전문연구요원 배정",
+        ".item:nth-child(5) .item-desc": "병무청 · 벤처 가점 · 이공계 우대",
+        ".item:nth-child(5) .item-amount": "3년 인력 확보",
+        ".item:nth-child(5) .item-deadline": "D-16 · 5/29 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>05</strong> / 07",
+        ".quote": "벤처인증은 <em>혜택의 시작점</em>이지<br><span class=\"underline\">자격 그 자체</span>가 아닙니다.",
+        ".att-text": "정책자금 컨설팅 15년 차 코멘트",
+        ".footer-quote": "인증 후 <strong>2년 내 활용 못 하면</strong> 갱신 비용만 남습니다.<br>받자마자 5개 트랙을 동시에 설계하세요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>07</strong> / 07",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br>내 회사가 받을 수 있는<br><em>벤처 혜택</em> 자동 매칭.",
+        ".sub": "벤처인증 보유 여부부터 적용 가능 자금까지<br>그로패스가 1분 안에 정리해드립니다.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}

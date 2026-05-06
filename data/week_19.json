@@ -1,0 +1,94 @@
+{
+  "carousel_id": "week_19",
+  "_comment": "정책자금 위클리 — 2026년 5월 1주차 샘플 데이터. 각 슬라이드의 'content' 객체에서 CSS 셀렉터를 키로 텍스트/HTML을 변경.",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 1주차",
+        ".eyebrow": "이번 주 마감 임박",
+        ".headline": "놓치면 1년<br>기다려야 하는<br><em>정책자금 5</em>",
+        ".sub": "청년창업사관학교부터 R&amp;D 바우처까지,<br>지금 신청해야 5월 안에 결과 나옵니다."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리 · 청년·창업",
+        ".pager": "<strong>02</strong> / 07",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "청년창업사관학교<br>17기 모집",
+        ".meta": "<span class=\"tag\">중기부</span><span class=\"tag\">만 39세 이하</span><span class=\"tag\">창업 7년 미만</span>",
+        ".body": "혁신 기술 기반 창업기업을 발굴해<br><strong>최대 1억 원의 사업화 자금</strong>과<br>입주 공간·맞춤 코칭까지 지원합니다.",
+        ".stats .stat:nth-child(1) .stat-label": "최대 지원금",
+        ".stats .stat:nth-child(1) .stat-value": "1<span class=\"unit\">억원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/15</span>",
+        ".stats .stat:nth-child(3) .stat-label": "선발 예정",
+        ".stats .stat:nth-child(3) .stat-value": "300<span class=\"unit\">개사</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>06</strong> / 07",
+        ".eyebrow": "SUMMARY",
+        ".title": "5월 안에 챙겨야 할<br><em>정책자금 5</em>",
+
+        ".item:nth-child(1) .item-name": "청년창업사관학교 17기",
+        ".item:nth-child(1) .item-desc": "중기부 · 만 39세 이하 · 창업 7년 미만",
+        ".item:nth-child(1) .item-amount": "최대 1억",
+        ".item:nth-child(1) .item-deadline": "D-9 · 5/15 마감",
+
+        ".item:nth-child(2) .item-name": "초기창업패키지",
+        ".item:nth-child(2) .item-desc": "창업진흥원 · 창업 3년 이내 · 전 업종",
+        ".item:nth-child(2) .item-amount": "최대 1억",
+        ".item:nth-child(2) .item-deadline": "D-12 · 5/18 마감",
+
+        ".item:nth-child(3) .item-name": "R&amp;D 바우처 (혁신 분야)",
+        ".item:nth-child(3) .item-desc": "중기부 · 기업 부설 연구소 보유",
+        ".item:nth-child(3) .item-amount": "최대 5천만",
+        ".item:nth-child(3) .item-deadline": "D-15 · 5/21 마감",
+
+        ".item:nth-child(4) .item-name": "수출바우처 (글로벌 강소기업)",
+        ".item:nth-child(4) .item-desc": "산업부 · 직수출 실적 보유",
+        ".item:nth-child(4) .item-amount": "최대 1억",
+        ".item:nth-child(4) .item-deadline": "D-19 · 5/25 마감",
+
+        ".item:nth-child(5) .item-name": "소상공인 디지털 전환 지원",
+        ".item:nth-child(5) .item-desc": "소진공 · 매출 10억 미만 · 오프라인",
+        ".item:nth-child(5) .item-amount": "최대 700만",
+        ".item:nth-child(5) .item-deadline": "D-23 · 5/29 마감",
+
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>05</strong> / 07",
+        ".quote": "정책자금은 결국,<br><span class=\"underline\">정보가</span> <em>8할</em>입니다.",
+        ".att-text": "정책자금 컨설팅 15년 차 코멘트",
+        ".footer-quote": "같은 자금이라도 마감 3일 전에 알면 못 받고,<br>한 달 전에 알면 받습니다.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>07</strong> / 07",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "94% 매칭 정확도, 마감 자동 알림까지.<br>대표님은 경영에만 집중하세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}

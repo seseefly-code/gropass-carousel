@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>슬라이드 1 — 표지</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    background:
+      radial-gradient(ellipse at top right, #1E40AF22 0%, transparent 55%),
+      linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+    position: relative;
+    padding: 84px 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #0A1F44;
+    color: #FFFFFF;
+    padding: 14px 24px;
+    border-radius: 999px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .label::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #60A5FA;
+    border-radius: 50%;
+  }
+
+  .week {
+    color: #64748B;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .headline-block { margin-top: 60px; }
+  .eyebrow {
+    color: #2563EB;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 28px;
+  }
+  .headline {
+    color: #0A1F44;
+    font-size: 116px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+  .headline em {
+    font-style: normal;
+    background: linear-gradient(180deg, transparent 65%, #FDE68A 65%);
+    padding: 0 4px;
+  }
+  .sub {
+    color: #475569;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    margin-top: 36px;
+    max-width: 760px;
+  }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .brand-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    filter: brightness(0);
+  }
+  .brand-domain {
+    color: #94A3B8;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .swipe {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #2563EB;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .swipe-arrow {
+    width: 56px;
+    height: 56px;
+    background: #2563EB;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+  }
+
+  .deco {
+    position: absolute;
+    bottom: -120px;
+    right: -120px;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2563EB 0%, #0A1F44 100%);
+    opacity: 0.06;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="deco"></div>
+
+    <div class="top-row">
+      <div class="label">정책자금 위클리</div>
+      <div class="week">2026년 5월 1주차</div>
+    </div>
+
+    <div class="headline-block">
+      <div class="eyebrow">이번 주 마감 임박</div>
+      <h1 class="headline">놓치면 1년<br>기다려야 하는<br><em>정책자금 5</em></h1>
+      <p class="sub">청년창업사관학교부터 R&D 바우처까지,<br>지금 신청해야 5월 안에 결과 나옵니다.</p>
+    </div>
+
+    <div class="bottom-row">
+      <div class="brand">
+        <img src="logo.png" alt="GroPass" class="brand-logo">
+        <div class="brand-domain">gropass.co.kr</div>
+      </div>
+      <div class="swipe">
+        넘겨보기
+        <span class="swipe-arrow">→</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

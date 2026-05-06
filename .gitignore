@@ -1,0 +1,6 @@
+node_modules/
+out/
+.env
+.env.local
+.threads-token.json
+*.log

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>슬라이드 4 — 강조</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    background:
+      radial-gradient(ellipse at bottom left, #1E40AF55 0%, transparent 60%),
+      linear-gradient(135deg, #0A1F44 0%, #061633 100%);
+    position: relative;
+    padding: 96px 96px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    overflow: hidden;
+  }
+
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .crumb {
+    color: #93C5FD;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  .pager {
+    color: rgba(255,255,255,0.5);
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .pager strong { color: #FFFFFF; font-weight: 700; }
+
+  .quote-mark {
+    position: relative;
+    margin-top: 80px;
+    color: #2563EB;
+    font-size: 220px;
+    line-height: 0.6;
+    font-weight: 800;
+    font-family: Georgia, serif;
+  }
+
+  .quote {
+    position: relative;
+    margin-top: 24px;
+    color: #FFFFFF;
+    font-size: 88px;
+    font-weight: 800;
+    line-height: 1.18;
+    letter-spacing: -0.04em;
+  }
+  .quote em {
+    font-style: normal;
+    color: #FCD34D;
+  }
+  .quote .underline {
+    background: linear-gradient(180deg, transparent 70%, #2563EB 70%, #2563EB 92%, transparent 92%);
+    padding: 0 4px;
+  }
+
+  .attribution {
+    position: relative;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .att-line {
+    width: 64px;
+    height: 3px;
+    background: #FCD34D;
+  }
+  .att-text {
+    color: rgba(255,255,255,0.7);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+
+  .footer {
+    position: relative;
+    margin-top: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  .footer-quote {
+    color: rgba(255,255,255,0.6);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    max-width: 640px;
+  }
+  .brand-mark {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .brand-wordmark {
+    width: 220px;
+    height: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+    opacity: 0.92;
+  }
+  .brand-domain {
+    color: rgba(255,255,255,0.5);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="grid-bg"></div>
+
+    <div class="header">
+      <div class="crumb">KEY INSIGHT</div>
+      <div class="pager"><strong>05</strong> / 07</div>
+    </div>
+
+    <div class="quote-mark">"</div>
+    <h1 class="quote">정책자금은 결국,<br><span class="underline">정보가</span> <em>8할</em>입니다.</h1>
+
+    <div class="attribution">
+      <div class="att-line"></div>
+      <div class="att-text">정책자금 컨설팅 15년 차 코멘트</div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-quote">
+        같은 자금이라도 마감 3일 전에 알면 못 받고,<br>
+        한 달 전에 알면 받습니다.
+      </div>
+      <div class="brand-mark">
+        <img src="logo.png" alt="GroPass" class="brand-wordmark">
+        <div class="brand-domain">gropass.co.kr</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

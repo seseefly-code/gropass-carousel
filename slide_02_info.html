@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>슬라이드 2 — 정보</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    background: #FFFFFF;
+    position: relative;
+    padding: 84px 88px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+    border-bottom: 2px solid #F1F5F9;
+  }
+  .crumb {
+    color: #64748B;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .crumb-logo {
+    width: 110px;
+    height: auto;
+    display: block;
+    filter: brightness(0);
+  }
+  .pager {
+    color: #94A3B8;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .pager strong { color: #0A1F44; font-weight: 700; }
+
+  .number-block {
+    margin-top: 60px;
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+  }
+  .num {
+    color: #2563EB;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    font-feature-settings: "tnum";
+  }
+  .num-label {
+    color: #94A3B8;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .title {
+    color: #0A1F44;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    margin-top: 28px;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 36px;
+  }
+  .tag {
+    background: #EFF6FF;
+    color: #1D4ED8;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .body {
+    margin-top: 56px;
+    color: #334155;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: -0.02em;
+  }
+  .body strong {
+    color: #0A1F44;
+    font-weight: 700;
+    background: linear-gradient(180deg, transparent 65%, #FDE68A 65%);
+    padding: 0 2px;
+  }
+
+  .stats {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    border-top: 2px solid #F1F5F9;
+    padding-top: 40px;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 24px;
+    border-right: 1px solid #E2E8F0;
+  }
+  .stat:first-child { padding-left: 0; }
+  .stat:last-child { border-right: none; padding-right: 0; }
+  .stat-label {
+    color: #64748B;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  .stat-value {
+    color: #0A1F44;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+  .stat-value .unit { font-size: 26px; font-weight: 700; color: #475569; }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="header">
+      <div class="crumb">
+        <img src="logo.png" alt="" class="crumb-logo">
+        <span>정책자금 위클리 · 청년·창업</span>
+      </div>
+      <div class="pager"><strong>02</strong> / 07</div>
+    </div>
+
+    <div class="number-block">
+      <div class="num">01</div>
+      <div class="num-label">FIRST PICK</div>
+    </div>
+
+    <h1 class="title">청년창업사관학교<br>17기 모집</h1>
+
+    <div class="meta">
+      <span class="tag">중기부</span>
+      <span class="tag">만 39세 이하</span>
+      <span class="tag">창업 7년 미만</span>
+    </div>
+
+    <p class="body">
+      혁신 기술 기반 창업기업을 발굴해<br>
+      <strong>최대 1억 원의 사업화 자금</strong>과<br>
+      입주 공간·맞춤 코칭까지 지원합니다.
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-label">최대 지원금</div>
+        <div class="stat-value">1<span class="unit">억원</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">신청 마감</div>
+        <div class="stat-value">5<span class="unit">/15</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">선발 예정</div>
+        <div class="stat-value">300<span class="unit">개사</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
