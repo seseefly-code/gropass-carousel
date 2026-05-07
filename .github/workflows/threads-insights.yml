@@ -83,10 +83,12 @@ jobs:
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "Threads Insights Bot"
-          git add data/insights/ data/reports/
+          mkdir -p data/insights data/reports
+          git add data/insights/ data/reports/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "변경사항 없음"
           else
             git commit -m "insights: ${{ steps.mode.outputs.mode }} ($(TZ=Asia/Seoul date +%Y-%m-%d_%H:%M))"
+            git pull --rebase origin main || true
             git push origin main
           fi
