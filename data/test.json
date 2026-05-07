@@ -1,0 +1,8 @@
+{
+  "carousel_id": "test",
+  "topic": "캐러셀 게시 검증용 (default 텍스트)",
+  "slides": [
+    { "template": "slide_01_cover", "content": {} },
+    { "template": "slide_05_cta", "content": {} }
+  ]
+}
