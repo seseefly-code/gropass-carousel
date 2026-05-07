@@ -4,7 +4,8 @@
   "topic_pool_indexes": {
     "솔직인사이트": 2,
     "공감페인": 1,
-    "케이스스터디": 1
+    "케이스스터디": 1,
+    "숫자팩트": 1
   },
   "used_announcements": [
     "PBLN_000000000121636"
@@ -59,6 +60,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYBCcYADYYl",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_마감알림_경북_경산시_2026년_무역사절단_파견_지원사업_참여기.md",
       "posted_at": "2026-05-06T23:48:50.832Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "올해 정부 정책자금 예산 30조 시대",
+      "char_count": 196,
+      "media_id": "18121140796636619",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYBuiOFlAI1",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_숫자팩트_올해_정부_정책자금_예산_30조_시대.md",
+      "posted_at": "2026-05-07T06:14:06.171Z"
     }
   ]
 }
