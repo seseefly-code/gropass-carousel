@@ -79,6 +79,13 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node analyze_performance.js --days=14 --slack
 
+      - name: Token expiry check (Threads + IG)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        # exit 2면 만료 임박 알림 발송됨 (워크플로우는 success로 유지)
+        run: node check_token_expiry.js || true
+
       - name: Commit + push results
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
