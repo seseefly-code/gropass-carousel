@@ -10,7 +10,8 @@
   },
   "used_announcements": [
     "PBLN_000000000121636",
-    "PBLN_000000000121720"
+    "PBLN_000000000121720",
+    "PBLN_000000000121723"
   ],
   "history": [
     {
@@ -112,6 +113,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYDg7ccgTlZ",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_마감알림_이번_주_마감_임박_자금_체크_권유.md",
       "posted_at": "2026-05-07T22:53:43.551Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[경북] 2026년 4차 K-EXPO Madrid 2026 참가기업 모집 추가 공고(유럽 한국 우수 상품 박람회 참가 지원사업) D-5 마감 임박 (경상북도)",
+      "char_count": 192,
+      "media_id": "17950300338159263",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYDnlXWEWpx",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_마감알림_경북_2026년_4차_K-EXPO_Madrid_2026.md",
+      "posted_at": "2026-05-07T23:51:51.191Z"
     }
   ]
 }
