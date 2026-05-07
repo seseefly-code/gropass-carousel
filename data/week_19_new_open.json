@@ -1,0 +1,90 @@
+{
+  "carousel_id": "week_19_new_open",
+  "_topic": "이번 주 신청 시작한 정책자금 모음 5선",
+  "_generated_at": "2026-05-07T23:27:51.160Z",
+  "caption": "이번 주 새로 열린 정책자금만 5개 추렸어요 📌\n\n중동진출 테크 중기 지원이 5/15 마감이고,\n미주 K-뷰티·푸드 현지유통망 사업은 5/18까지예요.\n부산 금정구 제조기업이라면 디지털 전환 고도화 사업도 5/19 마감이라 챙겨두세요.\n행안부 재난안전 사업화 컨설팅은 5/27까지라 그나마 여유 있는 편이네요.\n\n본인 사업이 어디 해당되는지 헷갈리면\n그로패스에서 사업자번호 한 줄 넣으면 1분 만에 매칭돼요. → gropass.co.kr\n\n#정책자금 #중소기업지원 #소상공인지원 #창업지원금 #수출지원 #제조업지원 #그로패스 #5월정책자금 #마감임박 #정부지원사업 #스마트공장 #기후테크",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "이번 주 새로 열린 공고",
+        ".headline": "이번 주<br><em>신청 시작한</em><br>정책자금 5",
+        ".sub": "5/4~5/6 사이에 막 열린 공고만<br>골라서 D-day 빠른 순으로 정리했어요"
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 07",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "중동진출 유망 테크산업 영위 중기 지원",
+        ".meta": "<span class=\"tag\">중기부</span><span class=\"tag\">테크 중소기업</span><span class=\"tag\">중동 진출</span>",
+        ".body": "5월 4일에 열려서 <strong>5월 15일이면 마감</strong>이에요.<br>중동 시장 노리는 테크 중소기업 대상이고,<br>중기부·중진공이 직접 굴리는 사업이라 <strong>지원 폭이 넓은 편</strong>입니다.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 규모",
+        ".stats .stat:nth-child(1) .stat-value": "공고<span class=\"unit\">확인</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/15</span>",
+        ".stats .stat:nth-child(3) .stat-label": "D-day",
+        ".stats .stat:nth-child(3) .stat-value": "D-<span class=\"unit\">8</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>06</strong> / 07",
+        ".eyebrow": "THIS WEEK",
+        ".title": "이번 주 새로 열린<br><em>정책자금 5선</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "중동진출 유망 테크산업 영위 중기 지원",
+        ".item:nth-child(1) .item-desc": "중동 진출 노리는 테크 중소기업 대상",
+        ".item:nth-child(1) .item-amount": "중기부·중진공",
+        ".item:nth-child(1) .item-deadline": "D-8 · 5/15 마감",
+        ".item:nth-child(2) .item-name": "미주 K-뷰티·푸드 현지유통망 진출 특화프로그램",
+        ".item:nth-child(2) .item-desc": "미주 K-뷰티·푸드 현지 유통망 입점",
+        ".item:nth-child(2) .item-amount": "중기부·중진공",
+        ".item:nth-child(2) .item-deadline": "D-11 · 5/18 마감",
+        ".item:nth-child(3) .item-name": "부산 금정구 제조기업 디지털 전환 기술고도화",
+        ".item:nth-child(3) .item-desc": "부산 금정구 제조기업 디지털 전환",
+        ".item:nth-child(3) .item-amount": "부산TP",
+        ".item:nth-child(3) .item-deadline": "D-12 · 5/19 마감",
+        ".item:nth-child(4) .item-name": "기상·기후테크 창업 아이디어 공모전",
+        ".item:nth-child(4) .item-desc": "기상·기후테크 분야 예비창업자 대상",
+        ".item:nth-child(4) .item-amount": "공모전",
+        ".item:nth-child(4) .item-deadline": "D-15 · 5/22 마감",
+        ".item:nth-child(5) .item-name": "재난안전기업 사업화 역량 강화 컨설팅",
+        ".item:nth-child(5) .item-desc": "재난안전 분야 기업 사업화 컨설팅",
+        ".item:nth-child(5) .item-amount": "행안부",
+        ".item:nth-child(5) .item-deadline": "D-20 · 5/27 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>05</strong> / 07",
+        ".quote": "공고가 열린 <em>첫 주</em>에 움직이는 사장님이<br><span class=\"underline\">결국 합격선</span>에 듭니다.",
+        ".att-text": "정책자금 컨설팅 15년차 코멘트",
+        ".footer-quote": "마감 임박해서 들이대면 서류가 부실해져요.<br>공고 뜨자마자 챙기는 사람이 이깁니다.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>07</strong> / 07",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "지금 열린 공고 중 내 사업이 뭘 받을 수 있는지<br>그로패스에서 바로 확인해보세요",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
