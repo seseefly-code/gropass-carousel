@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 2,
     "공감페인": 1,
-    "케이스스터디": 1,
+    "케이스스터디": 2,
     "숫자팩트": 1
   },
   "used_announcements": [
@@ -81,6 +81,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYB-IculE8I",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_자금해설_2026년_온라인_플랫폼알리바바닷컴ㆍ바이코리아_활용_수.md",
       "posted_at": "2026-05-07T08:30:23.062Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
+      "char_count": 227,
+      "media_id": "18050506334744262",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYCUUK3FDnL",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
+      "posted_at": "2026-05-07T11:44:13.502Z"
     }
   ]
 }
