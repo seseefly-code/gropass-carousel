@@ -38,6 +38,35 @@ function parseArgs(argv) {
   return out;
 }
 
+async function loadWeights() {
+  const f = path.join(__dirname, 'data', 'reports', 'weights.json');
+  try {
+    const raw = await fs.readFile(f, 'utf-8');
+    const data = JSON.parse(raw);
+    return data.weights || null;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
+ * 가중치 기반 type 선택. weights 없으면 null 반환 (호출자가 fallback).
+ * @param {string[]} types - 후보
+ * @param {Record<string,number>} weights - type → 0.3~1.0 가중치
+ */
+function weightedPick(types, weights) {
+  if (!weights) return null;
+  const list = types.map((t) => ({ t, w: weights[t] ?? 0.5 }));
+  const total = list.reduce((s, x) => s + x.w, 0);
+  if (total <= 0) return null;
+  let r = Math.random() * total;
+  for (const x of list) {
+    if (r < x.w) return x.t;
+    r -= x.w;
+  }
+  return list[list.length - 1].t;
+}
+
 async function loadState() {
   try {
     return JSON.parse(await fs.readFile(STATE_FILE, 'utf-8'));
@@ -72,7 +101,7 @@ function nextFromPool(pool, type, state) {
 /**
  * 슬롯 → {type, topic} 결정 (state 변이됨)
  */
-async function pickPost(slot, state, pool) {
+async function pickPost(slot, state, pool, weights) {
   const data = await loadLatest();
   const sorted = data ? sortByDeadline(data.announcements) : [];
 
@@ -123,13 +152,15 @@ async function pickPost(slot, state, pool) {
   }
 
   if (slot === 'evening') {
-    const type = EVENING_TYPES[(state.evening_index || 0) % EVENING_TYPES.length];
+    const picked = weightedPick(EVENING_TYPES, weights);
+    const type = picked || EVENING_TYPES[(state.evening_index || 0) % EVENING_TYPES.length];
     state.evening_index = ((state.evening_index || 0) + 1) % EVENING_TYPES.length;
     return { type, topic: nextFromPool(pool, type, state) };
   }
 
   if (slot === 'night') {
-    const type = NIGHT_TYPES[(state.night_index || 0) % NIGHT_TYPES.length];
+    const picked = weightedPick(NIGHT_TYPES, weights);
+    const type = picked || NIGHT_TYPES[(state.night_index || 0) % NIGHT_TYPES.length];
     state.night_index = ((state.night_index || 0) + 1) % NIGHT_TYPES.length;
     return { type, topic: nextFromPool(pool, type, state) };
   }
@@ -153,7 +184,11 @@ async function main() {
 
   const state = await loadState();
   const pool = JSON.parse(await fs.readFile(POOL_FILE, 'utf-8'));
-  const { type, topic } = await pickPost(slot, state, pool);
+  const weights = await loadWeights();
+  if (weights) {
+    console.log(`가중치 적용: ${Object.entries(weights).map(([k, v]) => `${k}=${v}`).join(', ')}`);
+  }
+  const { type, topic } = await pickPost(slot, state, pool, weights);
 
   console.log(`결정 : type=${type}`);
   console.log(`       topic="${topic}"`);

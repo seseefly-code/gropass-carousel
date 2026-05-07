@@ -1,0 +1,92 @@
+name: Threads Insights — Collect & Analyze
+
+on:
+  schedule:
+    # 매일 23:00 KST (= UTC 14:00) — 수집기
+    - cron: '0 14 * * *'
+    # 매주 일요일 21:00 KST (= UTC 12:00 일) — 분석기
+    - cron: '0 12 * * 0'
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        description: '실행 모드'
+        options: [collect, analyze, both]
+        default: both
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads-insights
+  cancel-in-progress: false
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore .threads-token.json from base64 secret
+        env:
+          TOKEN_B64: ${{ secrets.THREADS_TOKEN_B64 }}
+        run: |
+          if [ -z "$TOKEN_B64" ]; then
+            echo "::error::THREADS_TOKEN_B64 secret missing"
+            exit 1
+          fi
+          printf '%s' "$TOKEN_B64" | base64 -d > .threads-token.json
+          node -e "JSON.parse(require('fs').readFileSync('.threads-token.json','utf-8'))" || {
+            echo "::error::token file invalid JSON"
+            exit 1
+          }
+
+      - name: Determine mode
+        id: mode
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then
+            # cron — 시간으로 결정
+            HOUR_UTC=$(date -u +%H)
+            DOW_UTC=$(date -u +%u)
+            if [ "$HOUR_UTC" = "12" ] && [ "$DOW_UTC" = "7" ]; then
+              MODE="analyze"
+            else
+              MODE="collect"
+            fi
+          fi
+          echo "mode=$MODE"
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+
+      - name: Collect Threads insights
+        if: steps.mode.outputs.mode == 'collect' || steps.mode.outputs.mode == 'both'
+        run: node collect_insights.js --days=30
+
+      - name: Analyze performance
+        if: steps.mode.outputs.mode == 'analyze' || steps.mode.outputs.mode == 'both'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node analyze_performance.js --days=14 --slack
+
+      - name: Commit + push results
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Threads Insights Bot"
+          git add data/insights/ data/reports/
+          if git diff --staged --quiet; then
+            echo "변경사항 없음"
+          else
+            git commit -m "insights: ${{ steps.mode.outputs.mode }} ($(TZ=Asia/Seoul date +%Y-%m-%d_%H:%M))"
+            git push origin main
+          fi
