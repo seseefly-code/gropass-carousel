@@ -2,17 +2,22 @@ name: Threads Auto-Post
 
 on:
   schedule:
+    - cron: '0 22 * * *'    # 07:00 KST → early_morning
     - cron: '0 23 * * *'    # 08:00 KST → morning
+    - cron: '0 1 * * *'     # 10:00 KST → late_morning
     - cron: '0 3 * * *'     # 12:00 KST → noon
+    - cron: '0 4 * * *'     # 13:00 KST → lunch
     - cron: '0 6 * * *'     # 15:00 KST → afternoon
+    - cron: '0 8 * * *'     # 17:00 KST → late_afternoon
     - cron: '0 10 * * *'    # 19:00 KST → evening
+    - cron: '0 12 * * *'    # 21:00 KST → late_evening
     - cron: '0 13 * * *'    # 22:00 KST → night
   workflow_dispatch:
     inputs:
       slot:
         type: choice
         description: '게시 슬롯'
-        options: [morning, noon, afternoon, evening, night]
+        options: [early_morning, morning, late_morning, noon, lunch, afternoon, late_afternoon, evening, late_evening, night]
         default: morning
       dry_run:
         type: boolean
@@ -60,10 +65,15 @@ jobs:
             SLOT="${{ inputs.slot }}"
           else
             case "${{ github.event.schedule }}" in
+              "0 22 * * *") SLOT=early_morning ;;
               "0 23 * * *") SLOT=morning ;;
+              "0 1 * * *")  SLOT=late_morning ;;
               "0 3 * * *")  SLOT=noon ;;
+              "0 4 * * *")  SLOT=lunch ;;
               "0 6 * * *")  SLOT=afternoon ;;
+              "0 8 * * *")  SLOT=late_afternoon ;;
               "0 10 * * *") SLOT=evening ;;
+              "0 12 * * *") SLOT=late_evening ;;
               "0 13 * * *") SLOT=night ;;
               *) echo "::error::Unknown cron schedule"; exit 1 ;;
             esac

@@ -27,7 +27,18 @@ const POOL_FILE = path.join(__dirname, 'topic_pool.json');
 
 const EVENING_TYPES = ['솔직인사이트', '케이스스터디'];
 const NIGHT_TYPES = ['공감페인', '오해풀기', '트렌드'];
-const SLOTS = ['morning', 'noon', 'afternoon', 'evening', 'night'];
+const SLOTS = [
+  'early_morning', // 07:00 — 긴급 마감알림 (D-1~3)
+  'morning',       // 08:00 — 마감알림 (D-4~14)
+  'late_morning',  // 10:00 — 솔직인사이트
+  'noon',          // 12:00 — 숫자팩트
+  'lunch',         // 13:00 — 공감페인
+  'afternoon',     // 15:00 — 자금해설 (announcements)
+  'late_afternoon',// 17:00 — 트렌드
+  'evening',       // 19:00 — 솔직/케스 (가중치)
+  'late_evening',  // 21:00 — 케이스스터디
+  'night',         // 22:00 — 공감/오해/트렌드 (가중치)
+];
 
 function parseArgs(argv) {
   const out = { slot: null, dryRun: false };
@@ -105,6 +116,27 @@ async function pickPost(slot, state, pool, weights) {
   const data = await loadLatest();
   const sorted = data ? sortByDeadline(data.announcements) : [];
 
+  // ─── 07:00 early_morning — 긴급 마감 (D-1~3 우선) ───
+  if (slot === 'early_morning') {
+    const urgent = sorted.filter(
+      (a) =>
+        a.dDay !== null &&
+        a.dDay >= 0 &&
+        a.dDay <= 3 &&
+        !state.used_announcements.includes(a.pblancId)
+    );
+    if (urgent.length > 0) {
+      const pick = urgent[0];
+      state.used_announcements.push(pick.pblancId);
+      const ddayLabel = pick.dDay === 0 ? '오늘 마감' : `D-${pick.dDay} 마감 임박`;
+      return {
+        type: '마감알림',
+        topic: `${pick.title} ${ddayLabel} (${pick.ministry || pick.agency || ''})`,
+      };
+    }
+    return { type: '마감알림', topic: nextFromPool(pool, '마감알림', state) };
+  }
+
   if (slot === 'morning') {
     // 마감알림 — D-1~D-7 안 쓴 공고 픽
     const upcoming = sorted.filter(a =>
@@ -136,8 +168,18 @@ async function pickPost(slot, state, pool, weights) {
     return { type: '마감알림', topic: nextFromPool(pool, '마감알림', state) };
   }
 
+  // ─── 10:00 late_morning — 솔직인사이트 ───
+  if (slot === 'late_morning') {
+    return { type: '솔직인사이트', topic: nextFromPool(pool, '솔직인사이트', state) };
+  }
+
   if (slot === 'noon') {
     return { type: '숫자팩트', topic: nextFromPool(pool, '숫자팩트', state) };
+  }
+
+  // ─── 13:00 lunch — 공감페인 ───
+  if (slot === 'lunch') {
+    return { type: '공감페인', topic: nextFromPool(pool, '공감페인', state) };
   }
 
   if (slot === 'afternoon') {
@@ -151,11 +193,21 @@ async function pickPost(slot, state, pool, weights) {
     return { type: '자금해설', topic: nextFromPool(pool, '자금해설', state) };
   }
 
+  // ─── 17:00 late_afternoon — 트렌드 ───
+  if (slot === 'late_afternoon') {
+    return { type: '트렌드', topic: nextFromPool(pool, '트렌드', state) };
+  }
+
   if (slot === 'evening') {
     const picked = weightedPick(EVENING_TYPES, weights);
     const type = picked || EVENING_TYPES[(state.evening_index || 0) % EVENING_TYPES.length];
     state.evening_index = ((state.evening_index || 0) + 1) % EVENING_TYPES.length;
     return { type, topic: nextFromPool(pool, type, state) };
+  }
+
+  // ─── 21:00 late_evening — 케이스스터디 ───
+  if (slot === 'late_evening') {
+    return { type: '케이스스터디', topic: nextFromPool(pool, '케이스스터디', state) };
   }
 
   if (slot === 'night') {
