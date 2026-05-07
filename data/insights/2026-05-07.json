@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-05-07T13:13:25.512Z",
+  "collected_at": "2026-05-07T16:05:51.474Z",
   "user_id": "26071251839222721",
   "days": 30,
-  "count": 14,
+  "count": 15,
   "threads": [
+    {
+      "id": "18118298728676931",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYCuFsNlIII",
+      "timestamp": "2026-05-07T15:29:24+0000",
+      "text": "오늘 하루 결산.\n오전 9시부터 기업마당 켜놓고 우리 회사에 맞는 자금 찾는다고 헤맸는데\n정신 차리니 오후 4시야.\n\n분야 누르고, 지역 누르고, 마감일 누르고\n공고문 PDF 열어서 자격조건 스크롤하다 보면 한 건에 20분씩 그냥 녹아.\n\n그렇게 30개 봤는데 결국 우리한테 맞는 건 2개 정도?\n근데 그 2개도 자격 애매해서 담당자한테 전화해봐야 됨.\n\n사장이 자금 찾느라 본업을 못 하는 거\n이거 진짜 나만 그래?",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 8,
+        "likes": 1,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "공감페인",
+        "topic": "정책자금 검색하느라 본업 못 한 하루",
+        "char_count": 219
+      }
+    },
     {
       "id": "18050506334744262",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYCUUK3FDnL",
@@ -12,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 209,
+        "views": 370,
         "likes": 5,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 180,
+        "views": 188,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -54,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 204,
+        "views": 210,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 311,
+        "views": 316,
         "likes": 7,
         "replies": 0,
         "reposts": 0,
@@ -96,7 +117,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 335,
+        "views": 338,
         "likes": 5,
         "replies": 0,
         "reposts": 0,
@@ -117,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 229,
+        "views": 233,
         "likes": 5,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 188,
+        "views": 191,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +180,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 500,
+        "views": 503,
         "likes": 0,
         "replies": 2,
         "reposts": 0,
@@ -180,7 +201,7 @@
       "media_type": "CAROUSEL_ALBUM",
       "is_quote_post": false,
       "insights": {
-        "views": 246,
+        "views": 249,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -201,7 +222,7 @@
       "media_type": "IMAGE",
       "is_quote_post": false,
       "insights": {
-        "views": 214,
+        "views": 216,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -237,7 +258,7 @@
       "media_type": "IMAGE",
       "is_quote_post": false,
       "insights": {
-        "views": 242,
+        "views": 244,
         "likes": 5,
         "replies": 13,
         "reposts": 0,
@@ -258,7 +279,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 2108,
+        "views": 2110,
         "likes": 2,
         "replies": 0,
         "reposts": 0,
@@ -279,7 +300,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 674,
+        "views": 677,
         "likes": 1,
         "replies": 6,
         "reposts": 0,
