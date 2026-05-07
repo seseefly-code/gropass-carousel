@@ -1,0 +1,114 @@
+name: Instagram Carousel Daily
+
+on:
+  schedule:
+    # 매일 07:00 KST = UTC 22:00 (전날)
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: '주제 (생략 시 요일별 자동)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-cron
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies (Puppeteer + deps)
+        run: npm install
+
+      - name: Determine topic by weekday (KST)
+        id: topic
+        run: |
+          MANUAL_TOPIC="${{ github.event.inputs.topic }}"
+          if [ -n "$MANUAL_TOPIC" ]; then
+            TOPIC="$MANUAL_TOPIC"
+            echo "수동 주제: $TOPIC"
+          else
+            DOW=$(TZ=Asia/Seoul date +%u)  # 1=월 ~ 7=일
+            case "$DOW" in
+              1) TOPIC="이번 주 마감 임박 정책자금 5선" ;;
+              2) TOPIC="제조업 사장님이 챙겨야 할 정책자금 5선" ;;
+              3) TOPIC="창업 1~3년차 대표가 받을 수 있는 정책자금 5선" ;;
+              4) TOPIC="정책자금 신청 시 자주 놓치는 5가지" ;;
+              5) TOPIC="이번 주 신청 시작한 정책자금 모음 5선" ;;
+              6) TOPIC="수출·해외진출 지원 정책자금 5선" ;;
+              7) TOPIC="다음 주 마감 미리 알람 정책자금 5건" ;;
+            esac
+            echo "요일별 자동 주제 (DOW=$DOW): $TOPIC"
+          fi
+          echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+
+      - name: Crawl latest announcements
+        run: node crawl.js
+        continue-on-error: true
+
+      - name: Generate carousel content (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate.js "${{ steps.topic.outputs.topic }}"
+
+      - name: Detect carousel_id from latest data file
+        id: detect
+        run: |
+          LATEST=$(ls -t data/*.json 2>/dev/null | grep -v 'announcements' | head -1)
+          if [ -z "$LATEST" ]; then
+            echo "❌ data/*.json 파일을 찾을 수 없음"
+            exit 1
+          fi
+          CAROUSEL_ID=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$LATEST', 'utf-8')).carousel_id)")
+          echo "data file: $LATEST"
+          echo "carousel_id: $CAROUSEL_ID"
+          echo "data_file=$LATEST" >> $GITHUB_OUTPUT
+          echo "carousel_id=$CAROUSEL_ID" >> $GITHUB_OUTPUT
+
+      - name: Render PNG slides (Puppeteer)
+        run: node render.js "${{ steps.detect.outputs.data_file }}"
+
+      - name: Commit and push (data + PNG)
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Instagram Cron Bot"
+          git add data/ out/
+          if git diff --staged --quiet; then
+            echo "변경사항 없음, skip commit"
+          else
+            git commit -m "auto-post: instagram carousel ${{ steps.detect.outputs.carousel_id }} ($(TZ=Asia/Seoul date +%Y-%m-%d_%H:%M))"
+            git push origin main
+          fi
+
+      - name: Post to Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: node post_carousel.js --carousel-id="${{ steps.detect.outputs.carousel_id }}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "주제      : ${{ steps.topic.outputs.topic }}"
+          echo "carousel  : ${{ steps.detect.outputs.carousel_id }}"
+          echo "결과      : ${{ job.status }}"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
