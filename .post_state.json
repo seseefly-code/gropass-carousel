@@ -5,7 +5,8 @@
     "솔직인사이트": 2,
     "공감페인": 2,
     "케이스스터디": 2,
-    "숫자팩트": 1
+    "숫자팩트": 1,
+    "마감알림": 1
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -101,6 +102,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYCuFsNlIII",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_공감페인_정책자금_검색하느라_본업_못_한_하루.md",
       "posted_at": "2026-05-07T15:29:26.127Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "이번 주 마감 임박 자금 체크 권유",
+      "char_count": 210,
+      "media_id": "18391761649081922",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYDg7ccgTlZ",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_마감알림_이번_주_마감_임박_자금_체크_권유.md",
+      "posted_at": "2026-05-07T22:53:43.551Z"
     }
   ]
 }
