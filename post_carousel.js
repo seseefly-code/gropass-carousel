@@ -40,13 +40,31 @@ const REPO_NAME = process.env.REPO_NAME || 'gropass-carousel';
 const GRAPH = 'https://graph.facebook.com/v19.0';
 
 function parseArgs() {
-  const args = { carouselId: null, caption: '', commitSha: 'auto' };
+  const args = { carouselId: null, caption: null, commitSha: 'auto' };
   for (const a of process.argv.slice(2)) {
     if (a.startsWith('--carousel-id=')) args.carouselId = a.slice('--carousel-id='.length);
     else if (a.startsWith('--caption=')) args.caption = a.slice('--caption='.length);
     else if (a.startsWith('--commit-sha=')) args.commitSha = a.slice('--commit-sha='.length);
   }
   return args;
+}
+
+/**
+ * --caption 인자가 없으면 data/<carousel-id>.json의 caption 필드를 자동 사용
+ */
+async function resolveCaption(carouselId, explicitCaption) {
+  if (explicitCaption !== null) return explicitCaption;
+  const dataPath = path.join(__dirname, 'data', `${carouselId}.json`);
+  try {
+    const raw = await fs.readFile(dataPath, 'utf-8');
+    const data = JSON.parse(raw);
+    if (typeof data.caption === 'string' && data.caption.trim().length > 0) {
+      return data.caption;
+    }
+  } catch (e) {
+    // 데이터 파일 없거나 caption 필드 없으면 빈 캡션
+  }
+  return '';
 }
 
 function getCurrentCommitSha() {
@@ -115,11 +133,15 @@ async function main() {
     process.exit(1);
   }
 
-  const { carouselId, caption, commitSha } = parseArgs();
-  if (!carouselId) {
-    console.error('사용법: node post_carousel.js --carousel-id=<id> --caption="..."');
+  const args = parseArgs();
+  if (!args.carouselId) {
+    console.error('사용법: node post_carousel.js --carousel-id=<id> [--caption="..."]');
+    console.error('       --caption 생략 시 data/<id>.json의 caption 필드 자동 사용');
     process.exit(1);
   }
+  const carouselId = args.carouselId;
+  const caption = await resolveCaption(carouselId, args.caption);
+  const commitSha = args.commitSha;
 
   const sha = commitSha === 'auto' ? getCurrentCommitSha() : commitSha;
   console.log('');
@@ -129,6 +151,7 @@ async function main() {
   console.log(`  carousel_id : ${carouselId}`);
   console.log(`  commit SHA  : ${sha}`);
   console.log(`  IG_USER_ID  : ${IG_USER_ID}`);
+  console.log(`  caption 길이: ${caption.length}자${caption.length === 0 ? ' (빈 캡션)' : ''}`);
   console.log('');
 
   const slides = await listSlides(carouselId);

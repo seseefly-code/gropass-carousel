@@ -107,8 +107,12 @@ const CAROUSEL_SCHEMA = {
       required: ['badge', 'headline', 'sub'],
       additionalProperties: false,
     },
+    caption: {
+      type: 'string',
+      description: 'Instagram 게시 본문(caption). 사장님 운영자가 쓴 것처럼 자연스러운 한국어. 후킹 1줄 → 빈줄 → 본문 3~5줄 → 빈줄 → 그로패스 자연 언급 1~2줄 → 빈줄 → 해시태그 8~12개. 총 250~400자. AI 티 절대 금지. 첫 줄에 이모지 1개만.',
+    },
   },
-  required: ['carousel_id', 'topic', 'cover', 'items', 'summary', 'insight', 'cta'],
+  required: ['carousel_id', 'topic', 'cover', 'items', 'summary', 'insight', 'cta', 'caption'],
   additionalProperties: false,
 };
 
@@ -198,6 +202,7 @@ function semanticToRenderData(s) {
     carousel_id: s.carousel_id,
     _topic: s.topic,
     _generated_at: new Date().toISOString(),
+    caption: s.caption,
     slides,
   };
 }
