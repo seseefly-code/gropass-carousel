@@ -43,7 +43,7 @@ const CAROUSEL_SCHEMA = {
     },
     items: {
       type: 'array',
-      description: '정확히 5개의 정책자금. info 슬라이드는 1번만 다루고, list 슬라이드는 5개 모두 보여줌.',
+      description: '정확히 5개. 주제에 따라 의미 변주됨 — 정책자금 5선 / 사례 5가지 / Q&A 5문 / 노하우 5포인트 / 핵심 숫자 5가지 등. info 슬라이드는 1번을 깊이, list 슬라이드는 5개 모두 노출.',
       items: {
         type: 'object',
         properties: {
