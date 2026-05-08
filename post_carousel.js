@@ -50,10 +50,13 @@ function parseArgs() {
 }
 
 /**
- * --caption 인자가 없으면 data/<carousel-id>.json의 caption 필드를 자동 사용
+ * --caption 인자가 없거나 빈 문자열이면 data/<carousel-id>.json의 caption 필드를 자동 사용
  */
 async function resolveCaption(carouselId, explicitCaption) {
-  if (explicitCaption !== null) return explicitCaption;
+  // 명시적 caption이 비어있지 않은 문자열이면 그대로 사용
+  if (typeof explicitCaption === 'string' && explicitCaption.trim().length > 0) {
+    return explicitCaption;
+  }
   const dataPath = path.join(__dirname, 'data', `${carouselId}.json`);
   try {
     const raw = await fs.readFile(dataPath, 'utf-8');
