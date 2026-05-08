@@ -138,7 +138,7 @@ function semanticToRenderData(s) {
     template: 'slide_02_info',
     content: {
       '.crumb span': '정책자금 위클리',
-      '.pager': '<strong>02</strong> / 07',
+      '.pager': '<strong>02</strong> / 05',
       '.num': '01',
       '.num-label': 'FIRST PICK',
       '.title': top.name,
@@ -156,7 +156,7 @@ function semanticToRenderData(s) {
   // 슬라이드 3: list (5개 모두)
   const listContent = {
     '.crumb': '정책자금 위클리 · 한눈에 보기',
-    '.pager': '<strong>06</strong> / 07',
+    '.pager': '<strong>03</strong> / 05',
     '.eyebrow': s.summary.eyebrow,
     '.title': s.summary.title,
     '.footer-hint': '상세 조건은 마지막 장에서 확인 →',
@@ -175,7 +175,7 @@ function semanticToRenderData(s) {
     template: 'slide_04_quote',
     content: {
       '.crumb': s.insight.eyebrow,
-      '.pager': '<strong>05</strong> / 07',
+      '.pager': '<strong>04</strong> / 05',
       '.quote': s.insight.quote,
       '.att-text': s.insight.attribution,
       '.footer-quote': s.insight.footer,
@@ -188,7 +188,7 @@ function semanticToRenderData(s) {
     template: 'slide_05_cta',
     content: {
       '.crumb': '정책자금 위클리 · 마무리',
-      '.pager': '<strong>07</strong> / 07',
+      '.pager': '<strong>05</strong> / 05',
       '.badge': s.cta.badge,
       '.headline': s.cta.headline,
       '.sub': s.cta.sub,
