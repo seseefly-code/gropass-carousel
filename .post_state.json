@@ -6,7 +6,7 @@
     "공감페인": 3,
     "케이스스터디": 4,
     "숫자팩트": 3,
-    "마감알림": 1,
+    "마감알림": 2,
     "오해풀기": 1
   },
   "used_announcements": [
@@ -205,6 +205,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYFO0y8lZJ-",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_오해풀기_벤처인증_받으면_진짜로_좋은_점.md",
       "posted_at": "2026-05-08T14:53:59.814Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "월말 마감 자금 정리",
+      "char_count": 253,
+      "media_id": "18412980625176170",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYGE2uZmJ8v",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_마감알림_월말_마감_자금_정리.md",
+      "posted_at": "2026-05-08T22:46:06.735Z"
     }
   ]
 }
