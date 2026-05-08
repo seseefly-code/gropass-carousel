@@ -1,0 +1,131 @@
+name: Threads Slot Monitor
+
+on:
+  schedule:
+    # 매일 22:45 KST = 13:45 UTC (마지막 night 슬롯 45분 후, 모든 슬롯 점검)
+    - cron: '45 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Audit today's slots
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          node <<'EOF'
+          // 오늘 KST 자정~22:00 사이 threads-cron 실행 검증
+          const REPO = 'seseefly-code/gropass-carousel';
+          const SLOTS = [
+            { name: 'early_morning',  utc_h: 22, utc_min: 0, prev_day: true },  // 07:00 KST = 22:00 UTC (전날)
+            { name: 'morning',        utc_h: 23, utc_min: 0, prev_day: true },  // 08:00 KST = 23:00 UTC (전날)
+            { name: 'late_morning',   utc_h: 1,  utc_min: 0, prev_day: false }, // 10:00 KST
+            { name: 'noon',           utc_h: 3,  utc_min: 0, prev_day: false }, // 12:00 KST
+            { name: 'lunch',          utc_h: 4,  utc_min: 0, prev_day: false }, // 13:00 KST
+            { name: 'afternoon',      utc_h: 6,  utc_min: 0, prev_day: false }, // 15:00 KST
+            { name: 'late_afternoon', utc_h: 8,  utc_min: 0, prev_day: false }, // 17:00 KST
+            { name: 'evening',        utc_h: 10, utc_min: 0, prev_day: false }, // 19:00 KST
+            { name: 'late_evening',   utc_h: 12, utc_min: 0, prev_day: false }, // 21:00 KST
+            { name: 'night',          utc_h: 13, utc_min: 0, prev_day: false }, // 22:00 KST
+          ];
+
+          // KST 오늘 자정 (UTC = 어제 15:00)
+          const now = new Date();
+          const kstNow = new Date(now.getTime() + 9 * 3600 * 1000);
+          const kstToday = new Date(Date.UTC(kstNow.getUTCFullYear(), kstNow.getUTCMonth(), kstNow.getUTCDate(), 0, 0, 0));
+          const utcWindowStart = new Date(kstToday.getTime() - 9 * 3600 * 1000); // KST 오늘 00:00 = UTC 어제 15:00
+          const utcWindowEnd = now;
+
+          // GitHub API로 threads-cron schedule 실행 조회
+          const url = `https://api.github.com/repos/${REPO}/actions/workflows/threads-cron.yml/runs?event=schedule&per_page=30&created=>=${utcWindowStart.toISOString()}`;
+          const res = await fetch(url, {
+            headers: { 'Authorization': `Bearer ${process.env.GH_TOKEN}`, 'Accept': 'application/vnd.github+json' },
+          });
+          const data = await res.json();
+          const runs = (data.workflow_runs || []).map(r => ({
+            created_at: r.created_at,
+            conclusion: r.conclusion,
+          }));
+
+          console.log(`[Monitor] window: ${utcWindowStart.toISOString()} ~ ${utcWindowEnd.toISOString()}`);
+          console.log(`[Monitor] runs found: ${runs.length}`);
+
+          // 각 expected slot 시간에 ±15분 안에 schedule run이 있었는지
+          const todayKstStr = kstNow.toISOString().slice(0, 10);
+          const missed = [];
+          const succeeded = [];
+          const failed = [];
+
+          for (const slot of SLOTS) {
+            const expectedKstDay = new Date(kstToday);
+            const expectedUtc = new Date(expectedKstDay);
+            // KST 시간으로 expected (slot.utc_h는 UTC지만 KST 매핑 위해 변환)
+            // 더 단순한 방식: KST hour 매핑
+            const kstHourMap = {
+              early_morning: 7, morning: 8, late_morning: 10,
+              noon: 12, lunch: 13, afternoon: 15,
+              late_afternoon: 17, evening: 19, late_evening: 21, night: 22,
+            };
+            const expectedKstHour = kstHourMap[slot.name];
+            const expectedKstMs = new Date(Date.UTC(kstNow.getUTCFullYear(), kstNow.getUTCMonth(), kstNow.getUTCDate(), expectedKstHour - 9, 0, 0)).getTime();
+
+            // 미래 슬롯은 검사 X
+            if (expectedKstMs > now.getTime()) continue;
+
+            // ±60분 윈도우 안에 schedule run 있는지
+            const found = runs.find(r => {
+              const t = new Date(r.created_at).getTime();
+              return Math.abs(t - expectedKstMs) <= 60 * 60 * 1000;
+            });
+
+            if (!found) {
+              missed.push(slot.name);
+            } else if (found.conclusion === 'success') {
+              succeeded.push(slot.name);
+            } else {
+              failed.push({ slot: slot.name, conclusion: found.conclusion });
+            }
+          }
+
+          console.log('');
+          console.log('━'.repeat(50));
+          console.log(`Threads 슬롯 점검 (${todayKstStr})`);
+          console.log('━'.repeat(50));
+          console.log(`✅ 성공: ${succeeded.length}건 — ${succeeded.join(', ') || '(없음)'}`);
+          console.log(`⚠️  누락: ${missed.length}건 — ${missed.join(', ') || '(없음)'}`);
+          console.log(`❌ 실패: ${failed.length}건 — ${failed.map(f => f.slot).join(', ') || '(없음)'}`);
+
+          // Slack 알림 (누락 또는 실패 있을 때만)
+          if ((missed.length > 0 || failed.length > 0) && process.env.SLACK_WEBHOOK_URL) {
+            const text = [
+              `:rotating_light: *Threads 슬롯 점검 (${todayKstStr})*`,
+              '',
+              `✅ 성공: ${succeeded.length}건`,
+              missed.length > 0 ? `⚠️ 누락: ${missed.length}건 — ${missed.join(', ')}` : '',
+              failed.length > 0 ? `❌ 실패: ${failed.length}건 — ${failed.map(f => f.slot + ' (' + f.conclusion + ')').join(', ')}` : '',
+              '',
+              `보충 명령:`,
+              `  gh workflow run threads-cron.yml --repo ${REPO} -f slot=<누락슬롯>`,
+            ].filter(Boolean).join('\n');
+
+            await fetch(process.env.SLACK_WEBHOOK_URL, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text }),
+            });
+            console.log('Slack 알림 발송 완료');
+          }
+          EOF
