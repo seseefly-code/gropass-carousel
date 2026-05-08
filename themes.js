@@ -116,3 +116,16 @@ export function inferCoverTemplate(id) {
   if (id.startsWith('faq_')) return 'slide_01_cover_faq';
   return 'slide_01_cover'; // default
 }
+
+/**
+ * carousel_id → list 슬라이드 템플릿명 (주제별 레이아웃)
+ */
+export function inferListTemplate(id) {
+  if (id.startsWith('tips_')) return 'slide_03_list_tips';
+  if (id.startsWith('industry_')) return 'slide_03_list_industry';
+  if (id.startsWith('case_')) return 'slide_03_list_case';
+  if (id.startsWith('week_new')) return 'slide_03_list_new';
+  if (id.startsWith('key_numbers')) return 'slide_03_list_numbers';
+  if (id.startsWith('faq_')) return 'slide_03_list_faq';
+  return 'slide_03_list'; // deadline 및 default
+}

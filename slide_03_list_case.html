@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>List — Case (말풍선)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+  .slide {
+    width: 1080px; height: 1080px;
+    background: linear-gradient(180deg, #EEF2FF 0%, #FFFFFF 100%);
+    padding: 84px 88px;
+    display: flex; flex-direction: column;
+  }
+  .header { display: flex; justify-content: space-between; align-items: center; }
+  .crumb { color: #64748B; font-size: 22px; font-weight: 500; }
+  .pager { color: #94A3B8; font-size: 22px; font-weight: 600; }
+  .pager strong { color: var(--primary); font-weight: 700; }
+
+  .title-block { margin-top: 24px; }
+  .eyebrow { color: var(--accent); font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 14px; }
+  .title { color: var(--primary); font-size: 52px; font-weight: 800; line-height: 1.25; letter-spacing: -0.03em; }
+  .title em { font-style: normal; color: var(--accent); }
+
+  .list { margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
+  .item {
+    display: flex; align-items: center; gap: 18px;
+    background: #FFFFFF; border-radius: 18px; padding: 20px 24px;
+    box-shadow: 0 6px 20px -10px rgba(99,102,241,0.18);
+    border: 1px solid rgba(99,102,241,0.12);
+  }
+  .item-num {
+    flex-shrink: 0;
+    color: var(--accent); font-size: 80px; font-weight: 900;
+    font-family: Georgia, serif; line-height: 0.7; align-self: flex-start;
+    margin-top: 4px;
+  }
+  .item-body { flex: 1; min-width: 0; }
+  .item-name { color: var(--primary); font-size: 24px; font-weight: 700; letter-spacing: -0.015em; line-height: 1.35; }
+  .item-desc { color: #64748B; font-size: 17px; font-weight: 500; line-height: 1.4; margin-top: 4px; }
+  .item-meta { flex-shrink: 0; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 130px; }
+  .item-amount {
+    color: #FFFFFF; background: var(--accent);
+    padding: 6px 14px; border-radius: 8px;
+    font-size: 18px; font-weight: 800; letter-spacing: -0.01em;
+  }
+  .item-deadline { color: #94A3B8; font-size: 15px; font-weight: 600; text-align: right; }
+
+  .footer { margin-top: auto; padding-top: 20px; display: flex; justify-content: space-between; align-items: center; }
+  .footer-brand { display: flex; align-items: center; gap: 10px; }
+  .footer-logo { width: 130px; filter: brightness(0); }
+  .footer-domain { color: #94A3B8; font-size: 18px; font-weight: 600; }
+  .footer-hint { color: #64748B; font-size: 20px; font-weight: 500; }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="header">
+      <div class="crumb">매칭 케이스 · 한눈에</div>
+      <div class="pager"><strong>03</strong> / 05</div>
+    </div>
+
+    <div class="title-block">
+      <div class="eyebrow">REAL CASES</div>
+      <h1 class="title">우리 업종에도<br>있더라구요 <em>5케이스</em></h1>
+    </div>
+
+    <div class="list">
+      <div class="item"><div class="item-num">"</div><div class="item-body"><div class="item-name">매출 2천 음식점인데 받았어요</div><div class="item-desc">수원 · 1인 운영 카페</div></div><div class="item-meta"><div class="item-amount">700만</div><div class="item-deadline">디지털전환</div></div></div>
+      <div class="item"><div class="item-num">"</div><div class="item-body"><div class="item-name">수출 안 하는데 매칭됐어요</div><div class="item-desc">서울 · 뷰티 D2C 브랜드</div></div><div class="item-meta"><div class="item-amount">5천만</div><div class="item-deadline">미주 진출</div></div></div>
+      <div class="item"><div class="item-num">"</div><div class="item-body"><div class="item-name">채용 부담 줄였어요</div><div class="item-desc">부산 · 제조업 12명 규모</div></div><div class="item-meta"><div class="item-amount">3천만</div><div class="item-deadline">혁신바우처</div></div></div>
+      <div class="item"><div class="item-num">"</div><div class="item-body"><div class="item-name">예비창업도 됐어요</div><div class="item-desc">인천 · IT 1인 창업</div></div><div class="item-meta"><div class="item-amount">5천만</div><div class="item-deadline">초기창업</div></div></div>
+      <div class="item"><div class="item-num">"</div><div class="item-body"><div class="item-name">상표 등록 무료로 했어요</div><div class="item-desc">대전 · 카페 신규 오픈</div></div><div class="item-meta"><div class="item-amount">전액</div><div class="item-deadline">IP 나래</div></div></div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-brand"><img src="logo.png" alt="" class="footer-logo"><div class="footer-domain">gropass.co.kr</div></div>
+      <div class="footer-hint">상세는 마지막 장에서 →</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -9,7 +9,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { inferThemeFromCarouselId, inferCoverTemplate } from './themes.js';
+import { inferThemeFromCarouselId, inferCoverTemplate, inferListTemplate } from './themes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, 'data');
@@ -26,13 +26,20 @@ async function main() {
     const data = JSON.parse(await fs.readFile(fp, 'utf-8'));
     const theme = inferThemeFromCarouselId(data.carousel_id || '');
     const coverTpl = inferCoverTemplate(data.carousel_id || '');
+    const listTpl = inferListTemplate(data.carousel_id || '');
     data.theme = theme;
-    // cover 슬라이드 템플릿 자동 변경
-    if (Array.isArray(data.slides) && data.slides[0] && data.slides[0].template?.startsWith('slide_01_cover')) {
-      data.slides[0].template = coverTpl;
+    if (Array.isArray(data.slides)) {
+      // cover (1번)
+      if (data.slides[0]?.template?.startsWith('slide_01_cover')) {
+        data.slides[0].template = coverTpl;
+      }
+      // list (3번)
+      if (data.slides[2]?.template?.startsWith('slide_03_list')) {
+        data.slides[2].template = listTpl;
+      }
     }
     await fs.writeFile(fp, JSON.stringify(data, null, 2), 'utf-8');
-    console.log(`  ✓ ${f} ← cover=${coverTpl}, theme=${theme.primary}`);
+    console.log(`  ✓ ${f} ← cover=${coverTpl}, list=${listTpl}, theme=${theme.primary}`);
   }
   console.log('완료');
 }

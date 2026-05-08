@@ -11,7 +11,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getAnnouncementsContext } from './lib/announcements.js';
-import { inferThemeFromCarouselId, inferCoverTemplate } from './themes.js';
+import { inferThemeFromCarouselId, inferCoverTemplate, inferListTemplate } from './themes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, 'data');
@@ -154,7 +154,7 @@ function semanticToRenderData(s) {
     },
   });
 
-  // 슬라이드 3: list (5개 모두)
+  // 슬라이드 3: list (5개 모두) — 주제별 레이아웃 자동 선택
   const listContent = {
     '.crumb': '정책자금 위클리 · 한눈에 보기',
     '.pager': '<strong>03</strong> / 05',
@@ -169,7 +169,7 @@ function semanticToRenderData(s) {
     listContent[`.item:nth-child(${n}) .item-amount`] = item.list_amount;
     listContent[`.item:nth-child(${n}) .item-deadline`] = item.list_deadline;
   });
-  slides.push({ template: 'slide_03_list', content: listContent });
+  slides.push({ template: inferListTemplate(s.carousel_id), content: listContent });
 
   // 슬라이드 4: insight (다크)
   slides.push({

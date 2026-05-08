@@ -33,7 +33,7 @@
       }
     },
     {
-      "template": "slide_03_list",
+      "template": "slide_03_list_industry",
       "content": {
         ".crumb": "정책자금 위클리 · 한눈에 보기",
         ".pager": "<strong>03</strong> / 05",
