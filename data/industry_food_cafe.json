@@ -1,0 +1,98 @@
+{
+  "carousel_id": "industry_food_cafe",
+  "_topic": "음식점·카페 사장님 정책자금 5선",
+  "_generated_at": "2026-05-08T00:43:19.582Z",
+  "caption": "카페·식당 사장님, 5월 마감 정책자금 5개 정리했어요 📌\n\n이번 주 가장 급한 건 혁신바우처(채용지원) — 5/13까지라 며칠 안 남았고,\n관광진흥개발기금 융자도 5/15 마감이에요. 카페 업종 등록돼 있으면 해당될 수 있어요.\n서울 소재 소상공인이면 온라인 판로개척 지원도 5/25까지 열려 있고요.\n상호나 메뉴 이름 상표 아직 못 낸 분들은 IP 나래 프로그램도 챙겨보세요.\n\n어디에 해당되는지 헷갈리면 그로패스에서 사업자번호 하나 넣으면 바로 나와요.\ngropass.co.kr (프로필 링크)\n\n#정책자금 #소상공인지원 #카페창업 #음식점창업 #F&B창업지원 #청년창업 #온라인판로 #서울소상공인 #중소기업지원 #정부지원사업 #그로패스 #5월마감",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "업종별 정책자금",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "F&B 대표님 마감 임박",
+        ".headline": "카페·식당 사장님<br>이번 달 놓치면<br><em>1년 기다려요</em>",
+        ".sub": "음식점·카페에 해당되는 정책자금만<br>5개 골라 정리했어요."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "소상공인 온라인 판로개척 지원",
+        ".meta": "<span class=\"tag\">서울시</span><span class=\"tag\">소상공인</span><span class=\"tag\">온라인 판매</span>",
+        ".body": "온라인 쇼핑몰·SNS 채널로 매출 채널 늘리고 싶은 식당·카페 사장님 대상이에요.<br><strong>입점 컨설팅부터 광고비까지 실비 지원</strong>해줘서 디지털 전환 첫 발 떼기 딱 좋아요.<br>5/25 마감인데 서울 소재 소상공인만 해당.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 내용",
+        ".stats .stat:nth-child(1) .stat-value": "온라인<span class=\"unit\">판로 실비</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/25</span>",
+        ".stats .stat:nth-child(3) .stat-label": "주관기관",
+        ".stats .stat:nth-child(3) .stat-value": "서울시<span class=\"unit\">직접수행</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "카페·식당 사장님이<br>5월 안에 챙겨야 할<br><em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "소상공인 온라인 판로개척 지원",
+        ".item:nth-child(1) .item-desc": "서울 소재 소상공인 · 온라인 채널 확장",
+        ".item:nth-child(1) .item-amount": "온라인 판로 실비",
+        ".item:nth-child(1) .item-deadline": "D-17 · 5/25 마감",
+        ".item:nth-child(2) .item-name": "관광진흥개발기금 융자",
+        ".item:nth-child(2) .item-desc": "관광업종 등록 카페·식당 · 운전·시설자금",
+        ".item:nth-child(2) .item-amount": "저금리 융자",
+        ".item:nth-child(2) .item-deadline": "D-7 · 5/15 마감",
+        ".item:nth-child(3) .item-name": "청년 골목창업 경진대회",
+        ".item:nth-child(3) .item-desc": "서울 청년 · 골목상권 창업 준비 · F&B",
+        ".item:nth-child(3) .item-amount": "창업 사업화 지원",
+        ".item:nth-child(3) .item-deadline": "D-18 · 5/26 마감",
+        ".item:nth-child(4) .item-name": "혁신바우처(채용지원) 사업",
+        ".item:nth-child(4) .item-desc": "비수도권 중소기업 · 업종 무관 · 채용비 지원",
+        ".item:nth-child(4) .item-amount": "채용 바우처",
+        ".item:nth-child(4) .item-deadline": "D-5 · 5/13 마감",
+        ".item:nth-child(5) .item-name": "소상공인 IP 나래 프로그램",
+        ".item:nth-child(5) .item-desc": "인천·충북·전남 · 상표 브랜드 보호 · 업종 무관",
+        ".item:nth-child(5) .item-amount": "출원비+컨설팅",
+        ".item:nth-child(5) .item-deadline": "D-27 · 6/4 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "정책자금은 <em>업종보다 타이밍</em>이에요 — 음식점도 <span class=\"underline\">마감일 아는 순간 절반은 된 거예요.</span>",
+        ".att-text": "F&B 대표 정책자금 상담 현장 코멘트",
+        ".footer-quote": "실제로 카페 사장님들이 탈락하는 이유 1위는 자격 미달이 아니라 마감 초과예요.<br>공고 열어보는 것만으로도 경쟁자 절반은 이기는 거예요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "내 식당·카페에 맞는 정책자금<br>그로패스에서 바로 확인하세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ],
+  "theme": {
+    "primary": "#7C2D12",
+    "accent": "#EA580C",
+    "highlight": "#FED7AA",
+    "gradient-tint": "#EA580C22",
+    "dark-bg": "#431407",
+    "label": "업종별 · 카페·식당 5선"
+  }
+}

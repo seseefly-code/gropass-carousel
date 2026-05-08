@@ -86,5 +86,13 @@
         ".url": "gropass.co.kr"
       }
     }
-  ]
+  ],
+  "theme": {
+    "primary": "#0A1F44",
+    "accent": "#2563EB",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#1E40AF22",
+    "dark-bg": "#0F172A",
+    "label": "정책자금 위클리 · 마감"
+  }
 }

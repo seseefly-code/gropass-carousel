@@ -2,7 +2,21 @@
   "carousel_id": "test",
   "topic": "캐러셀 게시 검증용 (default 텍스트)",
   "slides": [
-    { "template": "slide_01_cover", "content": {} },
-    { "template": "slide_05_cta", "content": {} }
-  ]
+    {
+      "template": "slide_01_cover",
+      "content": {}
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {}
+    }
+  ],
+  "theme": {
+    "primary": "#0A1F44",
+    "accent": "#2563EB",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#1E40AF22",
+    "dark-bg": "#0F172A",
+    "label": "정책자금 위클리 · 마감"
+  }
 }

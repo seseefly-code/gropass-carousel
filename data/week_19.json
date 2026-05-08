@@ -37,32 +37,26 @@
         ".pager": "<strong>06</strong> / 07",
         ".eyebrow": "SUMMARY",
         ".title": "5월 안에 챙겨야 할<br><em>정책자금 5</em>",
-
         ".item:nth-child(1) .item-name": "청년창업사관학교 17기",
         ".item:nth-child(1) .item-desc": "중기부 · 만 39세 이하 · 창업 7년 미만",
         ".item:nth-child(1) .item-amount": "최대 1억",
         ".item:nth-child(1) .item-deadline": "D-9 · 5/15 마감",
-
         ".item:nth-child(2) .item-name": "초기창업패키지",
         ".item:nth-child(2) .item-desc": "창업진흥원 · 창업 3년 이내 · 전 업종",
         ".item:nth-child(2) .item-amount": "최대 1억",
         ".item:nth-child(2) .item-deadline": "D-12 · 5/18 마감",
-
         ".item:nth-child(3) .item-name": "R&amp;D 바우처 (혁신 분야)",
         ".item:nth-child(3) .item-desc": "중기부 · 기업 부설 연구소 보유",
         ".item:nth-child(3) .item-amount": "최대 5천만",
         ".item:nth-child(3) .item-deadline": "D-15 · 5/21 마감",
-
         ".item:nth-child(4) .item-name": "수출바우처 (글로벌 강소기업)",
         ".item:nth-child(4) .item-desc": "산업부 · 직수출 실적 보유",
         ".item:nth-child(4) .item-amount": "최대 1억",
         ".item:nth-child(4) .item-deadline": "D-19 · 5/25 마감",
-
         ".item:nth-child(5) .item-name": "소상공인 디지털 전환 지원",
         ".item:nth-child(5) .item-desc": "소진공 · 매출 10억 미만 · 오프라인",
         ".item:nth-child(5) .item-amount": "최대 700만",
         ".item:nth-child(5) .item-deadline": "D-23 · 5/29 마감",
-
         ".footer-hint": "상세 조건은 마지막 장에서 확인 →"
       }
     },
@@ -90,5 +84,13 @@
         ".url": "gropass.co.kr"
       }
     }
-  ]
+  ],
+  "theme": {
+    "primary": "#0A1F44",
+    "accent": "#2563EB",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#1E40AF22",
+    "dark-bg": "#0F172A",
+    "label": "정책자금 위클리 · 마감"
+  }
 }

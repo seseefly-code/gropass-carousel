@@ -1,0 +1,82 @@
+{
+  "carousel_id": "case_matched_5",
+  "_topic": "최근 매칭된 사장님 케이스 5가지",
+  "_generated_at": "2026-05-08T00:43:41.121Z",
+  "caption": "우리 업종엔 정책자금이 없다고 생각했던 사장님들 이야기예요 📌\n\n음식점 하시는 분은 온라인 판로 지원으로 쇼핑몰 구축비 받았고,\n수출 준비 중인 뷰티 업체는 미주 유통망 진출 프로그램 연결됐어요.\n제조업 사장님은 혁신바우처로 채용 비용 일부 지원받으셨고요.\n업종도 규모도 다른데 공통점은 마감 전에 신청했다는 거예요.\n\n어디 해당되는지 모르겠으면 그로패스에서 사업자번호 넣고 1분이면 나와요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #중소기업지원 #창업지원금 #정부지원사업 #그로패스 #5월마감임박 #온라인판로 #수출지원 #혁신바우처 #정책자금매칭",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "그로패스 매칭 케이스",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "실제 사장님들 이야기",
+        ".headline": "우리 사업엔<br>어떤 자금이<br><em>맞을까요?</em>",
+        ".sub": "업종도 규모도 다른 사장님 5명<br>실제로 받은 자금 케이스 모았어요"
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "수원 김밥·분식 소상공인 (월매출 1,800만)",
+        ".meta": "<span class=\"tag\">소상공인</span><span class=\"tag\">음식업</span><span class=\"tag\">온라인전환</span>",
+        ".body": "배달 플랫폼 수수료 부담으로 온라인 직주문 전환 고민 중 매칭.<br><strong>서울시 소상공인 온라인 판로개척 지원</strong>으로 쇼핑몰 구축비 일부 보전.<br>서류는 사업자등록증·임대차계약서 두 장으로 끝났어요.",
+        ".stats .stat:nth-child(1) .stat-label": "최대 지원금",
+        ".stats .stat:nth-child(1) .stat-value": "200<span class=\"unit\">만원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/25</span>",
+        ".stats .stat:nth-child(3) .stat-label": "신청 방식",
+        ".stats .stat:nth-child(3) .stat-value": "선착<span class=\"unit\">순</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "사장님 5명이 받은<br><em>실제 매칭 케이스</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "수원 김밥·분식 소상공인 (월매출 1,800만)",
+        ".item:nth-child(1) .item-desc": "소상공인 · 서울 소재 · 온라인 판매채널 구축 희망",
+        ".item:nth-child(1) .item-amount": "최대 200만원",
+        ".item:nth-child(1) .item-deadline": "D-17 · 5/25 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "자금은 <em>업종</em>보다 <span class=\"underline\">타이밍</span>이 더 많이 가른다",
+        ".att-text": "그로패스 매칭 데이터 기반 코멘트",
+        ".footer-quote": "같은 업종이어도 신청 시점·지역·창업 연차에 따라<br>해당 자금이 완전히 달라지더라구요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 내 케이스 확인",
+        ".sub": "업종·지역·창업연차 입력하면<br>지금 신청 가능한 자금 바로 나와요. gropass.co.kr",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ],
+  "theme": {
+    "primary": "#3730A3",
+    "accent": "#6366F1",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#6366F122",
+    "dark-bg": "#1E1B4B",
+    "label": "매칭 케이스 · 사장님 5분"
+  }
+}

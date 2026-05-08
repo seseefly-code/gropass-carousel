@@ -15,13 +15,27 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SLIDE_DIR = __dirname;
 const OUT_DIR = path.join(__dirname, 'out');
 
-async function renderSlide(browser, templateName, content, outputPath) {
+// 기본 테마 (data.theme 미지정 시 사용)
+const DEFAULT_THEME = {
+  primary: '#0A1F44',
+  accent: '#2563EB',
+  highlight: '#FDE68A',
+  'gradient-tint': '#1E40AF22',
+  'dark-bg': '#0F172A',
+};
+
+async function renderSlide(browser, templateName, content, outputPath, theme) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1080, height: 1080, deviceScaleFactor: 2 });
 
   const filePath = path.join(SLIDE_DIR, templateName + '.html');
   const fileUrl = 'file:///' + filePath.replace(/\\/g, '/');
   await page.goto(fileUrl, { waitUntil: 'networkidle0' });
+
+  // Theme CSS 변수 주입
+  const t = { ...DEFAULT_THEME, ...(theme || {}) };
+  const cssVars = Object.entries(t).map(([k, v]) => `--${k}: ${v}`).join('; ');
+  await page.addStyleTag({ content: `:root { ${cssVars} }` });
 
   // 폰트 로딩 대기 (Pretendard CDN)
   await page.evaluate(() => document.fonts.ready);
@@ -76,7 +90,7 @@ async function renderCarousel(configPath) {
       const num = String(i + 1).padStart(2, '0');
       const outPath = path.join(carouselDir, `slide_${num}.png`);
       process.stdout.write(`  [${num}] ${slide.template} → slide_${num}.png ... `);
-      await renderSlide(browser, slide.template, slide.content || {}, outPath);
+      await renderSlide(browser, slide.template, slide.content || {}, outPath, config.theme);
       console.log('OK');
     }
   } finally {

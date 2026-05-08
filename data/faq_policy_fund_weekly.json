@@ -1,0 +1,98 @@
+{
+  "carousel_id": "faq_policy_fund_weekly",
+  "_topic": "정책자금 자주 묻는 질문 5가지",
+  "_generated_at": "2026-05-08T00:41:21.073Z",
+  "caption": "정책자금 신청 전에 가장 많이 묻는 질문들만 골랐어요 📌\n\n폐업 이력 있어도 신청 가능한 자금 있고,\n창업 3개월차도 기보 보증서 받으면 길이 열려요.\n이번 주는 혁신바우처(5/13)랑 온라인 수출 지원(5/15)이 마감 코앞이네요.\n알리바바닷컴 연계 수출 지원은 국내 쇼핑몰 운영자도 된다는 거 의외로 모르는 분 많더라구요.\n\n내 사업이 어디 해당되는지 헷갈리면 그로패스에서 사업자번호 하나 넣으면 바로 나와요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #중소기업지원 #정부지원사업 #창업지원 #혁신바우처 #수출지원 #그로패스 #마감임박 #5월정책자금 #정책자금FAQ #재창업지원",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "정책자금 FAQ",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "사장님들이 가장 많이 물어본 질문",
+        ".headline": "신청하기 전에<br>꼭 알아야 할<br><em>질문 5가지</em>",
+        ".sub": "매주 쌓이는 질문 중에서<br>이번 주 핵심만 골랐어요."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "Q. 폐업 이력 있으면 신청 못 하나요?",
+        ".meta": "<span class=\"tag\">자격조건</span><span class=\"tag\">재창업</span><span class=\"tag\">공통</span>",
+        ".body": "결론부터 — <strong>폐업 이력 있어도 신청 가능한 자금이 꽤 있어요.</strong><br>단, 체납 세금이나 금융 연체가 남아 있으면 대부분 걸립니다.<br>폐업 후 재창업이라면 '재도전 성공패키지' 같은 전용 트랙도 있어요.",
+        ".stats .stat:nth-child(1) .stat-label": "재창업 전용 지원금",
+        ".stats .stat:nth-child(1) .stat-value": "최대 1<span class=\"unit\">억원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 방식",
+        ".stats .stat:nth-child(2) .stat-value": "수시<span class=\"unit\"> 접수</span>",
+        ".stats .stat:nth-child(3) .stat-label": "체크 포인트",
+        ".stats .stat:nth-child(3) .stat-value": "체납<span class=\"unit\"> 여부</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "이번 주 가장 많이 물어본<br><em>정책자금 질문 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "Q. 폐업 이력 있으면 신청 못 하나요?",
+        ".item:nth-child(1) .item-desc": "폐업 이력 OK · 체납·연체 없어야 · 사업자 재등록 필수",
+        ".item:nth-child(1) .item-amount": "재창업 전용 트랙",
+        ".item:nth-child(1) .item-deadline": "수시 접수",
+        ".item:nth-child(2) .item-name": "Q. 신청 후 결과 받기까지 얼마나 걸려요?",
+        ".item:nth-child(2) .item-desc": "R&D 6주 이상 · 융자 2~3주 · 현장실사 변수",
+        ".item:nth-child(2) .item-amount": "유형별 상이",
+        ".item:nth-child(2) .item-deadline": "결과 통보 2~8주",
+        ".item:nth-child(3) .item-name": "Q. 중소기업 혁신바우처, 저도 해당되나요?",
+        ".item:nth-child(3) .item-desc": "비수도권 · 중소기업 · 업종 무관 가능",
+        ".item:nth-child(3) .item-amount": "채용지원 바우처",
+        ".item:nth-child(3) .item-deadline": "D-5 · 5/13 마감",
+        ".item:nth-child(4) .item-name": "Q. 사업 시작한 지 3개월인데 신청 가능한 자금 있나요?",
+        ".item:nth-child(4) .item-desc": "창업 1년 미만 · 기보·신보 보증 · 사업계획서 중요",
+        ".item:nth-child(4) .item-amount": "창업초기 전용",
+        ".item:nth-child(4) .item-deadline": "수시 접수",
+        ".item:nth-child(5) .item-name": "Q. 온라인 플랫폼 수출 지원, 쇼핑몰 운영자도 되나요?",
+        ".item:nth-child(5) .item-desc": "중소·소상공인 · 알리바바닷컴 · 국내판매 이력 유리",
+        ".item:nth-child(5) .item-amount": "수출바우처형",
+        ".item:nth-child(5) .item-deadline": "D-7 · 5/15 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "정책자금은 <em>자격 되는지</em> 보다<br><span class=\"underline\">마감 전에 서류 챙겼는지</span>가 진짜 관건이에요.",
+        ".att-text": "정책자금 신청 대표들 공통 패턴 관찰",
+        ".footer-quote": "매주 새 공고가 수십 개씩 열려요.<br>자격은 되는데 몰라서 못 쓰는 경우가 훨씬 많아요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "헷갈리는 자격 조건, 일일이 찾지 마세요.<br>그로패스에서 바로 확인할 수 있어요. → gropass.co.kr",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ],
+  "theme": {
+    "primary": "#581C87",
+    "accent": "#9333EA",
+    "highlight": "#FBBF24",
+    "gradient-tint": "#9333EA22",
+    "dark-bg": "#3B0764",
+    "label": "자주 묻는 질문 · 5"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "carousel_id": "week_new_open_may2",
+  "_topic": "이번 주 신청 시작한 정책자금 5선",
+  "_generated_at": "2026-05-08T00:44:14.690Z",
+  "caption": "이번 주 새로 열린 정책자금 공고만 5개 추렸어요 📌\n\n채용비용 지원받는 혁신바우처가 5/13 마감이고,\n서울 소상공인 온라인 판로 지원은 5/25까지예요.\nIP 나래 프로그램은 인천·충북·전남 동시 모집 중이라\n해당 지역 대표님들은 지금 바로 확인해보세요.\n\n본인 업종·지역이 어디에 맞는지 헷갈리면\n그로패스에서 사업자번호 넣고 1분이면 매칭돼요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #중소기업지원 #이번주공고\n#혁신바우처 #IP지원 #온라인판로 #채용지원금\n#정부지원사업 #창업지원 #그로패스 #5월정책자금",
+  "slides": [
+    {
+      "template": "slide_01_cover",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "이번 주 막 열린 공고들",
+        ".headline": "이번 주<br>신청 시작한<br><em>정책자금 5</em>",
+        ".sub": "5/6~5/8 사이 공고 올라온 것만 추렸어요.<br>지금이 타이밍이에요."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "중소기업 혁신바우처 (채용지원)",
+        ".meta": "<span class=\"tag\">중소벤처기업부</span><span class=\"tag\">비수도권</span><span class=\"tag\">채용·인력</span>",
+        ".body": "직원 뽑는 데 드는 비용 일부를 바우처로 지원해줘요.<br><strong>비수도권 중소기업</strong>이라면 거의 다 해당되고,<br>채용 플랫폼·헤드헌팅 비용까지 적용 돼요.",
+        ".stats .stat:nth-child(1) .stat-label": "바우처 지원",
+        ".stats .stat:nth-child(1) .stat-value": "최대 1<span class=\"unit\">천만원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/13</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관부처",
+        ".stats .stat:nth-child(3) .stat-value": "중소벤처기업<span class=\"unit\">부</span>"
+      }
+    },
+    {
+      "template": "slide_03_list",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "이번 주 막 열린<br><em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "중소기업 혁신바우처 (채용지원)",
+        ".item:nth-child(1) .item-desc": "비수도권 중소기업 · 채용비용 바우처 지원",
+        ".item:nth-child(1) .item-amount": "최대 1천만원",
+        ".item:nth-child(1) .item-deadline": "D-5 · 5/13 마감",
+        ".item:nth-child(2) .item-name": "소상공인 온라인 판로개척 지원",
+        ".item:nth-child(2) .item-desc": "서울 소재 소상공인 · 온라인 입점·제작비 지원",
+        ".item:nth-child(2) .item-amount": "현물 지원",
+        ".item:nth-child(2) .item-deadline": "D-17 · 5/25 마감",
+        ".item:nth-child(3) .item-name": "AI기반 전파융합제품 상용화 지원",
+        ".item:nth-child(3) .item-desc": "대구 소재 · AI·전파 융합 제품 상용화 단계",
+        ".item:nth-child(3) .item-amount": "기술+자금 지원",
+        ".item:nth-child(3) .item-deadline": "D-7 · 5/15 마감",
+        ".item:nth-child(4) .item-name": "재난안전기업 사업화 역량 강화 컨설팅",
+        ".item:nth-child(4) .item-desc": "재난·안전 제품 기업 · 사업화 전략 무료 지원",
+        ".item:nth-child(4) .item-amount": "무료 컨설팅",
+        ".item:nth-child(4) .item-deadline": "D-19 · 5/27 마감",
+        ".item:nth-child(5) .item-name": "IP 나래 프로그램 (인천·충북·전남)",
+        ".item:nth-child(5) .item-desc": "인천·충북·전남 · 특허·IP 전략 전문가 지원",
+        ".item:nth-child(5) .item-amount": "최대 500만원",
+        ".item:nth-child(5) .item-deadline": "D-27 · 6/4 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "정책자금은 <em>마감보다</em> <span class=\"underline\">오픈 시점</span>에 잡아야 서류 준비할 시간이 생겨요.",
+        ".att-text": "정책자금 컨설팅 현장 코멘트",
+        ".footer-quote": "마감 D-3에 공고 발견하면 이미 늦어요.<br>이번 주 열린 공고, 지금 바로 챙겨두세요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "내 사업에 맞는 공고가 뭔지<br>그로패스에서 바로 확인해보세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ],
+  "theme": {
+    "primary": "#155E75",
+    "accent": "#06B6D4",
+    "highlight": "#FEF08A",
+    "gradient-tint": "#06B6D422",
+    "dark-bg": "#083344",
+    "label": "이번 주 신규 · 5선"
+  }
+}

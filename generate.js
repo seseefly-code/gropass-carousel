@@ -11,6 +11,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getAnnouncementsContext } from './lib/announcements.js';
+import { inferThemeFromCarouselId } from './themes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, 'data');
@@ -203,6 +204,7 @@ function semanticToRenderData(s) {
     _topic: s.topic,
     _generated_at: new Date().toISOString(),
     caption: s.caption,
+    theme: inferThemeFromCarouselId(s.carousel_id),
     slides,
   };
 }
@@ -229,9 +231,8 @@ async function generate(topic) {
   process.stdout.write('  ');
 
   const stream = client.messages.stream({
-    model: 'claude-opus-4-7',
+    model: 'claude-sonnet-4-6',
     max_tokens: 16000,
-    thinking: { type: 'adaptive' },
     output_config: {
       format: { type: 'json_schema', schema: CAROUSEL_SCHEMA },
     },
