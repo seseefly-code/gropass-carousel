@@ -3,4 +3,5 @@ node_modules/
 .env.local
 .threads-token.json
 .ig-token-long.txt
+.kakao-memo-token.json
 *.log

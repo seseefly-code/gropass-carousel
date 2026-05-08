@@ -22,9 +22,13 @@ jobs:
           node-version: '20'
 
       - name: Audit today's slots
+        id: audit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: |
           node <<'EOF'
           // 오늘 KST 자정~22:00 사이 threads-cron 실행 검증
@@ -108,24 +112,67 @@ jobs:
           console.log(`⚠️  누락: ${missed.length}건 — ${missed.join(', ') || '(없음)'}`);
           console.log(`❌ 실패: ${failed.length}건 — ${failed.map(f => f.slot).join(', ') || '(없음)'}`);
 
-          // Slack 알림 (누락 또는 실패 있을 때만)
-          if ((missed.length > 0 || failed.length > 0) && process.env.SLACK_WEBHOOK_URL) {
-            const text = [
-              `:rotating_light: *Threads 슬롯 점검 (${todayKstStr})*`,
-              '',
-              `✅ 성공: ${succeeded.length}건`,
-              missed.length > 0 ? `⚠️ 누락: ${missed.length}건 — ${missed.join(', ')}` : '',
-              failed.length > 0 ? `❌ 실패: ${failed.length}건 — ${failed.map(f => f.slot + ' (' + f.conclusion + ')').join(', ')}` : '',
-              '',
-              `보충 명령:`,
-              `  gh workflow run threads-cron.yml --repo ${REPO} -f slot=<누락슬롯>`,
+          // 알림 (누락 또는 실패 있을 때만)
+          const hasIssue = missed.length > 0 || failed.length > 0;
+          if (hasIssue) {
+            const summary = [
+              `🚨 Threads 슬롯 점검 (${todayKstStr})`,
+              `✅ 성공 ${succeeded.length}건`,
+              missed.length > 0 ? `⚠️ 누락 ${missed.length}건 — ${missed.join(', ')}` : '',
+              failed.length > 0 ? `❌ 실패 ${failed.length}건 — ${failed.map(f => f.slot).join(', ')}` : '',
             ].filter(Boolean).join('\n');
 
-            await fetch(process.env.SLACK_WEBHOOK_URL, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ text }),
-            });
-            console.log('Slack 알림 발송 완료');
+            // Slack
+            if (process.env.SLACK_WEBHOOK_URL) {
+              await fetch(process.env.SLACK_WEBHOOK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text: summary + `\n\n보충: gh workflow run threads-cron.yml --repo ${REPO} -f slot=<슬롯>` }),
+              });
+              console.log('Slack 알림 발송 완료');
+            }
+
+            // 카카오 메모 (refresh_token + REST_API_KEY 등록 시)
+            if (process.env.KAKAO_REFRESH_TOKEN && process.env.KAKAO_REST_API_KEY) {
+              try {
+                const refParams = new URLSearchParams({
+                  grant_type: 'refresh_token',
+                  client_id: process.env.KAKAO_REST_API_KEY,
+                  refresh_token: process.env.KAKAO_REFRESH_TOKEN,
+                });
+                if (process.env.KAKAO_CLIENT_SECRET) {
+                  refParams.set('client_secret', process.env.KAKAO_CLIENT_SECRET);
+                }
+                const refRes = await fetch('https://kauth.kakao.com/oauth/token', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: refParams.toString(),
+                });
+                const refData = await refRes.json();
+                if (!refData.access_token) throw new Error('access token 갱신 실패: ' + JSON.stringify(refData));
+                if (refData.refresh_token) {
+                  console.log('::warning::새 refresh_token 발급됨, GitHub secret 갱신 필요');
+                  console.log(`::warning::${refData.refresh_token}`);
+                }
+                const memoParams = new URLSearchParams({
+                  template_object: JSON.stringify({
+                    object_type: 'text',
+                    text: summary.slice(0, 200),
+                    link: { web_url: 'https://github.com/' + REPO + '/actions/workflows/threads-cron.yml', mobile_web_url: 'https://github.com/' + REPO + '/actions/workflows/threads-cron.yml' },
+                    button_title: '보충 트리거',
+                  }),
+                });
+                const memoRes = await fetch('https://kapi.kakao.com/v2/api/talk/memo/default/send', {
+                  method: 'POST',
+                  headers: { Authorization: `Bearer ${refData.access_token}`, 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: memoParams.toString(),
+                });
+                const memoData = await memoRes.json();
+                if (memoData.result_code === 0) console.log('카카오 메모 발송 완료');
+                else console.log('카카오 메모 실패:', JSON.stringify(memoData));
+              } catch (e) {
+                console.log('카카오 알림 에러:', e.message);
+              }
+            }
           }
           EOF
