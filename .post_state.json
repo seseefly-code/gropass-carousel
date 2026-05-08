@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 3,
     "공감페인": 3,
-    "케이스스터디": 3,
+    "케이스스터디": 4,
     "숫자팩트": 3,
     "마감알림": 1
   },
@@ -184,6 +184,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYE0sqqFOU0",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
       "posted_at": "2026-05-08T11:05:39.895Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
+      "char_count": 188,
+      "media_id": "17935538472248433",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYFDHIKFG0O",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_케이스스터디_벤처인증_받자마자_보증한도_2배_늘어난_사례.md",
+      "posted_at": "2026-05-08T13:11:36.659Z"
     }
   ]
 }
