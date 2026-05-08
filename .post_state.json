@@ -1,12 +1,13 @@
 {
   "evening_index": 1,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 3,
     "공감페인": 3,
     "케이스스터디": 4,
     "숫자팩트": 3,
-    "마감알림": 1
+    "마감알림": 1,
+    "오해풀기": 1
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -194,6 +195,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYFDHIKFG0O",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_케이스스터디_벤처인증_받자마자_보증한도_2배_늘어난_사례.md",
       "posted_at": "2026-05-08T13:11:36.659Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "벤처인증 받으면 진짜로 좋은 점",
+      "char_count": 237,
+      "media_id": "17998123619934445",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYFO0y8lZJ-",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_오해풀기_벤처인증_받으면_진짜로_좋은_점.md",
+      "posted_at": "2026-05-08T14:53:59.814Z"
     }
   ]
 }
