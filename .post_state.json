@@ -5,7 +5,7 @@
     "솔직인사이트": 2,
     "공감페인": 2,
     "케이스스터디": 2,
-    "숫자팩트": 1,
+    "숫자팩트": 2,
     "마감알림": 1
   },
   "used_announcements": [
@@ -123,6 +123,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYDnlXWEWpx",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_마감알림_경북_2026년_4차_K-EXPO_Madrid_2026.md",
       "posted_at": "2026-05-07T23:51:51.191Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "매년 미집행되는 정책자금 규모",
+      "char_count": 215,
+      "media_id": "18194402338364323",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYEDDeLlibl",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_숫자팩트_매년_미집행되는_정책자금_규모.md",
+      "posted_at": "2026-05-08T03:51:52.514Z"
     }
   ]
 }
