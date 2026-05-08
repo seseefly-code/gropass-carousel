@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Cover — New</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+  .slide {
+    width: 1080px; height: 1080px;
+    background: linear-gradient(135deg, #ECFEFF 0%, #FFFFFF 60%, #F0F9FF 100%);
+    position: relative; padding: 84px 88px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    overflow: hidden;
+  }
+  .new-badge {
+    position: absolute; top: 64px; right: 64px;
+    width: 200px; height: 200px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: #FFFFFF; font-size: 72px; font-weight: 900;
+    letter-spacing: 0.04em;
+    box-shadow: 0 24px 48px -12px rgba(6,182,212,0.45);
+    transform: rotate(-8deg);
+  }
+  .new-badge::after {
+    content: ''; position: absolute;
+    inset: 12px; border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.4);
+  }
+
+  .top {
+    background: var(--primary); color: #FFFFFF;
+    padding: 14px 24px; border-radius: 999px;
+    font-size: 22px; font-weight: 600; letter-spacing: -0.02em;
+    align-self: flex-start;
+  }
+
+  .head-block { margin-top: 32px; max-width: 760px; }
+  .eyebrow {
+    color: var(--accent); font-size: 28px; font-weight: 800;
+    letter-spacing: 0.08em; margin-bottom: 24px;
+  }
+  .headline {
+    color: var(--primary); font-size: 116px; font-weight: 900;
+    line-height: 1.05; letter-spacing: -0.04em;
+  }
+  .headline em {
+    font-style: normal;
+    background: linear-gradient(180deg, transparent 65%, var(--highlight) 65%);
+    padding: 0 4px;
+  }
+  .sub {
+    color: #475569; font-size: 30px; font-weight: 500;
+    line-height: 1.55; letter-spacing: -0.015em;
+    margin-top: 36px;
+  }
+
+  .stat-row { display: flex; gap: 16px; margin-top: 28px; }
+  .stat-pill {
+    background: rgba(6,182,212,0.1); color: var(--primary);
+    padding: 12px 20px; border-radius: 12px;
+    font-size: 22px; font-weight: 700; letter-spacing: -0.01em;
+  }
+  .stat-pill strong { color: var(--accent); }
+
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+  .brand-mark { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { width: 180px; filter: brightness(0); }
+  .brand-domain { color: #94A3B8; font-size: 20px; font-weight: 600; }
+  .swipe { color: var(--accent); font-size: 24px; font-weight: 700; display: flex; align-items: center; gap: 12px; }
+  .swipe-arrow {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--accent); color: #FFFFFF;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 28px;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="new-badge">NEW</div>
+    <div class="top">이번 주 신규</div>
+
+    <div class="head-block">
+      <div class="eyebrow">JUST OPENED</div>
+      <h1 class="headline">이번 주<br><em>새로 열린</em><br>정책자금 5</h1>
+      <p class="sub">5/4~5/6 사이 공고 뜬 자금만 모았어요</p>
+      <div class="stat-row">
+        <span class="stat-pill"><strong>+5건</strong> 신규</span>
+        <span class="stat-pill">D-7~14 마감</span>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="brand-mark">
+        <img src="logo.png" alt="GroPass" class="brand-logo">
+        <div class="brand-domain">gropass.co.kr</div>
+      </div>
+      <div class="swipe">신규 보기 <span class="swipe-arrow">→</span></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -102,3 +102,17 @@ export function inferThemeFromCarouselId(id) {
   if (id.startsWith('faq_')) return THEMES.sunday;
   return THEMES.monday; // default
 }
+
+/**
+ * carousel_id → cover 슬라이드 템플릿명 (주제별 레이아웃)
+ */
+export function inferCoverTemplate(id) {
+  if (id.startsWith('deadline_')) return 'slide_01_cover_deadline';
+  if (id.startsWith('tips_')) return 'slide_01_cover_tips';
+  if (id.startsWith('industry_')) return 'slide_01_cover_industry';
+  if (id.startsWith('case_')) return 'slide_01_cover_case';
+  if (id.startsWith('week_new')) return 'slide_01_cover_new';
+  if (id.startsWith('key_numbers')) return 'slide_01_cover_numbers';
+  if (id.startsWith('faq_')) return 'slide_01_cover_faq';
+  return 'slide_01_cover'; // default
+}

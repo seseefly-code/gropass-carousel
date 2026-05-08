@@ -9,7 +9,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { inferThemeFromCarouselId } from './themes.js';
+import { inferThemeFromCarouselId, inferCoverTemplate } from './themes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, 'data');
@@ -25,9 +25,14 @@ async function main() {
     const fp = path.join(DATA_DIR, f);
     const data = JSON.parse(await fs.readFile(fp, 'utf-8'));
     const theme = inferThemeFromCarouselId(data.carousel_id || '');
+    const coverTpl = inferCoverTemplate(data.carousel_id || '');
     data.theme = theme;
+    // cover 슬라이드 템플릿 자동 변경
+    if (Array.isArray(data.slides) && data.slides[0] && data.slides[0].template?.startsWith('slide_01_cover')) {
+      data.slides[0].template = coverTpl;
+    }
     await fs.writeFile(fp, JSON.stringify(data, null, 2), 'utf-8');
-    console.log(`  ✓ ${f} ← theme.primary=${theme.primary}, label="${theme.label}"`);
+    console.log(`  ✓ ${f} ← cover=${coverTpl}, theme=${theme.primary}`);
   }
   console.log('완료');
 }

@@ -11,7 +11,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getAnnouncementsContext } from './lib/announcements.js';
-import { inferThemeFromCarouselId } from './themes.js';
+import { inferThemeFromCarouselId, inferCoverTemplate } from './themes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, 'data');
@@ -121,9 +121,9 @@ const CAROUSEL_SCHEMA = {
 function semanticToRenderData(s) {
   const slides = [];
 
-  // 슬라이드 1: cover
+  // 슬라이드 1: cover (주제별 레이아웃 변형 자동 선택)
   slides.push({
-    template: 'slide_01_cover',
+    template: inferCoverTemplate(s.carousel_id),
     content: {
       '.label': s.cover.label,
       '.week': s.cover.week,

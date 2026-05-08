@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Cover — Deadline</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+  .slide {
+    width: 1080px; height: 1080px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+    position: relative; padding: 84px 88px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    overflow: hidden;
+  }
+  .urgent-stripe {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 12px; background: linear-gradient(90deg, var(--accent) 0%, var(--primary) 100%);
+  }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .label {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--primary); color: #FFFFFF;
+    padding: 14px 24px; border-radius: 999px;
+    font-size: 22px; font-weight: 700; letter-spacing: -0.02em;
+  }
+  .label::before { content: '⏰'; font-size: 20px; }
+  .week { color: #64748B; font-size: 22px; font-weight: 500; }
+
+  .dday-stage { text-align: center; margin: 24px 0; }
+  .dday-eyebrow {
+    color: var(--accent); font-size: 28px; font-weight: 700;
+    letter-spacing: 0.12em; margin-bottom: 12px;
+  }
+  .dday-big {
+    font-size: 320px; font-weight: 900; line-height: 0.95;
+    letter-spacing: -0.06em; color: var(--primary);
+  }
+  .dday-big em {
+    font-style: normal; color: var(--accent);
+  }
+
+  .head-block { text-align: center; margin-top: 8px; }
+  .headline {
+    color: var(--primary); font-size: 64px; font-weight: 800;
+    line-height: 1.25; letter-spacing: -0.03em;
+  }
+  .headline em {
+    font-style: normal;
+    background: linear-gradient(180deg, transparent 65%, var(--highlight) 65%);
+    padding: 0 4px;
+  }
+  .sub {
+    color: #475569; font-size: 26px; font-weight: 500;
+    line-height: 1.5; letter-spacing: -0.015em;
+    margin-top: 20px;
+  }
+
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+  .brand-mark { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { width: 180px; filter: brightness(0); }
+  .brand-domain { color: #94A3B8; font-size: 20px; font-weight: 600; }
+  .swipe { color: var(--accent); font-size: 24px; font-weight: 700; display: flex; align-items: center; gap: 12px; }
+  .swipe-arrow {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--accent); color: #FFFFFF;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 28px;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="urgent-stripe"></div>
+    <div class="top">
+      <div class="label">마감 임박</div>
+      <div class="week">2026년 5월 2주차</div>
+    </div>
+
+    <div class="dday-stage">
+      <div class="dday-eyebrow">THIS WEEK</div>
+      <div class="dday-big">D<em>−</em>7</div>
+    </div>
+
+    <div class="head-block">
+      <h1 class="headline">놓치면 1년<br>기다려야 하는<br><em>정책자금 5선</em></h1>
+      <p class="sub">이번 주 안에 결정해야 할 자금만 정리</p>
+    </div>
+
+    <div class="bottom">
+      <div class="brand-mark">
+        <img src="logo.png" alt="GroPass" class="brand-logo">
+        <div class="brand-domain">gropass.co.kr</div>
+      </div>
+      <div class="swipe">5선 보기 <span class="swipe-arrow">→</span></div>
+    </div>
+  </div>
+</body>
+</html>

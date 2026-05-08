@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Cover — Industry</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; font-family: 'Pretendard Variable', Pretendard, sans-serif; }
+  .slide {
+    width: 1080px; height: 1080px;
+    background: radial-gradient(ellipse at top right, var(--gradient-tint) 0%, transparent 60%), linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 100%);
+    position: relative; padding: 84px 88px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    overflow: hidden;
+  }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .label {
+    background: var(--primary); color: #FFFFFF;
+    padding: 14px 24px; border-radius: 999px;
+    font-size: 22px; font-weight: 600; letter-spacing: -0.02em;
+  }
+  .week { color: #64748B; font-size: 22px; font-weight: 500; }
+
+  .icon-stage { display: flex; gap: 32px; justify-content: center; margin-top: 64px; }
+  .big-emoji {
+    font-size: 200px; line-height: 1;
+    filter: drop-shadow(0 16px 32px rgba(124,45,18,0.25));
+  }
+
+  .head-block { margin-top: 56px; }
+  .eyebrow {
+    color: var(--accent); font-size: 28px; font-weight: 700;
+    letter-spacing: -0.02em; margin-bottom: 20px;
+  }
+  .headline {
+    color: var(--primary); font-size: 92px; font-weight: 800;
+    line-height: 1.2; letter-spacing: -0.03em;
+  }
+  .headline em {
+    font-style: normal;
+    background: linear-gradient(180deg, transparent 65%, var(--highlight) 65%);
+    padding: 0 4px;
+  }
+  .sub {
+    color: #475569; font-size: 28px; font-weight: 500;
+    line-height: 1.55; letter-spacing: -0.015em;
+    margin-top: 24px;
+  }
+
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+  .brand-mark { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { width: 180px; filter: brightness(0); }
+  .brand-domain { color: #94A3B8; font-size: 20px; font-weight: 600; }
+  .swipe { color: var(--accent); font-size: 24px; font-weight: 700; display: flex; align-items: center; gap: 12px; }
+  .swipe-arrow {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--accent); color: #FFFFFF;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 28px;
+  }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="top">
+      <div class="label">업종별 정책자금</div>
+      <div class="week">2026년 5월 2주차</div>
+    </div>
+
+    <div class="icon-stage">
+      <span class="big-emoji">☕</span>
+      <span class="big-emoji">🍰</span>
+      <span class="big-emoji">🥘</span>
+    </div>
+
+    <div class="head-block">
+      <div class="eyebrow">카페·식당 사장님</div>
+      <h1 class="headline">우리 가게에<br>딱 맞는<br><em>정책자금 5선</em></h1>
+      <p class="sub">5월 마감 임박 자금만 추렸어요</p>
+    </div>
+
+    <div class="bottom">
+      <div class="brand-mark">
+        <img src="logo.png" alt="GroPass" class="brand-logo">
+        <div class="brand-domain">gropass.co.kr</div>
+      </div>
+      <div class="swipe">5선 보기 <span class="swipe-arrow">→</span></div>
+    </div>
+  </div>
+</body>
+</html>
