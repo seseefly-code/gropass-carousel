@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 2,
+    "솔직인사이트": 3,
     "공감페인": 2,
     "케이스스터디": 2,
     "숫자팩트": 2,
@@ -133,6 +133,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYEDDeLlibl",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_숫자팩트_매년_미집행되는_정책자금_규모.md",
       "posted_at": "2026-05-08T03:51:52.514Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
+      "char_count": 248,
+      "media_id": "18096935114175847",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYEFfcrlI1V",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_솔직인사이트_컨설팅사에_맡겨서_잘_되는_경우_vs_아닌_경우.md",
+      "posted_at": "2026-05-08T04:13:10.695Z"
     }
   ]
 }
