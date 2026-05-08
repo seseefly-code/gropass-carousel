@@ -5,7 +5,7 @@
     "솔직인사이트": 3,
     "공감페인": 2,
     "케이스스터디": 2,
-    "숫자팩트": 2,
+    "숫자팩트": 3,
     "마감알림": 1
   },
   "used_announcements": [
@@ -143,6 +143,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYEFfcrlI1V",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_솔직인사이트_컨설팅사에_맡겨서_잘_되는_경우_vs_아닌_경우.md",
       "posted_at": "2026-05-08T04:13:10.695Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
+      "char_count": 201,
+      "media_id": "18102246754846410",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYEOk6clu10",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_숫자팩트_벤처기업_보유_vs_미보유_기업_평균_매출_격차.md",
+      "posted_at": "2026-05-08T05:32:34.019Z"
     }
   ]
 }
