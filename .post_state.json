@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 5,
     "공감페인": 4,
-    "케이스스터디": 4,
+    "케이스스터디": 5,
     "숫자팩트": 4,
     "마감알림": 2,
     "오해풀기": 1,
@@ -288,6 +288,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYHX3Cslp7O",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_솔직인사이트_한_가지만_알면_자금_50_더_받는_비결.md",
       "posted_at": "2026-05-09T10:51:24.541Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
+      "char_count": 244,
+      "media_id": "18078410456643369",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHmMXmlCmf",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_케이스스터디_TIPS_떨어진_회사가_다음_회차에_선정된_비결.md",
+      "posted_at": "2026-05-09T12:56:39.315Z"
     }
   ]
 }
