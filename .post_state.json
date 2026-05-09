@@ -2,7 +2,7 @@
   "evening_index": 1,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 3,
+    "솔직인사이트": 4,
     "공감페인": 3,
     "케이스스터디": 4,
     "숫자팩트": 3,
@@ -226,6 +226,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYGMuZQFVEC",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_마감알림_경북_2026년_가속기_활용_산업체_지원_사업_현장교육.md",
       "posted_at": "2026-05-08T23:54:52.596Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 201,
+      "media_id": "18044024288557102",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYGq-WFFaDd",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_솔직인사이트_사업계획서_잘_쓰는_대표_vs_못_쓰는_대표_차이.md",
+      "posted_at": "2026-05-09T04:19:11.115Z"
     }
   ]
 }
