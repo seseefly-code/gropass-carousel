@@ -6,7 +6,7 @@
     "공감페인": 4,
     "케이스스터디": 5,
     "숫자팩트": 4,
-    "마감알림": 2,
+    "마감알림": 3,
     "오해풀기": 2,
     "트렌드": 1
   },
@@ -308,6 +308,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYHviVsCSV-",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_오해풀기_정책자금_무이자_대출이라는_오해.md",
       "posted_at": "2026-05-09T14:18:17.947Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "분기 끝나기 전 신청해야 할 자금",
+      "char_count": 211,
+      "media_id": "17911189224200457",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYIoQQ6kwqq",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_마감알림_분기_끝나기_전_신청해야_할_자금.md",
+      "posted_at": "2026-05-09T22:33:56.921Z"
     }
   ]
 }
