@@ -5,7 +5,7 @@
     "솔직인사이트": 4,
     "공감페인": 3,
     "케이스스터디": 4,
-    "숫자팩트": 3,
+    "숫자팩트": 4,
     "마감알림": 2,
     "오해풀기": 1
   },
@@ -236,6 +236,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYGq-WFFaDd",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_솔직인사이트_사업계획서_잘_쓰는_대표_vs_못_쓰는_대표_차이.md",
       "posted_at": "2026-05-09T04:19:11.115Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
+      "char_count": 206,
+      "media_id": "18102016277053871",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYG1i_gFWhX",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_숫자팩트_정책자금_평균_심사_기간이_얼마나_걸리는지.md",
+      "posted_at": "2026-05-09T05:51:34.572Z"
     }
   ]
 }
