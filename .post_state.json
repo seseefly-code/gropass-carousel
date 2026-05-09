@@ -7,7 +7,8 @@
     "케이스스터디": 4,
     "숫자팩트": 4,
     "마감알림": 2,
-    "오해풀기": 1
+    "오해풀기": 1,
+    "트렌드": 1
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -267,6 +268,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYHDfQZlGDs",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_자금해설_2026년_안동시_ValueUP밸류업_지원사업_참여_기.md",
       "posted_at": "2026-05-09T07:53:22.987Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "2026년 정책자금 트렌드 키워드",
+      "char_count": 268,
+      "media_id": "17975528730012070",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHL8KulFI5",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_트렌드_2026년_정책자금_트렌드_키워드.md",
+      "posted_at": "2026-05-09T09:07:16.388Z"
     }
   ]
 }
