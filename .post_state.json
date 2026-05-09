@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 4,
-    "공감페인": 3,
+    "공감페인": 4,
     "케이스스터디": 4,
     "숫자팩트": 4,
     "마감알림": 2,
@@ -246,6 +246,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYG1i_gFWhX",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_숫자팩트_정책자금_평균_심사_기간이_얼마나_걸리는지.md",
       "posted_at": "2026-05-09T05:51:34.572Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
+      "char_count": 211,
+      "media_id": "18125221813716841",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYG4uyQlBpL",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
+      "posted_at": "2026-05-09T06:19:22.937Z"
     }
   ]
 }
