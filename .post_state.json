@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 5,
+    "솔직인사이트": 6,
     "공감페인": 4,
     "케이스스터디": 5,
     "숫자팩트": 4,
@@ -329,6 +329,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYIwVQuAZBo",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_마감알림_2026년_특장차_수소파워팩_기술지원사업_수혜기업_모집.md",
       "posted_at": "2026-05-09T23:44:32.022Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 243,
+      "media_id": "18339013543171556",
+      "permalink": null,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_솔직인사이트_자금_신청_타이밍이_결과를_가르는_이유.md",
+      "posted_at": "2026-05-10T04:39:47.479Z"
     }
   ]
 }
