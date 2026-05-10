@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 7,
     "공감페인": 5,
-    "케이스스터디": 5,
+    "케이스스터디": 6,
     "숫자팩트": 5,
     "마감알림": 3,
     "오해풀기": 2,
@@ -390,6 +390,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYJ9SEIFNGw",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_솔직인사이트_똑같은_사업인데_누군_5천_받고_누군_못_받는_진짜_이.md",
       "posted_at": "2026-05-10T10:56:52.550Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
+      "char_count": 252,
+      "media_id": "18448362940117375",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYKLMSOFJBx",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_케이스스터디_수출바우처로_첫_해외_수주_만든_케이스.md",
+      "posted_at": "2026-05-10T12:58:28.425Z"
     }
   ]
 }
