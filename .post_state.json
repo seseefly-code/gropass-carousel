@@ -5,7 +5,7 @@
     "솔직인사이트": 6,
     "공감페인": 4,
     "케이스스터디": 5,
-    "숫자팩트": 4,
+    "숫자팩트": 5,
     "마감알림": 3,
     "오해풀기": 2,
     "트렌드": 1
@@ -339,6 +339,16 @@
       "permalink": null,
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_솔직인사이트_자금_신청_타이밍이_결과를_가르는_이유.md",
       "posted_at": "2026-05-10T04:39:47.479Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "신청 대비 평균 선정률",
+      "char_count": 222,
+      "media_id": "18078338549336632",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJdEUfFhbf",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_숫자팩트_신청_대비_평균_선정률.md",
+      "posted_at": "2026-05-10T06:15:23.603Z"
     }
   ]
 }
