@@ -1,17 +1,25 @@
 {
   "carousel_id": "deadline_may_w2",
   "_topic": "이번 주 마감 임박 정책자금 5선",
-  "_generated_at": "2026-05-08T00:41:58.801Z",
-  "caption": "이번 주 D-7 이내 마감 공고만 5개 골랐어요 📌\n\n중소기업 혁신바우처(채용지원)가 5/13 마감이고,\n알리바바닷컴 수출 지원이랑 중동 테크 진출 지원은 둘 다 5/15 마감이에요.\n관광업 하시는 분은 관광진흥개발기금 융자도 5/15까지 신청 가능하네요.\n서류 모으다 보면 금방 지나가요, 오늘 적격 여부만 먼저 확인해보세요.\n\n어디 해당되는지 헷갈리면 그로패스에서 사업자번호 넣으면 1분 안에 나와요.\ngropass.co.kr (프로필 링크)\n\n#정책자금 #마감임박 #중소기업지원 #소상공인지원 #정부지원사업 #수출지원 #창업지원금 #혁신바우처 #관광지원 #중소벤처기업부 #그로패스 #5월정책자금",
+  "_generated_at": "2026-05-10T23:14:41.009Z",
+  "caption": "이번 주 마감 임박한 정책자금만 5개 추렸어요 📌\n\n5/15 마감이 세 개나 몰려 있어요.\n특장차·수소 제조업이면 충북테크노파크 기술지원사업,\n인천 기업이면 권리화 지원이랑 G5 OpenX도 같이 보세요.\n수출 준비 중이면 해외전시회 한국관 공고도 5/21 마감이에요.\n\n어떤 게 우리 사업에 해당되는지 헷갈리면,\n그로패스에서 사업자번호 한 줄 넣으면 1분 안에 매칭 돼요.\n프로필 링크 → gropass.co.kr\n\n#정책자금 #마감임박 #중소기업지원 #소상공인지원 #정부지원사업 #창업지원금 #수출지원 #특허지원 #그로패스 #5월정책자금 #기술지원사업 #스타트업지원",
+  "theme": {
+    "primary": "#0A1F44",
+    "accent": "#2563EB",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#1E40AF22",
+    "dark-bg": "#0F172A",
+    "label": "정책자금 위클리 · 마감"
+  },
   "slides": [
     {
       "template": "slide_01_cover_deadline",
       "content": {
         ".label": "정책자금 위클리",
         ".week": "2026년 5월 2주차",
-        ".eyebrow": "D-7 이내 마감 임박",
-        ".headline": "이번 주 안에<br>신청 못 하면<br><em>1년 기다려요</em>",
-        ".sub": "D-7 이내 마감 공고만 추렸어요.<br>업종·단계별로 해당되는 거 바로 확인하세요."
+        ".eyebrow": "이번 주 마감 임박",
+        ".headline": "놓치면 1년<br>기다려야 하는<br><em>정책자금 5</em>",
+        ".sub": "D-5부터 D-12까지<br>이번 주 꼭 챙겨야 할 공고만 추렸어요"
       }
     },
     {
@@ -21,15 +29,15 @@
         ".pager": "<strong>02</strong> / 05",
         ".num": "01",
         ".num-label": "FIRST PICK",
-        ".title": "중소기업 혁신바우처(채용지원)",
-        ".meta": "<span class=\"tag\">중소벤처기업부</span><span class=\"tag\">채용·인력</span><span class=\"tag\">D-5 마감</span>",
-        ".body": "채용 관련 컨설팅·서비스 비용을 바우처로 지원받는 사업이에요.<br><strong>비수도권 중소기업이라면 우선 확인</strong>해볼 만한 공고입니다.<br>5/13 마감이라 이번 주 안에 신청 완료해야 해요.",
-        ".stats .stat:nth-child(1) .stat-label": "지원 방식",
-        ".stats .stat:nth-child(1) .stat-value": "바우처<span class=\"unit\">지원</span>",
+        ".title": "2026년 특장차 수소파워팩 기술지원사업",
+        ".meta": "<span class=\"tag\">산업통상부</span><span class=\"tag\">제조·기술</span><span class=\"tag\">D-5</span>",
+        ".body": "충북테크노파크가 수행하는 <strong>수소파워팩 기술지원 사업</strong>이에요.<br>특장차 제조사 대상으로 기술 검증·고도화 비용을 지원합니다.<br>5월 15일이 마감이라 사실상 시간이 며칠 안 남았어요.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 형태",
+        ".stats .stat:nth-child(1) .stat-value": "기술<span class=\"unit\">지원</span>",
         ".stats .stat:nth-child(2) .stat-label": "신청 마감",
-        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/13</span>",
-        ".stats .stat:nth-child(3) .stat-label": "대상 지역",
-        ".stats .stat:nth-child(3) .stat-value": "비수도권<span class=\"unit\"> 중소기업</span>"
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/15</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관부처",
+        ".stats .stat:nth-child(3) .stat-value": "산업<span class=\"unit\">통상부</span>"
       }
     },
     {
@@ -38,28 +46,28 @@
         ".crumb": "정책자금 위클리 · 한눈에 보기",
         ".pager": "<strong>03</strong> / 05",
         ".eyebrow": "SUMMARY",
-        ".title": "이번 주 안에 챙겨야 할<br><em>마감 임박 정책자금 5</em>",
+        ".title": "이번 주 안에 챙겨야 할<br><em>마감 임박 공고 5</em>",
         ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
-        ".item:nth-child(1) .item-name": "중소기업 혁신바우처(채용지원)",
-        ".item:nth-child(1) .item-desc": "비수도권 · 채용 서비스 비용 지원 · 중진공 수행",
-        ".item:nth-child(1) .item-amount": "바우처 지원",
-        ".item:nth-child(1) .item-deadline": "D-5 · 5/13 마감",
-        ".item:nth-child(2) .item-name": "온라인 플랫폼 활용 수출 지원(알리바바닷컴·바이코리아)",
-        ".item:nth-child(2) .item-desc": "수출 희망 중소기업 · 알리바바·바이코리아 · KOTRA 수행",
-        ".item:nth-child(2) .item-amount": "입점·운영비 지원",
-        ".item:nth-child(2) .item-deadline": "D-7 · 5/15 마감",
-        ".item:nth-child(3) .item-name": "중동진출 유망 테크산업 영위 중기 지원",
-        ".item:nth-child(3) .item-desc": "테크산업 중소기업 · 중동 진출 희망 · 중진공 수행",
-        ".item:nth-child(3) .item-amount": "해외진출 지원",
-        ".item:nth-child(3) .item-deadline": "D-7 · 5/15 마감",
-        ".item:nth-child(4) .item-name": "전북 기술교류 네트워크 R&D 과제 기획지원",
-        ".item:nth-child(4) .item-desc": "전북 소재 · R&D 입문 기업 · 전북테크노파크 수행",
-        ".item:nth-child(4) .item-amount": "R&D 기획 지원",
-        ".item:nth-child(4) .item-deadline": "D-7 · 5/15 마감",
-        ".item:nth-child(5) .item-name": "관광진흥개발기금 융자지원",
-        ".item:nth-child(5) .item-desc": "관광·숙박·여행업 · 문체부 기금 · 한국관광협회 수행",
-        ".item:nth-child(5) .item-amount": "저금리 융자",
-        ".item:nth-child(5) .item-deadline": "D-7 · 5/15 마감"
+        ".item:nth-child(1) .item-name": "2026년 특장차 수소파워팩 기술지원사업",
+        ".item:nth-child(1) .item-desc": "특장차 제조사 · 수소파워팩 기술 고도화",
+        ".item:nth-child(1) .item-amount": "기술지원",
+        ".item:nth-child(1) .item-deadline": "D-5 · 5/15 마감",
+        ".item:nth-child(2) .item-name": "인천 2026년 2차 국내외 권리화 지원사업",
+        ".item:nth-child(2) .item-desc": "인천 소재 기업 · 특허·상표 등록 준비 중",
+        ".item:nth-child(2) .item-amount": "권리화비용 보조",
+        ".item:nth-child(2) .item-deadline": "D-5 · 5/15 마감",
+        ".item:nth-child(3) .item-name": "강원 2026년 유통 점프업 참가기업 모집",
+        ".item:nth-child(3) .item-desc": "강원 소재 · 판로 개척 필요 기업",
+        ".item:nth-child(3) .item-amount": "유통 연계 지원",
+        ".item:nth-child(3) .item-deadline": "D-5 · 5/15 마감",
+        ".item:nth-child(4) .item-name": "인천 2026년 G5 OpenX 프로그램",
+        ".item:nth-child(4) .item-desc": "인천 소재 스타트업 · 글로벌 파트너 연결",
+        ".item:nth-child(4) .item-amount": "협업 연계",
+        ".item:nth-child(4) .item-deadline": "D-10 · 5/20 마감",
+        ".item:nth-child(5) .item-name": "2026년 해외전시회 한국관 참가기업 모집",
+        ".item:nth-child(5) .item-desc": "수출 준비 중 · 해외전시 희망 중소기업",
+        ".item:nth-child(5) .item-amount": "부스·운송비 보조",
+        ".item:nth-child(5) .item-deadline": "D-11 · 5/21 마감"
       }
     },
     {
@@ -67,9 +75,9 @@
       "content": {
         ".crumb": "KEY INSIGHT",
         ".pager": "<strong>04</strong> / 05",
-        ".quote": "정책자금은 <em>준비된 순서</em>가 아니라<br><span class=\"underline\">마감일 아는 순서</span>로 받아가요.",
-        ".att-text": "정책자금 컨설팅 현장에서 나온 얘기",
-        ".footer-quote": "공고 떠서 검토하고 서류 모으다 보면 마감 지나는 경우가 태반이에요.<br>이번 주 D-7 공고 5개, 오늘 바로 적격 여부만 먼저 확인해보세요.",
+        ".quote": "정책자금은 <em>타이밍</em>이 실력이에요 — <span class=\"underline\">공고 뜨고 3일 안에</span> 움직이는 기업이 붙습니다",
+        ".att-text": "정책자금 신청 현장에서 나온 이야기",
+        ".footer-quote": "마감 1~2일 전엔 접수 서버도 밀리고 서류도 허겁지겁 챙기게 돼요.<br>여유 있게 이번 주 안에 서류 목록부터 확인하는 걸 추천해요.",
         ".brand-domain": "gropass.co.kr"
       }
     },
@@ -79,20 +87,12 @@
         ".crumb": "정책자금 위클리 · 마무리",
         ".pager": "<strong>05</strong> / 05",
         ".badge": "DON'T MISS",
-        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭 끝.",
-        ".sub": "해당 공고 리스트부터 서류 체크리스트까지.<br>그로패스에서 지금 바로 확인하세요. → gropass.co.kr",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 해당 자금 확인",
+        ".sub": "어떤 자금이 내 사업에 맞는지<br>그로패스에서 바로 매칭해드려요",
         ".brand-tag": "AI 정책자금 매칭 플랫폼",
         ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
         ".url": "gropass.co.kr"
       }
     }
-  ],
-  "theme": {
-    "primary": "#0A1F44",
-    "accent": "#2563EB",
-    "highlight": "#FDE68A",
-    "gradient-tint": "#1E40AF22",
-    "dark-bg": "#0F172A",
-    "label": "정책자금 위클리 · 마감"
-  }
+  ]
 }
