@@ -6,7 +6,7 @@
     "공감페인": 6,
     "케이스스터디": 6,
     "숫자팩트": 5,
-    "마감알림": 3,
+    "마감알림": 4,
     "오해풀기": 2,
     "트렌드": 2
   },
@@ -410,6 +410,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYKUraRlvxv",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_공감페인_마감_1시간_전_서류_부족_알아챈_순간.md",
       "posted_at": "2026-05-10T14:21:19.453Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "상시 모집이지만 예산 소진 임박 자금",
+      "char_count": 227,
+      "media_id": "17996009186943183",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYLNcweCQlE",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_마감알림_상시_모집이지만_예산_소진_임박_자금.md",
+      "posted_at": "2026-05-10T22:37:24.814Z"
     }
   ]
 }
