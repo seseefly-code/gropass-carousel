@@ -8,7 +8,7 @@
     "숫자팩트": 5,
     "마감알림": 3,
     "오해풀기": 2,
-    "트렌드": 1
+    "트렌드": 2
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -370,6 +370,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYJpn9kIAvR",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_자금해설_2026년_가공현장_가공공정_디지털화_지원사업_수요기업.md",
       "posted_at": "2026-05-10T08:05:09.385Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
+      "char_count": 215,
+      "media_id": "18132788413566118",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJyYfMlLx3",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md",
+      "posted_at": "2026-05-10T09:21:38.413Z"
     }
   ]
 }
