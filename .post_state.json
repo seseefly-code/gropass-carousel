@@ -3,7 +3,7 @@
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 6,
-    "공감페인": 4,
+    "공감페인": 5,
     "케이스스터디": 5,
     "숫자팩트": 5,
     "마감알림": 3,
@@ -349,6 +349,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYJdEUfFhbf",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_숫자팩트_신청_대비_평균_선정률.md",
       "posted_at": "2026-05-10T06:15:23.603Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
+      "char_count": 238,
+      "media_id": "17961666096093564",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJfYZgllGq",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md",
+      "posted_at": "2026-05-10T06:35:36.461Z"
     }
   ]
 }
