@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 6,
-    "케이스스터디": 6,
+    "케이스스터디": 7,
     "숫자팩트": 6,
     "마감알림": 4,
     "오해풀기": 2,
@@ -482,6 +482,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYMtbbbmgVJ",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_솔직인사이트_대표가_직접_가야_하는_미팅_vs_위임해도_되는_미팅.md",
       "posted_at": "2026-05-11T12:36:10.310Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "char_count": 234,
+      "media_id": "18067464941343458",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYM6gE7iYOl",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
+      "posted_at": "2026-05-11T14:30:19.835Z"
     }
   ]
 }
