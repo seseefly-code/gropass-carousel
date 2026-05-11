@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 6,
     "케이스스터디": 7,
     "숫자팩트": 6,
     "마감알림": 4,
-    "오해풀기": 2,
+    "오해풀기": 3,
     "트렌드": 3
   },
   "used_announcements": [
@@ -492,6 +492,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYM6gE7iYOl",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
       "posted_at": "2026-05-11T14:30:19.835Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "컨설팅 받으면 100% 받는다는 환상",
+      "char_count": 215,
+      "media_id": "18105672034987596",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYNEfCLliwG",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_오해풀기_컨설팅_받으면_100_받는다는_환상.md",
+      "posted_at": "2026-05-11T15:57:34.319Z"
     }
   ]
 }
