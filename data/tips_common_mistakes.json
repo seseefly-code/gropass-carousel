@@ -1,0 +1,82 @@
+{
+  "carousel_id": "tips_common_mistakes",
+  "_topic": "정책자금 신청 시 자주 놓치는 5가지 포인트",
+  "_generated_at": "2026-05-11T23:29:54.622Z",
+  "caption": "정책자금 신청했다가 탈락하는 이유, 대부분 비슷해요 📌\n\n자격 조건 착각이 제일 많아요.\n사업자등록일이랑 창업일 헷갈려서 업력 계산 틀리는 경우,\n재직자 기준 놓쳐서 인건비 보조 못 받는 경우,\n마감 당일 서버 터져서 접수 실패하는 경우까지.\n\n어디서 걸릴지 미리 알고 싶으면\n그로패스에서 사업자번호 넣고 매칭 돌려보세요. 프로필 링크에 있어요.\n\n#정책자금 #소상공인지원 #창업지원금 #중소기업지원 #정부지원사업 #정책자금신청 #그로패스 #5월마감 #창업꿀팁 #사장님정보 #마감임박 #스타트업지원",
+  "theme": {
+    "primary": "#064E3B",
+    "accent": "#10B981",
+    "highlight": "#FEF3C7",
+    "gradient-tint": "#10B98122",
+    "dark-bg": "#022C22",
+    "label": "신청 노하우 · 자주 놓치는 5"
+  },
+  "slides": [
+    {
+      "template": "slide_01_cover_tips",
+      "content": {
+        ".label": "신청 노하우",
+        ".week": "2026년 5월 2주차",
+        ".eyebrow": "이번 주 마감 임박",
+        ".headline": "신청했다가<br>탈락하는<br><em>진짜 이유 5</em>",
+        ".sub": "서류 다 냈는데 왜 떨어졌을까요<br>놓치기 쉬운 포인트만 골랐어요"
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "1. 사업자등록 기준일 착각",
+        ".meta": "<span class=\"tag\">신청자격</span><span class=\"tag\">업력 계산</span><span class=\"tag\">창업일 기준</span>",
+        ".body": "'창업한 지 3년 미만'이라는 조건,<br>대부분 <strong>사업자등록증 발급일 기준</strong>이에요.<br>법인 설립일이나 실제 영업 시작일과 다를 수 있으니 꼭 확인하세요.",
+        ".stats .stat:nth-child(1) .stat-label": "놓치는 빈도",
+        ".stats .stat:nth-child(1) .stat-value": "1<span class=\"unit\">위</span>",
+        ".stats .stat:nth-child(2) .stat-label": "확인 서류",
+        ".stats .stat:nth-child(2) .stat-value": "사업자<span class=\"unit\">등록증</span>",
+        ".stats .stat:nth-child(3) .stat-label": "관련 마감",
+        ".stats .stat:nth-child(3) .stat-value": "D-<span class=\"unit\">4</span>"
+      }
+    },
+    {
+      "template": "slide_03_list_tips",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "탈락 전에 체크해야 할<br><em>5가지 포인트</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "1. 사업자등록 기준일 착각",
+        ".item:nth-child(1) .item-desc": "사업자등록일 ≠ 창업일 · 꼭 구분 필요",
+        ".item:nth-child(1) .item-amount": "탈락 1순위",
+        ".item:nth-child(1) .item-deadline": "D-4 · 5/15 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "정책자금은 <em>자격이 있어도</em> 서류 하나로 <span class=\"underline\">탈락</span>해요.",
+        ".att-text": "정책자금 컨설팅 현장 코멘트",
+        ".footer-quote": "실제로 서류 미비·기준일 착각으로 탈락하는 경우가 적지 않아요.<br>내용보다 형식에서 걸리는 게 현실이에요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭 확인",
+        ".sub": "조건 맞는 자금인지, 서류는 뭐가 필요한지<br>그로패스에서 바로 확인해보세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
