@@ -8,7 +8,7 @@
     "숫자팩트": 6,
     "마감알림": 4,
     "오해풀기": 2,
-    "트렌드": 2
+    "트렌드": 3
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -462,6 +462,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYMYyudFOS7",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_자금해설_세종_2026년_2차_산업단지_기숙사_임차비_지원_참여.md",
       "posted_at": "2026-05-11T09:35:45.214Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "그린·환경 분야 신규 자금 급증",
+      "char_count": 206,
+      "media_id": "18351491962209407",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYMhk73m3zY",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_트렌드_그린환경_분야_신규_자금_급증.md",
+      "posted_at": "2026-05-11T10:52:32.686Z"
     }
   ]
 }
