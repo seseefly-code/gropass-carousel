@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 8,
+    "솔직인사이트": 9,
     "공감페인": 6,
     "케이스스터디": 6,
     "숫자팩트": 6,
@@ -472,6 +472,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYMhk73m3zY",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_트렌드_그린환경_분야_신규_자금_급증.md",
       "posted_at": "2026-05-11T10:52:32.686Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
+      "char_count": 272,
+      "media_id": "18063033014698951",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYMtbbbmgVJ",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_솔직인사이트_대표가_직접_가야_하는_미팅_vs_위임해도_되는_미팅.md",
+      "posted_at": "2026-05-11T12:36:10.310Z"
     }
   ]
 }
