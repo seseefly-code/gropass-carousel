@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 10,
-    "공감페인": 6,
+    "공감페인": 7,
     "케이스스터디": 7,
     "숫자팩트": 7,
     "마감알림": 4,
@@ -533,6 +533,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYOm6m0lX5P",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_숫자팩트_RD_자금_평균_지원_규모와_자기부담률.md",
       "posted_at": "2026-05-12T06:17:38.862Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
+      "char_count": 236,
+      "media_id": "17857620132639892",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYOpZK0FqNZ",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_공감페인_매출_부족하다고_거절당한_첫_자금_신청.md",
+      "posted_at": "2026-05-12T06:39:17.681Z"
     }
   ]
 }
