@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 10,
     "공감페인": 7,
-    "케이스스터디": 8,
+    "케이스스터디": 9,
     "숫자팩트": 7,
     "마감알림": 4,
     "오해풀기": 3,
@@ -574,6 +574,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYPMy-HlJ0W",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_케이스스터디_대표_혼자_신청서_써서_5천_받은_케이스.md",
       "posted_at": "2026-05-12T11:48:39.258Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "char_count": 243,
+      "media_id": "18057346097531819",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPbp89iaup",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
+      "posted_at": "2026-05-12T13:58:30.736Z"
     }
   ]
 }
