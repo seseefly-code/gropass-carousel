@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 9,
+    "솔직인사이트": 10,
     "공감페인": 6,
     "케이스스터디": 7,
     "숫자팩트": 6,
@@ -513,6 +513,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYN7SI9kXMV",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_마감알림_대구_의료_바이오_특화분야_창업패키지_창업기업_2차_모.md",
       "posted_at": "2026-05-11T23:56:27.056Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "char_count": 248,
+      "media_id": "18122203309650341",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYOa19IFSTs",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_솔직인사이트_매출_1억과_10억의_자금_신청_전략_차이.md",
+      "posted_at": "2026-05-12T04:32:09.005Z"
     }
   ]
 }
