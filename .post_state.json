@@ -8,7 +8,7 @@
     "숫자팩트": 7,
     "마감알림": 4,
     "오해풀기": 3,
-    "트렌드": 3
+    "트렌드": 4
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -554,6 +554,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYO21YzlPZl",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_자금해설_경기_2026년_베트남_시큐텍Secutech_전시회_참.md",
       "posted_at": "2026-05-12T08:36:45.016Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "char_count": 244,
+      "media_id": "17927901915278084",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPDCtvFGV8",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_트렌드_글로벌_진출_자금_비중_변화.md",
+      "posted_at": "2026-05-12T10:23:25.263Z"
     }
   ]
 }
