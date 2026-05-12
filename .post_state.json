@@ -1,9 +1,9 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 10,
-    "공감페인": 7,
+    "공감페인": 8,
     "케이스스터디": 9,
     "숫자팩트": 7,
     "마감알림": 4,
@@ -584,6 +584,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYPbp89iaup",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
       "posted_at": "2026-05-12T13:58:30.736Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "char_count": 227,
+      "media_id": "17863065006627449",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPnaOQlGkl",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_공감페인_사업자등록증_하나로_뭐_받을_수_있는지_1시간_검색.md",
+      "posted_at": "2026-05-12T15:41:11.509Z"
     }
   ]
 }
