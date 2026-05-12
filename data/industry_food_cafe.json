@@ -1,8 +1,16 @@
 {
   "carousel_id": "industry_food_cafe",
   "_topic": "음식점·카페 사장님 정책자금 5선",
-  "_generated_at": "2026-05-08T00:43:19.582Z",
-  "caption": "카페·식당 사장님, 5월 마감 정책자금 5개 정리했어요 📌\n\n이번 주 가장 급한 건 혁신바우처(채용지원) — 5/13까지라 며칠 안 남았고,\n관광진흥개발기금 융자도 5/15 마감이에요. 카페 업종 등록돼 있으면 해당될 수 있어요.\n서울 소재 소상공인이면 온라인 판로개척 지원도 5/25까지 열려 있고요.\n상호나 메뉴 이름 상표 아직 못 낸 분들은 IP 나래 프로그램도 챙겨보세요.\n\n어디에 해당되는지 헷갈리면 그로패스에서 사업자번호 하나 넣으면 바로 나와요.\ngropass.co.kr (프로필 링크)\n\n#정책자금 #소상공인지원 #카페창업 #음식점창업 #F&B창업지원 #청년창업 #온라인판로 #서울소상공인 #중소기업지원 #정부지원사업 #그로패스 #5월마감",
+  "_generated_at": "2026-05-12T23:36:13.721Z",
+  "caption": "카페·음식점 사장님이 이번 달 챙겨야 할 정책자금 5개 정리했어요 📌\n\n브랜드 소상공인 점프업은 5/29 마감인데 중기벤처부 사업이라 규모가 있어요.\n식품 제조업이라면 스마트공장 구축 지원도 6/12까지 접수 가능하고요.\n디지털전환 지원은 포스·예약 시스템 바꿀 때 최대 400만원 나오는데 상시 접수라 예산 먼저 소진돼요.\n\n내 가게가 어디에 해당되는지 헷갈리면 그로패스에서 사업자번호 하나 넣으면 바로 나와요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #음식점창업 #카페창업 #브랜드소상공인 #디지털전환 #식품제조지원 #그로패스 #5월마감 #정부지원사업 #F&B창업 #소상공인정책자금",
+  "theme": {
+    "primary": "#7C2D12",
+    "accent": "#EA580C",
+    "highlight": "#FED7AA",
+    "gradient-tint": "#EA580C22",
+    "dark-bg": "#431407",
+    "label": "업종별 · 카페·식당 5선"
+  },
   "slides": [
     {
       "template": "slide_01_cover_industry",
@@ -10,8 +18,8 @@
         ".label": "업종별 정책자금",
         ".week": "2026년 5월 2주차",
         ".eyebrow": "F&B 대표님 마감 임박",
-        ".headline": "카페·식당 사장님<br>이번 달 놓치면<br><em>1년 기다려요</em>",
-        ".sub": "음식점·카페에 해당되는 정책자금만<br>5개 골라 정리했어요."
+        ".headline": "카페·식당 하면<br>못 챙기는<br><em>정책자금 5</em>",
+        ".sub": "음식점·카페 업종에 해당하는 공고만<br>이번 주 마감 순서대로 추렸어요."
       }
     },
     {
@@ -21,15 +29,15 @@
         ".pager": "<strong>02</strong> / 05",
         ".num": "01",
         ".num-label": "FIRST PICK",
-        ".title": "소상공인 온라인 판로개척 지원",
-        ".meta": "<span class=\"tag\">서울시</span><span class=\"tag\">소상공인</span><span class=\"tag\">온라인 판매</span>",
-        ".body": "온라인 쇼핑몰·SNS 채널로 매출 채널 늘리고 싶은 식당·카페 사장님 대상이에요.<br><strong>입점 컨설팅부터 광고비까지 실비 지원</strong>해줘서 디지털 전환 첫 발 떼기 딱 좋아요.<br>5/25 마감인데 서울 소재 소상공인만 해당.",
+        ".title": "글로벌 게임 현지화 지원 → 브랜드 소상공인 점프업 사업",
+        ".meta": "<span class=\"tag\">중소벤처기업부</span><span class=\"tag\">소상공인</span><span class=\"tag\">브랜드 성장</span>",
+        ".body": "<strong>브랜드력 있는 소상공인</strong>에게 마케팅·판로 확대를 지원하는 사업이에요.<br>카페·음식점 중 브랜드 정체성이 뚜렷한 곳이라면 충분히 검토해볼 만해요.<br>5/29 마감이라 지금 준비해도 아직 시간 있어요.",
         ".stats .stat:nth-child(1) .stat-label": "지원 내용",
-        ".stats .stat:nth-child(1) .stat-value": "온라인<span class=\"unit\">판로 실비</span>",
+        ".stats .stat:nth-child(1) .stat-value": "브랜드·판로<span class=\"unit\">패키지</span>",
         ".stats .stat:nth-child(2) .stat-label": "신청 마감",
-        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/25</span>",
-        ".stats .stat:nth-child(3) .stat-label": "주관기관",
-        ".stats .stat:nth-child(3) .stat-value": "서울시<span class=\"unit\">직접수행</span>"
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/29</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관부처",
+        ".stats .stat:nth-child(3) .stat-value": "중기<span class=\"unit\">벤처부</span>"
       }
     },
     {
@@ -38,28 +46,28 @@
         ".crumb": "정책자금 위클리 · 한눈에 보기",
         ".pager": "<strong>03</strong> / 05",
         ".eyebrow": "SUMMARY",
-        ".title": "카페·식당 사장님이<br>5월 안에 챙겨야 할<br><em>정책자금 5</em>",
+        ".title": "F&B 사장님이 챙겨야 할<br><em>정책자금 5</em>",
         ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
-        ".item:nth-child(1) .item-name": "소상공인 온라인 판로개척 지원",
-        ".item:nth-child(1) .item-desc": "서울 소재 소상공인 · 온라인 채널 확장",
-        ".item:nth-child(1) .item-amount": "온라인 판로 실비",
-        ".item:nth-child(1) .item-deadline": "D-17 · 5/25 마감",
-        ".item:nth-child(2) .item-name": "관광진흥개발기금 융자",
-        ".item:nth-child(2) .item-desc": "관광업종 등록 카페·식당 · 운전·시설자금",
-        ".item:nth-child(2) .item-amount": "저금리 융자",
-        ".item:nth-child(2) .item-deadline": "D-7 · 5/15 마감",
-        ".item:nth-child(3) .item-name": "청년 골목창업 경진대회",
-        ".item:nth-child(3) .item-desc": "서울 청년 · 골목상권 창업 준비 · F&B",
-        ".item:nth-child(3) .item-amount": "창업 사업화 지원",
-        ".item:nth-child(3) .item-deadline": "D-18 · 5/26 마감",
-        ".item:nth-child(4) .item-name": "혁신바우처(채용지원) 사업",
-        ".item:nth-child(4) .item-desc": "비수도권 중소기업 · 업종 무관 · 채용비 지원",
-        ".item:nth-child(4) .item-amount": "채용 바우처",
-        ".item:nth-child(4) .item-deadline": "D-5 · 5/13 마감",
-        ".item:nth-child(5) .item-name": "소상공인 IP 나래 프로그램",
-        ".item:nth-child(5) .item-desc": "인천·충북·전남 · 상표 브랜드 보호 · 업종 무관",
-        ".item:nth-child(5) .item-amount": "출원비+컨설팅",
-        ".item:nth-child(5) .item-deadline": "D-27 · 6/4 마감"
+        ".item:nth-child(1) .item-name": "글로벌 게임 현지화 지원 → 브랜드 소상공인 점프업 사업",
+        ".item:nth-child(1) .item-desc": "소상공인 · 브랜드 있는 카페·식당 · 판로 확대 목적",
+        ".item:nth-child(1) .item-amount": "브랜드 패키지",
+        ".item:nth-child(1) .item-deadline": "D-17 · 5/29 마감",
+        ".item:nth-child(2) .item-name": "2026년 식품 제조업 스마트공장 구축지원 (삼성형)",
+        ".item:nth-child(2) .item-desc": "식품제조업 · 반조리·HMR 생산 가능 업체",
+        ".item:nth-child(2) .item-amount": "구축비 일부 지원",
+        ".item:nth-child(2) .item-deadline": "D-31 · 6/12 마감",
+        ".item:nth-child(3) .item-name": "2026년 K-AgroEX 바이어 초청 수출상담회",
+        ".item:nth-child(3) .item-desc": "농식품 제조 · 자체 소스·음료 보유 · 수출 관심",
+        ".item:nth-child(3) .item-amount": "수출상담 지원",
+        ".item:nth-child(3) .item-deadline": "D-30 · 6/11 마감",
+        ".item:nth-child(4) .item-name": "소상공인 디지털전환 지원 (일반형)",
+        ".item:nth-child(4) .item-desc": "소상공인 · 음식점·카페 · 디지털 솔루션 도입",
+        ".item:nth-child(4) .item-amount": "최대 400만원",
+        ".item:nth-child(4) .item-deadline": "상시 · 예산 소진 전",
+        ".item:nth-child(5) .item-name": "뿌리깊은 가게 선정 (세종)",
+        ".item:nth-child(5) .item-desc": "세종 소재 · 오래된 음식점·카페 · 업력 중심",
+        ".item:nth-child(5) .item-amount": "신용보증+홍보",
+        ".item:nth-child(5) .item-deadline": "D-17 · 5/29 마감"
       }
     },
     {
@@ -67,9 +75,9 @@
       "content": {
         ".crumb": "KEY INSIGHT",
         ".pager": "<strong>04</strong> / 05",
-        ".quote": "정책자금은 <em>업종보다 타이밍</em>이에요 — 음식점도 <span class=\"underline\">마감일 아는 순간 절반은 된 거예요.</span>",
-        ".att-text": "F&B 대표 정책자금 상담 현장 코멘트",
-        ".footer-quote": "실제로 카페 사장님들이 탈락하는 이유 1위는 자격 미달이 아니라 마감 초과예요.<br>공고 열어보는 것만으로도 경쟁자 절반은 이기는 거예요.",
+        ".quote": "음식점 업종은 <em>제조·수출·디지털</em>을 동시에 볼 수 있어서<br>사실 <span class=\"underline\">신청 가능한 자금이 생각보다 많아요.</span>",
+        ".att-text": "정책자금 컨설팅 현장에서 나온 얘기",
+        ".footer-quote": "카페도 자체 음료 제품이 있으면 수출 자금 대상이 되고,<br>포스 바꾸는 것만으로도 디지털전환 지원금 받을 수 있어요.",
         ".brand-domain": "gropass.co.kr"
       }
     },
@@ -79,20 +87,12 @@
         ".crumb": "정책자금 위클리 · 마무리",
         ".pager": "<strong>05</strong> / 05",
         ".badge": "DON'T MISS",
-        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
-        ".sub": "내 식당·카페에 맞는 정책자금<br>그로패스에서 바로 확인하세요.",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 내 업종 매칭.",
+        ".sub": "어떤 자금이 우리 가게에 맞는지<br>그로패스에서 바로 확인하세요.",
         ".brand-tag": "AI 정책자금 매칭 플랫폼",
         ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
         ".url": "gropass.co.kr"
       }
     }
-  ],
-  "theme": {
-    "primary": "#7C2D12",
-    "accent": "#EA580C",
-    "highlight": "#FED7AA",
-    "gradient-tint": "#EA580C22",
-    "dark-bg": "#431407",
-    "label": "업종별 · 카페·식당 5선"
-  }
+  ]
 }
