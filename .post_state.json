@@ -1,10 +1,10 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 10,
     "공감페인": 7,
-    "케이스스터디": 7,
+    "케이스스터디": 8,
     "숫자팩트": 7,
     "마감알림": 4,
     "오해풀기": 3,
@@ -564,6 +564,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYPDCtvFGV8",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_트렌드_글로벌_진출_자금_비중_변화.md",
       "posted_at": "2026-05-12T10:23:25.263Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "char_count": 219,
+      "media_id": "18340712176172958",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPMy-HlJ0W",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_케이스스터디_대표_혼자_신청서_써서_5천_받은_케이스.md",
+      "posted_at": "2026-05-12T11:48:39.258Z"
     }
   ]
 }
