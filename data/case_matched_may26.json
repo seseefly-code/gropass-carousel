@@ -1,0 +1,82 @@
+{
+  "carousel_id": "case_matched_may26",
+  "_topic": "최근 매칭된 사장님 케이스 5가지",
+  "_generated_at": "2026-05-13T23:36:50.237Z",
+  "caption": "이런 사장님들이 실제로 자금 받았어요 📌\n\n수원 쇼핑몰 사장님은 경기도 육성기금으로 5천만 원,\n충남 식품 제조업체는 6차 산업 기업육성 사업으로 연결됐고,\n부산 소상공인은 경영 컨설팅에 판로 지원까지 묶어서 받으셨대요.\n공통점은 하나예요. 본인 업종에 딱 맞는 공고를 제때 찾은 것.\n\n헷갈리면 그로패스에서 사업자번호 넣고 1분 진단해보세요.\ngropass.co.kr (프로필 링크)\n\n#정책자금 #소상공인지원 #중소기업지원 #정부지원사업 #창업지원금 #정책자금매칭 #그로패스 #5월마감임박 #소상공인 #경영자금 #사업자금 #스타트업지원",
+  "theme": {
+    "primary": "#3730A3",
+    "accent": "#6366F1",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#6366F122",
+    "dark-bg": "#1E1B4B",
+    "label": "매칭 케이스 · 사장님 5분"
+  },
+  "slides": [
+    {
+      "template": "slide_01_cover_case",
+      "content": {
+        ".label": "그로패스 매칭 케이스",
+        ".week": "2026년 5월 3주차",
+        ".eyebrow": "실제 매칭된 사장님들 이야기",
+        ".headline": "이 분들은<br>어떻게 <em>정책자금</em><br>받았을까",
+        ".sub": "업종도 다르고 규모도 달랐는데<br>공통점이 하나 있었어요."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "수원 쇼핑몰 운영 사장님 (직원 3명)",
+        ".meta": "<span class=\"tag\">소상공인</span><span class=\"tag\">온라인 판매</span><span class=\"tag\">경기도</span>",
+        ".body": "스마트스토어 운영 3년차인데 매출은 꾸준한데 자금이 항상 부족하다고 하셨어요.<br><strong>경기도 중소기업 육성기금 융자로 운전자금 5천만 원</strong> 연결됐고,<br>신청서류 준비까지 3일 걸렸대요.",
+        ".stats .stat:nth-child(1) .stat-label": "받은 자금 규모",
+        ".stats .stat:nth-child(1) .stat-value": "5<span class=\"unit\">천만원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "매칭 소요일",
+        ".stats .stat:nth-child(2) .stat-value": "3<span class=\"unit\">일</span>",
+        ".stats .stat:nth-child(3) .stat-label": "활용 용도",
+        ".stats .stat:nth-child(3) .stat-value": "운전<span class=\"unit\">자금</span>"
+      }
+    },
+    {
+      "template": "slide_03_list_case",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "실제로 받은 사장님들<br><em>케이스 5가지</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "수원 쇼핑몰 운영 사장님 (직원 3명)",
+        ".item:nth-child(1) .item-desc": "온라인 판매업 · 경기 소재 · 직원 3인 이하",
+        ".item:nth-child(1) .item-amount": "최대 5천만",
+        ".item:nth-child(1) .item-deadline": "D-14 · 5/27 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "자금 못 받는 이유 대부분은 자격 없어서가 아니라<br><em>내 업종에 맞는 공고를</em> <span class=\"underline\">못 찾아서</span>예요.",
+        ".att-text": "정책자금 컨설팅 현장에서 나온 이야기",
+        ".footer-quote": "같은 업종, 같은 매출이어도 신청한 사람만 받아요.<br>공고 찾는 시간 아끼면 그게 바로 자금이에요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 안에</em> 매칭.",
+        ".sub": "위 케이스처럼 내 업종·지역에 맞는 자금<br>그로패스에서 바로 확인하세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
