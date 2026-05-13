@@ -2,7 +2,7 @@
   "evening_index": 1,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 10,
+    "솔직인사이트": 11,
     "공감페인": 8,
     "케이스스터디": 9,
     "숫자팩트": 7,
@@ -616,6 +616,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYQgRD8FBy1",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_마감알림_2026년_글로벌_게임_현지화_지원해외_이용자평가_모집.md",
       "posted_at": "2026-05-12T23:58:02.149Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "신청서에 쓰면 안 되는 표현 5가지",
+      "char_count": 287,
+      "media_id": "17869304481528553",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRAWtQlSWv",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_솔직인사이트_신청서에_쓰면_안_되는_표현_5가지.md",
+      "posted_at": "2026-05-13T04:38:28.535Z"
     }
   ]
 }
