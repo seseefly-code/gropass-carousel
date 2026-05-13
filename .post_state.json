@@ -3,7 +3,7 @@
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
-    "공감페인": 8,
+    "공감페인": 9,
     "케이스스터디": 9,
     "숫자팩트": 8,
     "마감알림": 4,
@@ -636,6 +636,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYRNAqXFnUb",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_숫자팩트_벤처_인증_시_보증한도가_얼마나_늘어나는지.md",
       "posted_at": "2026-05-13T06:29:00.709Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
+      "char_count": 206,
+      "media_id": "18101175641047890",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRPfBKlb6a",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_공감페인_옆_회사가_자금_받았다는_소식_들었을_때.md",
+      "posted_at": "2026-05-13T06:50:38.126Z"
     }
   ]
 }
