@@ -8,7 +8,7 @@
     "숫자팩트": 8,
     "마감알림": 4,
     "오해풀기": 3,
-    "트렌드": 4
+    "트렌드": 5
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -657,6 +657,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYRcKXQlDD9",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_자금해설_충남_청양군_2026년_2차_특화자원을_활용한_6차_산.md",
       "posted_at": "2026-05-13T08:41:24.046Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "char_count": 206,
+      "media_id": "17888596458369617",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRmoC9Gthu",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
+      "posted_at": "2026-05-13T10:12:51.262Z"
     }
   ]
 }
