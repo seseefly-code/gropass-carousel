@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 11,
+    "솔직인사이트": 12,
     "공감페인": 9,
     "케이스스터디": 9,
     "숫자팩트": 8,
@@ -667,6 +667,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYRmoC9Gthu",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
       "posted_at": "2026-05-13T10:12:51.262Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "char_count": 227,
+      "media_id": "17863904748566247",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRypS9miix",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_솔직인사이트_현장_평가_떨어지는_이유_90.md",
+      "posted_at": "2026-05-13T11:57:53.404Z"
     }
   ]
 }
