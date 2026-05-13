@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 12,
     "공감페인": 9,
-    "케이스스터디": 9,
+    "케이스스터디": 10,
     "숫자팩트": 8,
     "마감알림": 4,
     "오해풀기": 3,
@@ -677,6 +677,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYRypS9miix",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_솔직인사이트_현장_평가_떨어지는_이유_90.md",
       "posted_at": "2026-05-13T11:57:53.404Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
+      "char_count": 237,
+      "media_id": "18005122538868805",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYSBvQXGsJb",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_케이스스터디_같은_자금에_2년_연속_떨어진_후_받은_케이스.md",
+      "posted_at": "2026-05-13T14:09:47.300Z"
     }
   ]
 }
