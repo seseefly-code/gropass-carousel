@@ -3,7 +3,7 @@
   "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 13,
-    "공감페인": 9,
+    "공감페인": 10,
     "케이스스터디": 10,
     "숫자팩트": 9,
     "마감알림": 5,
@@ -738,6 +738,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYTxoQ2FInW",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_숫자팩트_사업계획서_평균_작성_시간_직접_vs_컨설팅.md",
       "posted_at": "2026-05-14T06:27:28.234Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "정책자금 카페에서 검색만 3시간",
+      "char_count": 219,
+      "media_id": "17896647648308910",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYT0AhWFItu",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_공감페인_정책자금_카페에서_검색만_3시간.md",
+      "posted_at": "2026-05-14T06:48:16.215Z"
     }
   ]
 }
