@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 12,
+    "솔직인사이트": 13,
     "공감페인": 9,
     "케이스스터디": 10,
     "숫자팩트": 8,
@@ -718,6 +718,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYTExz9FkT8",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_마감알림_세종ㆍ대전ㆍ충북ㆍ충남_2026년_AI기반_디지털헬스케어.md",
       "posted_at": "2026-05-13T23:55:33.291Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "char_count": 311,
+      "media_id": "17974817748024195",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYTlBSakYWg",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_솔직인사이트_자금_받고_첫_1년에_꼭_해야_하는_것.md",
+      "posted_at": "2026-05-14T04:37:18.179Z"
     }
   ]
 }
