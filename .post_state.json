@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 10,
-    "케이스스터디": 11,
+    "케이스스터디": 12,
     "숫자팩트": 9,
     "마감알림": 5,
     "오해풀기": 3,
@@ -779,6 +779,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYUWIvQFW8a",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_케이스스터디_직원_5명에서_50명까지_자금만으로_키운_회사.md",
       "posted_at": "2026-05-14T11:46:28.772Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 238,
+      "media_id": "17959028598107749",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUkEaelFjI",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md",
+      "posted_at": "2026-05-14T13:48:12.595Z"
     }
   ]
 }
