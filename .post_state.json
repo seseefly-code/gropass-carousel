@@ -6,7 +6,7 @@
     "공감페인": 11,
     "케이스스터디": 12,
     "숫자팩트": 9,
-    "마감알림": 5,
+    "마감알림": 6,
     "오해풀기": 3,
     "트렌드": 7
   },
@@ -799,6 +799,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYUu0CHE3Kf",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_공감페인_자격_한_줄_차이로_안_된_신청.md",
       "posted_at": "2026-05-14T15:22:10.105Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
+      "char_count": 222,
+      "media_id": "18080655236400590",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYViCUPDwL1",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_마감알림_정기_공고_시즌_임박_알림_RD_청년창업.md",
+      "posted_at": "2026-05-14T22:49:43.858Z"
     }
   ]
 }
