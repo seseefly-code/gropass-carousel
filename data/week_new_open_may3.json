@@ -1,0 +1,98 @@
+{
+  "carousel_id": "week_new_open_may3",
+  "_topic": "이번 주 신청 시작한 정책자금 5선",
+  "_generated_at": "2026-05-14T23:28:47.806Z",
+  "caption": "이번 주 막 신청 시작한 정책자금만 골라봤어요 📌\n\n그린바이오, 홈로봇가전, 헬스케어, 화장품, 디지털전환까지\n분야는 다른데 공통점이 있어요.\n다 이번 주에 접수 시작했고, 빠르면 5/22 마감이에요.\n마감 임박 공고보다 이런 게 준비 시간 있어서 훨씬 낫더라구요.\n\n어느 공고가 우리 회사에 해당되는지 모르겠으면\ngropass.co.kr에서 사업자번호 넣으면 1분이면 나와요.\n\n#정책자금 #중소기업지원 #소상공인지원 #정부지원사업 #창업지원금 #디지털전환 #그린바이오 #헬스케어지원 #화장품기업 #스마트공장 #그로패스 #5월공고",
+  "theme": {
+    "primary": "#155E75",
+    "accent": "#06B6D4",
+    "highlight": "#FEF08A",
+    "gradient-tint": "#06B6D422",
+    "dark-bg": "#083344",
+    "label": "이번 주 신규 · 5선"
+  },
+  "slides": [
+    {
+      "template": "slide_01_cover_new",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 3주차",
+        ".eyebrow": "이번 주 막 열린 공고들",
+        ".headline": "이번 주 막 열린<br>정책자금만<br><em>5개 추렸어요</em>",
+        ".sub": "신청 시작한 지 며칠 안 됐어요.<br>지금이 여유 있게 준비할 타이밍이에요."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "2026년 그린바이오 벤처 캠퍼스 기업지원 프로그램",
+        ".meta": "<span class=\"tag\">농림축산식품부</span><span class=\"tag\">바이오·농업</span><span class=\"tag\">D-8 마감</span>",
+        ".body": "농식품부가 포항테크노파크 통해 운영하는 그린바이오 스타트업 지원 프로그램이에요.<br><strong>기술 실증·사업화 연계까지</strong> 지원하는 게 특징이고, 5/22 마감이라 지금 바로 준비해야 해요.<br>농업 연계 바이오 기업이면 꼭 확인해보세요.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 내용",
+        ".stats .stat:nth-child(1) .stat-value": "사업화<span class=\"unit\">지원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/22</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관부처",
+        ".stats .stat:nth-child(3) .stat-value": "농림<span class=\"unit\">축산식품부</span>"
+      }
+    },
+    {
+      "template": "slide_03_list_new",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "이번 주 막 열린<br><em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "2026년 그린바이오 벤처 캠퍼스 기업지원 프로그램",
+        ".item:nth-child(1) .item-desc": "바이오·농식품 기업 · 포항테크노파크 수행",
+        ".item:nth-child(1) .item-amount": "사업화 지원",
+        ".item:nth-child(1) .item-deadline": "D-8 · 5/22 마감",
+        ".item:nth-child(2) .item-name": "2026년 홈로봇가전 시제작 지원 (추가모집)",
+        ".item:nth-child(2) .item-desc": "홈로봇·가전 제조사 · 추가모집 주의",
+        ".item:nth-child(2) .item-amount": "시제작 비용지원",
+        ".item:nth-child(2) .item-deadline": "D-8 · 5/22 마감",
+        ".item:nth-child(3) .item-name": "2026년 지능형 헬스케어제품 실증·사업화 지원 (추가모집)",
+        ".item:nth-child(3) .item-desc": "헬스케어 제품 기업 · 부산테크노파크 수행",
+        ".item:nth-child(3) .item-amount": "실증·사업화 연계",
+        ".item:nth-child(3) .item-deadline": "D-8 · 5/22 마감",
+        ".item:nth-child(4) .item-name": "2026년 화장품산업육성지원사업 (광주·전남)",
+        ".item:nth-child(4) .item-desc": "광주·전남 화장품 기업 · 광주테크노파크",
+        ".item:nth-child(4) .item-amount": "기술·판로 지원",
+        ".item:nth-child(4) .item-deadline": "D-13 · 5/27 마감",
+        ".item:nth-child(5) .item-name": "2026년 경북 디지털전환 지원모델 확산사업",
+        ".item:nth-child(5) .item-desc": "경북 소재 중소기업 · 경북테크노파크 수행",
+        ".item:nth-child(5) .item-amount": "DX 구축 비용",
+        ".item:nth-child(5) .item-deadline": "D-14 · 5/28 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "마감 임박 공고보다 <em>이제 막 열린 공고</em>가<br><span class=\"underline\">서류 준비 시간이 있어서 합격률이 달라요.</span>",
+        ".att-text": "정책자금 신청 현장에서 자주 보는 패턴",
+        ".footer-quote": "마감 3일 전 몰아서 쓴 사업계획서랑<br>여유 있게 다듬은 거랑 심사관도 다르게 봐요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "어떤 공고가 우리 회사 해당되는지<br>그로패스에서 바로 확인해보세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
