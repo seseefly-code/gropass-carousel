@@ -1,10 +1,10 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 10,
-    "케이스스터디": 10,
+    "케이스스터디": 11,
     "숫자팩트": 9,
     "마감알림": 5,
     "오해풀기": 3,
@@ -769,6 +769,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYUKkj3GB7M",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_트렌드_지역특화_자금이_늘어나는_이유.md",
       "posted_at": "2026-05-14T10:05:26.060Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
+      "char_count": 233,
+      "media_id": "18077346305222693",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUWIvQFW8a",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_케이스스터디_직원_5명에서_50명까지_자금만으로_키운_회사.md",
+      "posted_at": "2026-05-14T11:46:28.772Z"
     }
   ]
 }
