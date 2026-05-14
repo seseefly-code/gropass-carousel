@@ -8,7 +8,7 @@
     "숫자팩트": 9,
     "마감알림": 5,
     "오해풀기": 3,
-    "트렌드": 6
+    "트렌드": 7
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -759,6 +759,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYUALIfFGcO",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_자금해설_2026년_홍콩_소비재_메가쇼_전시회_수출_컨소시엄_참.md",
       "posted_at": "2026-05-14T08:34:34.741Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "지역특화 자금이 늘어나는 이유",
+      "char_count": 233,
+      "media_id": "18091150373244400",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUKkj3GB7M",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_트렌드_지역특화_자금이_늘어나는_이유.md",
+      "posted_at": "2026-05-14T10:05:26.060Z"
     }
   ]
 }
