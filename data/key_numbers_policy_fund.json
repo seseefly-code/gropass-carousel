@@ -1,8 +1,8 @@
 {
   "carousel_id": "key_numbers_policy_fund",
-  "_topic": "사장님이 알아야 할 정책자금 핵심 숫자 5가지",
-  "_generated_at": "2026-05-08T23:29:30.802Z",
-  "caption": "정책자금, 몰라서 못 받는 경우가 생각보다 많아요 📌\n\n지금 전국에 열려 있는 공고만 45건이에요.\n이번 주 마감이 7건 이상이고, 특히 5/15 마감 공고가 몇 개 겹쳐 있어요.\n30조 규모 예산인데 상반기에 조기 소진되는 경우가 매년 반복되네요.\n조건 맞는 공고 찾는 게 진짜 문제인데, 하나씩 읽으면 반나절이에요.\n\n헷갈리면 그로패스에서 사업자번호 넣고 1분이면 필터링 끝나요.\ngropass.co.kr 프로필 링크에 있어요.\n\n#정책자금 #소상공인지원 #중소기업지원 #창업지원금 #정부지원사업 #5월마감 #마감임박 #그로패스 #정책자금매칭 #사장님꿀팁 #스타트업지원",
+  "_topic": "정책자금 핵심 숫자 5가지",
+  "_generated_at": "2026-05-15T23:28:10.296Z",
+  "caption": "이번 주 정책자금, 숫자로만 보면 이렇게 돼요 📌\n\n연간 30조 원이 풀리는데 실제로 신청하는 기업은 10% 안팎이에요.\n이번 주 D-4인 충남 직장문화개선 패키지는 사실상 오늘·내일 승부예요.\n5/29 마감인 서울 뿌리기업 자동화 지원은 추가 모집 중이라 아직 기회 있구요.\n경기 드론·강원 정보보호 특화 지원은 D-21이라 여유 있어 보여도 서류 준비 시간 빠르게 가요.\n\n어디에 해당되는지 헷갈리면 그로패스에서 사업자번호 입력하고 1분이면 매칭 끝나요.\ngropass.co.kr\n\n#정책자금 #중소기업지원 #소상공인지원 #정부지원사업 #마감임박 #창업지원금 #뿌리기업 #드론지원 #경북지원사업 #충남기업 #그로패스 #정책자금매칭",
   "theme": {
     "primary": "#831843",
     "accent": "#DB2777",
@@ -15,11 +15,11 @@
     {
       "template": "slide_01_cover_numbers",
       "content": {
-        ".label": "정책자금 핵심 숫자",
+        ".label": "정책자금 위클리",
         ".week": "2026년 5월 2주차",
-        ".eyebrow": "몰랐으면 손해보는",
-        ".headline": "이 숫자만 알면<br>정책자금<br><em>절반은 됩니다</em>",
-        ".sub": "신청 전에 꼭 봐야 할<br>숫자 5개 정리했어요"
+        ".eyebrow": "사장님이 놓치는 그 숫자들",
+        ".headline": "모르면 손해,<br>알면 다른<br><em>숫자 5</em>",
+        ".sub": "신청 전에 꼭 알아야 할<br>정책자금 핵심 데이터만 골랐어요."
       }
     },
     {
@@ -30,14 +30,14 @@
         ".num": "01",
         ".num-label": "FIRST PICK",
         ".title": "30조 원",
-        ".meta": "<span class=\"tag\">중소벤처기업부</span><span class=\"tag\">연간 예산</span><span class=\"tag\">중소·소상공인</span>",
-        ".body": "매년 중기부가 중소기업·소상공인에 푸는 정책자금 규모예요.<br>문제는 이 중 <strong>상당수가 하반기 전에 조기 소진</strong>됩니다.<br>5월이 사실상 연간 신청의 마지막 타이밍인 이유가 여기 있어요.",
-        ".stats .stat:nth-child(1) .stat-label": "연간 정책자금 규모",
+        ".meta": "<span class=\"tag\">연간 규모</span><span class=\"tag\">중기부·산업부</span><span class=\"tag\">전체 정책자금</span>",
+        ".body": "매년 중소기업·소상공인에게 풀리는 정책자금 규모예요.<br>근데 <strong>실제 신청 기업은 전체의 10% 안팎</strong>이라고 하더라구요.<br>아는 사람만 받는 구조인 거죠.",
+        ".stats .stat:nth-child(1) .stat-label": "연간 공급 규모",
         ".stats .stat:nth-child(1) .stat-value": "30<span class=\"unit\">조 원</span>",
-        ".stats .stat:nth-child(2) .stat-label": "조기 소진 시점",
-        ".stats .stat:nth-child(2) .stat-value": "상반기<span class=\"unit\"> 내</span>",
-        ".stats .stat:nth-child(3) .stat-label": "수혜 기업 수",
-        ".stats .stat:nth-child(3) .stat-value": "수십만<span class=\"unit\">개사</span>"
+        ".stats .stat:nth-child(2) .stat-label": "주요 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/29</span>",
+        ".stats .stat:nth-child(3) .stat-label": "수혜 비율",
+        ".stats .stat:nth-child(3) .stat-value": "10<span class=\"unit\">% 안팎</span>"
       }
     },
     {
@@ -46,28 +46,28 @@
         ".crumb": "정책자금 위클리 · 한눈에 보기",
         ".pager": "<strong>03</strong> / 05",
         ".eyebrow": "SUMMARY",
-        ".title": "사장님이 알아야 할<br><em>핵심 숫자 5</em>",
+        ".title": "이번 주 꼭 챙겨야 할<br><em>핵심 숫자 5</em>",
         ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
         ".item:nth-child(1) .item-name": "30조 원",
-        ".item:nth-child(1) .item-desc": "중기부 연간 예산 · 상반기 조기 소진 잦음",
-        ".item:nth-child(1) .item-amount": "약 30조",
-        ".item:nth-child(1) .item-deadline": "매년 반복",
-        ".item:nth-child(2) .item-name": "D-7",
-        ".item:nth-child(2) .item-desc": "제조업 · 특장차·수소 분야 · 충북 수행",
-        ".item:nth-child(2) .item-amount": "기술지원형",
-        ".item:nth-child(2) .item-deadline": "D-7 · 5/15 마감",
-        ".item:nth-child(3) .item-name": "24개사",
-        ".item:nth-child(3) .item-desc": "소비재·유통 · 혁신형 중소기업 · 방송광고",
-        ".item:nth-child(3) .item-amount": "광고비 지원",
-        ".item:nth-child(3) .item-deadline": "D-24 · 6/1 마감",
-        ".item:nth-child(4) .item-name": "45건",
-        ".item:nth-child(4) .item-desc": "전국 · 업종·지역 조건 상이 · 직접 필터 필요",
-        ".item:nth-child(4) .item-amount": "45건 동시",
-        ".item:nth-child(4) .item-deadline": "이번 주 다수 마감",
-        ".item:nth-child(5) .item-name": "1분",
-        ".item:nth-child(5) .item-desc": "사업자번호 1개 · 전국 공고 자동 필터 · 1분",
-        ".item:nth-child(5) .item-amount": "무료 매칭",
-        ".item:nth-child(5) .item-deadline": "상시 이용 가능"
+        ".item:nth-child(1) .item-desc": "매년 풀리는 정책자금 총규모 · 신청 기업은 10%대",
+        ".item:nth-child(1) .item-amount": "연 30조 원",
+        ".item:nth-child(1) .item-deadline": "상시 공급",
+        ".item:nth-child(2) .item-name": "D-4",
+        ".item:nth-child(2) .item-desc": "충남 소재 기업 · 직장문화개선 패키지 · 이번 주 마감",
+        ".item:nth-child(2) .item-amount": "인력 지원",
+        ".item:nth-child(2) .item-deadline": "D-4 · 5/19 마감",
+        ".item:nth-child(3) .item-name": "D-7",
+        ".item:nth-child(3) .item-desc": "경북 소재 기업 · 성장사다리 통합 공고 · 여러 항목 한 번에",
+        ".item:nth-child(3) .item-amount": "통합 지원",
+        ".item:nth-child(3) .item-deadline": "D-7 · 5/22 마감",
+        ".item:nth-child(4) .item-name": "D-14",
+        ".item:nth-child(4) .item-desc": "서울 뿌리기업 · 제조 자동화 설비 · 추가 모집 중",
+        ".item:nth-child(4) .item-amount": "자동화 지원",
+        ".item:nth-child(4) .item-deadline": "D-14 · 5/29 마감",
+        ".item:nth-child(5) .item-name": "D-21",
+        ".item:nth-child(5) .item-desc": "드론·정보보호 업종 · 경기·강원 · 6/5 동시 마감",
+        ".item:nth-child(5) .item-amount": "업종 특화",
+        ".item:nth-child(5) .item-deadline": "D-21 · 6/5 마감"
       }
     },
     {
@@ -75,9 +75,9 @@
       "content": {
         ".crumb": "KEY INSIGHT",
         ".pager": "<strong>04</strong> / 05",
-        ".quote": "정책자금은 <em>아는 사람</em>이 받는 게 아니라 <span class=\"underline\">빠른 사람</span>이 받아요.",
-        ".att-text": "정책자금 실무 운영자 코멘트",
-        ".footer-quote": "같은 조건의 두 사장님 — 한 명은 5월에 신청, 한 명은 9월에 신청.<br>예산 소진으로 한 명은 내년을 기다려야 했어요.",
+        ".quote": "정책자금은 <em>마감일</em>이 아니라 <span class=\"underline\">서류 준비 시작일</span>이 진짜 기준이에요.",
+        ".att-text": "정책자금 컨설팅 현장에서 나온 얘기",
+        ".footer-quote": "공고 뜨고 나서 준비 시작하면 대부분 1~2주가 후딱 가요.<br>D-14 공고도 지금 시작하면 딱 맞게 낼 수 있어요.",
         ".brand-domain": "gropass.co.kr"
       }
     },
@@ -87,8 +87,8 @@
         ".crumb": "정책자금 위클리 · 마무리",
         ".pager": "<strong>05</strong> / 05",
         ".badge": "DON'T MISS",
-        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 내 공고 확인",
-        ".sub": "45개 공고 직접 읽을 시간에<br>그로패스에서 바로 매칭해요. gropass.co.kr",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "어떤 공고가 우리 회사 얘긴지<br>그로패스에서 바로 확인하세요.",
         ".brand-tag": "AI 정책자금 매칭 플랫폼",
         ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
         ".url": "gropass.co.kr"
