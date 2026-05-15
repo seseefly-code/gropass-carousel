@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 14,
-    "공감페인": 11,
+    "공감페인": 12,
     "케이스스터디": 12,
     "숫자팩트": 10,
     "마감알림": 6,
@@ -840,6 +840,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYWXdaLFYqT",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_숫자팩트_첫_자금_신청부터_통장_입금까지_평균_소요_시간.md",
       "posted_at": "2026-05-15T06:36:30.662Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
+      "char_count": 178,
+      "media_id": "18068757659678602",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWZ4gNEVHT",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_공감페인_사업계획서_양식_또_바뀐_걸_발견한_순간.md",
+      "posted_at": "2026-05-15T06:57:42.399Z"
     }
   ]
 }
