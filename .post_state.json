@@ -8,7 +8,7 @@
     "숫자팩트": 10,
     "마감알림": 6,
     "오해풀기": 3,
-    "트렌드": 7
+    "트렌드": 8
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -861,6 +861,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYWmUA2FEQF",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_자금해설_2026년_스마트_디지털헬스케어_제품_사업화_통합지원_.md",
       "posted_at": "2026-05-15T08:46:17.409Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "여성기업 우대 자금 변화",
+      "char_count": 237,
+      "media_id": "18087816896459907",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWwKsxlBHn",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_트렌드_여성기업_우대_자금_변화.md",
+      "posted_at": "2026-05-15T10:12:25.958Z"
     }
   ]
 }
