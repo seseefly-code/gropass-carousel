@@ -5,7 +5,7 @@
     "솔직인사이트": 14,
     "공감페인": 11,
     "케이스스터디": 12,
-    "숫자팩트": 9,
+    "숫자팩트": 10,
     "마감알림": 6,
     "오해풀기": 3,
     "트렌드": 7
@@ -830,6 +830,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYWKib5lSoZ",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_솔직인사이트_두_번째_자금_신청이_첫_번째보다_어려운_이유.md",
       "posted_at": "2026-05-15T04:43:36.907Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
+      "char_count": 221,
+      "media_id": "18084228326082420",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWXdaLFYqT",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_숫자팩트_첫_자금_신청부터_통장_입금까지_평균_소요_시간.md",
+      "posted_at": "2026-05-15T06:36:30.662Z"
     }
   ]
 }
