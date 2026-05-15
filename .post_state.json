@@ -2,7 +2,7 @@
   "evening_index": 1,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 13,
+    "솔직인사이트": 14,
     "공감페인": 11,
     "케이스스터디": 12,
     "숫자팩트": 9,
@@ -820,6 +820,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYVpnMwjtQL",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_마감알림_경남_진주시ㆍ사천시_2026년_우주항공용_세라믹섬유_융.md",
       "posted_at": "2026-05-14T23:55:54.480Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
+      "char_count": 222,
+      "media_id": "18109451329711334",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWKib5lSoZ",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_솔직인사이트_두_번째_자금_신청이_첫_번째보다_어려운_이유.md",
+      "posted_at": "2026-05-15T04:43:36.907Z"
     }
   ]
 }
