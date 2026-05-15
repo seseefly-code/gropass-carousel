@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 14,
+    "솔직인사이트": 15,
     "공감페인": 12,
     "케이스스터디": 12,
     "숫자팩트": 10,
@@ -871,6 +871,16 @@
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYWwKsxlBHn",
       "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_트렌드_여성기업_우대_자금_변화.md",
       "posted_at": "2026-05-15T10:12:25.958Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "정책자금 검색만 하다 시간 보내는 사람들 공통점",
+      "char_count": 231,
+      "media_id": "17864504904565250",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYW7U3oCUrA",
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_솔직인사이트_정책자금_검색만_하다_시간_보내는_사람들_공통점.md",
+      "posted_at": "2026-05-15T11:49:55.856Z"
     }
   ]
 }
