@@ -17,9 +17,14 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { loadLatest, sortByDeadline } from './lib/announcements.js';
+import { execFile } from 'child_process';
+import { promisify } from 'util';
+import { loadLatest, sortByDeadline, getAnnouncementsContext } from './lib/announcements.js';
 import { generateThread } from './generate_thread.js';
 import { postBody } from './post_thread.js';
+import { verifyThread, summarizeVerdict, buildAlertMessage } from './verify_thread.js';
+
+const execFileAsync = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(__dirname, '.post_state.json');
@@ -97,6 +102,51 @@ async function saveState(state) {
   if (state.history.length > 100) state.history = state.history.slice(-100);
   if (state.used_announcements.length > 200) state.used_announcements = state.used_announcements.slice(-200);
   await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2), 'utf-8');
+}
+
+/**
+ * 검증 fail/review 시 카카오 메모로 알림 (best-effort, 실패해도 흐름 중단 X)
+ */
+async function notifyKakao(text) {
+  if (!process.env.KAKAO_REST_API_KEY || !process.env.KAKAO_REFRESH_TOKEN) {
+    console.warn('카카오 알림 환경변수 없음 — 알림 스킵');
+    return;
+  }
+  try {
+    const script = path.join(__dirname, 'send_kakao_memo.js');
+    await execFileAsync('node', [script, text], { env: process.env });
+    console.log('📨 카카오 메모 발송됨');
+  } catch (e) {
+    console.warn('카카오 알림 실패:', e.message);
+  }
+}
+
+/**
+ * 검증 결과 issue들을 콘솔에 가독성 좋게 출력
+ */
+function logVerdictIssues(verdict) {
+  const dims = [
+    ['fact_check', '사실'],
+    ['hallucination_check', '수치환각'],
+    ['duplication_check', '중복'],
+    ['tone_check', '톤'],
+  ];
+  for (const [key, label] of dims) {
+    const v = verdict[key];
+    if (v.issues.length > 0 || v.score <= 6) {
+      console.log(`  [${label}] score=${v.score}`);
+      v.issues.forEach((s) => console.log(`    - ${s}`));
+      if (key === 'fact_check' && v.unverified_programs?.length > 0) {
+        console.log(`    unverified: ${v.unverified_programs.join(', ')}`);
+      }
+      if (key === 'hallucination_check' && v.risky_claims?.length > 0) {
+        console.log(`    risky: ${v.risky_claims.join(', ')}`);
+      }
+      if (key === 'duplication_check' && v.similar_recent_files?.length > 0) {
+        console.log(`    similar: ${v.similar_recent_files.join(', ')}`);
+      }
+    }
+  }
 }
 
 function nextFromPool(pool, type, state) {
@@ -250,11 +300,71 @@ async function main() {
 
   if (dryRun) {
     console.log('');
-    console.log('--dry-run — 게시 스킵, state 저장 안함');
+    console.log('--dry-run — 검증·게시 모두 스킵, state 저장 안함');
     return;
   }
 
-  // 게시
+  // ─── 검증 ───
+  console.log('');
+  console.log('🔍 검증 에이전트 실행 중 (Sonnet 4.6)...');
+  const announcementsCtx = await getAnnouncementsContext();
+  const { verdict, usage: verifyUsage } = await verifyThread({
+    post,
+    announcementsCtx,
+    excludeFile: filepath, // 방금 저장한 자기 자신은 중복 비교에서 제외
+  });
+
+  console.log(`검증 : ${summarizeVerdict(verdict)}`);
+  console.log(`     overall reasoning: ${verdict.overall.reasoning}`);
+  if (verdict.overall.decision !== 'pass') {
+    logVerdictIssues(verdict);
+  }
+  console.log(`     토큰: 입력 ${verifyUsage.input_tokens} / 출력 ${verifyUsage.output_tokens}`);
+
+  // 검증 메타데이터를 history에 항상 기록
+  const baseHistory = {
+    slot,
+    type: post.post_type,
+    topic,
+    char_count: post.char_count,
+    filepath,
+    verdict: {
+      decision: verdict.overall.decision,
+      score: verdict.overall.score,
+      fact: verdict.fact_check.score,
+      halluc: verdict.hallucination_check.score,
+      dup: verdict.duplication_check.score,
+      tone: verdict.tone_check.score,
+      issues: [
+        ...verdict.fact_check.issues,
+        ...verdict.hallucination_check.issues,
+        ...verdict.duplication_check.issues,
+        ...verdict.tone_check.issues,
+      ].slice(0, 8),
+    },
+    posted_at: new Date().toISOString(),
+  };
+
+  if (verdict.overall.decision === 'fail') {
+    console.error('');
+    console.error('❌ 검증 실패 — 게시 중단, 폐기');
+    await notifyKakao(buildAlertMessage(verdict, post, slot));
+    state.history.push({ ...baseHistory, discarded: true });
+    await saveState(state);
+    return;
+  }
+
+  if (verdict.overall.decision === 'review') {
+    console.warn('');
+    console.warn('⚠️  검토 필요 — 자동 게시 중단 (사람 확인 후 수동 게시)');
+    await notifyKakao(buildAlertMessage(verdict, post, slot));
+    state.history.push({ ...baseHistory, review_required: true });
+    await saveState(state);
+    return;
+  }
+
+  // ─── pass — 게시 ───
+  console.log('✅ 검증 통과 — 게시 진행');
   console.log('스레드 게시 중...');
   const result = await postBody({ body: post.main_post });
   console.log(`✅ 게시 완료`);
@@ -262,14 +372,9 @@ async function main() {
   if (result.permalink) console.log(`   URL      : ${result.permalink}`);
 
   state.history.push({
-    slot,
-    type: post.post_type,
-    topic,
-    char_count: post.char_count,
+    ...baseHistory,
     media_id: result.mediaId,
     permalink: result.permalink || null,
-    filepath,
-    posted_at: new Date().toISOString(),
   });
   await saveState(state);
 
