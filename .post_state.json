@@ -8,7 +8,7 @@
     "숫자팩트": 10,
     "마감알림": 6,
     "오해풀기": 3,
-    "트렌드": 8
+    "트렌드": 9
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -905,6 +905,34 @@
       "posted_at": "2026-05-16T08:23:33.919Z",
       "media_id": "17944890804190550",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYZIg6AFDK9"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_트렌드_비RD_사업화_자금이_새로_생기는_이유.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명을 직접 호명하지 않고 '컨설팅, 수출 전시회 참가, 마케팅 고도화, 제조 DX 확산' 같은 일반 유형으로만 표현함 — announcement 목록에 실제로 해당 공고들이 다수 존재하여 맥락 일치",
+          "정책자금, R&D 등 일반 명칭만 사용 — 화이트리스트 기준 통과",
+          "구체 수치(금액, 비율, 마감일) 전혀 없음",
+          "'몇 년째 누적됐다'는 표현은 정성적 서술로 검증 불가하나 리스크 낮음",
+          "[7] 지역특화 트렌드 포스트와 같은 '트렌드' 타입이지만 주제가 '비R&D 사업화 자금 증가'로 명확히 다름",
+          "각도(R&D→사업화 예산 이동)와 인사이트(개발보다 판매·진출 쪽 예산 이동)가 신선하여 의미적 중복 없음",
+          "이모지 없음, 해시태그 없음, 존댓말 없음, 248자로 500자 이내 — 규칙 전반 준수",
+          "'비R&D 사업화 자금이 눈에 띄게 늘고 있어' 도입부가 자연스럽고 AI 정형 패턴 없음"
+        ]
+      },
+      "posted_at": "2026-05-16T09:20:52.005Z",
+      "media_id": "18129832768586843",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYZPEleFMQq"
     }
   ]
 }
