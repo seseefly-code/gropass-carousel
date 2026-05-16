@@ -34,7 +34,7 @@ const VERIFY_SCHEMA = {
     fact_check: {
       type: 'object',
       properties: {
-        score: { type: 'integer', minimum: 0, maximum: 10 },
+        score: { type: 'integer', description: '0~10 정수 점수 (10=완벽, 0=심각)' },
         cited_programs: {
           type: 'array',
           items: { type: 'string' },
@@ -53,7 +53,7 @@ const VERIFY_SCHEMA = {
     hallucination_check: {
       type: 'object',
       properties: {
-        score: { type: 'integer', minimum: 0, maximum: 10 },
+        score: { type: 'integer', description: '0~10 정수 점수 (10=완벽, 0=심각)' },
         risky_claims: {
           type: 'array',
           items: { type: 'string' },
@@ -67,7 +67,7 @@ const VERIFY_SCHEMA = {
     duplication_check: {
       type: 'object',
       properties: {
-        score: { type: 'integer', minimum: 0, maximum: 10 },
+        score: { type: 'integer', description: '0~10 정수 점수 (10=완벽, 0=심각)' },
         similar_recent_files: {
           type: 'array',
           items: { type: 'string' },
@@ -81,7 +81,7 @@ const VERIFY_SCHEMA = {
     tone_check: {
       type: 'object',
       properties: {
-        score: { type: 'integer', minimum: 0, maximum: 10 },
+        score: { type: 'integer', description: '0~10 정수 점수 (10=완벽, 0=심각)' },
         issues: { type: 'array', items: { type: 'string' } },
       },
       required: ['score', 'issues'],
@@ -90,7 +90,7 @@ const VERIFY_SCHEMA = {
     overall: {
       type: 'object',
       properties: {
-        score: { type: 'integer', minimum: 0, maximum: 10 },
+        score: { type: 'integer', description: '0~10 정수 점수 (10=완벽, 0=심각)' },
         decision: { type: 'string', enum: ['pass', 'review', 'fail'] },
         reasoning: { type: 'string' },
       },
