@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 15,
     "공감페인": 12,
     "케이스스터디": 15,
     "숫자팩트": 10,
     "마감알림": 6,
-    "오해풀기": 3,
+    "오해풀기": 4,
     "트렌드": 9
   },
   "used_announcements": [
@@ -982,6 +982,33 @@
         ]
       },
       "posted_at": "2026-05-16T13:01:28.044Z",
+      "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "매출 적으면 자금 못 받는다는 오해",
+      "char_count": 256,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_오해풀기_매출_적으면_자금_못_받는다는_오해.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 6,
+        "halluc": 8,
+        "dup": 5,
+        "tone": 9,
+        "issues": [
+          "'횡성 청년창업가 양성'은 announcement에 '[강원] 횡성군 2026년 1차 청년창업가 양성 지원사업'으로 확인됨 — OK",
+          "'경남 창업어가 멘토링'은 announcement에 '[경남] 2026년 창업어가 멘토링사업'으로 확인됨 — OK",
+          "두 공고를 '초기 단계 대상'이라고 규정했는데, announcement에 상세 자격 조건 없으므로 단정적 표현은 미검증 요소임",
+          "'초기기업·창업 7년 미만·소상공인 대상 자금이 전체 정책자금에서 차지하는 비중이 진짜 커'는 구체 수치 없는 일반 진술로 OK",
+          "사업명은 맞지만 두 공고를 '초기 단계 대상'으로 단정한 부분은 announcement에서 확인 불가 — 경미한 감점 요인",
+          "구체 수치나 비용·조건 언급 없음 — 클린",
+          "'창업 7년 미만'은 널리 알려진 정책자금 기준으로 허용 범위",
+          "'초기 단계 대상'으로 두 사업을 규정한 부분은 announcement에 조건 미기재라 약간 리스크 있으나 사실에 크게 반하지 않아 경미"
+        ]
+      },
+      "posted_at": "2026-05-16T14:23:30.927Z",
       "review_required": true
     }
   ]
