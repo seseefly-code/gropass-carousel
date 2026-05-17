@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-17T13:49:20.662Z",
+  "collected_at": "2026-05-17T14:54:48.812Z",
   "user_id": "26071251839222721",
   "days": 30,
   "count": 101,
@@ -12,7 +12,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 382,
+        "views": 384,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 240,
+        "views": 242,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -54,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 243,
+        "views": 252,
         "likes": 5,
         "replies": 1,
         "reposts": 0,
@@ -75,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 450,
+        "views": 454,
         "likes": 3,
         "replies": 1,
         "reposts": 0,
@@ -96,8 +96,8 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 359,
-        "likes": 2,
+        "views": 379,
+        "likes": 3,
         "replies": 0,
         "reposts": 0,
         "quotes": 0
@@ -117,7 +117,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 251,
+        "views": 254,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 344,
+        "views": 345,
         "likes": 4,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 178,
+        "views": 179,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
@@ -222,7 +222,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 167,
+        "views": 168,
         "likes": 2,
         "replies": 1,
         "reposts": 1,
@@ -1044,7 +1044,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 442,
+        "views": 443,
         "likes": 2,
         "replies": 2,
         "reposts": 0,
