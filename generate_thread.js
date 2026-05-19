@@ -81,9 +81,10 @@ function slugify(s) {
  * @param {string} [opts.type] - post_type 강제 지정 (생략 시 Claude 자동 선택)
  * @param {boolean} [opts.save=true] - threads/<...>.md 파일로 저장 여부
  * @param {boolean} [opts.quiet=false] - 콘솔 출력 최소화
+ * @param {string} [opts.model='claude-sonnet-4-6'] - 생성에 쓸 Claude 모델
  * @returns {Promise<{post: object, filepath: string|null, usage: object}>}
  */
-export async function generateThread({ topic, type: forcedType, save = true, quiet = false }) {
+export async function generateThread({ topic, type: forcedType, save = true, quiet = false, model = 'claude-sonnet-4-6' }) {
   if (!process.env.ANTHROPIC_API_KEY) {
     throw new Error('환경변수 ANTHROPIC_API_KEY가 설정되지 않았습니다.');
   }
@@ -113,11 +114,11 @@ export async function generateThread({ topic, type: forcedType, save = true, qui
   if (announcementsCtx.includes('공고 데이터 없음')) {
     log('⚠️  공고 데이터 없음 (node crawl.js 먼저 실행 권장)');
   }
-  log('Claude opus-4-7 호출 중...');
+  log(`Claude ${model} 호출 중...`);
   writeProgress('  ');
 
   const stream = client.messages.stream({
-    model: 'claude-opus-4-7',
+    model,
     max_tokens: 4000,
     thinking: { type: 'adaptive' },
     output_config: {
@@ -185,7 +186,7 @@ ${post.main_post}
 }
 
 // CLI 진입점 (직접 실행될 때만)
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}` || process.argv[1].endsWith('generate_thread.js')) {
+if (import.meta.url === `file://${(process.argv[1] || '').replace(/\\/g, '/')}` || (process.argv[1] || '').endsWith('generate_thread.js')) {
   const { topic, type } = parseArgs(process.argv);
   if (!topic) {
     console.error('사용법: node generate_thread.js "<주제>" [--type=<타입>]');

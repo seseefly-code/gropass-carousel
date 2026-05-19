@@ -17,7 +17,7 @@
 //   review — 6~8점, 카카오 알림 + 검토 후 수동 결정 (자동 게시 X)
 //   fail   — 0~5점, 폐기 + 카카오 알림
 //
-// 생성=Opus 4.7, 검증=Sonnet 4.6 (다른 모델로 같은 실수 반복 방지)
+// 생성=Sonnet 4.6, 검증=Opus 4.7 (다른 모델로 같은 실수 반복 방지)
 
 import Anthropic from '@anthropic-ai/sdk';
 import { promises as fs } from 'fs';
@@ -102,9 +102,31 @@ const VERIFY_SCHEMA = {
   additionalProperties: false,
 };
 
+// 배치 검증 스키마 — VERIFY_SCHEMA의 5개 차원을 그대로 재사용하고 slot 식별자를 더한 배열
+const BATCH_RESULT_SCHEMA = {
+  type: 'object',
+  properties: {
+    results: {
+      type: 'array',
+      description: '입력된 포스트 각각의 검증 결과 (입력 순서·개수와 동일)',
+      items: {
+        type: 'object',
+        properties: {
+          slot: { type: 'string', description: '검증 대상 포스트의 slot 식별자 (입력값 그대로)' },
+          ...VERIFY_SCHEMA.properties,
+        },
+        required: ['slot', ...VERIFY_SCHEMA.required],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ['results'],
+  additionalProperties: false,
+};
+
 const VERIFY_SYSTEM = `당신은 그로패스(gropass.co.kr) Threads 자동 게시 시스템의 **검증 에이전트**입니다.
 
-생성 에이전트(Opus)가 만든 포스트를 게시 전에 검증합니다. 잘못된 정보가 올라가면 도메인 전문가에게 신뢰를 잃고, AI 감지로 계정이 BAN됩니다. 실제 BAN 경험이 한 번 있었습니다.
+생성 에이전트가 만든 포스트를 게시 전에 검증합니다. 잘못된 정보가 올라가면 도메인 전문가에게 신뢰를 잃고, AI 감지로 계정이 BAN됩니다. 실제 BAN 경험이 한 번 있었습니다.
 
 # 4가지 검증 차원
 
@@ -274,7 +296,7 @@ export async function verifyThread({ post, announcementsCtx, recentThreads, excl
 
   const client = new Anthropic();
   const response = await client.messages.create({
-    model: 'claude-sonnet-4-6',
+    model: 'claude-opus-4-7',
     max_tokens: 2000,
     output_config: {
       format: { type: 'json_schema', schema: VERIFY_SCHEMA },
@@ -296,6 +318,86 @@ export async function verifyThread({ post, announcementsCtx, recentThreads, excl
   return { verdict, usage: response.usage };
 }
 
+/**
+ * 여러 포스트를 한 번의 Opus 호출로 배치 검증한다.
+ * 호출자가 recentThreads를 명시적으로 전달한다 (생성 직후의 자기 자신을 중복비교에서 빼기 위함 —
+ * 생성 전에 로드한 목록을 넘긴다).
+ * @param {object} opts
+ * @param {Array<{slot:string, post_type:string, main_post:string, reasoning:string, char_count:number}>} opts.posts
+ * @param {string} opts.announcementsCtx - getAnnouncementsContext() 반환값
+ * @param {Array<{file:string,type:string,topic:string,body:string}>} opts.recentThreads
+ * @returns {Promise<{results:Array<object>, usage:object}>}
+ */
+export async function verifyBatch({ posts, announcementsCtx, recentThreads }) {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    throw new Error('환경변수 ANTHROPIC_API_KEY가 설정되지 않았습니다.');
+  }
+
+  const threads = (recentThreads ?? []).slice(-RECENT_THREADS_N);
+  const recentBlock = threads.length === 0
+    ? '_(이전 게시 없음)_'
+    : threads.map((p, i) => [
+        `### [${i}] ${p.file} (${p.type})`,
+        `topic: ${p.topic}`,
+        `body:`,
+        p.body,
+      ].join('\n')).join('\n\n');
+
+  const postsBlock = posts.map((p, i) => [
+    `### 포스트 ${i + 1} — slot: ${p.slot}`,
+    `type: ${p.post_type}`,
+    `char_count: ${p.char_count}`,
+    `reasoning: ${p.reasoning}`,
+    '본문:',
+    '"""',
+    p.main_post,
+    '"""',
+  ].join('\n')).join('\n\n');
+
+  const userMessage = [
+    `## 검증 대상 포스트 ${posts.length}개 (하루치 배치)`,
+    '',
+    postsBlock,
+    '',
+    '## announcement 컨텍스트 (실제 살아있는 공고만)',
+    announcementsCtx,
+    '',
+    `## 최근 ${threads.length}개 게시 본문 (의미적 중복 비교용)`,
+    '',
+    recentBlock,
+    '',
+    '각 포스트를 위 4가지 차원으로 검증하세요.',
+    '추가로, **이 배치 안의 포스트들끼리도** 서로 의미적 중복인지 비교하세요 (같은 날 같은 메시지·사례 반복 금지). 중복이면 duplication_check 점수를 차감하세요.',
+    'results 배열에 입력 순서·개수 그대로, 각 항목의 slot을 입력값과 동일하게 채워 반환하세요.',
+  ].join('\n');
+
+  const client = new Anthropic();
+  const response = await client.messages.create({
+    model: 'claude-opus-4-7',
+    max_tokens: 8000,
+    output_config: {
+      format: { type: 'json_schema', schema: BATCH_RESULT_SCHEMA },
+    },
+    system: [
+      {
+        type: 'text',
+        text: VERIFY_SYSTEM,
+        cache_control: { type: 'ephemeral' },
+      },
+    ],
+    messages: [{ role: 'user', content: userMessage }],
+  });
+
+  const textBlock = response.content.find(b => b.type === 'text');
+  if (!textBlock) throw new Error('배치 검증 에이전트가 텍스트를 반환하지 않았습니다');
+
+  const parsed = JSON.parse(textBlock.text);
+  if (!Array.isArray(parsed.results)) {
+    throw new Error('배치 검증 응답에 results 배열이 없습니다');
+  }
+  return { results: parsed.results, usage: response.usage };
+}
+
 export function summarizeVerdict(verdict) {
   const f = verdict.fact_check.score;
   const h = verdict.hallucination_check.score;
@@ -315,6 +417,20 @@ export function buildAlertMessage(verdict, post, slot) {
   const bodyPreview = post.main_post.slice(0, 50);
   const issueStr = issues.slice(0, 3).join(' | ');
   return `${head}\n"${bodyPreview}..."\n${issueStr}`.slice(0, 200);
+}
+
+/**
+ * 배치 검증에서 제외된 슬롯들을 카카오 메모 1건으로 요약한다 (200자 컷).
+ * @param {Array<{slot:string, topic:string, reason:string}>} rejected
+ * @param {number} approvedCount
+ * @returns {string}
+ */
+export function buildBatchAlertMessage(rejected, approvedCount) {
+  const head = `[배치검증] 승인 ${approvedCount} / 제외 ${rejected.length}`;
+  const lines = rejected.slice(0, 6).map(
+    r => `· ${r.slot}(${r.reason}): ${String(r.topic).slice(0, 24)}`
+  );
+  return `${head}\n제외 슬롯은 게시 시각에 폴백 재생성됨\n${lines.join('\n')}`.slice(0, 200);
 }
 
 // CLI — 최근 생성된 thread를 즉석 검증 (테스트용)
