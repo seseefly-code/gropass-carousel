@@ -1,0 +1,98 @@
+{
+  "carousel_id": "industry_fnb",
+  "_topic": "음식점·카페 사장님 정책자금 5선",
+  "_generated_at": "2026-05-19T23:39:44.457Z",
+  "caption": "음식점·카페 사장님, 이 자금들 혹시 보셨어요? 📌\n\n춘천 소재라면 5/29까지 식품위생업소 환경개선 지원 있고,\n소상공인 IP패키지는 서울·경북·충남 6/15 마감이에요.\n직원 있으면 경북 사회보험료 지원도 상시라 지금 바로 넣을 수 있어요.\nF&B는 제조업이랑 다른 공고가 따로 뜨는데 그걸 놓치는 경우가 많더라구요.\n\n본인 업종에 맞는 자금 헷갈리면 그로패스에서 사업자번호 넣고 1분이면 정리돼요.\ngropass.co.kr (프로필 링크)\n\n#정책자금 #소상공인지원 #음식점창업 #카페창업 #외식업지원\n#소상공인정책자금 #그로패스 #정부지원사업 #브랜드디자인지원\n#사회보험료지원 #5월정책자금 #마감임박",
+  "theme": {
+    "primary": "#7C2D12",
+    "accent": "#EA580C",
+    "highlight": "#FED7AA",
+    "gradient-tint": "#EA580C22",
+    "dark-bg": "#431407",
+    "label": "업종별 · 카페·식당 5선"
+  },
+  "slides": [
+    {
+      "template": "slide_01_cover_industry",
+      "content": {
+        ".label": "업종별 정책자금",
+        ".week": "2026년 5월 3주차",
+        ".eyebrow": "F&B 대표님 필독",
+        ".headline": "음식점 카페<br>사장님만을 위한<br><em>정책자금 5</em>",
+        ".sub": "업종 특화 자금, 따로 있어요.<br>마감 임박한 것들 위주로 추렸습니다."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "강원 춘천시 식품·공중위생업소 환경개선사업",
+        ".meta": "<span class=\"tag\">강원도</span><span class=\"tag\">음식점·카페</span><span class=\"tag\">환경개선</span>",
+        ".body": "음식점·카페 같은 공중위생업소 대상으로 <strong>시설 환경개선 비용을 직접 지원</strong>하는 사업이에요.<br>주방 환기, 위생설비 같은 개선 항목에 쓸 수 있고,<br>춘천 소재 업체는 5/29까지 서둘러 신청하세요.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 형태",
+        ".stats .stat:nth-child(1) .stat-value": "환경개선<span class=\"unit\">비 지원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/29</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관 기관",
+        ".stats .stat:nth-child(3) .stat-value": "춘천시<span class=\"unit\"> (강원)</span>"
+      }
+    },
+    {
+      "template": "slide_03_list_industry",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "F&B 사장님이 챙겨야 할<br><em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "강원 춘천시 식품·공중위생업소 환경개선사업",
+        ".item:nth-child(1) .item-desc": "춘천 소재 · 음식점·위생업소 · 환경개선 항목 해당 시",
+        ".item:nth-child(1) .item-amount": "시설개선 지원",
+        ".item:nth-child(1) .item-deadline": "D-10 · 5/29 마감",
+        ".item:nth-child(2) .item-name": "소상공인 온라인 쇼핑몰 기획전 (경남)",
+        ".item:nth-child(2) .item-desc": "경남 소재 · 소상공인 · 온라인 상품 판매 가능 업체",
+        ".item:nth-child(2) .item-amount": "판로 지원",
+        ".item:nth-child(2) .item-deadline": "상시 · 선착순 마감",
+        ".item:nth-child(3) .item-name": "소상공인 IP창출 종합패키지 (브랜드·디자인 융합)",
+        ".item:nth-child(3) .item-desc": "서울·경북·충남 · 소상공인 · 브랜드 개발 필요 업체",
+        ".item:nth-child(3) .item-amount": "IP·디자인 패키지",
+        ".item:nth-child(3) .item-deadline": "D-27 · 6/15 마감",
+        ".item:nth-child(4) .item-name": "2026년 2차 판로확대 지원사업 (쇼핑몰 통합관리)",
+        ".item:nth-child(4) .item-desc": "전국 · 소상공인 · 온라인 멀티채널 판매 업체",
+        ".item:nth-child(4) .item-amount": "IT 솔루션 지원",
+        ".item:nth-child(4) .item-deadline": "D-17 · 6/5 마감",
+        ".item:nth-child(5) .item-name": "소상공인 사회보험료 지원사업 (경북)",
+        ".item:nth-child(5) .item-desc": "경북 소재 · 소상공인 · 직원 고용 업체",
+        ".item:nth-child(5) .item-amount": "보험료 지원",
+        ".item:nth-child(5) .item-deadline": "상시 · 예산 소진 전"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "음식점·카페는 <em>제조업보다 불리하다</em>는 말,<br>사실 <span class=\"underline\">업종 특화 공고를 못 봐서</span> 그런 거예요.",
+        ".att-text": "정책자금 신청 현장에서 가장 많이 듣는 말",
+        ".footer-quote": "F&B 전용 공고는 따로 뜨고 경쟁률도 낮은 편이에요.<br>업종 필터 하나만 제대로 걸어도 남들이 놓치는 자금이 보여요.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 매칭.",
+        ".sub": "음식점·카페 업종까지 필터 다 잡혀 있어요.<br>그로패스에서 바로 확인해보세요 → gropass.co.kr",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
