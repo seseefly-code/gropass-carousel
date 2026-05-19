@@ -1,0 +1,415 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-19T22:20:19.372Z",
+  "slots": {
+    "early_morning": {
+      "status": "approved",
+      "topic": "[강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "강원 인제군에 있는 중소기업 대표님들 보면 좋겠는데\n\n2026년 수출대금 보장 단체보험 가입 지원사업 추가 모집이\n이번 주 목요일(5월 22일) 마감이야\n\n수출하다가 대금 못 받는 상황, 진짜 최악이잖아\n근데 이런 보험 있다는 걸 모르고 지나치는 사람이 생각보다 많더라\n\n강원경제진흥원에서 보험료 지원해주는 거니까\n인제군 중소기업이면 지금 바로 기업마당에서 공고 확인해봐",
+        "char_count": 196,
+        "reasoning": "D-3 마감 임박 공고로 긴급성 전달이 핵심이라 마감알림 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "early_morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "2026년 인제군 중소기업 수출대금 보장 단체보험 가입 지원사업"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "5월 22일 마감"
+          ],
+          "issues": [
+            "마감일 announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": [
+            "배치 내 포스트2와 같은 강원 수출단체보험 주제지만 지역 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공고 정확히 인용, 마감일 일치, 톤 적절"
+        }
+      }
+    },
+    "morning": {
+      "status": "approved",
+      "topic": "[강원] 홍천군 2026년 중소기업 수출단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "홍천군에 중소기업 있으면 이거 지금 봐야 해\n\n강원 홍천군 2026년 수출단체보험 가입 지원사업\n마감이 5월 22일이야. D-3.\n\n수출하는 중소기업한테 단체보험 가입 비용 지원해주는 건데\n혼자 가입하면 꽤 부담되는 보험료를 군에서 긁어줌\n\n수출 하고 있는데 보험은 안 들었다? 그냥 기회비용 날리는 거야\n\n강원도경제진흥원 통해서 접수되니까\n오늘내일 안에 서류 챙겨봐",
+        "char_count": 197,
+        "reasoning": "마감일 D-3로 긴급성이 있는 수출단체보험 지원사업이라 마감알림 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "강원 홍천군 2026년 수출단체보험 가입 지원사업"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "5월 22일 마감",
+            "D-3"
+          ],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [],
+          "issues": [
+            "배치 내 포스트1과 동일 사업·동일 마감일·유사 메시지, 지역만 다름. 같은 날 두 번 노출은 약한 중복"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "사실 정확하나 배치 내 포스트1과 메시지 중복도 있음"
+        }
+      }
+    },
+    "late_morning": {
+      "status": "approved",
+      "topic": "자금 받고도 망하는 회사들 공통점",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "자금 받고도 망하는 회사들 보면 패턴이 진짜 명확해.\n\n대부분 자금을 '숨통 트이는 돈'으로 씀.\n밀린 거 갚고, 급한 불 끄고, 그러다 끝.\n\n근데 정책자금은 구조적으로 사업비 용도가 정해져 있어서\n인건비·마케팅·장비 같은 '성장 비용'에만 써야 거든.\n\n결국 자금을 받을 자격은 됐는데\n그 돈을 성장에 붓는 기초 체력이 없는 거야.\n\n솔직히 자금 심사보다\n'이 회사가 이 돈을 제대로 쓸 준비가 됐나'가 더 어려운 질문인 것 같아.",
+        "char_count": 209,
+        "reasoning": "자금 받고도 망하는 패턴이라는 주제는 경험 기반 통찰 공유에 최적화된 솔직인사이트 타입이 딱 맞고, 도메인 인사이더 시점에서 설득력 있게 풀 수 있음"
+      },
+      "verdict": {
+        "slot": "late_morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "정책자금은 인건비·마케팅·장비 같은 성장 비용에만 써야 한다"
+          ],
+          "issues": [
+            "용도 제한 일반화 표현은 무난하나 다소 단정적"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "일반론적 인사이트, 위험 구체수치 없음"
+        }
+      }
+    },
+    "noon": {
+      "status": "approved",
+      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
+      "post": {
+        "post_type": "숫자팩트",
+        "main_post": "TIPS 선정 기업들 후속 투자 유치율이 생각보다 훨씬 높아.\n\n공개된 데이터 기준으로 TIPS 선정 후 후속 투자 유치한 기업 비율이 절반을 넘거든.\n\n이게 왜 중요하냐면 — TIPS는 그냥 정부 돈 5억 받는 게 아니야.\nTIPS 선정 자체가 \"민간 VC가 먼저 검증했다\"는 시그널이라서\n이후 투자 라운드에서 레퍼런스가 됨.\n\n정부 보조금이 아니라 일종의 민간 투자 트랙인 거지.\n\n그래서 초기 스타트업한테 TIPS 추천하는 게 돈 때문만은 아니야.\n선정 이력이 다음 단계를 여는 열쇠가 되는 경우가 많더라.",
+        "char_count": 233,
+        "reasoning": "TIPS의 누적 선정 수와 후속 투자 비율이라는 통계 기반 주제이므로 숫자팩트 타입이 가장 적합하고, 구체적 숫자가 불확실한 부분은 모드B로 일반화해 처리했다."
+      },
+      "verdict": {
+        "slot": "noon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "TIPS"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "TIPS 선정 후 후속 투자 유치 비율이 절반을 넘는다",
+            "정부 돈 5억"
+          ],
+          "issues": [
+            "후속투자 비율 '절반 넘는다'는 일반화로 모드B 처리됨, TIPS 5억은 알려진 상수"
+          ]
+        },
+        "duplication_check": {
+          "score": 10,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "적절한 추상화, TIPS 화이트리스트 사업"
+        }
+      }
+    },
+    "lunch": {
+      "status": "approved",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "지금 몇 시야 대표님들\n\n사업계획서 마감이 내일인데 아직도 '추진 배경 및 필요성' 쓰고 있어\n\n처음엔 잘 썼던 것 같았는데\n고치다 보니 원래 게 더 나았던 것 같고\n결국 새벽 3시에 다시 처음으로 돌아와 있는 거\n\n이거 나만 이렇게 되는 거 아니지\n\n내일 제출이라는 긴장감이랑\n이게 진짜 내 사업 맞나 싶은 멘붕이\n동시에 오는 그 시간대가 꼭 새벽 3시야\n\n다들 오늘 자고 있어 아니면 나처럼 켜져 있어 🌙",
+        "char_count": 214,
+        "reasoning": "사업계획서 작성 새벽 사투는 대표라면 누구나 겪는 페인 포인트라 공감페인 타입이 가장 적합하고, 1인칭 경험 + 자조 화법으로 reach를 끌어올릴 수 있는 주제임"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [
+            "2026-05-17_공감페인_평가위원_질문_하나에_망친_발표.md"
+          ],
+          "issues": [
+            "공감페인 톤 비슷하나 주제(사업계획서 작성 vs 발표)는 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": [
+            "이모지 1개 사용, 허용 범위"
+          ]
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "개인 경험 공감페인, 위험 요소 없음"
+        }
+      }
+    },
+    "afternoon": {
+      "status": "approved",
+      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 연장 공고 자금 해설 (전북특별자치도)",
+      "post": {
+        "post_type": "자금해설",
+        "main_post": "SW강소기업 도약 패키지가 뭔지 모르는 분들 많더라\n\n이름만 보면 'SW기업만 되겠지' 싶은데,\n소프트웨어 역량 키우려는 제조·서비스업도 대상이 될 수 있어\n\n전북 소재 중소기업 대상이고,\n경영·기술·마케팅 같은 성장 패키지를 묶어서 지원해주는 구조야\n\n연장 공고라는 건 — 1차 모집 때 TO가 남았거나,\n신청 기업이 적어서 추가 모집한다는 뜻이거든\n\n이런 연장 공고가 오히려 기회야\n경쟁률 낮고, 담당자들도 기업 적극 받으려는 타이밍이니까\n\n전북 소재면 5월 27일까지니까 지금 바로 확인해봐",
+        "char_count": 228,
+        "reasoning": "특정 사업에 대한 해설 요청이고, 공고 실제 데이터(전북, 마감일)가 있어 자금해설 타입으로 내용을 풀어쓰는 게 적합함"
+      },
+      "verdict": {
+        "slot": "afternoon",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "[전북] 2026년 SW강소기업 도약 패키지 지원사업 연장 공고"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "5월 27일 마감",
+            "연장 공고는 TO 남았거나 신청 적어서"
+          ],
+          "issues": [
+            "마감일 announcement와 일치, 연장 공고 해석은 일반론"
+          ]
+        },
+        "duplication_check": {
+          "score": 10,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공고 정확, 일반화 해석 적절"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "approved",
+      "topic": "콘텐츠·플랫폼 자금 변화",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 콘텐츠·플랫폼 쪽 정책자금 분위기가 진짜 달라지고 있어\n\n예전엔 '콘텐츠 = 문화체육관광부 자금' 이 공식이었는데\n지금은 중기부, 과기부, 산업부까지 다 손 뻗고 있거든\n\n특히 AI 결합한 플랫폼 서비스면 IT 계열 자금이랑 콘텐츠 자금 양쪽 다 노릴 수 있는 구조가 됐어\n\n근데 함정이 있어\n업종 코드가 콘텐츠로 묶여 있으면 기술 자금 신청할 때 튕겨나오는 경우가 많아\n\n업종 분류 어떻게 돼 있는지 한 번쯤 점검해보는 거 진짜 필요함",
+        "char_count": 213,
+        "reasoning": "콘텐츠·플랫폼 자금 변화라는 트렌드 주제에 맞게, 최근 자금 생태계 변화를 캐주얼하게 짚어주는 트렌드 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "콘텐츠가 업종 코드로 묶이면 기술 자금 신청 시 튕긴다"
+          ],
+          "issues": [
+            "일반론적 주장, 큰 위험 없음"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [
+            "2026-05-17_트렌드_메타버스블록체인_자금이_줄어든_이유.md",
+            "2026-05-19_트렌드_헬스케어_자금_신규_증가_추세.md"
+          ],
+          "issues": [
+            "트렌드 카테고리 반복되나 주제(콘텐츠/플랫폼) 새로움"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "트렌드 주제 신규, 위험 수치 없음"
+        }
+      }
+    },
+    "evening": {
+      "status": "rejected",
+      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
+      "reason": "review"
+    },
+    "late_evening": {
+      "status": "approved",
+      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "얼마 전 매칭해준 회사 케이스인데\n\n매출 8억 IT서비스 회사였어.\n보증 한도가 부족해서 운전자금 조달이 계속 막히는 상황이었는데\n\n벤처인증 하나 받고 나서 신용보증기관 보증 한도가 2배로 늘었거든.\n\n이 대표님도 처음엔 \"벤처인증이 세금 혜택 받는 거 아니야?\" 했는데\n알고 보니 보증 한도 우대가 실질적으로 더 크더라는 거지.\n\n벤처인증 유지 조건 맞는 회사면\n세제보다 금융 접근성 쪽에서 더 먼저 체감돼.\n\n인증 받을 수 있는 조건인데 아직 안 한 회사들 진짜 많아.",
+        "char_count": 218,
+        "reasoning": "실제 익명 사례를 통해 벤처인증의 보증한도 확대 효과를 구체적으로 전달하는 케이스스터디 타입이 가장 적합하고, 사용자도 명시적으로 지정함"
+      },
+      "verdict": {
+        "slot": "late_evening",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "벤처기업확인제도",
+            "신용보증기관 보증"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "벤처인증 화이트리스트 사업"
+          ]
+        },
+        "hallucination_check": {
+          "score": 7,
+          "risky_claims": [
+            "매출 8억 IT서비스 회사",
+            "벤처인증 후 보증 한도 2배"
+          ],
+          "issues": [
+            "보증한도 '2배'는 구체 수치이나 벤처기업 우대 보증 효과로 알려진 일반론 범위. 다만 일률적으로 2배라고 단정하기엔 기관·상품마다 다름"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "벤처인증 효과 케이스, '2배'는 다소 단정적이나 통상적 인사이트 범위"
+        }
+      }
+    },
+    "night": {
+      "status": "approved",
+      "topic": "한 번 떨어지면 끝이라는 생각",
+      "post": {
+        "post_type": "오해풀기",
+        "main_post": "정책자금 한 번 떨어지면 끝이라고 생각하는 사람 많은데\n\n그거 진짜 오해야.\n\n탈락 사유 보완해서 다음 라운드 다시 넣으면 붙는 케이스 꽤 많거든.\n심지어 같은 사업을 2~3번 도전해서 최종 선정된 회사들도 봤어.\n\n진짜 문제는 '떨어졌다'는 사실이 아니라\n'왜 떨어졌는지 모른 채 포기한다'는 거야.\n\n탈락 통보 받으면 담당 기관에 사유 물어볼 수 있어.\n그거 하나만 해도 다음 신청이 완전 달라지더라.",
+        "char_count": 191,
+        "reasoning": "한 번 떨어지면 끝이라는 잘못된 통념을 구체적으로 깨주는 구조라 오해풀기 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "night",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [
+            "2026-05-16_오해풀기_매출_적으면_자금_못_받는다는_오해.md"
+          ],
+          "issues": [
+            "오해풀기 카테고리 반복되나 주제(탈락 후 재도전) 신규"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "일반론 오해풀기, 위험 요소 없음"
+        }
+      }
+    }
+  }
+}
