@@ -40,16 +40,6 @@
   "history": [
     {
       "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "매출 1억 회사가 R&D 5억 받은 사례",
-      "char_count": 237,
-      "media_id": "18103087318959801",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_qnIbiTrE",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_케이스스터디_매출_1억_회사가_RD_5억_받은_사례.md",
-      "posted_at": "2026-05-06T11:01:21.284Z"
-    },
-    {
-      "slot": "evening",
       "type": "솔직인사이트",
       "topic": "자금 받고도 망하는 회사들 공통점",
       "char_count": 268,
@@ -1311,6 +1301,20 @@
       "posted_at": "2026-05-19T16:23:27.433Z",
       "media_id": "18091523849210512",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYht0arCUGC"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "[강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18065506829403726",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYia8GGkewY",
+      "posted_at": "2026-05-19T22:57:48.665Z"
     }
   ]
 }
