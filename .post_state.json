@@ -8,7 +8,7 @@
     "숫자팩트": 11,
     "마감알림": 6,
     "오해풀기": 4,
-    "트렌드": 10
+    "트렌드": 11
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -1259,6 +1259,29 @@
       "posted_at": "2026-05-19T07:50:53.666Z",
       "media_id": "17971277565048292",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYgzKYXCA5K"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "헬스케어 자금 신규 증가 추세",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_트렌드_헬스케어_자금_신규_증가_추세.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "언급된 두 사업 모두 announcement 컨텍스트에 존재함",
+          "헬스케어 예산이 늘어난다는 주장은 일반적 추세 언급으로 구체 수치 없음, 위험도 낮음",
+          "트렌드 타입 자금 흐름 변화 주제가 최근 반복되지만 헬스케어 분야 특화로 각도가 다름"
+        ]
+      },
+      "posted_at": "2026-05-19T10:53:36.853Z",
+      "media_id": "17888748000376741",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYhIEhkkWWG"
     }
   ]
 }
