@@ -69,6 +69,9 @@ async function main() {
   const recentThreads = await loadRecentThreads(20);
 
   // ─── 1) 10개 슬롯 생성 (Sonnet) ───
+  // NOTE: pickPost는 state(used_announcements, 인덱스)를 메모리에서 변이시킨다.
+  // saveState는 맨 끝에서 1회만 호출되므로, verifyBatch가 도중에 throw하면
+  // state가 저장되지 않아 다음 배치가 같은 공고를 다시 픽한다 (의도된 재시도 동작 — 실패 슬롯 복구).
   const generated = [];
   for (const slot of SLOTS) {
     const { type, topic } = await pickPost(slot, state, pool, weights);
