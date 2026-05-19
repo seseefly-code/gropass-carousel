@@ -23,16 +23,23 @@ import { loadLatest, sortByDeadline, getAnnouncementsContext } from './lib/annou
 import { generateThread } from './generate_thread.js';
 import { postBody } from './post_thread.js';
 import { verifyThread, summarizeVerdict, buildAlertMessage } from './verify_thread.js';
+import { readQueue, selectFromQueue } from './lib/post_queue.js';
 
 const execFileAsync = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(__dirname, '.post_state.json');
-const POOL_FILE = path.join(__dirname, 'topic_pool.json');
+export const POOL_FILE = path.join(__dirname, 'topic_pool.json');
+const QUEUE_FILE = path.join(__dirname, '.post_queue.json');
+
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
 
 const EVENING_TYPES = ['솔직인사이트', '케이스스터디'];
 const NIGHT_TYPES = ['공감페인', '오해풀기', '트렌드'];
-const SLOTS = [
+export const SLOTS = [
   'early_morning', // 07:00 — 긴급 마감알림 (D-1~3)
   'morning',       // 08:00 — 마감알림 (D-4~14)
   'late_morning',  // 10:00 — 솔직인사이트
@@ -54,7 +61,7 @@ function parseArgs(argv) {
   return out;
 }
 
-async function loadWeights() {
+export async function loadWeights() {
   const f = path.join(__dirname, 'data', 'reports', 'weights.json');
   try {
     const raw = await fs.readFile(f, 'utf-8');
@@ -83,7 +90,7 @@ function weightedPick(types, weights) {
   return list[list.length - 1].t;
 }
 
-async function loadState() {
+export async function loadState() {
   try {
     return JSON.parse(await fs.readFile(STATE_FILE, 'utf-8'));
   } catch (e) {
@@ -98,7 +105,7 @@ async function loadState() {
   }
 }
 
-async function saveState(state) {
+export async function saveState(state) {
   if (state.history.length > 100) state.history = state.history.slice(-100);
   if (state.used_announcements.length > 200) state.used_announcements = state.used_announcements.slice(-200);
   await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2), 'utf-8');
@@ -107,7 +114,7 @@ async function saveState(state) {
 /**
  * 검증 fail/review 시 카카오 메모로 알림 (best-effort, 실패해도 흐름 중단 X)
  */
-async function notifyKakao(text) {
+export async function notifyKakao(text) {
   if (!process.env.KAKAO_REST_API_KEY || !process.env.KAKAO_REFRESH_TOKEN) {
     console.warn('카카오 알림 환경변수 없음 — 알림 스킵');
     return;
@@ -162,7 +169,7 @@ function nextFromPool(pool, type, state) {
 /**
  * 슬롯 → {type, topic} 결정 (state 변이됨)
  */
-async function pickPost(slot, state, pool, weights) {
+export async function pickPost(slot, state, pool, weights) {
   const data = await loadLatest();
   const sorted = data ? sortByDeadline(data.announcements) : [];
 
@@ -285,6 +292,38 @@ async function main() {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 
   const state = await loadState();
+
+  // ─── 큐 우선 — 아침 배치가 승인한 포스트가 있으면 생성·검증 없이 바로 게시 ───
+  if (!dryRun) {
+    const queued = selectFromQueue(await readQueue(QUEUE_FILE), slot, todayStr());
+    if (queued) {
+      console.log('📋 배치 큐에 승인된 포스트 있음 — 생성·검증 건너뛰고 바로 게시');
+      console.log(`타입 : ${queued.post.post_type}  (${queued.post.char_count}자)`);
+      const result = await postBody({ body: queued.post.main_post });
+      console.log('✅ 게시 완료');
+      console.log(`   media_id : ${result.mediaId}`);
+      if (result.permalink) console.log(`   URL      : ${result.permalink}`);
+      state.history.push({
+        slot,
+        type: queued.post.post_type,
+        topic: queued.topic || '',
+        char_count: queued.post.char_count,
+        source: 'batch_queue',
+        verdict: queued.verdict
+          ? { decision: queued.verdict.overall.decision, score: queued.verdict.overall.score }
+          : null,
+        media_id: result.mediaId,
+        permalink: result.permalink || null,
+        posted_at: new Date().toISOString(),
+      });
+      await saveState(state);
+      console.log('');
+      console.log(`완료 (소요 ${Math.round((Date.now() - startTime) / 1000)}s)`);
+      return;
+    }
+    console.log('큐에 승인된 포스트 없음 — 폴백 단건 생성·검증');
+  }
+
   const pool = JSON.parse(await fs.readFile(POOL_FILE, 'utf-8'));
   const weights = await loadWeights();
   if (weights) {
@@ -306,7 +345,7 @@ async function main() {
 
   // ─── 검증 ───
   console.log('');
-  console.log('🔍 검증 에이전트 실행 중 (Sonnet 4.6)...');
+  console.log('🔍 검증 에이전트 실행 중 (Opus 4.7)...');
   const announcementsCtx = await getAnnouncementsContext();
   const { verdict, usage: verifyUsage } = await verifyThread({
     post,
@@ -382,8 +421,11 @@ async function main() {
   console.log(`완료 (소요 ${Math.round((Date.now() - startTime) / 1000)}s)`);
 }
 
-main().catch(err => {
-  console.error('\n[auto_post] 에러:', err.message);
-  if (err.body) console.error('응답:', err.body);
-  process.exit(1);
-});
+// CLI 진입점 (직접 실행될 때만 — generate_batch.js가 import해도 main()이 돌지 않도록)
+if (import.meta.url === `file://${(process.argv[1] || '').replace(/\\/g, '/')}` || (process.argv[1] || '').endsWith('auto_post.js')) {
+  main().catch(err => {
+    console.error('\n[auto_post] 에러:', err.message);
+    if (err.body) console.error('응답:', err.body);
+    process.exit(1);
+  });
+}
