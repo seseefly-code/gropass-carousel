@@ -1,0 +1,62 @@
+name: Threads Batch Generate
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 06:00 KST — 첫 게시 슬롯(07:00)보다 1시간 앞
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        description: 'dry-run (큐 파일 쓰지 않음)'
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads-batch
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh announcements (best effort)
+        continue-on-error: true
+        run: node crawl.js --pages=2
+
+      - name: Run generate_batch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: |
+          DRY=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
+          node generate_batch.js $DRY
+
+      - name: Commit queue + state
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .post_queue.json .post_state.json threads/ data/announcements/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "batch: generate queue $(TZ=Asia/Seoul date +%Y-%m-%d_%H:%M)"
+            git pull --rebase origin main || true
+            git push
+          fi
