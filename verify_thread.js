@@ -392,6 +392,9 @@ export async function verifyBatch({ posts, announcementsCtx, recentThreads }) {
   if (!textBlock) throw new Error('배치 검증 에이전트가 텍스트를 반환하지 않았습니다');
 
   const parsed = JSON.parse(textBlock.text);
+  if (!Array.isArray(parsed.results)) {
+    throw new Error('배치 검증 응답에 results 배열이 없습니다');
+  }
   return { results: parsed.results, usage: response.usage };
 }
 
