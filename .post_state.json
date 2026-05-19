@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 14,
-    "케이스스터디": 1,
+    "케이스스터디": 2,
     "숫자팩트": 11,
     "마감알림": 6,
     "오해풀기": 4,
@@ -35,16 +35,6 @@
     "PBLN_000000000122070"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
-      "char_count": 234,
-      "media_id": "18054934982713936",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_aiBkFBjX",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
-      "posted_at": "2026-05-06T08:40:49.088Z"
-    },
     {
       "slot": "evening",
       "type": "공감페인",
@@ -1282,6 +1272,28 @@
       "posted_at": "2026-05-19T10:53:36.853Z",
       "media_id": "17888748000376741",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYhIEhkkWWG"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
+      "char_count": 198,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 수치나 비용 없이 일반론으로 서술됨",
+          "[4] 매출 0원에서 자금 받은 초기 스타트업과 '1인/초기 단계' 주제가 유사하나, 각도(시리즈A 연결·VC 레퍼런스)가 달라 중복도 낮음"
+        ]
+      },
+      "posted_at": "2026-05-19T12:35:57.127Z",
+      "media_id": "18095645242908604",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYhTyFFlii6"
     }
   ]
 }
