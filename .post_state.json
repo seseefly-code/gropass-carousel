@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 1,
-    "공감페인": 14,
+    "공감페인": 15,
     "케이스스터디": 2,
     "숫자팩트": 11,
     "마감알림": 6,
@@ -35,16 +35,6 @@
     "PBLN_000000000122070"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "공감페인",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "char_count": 182,
-      "media_id": "18055918700708278",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DX_bIsIFIez",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-06_공감페인_사업계획서_쓰다가_새벽_3시인_대표.md",
-      "posted_at": "2026-05-06T08:46:06.403Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1294,6 +1284,30 @@
       "posted_at": "2026-05-19T12:35:57.127Z",
       "media_id": "18095645242908604",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYhTyFFlii6"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "12월에 사라지는 예산 보면서 드는 생각",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명을 호명하지 않고 일반론(예산 소진, 회계연도 반납)으로 작성되어 fact 위반 없음",
+          "구체 수치·금액·조건 없음. '회계연도 기준 미집행 예산 반납'은 일반 상식 수준",
+          "최근 공감페인([6] 평가위원 질문, [12] 입금 지연)과 주제·각도 다름. 12월 예산 소멸이라는 새로운 각도",
+          "반말 유지, 해시태그·이모지 없음, 196자로 적정. AI 정형 도입부 없음"
+        ]
+      },
+      "posted_at": "2026-05-19T16:23:27.433Z",
+      "media_id": "18091523849210512",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYht0arCUGC"
     }
   ]
 }
