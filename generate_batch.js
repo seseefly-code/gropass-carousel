@@ -20,16 +20,12 @@ import { generateThread } from './generate_thread.js';
 import { verifyBatch, summarizeVerdict, buildBatchAlertMessage } from './verify_thread.js';
 import { writeQueue } from './lib/post_queue.js';
 import { SLOTS, POOL_FILE, loadState, saveState, loadWeights, pickPost, notifyKakao } from './auto_post.js';
+import { kstDateStr } from './lib/kst_date.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE_FILE = path.join(__dirname, '.post_queue.json');
 const THREADS_DIR = path.join(__dirname, 'threads');
 const GEN_MODEL = 'claude-sonnet-4-6';
-
-function todayStr() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
 
 // 생성 전에 호출 — 방금 만든 글이 끼기 전의 최근 게시본 목록
 async function loadRecentThreads(n = 20) {
@@ -110,7 +106,7 @@ async function main() {
     }
   }
 
-  const queueData = { date: todayStr(), generated_at: new Date().toISOString(), slots };
+  const queueData = { date: kstDateStr(), generated_at: new Date().toISOString(), slots };
 
   console.log('');
   console.log(`승인 ${approved} / 제외 ${rejectedList.length}  (소요 ${Math.round((Date.now() - startTime) / 1000)}s)`);

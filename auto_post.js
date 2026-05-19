@@ -24,6 +24,7 @@ import { generateThread } from './generate_thread.js';
 import { postBody } from './post_thread.js';
 import { verifyThread, summarizeVerdict, buildAlertMessage } from './verify_thread.js';
 import { readQueue, selectFromQueue } from './lib/post_queue.js';
+import { kstDateStr } from './lib/kst_date.js';
 
 const execFileAsync = promisify(execFile);
 
@@ -31,11 +32,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(__dirname, '.post_state.json');
 export const POOL_FILE = path.join(__dirname, 'topic_pool.json');
 const QUEUE_FILE = path.join(__dirname, '.post_queue.json');
-
-function todayStr() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
 
 const EVENING_TYPES = ['솔직인사이트', '케이스스터디'];
 const NIGHT_TYPES = ['공감페인', '오해풀기', '트렌드'];
@@ -295,7 +291,7 @@ async function main() {
 
   // ─── 큐 우선 — 아침 배치가 승인한 포스트가 있으면 생성·검증 없이 바로 게시 ───
   if (!dryRun) {
-    const queued = selectFromQueue(await readQueue(QUEUE_FILE), slot, todayStr());
+    const queued = selectFromQueue(await readQueue(QUEUE_FILE), slot, kstDateStr());
     if (queued) {
       console.log('📋 배치 큐에 승인된 포스트 있음 — 생성·검증 건너뛰고 바로 게시');
       console.log(`타입 : ${queued.post.post_type}  (${queued.post.char_count}자)`);
