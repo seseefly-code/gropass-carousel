@@ -120,7 +120,6 @@ export async function generateThread({ topic, type: forcedType, save = true, qui
   const stream = client.messages.stream({
     model,
     max_tokens: 4000,
-    thinking: { type: 'adaptive' },
     output_config: {
       format: { type: 'json_schema', schema: THREAD_SCHEMA },
     },
@@ -144,7 +143,11 @@ export async function generateThread({ topic, type: forcedType, save = true, qui
 
   const finalMessage = await stream.finalMessage();
   const textBlock = finalMessage.content.find(b => b.type === 'text');
-  if (!textBlock) throw new Error('Claude가 텍스트를 반환하지 않았습니다');
+  if (!textBlock) {
+    throw new Error(
+      `Claude가 텍스트를 반환하지 않았습니다 (stop_reason=${finalMessage.stop_reason}, blocks=[${finalMessage.content.map(b => b.type).join(',')}])`
+    );
+  }
 
   const post = JSON.parse(textBlock.text);
 
