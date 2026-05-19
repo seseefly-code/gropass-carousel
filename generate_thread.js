@@ -186,7 +186,7 @@ ${post.main_post}
 }
 
 // CLI 진입점 (직접 실행될 때만)
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}` || process.argv[1].endsWith('generate_thread.js')) {
+if (import.meta.url === `file://${(process.argv[1] || '').replace(/\\/g, '/')}` || (process.argv[1] || '').endsWith('generate_thread.js')) {
   const { topic, type } = parseArgs(process.argv);
   if (!topic) {
     console.error('사용법: node generate_thread.js "<주제>" [--type=<타입>]');

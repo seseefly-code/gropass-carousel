@@ -236,7 +236,7 @@ async function main() {
 }
 
 // CLI 진입점 (직접 실행될 때만)
-if (process.argv[1].endsWith('post_thread.js')) {
+if (process.argv[1] && process.argv[1].endsWith('post_thread.js')) {
   main().catch(err => {
     console.error('\n에러:', err.message);
     process.exit(1);
