@@ -39,16 +39,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "올해 정부 정책자금 예산 30조 시대",
-      "char_count": 196,
-      "media_id": "18121140796636619",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYBuiOFlAI1",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_숫자팩트_올해_정부_정책자금_예산_30조_시대.md",
-      "posted_at": "2026-05-07T06:14:06.171Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 온라인 플랫폼(알리바바닷컴ㆍ바이코리아) 활용 수출 지원 사업 추가 모집 공고 자금 해설 (산업통상부)",
@@ -1323,6 +1313,20 @@
       "media_id": "18108361217483468",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYjEMAfFpH9",
       "posted_at": "2026-05-20T04:58:14.758Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18205473826341539",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYjRLdLlSzr",
+      "posted_at": "2026-05-20T06:51:45.554Z"
     }
   ]
 }
