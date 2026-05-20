@@ -1,17 +1,25 @@
 {
   "carousel_id": "case_matched_5",
   "_topic": "최근 매칭된 사장님 케이스 5가지",
-  "_generated_at": "2026-05-08T00:43:41.121Z",
-  "caption": "우리 업종엔 정책자금이 없다고 생각했던 사장님들 이야기예요 📌\n\n음식점 하시는 분은 온라인 판로 지원으로 쇼핑몰 구축비 받았고,\n수출 준비 중인 뷰티 업체는 미주 유통망 진출 프로그램 연결됐어요.\n제조업 사장님은 혁신바우처로 채용 비용 일부 지원받으셨고요.\n업종도 규모도 다른데 공통점은 마감 전에 신청했다는 거예요.\n\n어디 해당되는지 모르겠으면 그로패스에서 사업자번호 넣고 1분이면 나와요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #중소기업지원 #창업지원금 #정부지원사업 #그로패스 #5월마감임박 #온라인판로 #수출지원 #혁신바우처 #정책자금매칭",
+  "_generated_at": "2026-05-20T23:47:20.446Z",
+  "caption": "이 분들은 이미 받았어요 📌\n\n업종도 지역도 다른 사장님 5명 케이스 꺼내봤어요.\n부산 기계부품 수출업체는 선착순 당일 접수가 포인트였고,\n강원 철원 소상공인은 경쟁률 낮은 지역 자금으로 서류도 훨씬 간단했대요.\n경기 부천 전자제조는 KES 전시회 지원이 6/5 마감이라 아직 가능해요.\n\n본인 사업이 어디 해당되는지 모르겠으면 그로패스에서 사업자번호 한 줄 넣어보세요. 1분이면 나와요.\ngropass.co.kr\n\n#정책자금 #소상공인지원 #중소기업지원 #창업지원금 #수출지원 #제조업지원 #그로패스 #정부지원사업 #마감임박 #정책자금매칭 #스타트업지원 #5월공고",
+  "theme": {
+    "primary": "#3730A3",
+    "accent": "#6366F1",
+    "highlight": "#FDE68A",
+    "gradient-tint": "#6366F122",
+    "dark-bg": "#1E1B4B",
+    "label": "매칭 케이스 · 사장님 5분"
+  },
   "slides": [
     {
       "template": "slide_01_cover_case",
       "content": {
         ".label": "그로패스 매칭 케이스",
-        ".week": "2026년 5월 2주차",
+        ".week": "2026년 5월 3주차",
         ".eyebrow": "실제 사장님들 이야기",
-        ".headline": "우리 사업엔<br>어떤 자금이<br><em>맞을까요?</em>",
-        ".sub": "업종도 규모도 다른 사장님 5명<br>실제로 받은 자금 케이스 모았어요"
+        ".headline": "이 분들은<br>이미 <em>받았어요</em>",
+        ".sub": "업종도 규모도 다른 5명<br>어떤 자금 받았는지 꺼내봤어요"
       }
     },
     {
@@ -21,15 +29,15 @@
         ".pager": "<strong>02</strong> / 05",
         ".num": "01",
         ".num-label": "FIRST PICK",
-        ".title": "수원 김밥·분식 소상공인 (월매출 1,800만)",
-        ".meta": "<span class=\"tag\">소상공인</span><span class=\"tag\">음식업</span><span class=\"tag\">온라인전환</span>",
-        ".body": "배달 플랫폼 수수료 부담으로 온라인 직주문 전환 고민 중 매칭.<br><strong>서울시 소상공인 온라인 판로개척 지원</strong>으로 쇼핑몰 구축비 일부 보전.<br>서류는 사업자등록증·임대차계약서 두 장으로 끝났어요.",
-        ".stats .stat:nth-child(1) .stat-label": "최대 지원금",
-        ".stats .stat:nth-child(1) .stat-value": "200<span class=\"unit\">만원</span>",
-        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
-        ".stats .stat:nth-child(2) .stat-value": "5<span class=\"unit\">/25</span>",
-        ".stats .stat:nth-child(3) .stat-label": "신청 방식",
-        ".stats .stat:nth-child(3) .stat-value": "선착<span class=\"unit\">순</span>"
+        ".title": "서울 성동구 IT 스타트업 (직원 4명)",
+        ".meta": "<span class=\"tag\">중소벤처기업부</span><span class=\"tag\">창업 3년차</span><span class=\"tag\">기술개발</span>",
+        ".body": "작년 11월 그로패스로 매칭 후 <strong>초기창업패키지 1억 수령</strong>.<br>본인은 R&D 쪽인 줄 알았는데 창업 지원 쪽이 맞는 거였네요.<br>서류는 사업계획서 하나가 핵심이었어요.",
+        ".stats .stat:nth-child(1) .stat-label": "수령 금액",
+        ".stats .stat:nth-child(1) .stat-value": "1<span class=\"unit\">억원</span>",
+        ".stats .stat:nth-child(2) .stat-label": "매칭 소요",
+        ".stats .stat:nth-child(2) .stat-value": "3<span class=\"unit\">일</span>",
+        ".stats .stat:nth-child(3) .stat-label": "사업 분야",
+        ".stats .stat:nth-child(3) .stat-value": "<span class=\"unit\">IT·앱개발</span>"
       }
     },
     {
@@ -37,13 +45,29 @@
       "content": {
         ".crumb": "정책자금 위클리 · 한눈에 보기",
         ".pager": "<strong>03</strong> / 05",
-        ".eyebrow": "SUMMARY",
-        ".title": "사장님 5명이 받은<br><em>실제 매칭 케이스</em>",
+        ".eyebrow": "CASE SUMMARY",
+        ".title": "업종도 지역도 달라도<br><em>다 받았어요</em>",
         ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
-        ".item:nth-child(1) .item-name": "수원 김밥·분식 소상공인 (월매출 1,800만)",
-        ".item:nth-child(1) .item-desc": "소상공인 · 서울 소재 · 온라인 판매채널 구축 희망",
-        ".item:nth-child(1) .item-amount": "최대 200만원",
-        ".item:nth-child(1) .item-deadline": "D-17 · 5/25 마감"
+        ".item:nth-child(1) .item-name": "서울 성동구 IT 스타트업 (직원 4명)",
+        ".item:nth-child(1) .item-desc": "성동구 IT 스타트업 · 직원 4명 · 창업 3년차",
+        ".item:nth-child(1) .item-amount": "최대 1억",
+        ".item:nth-child(1) .item-deadline": "초기창업패키지",
+        ".item:nth-child(2) .item-name": "경기 화성 제조업체 (월매출 1.5억)",
+        ".item:nth-child(2) .item-desc": "화성 제조업체 · 월매출 1.5억 · 설비 디지털화",
+        ".item:nth-child(2) .item-amount": "국비 70%",
+        ".item:nth-child(2) .item-deadline": "제조 DX 지원",
+        ".item:nth-child(3) .item-name": "부산 기계부품 수출기업 (수출 연 5억)",
+        ".item:nth-child(3) .item-desc": "부산 기계부품 · 수출 연 5억 · 선착순 당일 접수",
+        ".item:nth-child(3) .item-amount": "물류+전시 2건",
+        ".item:nth-child(3) .item-deadline": "부산 수출기업 지원",
+        ".item:nth-child(4) .item-name": "강원 철원 소상공인 (직원 2명)",
+        ".item:nth-child(4) .item-desc": "철원 소상공인 · 직원 2명 · 서류 간소",
+        ".item:nth-child(4) .item-amount": "경영 지원 연계",
+        ".item:nth-child(4) .item-deadline": "D-9 · 5/29 마감",
+        ".item:nth-child(5) .item-name": "경기 부천 전자제품 제조사 (창업 5년)",
+        ".item:nth-child(5) .item-desc": "부천 전자제조 · 창업 5년 · KES 2026 참가",
+        ".item:nth-child(5) .item-amount": "부스·운송 보조",
+        ".item:nth-child(5) .item-deadline": "D-16 · 6/5 마감"
       }
     },
     {
@@ -51,9 +75,9 @@
       "content": {
         ".crumb": "KEY INSIGHT",
         ".pager": "<strong>04</strong> / 05",
-        ".quote": "자금은 <em>업종</em>보다 <span class=\"underline\">타이밍</span>이 더 많이 가른다",
-        ".att-text": "그로패스 매칭 데이터 기반 코멘트",
-        ".footer-quote": "같은 업종이어도 신청 시점·지역·창업 연차에 따라<br>해당 자금이 완전히 달라지더라구요.",
+        ".quote": "정책자금은 <em>찾는 사람</em>이 받는 게 아니라 <span class=\"underline\">매칭되는 사람</span>이 받아요.",
+        ".att-text": "그로패스 매칭 케이스 분석 코멘트",
+        ".footer-quote": "같은 업종이라도 지역·업력·매출 규모에 따라<br>해당되는 자금이 완전히 달라지더라구요.",
         ".brand-domain": "gropass.co.kr"
       }
     },
@@ -62,21 +86,13 @@
       "content": {
         ".crumb": "정책자금 위클리 · 마무리",
         ".pager": "<strong>05</strong> / 05",
-        ".badge": "DON'T MISS",
+        ".badge": "YOUR TURN",
         ".headline": "사업자번호 하나로<br><em>1분 만에</em> 내 케이스 확인",
-        ".sub": "업종·지역·창업연차 입력하면<br>지금 신청 가능한 자금 바로 나와요. gropass.co.kr",
+        ".sub": "위 5명처럼 그로패스에서 바로 매칭해볼 수 있어요.<br>프로필 링크 → gropass.co.kr",
         ".brand-tag": "AI 정책자금 매칭 플랫폼",
         ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
         ".url": "gropass.co.kr"
       }
     }
-  ],
-  "theme": {
-    "primary": "#3730A3",
-    "accent": "#6366F1",
-    "highlight": "#FDE68A",
-    "gradient-tint": "#6366F122",
-    "dark-bg": "#1E1B4B",
-    "label": "매칭 케이스 · 사장님 5분"
-  }
+  ]
 }
