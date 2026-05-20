@@ -39,16 +39,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
-      "char_count": 227,
-      "media_id": "18050506334744262",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYCUUK3FDnL",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
-      "posted_at": "2026-05-07T11:44:13.502Z"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "정책자금 검색하느라 본업 못 한 하루",
@@ -1331,6 +1321,20 @@
       "media_id": "17906687760420888",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYjXlaslvoq",
       "posted_at": "2026-05-20T07:47:43.093Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 연장 공고 자금 해설 (전북특별자치도)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18448681666118413",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYji8MPFl0Z",
+      "posted_at": "2026-05-20T09:26:58.234Z"
     }
   ]
 }
