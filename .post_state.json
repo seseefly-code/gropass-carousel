@@ -1,6 +1,6 @@
 {
   "evening_index": 0,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 3,
     "공감페인": 1,
@@ -8,7 +8,7 @@
     "숫자팩트": 12,
     "마감알림": 6,
     "오해풀기": 5,
-    "트렌드": 12
+    "트렌드": 13
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -38,16 +38,6 @@
     "PBLN_000000000122186"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "매년 미집행되는 정책자금 규모",
-      "char_count": 215,
-      "media_id": "18194402338364323",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYEDDeLlibl",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_숫자팩트_매년_미집행되는_정책자금_규모.md",
-      "posted_at": "2026-05-08T03:51:52.514Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1354,6 +1344,29 @@
       "media_id": "18067482392375925",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYkGpMHlGxd",
       "posted_at": "2026-05-20T14:38:56.204Z"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "융자 vs 보증 vs 출연금 비중 변화",
+      "char_count": 246,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-20_트렌드_융자_vs_보증_vs_출연금_비중_변화.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 7,
+        "issues": [
+          "출연금/융자/보증 비중 변화는 일반론으로 서술되어 구체 수치 없음",
+          "[12], [13] 트렌드 글과 형식은 유사하나 주제(자금 구조 변화)는 다름",
+          "본문이 '근데 사장님들 대부분 이 세 개를 구분 없이'에서 중간에 끊겨 있음 - 미완결 문장",
+          "마무리 문장이 없어 글의 완결성이 떨어짐"
+        ]
+      },
+      "posted_at": "2026-05-20T16:29:26.297Z",
+      "review_required": true
     }
   ]
 }
