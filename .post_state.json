@@ -39,16 +39,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 온라인 플랫폼(알리바바닷컴ㆍ바이코리아) 활용 수출 지원 사업 추가 모집 공고 자금 해설 (산업통상부)",
-      "char_count": 244,
-      "media_id": "18027191348805981",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYB-IculE8I",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_자금해설_2026년_온라인_플랫폼알리바바닷컴ㆍ바이코리아_활용_수.md",
-      "posted_at": "2026-05-07T08:30:23.062Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
@@ -1327,6 +1317,20 @@
       "media_id": "18205473826341539",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYjRLdLlSzr",
       "posted_at": "2026-05-20T06:51:45.554Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 214,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17906687760420888",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYjXlaslvoq",
+      "posted_at": "2026-05-20T07:47:43.093Z"
     }
   ]
 }
