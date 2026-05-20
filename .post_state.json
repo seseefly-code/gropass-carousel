@@ -39,16 +39,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[경북] 2026년 4차 K-EXPO Madrid 2026 참가기업 모집 추가 공고(유럽 한국 우수 상품 박람회 참가 지원사업) D-5 마감 임박 (경상북도)",
-      "char_count": 192,
-      "media_id": "17950300338159263",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYDnlXWEWpx",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-07_마감알림_경북_2026년_4차_K-EXPO_Madrid_2026.md",
-      "posted_at": "2026-05-07T23:51:51.191Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "매년 미집행되는 정책자금 규모",
@@ -1350,6 +1340,20 @@
       "posted_at": "2026-05-20T12:17:10.852Z",
       "media_id": "17924967864338242",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYj2bdKlJh5"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18067482392375925",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYkGpMHlGxd",
+      "posted_at": "2026-05-20T14:38:56.204Z"
     }
   ]
 }
