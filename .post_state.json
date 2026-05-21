@@ -41,16 +41,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 신기술 기반 치유 융복합 콘텐츠 개발 제작지원사업 모집 공고 자금 해설 (전북특별자치도)",
-      "char_count": 214,
-      "media_id": "17993522339974571",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYEbpFAoDdt",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_자금해설_2026년_신기술_기반_치유_융복합_콘텐츠_개발_제작지.md",
-      "posted_at": "2026-05-08T07:26:45.799Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "폐업 위기에서 정책자금으로 살아난 회사",
@@ -1381,6 +1371,20 @@
       "media_id": "18160913368453173",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYlpogZFral",
       "posted_at": "2026-05-21T05:03:56.683Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "수출바우처 평균 활용 금액",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18111855949874508",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYl2edyFeys",
+      "posted_at": "2026-05-21T06:56:09.852Z"
     }
   ]
 }
