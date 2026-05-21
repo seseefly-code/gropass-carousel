@@ -1,9 +1,9 @@
 {
   "evening_index": 1,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 5,
-    "공감페인": 3,
+    "공감페인": 4,
     "케이스스터디": 5,
     "숫자팩트": 13,
     "마감알림": 7,
@@ -40,16 +40,6 @@
     "PBLN_000000000122241"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "char_count": 201,
-      "media_id": "18044024288557102",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYGq-WFFaDd",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_솔직인사이트_사업계획서_잘_쓰는_대표_vs_못_쓰는_대표_차이.md",
-      "posted_at": "2026-05-09T04:19:11.115Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1405,6 +1395,27 @@
       "media_id": "18422047237130236",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYmsIAcEW7L",
       "posted_at": "2026-05-21T14:44:57.017Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-21_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "[8] 컨설팅사 관련 인사이트와 주제 겹침. 다만 [8]은 '컨설팅 잘 활용하는 법' 인사이트 각도이고, 이번 글은 '미팅에서 영업만 당한 페인' 1인칭 공감 각도라 톤·관점이 다름. 같은 주에 컨설팅사 주제가 두 번 나온다는 점은 약한 중복 신호"
+        ]
+      },
+      "posted_at": "2026-05-21T16:17:01.784Z",
+      "media_id": "18104431273950244",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYm2rGmmp5-"
     }
   ]
 }
