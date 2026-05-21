@@ -41,16 +41,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
-      "char_count": 188,
-      "media_id": "17935538472248433",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYFDHIKFG0O",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_케이스스터디_벤처인증_받자마자_보증한도_2배_늘어난_사례.md",
-      "posted_at": "2026-05-08T13:11:36.659Z"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "벤처인증 받으면 진짜로 좋은 점",
@@ -1389,6 +1379,20 @@
       "media_id": "18091421912217657",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYl9cyFld9e",
       "posted_at": "2026-05-21T07:57:04.784Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[강원] 2026년 농식품 베트남 수출상담회 참여기업 모집 공고(베트남본부 협업) 자금 해설 (강원특별자치도)",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18109497061915799",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYmIurrESpI",
+      "posted_at": "2026-05-21T09:35:40.807Z"
     }
   ]
 }
