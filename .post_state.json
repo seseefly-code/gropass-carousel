@@ -41,16 +41,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "떨어졌다는 메일 받은 날 표정",
-      "char_count": 215,
-      "media_id": "18073005533309781",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYERsHmE7QJ",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_공감페인_떨어졌다는_메일_받은_날_표정.md",
-      "posted_at": "2026-05-08T05:59:48.870Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 신기술 기반 치유 융복합 콘텐츠 개발 제작지원사업 모집 공고 자금 해설 (전북특별자치도)",
@@ -1377,6 +1367,20 @@
       "media_id": "18393262624085633",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYlHhNsjZzd",
       "posted_at": "2026-05-21T00:05:51.962Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18160913368453173",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYlpogZFral",
+      "posted_at": "2026-05-21T05:03:56.683Z"
     }
   ]
 }
