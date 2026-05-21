@@ -1,0 +1,98 @@
+{
+  "carousel_id": "week_new_open_may_w3",
+  "_topic": "이번 주 신청 시작한 정책자금 5선",
+  "_generated_at": "2026-05-21T23:34:40.281Z",
+  "caption": "이번 주 막 신청 시작한 정책자금만 골라봤어요 📌\n\n칠레 온라인 수출 지원이 5/21 열렸고 6/4까지예요.\n경기북부 소상공인 브랜드·IP 지원은 6/15 마감인데 지금 막 접수 시작했네요.\n전북 데이터·AI 창업 지원은 연장 공고라 이번이 진짜 마지막이에요.\n\n공고 뜬 첫 주가 경쟁률 제일 낮거든요. 이때 넣는 게 맞아요.\n본인 업종·지역에 뭐가 맞는지 헷갈리면 gropass.co.kr에서 1분이면 확인돼요.\n\n#정책자금 #소상공인지원 #중소기업지원 #창업지원금 #경기소상공인 #수출지원 #브랜드지원 #그로패스 #5월공고 #정부지원사업 #마감임박 #신규공고",
+  "theme": {
+    "primary": "#155E75",
+    "accent": "#06B6D4",
+    "highlight": "#FEF08A",
+    "gradient-tint": "#06B6D422",
+    "dark-bg": "#083344",
+    "label": "이번 주 신규 · 5선"
+  },
+  "slides": [
+    {
+      "template": "slide_01_cover_new",
+      "content": {
+        ".label": "정책자금 위클리",
+        ".week": "2026년 5월 3주차",
+        ".eyebrow": "이번 주 막 열린 공고들",
+        ".headline": "이번 주 막 열린<br>정책자금만<br><em>딱 5개</em>",
+        ".sub": "놓치면 또 1년 기다려야 해요.<br>신청 시작일 기준으로 추렸습니다."
+      }
+    },
+    {
+      "template": "slide_02_info",
+      "content": {
+        ".crumb span": "정책자금 위클리",
+        ".pager": "<strong>02</strong> / 05",
+        ".num": "01",
+        ".num-label": "FIRST PICK",
+        ".title": "칠레 온라인 시장 진출 지원사업",
+        ".meta": "<span class=\"tag\">서울시</span><span class=\"tag\">수출·해외</span><span class=\"tag\">소상공인·중소기업</span>",
+        ".body": "메르카도리브레(남미 최대 이커머스)에 입점하려는 기업 대상이에요.<br><strong>판매 계정 셋업부터 현지 마케팅까지</strong> 서울경제진흥원이 밀어줍니다.<br>5/21 시작이라 딱 지금 접수 중.",
+        ".stats .stat:nth-child(1) .stat-label": "지원 내용",
+        ".stats .stat:nth-child(1) .stat-value": "온라인<span class=\"unit\">진출 全</span>",
+        ".stats .stat:nth-child(2) .stat-label": "신청 마감",
+        ".stats .stat:nth-child(2) .stat-value": "6<span class=\"unit\">/4</span>",
+        ".stats .stat:nth-child(3) .stat-label": "소관부처",
+        ".stats .stat:nth-child(3) .stat-value": "서울<span class=\"unit\">특별시</span>"
+      }
+    },
+    {
+      "template": "slide_03_list_new",
+      "content": {
+        ".crumb": "정책자금 위클리 · 한눈에 보기",
+        ".pager": "<strong>03</strong> / 05",
+        ".eyebrow": "SUMMARY",
+        ".title": "이번 주 새로 열린<br><em>정책자금 5</em>",
+        ".footer-hint": "상세 조건은 마지막 장에서 확인 →",
+        ".item:nth-child(1) .item-name": "칠레 온라인 시장 진출 지원사업",
+        ".item:nth-child(1) .item-desc": "서울 소재 기업 · 남미 수출 희망 · 온라인몰 미입점",
+        ".item:nth-child(1) .item-amount": "무료 지원",
+        ".item:nth-child(1) .item-deadline": "D-14 · 6/4 마감",
+        ".item:nth-child(2) .item-name": "청년 소셜벤처기업 육성사업",
+        ".item:nth-child(2) .item-desc": "인천 거주 청년 · 예비~초기창업자 · 소셜벤처 아이템",
+        ".item:nth-child(2) .item-amount": "공간+자금",
+        ".item:nth-child(2) .item-deadline": "D-15 · 6/5 마감",
+        ".item:nth-child(3) .item-name": "경기 동부권역 창업가 모집",
+        ".item:nth-child(3) .item-desc": "경기 동부권 · 초기창업자 · 지역 기반 아이템",
+        ".item:nth-child(3) .item-amount": "육성+네트워킹",
+        ".item:nth-child(3) .item-deadline": "D-29 · 6/19 마감",
+        ".item:nth-child(4) .item-name": "전북 데이터 기반 서비스·기술 창업지원",
+        ".item:nth-child(4) .item-desc": "전북 소재 · 데이터·AI 기반 서비스 · 초기~성장기",
+        ".item:nth-child(4) .item-amount": "기술+자금지원",
+        ".item:nth-child(4) .item-deadline": "D-20 · 6/10 마감",
+        ".item:nth-child(5) .item-name": "경기 북부 소상공인 IP창출 종합패키지",
+        ".item:nth-child(5) .item-desc": "경기북부 소재 소상공인 · 브랜드 없는 업체 우선",
+        ".item:nth-child(5) .item-amount": "브랜드+IP지원",
+        ".item:nth-child(5) .item-deadline": "D-25 · 6/15 마감"
+      }
+    },
+    {
+      "template": "slide_04_quote",
+      "content": {
+        ".crumb": "KEY INSIGHT",
+        ".pager": "<strong>04</strong> / 05",
+        ".quote": "정책자금은 <em>공고 뜬 첫 주</em>에 넣는 게 <span class=\"underline\">경쟁률이 가장 낮아요</span>.",
+        ".att-text": "정책자금 컨설팅 현장 코멘트",
+        ".footer-quote": "접수 초반엔 담당자도 여유 있고, 서류 보완 요청도 빠르게 받을 수 있어요.<br>마감 직전 몰리면 검토 시간이 짧아지는 경우가 많습니다.",
+        ".brand-domain": "gropass.co.kr"
+      }
+    },
+    {
+      "template": "slide_05_cta",
+      "content": {
+        ".crumb": "정책자금 위클리 · 마무리",
+        ".pager": "<strong>05</strong> / 05",
+        ".badge": "DON'T MISS",
+        ".headline": "사업자번호 하나로<br><em>1분 만에</em> 내 공고 매칭.",
+        ".sub": "위 5개 말고도 지금 열린 공고 수십 개,<br>그로패스에서 한 번에 확인하세요.",
+        ".brand-tag": "AI 정책자금 매칭 플랫폼",
+        ".brand-tag-sub": "중소기업·소상공인 대표를 위한",
+        ".url": "gropass.co.kr"
+      }
+    }
+  ]
+}
