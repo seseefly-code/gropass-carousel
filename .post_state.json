@@ -41,16 +41,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
-      "char_count": 238,
-      "media_id": "17849318961692880",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYE0sqqFOU0",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
-      "posted_at": "2026-05-08T11:05:39.895Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
@@ -1385,6 +1375,20 @@
       "media_id": "18111855949874508",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYl2edyFeys",
       "posted_at": "2026-05-21T06:56:09.852Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "정책자금 검색하느라 본업 못 한 하루",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18091421912217657",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYl9cyFld9e",
+      "posted_at": "2026-05-21T07:57:04.784Z"
     }
   ]
 }
