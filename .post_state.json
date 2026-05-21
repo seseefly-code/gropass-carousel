@@ -41,16 +41,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "벤처인증 받으면 진짜로 좋은 점",
-      "char_count": 237,
-      "media_id": "17998123619934445",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYFO0y8lZJ-",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-08_오해풀기_벤처인증_받으면_진짜로_좋은_점.md",
-      "posted_at": "2026-05-08T14:53:59.814Z"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "월말 마감 자금 정리",
@@ -1393,6 +1383,20 @@
       "media_id": "18109497061915799",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYmIurrESpI",
       "posted_at": "2026-05-21T09:35:40.807Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "정책자금 평가 기준이 바뀌는 방향",
+      "char_count": 219,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18103341788050904",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYmSJI2FAk7",
+      "posted_at": "2026-05-21T10:57:54.915Z"
     }
   ]
 }
