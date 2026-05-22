@@ -39,19 +39,10 @@
     "PBLN_000000000122257",
     "PBLN_000000000122241",
     "PBLN_000000000122315",
-    "PBLN_000000000122307"
+    "PBLN_000000000122307",
+    "PBLN_000000000122296"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
-      "char_count": 211,
-      "media_id": "18125221813716841",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYG4uyQlBpL",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
-      "posted_at": "2026-05-09T06:19:22.937Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1422,6 +1413,29 @@
       "media_id": "18102865250081096",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYnkmgUib0P",
       "posted_at": "2026-05-21T22:58:28.064Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[경기] 부천시 2026년 BIFAN 지역상생마켓 참가기업 모집 공고 D-5 마감 임박 (경기도)",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-22_마감알림_경기_부천시_2026년_BIFAN_지역상생마켓_참가기업.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "모든 수치가 announcement 컨텍스트와 정확히 일치",
+          "마감알림 타입이 최근에 2건 있으나 대상 공고(BIFAN 내수 마켓)는 완전히 다른 주제·각도라 중복 아님",
+          "218자, 반말 유지, 해시태그 없음, 이모지 없음, 도입부도 자연스러움"
+        ]
+      },
+      "posted_at": "2026-05-22T00:01:05.564Z",
+      "media_id": "18096346595127288",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYnrx8oEY1n"
     }
   ]
 }
