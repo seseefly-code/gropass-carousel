@@ -1,70 +1,109 @@
 {
-  "date": "2026-05-22",
-  "generated_at": "2026-05-21T22:24:19.047Z",
+  "date": "2026-05-23",
+  "generated_at": "2026-05-22T22:12:43.130Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "신년 새 자금 공고 예고",
+      "topic": "추경 자금 신청 임박 알림",
       "post": {
         "post_type": "마감알림",
-        "main_post": "이번 주 D-5~D-8 마감 공고들 정리해봤어\n\n라오스 녹색산업 시장개척단 — 5월 26일 마감\n베트남(호치민) 수출 통상촉진단 — 5월 29일 마감\n\n수출 준비 중인 회사라면 지금 딱 타이밍이거든\n해외 바이어 직접 만나는 기회가 이렇게 공짜로 열려 있는데\n모르고 지나치면 진짜 아까워\n\n공고 상세 조건은 기업마당에서 확인해봐\n이번 주 안에 챙겨야 해",
-        "char_count": 161,
-        "reasoning": "마감알림 타입을 지정했고, 실제 D-5/D-8 마감 공고를 활용해 긴급성을 살렸으나 글자 수가 부족해 재검토 필요 — 단, 주제가 '신년 새 자금 공고 예고'인데 컨텍스트 공고가 신년 예고와 직접 매칭되지 않아 현재 임박 마감 공고를 활용한 마감알림으로 작성함"
+        "main_post": "추경 예산 풀리기 시작했는데\n신청 타이밍 놓치면 진짜 아쉽거든\n\n지금 D-7 마감 공고들이 한꺼번에 몰려있어\nIP-R&D 전략지원, SMR 기업지원, 인디아 진출 지원 등\n이번 주 목요일(5월 29일)이 마감이야\n\n추경이라는 게 갑자기 예산 추가되고\n공고 떴다가 빠르게 닫히는 구조라서\n\"나중에 봐야지\" 하다가 끝나는 경우가 제일 많더라\n\n기업마당에서 지금 'D-7' 필터 한 번만 눌러봐\n이번 주 안에 뭐라도 하나는 건질 수 있을 거야",
+        "char_count": 218,
+        "reasoning": "시간 압박과 행동 유도가 핵심인 추경 마감 주제라 마감알림 타입이 가장 적합하고, D-7 공고 데이터를 실제 활용해 신뢰도를 높였음"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
           "score": 9,
           "cited_programs": [
-            "라오스 녹색산업 시장개척단",
-            "베트남(호치민) 수출 통상촉진단"
+            "IP-R&D 전략지원",
+            "SMR 기업지원",
+            "인디아 진출 지원",
+            "기업마당"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "'인디아 진출 지원'은 정확 명칭은 'KOSME-PUNE Base Camp 기반 산학연연계 지원사업'이지만 인도(푸네) 관련이라 일반화 표현으로 허용 가능"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "5월 29일 마감"
+          ],
+          "issues": [
+            "마감일 5/29는 announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "배치 내 포스트2도 5/29 마감 다루지만 사업이 달라 중복 아님"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "announcement 공고와 일치, 톤 OK"
+        }
+      }
+    },
+    "morning": {
+      "status": "approved",
+      "topic": "[충남] 2026년 영화ㆍ드라마 원천 IP 기획개발 지원 사업 공고 D-7 마감 임박 (충청남도)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "충남에서 영화·드라마 원천 IP 만들고 있는 사람 있으면 이거 봐\n\n[충남] 영화·드라마 원천 IP 기획개발 지원사업\n마감이 이번 주 목요일(5월 29일)이야\n\n스토리 개발, IP 기획 단계에 있는 콘텐츠 회사나 창작자 대상인데\n충남 기반이면 충남콘텐츠진흥원 공고 지금 바로 확인해봐\n\n원천 IP 개발 자금은 생각보다 많이 없어서\n이런 거 뜨면 빠르게 보는 게 맞음",
+        "char_count": 163,
+        "reasoning": "마감 D-7로 긴급성이 있고, 특정 공고의 신청 기간과 수행기관이 명확하게 있으므로 마감알림 타입이 적합함"
+      },
+      "verdict": {
+        "slot": "morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "[충남] 영화·드라마 원천 IP 기획개발 지원사업",
+            "충남콘텐츠진흥원"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [
-            "5월 26일 마감",
             "5월 29일 마감"
           ],
-          "issues": [
-            "마감일은 announcement와 일치"
-          ]
+          "issues": []
         },
         "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-05-20_마감알림_경상적으로_마감_빨리_끝나는_자금_주의.md"
-          ],
-          "issues": [
-            "마감알림 형식 유사하나 다른 공고"
-          ]
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 8,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "실제 공고 사실 일치, 톤 양호"
+          "reasoning": "공고 정확 인용, 디테일 일반화"
         }
       }
     },
-    "morning": {
-      "status": "rejected",
-      "topic": "2026년 라오스 녹색산업 시장개척단 참가기업 모집 공고 D-5 마감 임박 (기후에너지환경부)",
-      "reason": "review"
-    },
     "late_morning": {
       "status": "approved",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 정책자금은 내용보다 타이밍이 당락을 가르는 경우가 꽤 많아.\n\n공고 열리자마자 넣는 회사랑 마감 3일 전에 넣는 회사랑\n서류 퀄리티가 비슷해도 결과가 다를 수 있거든.\n\n이유가 뭐냐면 — 대부분 선착순이거나, 예산 소진 시 조기 마감이야.\n심사형도 초반엔 검토자 여유가 있고, 후반엔 몰리니까 꼼꼼히 못 봐.\n\n근데 진짜 문제는 타이밍을 알아야 맞출 수 있다는 거지.\n공고 열린 날 아는 사람이 얼마나 되겠어.\n찾으러 갈 때쯤엔 이미 D-3이고, 그때부터 급하게 준비하면 서류도 엉켜.\n\n결국 정책자금은 준비의 싸움이 아니라 정보의 싸움인 거더라.",
-        "char_count": 218,
-        "reasoning": "자금 신청 타이밍이 결과에 미치는 이유를 경험·데이터 기반 인사이트로 풀기에 솔직인사이트 타입이 가장 적합하고, 마감 임박 공고들이 많은 현황 데이터와도 자연스럽게 연결됨"
+        "main_post": "똑같은 사업인데 누군 5천 받고 누군 못 받는 거, 진짜 이유 솔직하게 말하면\n\n사업 아이템이나 매출 차이가 아니야.\n\n담당자가 \"이 회사 이해가 된다\"고 느끼냐 아니냐의 차이거든.\n\n정책자금 심사는 결국 사람이 해.\n서류 넘기기 전에 이 사업이 왜 지금 이 자금이랑 맞는지,\n한 줄로 설명 못 하면 거의 다 떨어짐.\n\n내가 매일 공고 데이터 보면서 느끼는 건데,\n자격 조건 맞는 회사 수백 개 중에\n\"왜 우리 회사여야 하는지\"를 쓴 곳이 진짜 드물어.\n\n이게 전부야.",
+        "char_count": 196,
+        "reasoning": "같은 사업임에도 결과가 갈리는 이유를 경험 기반 인사이트로 풀어내는 주제라 솔직인사이트가 가장 적합함"
       },
       "verdict": {
         "slot": "late_morning",
@@ -72,84 +111,97 @@
           "score": 10,
           "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "일반 정책자금 통념 다룸, 구체 사업명 없음"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 9,
-          "risky_claims": [],
+          "risky_claims": [
+            "5천 받고"
+          ],
           "issues": [
-            "추상적 표현 위주"
+            "일반적인 정책자금 금액 범위 내, OK"
           ]
         },
         "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
+          "score": 7,
+          "similar_recent_files": [
+            "2026-05-21_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md"
+          ],
+          "issues": [
+            "'심사는 사람이 한다, 프레이밍이 중요' 메시지가 [9]번 케이스스터디와 일부 겹침. 각도는 다름"
+          ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "안전한 인사이트형 콘텐츠"
+          "reasoning": "메시지 약간 반복되나 각도 다름"
         }
       }
     },
     "noon": {
       "status": "approved",
-      "topic": "12월에 사라지는 정책자금 예산 규모",
+      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
       "post": {
         "post_type": "숫자팩트",
-        "main_post": "매년 12월 말 정부 회계연도 마감 때 사라지는 정책자금 규모가 수조 원대야.\n\n편성은 됐는데 집행이 안 된 예산은 그냥 반납됨.\n기업 입장에서는 '내가 받을 수 있었던 돈'이 그냥 증발하는 거거든.\n\n근데 웃긴 건 11~12월에 자금 신청 자체가 확 줄어.\n연말이라 바쁘다는 이유로.\n\n경쟁률 낮아지고, 담당자들도 집행 못 한 예산 소진하려고 오히려 빠르게 심사하는 시즌이 이때야.\n\n연초보다 연말이 붙기 더 쉬운 경우도 꽤 있더라.",
-        "char_count": 211,
-        "reasoning": "12월에 사라지는 정책자금 예산이라는 주제 자체가 통계·규모 기반의 인사이트라 숫자팩트 타입이 가장 적합하고, 수치를 과장하지 않고 '수조 원대'로 일반화해 사실 정확성을 지켰음"
+        "main_post": "1인 창업자가 신청 가능한 정책자금, 평균 몇 개인지 알아?\n\n우리 데이터 보면 업종이랑 지역 조합에 따라 다르지만\n동시에 해당되는 자금이 10개 넘는 경우도 꽤 있어.\n\n근데 실제로 신청하는 건 평균 1~2개.\n\n이게 능력 차이가 아니라 거의 다 '내가 받을 수 있는 게 뭔지 모르는' 문제야.\n\n창업 7년 미만, 대표 혼자인 회사도\n지역 자금 + 정부 자금 + 바우처형 지원 조합하면\n한 해에 여러 개 동시 수령 충분히 가능하거든.\n\n공고 찾는 데 시간 다 쓰고 있으면 그게 더 손해인 것 같더라 🤔",
+        "char_count": 222,
+        "reasoning": "정책자금 신청 개수라는 수치 기반 인사이트를 전달하는 주제라 숫자팩트 타입이 가장 적합하고, 실제 데이터 언급으로 페르소나 신뢰도도 올릴 수 있음"
       },
       "verdict": {
         "slot": "noon",
         "fact_check": {
           "score": 9,
-          "cited_programs": [],
+          "cited_programs": [
+            "지역 자금",
+            "정부 자금",
+            "바우처형 지원"
+          ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "일반 명칭만 사용"
+          ]
         },
         "hallucination_check": {
           "score": 8,
           "risky_claims": [
-            "매년 12월 사라지는 정책자금 수조원대",
-            "연말 신청 줄어 경쟁률 낮아짐"
+            "동시 해당 자금 10개 넘는 경우",
+            "평균 1~2개 신청",
+            "창업 7년 미만"
           ],
           "issues": [
-            "수조원대로 일반화는 OK, 단 '연말이 붙기 쉬움' 주장은 검증 어려우나 추상화 수준"
+            "'우리 데이터' 기반 주장이라 자기 데이터 인용 OK, 구체 수치 추상화됨"
           ]
         },
         "duplication_check": {
-          "score": 8,
+          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
           "score": 9,
-          "issues": []
+          "issues": [
+            "이모지 🤔 1개 — 허용 범위"
+          ]
         },
         "overall": {
-          "score": 8,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "수치 일반화 적절"
+          "reasoning": "수치는 추상화돼 위험 낮음"
         }
       }
     },
     "lunch": {
       "status": "approved",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
+      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
       "post": {
         "post_type": "공감페인",
-        "main_post": "기업마당 들어가서 공고 10개 열어봤는데\n다 똑같이 생긴 거 나만 느끼는 건가\n\n\"○○기업 모집 공고\"\n\"○○참가기업 모집 공고\"\n\"○○지원사업 참여기업 모집 변경 공고\"\n\n제목만 봐서는 나한테 맞는 건지 아닌 건지를 모르겠어\n업종도 다르고 지역도 다르고 신청 조건도 다 다른데\n공고 형식은 왜 이렇게 다 같은 거야 ㅋㅋ\n\n결국 하나하나 클릭해서 PDF 내려받고\n3페이지쯤 읽다가 \"해당사항 없음\" 확인하고 닫고\n이걸 반복하다 보면 30분이 그냥 사라짐\n\n다들 어떻게 찾아요 진짜",
-        "char_count": 233,
-        "reasoning": "공고 탐색 과정에서 느끼는 피로감과 혼란을 사장님 1인칭 시점으로 풀어내는 공감 유발형 콘텐츠라 공감페인이 가장 적합함"
+        "main_post": "정책자금 신청 마감 1시간 전에\n서류 하나 빠진 거 발견한 경험 있어?\n\n나는 있어. 그것도 한 번이 아니야.\n\n근데 진짜 웃긴 건\n그 서류가 처음부터 공고문에 적혀 있었다는 거거든.\n내가 꼼꼼히 읽었다고 생각했는데\n어느 구석에 조그맣게 '별도 첨부 필요' 이거 하나 못 본 거지.\n\n그 1시간 동안 뭔가 해보겠다고\n기관에 전화해봤는데 당연히 안 받고\n결국 그 회차는 그냥 날림.\n\n공고문 진짜 읽어도 읽어도 헷갈리는 거 나만 그래?",
+        "char_count": 228,
+        "reasoning": "마감 직전 서류 누락이라는 극공감 상황을 대표 1인칭 경험으로 풀어내는 전형적인 공감페인 구조에 맞음"
       },
       "verdict": {
         "slot": "lunch",
@@ -162,197 +214,112 @@
         "hallucination_check": {
           "score": 10,
           "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-05-20_공감페인_정책자금_검색하느라_본업_못_한_하루.md"
-          ],
           "issues": [
-            "기업마당 탐색 피로감 주제가 최근 공감페인과 유사"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": [
-            "'다들 어떻게 찾아요'는 살짝 존댓말 톤이나 자연스러운 구어"
-          ]
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "중복성 있으나 각도 차이 있음"
-        }
-      }
-    },
-    "afternoon": {
-      "status": "rejected",
-      "topic": "[인천] 부평구 2026년 베트남(호치민) 수출 통상촉진단 참가업체 모집 공고 자금 해설 (인천광역시)",
-      "reason": "review"
-    },
-    "late_afternoon": {
-      "status": "approved",
-      "topic": "2026년 사라진 자금, 새로 생긴 자금",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 정책자금 판이 꽤 많이 바뀐 거 느껴지더라\n\n조용히 사라진 자금들이 있고, 갑자기 새로 생긴 자금들이 있는데\n다들 이걸 모르고 작년 기준으로 신청하러 갔다가 '폐지됐어요' 듣는 경우가 꽤 있어\n\n새로 생긴 쪽은 AI·딥테크 관련 예산이 많이 늘었고\n바이오·의료기기 쪽도 해외 진출 지원이 상시 모집으로 새로 열렸거든\n\n반대로 일부 소상공인 경영개선 자금은 예산이 줄거나 통폐합된 게 보여\n\n내가 데이터 보면서 느끼는 건\n'작년에 받았던 자금 = 올해도 있다'는 가정 자체가 위험하다는 거야\n\n매년 초에 한 번은 내가 노리던 자금이 아직 살아있는지 확인하는 게 진짜 기본인 것 같아",
-        "char_count": 278,
-        "reasoning": "올해 새로 생기거나 사라진 자금 변화를 다루는 주제라 요즘 뜨는 자금 흐름을 캐주얼하게 소개하는 '트렌드' 타입이 가장 적합하며, 컨텍스트의 바이오 의료기기 상시 지원 공고를 근거로 활용했다."
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
-          "score": 8,
-          "cited_programs": [
-            "바이오 의료기기 해외 진출 지원 제로트러스트 기반구축사업(상시)"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "AI·딥테크 예산 증가, 소상공인 경영개선 통폐합은 일반론 수준"
-          ]
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "AI·딥테크 예산 많이 늘었다",
-            "소상공인 경영개선 자금 예산 줄거나 통폐합"
-          ],
-          "issues": [
-            "추세 일반화 표현이라 위험도 낮음"
+            "자기 경험담"
           ]
         },
         "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-05-19_트렌드_헬스케어_자금_신규_증가_추세.md"
-          ],
-          "issues": [
-            "헬스케어 트렌드와 일부 유사하나 각도 다름"
-          ]
-        },
-        "tone_check": {
           "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "전반적으로 안전"
-        }
-      }
-    },
-    "evening": {
-      "status": "approved",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들은 케이스인데 좀 신기했어\n\n국내 매출만 있는 제조업 대표님인데\n수출바우처 받아서 현지어 홈페이지 만들고\n해외 전시회 참가비 썼거든\n\n근데 거기서 만난 바이어가 진짜 계약으로 이어진 거야\n\n처음엔 \"우리가 수출을 어떻게 해요\" 했던 분이\n바우처 하나로 첫 해외 수주 만든 거지\n\n수출바우처 포인트가 딱 이거야\n직접 현금 주는 게 아니라\n홈페이지·번역·전시 같은 초기 진입 비용을 대줘서\n\"시작 못 하는 이유\"를 없애주는 구조거든\n\n수출하고 싶은데 어디서 시작할지 모르겠다면\n이 구조 한번 봐",
-        "char_count": 234,
-        "reasoning": "수출바우처를 통해 첫 해외 수주를 만든 구체적 익명 사례를 중심으로 인사이트를 전달하는 내용이라 케이스스터디가 가장 적합함"
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "수출바우처"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "수출바우처는 화이트리스트 사업"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": [
-            "익명 케이스 형태, 구체 수치 없음"
-          ]
-        },
-        "duplication_check": {
-          "score": 6,
-          "similar_recent_files": [
-            "2026-05-20_숫자팩트_수출바우처_평균_활용_금액.md"
-          ],
-          "issues": [
-            "수출바우처 활용 주제가 최근 게시와 겹침"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "수출바우처 반복이지만 각도 다름"
-        }
-      }
-    },
-    "late_evening": {
-      "status": "approved",
-      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "사업계획서 한 줄 바꿔서 통과된 케이스 얘기해줄게\n\n처음 냈을 때 떨어진 회사가 있었는데\n사업 목적 첫 줄이 \"매출 증대를 위해\"로 시작하고 있었어\n\n이걸 \"지역 고용 창출 및 산업 생태계 기여를 위해\"로 바꿨더니\n다음 라운드에서 통과됨\n\n내용이 바뀐 게 아니야. 프레이밍이 바뀐 거지\n심사위원은 결국 사람이고\n\"이 회사가 우리 예산을 받을 자격이 있나\"를 봐\n\n본인 사업이 좋은 건 알겠는데\n그 언어가 심사 기준 언어랑 맞는지가 진짜 관건이더라",
-        "char_count": 216,
-        "reasoning": "익명화된 실제 케이스 형태로 구체적 상황(사업계획서 한 줄 수정)을 묘사하고 인사이트를 뽑는 구조가 케이스스터디 타입에 정확히 부합함"
-      },
-      "verdict": {
-        "slot": "late_evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": [
-            "익명 케이스, 검증 불가하나 안전"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "좋은 케이스스터디"
+          "reasoning": "공감페인 전형, 위험 요소 없음"
         }
       }
     },
+    "afternoon": {
+      "status": "approved",
+      "topic": "2026년 블루 스타트업 지원사업 참여기업 추가 모집 공고 자금 해설 (해양수산부)",
+      "post": {
+        "post_type": "자금해설",
+        "main_post": "블루 스타트업 지원사업이 뭐냐면\n\n해양수산부에서 운영하는 해양·수산 분야 창업 지원 자금이야\n\n일반 창업 지원이랑 다른 게\n이 쪽은 명확하게 해양 관련 업종에 포커스가 맞춰져 있어서\n바다·물류·수산·해양 기술 하는 창업자한테는 진짜 핵심 자금이거든\n\n근데 이게 의외로 모르는 사람이 많아\n중기부 자금만 쫓다 보면 부처별 특화 자금은 놓치기 쉽거든\n\n이번에 추가 모집까지 돌아왔으니까\n해양 관련 사업 하고 있으면 6월 2일 전에 한 번은 꼭 확인해봐",
+        "char_count": 218,
+        "reasoning": "특정 자금 이름을 전면에 내세우며 어떤 자금인지 풀어 설명하는 구조라 자금해설 타입이 가장 적합하고, 요청도 명시적으로 자금해설로 작성하도록 지정됨"
+      },
+      "verdict": {
+        "slot": "afternoon",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "블루 스타트업 지원사업",
+            "해양수산부"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "announcement에 '2026년 블루 스타트업 지원사업 참여기업 추가 모집 공고' 존재, 마감 6/2 일치"
+          ]
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "6월 2일 전"
+          ],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 10,
+          "decision": "pass",
+          "reasoning": "공고 정확, 디테일 일반화"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "rejected",
+      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
+      "reason": "review"
+    },
+    "evening": {
+      "status": "rejected",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
+      "reason": "review"
+    },
+    "late_evening": {
+      "status": "rejected",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "reason": "review"
+    },
     "night": {
       "status": "approved",
-      "topic": "청년창업이 무조건 유리하다는 오해",
+      "topic": "정책자금 = 정부 돈 공짜로 주는 거라는 인식",
       "post": {
         "post_type": "오해풀기",
-        "main_post": "청년창업이면 정책자금 다 유리하다고 아는 사람 많은데\n\n사실 반만 맞아.\n\n청년 대상 자금은 확실히 연령 가점 있고 전용 트랙도 있어.\n근데 문제는 일반 자금에서 오히려 경력이나 업력 조건 때문에 불리해지는 경우가 생겨.\n\n매출 이력 없으면 신용평가 점수 낮아서 융자 한도 작게 나오고,\n사업 운영 기간 짧으면 아예 신청 자격 안 되는 자금도 꽤 많거든.\n\n청년 전용 트랙은 잘 활용하되,\n본인 업력·업종이랑 맞는지 조건 먼저 보는 게 진짜 순서야.",
-        "char_count": 220,
-        "reasoning": "청년창업이 정책자금에서 무조건 유리하다는 잘못된 통념을 바로잡는 내용이라 오해풀기 타입이 가장 적합함"
+        "main_post": "정책자금 = 정부가 공짜로 돈 준다고 생각하는 사람 생각보다 많아.\n\n근데 현실은 달라.\n\n대부분은 '융자'야 — 결국 갚아야 하는 대출.\n진짜 무상으로 주는 건 R&D 보조금이나 바우처 정도인데,\n그것도 사업비 정산, 결과보고, 중간점검 다 있어.\n\n공짜처럼 보이는 것들도 사실은\n서류 준비에 수십 시간, 사업계획서 수정에 몇 주,\n선정되면 의무이행 기간까지 있거든.\n\n공짜가 아니라 '준비한 사람이 싸게 빌리거나 지원받는 구조'에 가까워.\n그러니까 내 회사 상황이랑 맞는 자금 먼저 찾고,\n'이거 갚을 수 있나, 조건 맞나'부터 보는 게 순서야.",
+        "char_count": 225,
+        "reasoning": "정책자금에 대한 잘못된 통념(공짜 인식)을 바로잡는 내용이라 오해풀기 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
           "score": 10,
-          "cited_programs": [],
+          "cited_programs": [
+            "R&D 보조금",
+            "바우처"
+          ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "일반 명칭만 사용"
+          ]
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [],
-          "issues": [
-            "청년 가점·전용 트랙 통념은 일반 사실"
-          ]
+          "issues": []
         },
         "duplication_check": {
           "score": 9,
@@ -360,13 +327,13 @@
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "안전한 오해풀기"
+          "reasoning": "오해풀기 전형, 사실 정확"
         }
       }
     }
