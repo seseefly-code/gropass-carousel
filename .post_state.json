@@ -45,16 +45,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "정책자금 = 무이자 대출이라는 오해",
-      "char_count": 204,
-      "media_id": "18041943962578220",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHviVsCSV-",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_오해풀기_정책자금_무이자_대출이라는_오해.md",
-      "posted_at": "2026-05-09T14:18:17.947Z"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "분기 끝나기 전 신청해야 할 자금",
@@ -1462,6 +1452,20 @@
       "posted_at": "2026-05-22T08:57:49.074Z",
       "media_id": "18071122598331197",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYopNEQEQAl"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "2026년 사라진 자금, 새로 생긴 자금",
+      "char_count": 278,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18101550014516578",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYo1Br5Fnij",
+      "posted_at": "2026-05-22T10:41:12.586Z"
     }
   ]
 }
