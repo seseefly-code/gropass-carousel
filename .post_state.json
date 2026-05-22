@@ -44,16 +44,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 안동시 ValueUP(밸류업) 지원사업 참여 기업 추가 모집 공고 자금 해설 (경상북도)",
-      "char_count": 234,
-      "media_id": "18103206301947479",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHDfQZlGDs",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_자금해설_2026년_안동시_ValueUP밸류업_지원사업_참여_기.md",
-      "posted_at": "2026-05-09T07:53:22.987Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "2026년 정책자금 트렌드 키워드",
@@ -1436,6 +1426,20 @@
       "posted_at": "2026-05-22T00:01:05.564Z",
       "media_id": "18096346595127288",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYnrx8oEY1n"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17971657764056788",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYoNcjKjqGU",
+      "posted_at": "2026-05-22T04:55:21.079Z"
     }
   ]
 }
