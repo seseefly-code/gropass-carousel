@@ -1,11 +1,11 @@
 {
-  "crawled_at": "2026-05-22T14:19:34.471Z",
+  "crawled_at": "2026-05-22T15:50:04.337Z",
   "source": "bizinfo.go.kr",
   "pages_crawled": 2,
   "count": 30,
   "announcements": [
     {
-      "no": "1515",
+      "no": "1415",
       "category": "기술",
       "title": "[경기] 제조데이터 기반 디지털전환 실증 참여기업 모집 공고",
       "start_date": null,
@@ -14,12 +14,12 @@
       "ministry": "산업통상부",
       "agency": "경기테크노파크",
       "registered_at": "2026-05-22",
-      "views": "528",
+      "views": "546",
       "pblancId": "PBLN_000000000122371",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122371"
     },
     {
-      "no": "1514",
+      "no": "1414",
       "category": "수출",
       "title": "[경북] 2026년 메디엑스포 및 수출상담회 참가기업 모집 공고",
       "start_date": "2026-05-21",
@@ -28,12 +28,12 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-05-22",
-      "views": "441",
+      "views": "458",
       "pblancId": "PBLN_000000000122370",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122370"
     },
     {
-      "no": "1513",
+      "no": "1413",
       "category": "경영",
       "title": "[충남] 2026년 영화ㆍ드라마 원천 IP 기획개발 지원 사업 공고",
       "start_date": "2026-05-15",
@@ -42,12 +42,12 @@
       "ministry": "충청남도",
       "agency": "충남콘텐츠진흥원",
       "registered_at": "2026-05-22",
-      "views": "434",
+      "views": "451",
       "pblancId": "PBLN_000000000122369",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122369"
     },
     {
-      "no": "1512",
+      "no": "1412",
       "category": "금융",
       "title": "[광주] 2026년 농업발전기금 융자사업 공고",
       "start_date": null,
@@ -56,12 +56,12 @@
       "ministry": "광주광역시",
       "agency": "직접수행",
       "registered_at": "2026-05-22",
-      "views": "453",
+      "views": "467",
       "pblancId": "PBLN_000000000122368",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122368"
     },
     {
-      "no": "1511",
+      "no": "1411",
       "category": "수출",
       "title": "[광주ㆍ전남ㆍ제주] 2026년 중국 유통망 입점 지원사업 참여기업 모집 연장 공고",
       "start_date": "2026-05-21",
@@ -70,12 +70,12 @@
       "ministry": "광주광역시",
       "agency": "광주사회적경제지원센터",
       "registered_at": "2026-05-22",
-      "views": "461",
+      "views": "478",
       "pblancId": "PBLN_000000000122367",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122367"
     },
     {
-      "no": "1510",
+      "no": "1410",
       "category": "경영",
       "title": "[충북] 충주시 2026년 청년소상공인 창업점포임차료 지원사업 공고",
       "start_date": "2026-05-26",
@@ -84,12 +84,12 @@
       "ministry": "충청북도",
       "agency": "기초자치단체",
       "registered_at": "2026-05-22",
-      "views": "452",
+      "views": "464",
       "pblancId": "PBLN_000000000122364",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122364"
     },
     {
-      "no": "1509",
+      "no": "1409",
       "category": "경영",
       "title": "[전남] 2026년 스마트그린산단 스마트제조 전환지원 참여기업 모집 공고(전남광양 스마트제조고급인력 양성사업)",
       "start_date": "2026-05-21",
@@ -98,12 +98,12 @@
       "ministry": "전라남도",
       "agency": "전남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "438",
+      "views": "449",
       "pblancId": "PBLN_000000000122363",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122363"
     },
     {
-      "no": "1508",
+      "no": "1408",
       "category": "기타",
       "title": "[전남] 2026년 유망 중소기업 지정 계획 재공고",
       "start_date": "2026-05-22",
@@ -112,12 +112,12 @@
       "ministry": "전라남도",
       "agency": "직접수행",
       "registered_at": "2026-05-22",
-      "views": "446",
+      "views": "456",
       "pblancId": "PBLN_000000000122362",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122362"
     },
     {
-      "no": "1507",
+      "no": "1407",
       "category": "기술",
       "title": "[부산] 2026년 SMR 보조기기 제작지원센터 구축사업 기업지원 통합 재공고",
       "start_date": "2026-05-18",
@@ -126,12 +126,12 @@
       "ministry": "부산광역시",
       "agency": "부산테크노파크",
       "registered_at": "2026-05-22",
-      "views": "441",
+      "views": "455",
       "pblancId": "PBLN_000000000122361",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122361"
     },
     {
-      "no": "1506",
+      "no": "1406",
       "category": "경영",
       "title": "[부산] 2026년 수리조선산업 맞춤형 지원사업 공고(스마트수리조선지원센터 관리운영 사업)",
       "start_date": "2026-05-22",
@@ -140,12 +140,12 @@
       "ministry": "부산광역시",
       "agency": "부산테크노파크",
       "registered_at": "2026-05-22",
-      "views": "439",
+      "views": "452",
       "pblancId": "PBLN_000000000122360",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122360"
     },
     {
-      "no": "1505",
+      "no": "1405",
       "category": "기술",
       "title": "[경북] 2026년 지역특화형(고도화) 스마트공장 구축사업 공고",
       "start_date": "2026-05-22",
@@ -154,12 +154,12 @@
       "ministry": "중소벤처기업부",
       "agency": "경북테크노파크",
       "registered_at": "2026-05-22",
-      "views": "459",
+      "views": "472",
       "pblancId": "PBLN_000000000122359",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122359"
     },
     {
-      "no": "1504",
+      "no": "1404",
       "category": "수출",
       "title": "2026년 국제방송영상마켓(BCWW) 부스 참가기업 모집 공고",
       "start_date": "2026-06-01",
@@ -168,12 +168,12 @@
       "ministry": "문화체육관광부",
       "agency": "한국콘텐츠진흥원",
       "registered_at": "2026-05-22",
-      "views": "443",
+      "views": "454",
       "pblancId": "PBLN_000000000122358",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122358"
     },
     {
-      "no": "1503",
+      "no": "1403",
       "category": "경영",
       "title": "[충북] 2026년 중소기업 경영애로 전문가 컨설팅서비스 참여기업 모집 공고",
       "start_date": null,
@@ -182,12 +182,12 @@
       "ministry": "충청북도",
       "agency": "지방중소벤처기업청",
       "registered_at": "2026-05-22",
-      "views": "426",
+      "views": "436",
       "pblancId": "PBLN_000000000122357",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122357"
     },
     {
-      "no": "1502",
+      "no": "1402",
       "category": "기술",
       "title": "[경남] 2026년 2차 미래차 산업전환 공정기술 고도화 수혜기업 모집 공고(미래차 산업 전환 공정기술 고도화 지원사업)",
       "start_date": "2026-05-18",
@@ -196,12 +196,12 @@
       "ministry": "경상남도",
       "agency": "경남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "440",
+      "views": "452",
       "pblancId": "PBLN_000000000122356",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122356"
     },
     {
-      "no": "1501",
+      "no": "1401",
       "category": "창업",
       "title": "2026년 블루 스타트업 지원사업 참여기업 추가 모집 공고",
       "start_date": "2026-05-21",
@@ -210,12 +210,12 @@
       "ministry": "해양수산부",
       "agency": "해양수산과학기술진흥원",
       "registered_at": "2026-05-22",
-      "views": "549",
+      "views": "573",
       "pblancId": "PBLN_000000000122355",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122355"
     },
     {
-      "no": "1500",
+      "no": "1400",
       "category": "내수",
       "title": "[부산] 2026년 상반기 사회적경제 공공구매 페어 참가기업 모집 공고",
       "start_date": "2026-05-21",
@@ -224,12 +224,12 @@
       "ministry": "부산광역시",
       "agency": "기초자치단체",
       "registered_at": "2026-05-22",
-      "views": "92",
+      "views": "103",
       "pblancId": "PBLN_000000000122354",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122354"
     },
     {
-      "no": "1499",
+      "no": "1399",
       "category": "인력",
       "title": "[경남] 2026년 현장실습 지원사업 표준현장실습 계절제(하계) 참여기업 모집 공고",
       "start_date": "2026-05-18",
@@ -238,12 +238,12 @@
       "ministry": "경상남도",
       "agency": "경남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "100",
+      "views": "112",
       "pblancId": "PBLN_000000000122353",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122353"
     },
     {
-      "no": "1498",
+      "no": "1398",
       "category": "기술",
       "title": "2026년 하반기 3차 IP-R&D 전략지원(인공지능ㆍ첨단 바이오 분야 지정공모) 사업 시행 계획 공고(지재권 연계 연구개발 전략지원 사업)",
       "start_date": "2026-05-19",
@@ -252,12 +252,12 @@
       "ministry": "지식재산처",
       "agency": "한국특허전략개발원",
       "registered_at": "2026-05-22",
-      "views": "175",
+      "views": "193",
       "pblancId": "PBLN_000000000122352",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122352"
     },
     {
-      "no": "1497",
+      "no": "1397",
       "category": "기술",
       "title": "[경남] 김해시 2026년 2차 물류영역 서비스로봇 공통플랫폼 구축사업 지원사업 수혜기업 모집 공고",
       "start_date": "2026-05-19",
@@ -266,12 +266,12 @@
       "ministry": "경상남도",
       "agency": "경남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "109",
+      "views": "121",
       "pblancId": "PBLN_000000000122351",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122351"
     },
     {
-      "no": "1496",
+      "no": "1396",
       "category": "경영",
       "title": "[경남] 2026년 마산자유무역지역 역량강화 기업지원사업 지원기업 추가 모집 공고",
       "start_date": "2026-05-20",
@@ -280,12 +280,12 @@
       "ministry": "산업통상부",
       "agency": "경남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "96",
+      "views": "106",
       "pblancId": "PBLN_000000000122350",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122350"
     },
     {
-      "no": "1495",
+      "no": "1395",
       "category": "금융",
       "title": "[경남] 2026년 2차 지역 합동 투자상담회 참가기업 모집 공고",
       "start_date": "2026-05-20",
@@ -294,12 +294,12 @@
       "ministry": "경상남도",
       "agency": "경남테크노파크",
       "registered_at": "2026-05-22",
-      "views": "108",
+      "views": "120",
       "pblancId": "PBLN_000000000122349",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122349"
     },
     {
-      "no": "1494",
+      "no": "1394",
       "category": "금융",
       "title": "[부산] 2026년 8차 중소기업 자금지원계획 변경 공고",
       "start_date": null,
@@ -308,12 +308,12 @@
       "ministry": "부산광역시",
       "agency": "부산경제진흥원",
       "registered_at": "2026-05-22",
-      "views": "139",
+      "views": "149",
       "pblancId": "PBLN_000000000122348",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122348"
     },
     {
-      "no": "1493",
+      "no": "1393",
       "category": "기술",
       "title": "2026년 미래국방혁신기술개발사업 신규과제 공고",
       "start_date": "2026-06-05",
@@ -322,12 +322,12 @@
       "ministry": "과학기술정보통신부",
       "agency": "한국연구재단",
       "registered_at": "2026-05-22",
-      "views": "154",
+      "views": "170",
       "pblancId": "PBLN_000000000122347",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122347"
     },
     {
-      "no": "1492",
+      "no": "1392",
       "category": "금융",
       "title": "[인천] 2026년 원도심ㆍ지역상권 활성화를 위한 상권 활성화 특례보증 지원사업 공고",
       "start_date": null,
@@ -336,12 +336,12 @@
       "ministry": "인천광역시",
       "agency": "인천신용보증재단",
       "registered_at": "2026-05-22",
-      "views": "121",
+      "views": "134",
       "pblancId": "PBLN_000000000122346",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122346"
     },
     {
-      "no": "1491",
+      "no": "1391",
       "category": "수출",
       "title": "KOSME-PUNE Base Camp 기반 산학연연계 지원사업 참여기업 모집 연장 공고",
       "start_date": "2026-05-04",
@@ -350,12 +350,12 @@
       "ministry": "중소벤처기업부",
       "agency": "중소벤처기업진흥공단",
       "registered_at": "2026-05-22",
-      "views": "139",
+      "views": "155",
       "pblancId": "PBLN_000000000122345",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122345"
     },
     {
-      "no": "1490",
+      "no": "1390",
       "category": "기술",
       "title": "2026년 첨단소재공정고도화 및 기술역량확보기술개발사업 신규지원 대상과제 공고",
       "start_date": "2026-05-22",
@@ -364,12 +364,12 @@
       "ministry": "산업통상부",
       "agency": "한국산업기술기획평가원",
       "registered_at": "2026-05-22",
-      "views": "120",
+      "views": "135",
       "pblancId": "PBLN_000000000122344",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122344"
     },
     {
-      "no": "1489",
+      "no": "1389",
       "category": "수출",
       "title": "2026년 그린에너텍 수출상담회 참가기업 모집 공고",
       "start_date": "2026-05-21",
@@ -378,12 +378,12 @@
       "ministry": "산업통상부",
       "agency": "KOTRA인천지원본부",
       "registered_at": "2026-05-22",
-      "views": "96",
+      "views": "110",
       "pblancId": "PBLN_000000000122343",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122343"
     },
     {
-      "no": "1488",
+      "no": "1388",
       "category": "경영",
       "title": "2026년 2분기 국내 저온 수송차량 지원업체 모집 공고",
       "start_date": "2026-05-21",
@@ -392,12 +392,12 @@
       "ministry": "해양수산부",
       "agency": "한국수산무역협회",
       "registered_at": "2026-05-22",
-      "views": "94",
+      "views": "107",
       "pblancId": "PBLN_000000000122342",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122342"
     },
     {
-      "no": "1487",
+      "no": "1387",
       "category": "수출",
       "title": "[경기] 부천시 2026년 홍콩추계조명박람회(HKILF 2026) 참가지원 모집 추가 공고",
       "start_date": "2026-05-21",
@@ -406,12 +406,12 @@
       "ministry": "경기도",
       "agency": "부천산업진흥원",
       "registered_at": "2026-05-22",
-      "views": "80",
+      "views": "91",
       "pblancId": "PBLN_000000000122341",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122341"
     },
     {
-      "no": "1486",
+      "no": "1386",
       "category": "수출",
       "title": "[서울] 2026년 2차 서울어워드 우수제품 모집 공고",
       "start_date": "2026-05-14",
@@ -420,7 +420,7 @@
       "ministry": "서울특별시",
       "agency": "서울경제진흥원",
       "registered_at": "2026-05-22",
-      "views": "169",
+      "views": "190",
       "pblancId": "PBLN_000000000122340",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122340"
     }
