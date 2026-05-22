@@ -47,16 +47,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "신청 대비 평균 선정률",
-      "char_count": 222,
-      "media_id": "18078338549336632",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJdEUfFhbf",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_숫자팩트_신청_대비_평균_선정률.md",
-      "posted_at": "2026-05-10T06:15:23.603Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
@@ -1490,6 +1480,20 @@
       "posted_at": "2026-05-22T15:50:35.650Z",
       "media_id": "17863043115629652",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYpYcTNGh5h"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "추경 자금 신청 임박 알림",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18046048670773302",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYqIgihARHy",
+      "posted_at": "2026-05-22T22:50:43.036Z"
     }
   ]
 }
