@@ -40,19 +40,10 @@
     "PBLN_000000000122241",
     "PBLN_000000000122315",
     "PBLN_000000000122307",
-    "PBLN_000000000122296"
+    "PBLN_000000000122296",
+    "PBLN_000000000122362"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "char_count": 244,
-      "media_id": "18078410456643369",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHmMXmlCmf",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_케이스스터디_TIPS_떨어진_회사가_다음_회차에_선정된_비결.md",
-      "posted_at": "2026-05-09T12:56:39.315Z"
-    },
     {
       "slot": "night",
       "type": "오해풀기",
@@ -1448,6 +1439,29 @@
       "media_id": "18093927320586244",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYohUAqlD7f",
       "posted_at": "2026-05-22T07:48:57.388Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[전남] 2026년 유망 중소기업 지정 계획 재공고 자금 해설 (전라남도)",
+      "char_count": 233,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-22_자금해설_전남_2026년_유망_중소기업_지정_계획_재공고_자금_.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "마감일 6월 2일은 announcement와 일치하여 정확",
+          "'1차 미달 또는 추가 선발' 추정은 단정이지만 '거나'로 가능성 표현해 위험도 낮음",
+          "최근 자금해설은 인천 베트남 통상촉진단 건이라 주제·지역·구조 모두 달라 중복 아님"
+        ]
+      },
+      "posted_at": "2026-05-22T08:57:49.074Z",
+      "media_id": "18071122598331197",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYopNEQEQAl"
     }
   ]
 }
