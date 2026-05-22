@@ -45,16 +45,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 특장차 수소파워팩 기술지원사업 수혜기업 모집 공고 D-6 마감 임박 (산업통상부)",
-      "char_count": 201,
-      "media_id": "17944159524015025",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYIwVQuAZBo",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_마감알림_2026년_특장차_수소파워팩_기술지원사업_수혜기업_모집.md",
-      "posted_at": "2026-05-09T23:44:32.022Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 신청 타이밍이 결과를 가르는 이유",
@@ -1470,6 +1460,20 @@
       "media_id": "18084528800404726",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYo_o55EYmt",
       "posted_at": "2026-05-22T12:13:58.487Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18337748374216521",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYpOBsbEShv",
+      "posted_at": "2026-05-22T14:19:39.991Z"
     }
   ]
 }
