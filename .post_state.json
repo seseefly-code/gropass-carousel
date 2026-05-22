@@ -44,16 +44,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
-      "char_count": 272,
-      "media_id": "18122673355618675",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHX3Cslp7O",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_솔직인사이트_한_가지만_알면_자금_50_더_받는_비결.md",
-      "posted_at": "2026-05-09T10:51:24.541Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
@@ -1444,6 +1434,20 @@
       "media_id": "18154682350415267",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYoa0zxkc7B",
       "posted_at": "2026-05-22T06:52:15.804Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18093927320586244",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYohUAqlD7f",
+      "posted_at": "2026-05-22T07:48:57.388Z"
     }
   ]
 }
