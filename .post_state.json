@@ -45,16 +45,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "분기 끝나기 전 신청해야 할 자금",
-      "char_count": 211,
-      "media_id": "17911189224200457",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYIoQQ6kwqq",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_마감알림_분기_끝나기_전_신청해야_할_자금.md",
-      "posted_at": "2026-05-09T22:33:56.921Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 특장차 수소파워팩 기술지원사업 수혜기업 모집 공고 D-6 마감 임박 (산업통상부)",
@@ -1466,6 +1456,20 @@
       "media_id": "18101550014516578",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYo1Br5Fnij",
       "posted_at": "2026-05-22T10:41:12.586Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
+      "char_count": 234,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18084528800404726",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYo_o55EYmt",
+      "posted_at": "2026-05-22T12:13:58.487Z"
     }
   ]
 }
