@@ -44,16 +44,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "2026년 정책자금 트렌드 키워드",
-      "char_count": 268,
-      "media_id": "17975528730012070",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYHL8KulFI5",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-09_트렌드_2026년_정책자금_트렌드_키워드.md",
-      "posted_at": "2026-05-09T09:07:16.388Z"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "한 가지만 알면 자금 50% 더 받는 비결",
@@ -1440,6 +1430,20 @@
       "media_id": "17971657764056788",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYoNcjKjqGU",
       "posted_at": "2026-05-22T04:55:21.079Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "12월에 사라지는 정책자금 예산 규모",
+      "char_count": 211,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18154682350415267",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYoa0zxkc7B",
+      "posted_at": "2026-05-22T06:52:15.804Z"
     }
   ]
 }
