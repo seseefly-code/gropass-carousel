@@ -47,16 +47,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
-      "char_count": 238,
-      "media_id": "17961666096093564",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJfYZgllGq",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md",
-      "posted_at": "2026-05-10T06:35:36.461Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 가공현장 가공공정 디지털화 지원사업 수요기업 추가 모집 연장 공고(디지털융합 제조공정혁신 정밀기계가공산업 육성사업) 자금 해설 (대구광역시)",
@@ -1494,6 +1484,20 @@
       "media_id": "18046048670773302",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYqIgihARHy",
       "posted_at": "2026-05-22T22:50:43.036Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[충남] 2026년 영화ㆍ드라마 원천 IP 기획개발 지원 사업 공고 D-7 마감 임박 (충청남도)",
+      "char_count": 163,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18395515567086841",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYqRACtlFyd",
+      "posted_at": "2026-05-23T00:04:53.148Z"
     }
   ]
 }
