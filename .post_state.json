@@ -8,7 +8,7 @@
     "숫자팩트": 15,
     "마감알림": 9,
     "오해풀기": 7,
-    "트렌드": 2
+    "트렌드": 3
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -46,16 +46,6 @@
     "PBLN_000000000122355"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "char_count": 252,
-      "media_id": "18448362940117375",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYKLMSOFJBx",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_케이스스터디_수출바우처로_첫_해외_수주_만든_케이스.md",
-      "posted_at": "2026-05-10T12:58:28.425Z"
-    },
     {
       "slot": "night",
       "type": "공감페인",
@@ -1510,6 +1500,33 @@
       "media_id": "18109001515932433",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYrJEt0gaOh",
       "posted_at": "2026-05-23T08:14:54.937Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "그린·환경 분야 신규 자금 급증",
+      "char_count": 174,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-23_트렌드_그린환경_분야_신규_자금_급증.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 7,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 9,
+        "issues": [
+          "언급된 3개 사업명 모두 announcement 컨텍스트에 실재함: '2026년 그린에너텍 수출상담회 참가기업 모집 공고', '[전남] 2026년 스마트그린산단 스마트제조 전환지원 참여기업 모집 공고', '2026년 2분기 국내 저온 수송차량 지원업체 모집 공고'",
+          "다만 '저온 수송차량 지원'은 해양수산부 수산물 저온 수송차량 지원으로 '환경·에너지'보다는 수산물 콜드체인 성격이 강해, '환경 키워드로 묶인다'는 해석은 다소 과한 일반화",
+          "구체 수치·금액·비용 없음",
+          "'환경 키워드 없으면 예산 끊기는 느낌'은 주관적 표현으로 처리되어 있어 risky 수준은 낮음",
+          "증가 추세 주장은 데이터 근거 약하지만 '느낌'으로 완화",
+          "최근 트렌드 포스트 3개와 형식적 유사성 있음(요즘 ~ 느끼는데, 키워드 나열 패턴)",
+          "다만 주제는 '그린·환경'으로 AI·딥테크 트렌드와 차별화됨",
+          "후킹 문장 '요즘 진짜 느끼는 게 있는데'가 다른 트렌드 글의 '요즘 ~ 보다 보면'과 톤이 유사"
+        ]
+      },
+      "posted_at": "2026-05-23T09:43:34.089Z",
+      "review_required": true
     }
   ]
 }
