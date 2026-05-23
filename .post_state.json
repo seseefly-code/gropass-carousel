@@ -47,16 +47,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
-      "char_count": 278,
-      "media_id": "18025263611644621",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJ9SEIFNGw",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_솔직인사이트_똑같은_사업인데_누군_5천_받고_누군_못_받는_진짜_이.md",
-      "posted_at": "2026-05-10T10:56:52.550Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "수출바우처로 첫 해외 수주 만든 케이스",
@@ -1506,6 +1496,20 @@
       "media_id": "18105641534053470",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYq7Y3FDkvP",
       "posted_at": "2026-05-23T06:15:16.619Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 블루 스타트업 지원사업 참여기업 추가 모집 공고 자금 해설 (해양수산부)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18109001515932433",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYrJEt0gaOh",
+      "posted_at": "2026-05-23T08:14:54.937Z"
     }
   ]
 }
