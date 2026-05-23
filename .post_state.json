@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 6,
-    "케이스스터디": 8,
+    "케이스스터디": 9,
     "숫자팩트": 15,
     "마감알림": 9,
     "오해풀기": 7,
@@ -46,16 +46,6 @@
     "PBLN_000000000122355"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "상시 모집이지만 예산 소진 임박 자금",
-      "char_count": 227,
-      "media_id": "17996009186943183",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYLNcweCQlE",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_마감알림_상시_모집이지만_예산_소진_임박_자금.md",
-      "posted_at": "2026-05-10T22:37:24.814Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1539,6 +1529,28 @@
       "posted_at": "2026-05-23T11:05:36.379Z",
       "media_id": "17934100671071044",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYrcn4Gkd4d"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "char_count": 190,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-23_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "'4번 연속 탈락'은 익명 사례 일화로 검증 불가하지만 일반 경험담 범위",
+          "케이스스터디 형식과 '조건 안 맞는데 신청' 메시지가 [10]과 일부 겹치고, 컨설팅 비용 화두가 [5]와 일부 겹침. 다만 각도(4번 탈락→구조적 미스매치)는 다름"
+        ]
+      },
+      "posted_at": "2026-05-23T13:04:17.956Z",
+      "media_id": "18090897359264108",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYrqNNplcOh"
     }
   ]
 }
