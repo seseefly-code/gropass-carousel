@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
-      "char_count": 238,
-      "media_id": "18050922575757408",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYL4n5WlExc",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_솔직인사이트_컨설팅비_1천_vs_직접_알아서_하기.md",
-      "posted_at": "2026-05-11T04:54:40.960Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
@@ -1557,6 +1547,20 @@
       "media_id": "18011720756897520",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYr1S4AFFD4",
       "posted_at": "2026-05-23T14:41:16.962Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "12월 폭주하는 자금 신청 미리 준비",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18098177849465912",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYssbEwCZ2Z",
+      "posted_at": "2026-05-23T22:42:59.949Z"
     }
   ]
 }
