@@ -47,16 +47,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
-      "char_count": 215,
-      "media_id": "18132788413566118",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYJyYfMlLx3",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-10_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md",
-      "posted_at": "2026-05-10T09:21:38.413Z"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
@@ -1502,6 +1492,20 @@
       "media_id": "18164727814387218",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYqvp07lJqd",
       "posted_at": "2026-05-23T04:32:43.754Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18105641534053470",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYq7Y3FDkvP",
+      "posted_at": "2026-05-23T06:15:16.619Z"
     }
   ]
 }
