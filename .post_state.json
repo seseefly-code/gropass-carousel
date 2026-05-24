@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
-      "char_count": 236,
-      "media_id": "17857620132639892",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYOpZK0FqNZ",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_공감페인_매출_부족하다고_거절당한_첫_자금_신청.md",
-      "posted_at": "2026-05-12T06:39:17.681Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[경기] 2026년 베트남 시큐텍(Secutech) 전시회 참가기업 추가모집 공고 자금 해설 (경기도)",
@@ -1606,6 +1596,20 @@
       "media_id": "18100000988101310",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYuYT9_laGe",
       "posted_at": "2026-05-24T14:25:44.656Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "사전 등록 필요한 자금 안내",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18121062451678335",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYvRwjZj712",
+      "posted_at": "2026-05-24T22:47:44.077Z"
     }
   ]
 }
