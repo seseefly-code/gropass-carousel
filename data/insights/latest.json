@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-05-24T13:52:09.344Z",
+  "collected_at": "2026-05-24T15:03:35.152Z",
   "user_id": "26071251839222721",
   "days": 30,
-  "count": 205,
+  "count": 206,
   "threads": [
+    {
+      "id": "18100000988101310",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuYT9_laGe",
+      "timestamp": "2026-05-24T14:25:42+0000",
+      "text": "요즘 창업지원 보면 진짜 세대 격차가 선명해.\n\n청년창업사관학교, 청년전용 창업자금, 도전K-스타트업 —\n만 39세 이하 조건 달린 자금들이 예산도 크고 인지도도 높아.\n\n근데 40대 이상 창업? 지원 자체가 적고,\n있어도 경력창업·소상공인 쪽으로 분류돼서 규모가 다름.\n\n충주 청년소상공인 창업점포임차료 같은 것도\n'청년'이라는 조건이 붙어 있거든.\n\n솔직히 이게 차별이냐 선택과 집중이냐는 논쟁이 있는데,\n데이터 보면 40대 이후 창업 생존율이 오히려 높다는 통계도 있어.\n\n예산이 어디 쏠려 있는지 알고 신청해야\n괜히 자격 안 맞는 자금에 시간 날리는 일 없음.",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 77,
+        "likes": 1,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "트렌드",
+        "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+        "char_count": 219
+      }
+    },
     {
       "id": "18082348097138819",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYuO12FEQy8",
@@ -12,8 +33,8 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 108,
-        "likes": 1,
+        "views": 248,
+        "likes": 3,
         "replies": 0,
         "reposts": 0,
         "quotes": 0
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 92,
+        "views": 116,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -54,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 128,
+        "views": 132,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 9,
+        "views": 11,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -96,7 +117,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 81,
+        "views": 83,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 129,
+        "views": 130,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +180,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 7,
+        "views": 8,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -180,7 +201,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 109,
+        "views": 110,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -201,7 +222,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 217,
+        "views": 218,
         "likes": 3,
         "replies": 0,
         "reposts": 0,
@@ -222,7 +243,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 247,
+        "views": 248,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -831,7 +852,7 @@
       "media_type": "CAROUSEL_ALBUM",
       "is_quote_post": false,
       "insights": {
-        "views": 793,
+        "views": 795,
         "likes": 15,
         "replies": 5,
         "reposts": 1,
@@ -2086,10 +2107,10 @@
         "quotes": 0
       },
       "meta": {
-        "slot": "noon",
-        "type": "숫자팩트",
-        "topic": "R&D 자금 평균 지원 규모와 자기부담률",
-        "char_count": 228
+        "slot": "unknown",
+        "type": "unknown",
+        "topic": "R&D 자금 신청하는 사장님들이 제일 많이 놓치는 게 자기부담률이야.",
+        "char_count": 247
       }
     },
     {
