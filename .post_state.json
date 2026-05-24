@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
-      "char_count": 228,
-      "media_id": "18587891971059176",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYOm6m0lX5P",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_숫자팩트_RD_자금_평균_지원_규모와_자기부담률.md",
-      "posted_at": "2026-05-12T06:17:38.862Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "매출 부족하다고 거절당한 첫 자금 신청",
@@ -1600,6 +1590,20 @@
       "media_id": "18082348097138819",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYuO12FEQy8",
       "posted_at": "2026-05-24T13:02:59.655Z"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "char_count": 219,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18100000988101310",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuYT9_laGe",
+      "posted_at": "2026-05-24T14:25:44.656Z"
     }
   ]
 }
