@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경기] 2026년 베트남 시큐텍(Secutech) 전시회 참가기업 추가모집 공고 자금 해설 (경기도)",
-      "char_count": 256,
-      "media_id": "17927524752279125",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYO21YzlPZl",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_자금해설_경기_2026년_베트남_시큐텍Secutech_전시회_참.md",
-      "posted_at": "2026-05-12T08:36:45.016Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "글로벌 진출 자금 비중 변화",
@@ -1610,6 +1600,20 @@
       "media_id": "18121062451678335",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYvRwjZj712",
       "posted_at": "2026-05-24T22:47:44.077Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 하반기 3차 IP-R&D 전략지원(인공지능ㆍ첨단 바이오 분야 지정공모) 사업 시행 계획 공고(지재권 연계 연구개발 전략지원 사업) D-5 마감 임박 (지식재산처)",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18315111424277720",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYvZ0Egl4KW",
+      "posted_at": "2026-05-24T23:58:06.347Z"
     }
   ]
 }
