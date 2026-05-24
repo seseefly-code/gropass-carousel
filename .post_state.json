@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
-      "char_count": 234,
-      "media_id": "18067464941343458",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYM6gE7iYOl",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
-      "posted_at": "2026-05-11T14:30:19.835Z"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "컨설팅 받으면 100% 받는다는 환상",
@@ -1577,6 +1567,20 @@
       "media_id": "17999647826765763",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYtn8-6lno8",
       "posted_at": "2026-05-24T07:23:09.151Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[부산] 2026년 상반기 사회적경제 공공구매 페어 참가기업 모집 공고 자금 해설 (부산광역시)",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18098135857884394",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYtvK_SFlC-",
+      "posted_at": "2026-05-24T08:26:14.283Z"
     }
   ]
 }
