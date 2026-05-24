@@ -1,76 +1,173 @@
 {
-  "date": "2026-05-24",
-  "generated_at": "2026-05-23T22:00:21.369Z",
+  "date": "2026-05-25",
+  "generated_at": "2026-05-24T22:00:23.022Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "12월 폭주하는 자금 신청 미리 준비",
+      "topic": "사전 등록 필요한 자금 안내",
       "post": {
         "post_type": "마감알림",
-        "main_post": "12월 되면 진짜 난리나거든\n\n연말 정책자금 마감 몰리면서 접수 서버 터지고, 담당자 전화 안 받히고, 서류 준비하다가 마감일 지나는 거 매년 반복돼\n\n문제는 그때 가서 준비하면 무조건 늦는다는 거야\n\n지금 7~8월부터 해야 할 게 있어\n\n사업계획서 양식 최신본 확인, 재무제표 정리, 필수 인증(벤처·이노비즈 등) 갱신 여부 체크\n\n인증 하나 빠지면 자격 요건에서 걸리는 경우 진짜 많거든\n\n연말에 울고 싶지 않으면 지금 딱 한 번만 점검해봐",
-        "char_count": 228,
-        "reasoning": "연말 자금 신청 폭주 시즌에 대한 긴박감과 준비 촉구를 담은 내용으로, 마감알림 타입의 시간 압박·정보 전달 구조가 가장 적합함"
+        "main_post": "이번 주 목요일(29일) 마감인 자금들 몇 개 있는데\n\n그 중에 사전 등록이나 사전 신청 필요한 자금들이 있어서 올려\n\nKOSME-PUNE Base Camp 인도 산학연 연계 지원사업이 29일 마감이거든\n글로벌 진출 준비 중인 중소기업이면 한 번 봐봐\n\nIP-R&D 전략지원 (AI·첨단 바이오 지정공모)도 29일까지야\n특허전략 연계 R&D 준비 중이라면 이 자금 넣기 전에\n한국특허전략개발원 사이트에서 절차 먼저 확인해야 해\n\n이런 자금들 사전 준비 없이 마감 당일에 들어가면 그냥 못 넣거든\n지금 바로 기업마당에서 확인해봐",
+        "char_count": 233,
+        "reasoning": "D-5 마감 공고들을 중심으로 사전 등록/절차 확인이 필요한 자금을 긴급성 있게 안내하는 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "벤처",
-            "이노비즈"
+            "KOSME-PUNE Base Camp 인도 산학연 연계 지원사업",
+            "IP-R&D 전략지원 (AI·첨단 바이오 지정공모)",
+            "한국특허전략개발원"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
+          "score": 10,
+          "risky_claims": [
+            "29일 마감"
+          ],
           "issues": [
-            "구체 수치 거의 없음, 일반론 중심"
+            "마감일 29일은 announcement와 일치"
           ]
         },
         "duplication_check": {
-          "score": 8,
+          "score": 9,
           "similar_recent_files": [],
-          "issues": [
-            "연말/마감 압박이라는 일반 주제이나 최근 게시물과 직접 중복 없음"
-          ]
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "구체 사업명 없이 일반화된 마감 준비 콘텐츠, 톤·사실 모두 안전"
+          "reasoning": "실제 공고 정확히 인용, 톤 적절"
         }
       }
     },
     "morning": {
       "status": "approved",
-      "topic": "[부산] 2026년 SMR 보조기기 제작지원센터 구축사업 기업지원 통합 재공고 D-6 마감 임박 (부산광역시)",
+      "topic": "2026년 하반기 3차 IP-R&D 전략지원(인공지능ㆍ첨단 바이오 분야 지정공모) 사업 시행 계획 공고(지재권 연계 연구개발 전략지원 사업) D-5 마감 임박 (지식재산처)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "부산에 SMR 관련 사업하는 회사 있으면 지금 바로 봐\n\n2026년 SMR 보조기기 제작지원센터 구축사업\n부산테크노파크에서 기업지원 신청 받고 있는데\n이번 주 목요일(5/29) 마감이야\n\n소형모듈원전 쪽 보조기기 제조사라면 딱 맞는 사업이고\n재공고라서 경쟁률 낮을 가능성 높거든\n\n재공고 = 1차 때 자리 못 채웠다는 거잖아\n이런 거 오히려 노려야 해\n\n관심 있으면 기업마당에서 공고문 지금 확인해",
-        "char_count": 201,
-        "reasoning": "D-6 마감 임박 공고에 대한 긴급성 전달이 주목적이므로 마감알림 타입이 가장 적합하며, 재공고라는 인사이트 포인트를 활용해 차별화했습니다."
+        "main_post": "IP-R&D 전략지원, 이번 주 목요일 마감이야.\n\nAI랑 첨단 바이오 하는 회사인데 아직 특허 전략 없이 R&D 혼자 달리고 있다면\n지금 딱 맞는 타이밍이거든.\n\n이 사업, 단순 자금 지원이 아니라 지재권이랑 연구개발을 같이 엮어주는 구조야.\n기술 만들면서 특허 전략도 같이 짜주는 거라 나중에 기술 방어할 때 진짜 차이남.\n\nAI·바이오 쪽은 지정공모라 타겟 좁아서 경쟁률도 상대적으로 낫고.\n\n5월 29일 마감, 지식재산처·한국특허전략개발원 공고 지금 확인해봐 🗂️",
+        "char_count": 222,
+        "reasoning": "마감이 D-5로 긴박하고, 정보 전달이 핵심인 공고 알림이므로 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "2026년 SMR 보조기기 제작지원센터 구축사업 (부산테크노파크, D-6)"
+            "IP-R&D 전략지원",
+            "지식재산처",
+            "한국특허전략개발원"
           ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "5월 29일 마감"
+          ],
+          "issues": [
+            "announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [],
+          "issues": [
+            "같은 배치 포스트1과 IP-R&D 중복 언급, 단 각도가 달라 허용 범위"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": [
+            "이모지 1개 사용 - 허용 범위"
+          ]
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "공고 정확, 배치 내 포스트1과 약간 겹치지만 각도 다름"
+        }
+      }
+    },
+    "late_morning": {
+      "status": "approved",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "현장 평가에서 떨어지는 회사들 보면 패턴이 진짜 똑같아.\n\n준비 못 해서 탈락하는 게 아니거든.\n사업계획서엔 멋진 말이 가득한데,\n평가위원 질문에 대표가 버벅이거나\n재무제표랑 계획서 숫자가 안 맞거나.\n\n솔직히 말하면 탈락의 90%는 '불일치' 때문이야.\n서류에 적힌 내용이랑 현장에서 나오는 말이 달라.\n평가위원도 하루에 수십 개 보니까 바로 캐치함.\n\n결국 현장 평가는 대표가 자기 사업을 얼마나 숫자로 꿰고 있냐는 테스트야.\n화려한 비전보다 매출 흐름이랑 자금 용도를 막힘없이 설명하는 회사가 붙더라.",
+        "char_count": 228,
+        "reasoning": "현장 평가 탈락 원인이라는 컨설팅 노하우·경험 기반 인사이트 주제이므로 솔직인사이트가 가장 적합함"
+      },
+      "verdict": {
+        "slot": "late_morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "재공고=경쟁률 낮을 가능성 (추측이나 합리적)"
+            "탈락의 90%는 불일치"
           ],
+          "issues": [
+            "90%는 추정 수치지만 일반론으로 허용 범위"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "경험 기반 인사이트, 구체 사업명 없음"
+        }
+      }
+    },
+    "noon": {
+      "status": "rejected",
+      "topic": "매년 미집행되는 정책자금 규모",
+      "reason": "review"
+    },
+    "lunch": {
+      "status": "approved",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "사업자등록증 하나로 뭐 받을 수 있는지 찾아보다가 1시간 날린 거 나만 그래?\n\n기업마당 들어가고, 중기부 홈피 들어가고, 지자체 공고까지 뒤지는데\n검색할수록 나한테 해당되는 건지 아닌지가 더 모르겠어\n\n업종 맞나, 매출 기준 맞나, 창업 몇 년 차까지 되나\n조건 하나하나 확인하다 보면 어느새 탭이 20개\n\n결국 '일단 전화해봐야 알겠다'로 끝나는 그 흐름\n근데 전화하면 담당자도 조건 애매하면 다시 알아봐야 한다고 하거든\n\n이거 진짜 다들 이렇게 하고 있는 거 맞지?",
+        "char_count": 228,
+        "reasoning": "사업자등록증으로 지원 가능한 자금을 찾는 과정에서 겪는 정보 탐색 피로와 좌절감은 대표라면 누구나 공감하는 일상 페인포인트라 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "기업마당",
+            "중기부"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
           "issues": []
         },
         "duplication_check": {
@@ -85,110 +182,114 @@
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "announcement에 정확히 매칭되는 공고, 마감일도 일치"
+          "reasoning": "공감페인 톤 적절, 구체 사실 인용 없음"
         }
       }
     },
-    "late_morning": {
+    "afternoon": {
       "status": "approved",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "topic": "[경북] 2026년 메디엑스포 및 수출상담회 참가기업 모집 공고 자금 해설 (경상북도)",
       "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면 매출 1억이랑 10억은 자금 전략이 완전 달라야 해\n\n1억대 초기는 조건이 느슨한 데다 경쟁도 낮은 지역 소규모 자금이 훨씬 유리해\n서류 간단하고 선발 규모도 작지 않으니까\n반면 10억대 들어서면 그 자금들은 오히려 지원 한도가 작아서 메리트가 없거든\n\n10억 이상은 R&D, 수출바우처, 스마트공장 같은 규모 있는 자금으로 올라가야 해\n대신 그쪽은 심사도 빡세고 서류 퀄리티도 달라야 함\n\n내가 데이터 보면서 느끼는 건\n많은 대표님들이 매출이 올랐는데도 예전에 쓰던 자금 계속 노리는 경우가 많아\n무기가 바뀌었는데 전략은 그대로인 거지",
-        "char_count": 253,
-        "reasoning": "매출 규모에 따른 자금 신청 전략의 차이를 경험 기반으로 풀어내는 내용이라 솔직인사이트 타입이 가장 적합함"
+        "post_type": "자금해설",
+        "main_post": "메디엑스포 수출상담회, 이름만 보면 대기업 행사 같지?\n\n근데 경북도에서 중소기업 참가비 지원해주는 거야.\n의료기기·헬스케어 업종 경북 소재 기업이면 신청 가능하고\n해외 바이어랑 1:1 상담 연결까지 붙여주는 구조거든.\n\n수출 처음 뚫으려는 회사들한테는 사실 이런 상담회가\n전시 나가는 것보다 훨씬 효율 좋아.\n돈 쓰고 부스 꾸미는 게 아니라, 진짜 바이어 앞에 앉는 거니까.\n\n마감이 6월 4일이니까 경북 의료기기 쪽이면 지금 바로 공고 확인해봐.",
+        "char_count": 228,
+        "reasoning": "특정 지원사업의 구조와 의미를 풀어 설명하는 내용이라 자금해설 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "late_morning",
+        "slot": "afternoon",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "R&D",
-            "수출바우처",
-            "스마트공장"
+            "메디엑스포 수출상담회 (경북)"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 8,
+          "score": 10,
           "risky_claims": [
-            "매출 1억/10억 구간별 전략 차이 (일반화된 표현)"
-          ],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "화이트리스트 사업명만 일반적으로 언급, 인사이트 중심"
-        }
-      }
-    },
-    "noon": {
-      "status": "approved",
-      "topic": "올해 정부 정책자금 예산 30조 시대",
-      "post": {
-        "post_type": "숫자팩트",
-        "main_post": "정부 정책자금 예산이 30조원을 넘는다는 거 알아?\n\n근데 이 돈이 전부 집행되는 게 아니야.\n신청하는 기업이 없거나, 요건 안 맞아서 반납되는 예산이 매년 수천억 단위야.\n\n즉 자금이 없어서 못 받는 게 아니라\n'내가 신청할 수 있는 자금이 뭔지 몰라서' 못 받는 거거든.\n\n30조 시대에 내 회사만 모르고 있으면 진짜 억울하지 않아?",
-        "char_count": 157,
-        "reasoning": "정부 정책자금 30조라는 숫자를 중심으로 임팩트 있게 전달하는 숫자팩트 타입이 가장 적합하며, 단순 수치 나열이 아닌 '왜 못 받는가'라는 인사이트로 연결해 reach를 높이는 구조로 작성했음."
-      },
-      "verdict": {
-        "slot": "noon",
-        "fact_check": {
-          "score": 8,
-          "cited_programs": [
-            "정부 정책자금"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 7,
-          "risky_claims": [
-            "정부 정책자금 예산 30조원",
-            "반납 예산 매년 수천억"
+            "6월 4일 마감",
+            "1:1 상담"
           ],
           "issues": [
-            "30조는 시스템 프롬프트가 허용한 표현 범위(추상화), 수천억은 검증 불가하나 일반화된 표현"
+            "마감일 announcement와 일치"
           ]
         },
         "duplication_check": {
-          "score": 8,
+          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 8,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "30조·수천억은 추상화된 표현으로 BAN 트리거 수준 아님"
+          "reasoning": "실제 공고 정확 인용"
         }
       }
     },
-    "lunch": {
+    "late_afternoon": {
       "status": "approved",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
       "post": {
-        "post_type": "공감페인",
-        "main_post": "처음 정책자금 신청했을 때 기억 나는데\n\n사업 막 시작하고 뭔가 해보려고 서류 챙겨서 넣었더니\n\"매출 요건 미충족\"으로 반려됨\n\n아니 매출 없으니까 자금 받으려는 건데\n매출 없으면 못 준다는 게 말이 돼?\n\n근데 이게 진짜 흔한 패턴이야\n창업 초기일수록 받을 수 있는 자금이 따로 있는데\n아무 자금이나 넣으면 꼭 이렇게 됨\n\n처음 거절당한 사람들 다들 이런 거 아니야?",
-        "char_count": 197,
-        "reasoning": "매출 부족으로 자금 신청 거절당한 경험은 초기 창업자의 전형적인 페인포인트로, 공감페인 타입이 가장 자연스럽게 감정을 끌어낼 수 있음"
+        "post_type": "트렌드",
+        "main_post": "요즘 DX 관련 자금이 진짜 많아졌어\n\n예전엔 스마트공장 구축 이런 거 R&D 쪽 얘기였는데\n이제는 제조 데이터 디지털전환 실증이니\n스마트그린산단 스마트제조 전환이니\n이런 이름의 자금이 기업마당에 넘쳐나거든\n\n경기 제조데이터 기반 DX 실증은 선착순에 상시접수고\n전남 스마트제조 전환지원은 6월 말까지야\n\n근데 재밌는 건 이 자금들\n'DX 해야 한다' 막연하게 생각만 하던 회사들한테 딱 맞는 구조임\n컨설팅부터 시스템 구축까지 세트로 묶여 있어서\n\n관심 있으면 지금 타이밍이 맞아",
+        "char_count": 232,
+        "reasoning": "DX 관련 자금의 증가 트렌드를 다루는 주제이므로 트렌드 타입이 적합하고, 공고 데이터에서 관련 자금을 직접 참조해 신뢰도를 높였음"
       },
       "verdict": {
-        "slot": "lunch",
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "경기 제조데이터 기반 디지털전환 실증",
+            "전남 스마트그린산단 스마트제조 전환지원"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "전남 스마트제조 전환지원 6월 말까지 - announcement는 6/30, 일치"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "선착순 상시접수",
+            "6월 말까지"
+          ],
+          "issues": [
+            "announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "실제 공고 정확 인용, 트렌드 각도 적절"
+        }
+      }
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "솔직히 말하면, 자금 받고 나서 첫 1년이 진짜 중요해.\n\n근데 대부분 받는 것에만 집중하고 받고 나서 뭘 해야 하는지는 몰라.\n\n실적 보고 타이밍 놓치면 다음 자금 사실상 막힘.\n정산 서류도 미리미리 챙겨놔야 하는데, 나중에 한꺼번에 하려다 터지는 케이스 진짜 많거든.\n\n그리고 이게 더 중요한데 — 받은 자금 실행 내역이 쌓이면 다음 심사에서 레퍼런스가 돼.\n즉, 첫 자금을 잘 마무리한 회사가 두 번째 자금도 잘 받아.\n\n받는 것보다 쓰는 것, 쓰는 것보다 증빙하는 게 진짜 실력이더라.",
+        "char_count": 228,
+        "reasoning": "자금 수혜 이후 행동 요령은 데이터·경험 기반 통찰을 전달하는 솔직인사이트 타입이 가장 적합하고, 공고 리스트와 직접 매칭되지 않아 일반 도메인 지식으로 작성했습니다."
+      },
+      "verdict": {
+        "slot": "evening",
         "fact_check": {
           "score": 10,
           "cited_programs": [],
@@ -206,31 +307,84 @@
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "공감페인 콘텐츠, 구체 수치 없음"
+          "reasoning": "사후관리 인사이트, 구체 사실 없음"
         }
       }
     },
-    "afternoon": {
+    "late_evening": {
       "status": "approved",
-      "topic": "[부산] 2026년 상반기 사회적경제 공공구매 페어 참가기업 모집 공고 자금 해설 (부산광역시)",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
       "post": {
-        "post_type": "자금해설",
-        "main_post": "사회적경제 공공구매 페어가 뭔지 모르는 사람 많더라\n\n쉽게 말하면 사회적기업, 협동조합, 마을기업 같은 데가\n지자체나 공공기관 구매담당자 앞에서 직접 제품·서비스 소개할 수 있는 자리야\n\n영업할 돈도, 루트도 없는 사회적경제 기업들한테\n공공이 먼저 \"사줄게, 와서 보여줘\" 하는 구조거든\n\n부산시가 상반기에 이 페어 열고 지금 참가기업 모집 중인데\n마감이 6월 2일이라 시간 별로 없어\n\n사회적기업 인증 받아놓고도 판로가 막막하다면\n이런 거 꼭 챙겨야 함",
-        "char_count": 222,
-        "reasoning": "공공구매 페어라는 다소 생소한 제도의 개념과 구조를 풀어 설명하는 것이 핵심이라 자금해설 타입이 가장 적합함"
+        "post_type": "케이스스터디",
+        "main_post": "어제 데이터 보다가 흥미로운 케이스 발견했어\n\n매출 3억대 제조업 대표인데\n작년 4분기 내내 적자였거든\n\n근데 올해 상반기에 스마트공장 구축 지원 받고\n디지털전환 실증 사업까지 엮어서\n공정 효율화 한 방에 해결함\n\n비용 줄어드는 게 매출 올리는 것보다 빠르다는 거\n이분은 이미 알고 있었던 거지\n\n정책자금으로 흑자 만드는 건\n'돈 받아서 쓴다'가 아니라\n'비용 구조를 바꾸는 데 쓴다'는 관점이 핵심이더라",
+        "char_count": 196,
+        "reasoning": "익명 사례를 통해 정책자금 활용 → 분기 흑자 전환 스토리를 풀어내는 케이스스터디 타입이 가장 적합하며, 경북 스마트공장 구축사업·경기 디지털전환 실증 등 실제 공고를 자연스럽게 녹여냄"
       },
       "verdict": {
-        "slot": "afternoon",
+        "slot": "late_evening",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "스마트공장 구축 지원",
+            "디지털전환 실증 사업"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "일반 사업명으로 안전"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "매출 3억대",
+            "작년 4분기 내내 적자",
+            "상반기에 흑자"
+          ],
+          "issues": [
+            "익명 케이스 경험 진술 - 검증 불가지만 허용 범위"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [
+            "2026-05-23_케이스스터디_직원_5명에서_50명까지_자금만으로_키운_회사.md"
+          ],
+          "issues": [
+            "[9]와 유사한 제조업 자금 활용 케이스지만 각도(흑자전환 vs 스케일업) 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "케이스스터디 톤 적절, 일반화된 사업명 사용"
+        }
+      }
+    },
+    "night": {
+      "status": "approved",
+      "topic": "지역특화 자금이 늘어나는 이유",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 정책자금 공고 보면 진짜 신기한 게 있어\n\n서울·중기부 공고보다 경남, 전남, 경북, 충북 같은 지역 공고가 훨씬 많아졌거든\n\n예전엔 중앙부처 공고 하나 기다렸는데, 이제 지자체가 직접 예산 잡고 테크노파크 통해서 기업 모집하는 구조야\n\n이유가 뭐냐면 — 지방소멸 위기 대응으로 지역 자체 예산이 늘었고, 중앙 예산도 지자체 경유 방식으로 많이 내려오거든\n\n근데 문제는 이 자금들이 지역 기반 기업 아니면 신청 자체가 안 된다는 거\n\n내 회사 소재지가 어딘지에 따라 받을 수 있는 자금 풀이 완전히 달라지는 시대가 온 거야",
+        "char_count": 248,
+        "reasoning": "지역특화 자금 증가 트렌드를 설명하는 주제이고, 실제 공고 리스트에서도 경남·전남·경북·충북 등 지역 공고가 다수 확인되어 트렌드 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "night",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "2026년 상반기 사회적경제 공공구매 페어 (부산, D-10, 마감 6/2)"
+            "테크노파크"
           ],
           "unverified_programs": [],
           "issues": []
@@ -243,160 +397,18 @@
         "duplication_check": {
           "score": 9,
           "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "announcement에 정확히 매칭, 마감일도 일치"
-        }
-      }
-    },
-    "late_afternoon": {
-      "status": "approved",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 정책자금 흐름 보면 글로벌 쪽 예산이 진짜 많이 늘었어\n\n수출상담회, 해외박람회 참가 지원 공고가 1년 전에 비해 체감상 확실히 많아진 느낌\n\n근데 재밌는 건 단순 \"부스 지원\" 말고 인도 거점 연계 지원(PUNE Base Camp)이라거나 중국 유통망 직접 입점 지원 같은 것도 생겼다는 거야\n\n옛날엔 \"박람회 가세요\" 수준이었으면 이제는 현지에 발 붙이는 걸 도와주는 방향으로 바뀌고 있다는 게 포인트\n\n글로벌 나가고 싶은데 어디서 시작할지 모르겠다 싶으면 지금이 오히려 좋은 타이밍일 수 있어",
-        "char_count": 218,
-        "reasoning": "정책자금 흐름의 변화(글로벌 진출 비중 증가)를 공고 데이터 기반으로 소개하는 트렌드형 콘텐츠로, 수출 관련 공고들을 직접 활용할 수 있어 트렌드 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "KOSME-PUNE Base Camp",
-            "중국 유통망 입점 지원사업"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "수출 공고 1년 전 대비 늘었다 (체감상이라 명시)"
-          ],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-05-22_트렌드_2026년_정책자금_트렌드_키워드.md"
-          ],
           "issues": [
-            "수출 트렌드 언급이 [10]번 키워드 글과 일부 겹치나 각도는 다름(현지 거점 강조)"
+            "트렌드 주제이나 지역 자금이라는 새 각도"
           ]
         },
         "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "실제 공고를 근거로 한 트렌드, 각도 차별화됨"
-        }
-      }
-    },
-    "evening": {
-      "status": "rejected",
-      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
-      "reason": "review"
-    },
-    "late_evening": {
-      "status": "approved",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어떤 제조업 대표 얘기인데, 직원 5명짜리 작은 공장이었어.\n\n처음엔 스마트공장 구축 지원으로 설비 자동화하고,\n그 다음엔 수출바우처로 해외 판로 뚫고,\n인력 채용 보조금으로 사람 늘리고.\n\n지금은 직원 50명 넘겼다더라.\n\n근데 이 케이스에서 진짜 인상 깊었던 건 '한 방'이 아니라는 거야.\n자금을 단계별로 레이어링해서 쓴 거거든.\n\n한 번에 큰 자금 하나 받는 게 아니라,\n성장 단계마다 맞는 자금을 계속 이어붙인 거.\n\n이게 사실 제일 어려운 거야. 어떤 타이밍에 어떤 자금을 써야 하는지 아는 것.",
-        "char_count": 222,
-        "reasoning": "5명→50명 성장 스토리는 익명 케이스 형식으로 구체적 성장 흐름을 보여주는 케이스스터디 타입이 가장 자연스럽고 공감대 높음"
-      },
-      "verdict": {
-        "slot": "late_evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "스마트공장 구축 지원",
-            "수출바우처",
-            "인력 채용 보조금"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "직원 5명 → 50명 성장 케이스 (익명, 자기 경험)"
-          ],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
           "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "자금 레이어링 인사이트는 신선, 화이트리스트 자금만 언급"
-        }
-      }
-    },
-    "night": {
-      "status": "approved",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 창업지원 보면 진짜 세대 격차가 선명해.\n\n청년창업사관학교, 청년전용 창업자금, 도전K-스타트업 —\n만 39세 이하 조건 달린 자금들이 예산도 크고 인지도도 높아.\n\n근데 40대 이상 창업? 지원 자체가 적고,\n있어도 경력창업·소상공인 쪽으로 분류돼서 규모가 다름.\n\n충주 청년소상공인 창업점포임차료 같은 것도\n'청년'이라는 조건이 붙어 있거든.\n\n솔직히 이게 차별이냐 선택과 집중이냐는 논쟁이 있는데,\n데이터 보면 40대 이후 창업 생존율이 오히려 높다는 통계도 있어.\n\n예산이 어디 쏠려 있는지 알고 신청해야\n괜히 자격 안 맞는 자금에 시간 날리는 일 없음.",
-        "char_count": 219,
-        "reasoning": "청년 vs 시니어 창업 자금 격차라는 트렌드성 관찰 주제이고, 공고 데이터에서 청년소상공인 창업점포임차료 지원사업이 실제 언급 가능해 트렌드 타입이 가장 적합"
-      },
-      "verdict": {
-        "slot": "night",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "청년창업사관학교",
-            "청년전용 창업자금",
-            "도전K-스타트업",
-            "충주 청년소상공인 창업점포임차료 지원사업"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "만 39세 이하 조건 (청창사 기준으로 일반적)",
-            "40대 이후 창업 생존율 높다는 통계 (출처 불명이나 일반화)"
-          ],
-          "issues": [
-            "생존율 통계는 출처 없으나 단정적이지 않음"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "실제 공고 활용, 세대 격차 각도는 신선"
+          "reasoning": "실제 공고 패턴 기반 트렌드, 구체 수치 없음"
         }
       }
     }
