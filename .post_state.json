@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 10,
+    "솔직인사이트": 11,
     "공감페인": 7,
     "케이스스터디": 11,
     "숫자팩트": 1,
@@ -48,16 +48,6 @@
     "PBLN_000000000122354"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[대구] 의료 바이오 특화분야 창업패키지 창업기업 2차 모집 공고 D-4 마감 임박 (대구광역시)",
-      "char_count": 196,
-      "media_id": "18132276970497216",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYN7SI9kXMV",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_마감알림_대구_의료_바이오_특화분야_창업패키지_창업기업_2차_모.md",
-      "posted_at": "2026-05-11T23:56:27.056Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1585,6 +1575,27 @@
       "media_id": "18099759380009174",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYt4c28kafY",
       "posted_at": "2026-05-24T09:47:21.878Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "신청서에 쓰면 안 되는 표현 5가지",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-24_솔직인사이트_신청서에_쓰면_안_되는_표현_5가지.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 10,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "신청서 작성 관련 인사이트는 최근 게시물에 없음. 케이스스터디들과 주제 다름"
+        ]
+      },
+      "posted_at": "2026-05-24T11:10:29.794Z",
+      "media_id": "18080670554168927",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuB-mdG73i"
     }
   ]
 }
