@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "char_count": 206,
-      "media_id": "18351491962209407",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYMhk73m3zY",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_트렌드_그린환경_분야_신규_자금_급증.md",
-      "posted_at": "2026-05-11T10:52:32.686Z"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
@@ -1569,6 +1559,20 @@
       "media_id": "18182544169381098",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYtXU-Bjsbm",
       "posted_at": "2026-05-24T04:57:54.011Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "올해 정부 정책자금 예산 30조 시대",
+      "char_count": 157,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18438205828188543",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYti-RFFtJV",
+      "posted_at": "2026-05-24T06:39:38.725Z"
     }
   ]
 }
