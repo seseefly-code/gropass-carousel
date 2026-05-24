@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
-      "char_count": 248,
-      "media_id": "18122203309650341",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYOa19IFSTs",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_솔직인사이트_매출_1억과_10억의_자금_신청_전략_차이.md",
-      "posted_at": "2026-05-12T04:32:09.005Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "R&D 자금 평균 지원 규모와 자기부담률",
@@ -1596,6 +1586,20 @@
       "posted_at": "2026-05-24T11:10:29.794Z",
       "media_id": "18080670554168927",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYuB-mdG73i"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18082348097138819",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuO12FEQy8",
+      "posted_at": "2026-05-24T13:02:59.655Z"
     }
   ]
 }
