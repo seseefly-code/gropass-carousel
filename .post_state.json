@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[세종] 2026년 2차 산업단지 기숙사 임차비 지원 참여기업 모집 공고(고용환경개선사업) 자금 해설 (세종특별자치시)",
-      "char_count": 211,
-      "media_id": "18339854989174514",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYMYyudFOS7",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_자금해설_세종_2026년_2차_산업단지_기숙사_임차비_지원_참여.md",
-      "posted_at": "2026-05-11T09:35:45.214Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "그린·환경 분야 신규 자금 급증",
@@ -1565,6 +1555,20 @@
       "media_id": "17861115597651402",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYs0uKGkuW_",
       "posted_at": "2026-05-23T23:55:32.442Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "char_count": 253,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18182544169381098",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYtXU-Bjsbm",
+      "posted_at": "2026-05-24T04:57:54.011Z"
     }
   ]
 }
