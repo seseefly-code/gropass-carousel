@@ -49,16 +49,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
-      "char_count": 272,
-      "media_id": "18063033014698951",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYMtbbbmgVJ",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-11_솔직인사이트_대표가_직접_가야_하는_미팅_vs_위임해도_되는_미팅.md",
-      "posted_at": "2026-05-11T12:36:10.310Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
@@ -1573,6 +1563,20 @@
       "media_id": "18438205828188543",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYti-RFFtJV",
       "posted_at": "2026-05-24T06:39:38.725Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
+      "char_count": 197,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17999647826765763",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYtn8-6lno8",
+      "posted_at": "2026-05-24T07:23:09.151Z"
     }
   ]
 }
