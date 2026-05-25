@@ -53,16 +53,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
-      "char_count": 206,
-      "media_id": "18101175641047890",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRPfBKlb6a",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_공감페인_옆_회사가_자금_받았다는_소식_들었을_때.md",
-      "posted_at": "2026-05-13T06:50:38.126Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[충남] 청양군 2026년 2차 특화자원을 활용한 6차 산업 기업육성과 일자리창출 수혜기업 모집 공고(시군구연고산업육성 협업프로젝트) 자금 해설 (충청남도)",
@@ -1664,6 +1654,20 @@
       "posted_at": "2026-05-25T15:53:32.765Z",
       "media_id": "18105456661959744",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYxHKl0IPvI"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "내 분야 자금 알림 등록 권유",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18103064275815732",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYx3ETLjkT5",
+      "posted_at": "2026-05-25T22:52:13.753Z"
     }
   ]
 }
