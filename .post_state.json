@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 글로벌 게임 현지화 지원(해외 이용자평가) 모집 연장 공고 D-3 마감 임박 (문화체육관광부)",
-      "char_count": 222,
-      "media_id": "18401257054144846",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYQgRD8FBy1",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_마감알림_2026년_글로벌_게임_현지화_지원해외_이용자평가_모집.md",
-      "posted_at": "2026-05-12T23:58:02.149Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "신청서에 쓰면 안 되는 표현 5가지",
@@ -1642,6 +1632,20 @@
       "media_id": "17886163239558022",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYwqXdclS0e",
       "posted_at": "2026-05-25T11:41:58.923Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18211956199335488",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwy97ckTDk",
+      "posted_at": "2026-05-25T12:57:08.528Z"
     }
   ]
 }
