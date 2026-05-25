@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "char_count": 244,
-      "media_id": "17927901915278084",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPDCtvFGV8",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_트렌드_글로벌_진출_자금_비중_변화.md",
-      "posted_at": "2026-05-12T10:23:25.263Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
@@ -1614,6 +1604,20 @@
       "media_id": "18315111424277720",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYvZ0Egl4KW",
       "posted_at": "2026-05-24T23:58:06.347Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17939633103235333",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYv-GoGDQex",
+      "posted_at": "2026-05-25T05:15:12.025Z"
     }
   ]
 }
