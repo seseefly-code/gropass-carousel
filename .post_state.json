@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "신청서에 쓰면 안 되는 표현 5가지",
-      "char_count": 287,
-      "media_id": "17869304481528553",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRAWtQlSWv",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_솔직인사이트_신청서에_쓰면_안_되는_표현_5가지.md",
-      "posted_at": "2026-05-13T04:38:28.535Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "벤처 인증 시 보증한도가 얼마나 늘어나는지",
@@ -1646,6 +1636,20 @@
       "media_id": "18211956199335488",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYwy97ckTDk",
       "posted_at": "2026-05-25T12:57:08.528Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18112084669870206",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYw-azzkXQo",
+      "posted_at": "2026-05-25T14:37:12.882Z"
     }
   ]
 }
