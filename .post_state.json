@@ -51,16 +51,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
-      "char_count": 243,
-      "media_id": "18057346097531819",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYPbp89iaup",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-12_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
-      "posted_at": "2026-05-12T13:58:30.736Z"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
@@ -1630,6 +1620,20 @@
       "posted_at": "2026-05-25T07:18:09.734Z",
       "media_id": "18098272952141450",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYwMLwCFAvk"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18593113966023002",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwTqKyFZv0",
+      "posted_at": "2026-05-25T08:23:38.210Z"
     }
   ]
 }
