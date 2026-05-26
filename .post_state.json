@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 15,
     "공감페인": 9,
-    "케이스스터디": 14,
+    "케이스스터디": 15,
     "숫자팩트": 4,
     "마감알림": 12,
     "오해풀기": 9,
@@ -53,16 +53,6 @@
     "PBLN_000000000122340"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "추가공고 가능성 높은 자금",
-      "char_count": 201,
-      "media_id": "18111902086845633",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYS-K_aoHYK",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_마감알림_추가공고_가능성_높은_자금.md",
-      "posted_at": "2026-05-13T22:57:50.931Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1705,6 +1695,27 @@
       "media_id": "18104980063787389",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYzCRk9lpeA",
       "posted_at": "2026-05-26T09:49:23.027Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "[10] R&D 보고서 통과 케이스와 '평가위원 시각 차이로 결과가 갈린다'는 인사이트가 부분적으로 겹치지만, 본 글은 '동일 서류 재신청 → 평가위원 구성 차이'라는 다른 각도라 중복도 낮음"
+        ]
+      },
+      "posted_at": "2026-05-26T14:48:13.403Z",
+      "media_id": "18104870692987227",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYzke_Fkdtu"
     }
   ]
 }
