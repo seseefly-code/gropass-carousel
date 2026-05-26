@@ -57,16 +57,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
-      "char_count": 311,
-      "media_id": "17974817748024195",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYTlBSakYWg",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_솔직인사이트_자금_받고_첫_1년에_꼭_해야_하는_것.md",
-      "posted_at": "2026-05-14T04:37:18.179Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
@@ -1732,6 +1722,20 @@
       "posted_at": "2026-05-26T16:44:31.658Z",
       "media_id": "17941345191211078",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYzxy2JlTKD"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "[전북] 2026년 인공지능 기술고도화 지원사업 추가 모집 공고(AI융합 지능형 농업 생태계 구축 사업) D-3 마감 임박 (과학기술정보통신부)",
+      "char_count": 153,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17982769653007567",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY0c9nAkvam",
+      "posted_at": "2026-05-26T23:01:51.273Z"
     }
   ]
 }
