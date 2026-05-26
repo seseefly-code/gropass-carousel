@@ -54,16 +54,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "현장 평가 떨어지는 이유 90%",
-      "char_count": 227,
-      "media_id": "17863904748566247",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRypS9miix",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_솔직인사이트_현장_평가_떨어지는_이유_90.md",
-      "posted_at": "2026-05-13T11:57:53.404Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
@@ -1693,6 +1683,20 @@
       },
       "posted_at": "2026-05-26T04:57:17.355Z",
       "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
+      "char_count": 213,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18586730077036945",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYytxwYlpWw",
+      "posted_at": "2026-05-26T06:50:16.650Z"
     }
   ]
 }
