@@ -54,16 +54,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "디지털전환(DX) 관련 자금 폭증",
-      "char_count": 231,
-      "media_id": "18590551054003173",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYSMvdqCfjl",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_트렌드_디지털전환DX_관련_자금_폭증.md",
-      "posted_at": "2026-05-13T15:45:54.467Z"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "추가공고 가능성 높은 자금",
@@ -1701,6 +1691,20 @@
       "media_id": "18058774016533457",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYy07EplnsD",
       "posted_at": "2026-05-26T07:52:41.783Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[경남] 2026년 마산자유무역지역 역량강화 기업지원사업 지원기업 추가 모집 공고 자금 해설 (산업통상부)",
+      "char_count": 238,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18104980063787389",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYzCRk9lpeA",
+      "posted_at": "2026-05-26T09:49:23.027Z"
     }
   ]
 }
