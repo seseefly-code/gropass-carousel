@@ -49,19 +49,10 @@
     "PBLN_000000000122352",
     "PBLN_000000000122370",
     "PBLN_000000000122345",
-    "PBLN_000000000122350"
+    "PBLN_000000000122350",
+    "PBLN_000000000122340"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[충남] 청양군 2026년 2차 특화자원을 활용한 6차 산업 기업육성과 일자리창출 수혜기업 모집 공고(시군구연고산업육성 협업프로젝트) 자금 해설 (충청남도)",
-      "char_count": 222,
-      "media_id": "18010335674862448",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRcKXQlDD9",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_자금해설_충남_청양군_2026년_2차_특화자원을_활용한_6차_산.md",
-      "posted_at": "2026-05-13T08:41:24.046Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1668,6 +1659,29 @@
       "media_id": "18103064275815732",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYx3ETLjkT5",
       "posted_at": "2026-05-25T22:52:13.753Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[서울] 2026년 2차 서울어워드 우수제품 모집 공고 D-9 마감 (서울특별시)",
+      "char_count": 138,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_마감알림_서울_2026년_2차_서울어워드_우수제품_모집_공고_D.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "announcement에 '[서울] 2026년 2차 서울어워드 우수제품 모집 공고' D-9, 서울경제진흥원 수행으로 확인됨. 마감일 6월 4일 일치.",
+          "서울어워드는 실제로 공공구매 우선구매 및 판로지원과 연계되는 사업이라 일반적으로 알려진 사실 범주. 구체 수치 없음.",
+          "최근 마감알림 2건(KOSME-PUNE, 자금알림 등록)과 주제·각도 모두 다름."
+        ]
+      },
+      "posted_at": "2026-05-26T00:04:16.977Z",
+      "media_id": "18109559987309046",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DYx_U05Dx1t"
     }
   ]
 }
