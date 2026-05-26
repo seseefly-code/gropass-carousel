@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 14,
+    "솔직인사이트": 15,
     "공감페인": 9,
     "케이스스터디": 14,
     "숫자팩트": 4,
@@ -53,16 +53,6 @@
     "PBLN_000000000122340"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "char_count": 206,
-      "media_id": "17888596458369617",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYRmoC9Gthu",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-13_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
-      "posted_at": "2026-05-13T10:12:51.262Z"
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1682,6 +1672,27 @@
       "posted_at": "2026-05-26T00:04:16.977Z",
       "media_id": "18109559987309046",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DYx_U05Dx1t"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "정책자금 검색만 하다 시간 보내는 사람들 공통점",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_솔직인사이트_정책자금_검색만_하다_시간_보내는_사람들_공통점.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 5,
+        "tone": 10,
+        "issues": [
+          "'90%', '최소 30분' 같은 수치는 검증 불가하나 체감 표현 수준으로 허용 범위",
+          "[4] 마감알림 글이 '기업마당에서 공고 찾기, 30분 날아간다, 내 분야 맞는지 확인' 이라는 거의 동일한 페인포인트를 다룸. 본 글의 핵심 인사이트(검색 시간 길수록 신청 안 함)와 [4]의 인사이트(필터/알림 설정 안 해서 놓침)가 같은 문제의식·같은 30분 수치까지 일치. 각도가 약간 다르지만 중복도 높음"
+        ]
+      },
+      "posted_at": "2026-05-26T04:57:17.355Z",
+      "review_required": true
     }
   ]
 }
