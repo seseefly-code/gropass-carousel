@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 2,
     "공감페인": 12,
@@ -8,7 +8,7 @@
     "숫자팩트": 6,
     "마감알림": 12,
     "오해풀기": 9,
-    "트렌드": 10
+    "트렌드": 11
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -56,16 +56,6 @@
     "PBLN_000000000122426"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
-      "char_count": 222,
-      "media_id": "18080655236400590",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYViCUPDwL1",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_마감알림_정기_공고_시즌_임박_알림_RD_청년창업.md",
-      "posted_at": "2026-05-14T22:49:43.858Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1786,6 +1776,31 @@
       "media_id": "18171336538413899",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY2KUM9EUA3",
       "posted_at": "2026-05-27T14:57:24.947Z"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "헬스케어 자금 신규 증가 추세",
+      "char_count": 264,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-27_트렌드_헬스케어_자금_신규_증가_추세.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "두 사업 모두 announcement 컨텍스트에 실제 존재. 성남시 친고령혁신제품 인증지원 D-16, 부산 AI실증지원센터 D-16 확인됨",
+          "구체 수치·금액·선정률 없음. 추상적 트렌드 서술이라 위험도 낮음",
+          "부산 AI실증지원센터에 헬스케어 업종 해당 가능하다고 단정한 부분은 약간 주의 필요하나 '해당 가능'으로 가능성만 언급해 허용 범위",
+          "같은 트렌드 타입이지만 주제(헬스케어/고령친화)가 명확히 달라 중복 아님",
+          "'요즘 정책자금 데이터 보다가' 류 도입부가 트렌드 포스트와 약간 유사하나 인사이트 각도 다름"
+        ]
+      },
+      "posted_at": "2026-05-27T16:40:20.322Z",
+      "media_id": "18087250451611454",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY2WHACFdLh"
     }
   ]
 }
