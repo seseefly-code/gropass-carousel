@@ -57,16 +57,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "char_count": 233,
-      "media_id": "18077346305222693",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUWIvQFW8a",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_케이스스터디_직원_5명에서_50명까지_자금만으로_키운_회사.md",
-      "posted_at": "2026-05-14T11:46:28.772Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
@@ -1774,6 +1764,20 @@
       "posted_at": "2026-05-27T08:06:59.865Z",
       "media_id": "18097490531145701",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY1bXNIFH0r"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 글로벌 웹툰 IP 제작지원 추가 모집 공고 자금 해설 (문화체육관광부)",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18067966073496431",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1mF0BFXKV",
+      "posted_at": "2026-05-27T09:40:49.651Z"
     }
   ]
 }
