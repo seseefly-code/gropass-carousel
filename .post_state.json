@@ -57,16 +57,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
-      "char_count": 238,
-      "media_id": "17959028598107749",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUkEaelFjI",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md",
-      "posted_at": "2026-05-14T13:48:12.595Z"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "자격 한 줄 차이로 안 된 신청",
@@ -1778,6 +1768,20 @@
       "media_id": "18067966073496431",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY1mF0BFXKV",
       "posted_at": "2026-05-27T09:40:49.651Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "메타버스·블록체인 자금이 줄어든 이유",
+      "char_count": 247,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17883554205414035",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1yYtYlGXg",
+      "posted_at": "2026-05-27T11:28:14.904Z"
     }
   ]
 }
