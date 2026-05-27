@@ -5,7 +5,7 @@
     "솔직인사이트": 2,
     "공감페인": 11,
     "케이스스터디": 2,
-    "숫자팩트": 5,
+    "숫자팩트": 6,
     "마감알림": 12,
     "오해풀기": 9,
     "트렌드": 10
@@ -56,16 +56,6 @@
     "PBLN_000000000122426"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 홍콩 소비재 메가쇼 전시회 수출 컨소시엄 참가기업 모집 공고 자금 해설 (강원특별자치도)",
-      "char_count": 237,
-      "media_id": "18348615958246424",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYUALIfFGcO",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-14_자금해설_2026년_홍콩_소비재_메가쇼_전시회_수출_컨소시엄_참.md",
-      "posted_at": "2026-05-14T08:34:34.741Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1751,6 +1741,28 @@
       "posted_at": "2026-05-27T05:09:58.680Z",
       "media_id": "18112677796864742",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY1HGrGFcVC"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
+      "char_count": 209,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-27_숫자팩트_중소기업_대표_한_명이_알아야_하는_자금_종류_수.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "'수천 건'은 일반화된 표현이라 위험도 낮음. 실제로 기업마당+지자체 합치면 수천 건 수준은 타당함",
+          "'정보 너무 많아서 못 찾는다'는 메시지가 [1], [5]와 유사한 결을 가짐. 다만 각도가 '검색 시간 낭비'가 아닌 '사업 종류의 절대 수' 관점이라 차별점 있음"
+        ]
+      },
+      "posted_at": "2026-05-27T07:07:03.630Z",
+      "media_id": "18154259269473262",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1UgNvFmQC"
     }
   ]
 }
