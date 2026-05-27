@@ -60,16 +60,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
-      "char_count": 222,
-      "media_id": "18109451329711334",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWKib5lSoZ",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_솔직인사이트_두_번째_자금_신청이_첫_번째보다_어려운_이유.md",
-      "posted_at": "2026-05-15T04:43:36.907Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
@@ -1808,6 +1798,20 @@
       "media_id": "18042735599583464",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY3CvxjGmf4",
       "posted_at": "2026-05-27T23:10:29.853Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[광주] 2026년 해외 전시박람회 단체참가 업체 추가모집 공고 D-2 마감 임박 (광주광역시)",
+      "char_count": 186,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18104606167967950",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY3IWlljX2g",
+      "posted_at": "2026-05-27T23:59:27.062Z"
     }
   ]
 }
