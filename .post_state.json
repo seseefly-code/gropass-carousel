@@ -61,16 +61,6 @@
   "history": [
     {
       "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "정책자금 검색만 하다 시간 보내는 사람들 공통점",
-      "char_count": 231,
-      "media_id": "17864504904565250",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYW7U3oCUrA",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_솔직인사이트_정책자금_검색만_하다_시간_보내는_사람들_공통점.md",
-      "posted_at": "2026-05-15T11:49:55.856Z"
-    },
-    {
-      "slot": "evening",
       "type": "케이스스터디",
       "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
       "char_count": 255,
@@ -1828,6 +1818,20 @@
       "media_id": "18082654322146576",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY4My5jkUOB",
       "posted_at": "2026-05-28T09:57:31.464Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "콘텐츠·플랫폼 자금 변화",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18081848765182956",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4XKdoloqm",
+      "posted_at": "2026-05-28T11:28:07.729Z"
     }
   ]
 }
