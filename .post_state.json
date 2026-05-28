@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 3,
-    "공감페인": 14,
+    "공감페인": 15,
     "케이스스터디": 5,
     "숫자팩트": 7,
     "마감알림": 12,
@@ -59,33 +59,6 @@
     "PBLN_000000000122486"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "매출 0원에서 자금 받은 초기 스타트업",
-      "char_count": 244,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_케이스스터디_매출_0원에서_자금_받은_초기_스타트업.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 6,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "'지역 테크노파크 사업화 자금'은 일반 명칭으로 OK이나, '청년창업 멘토링 패키지'는 announcement 컨텍스트에 없고 화이트리스트에도 없는 구체 사업명",
-          "announcement에 '창업어가 멘토링사업', '청년창업가 양성 지원사업' 등은 있으나 '청년창업 멘토링 패키지'라는 명칭과 정확히 일치하지 않음",
-          "마감일·금액 등 구체 수치는 없어 그 부분은 문제 없음",
-          "구체 수치나 비용 언급 없음",
-          "'법인 설립 6개월, 매출 0원, 직원 대표 혼자'는 자기 경험/케이스 서술로 검증 불가지만 허용 범주",
-          "전반적으로 추상화된 인사이트 위주라 hallucination 리스크 낮음",
-          "최근 게시물 중 초기 스타트업 자금 트랙을 직접 다룬 포스트는 없음",
-          "[0]번 글이 청년창업 시즌을 다루지만 각도가 다름(공고 준비 타이밍 vs 초기 자금 트랙 구분)"
-        ]
-      },
-      "posted_at": "2026-05-16T10:57:18.175Z",
-      "review_required": true
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1815,6 +1788,30 @@
       "posted_at": "2026-05-28T15:31:31.574Z",
       "media_id": "18205892158338762",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY4zB5bkdDa"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "12월에 사라지는 예산 보면서 드는 생각",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-28_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명을 호명하지 않고 일반론으로 풀어냄. D-1 공고가 있다는 언급은 announcement의 경북 상장지원사업 D-1과 일치하여 사실 부합",
+          "예산 이월/소멸 관련 일반 상식 수준 표현이며 구체 수치 없음. 위험도 낮음",
+          "최근 15개 중 '예산 소멸' 또는 '연말 예산' 각도는 없음. 정보 비대칭 페인은 [11]과 일부 겹치나 각도 다름",
+          "반말 톤 유지, 해시태그·이모지·여러분 없음, 글자수 196자로 적정"
+        ]
+      },
+      "posted_at": "2026-05-28T16:55:41.239Z",
+      "media_id": "18069502247679477",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY48qT5GpBK"
     }
   ]
 }
