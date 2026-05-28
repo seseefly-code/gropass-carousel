@@ -60,16 +60,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 스마트 디지털헬스케어 제품 사업화 통합지원 사업 글로벌 진출 지원 기업 모집 공고 자금 해설 (산업통상부)",
-      "char_count": 252,
-      "media_id": "17968285407060463",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYWmUA2FEQF",
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-15_자금해설_2026년_스마트_디지털헬스케어_제품_사업화_통합지원_.md",
-      "posted_at": "2026-05-15T08:46:17.409Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "여성기업 우대 자금 변화",
@@ -1820,6 +1810,20 @@
       "media_id": "18179223685403657",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY34NykllfJ",
       "posted_at": "2026-05-28T06:57:41.494Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "평가위원 질문 하나에 망친 발표",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17896218735328201",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY3_oJnllbp",
+      "posted_at": "2026-05-28T08:02:27.526Z"
     }
   ]
 }
