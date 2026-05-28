@@ -60,30 +60,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
-      "char_count": 255,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_케이스스터디_RD_보고서_잘_못_쓴_줄_알았는데_통과된_사례.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "구체 사업명 없음. 'R&D 사업계획서'는 일반 명칭으로 문제 없음",
-          "구체 수치 없음. '기술 차별성 명확' 코멘트는 익명 사례 묘사로 검증 불가지만 허용 범위. 구체 선정률·비용·예산 없음",
-          "[4]번 숫자팩트 포스트와 '사업계획서 잘 쓰는 것보다 핵심 내용이 중요하다'는 인사이트 방향이 유사하지만, [4]는 시간/비용 각도이고 본문은 평가위원 시선 각도로 차별화됨. 의미적 중복 수준은 낮음",
-          "이모지 없음, 해시태그 없음, 존댓말 혼용 없음, 글자수 255자로 적합, AI 정형 도입부 없음. '대표님' 표현이 있으나 직접 호칭이 아닌 3인칭 서술로 허용 가능"
-        ]
-      },
-      "posted_at": "2026-05-16T08:23:33.919Z",
-      "media_id": "17944890804190550",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYZIg6AFDK9"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "비R&D 사업화 자금이 새로 생기는 이유",
@@ -1832,6 +1808,20 @@
       "media_id": "18081848765182956",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY4XKdoloqm",
       "posted_at": "2026-05-28T11:28:07.729Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
+      "char_count": 246,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18103517684095407",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4mhsUlCyo",
+      "posted_at": "2026-05-28T13:42:21.670Z"
     }
   ]
 }
