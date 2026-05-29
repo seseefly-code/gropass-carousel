@@ -63,34 +63,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 신의료관광 광역연계형 규제자유특구 사업 참여희망 특구사업자 모집 공고 자금 해설 (중소벤처기업부)",
-      "char_count": 221,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-17_자금해설_2026년_신의료관광_광역연계형_규제자유특구_사업_참여.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "사업명('신의료관광 광역연계형 규제자유특구')과 마감일(5월 26일)이 announcement 컨텍스트와 정확히 일치함",
-          "소관부처 중기부 언급도 공고와 일치",
-          "구체 금액·자격조건·선정 규모 등 위험 디테일 없음",
-          "구체 수치 없음",
-          "'바이오·헬스케어·관광 쪽 회사' 대상 언급은 공고 성격에 부합하는 일반화 표현",
-          "규제자유특구 개념 설명은 일반적으로 알려진 내용이라 검증 가능",
-          "[3]번 스마트 디지털헬스케어 공고 해설과 헬스케어 분야 자금해설이라는 점에서 주제가 겹치나, 대상 사업·인사이트 각도가 명확히 다름(글로벌진출 vs 규제특구 실증)",
-          "중복 수준이 아닌 유사 업종 범주 정도로 판단"
-        ]
-      },
-      "posted_at": "2026-05-17T08:18:27.094Z",
-      "media_id": "18353934727242335",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYbsuVzFhiM"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "메타버스·블록체인 자금이 줄어든 이유",
@@ -1739,6 +1711,20 @@
       "media_id": "18108642851300739",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY667M1FFtI",
       "posted_at": "2026-05-29T11:19:03.880Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
+      "char_count": 225,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18103980347008377",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY7EnvfFJE4",
+      "posted_at": "2026-05-29T12:43:48.121Z"
     }
   ]
 }
