@@ -1,337 +1,221 @@
 {
-  "date": "2026-05-29",
-  "generated_at": "2026-05-28T22:44:25.126Z",
+  "date": "2026-05-30",
+  "generated_at": "2026-05-29T22:40:50.549Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "[경북] 2026년 유망 중소ㆍ벤처기업 상장 및 투자활성화 지원사업 기업 모집 연장 공고 D-1 마감 임박 (경상북도)",
+      "topic": "자금 캘린더 만드는 법",
       "post": {
         "post_type": "마감알림",
-        "main_post": "내일 마감인 거 알고 있어?\n\n경북 유망 중소·벤처기업 상장 및 투자활성화 지원사업\n내일(5/29) 끝나거든.\n\n상장 준비 중이거나 투자 연결 원하는 경북 소재 기업이라면\n지금 바로 기업마당 들어가서 확인해봐.\n\n이런 거 연장 공고까지 났다는 건\n아직 자리 있다는 얘기야.\n마감 하루 전에 아는 것도 다행이지 뭐.",
-        "char_count": 138,
-        "reasoning": "D-1 마감 임박 공고를 긴급성 있게 알리는 내용이라 마감알림 타입이 적합하며, 공고가 컨텍스트에 정확히 존재해 사업명·마감일을 그대로 활용했다."
+        "main_post": "사실 정책자금 캘린더 만드는 거 별거 없어.\n\n기업마당 들어가서 내 업종·지역 필터 걸고\n마감일 임박 순으로 정렬한 다음\n구글 캘린더에 하나씩 옮겨 넣으면 끝.\n\n근데 진짜 포인트는 마감 당일 말고\n마감 2주 전에 알람 거는 거야.\n\n대부분 마감 3일 전에 알고 허겁지겁 넣다가\n서류 빠진 채로 제출하거든.\n\n지금 당장 D-4 광주 김치 온라인 마케팅이나\nD-7 강남구 글로벌 스타트업 IR 같은 것들\n이번 주 안에 확인 안 하면 그냥 지나가는 거야.",
+        "char_count": 222,
+        "reasoning": "마감이 임박한 공고를 언급하면서 자금 캘린더 운영 노하우를 정보 전달 방식으로 풀어내는 구조라 마감알림 타입이 가장 적합"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "경북 유망 중소·벤처기업 상장 및 투자활성화 지원사업"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "공고 정확, 마감일 일치, 톤 적절"
-        }
-      }
-    },
-    "morning": {
-      "status": "approved",
-      "topic": "[부산] 2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 연장모집 공고 D-5 마감 임박 (부산광역시)",
-      "post": {
-        "post_type": "마감알림",
-        "main_post": "부산 콘텐츠 회사면 이거 지금 당장 봐야 해\n\n2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 모집인데\nD-5야. 6월 2일 마감.\n\n파빌리온 공동관은 혼자 해외 전시 뚫기 애매한 회사들한테\n진짜 유용한 구조거든 — 부스비·현지 운영 이런 것들 같이 해결하는 방식이라\n소규모 콘텐츠 스튜디오도 나갈 수 있어.\n\n부산 소재 콘텐츠 기업이면 부산정보산업진흥원에서 확인해봐\n연장모집이라는 얘기는 자리 아직 있다는 거고, 근데 이제 진짜 얼마 안 남았어",
-        "char_count": 218,
-        "reasoning": "D-5 마감 임박 공고를 소개하는 내용이라 긴급성과 정보를 전달하는 마감알림 타입이 가장 적합하며, 사장님 1인칭 공감 시점으로 파빌리온의 실익을 풀어내 광고처럼 읽히지 않도록 구성했음"
-      },
-      "verdict": {
-        "slot": "morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 모집",
-            "부산정보산업진흥원"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "부스비·현지 운영 같이 해결"
-          ],
-          "issues": [
-            "파빌리온 일반적 구조 설명이라 OK 수준"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고·마감 정확, 톤 자연스러움"
-        }
-      }
-    },
-    "late_morning": {
-      "status": "approved",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이 솔직히 말하면 딱 하나야\n\n못 쓰는 쪽은 \"우리 회사가 얼마나 대단한지\" 쓰고\n잘 쓰는 쪽은 \"심사위원이 뭘 보고 싶어하는지\" 써\n\n자금마다 심사 포인트가 다른데\n기술성 보는 자금에 매출 자랑하고 있거나\n시장성 보는 자금에 특허 얘기만 한가득이거나\n\n이게 탈락 이유 1순위야\n\n사업계획서는 내 회사 소개서가 아니라 \"이 자금의 목적에 내가 맞는 이유\"를 쓰는 거거든\n그 차이 아는 대표가 생각보다 많지 않아",
-        "char_count": 222,
-        "reasoning": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이는 데이터·경험 기반의 통찰을 전달하는 주제로, 솔직인사이트 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "late_morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": [
-            "사업계획서 주제 자체는 자주 등장하나 각도(심사위원이 보고 싶어하는 것)는 새로움"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "일반화된 인사이트, 사실 위험 없음"
-        }
-      }
-    },
-    "noon": {
-      "status": "rejected",
-      "topic": "벤처 인증 시 보증한도가 얼마나 늘어나는지",
-      "reason": "review"
-    },
-    "lunch": {
-      "status": "approved",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "새벽 3시에 사업계획서 쓰고 있는 사람 나밖에 없겠지\n\n처음엔 그냥 양식 채우는 거라 생각했는데\n'사업의 혁신성을 기술하시오' 이 칸에서 두 시간째 멈춰 있어\n\n내가 하는 게 혁신인지 그냥 생존인지도 모르겠고\n글자 수는 안 차고, 제출 마감은 다가오고\n\n근데 이거 안 내면 그냥 기회가 사라지는 거잖아\n그래서 또 씀\n\n다들 사업계획서 처음 쓸 때 이랬어?",
-        "char_count": 168,
-        "reasoning": "새벽에 혼자 사업계획서를 쓰는 대표의 극구체적인 페인 포인트 — 공감페인 타입이 가장 적합하며, 1인칭 자조 톤으로 풀면 reach가 높게 나오는 패턴"
-      },
-      "verdict": {
-        "slot": "lunch",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": [
-            "사업계획서 페인 주제 잦으나 새벽 3시 양식 작성 페인은 새 각도"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공감페인 자연스럽고 사실 위험 없음"
-        }
-      }
-    },
-    "afternoon": {
-      "status": "approved",
-      "topic": "2026년 AI 스타트업 발굴ㆍ육성 지원사업(2차년도) 참여기업 모집 2차 재공고(지역 주도형 AI 대전환) 자금 해설 (경상남도)",
-      "post": {
-        "post_type": "자금해설",
-        "main_post": "'AI 스타트업 발굴·육성 지원사업' — 경남에서 하는 건데 생각보다 잘 모르는 사람 많더라\n\n경상남도가 주도하고 경남창조경제혁신센터가 운영하는 AI 특화 육성 프로그램이야\n2차년도라는 게 포인트인데, 1차 때 선발된 기업들 성과가 어느 정도 나오니까 2차를 연 거거든\n이런 연속형 사업은 보통 지원 조건이나 프로그램 설계가 1차보다 정교해지는 경향이 있어\n\n근데 재공고라는 점도 봐야 해\n원래 공고 때 모집이 다 안 찼다는 뜻이니까, 역으로 경쟁이 처음보다 낮을 수 있어\n마감이 6월 5일이야. 지금 경남 소재 AI 스타트업이면 한 번 들여다볼 타이밍이지",
-        "char_count": 246,
-        "reasoning": "특정 자금 사업의 구조와 배경을 풀어 설명하고, 재공고 타이밍 인사이트까지 담는 교육형 콘텐츠라 자금해설이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "afternoon",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "AI 스타트업 발굴·육성 지원사업(2차년도)",
-            "경남창조경제혁신센터"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "공고 정확, 재공고 인사이트도 적절"
-        }
-      }
-    },
-    "late_afternoon": {
-      "status": "approved",
-      "topic": "융자 vs 보증 vs 출연금 비중 변화",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 정책자금 구조가 조용히 바뀌고 있어\n\n예전엔 융자(대출)가 대부분이었는데\n최근 몇 년 사이 출연금(갚지 않아도 되는 돈) 비중이 눈에 띄게 늘었거든\n\nAI, 딥테크, 탄소소재, 반도체 같은 기술 분야 공고들 보면\n대부분 출연금 형태야\n갚을 필요 없으니까 자격만 되면 훨씬 유리하지\n\n반면 소상공인·자영업자 쪽은 여전히 보증·융자 위주고\n새출발기금 같은 것도 결국 대출 구조잖아\n\n정리하면\n- 기술/R&D 쪽 → 출연금 확대\n- 일반 중소기업 → 보증 중심\n- 소상공인 → 융자·보증 혼합\n\n내 회사 업종이 어느 쪽인지에 따라\n狙어야 하는 자금 종류 자체가 달라지는 거야",
-        "char_count": 248,
-        "reasoning": "융자·보증·출연금 비중 변화라는 주제는 최근 정책자금 구조의 흐름 변화를 다루므로 트렌드 타입이 가장 적합하고, 공고 데이터(딥테크·반도체·탄소소재 등 출연 사업 + 새출발기금 등 융자 사업)를 실제로 활용해 구체성을 높였다."
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
           "score": 9,
           "cited_programs": [
-            "새출발기금",
-            "딥테크",
-            "반도체",
-            "탄소소재"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "출연금 비중이 눈에 띄게 늘었다"
-          ],
-          "issues": [
-            "일반적 트렌드 서술로 추상화되어 있음"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": [
-            "한자 '狙어야' 표기는 어색하나 규칙 위반은 아님"
-          ]
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "트렌드 인사이트 적절, 큰 사실 위험 없음"
-        }
-      }
-    },
-    "evening": {
-      "status": "approved",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들은 케이스인데, 제조업 하는 대표님이 수출바우처로 첫 해외 수주 만들었음\n\n규모 작은 회사라 해외 마케팅 엄두도 못 내던 상황이었는데\n바우처로 번역·현지화·전시회 참가비 다 처리했다고 하더라\n\n본인 돈은 거의 안 들어간 거지\n\n근데 진짜 포인트는 그게 아니야\n자금 받고도 '어디에 어떻게 쓸지' 몰라서 반년 묵혀놨던 거\n결국 써본 사람한테 물어보고 나서야 움직였대\n\n자금이 없어서 못 하는 경우보다\n있는데 못 쓰는 경우가 더 많더라",
-        "char_count": 225,
-        "reasoning": "수출바우처를 통한 첫 해외 수주 사례를 익명 케이스로 풀어내는 구조가 케이스스터디 타입에 가장 적합함"
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "수출바우처"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": [
-            "'자금이 없어서가 아니라 못 써서' 메시지가 2026-05-27 폐업위기 케이스와 유사하나 사례·각도는 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "화이트리스트 사업이고 케이스 자연스러움"
-        }
-      }
-    },
-    "late_evening": {
-      "status": "rejected",
-      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
-      "reason": "review"
-    },
-    "night": {
-      "status": "approved",
-      "topic": "정책자금 검색하느라 본업 못 한 하루",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "오늘 오전 내내 기업마당 들어가서 자금 찾다가 끝났어\n\n검색어 바꿔보고, 필터 눌러보고, 공고 클릭했더니 마감이고\n다른 거 들어갔더니 우리 지역 아니고\n그렇게 두 시간 날렸네\n\n근데 진짜 웃긴 건 결국 아무것도 못 찾고\n\"나중에 다시 봐야지\" 하고 창 닫음 ㅋㅋ\n\n본업 있는 사람이 이걸 어떻게 매일 챙겨\n정책자금 찾는 게 직업도 아닌데",
-        "char_count": 184,
-        "reasoning": "정책자금 검색하다 본업 못 한 하루라는 주제는 사장님이라면 누구나 공감하는 일상 페인 포인트라 공감페인 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "night",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
+            "광주 김치 온라인 마케팅 지원",
+            "강남구 글로벌 스타트업 IR",
             "기업마당"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
+          "score": 9,
+          "risky_claims": [
+            "D-4 광주 김치 온라인 마케팅",
+            "D-7 강남구 글로벌 스타트업 IR"
+          ],
+          "issues": [
+            "announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
           "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공고 사실관계 정확, 톤 적절, 중복 없음"
+        }
+      }
+    },
+    "morning": {
+      "status": "approved",
+      "topic": "[광주] 2026년 김치 온라인 마케팅 지원 대상자 추가 모집 공고(광주김치 온라인 판로 개척 및 홍보) D-4 마감 임박 (광주광역시)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "광주 김치 온라인 마케팅 지원, D-4야.\n\n근데 이거 생각보다 규모 있는 지원인데\n모르는 식품 사업자들이 너무 많더라고.\n\n광주 지역 김치 관련 사업 하고 있으면\n온라인 판로 개척이랑 홍보 비용 지원받을 수 있거든.\n\n6월 2일 마감이니까 지금 기업마당에서 공고 한번 봐.\n추가 모집이라 자리 얼마 안 남았을 수 있어.",
+        "char_count": 144,
+        "reasoning": "D-4 마감 임박한 공고를 알리는 게 핵심 목적이라 마감알림 타입이 적합하고, 공고 정보를 1인칭 경험 톤으로 자연스럽게 전달하는 구조로 작성함"
+      },
+      "verdict": {
+        "slot": "morning",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "광주 김치 온라인 마케팅 지원"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "D-4",
+            "6월 2일 마감",
+            "추가 모집"
+          ],
+          "issues": [
+            "announcement와 정확히 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [],
+          "issues": [
+            "포스트1과 같은 공고 언급하나 각도 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "사실관계 정확, 같은 배치 내 포스트1과 공고 중복이나 각도 다름"
+        }
+      }
+    },
+    "late_morning": {
+      "status": "approved",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "솔직히 말하면, 정책자금 두 배 받는 비결 같은 거 없어.\n\n근데 진짜 있는 건 하나 있어.\n\n\"중복 신청\".\n\n같은 시기에 국비 따로, 지자체 따로 신청하면\n실질적으로 받는 금액이 확 올라가거든.\n\n대부분 '한 번에 하나만' 이라고 생각하는데\n실제론 사업 목적이 다르면 동시 수혜 가능한 경우 꽤 많아.\n\n지금 공고 목록만 봐도\nAX 바우처, 수출 지원, 보증 상품 전부 따로 신청할 수 있거든.\n\n근데 이걸 아는 사람이 생각보다 많지 않아.\n그냥 하나 받으면 끝인 줄 알고 닫아버림.",
+        "char_count": 222,
+        "reasoning": "특정 자금 명칭이나 수치 없이 '중복 신청 가능성'이라는 실전 인사이트를 솔직하게 전달하는 구조가 솔직인사이트 타입에 가장 잘 맞고, 공고 목록에서 성격이 다른 바우처·보증·수출 지원 자금이 동시에 열려 있다는 실제 근거로 자연스럽게 녹임."
+      },
+      "verdict": {
+        "slot": "late_morning",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "AX 바우처",
+            "수출 지원",
+            "보증 상품"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [],
+          "issues": [
+            "일반화된 표현 사용"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "솔직 인사이트형, 사실관계 안전, 중복 없음"
+        }
+      }
+    },
+    "noon": {
+      "status": "approved",
+      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
+      "post": {
+        "post_type": "숫자팩트",
+        "main_post": "정책자금 신청하고 통장에 찍히기까지 평균 얼마나 걸리는지 알아?\n\n짧으면 2~3개월, 길면 6개월 넘어.\n심사 → 현장 실사 → 승인 → 협약 → 대출 or 지원금 지급 순서로 가는데\n각 단계마다 대기 줄이 있거든.\n\n특히 하반기 몰리는 시즌엔 심사 단계에서만 한 달 넘게 기다리는 경우도 꽤 많아.\n\n그러니까 \"지금 급하게 필요한 돈\"이랑 정책자금은 타이밍이 안 맞아.\n여유 있을 때 넣어야 실제로 쓸 수 있는 돈이 되는 거지.\n\n급할 때 찾으면 이미 늦어.",
+        "char_count": 222,
+        "reasoning": "정책자금 소요 기간이라는 숫자·데이터 중심 주제라 숫자팩트 타입이 가장 적합하고, 직접 매칭되는 공고는 없어 일반 도메인 지식 기반으로 모드 B(일반화) 방식 적용"
+      },
+      "verdict": {
+        "slot": "noon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "평균 2~3개월, 길면 6개월"
+          ],
+          "issues": [
+            "일반적 도메인 지식 수준"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "일반 도메인 지식 기반, 위험 수치 없음"
+        }
+      }
+    },
+    "lunch": {
+      "status": "rejected",
+      "topic": "떨어졌다는 메일 받은 날 표정",
+      "reason": "review"
+    },
+    "afternoon": {
+      "status": "approved",
+      "topic": "2026년 6월 문화콘텐츠기업보증 공고 자금 해설 (문화체육관광부)",
+      "post": {
+        "post_type": "자금해설",
+        "main_post": "문화콘텐츠기업보증이 뭐냐면\n\n한국콘텐츠진흥원이 문체부 예산으로 운영하는 보증 상품이야.\n일반 기업 대출은 담보·매출 기준으로 심사하는데,\n콘텐츠 회사는 IP나 콘텐츠 자체가 자산인 경우가 많잖아\n— 그게 담보로 안 잡히니까 맨날 대출 막히는 거거든.\n\n이 보증은 그 갭을 메워주는 구조야.\n콘텐츠 제작·유통·수출 준비하는 회사라면 체크해볼 만해.\n\n6월 1일부터 6월 8일까지 신청인데\n마감 짧으니까 공고 바로 확인해봐.",
+        "char_count": 211,
+        "reasoning": "특정 자금(문화콘텐츠기업보증)의 개념과 구조를 풀어 설명하는 내용이라 자금해설 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "afternoon",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "문화콘텐츠기업보증",
+            "한국콘텐츠진흥원"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "6월 1일부터 6월 8일까지"
+          ],
+          "issues": [
+            "announcement와 정확히 일치"
+          ]
         },
         "duplication_check": {
           "score": 9,
@@ -339,15 +223,76 @@
           "issues": []
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "공감페인 자연스럽고 위험 없음"
+          "reasoning": "공고 정보 정확, 자금해설 구조 좋음"
         }
       }
+    },
+    "late_afternoon": {
+      "status": "rejected",
+      "topic": "2026년 사라진 자금, 새로 생긴 자금",
+      "reason": "review"
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 들어온 케이스인데\n\n매출 꽤 되는 제조업체인데 정책자금을 4번 연속 떨어졌어\n컨설팅 비용 아깝다고 직접 신청했다고 하더라\n\n근데 얘기 들어보니까 매번 같은 패턴이었어\n자격 조건 맞는지 제대로 안 보고 일단 넣고\n사업계획서는 작년 걸 조금 수정해서 재사용하고\n왜 떨어졌는지도 피드백 없으니까 그냥 또 넣고\n\n4번 다 떨어지고 나서야 같이 보게 됐는데\n첫 번째 신청부터 업종 코드가 안 맞았어\n\n컨설팅 비용이 아까운 게 아니라\n4번 떨어지는 시간이 더 비싼 거였지",
+        "char_count": 233,
+        "reasoning": "컨설팅 없이 혼자 신청하다 반복 탈락한 실제 사례를 익명 케이스로 풀어내는 구조라 케이스스터디 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "4번 연속 탈락"
+          ],
+          "issues": [
+            "익명 케이스 경험담"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [
+            "2026-05-28_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md"
+          ],
+          "issues": [
+            "반복 탈락→원인 케이스 구조 유사하나 각도 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "케이스스터디 톤 적절, 비슷한 구조이나 각도 다름"
+        }
+      }
+    },
+    "late_evening": {
+      "status": "rejected",
+      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
+      "reason": "review"
+    },
+    "night": {
+      "status": "rejected",
+      "topic": "2026년 정책자금 트렌드 키워드",
+      "reason": "review"
     }
   }
 }
