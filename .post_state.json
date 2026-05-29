@@ -63,33 +63,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "매출 적으면 자금 못 받는다는 오해",
-      "char_count": 256,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_오해풀기_매출_적으면_자금_못_받는다는_오해.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 6,
-        "halluc": 8,
-        "dup": 5,
-        "tone": 9,
-        "issues": [
-          "'횡성 청년창업가 양성'은 announcement에 '[강원] 횡성군 2026년 1차 청년창업가 양성 지원사업'으로 확인됨 — OK",
-          "'경남 창업어가 멘토링'은 announcement에 '[경남] 2026년 창업어가 멘토링사업'으로 확인됨 — OK",
-          "두 공고를 '초기 단계 대상'이라고 규정했는데, announcement에 상세 자격 조건 없으므로 단정적 표현은 미검증 요소임",
-          "'초기기업·창업 7년 미만·소상공인 대상 자금이 전체 정책자금에서 차지하는 비중이 진짜 커'는 구체 수치 없는 일반 진술로 OK",
-          "사업명은 맞지만 두 공고를 '초기 단계 대상'으로 단정한 부분은 announcement에서 확인 불가 — 경미한 감점 요인",
-          "구체 수치나 비용·조건 언급 없음 — 클린",
-          "'창업 7년 미만'은 널리 알려진 정책자금 기준으로 허용 범위",
-          "'초기 단계 대상'으로 두 사업을 규정한 부분은 announcement에 조건 미기재라 약간 리스크 있으나 사실에 크게 반하지 않아 경미"
-        ]
-      },
-      "posted_at": "2026-05-16T14:23:30.927Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "[충남] 2026년 직장문화개선 패키지 지원사업 참여기업 추가 모집 공고 D-3 마감 임박 (충청남도)",
@@ -1806,6 +1779,20 @@
       "media_id": "18008564888726418",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY5nQNoDq23",
       "posted_at": "2026-05-28T23:07:56.960Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[부산] 2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 연장모집 공고 D-5 마감 임박 (부산광역시)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18026935364822015",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY5uR55jZ8V",
+      "posted_at": "2026-05-29T00:09:19.507Z"
     }
   ]
 }
