@@ -63,34 +63,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[충남] 2026년 직장문화개선 패키지 지원사업 참여기업 추가 모집 공고 D-3 마감 임박 (충청남도)",
-      "char_count": 189,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-16_마감알림_충남_2026년_직장문화개선_패키지_지원사업_참여기업_.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "언급된 사업명([충남] 2026년 직장문화개선 패키지 지원사업 참여기업 추가 모집 공고)이 announcement 컨텍스트에 정확히 존재함",
-          "마감일 5월 19일(D-3) announcement와 일치",
-          "수행기관 충남경제진흥원 일치",
-          "구체 지원금액·자격조건 디테일은 언급하지 않아 안전",
-          "구체 수치(금액, 경쟁률, 예산 등) 전혀 없음",
-          "'컨설팅이든 교육이든'으로 지원 내용을 일반화해 표현한 점 적절",
-          "'1년 기다려야 돼'는 연 1회 사업 특성 일반 언급으로 허위 아님",
-          "최근 15개 게시물 중 충남 직장문화개선 관련 내용 없음"
-        ]
-      },
-      "posted_at": "2026-05-16T22:37:35.110Z",
-      "media_id": "18459957496110619",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYaqP7uFIsP"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[부산] 2026년 커피산업 기반조성 및 기업육성사업 기업지원 프로그램 모집 재공고 D-4 마감 임박 (부산광역시)",
@@ -1793,6 +1765,20 @@
       "media_id": "18026935364822015",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY5uR55jZ8V",
       "posted_at": "2026-05-29T00:09:19.507Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17934848778256463",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY6QL9alrLj",
+      "posted_at": "2026-05-29T05:05:37.601Z"
     }
   ]
 }
