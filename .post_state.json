@@ -63,34 +63,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "정책자금 받은 기업의 3년 생존율",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-17_숫자팩트_정책자금_받은_기업의_3년_생존율.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 7,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "'정책자금·보증 받은 기업 3년 생존율 70%+' 수치는 announcement 컨텍스트에 없으나, 구체 사업명이 아닌 일반 명칭('정책자금','보증')만 사용해 화이트리스트 범주에 해당",
-          "특정 사업명·마감일·자격조건 없이 일반화된 표현으로만 서술 — 사실 검증 리스크 낮음",
-          "'40%대 초반', '70% 넘게' 수치는 announcement나 시스템 내 출처로 검증 불가 — 실제 통계(중기부·통계청 계열)와 대체로 방향성은 일치하나 정확한 수치 확인 어려움",
-          "수치가 끝자리 없이 범위형으로 표현('40%대 초반', '70% 넘게')되어 있어 강한 할루시네이션 리스크는 아님 — 그러나 출처 없는 통계 인용이므로 주의 필요",
-          "[2]번 게시물에서 '신청서 쓰고 심사받으면서 숫자 다듬고, 사후관리가 진짜 실력'이라는 메시지와 부분적으로 유사한 인사이트(자금 받는 과정 자체가 가치)를 담고 있음",
-          "그러나 본 포스트는 '생존율 통계 비교'라는 숫자팩트 각도로 접근해 차별성이 충분히 확보됨 — 중복 판정 수준은 아님",
-          "전체적으로 반말 구어체 유지, 해시태그·존댓말·이모지 없음",
-          "'이거 자금이 신통해서가 아니야' 등 자연스러운 구어 흐름"
-        ]
-      },
-      "posted_at": "2026-05-17T06:26:30.789Z",
-      "media_id": "18437944036190307",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYbf6g6ILHV"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "평가위원 질문 하나에 망친 발표",
@@ -1763,6 +1735,20 @@
       "media_id": "17925186366347958",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY6kL3ClXOA",
       "posted_at": "2026-05-29T08:00:24.204Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 AI 스타트업 발굴ㆍ육성 지원사업(2차년도) 참여기업 모집 2차 재공고(지역 주도형 AI 대전환) 자금 해설 (경상남도)",
+      "char_count": 246,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18083357651150784",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY6wm-rFKOl",
+      "posted_at": "2026-05-29T09:48:56.325Z"
     }
   ]
 }
