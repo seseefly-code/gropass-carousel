@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 5,
-    "공감페인": 3,
+    "공감페인": 4,
     "케이스스터디": 10,
     "숫자팩트": 10,
     "마감알림": 13,
@@ -64,20 +64,6 @@
     "PBLN_000000000122601"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18065506829403726",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYia8GGkewY",
-      "posted_at": "2026-05-19T22:57:48.665Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1679,6 +1665,28 @@
       "media_id": "18053101841737771",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY8-NzMkZUZ",
       "posted_at": "2026-05-30T06:26:19.764Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
+      "char_count": 222,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-30_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 수치는 자기 경험 묘사 수준으로 검증 불필요",
+          "#11 컨설팅 관련 케이스스터디와 주제 인접하나 각도(공감페인 vs 케이스)가 달라 중복 수준은 낮음"
+        ]
+      },
+      "posted_at": "2026-05-30T06:48:16.710Z",
+      "media_id": "17986778384817552",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY9AvRClra_"
     }
   ]
 }
