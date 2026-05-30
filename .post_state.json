@@ -65,28 +65,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
-      "char_count": 198,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "구체 수치나 비용 없이 일반론으로 서술됨",
-          "[4] 매출 0원에서 자금 받은 초기 스타트업과 '1인/초기 단계' 주제가 유사하나, 각도(시리즈A 연결·VC 레퍼런스)가 달라 중복도 낮음"
-        ]
-      },
-      "posted_at": "2026-05-19T12:35:57.127Z",
-      "media_id": "18095645242908604",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYhTyFFlii6"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "12월에 사라지는 예산 보면서 드는 생각",
@@ -1697,6 +1675,20 @@
       "media_id": "18105785542894484",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY8S8ZzGG92",
       "posted_at": "2026-05-30T00:08:12.785Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18078199166640104",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8ykzxnBwx",
+      "posted_at": "2026-05-30T04:44:37.512Z"
     }
   ]
 }
