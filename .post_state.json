@@ -65,29 +65,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "헬스케어 자금 신규 증가 추세",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_트렌드_헬스케어_자금_신규_증가_추세.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 8,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "언급된 두 사업 모두 announcement 컨텍스트에 존재함",
-          "헬스케어 예산이 늘어난다는 주장은 일반적 추세 언급으로 구체 수치 없음, 위험도 낮음",
-          "트렌드 타입 자금 흐름 변화 주제가 최근 반복되지만 헬스케어 분야 특화로 각도가 다름"
-        ]
-      },
-      "posted_at": "2026-05-19T10:53:36.853Z",
-      "media_id": "17888748000376741",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYhIEhkkWWG"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
@@ -1706,6 +1683,20 @@
       "media_id": "18020619860674322",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY8LmTMj6zM",
       "posted_at": "2026-05-29T23:04:01.833Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[광주] 2026년 김치 온라인 마케팅 지원 대상자 추가 모집 공고(광주김치 온라인 판로 개척 및 홍보) D-4 마감 임박 (광주광역시)",
+      "char_count": 144,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18105785542894484",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8S8ZzGG92",
+      "posted_at": "2026-05-30T00:08:12.785Z"
     }
   ]
 }
