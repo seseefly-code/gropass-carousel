@@ -65,20 +65,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[강원] 홍천군 2026년 중소기업 수출단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
-      "char_count": 197,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18137286649531451",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYiiYGMjj0C",
-      "posted_at": "2026-05-20T00:02:48.528Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 받고도 망하는 회사들 공통점",
@@ -1687,6 +1673,20 @@
       "posted_at": "2026-05-30T06:48:16.710Z",
       "media_id": "17986778384817552",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY9AvRClra_"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 6월 문화콘텐츠기업보증 공고 자금 해설 (문화체육관광부)",
+      "char_count": 211,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18589882423016068",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY9L1ydFYRL",
+      "posted_at": "2026-05-30T08:25:22.164Z"
     }
   ]
 }
