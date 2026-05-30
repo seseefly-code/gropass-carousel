@@ -65,30 +65,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "12월에 사라지는 예산 보면서 드는 생각",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-19_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "구체 사업명을 호명하지 않고 일반론(예산 소진, 회계연도 반납)으로 작성되어 fact 위반 없음",
-          "구체 수치·금액·조건 없음. '회계연도 기준 미집행 예산 반납'은 일반 상식 수준",
-          "최근 공감페인([6] 평가위원 질문, [12] 입금 지연)과 주제·각도 다름. 12월 예산 소멸이라는 새로운 각도",
-          "반말 유지, 해시태그·이모지 없음, 196자로 적정. AI 정형 도입부 없음"
-        ]
-      },
-      "posted_at": "2026-05-19T16:23:27.433Z",
-      "media_id": "18091523849210512",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYht0arCUGC"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "[강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
@@ -1689,6 +1665,20 @@
       "media_id": "18078199166640104",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY8ykzxnBwx",
       "posted_at": "2026-05-30T04:44:37.512Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18053101841737771",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8-NzMkZUZ",
+      "posted_at": "2026-05-30T06:26:19.764Z"
     }
   ]
 }
