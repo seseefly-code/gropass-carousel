@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 5,
-    "공감페인": 4,
+    "공감페인": 5,
     "케이스스터디": 10,
     "숫자팩트": 10,
     "마감알림": 13,
@@ -64,20 +64,6 @@
     "PBLN_000000000122601"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18205473826341539",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYjRLdLlSzr",
-      "posted_at": "2026-05-20T06:51:45.554Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1696,6 +1682,28 @@
       },
       "posted_at": "2026-05-30T09:50:50.608Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
+      "char_count": 210,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-30_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "자기 경험 기반 수치라 검증 불가하나 위험하지 않음",
+          "기업마당 활용 팁이 [2]에 있으나 각도가 다름(캘린더 vs 공고 가독성 페인). 중복 아님"
+        ]
+      },
+      "posted_at": "2026-05-30T14:42:55.049Z",
+      "media_id": "18111109855920368",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY93Dq5kbPT"
     }
   ]
 }
