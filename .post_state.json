@@ -67,20 +67,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "char_count": 214,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17906687760420888",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYjXlaslvoq",
-      "posted_at": "2026-05-20T07:47:43.093Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 연장 공고 자금 해설 (전북특별자치도)",
@@ -1706,6 +1692,20 @@
       "posted_at": "2026-05-30T14:42:55.049Z",
       "media_id": "18111109855920368",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY93Dq5kbPT"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "매주 월요일 신규 공고 체크 루틴",
+      "char_count": 234,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18084258752111382",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY-upJ_CbIJ",
+      "posted_at": "2026-05-30T22:48:43.508Z"
     }
   ]
 }
