@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-05-31T14:03:35.578Z",
+  "collected_at": "2026-05-31T15:18:39.002Z",
   "user_id": "26071251839222721",
   "days": 30,
-  "count": 221,
+  "count": 222,
   "threads": [
+    {
+      "id": "18116156173792044",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZAca_3mvOp",
+      "timestamp": "2026-05-31T14:47:57+0000",
+      "text": "5인 미만이라 자금 못 받는다는 거 진짜 오해야\n\n솔직히 이 말 믿고 아예 찾아보지도 않는 사람이 너무 많은데\n소상공인특화지원센터, 바우처류 사업, 지역 기반 지원사업들 상당수가\n오히려 소규모 사업자를 타겟으로 설계된 거거든\n\n이번에 마감 임박한 충청호남권 상생소공인특화지원센터도 그렇고\nAX 원스톱 바우처도 수요기업 추가 모집 중인데\n규모 작다고 자격이 없는 게 아니라\n업종·업력·소재지 조건이 안 맞아서 떨어지는 경우가 대부분이야\n\n\"우리 같은 작은 데는 몰라도\" 하고 넘기지 말고\n조건 먼저 읽어봐. 생각보다 문이 열려 있어",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 35,
+        "likes": 0,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "오해풀기",
+        "topic": "5인 미만 기업은 받을 자금이 없다는 오해",
+        "char_count": 236
+      }
+    },
     {
       "id": "18432626515189107",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZASEGBCT_i",
@@ -12,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 43,
+        "views": 87,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 173,
+        "views": 192,
         "likes": 2,
         "replies": 0,
         "reposts": 0,
@@ -54,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 189,
+        "views": 190,
         "likes": 2,
         "replies": 0,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 721,
+        "views": 724,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -117,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 104,
+        "views": 109,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 12,
+        "views": 13,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -243,7 +264,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 90,
+        "views": 91,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -327,7 +348,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 134,
+        "views": 135,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -369,7 +390,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 180,
+        "views": 181,
         "likes": 2,
         "replies": 0,
         "reposts": 0,
@@ -390,7 +411,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 173,
+        "views": 174,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -411,7 +432,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 400,
+        "views": 401,
         "likes": 8,
         "replies": 7,
         "reposts": 0,
@@ -468,7 +489,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 693,
+        "views": 694,
         "likes": 7,
         "replies": 0,
         "reposts": 0,
@@ -489,7 +510,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 243,
+        "views": 244,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -741,7 +762,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 210,
+        "views": 212,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -2191,10 +2212,10 @@
         "quotes": 0
       },
       "meta": {
-        "slot": "late_morning",
-        "type": "솔직인사이트",
-        "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-        "char_count": 228
+        "slot": "unknown",
+        "type": "unknown",
+        "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이 솔직히 말하면 글 실력 차이 아니야.",
+        "char_count": 261
       }
     },
     {
@@ -2856,7 +2877,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 24,
+        "views": 25,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
