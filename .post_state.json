@@ -68,20 +68,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18160913368453173",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYlpogZFral",
-      "posted_at": "2026-05-21T05:03:56.683Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "수출바우처 평균 활용 금액",
@@ -1716,6 +1702,20 @@
       "media_id": "18432626515189107",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZASEGBCT_i",
       "posted_at": "2026-05-31T13:17:33.292Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "5인 미만 기업은 받을 자금이 없다는 오해",
+      "char_count": 236,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18116156173792044",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZAca_3mvOp",
+      "posted_at": "2026-05-31T14:48:00.649Z"
     }
   ]
 }
