@@ -67,20 +67,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 연장 공고 자금 해설 (전북특별자치도)",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18448681666118413",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYji8MPFl0Z",
-      "posted_at": "2026-05-20T09:26:58.234Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "콘텐츠·플랫폼 자금 변화",
@@ -1706,6 +1692,20 @@
       "media_id": "18084258752111382",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY-upJ_CbIJ",
       "posted_at": "2026-05-30T22:48:43.508Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18128263489618232",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_arpGluiR",
+      "posted_at": "2026-05-31T05:13:31.608Z"
     }
   ]
 }
