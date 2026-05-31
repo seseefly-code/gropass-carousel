@@ -71,20 +71,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "수출바우처 평균 활용 금액",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18111855949874508",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYl2edyFeys",
-      "posted_at": "2026-05-21T06:56:09.852Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "정책자금 검색하느라 본업 못 한 하루",
@@ -1719,6 +1705,20 @@
       "media_id": "18116156173792044",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZAca_3mvOp",
       "posted_at": "2026-05-31T14:48:00.649Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "2026년 마켓플레이스 특화 비즈매칭(캐나다) K-Animation Spotlight 참가기업 모집 공고 D-3 마감 임박 (문화체육관광부)",
+      "char_count": 193,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17898432165309494",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZBTpHumK3s",
+      "posted_at": "2026-05-31T22:50:31.586Z"
     }
   ]
 }
