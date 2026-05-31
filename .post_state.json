@@ -68,20 +68,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 경기 문화기술 콘텐츠 제작지원 기술인프라 이용지원 추가 모집 공고 D-6 마감 임박 (경기도)",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18393262624085633",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYlHhNsjZzd",
-      "posted_at": "2026-05-21T00:05:51.962Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
@@ -1716,6 +1702,20 @@
       "posted_at": "2026-05-31T11:29:42.186Z",
       "media_id": "18098532278229332",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZAFvV7FArN"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 232,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18432626515189107",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZASEGBCT_i",
+      "posted_at": "2026-05-31T13:17:33.292Z"
     }
   ]
 }
