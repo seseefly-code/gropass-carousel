@@ -67,20 +67,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "콘텐츠·플랫폼 자금 변화",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18099514154037640",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYjreRDlnSe",
-      "posted_at": "2026-05-20T10:41:31.395Z"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
@@ -1706,6 +1692,20 @@
       "media_id": "18128263489618232",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY_arpGluiR",
       "posted_at": "2026-05-31T05:13:31.608Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 받은 기업의 3년 생존율",
+      "char_count": 224,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18222290335316194",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_m4vElulw",
+      "posted_at": "2026-05-31T07:00:10.344Z"
     }
   ]
 }
