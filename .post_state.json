@@ -8,7 +8,7 @@
     "숫자팩트": 11,
     "마감알림": 14,
     "오해풀기": 10,
-    "트렌드": 3
+    "트렌드": 4
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -67,29 +67,6 @@
     "PBLN_000000000122594"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "융자 vs 보증 vs 출연금 비중 변화",
-      "char_count": 246,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-20_트렌드_융자_vs_보증_vs_출연금_비중_변화.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 7,
-        "issues": [
-          "출연금/융자/보증 비중 변화는 일반론으로 서술되어 구체 수치 없음",
-          "[12], [13] 트렌드 글과 형식은 유사하나 주제(자금 구조 변화)는 다름",
-          "본문이 '근데 사장님들 대부분 이 세 개를 구분 없이'에서 중간에 끊겨 있음 - 미완결 문장",
-          "마무리 문장이 없어 글의 완결성이 떨어짐"
-        ]
-      },
-      "posted_at": "2026-05-20T16:29:26.297Z",
-      "review_required": true
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1709,6 +1686,28 @@
       "posted_at": "2026-05-31T08:42:21.958Z",
       "media_id": "18099321421890090",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY_ylvWFWso"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "char_count": 211,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-31_트렌드_글로벌_진출_자금_비중_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 수치 없이 트렌드 관찰만 서술해 위험 낮음",
+          "같은 날 트렌드 글이 3건(AI R&D, 그린환경, 본 글) 있으나 각도(글로벌 진출)가 달라 의미적 중복은 낮음"
+        ]
+      },
+      "posted_at": "2026-05-31T10:07:23.422Z",
+      "media_id": "18117689671684673",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_8UdNlsMi"
     }
   ]
 }
