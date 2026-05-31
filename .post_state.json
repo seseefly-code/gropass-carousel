@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 6,
+    "솔직인사이트": 7,
     "공감페인": 6,
     "케이스스터디": 12,
     "숫자팩트": 11,
@@ -67,20 +67,6 @@
     "PBLN_000000000122594"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18439031914141282",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYlAluCFENv",
-      "posted_at": "2026-05-20T23:05:15.810Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1708,6 +1694,28 @@
       "posted_at": "2026-05-31T10:07:23.422Z",
       "media_id": "18117689671684673",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DY_8UdNlsMi"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
+      "char_count": 237,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-31_솔직인사이트_똑같은_사업인데_누군_5천_받고_누군_못_받는_진짜_이.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "5천만원이라는 금액이 구체적이지만 자기 경험 사례로 일반화된 수준이라 허용 가능",
+          "솔직인사이트 톤과 '심사위원이 보는 관점' 각도가 비슷하지만, 타이밍 vs 사업계획서 연결성으로 메시지 각도는 다름"
+        ]
+      },
+      "posted_at": "2026-05-31T11:29:42.186Z",
+      "media_id": "18098532278229332",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZAFvV7FArN"
     }
   ]
 }
