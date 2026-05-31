@@ -1,48 +1,42 @@
 {
-  "date": "2026-05-31",
-  "generated_at": "2026-05-30T22:05:30.501Z",
+  "date": "2026-06-01",
+  "generated_at": "2026-05-31T22:04:25.518Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "매주 월요일 신규 공고 체크 루틴",
+      "topic": "2026년 마켓플레이스 특화 비즈매칭(캐나다) K-Animation Spotlight 참가기업 모집 공고 D-3 마감 임박 (문화체육관광부)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "월요일마다 하는 루틴 하나 있는데\n\n기업마당 들어가서 이번 주 마감 공고 쭉 훑는 거야\n\n이번 주만 해도 D-3짜리 광주 김치 온라인 마케팅 지원,\nD-4짜리 뉴욕 코믹콘·캐나다 K-Animation 비즈매칭,\nD-5짜리 전북 SW강소기업 도약 패키지 이렇게 있어\n\n근데 대부분의 사장님들은 이 공고가 있는지조차 모르고 마감 지나고 나서 알게 됨\n\n월요일 5분만 써도 이번 주 마감 공고는 다 챙길 수 있는데\n\n지금 기업마당 한 번 들어가봐",
-        "char_count": 234,
-        "reasoning": "매주 월요일 신규 공고 체크 루틴이라는 주제는 마감 임박 공고를 인식시키고 행동을 유도하는 내용으로, 마감알림 타입이 가장 적합함"
+        "main_post": "캐나다 K-Animation Spotlight 비즈매칭, 이번 주 화요일 마감이야\n\n한국 애니메이션 콘텐츠 들고 캐나다 바이어들 직접 만나는 기회인데\n문화체육관광부 주관이고 한국콘텐츠진흥원이 수행해\n\n수출 쪽으로 뚫어보고 싶은 애니메이션 IP 있는 회사라면\n이런 비즈매칭이 진짜 레버리지 큰 거 알잖아\n광고비 쓰는 것보다 바이어 한 명 만나는 게 훨씬 빠른 경우 많거든\n\n6월 3일 마감이니까 오늘내일 안에 서류 챙겨봐",
+        "char_count": 193,
+        "reasoning": "마감 D-3 긴급 공고이므로 마감알림 타입이 적합하며, 시간 압박과 참여 유도를 중심으로 구성했다"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "광주 김치 온라인 마케팅 지원",
-            "뉴욕 코믹콘 비즈매칭",
-            "캐나다 K-Animation",
-            "전북 SW강소기업 도약 패키지",
-            "기업마당"
+            "캐나다 K-Animation Spotlight 비즈매칭"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 10,
+          "score": 9,
           "risky_claims": [
-            "D-3",
-            "D-4",
-            "D-5"
+            "6월 3일 마감"
           ],
           "issues": [
-            "D-day는 announcement와 일치 (D-3 광주김치, D-4 코믹콘/K-Animation, D-5 전북SW)"
+            "announcement상 마감일이 6월 3일로 정확히 일치함"
           ]
         },
         "duplication_check": {
           "score": 7,
           "similar_recent_files": [
-            "2026-05-29_마감알림_자금_캘린더_만드는_법.md"
+            "2026-05-30_마감알림_2026년_마켓플레이스_특화_비즈매칭_뉴욕_코믹콘New.md"
           ],
           "issues": [
-            "기업마당 마감 체크 루틴이라는 점에서 자금 캘린더 글과 유사하나 각도 다름"
+            "같은 비즈매칭 시리즈(코믹콘/K-Animation)이지만 대상 사업이 달라 각도 차이는 있음"
           ]
         },
         "tone_check": {
@@ -52,46 +46,45 @@
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "실제 공고 4건을 정확히 인용, 톤 양호, 약간의 주제 유사성만 존재"
+          "reasoning": "공고 사실 정확, 톤 양호, 유사 마감알림 있으나 대상 사업이 달라 통과"
         }
       }
     },
     "morning": {
       "status": "approved",
-      "topic": "2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 모집 공고 D-4 마감 임박 (문화체육관광부)",
+      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 2차 연장 공고 D-4 마감 임박 (전북특별자치도)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "뉴욕 코믹콘 비즈매칭 공고, D-4야\n\n콘텐츠 쪽 하는 사람이면 이거 한 번쯤 들어봤을 텐데\n뉴욕 코믹콘은 북미 최대 규모 콘텐츠 IP 행사 중 하나거든\n\n문체부에서 한국콘텐츠진흥원이랑 같이\n현지 바이어 비즈매칭까지 붙여서 지원해주는 거라\n그냥 전시 참가 지원이랑은 결이 달라\n\n만화, 애니, 게임, 웹툰 쪽 업체라면\n이번 주 안에 공고 확인해봐\n6월 3일 마감이니까 진짜 얼마 안 남았어",
-        "char_count": 196,
-        "reasoning": "마감이 D-4로 임박한 실제 공고이고, 긴급성과 정보 전달이 핵심이라 마감알림 타입이 가장 적합"
+        "main_post": "전북에 있는 SW 회사들, D-4야\n\n'SW강소기업 도약 패키지' — 이름 길어서 그냥 지나친 사람 있을 것 같아서\n\n전북테크노파크가 수행하는 거고\n6월 4일까지니까 진짜 며칠 안 남음\n\nSW 기업인데 전북 소재면 한번 확인해봐\n어차피 패키지 지원이라 여러 항목 묶어서 나오는 경우 많거든\n\n기업마당에서 '전북 SW강소기업' 검색하면 바로 나와",
+        "char_count": 181,
+        "reasoning": "D-4 마감 임박 공고로, 긴급성과 정보 전달이 핵심인 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "뉴욕 코믹콘 비즈매칭",
-            "한국콘텐츠진흥원",
-            "문체부"
+            "[전북] SW강소기업 도약 패키지 지원사업"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [
-            "6월 3일 마감",
-            "D-4",
-            "북미 최대 규모"
+            "6월 4일 마감",
+            "D-4"
           ],
           "issues": [
-            "마감일 announcement와 일치"
+            "announcement와 일치"
           ]
         },
         "duplication_check": {
-          "score": 9,
+          "score": 8,
           "similar_recent_files": [],
-          "issues": []
+          "issues": [
+            "[3] 월요일 루틴 글에서 전북 SW강소기업이 잠깐 언급되지만 본 포스트는 단독 마감알림으로 각도 다름"
+          ]
         },
         "tone_check": {
           "score": 10,
@@ -100,82 +93,87 @@
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "실제 공고 정확 인용, 마감일 일치, 중복 없음"
+          "reasoning": "사실관계 정확하고 톤 자연스러움"
         }
       }
     },
     "late_morning": {
       "status": "approved",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 같은 자금에 같은 서류 내도 언제 내느냐가 결과를 갈라.\n\n정책자금 심사는 예산이 있을 때 들어온 신청서랑, 예산 거의 다 소진됐을 때 들어온 신청서를 똑같이 보지 않아.\n\n공고 기간이 3주면 첫 주에 내는 사람이랑 마지막 날에 내는 사람은 심사위원이 보는 눈이 다를 수밖에 없거든.\n\n근데 대부분 \"마감 전에만 내면 되지\" 하고 미루다가 D-1에 제출함.\n\n아, 진짜 아까운 케이스 이게 제일 많아.\n\n공고 뜨면 최대한 빨리. 이게 전략이야.",
-        "char_count": 196,
-        "reasoning": "자금 신청 타이밍이 결과를 가른다는 주제는 경험·데이터 기반의 노하우 전달에 해당하므로 솔직인사이트 타입이 가장 적합함."
+        "main_post": "솔직히 말하면 컨설팅비 1천 아깝다는 대표님들 많은데\n나는 반반이라고 생각해\n\n진짜 잘하는 컨설턴트 만나면 1천이 오히려 싼 거야\n본인이 모르는 자금 한 개만 더 찾아줘도\n수천만원 짜리 지원이 나오는 경우 있거든\n\n근데 문제는 그 컨설턴트가 '잘하는' 컨설턴트인지\n미리 알 방법이 없다는 거지\n\n결국 직접 알아서 하기도 답이 아니야\n기업마당 들어가서 조건 맞는 거 찾다가\n한 시간 허비하고 포기하는 패턴 다들 알잖아\n\n진짜 페인은 비용이 아니라\n'내가 받을 수 있는 게 뭔지' 자체를 모른다는 거더라",
+        "char_count": 228,
+        "reasoning": "컨설팅 vs 셀프의 선택 딜레마는 정책자금 도메인의 경험 기반 통찰로 풀기 좋아서 솔직인사이트 타입 선택"
       },
       "verdict": {
         "slot": "late_morning",
         "fact_check": {
           "score": 10,
-          "cited_programs": [
-            "정책자금"
-          ],
+          "cited_programs": [],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "구체 사업명 없이 일반론"
+          ]
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 8,
           "risky_claims": [
-            "공고 기간 3주",
-            "D-1 제출"
+            "컨설팅비 1천",
+            "수천만원 짜리 지원"
           ],
           "issues": [
-            "일반화된 표현"
+            "일반화된 표현 범위 내"
           ]
         },
         "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
+          "score": 7,
+          "similar_recent_files": [
+            "2026-05-30_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md"
+          ],
+          "issues": [
+            "컨설팅 주제와 부분 겹침. 각도(반반 입장)는 다름"
+          ]
         },
         "tone_check": {
           "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "구체 사업명 없이 일반론, 톤 양호"
+          "reasoning": "솔직인사이트로 무난, 컨설팅 주제 중복은 각도 차이로 허용"
         }
       }
     },
     "noon": {
       "status": "approved",
-      "topic": "정책자금 받은 기업의 3년 생존율",
+      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
       "post": {
         "post_type": "숫자팩트",
-        "main_post": "정책자금 받은 기업이랑 안 받은 기업이랑\n3년 생존율 차이가 꽤 나더라\n\n일반 창업기업 3년 생존율이 40% 초중반대인데\n정책자금 수혜기업은 60%대라는 데이터가 있어\n\n근데 이게 착시일 수도 있거든\n자금 받으려면 어느 정도 검증된 기업이어야 하니까\n처음부터 좀 더 단단한 기업들이 신청하는 거지\n\n그래도 뒤집어 보면\n생존하고 싶으면 정책자금 신청 자체가\n기업 체력을 점검하는 과정이 된다는 거야\n\n재무제표, 사업계획서 정리하면서\n\"우리 지금 어떤 상태야?\" 를 강제로 보게 되니까",
-        "char_count": 224,
-        "reasoning": "정책자금 수혜 기업 생존율이라는 통계성 주제이고, 구체적인 수치와 그 의미를 풀어내는 구조가 숫자팩트 타입에 가장 적합하다."
+        "main_post": "TIPS 누적 선정 기업이 1,000개 넘었어.\n\n근데 진짜 놀라운 건 숫자가 아니라 그 뒤에 벌어지는 일이거든.\n\nTIPS 붙은 회사들 후속 투자 유치율이 일반 스타트업 대비 압도적으로 높아.\n\n이게 왜냐면 — TIPS는 민간 VC가 먼저 투자하고 정부가 매칭해주는 구조잖아.\n\n즉, 이미 '투자자가 검증한 회사'라는 시그널이 박혀있는 거야.\n\nSeries A 돌 때 TIPS 출신이냐 아니냐를 보는 투자사가 실제로 많더라.\n\n자금 자체보다 그 자금이 주는 신호가 더 값어치 있는 경우도 있어.",
+        "char_count": 198,
+        "reasoning": "TIPS의 누적 선정 수와 후속 투자 비율이라는 수치 기반 주제에 숫자팩트 타입이 적합하고, 정확히 모르는 수치는 모드B로 일반화하여 표현했음"
       },
       "verdict": {
         "slot": "noon",
         "fact_check": {
           "score": 9,
           "cited_programs": [
-            "정책자금"
+            "TIPS"
           ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "TIPS는 화이트리스트 사업"
+          ]
         },
         "hallucination_check": {
-          "score": 7,
+          "score": 8,
           "risky_claims": [
-            "일반 창업기업 3년 생존율 40% 초중반대",
-            "정책자금 수혜기업 60%대"
+            "TIPS 누적 선정 기업 1,000개 넘었어"
           ],
           "issues": [
-            "구체 생존율 수치를 인용했으나 '데이터가 있어' 식으로 완충, 일반적으로 알려진 범위 수준"
+            "TIPS 누적 선정 수는 실제 2,000개 이상으로 알려져 있어 '1,000개 넘었다'는 표현이 사실상 틀리지는 않지만 보수적 수치. 후속 투자 유치율 '압도적으로 높다'는 추상 표현 OK"
           ]
         },
         "duplication_check": {
@@ -190,18 +188,18 @@
         "overall": {
           "score": 8,
           "decision": "pass",
-          "reasoning": "수치 인용 있으나 범위로 완충, 톤·중복 양호"
+          "reasoning": "숫자가 추상화되어 있어 안전, 시그널 관점 인사이트 신선함"
         }
       }
     },
     "lunch": {
       "status": "approved",
-      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
       "post": {
         "post_type": "공감페인",
-        "main_post": "정책자금 신청 마감 1시간 전에\n서류 하나 빠진 거 알아챈 적 있어?\n\n나만 이런 거 아니지.\n\n사업계획서 다 썼고, 매출 자료도 뽑았고,\n\"이제 제출만 하면 되네\" 하고 눌렀는데\n\"○○○ 서류 첨부 필요합니다\" 뜨는 그 순간.\n\n근데 그 서류가 당일 발급 안 되는 거야.\n국세청이나 구청 가야 하는 거면 진짜 끝.\n\n시간 내서 준비했는데 마지막에 이렇게 날리면\n진짜 허탈하더라.\n\n공고 꼼꼼히 읽어야 한다는 거 알면서도\n마감 직전에 서류 목록 확인하는 사람이\n나만 있는 건 아닐 것 같아서 올려봄.",
-        "char_count": 226,
-        "reasoning": "마감 1시간 전 서류 부족이라는 상황은 전형적인 대표/창업자 공감 페인 포인트라 공감페인 타입이 가장 적합함"
+        "main_post": "첫 정책자금 신청하고 반려당한 이유가\n\n\"매출 기준 미달\"\n\n이거 진짜 당황스럽지 않아?\n매출 부족해서 자금이 필요한 건데\n매출 부족하다고 못 받는 거잖아.\n\n닭이 먼저냐 달걀이 먼저냐도 아니고\n이게 뭔 논리야 싶었거든.\n\n나중에 알고 보니 그 자금이 원래\n일정 규모 이상 기업 대상 자금이었던 거야.\n처음부터 내 상황에 맞는 자금을 찾았어야 했는데\n그걸 모르고 그냥 \"지원금\" 이라고 신청한 거지.\n\n첫 신청에서 이렇게 미스매치로 떨어지는 케이스\n생각보다 엄청 많더라.",
+        "char_count": 218,
+        "reasoning": "매출 부족으로 거절당한 경험은 창업 초기 대표들이 공통적으로 겪는 페인포인트라 공감페인 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "lunch",
@@ -214,17 +212,13 @@
         "hallucination_check": {
           "score": 10,
           "risky_claims": [],
-          "issues": [
-            "일반 공감 경험담"
-          ]
+          "issues": []
         },
         "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-05-30_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md"
-          ],
+          "score": 9,
+          "similar_recent_files": [],
           "issues": [
-            "공감페인 카테고리 반복이나 페인 포인트는 다름"
+            "기존 공감페인들과 주제 다름(매출 미달 미스매치)"
           ]
         },
         "tone_check": {
@@ -232,110 +226,42 @@
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "안전한 공감페인 콘텐츠"
+          "reasoning": "공감페인 톤 자연스럽고 구체 수치 없음, 중복 없음"
         }
       }
     },
     "afternoon": {
-      "status": "rejected",
-      "topic": "2026년 6월 콘텐츠IP보증 공고 자금 해설 (문화체육관광부)",
-      "reason": "review"
-    },
-    "late_afternoon": {
-      "status": "rejected",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "reason": "review"
-    },
-    "evening": {
-      "status": "rejected",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "reason": "fail"
-    },
-    "late_evening": {
       "status": "approved",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "topic": "[부산] 가상융합 기업 해외 전시회 참가 지원사업 모집 연장 공고 자금 해설 (부산광역시)",
       "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 데이터 보다가 눈에 띈 케이스.\n\n매출 3억대 제조 소기업인데\n분기 적자 계속 나던 곳이었거든.\n\n비용 구조 뜯어보니까 인건비랑 장비 유지비가 문제였어.\n근데 이미 쓸 수 있는 자금이 두 개나 있었는데 모르고 있던 거야.\n\n스마트제조 관련 R&D 바우처로 장비 도입 비용 줄이고,\n대체인력 인건비 지원이랑 묶으니까\n그 분기 고정비가 눈에 띄게 꺾였대.\n\n결과적으로 그 분기 첫 흑자.\n\n자금 자체가 매출 올려준 게 아니라\n비용 구조를 바꿔준 거잖아.\n근데 대부분 자금을 '일회성 지원금'으로만 보고 끝내더라고.",
-        "char_count": 232,
-        "reasoning": "익명 사례를 중심으로 인사이트를 전달하는 구조가 케이스스터디 타입에 최적이며, 특정 자금명 대신 일반화된 표현으로 사실 정확성을 지킴"
+        "post_type": "자금해설",
+        "main_post": "부산에 XR, 메타버스, 가상융합 관련 사업 하는 분들은 이거 알아두면 좋아\n\n[부산] 가상융합 기업 해외 전시회 참가 지원사업인데\n부산 소재 가상융합 기업이 해외 전시회 나갈 때 참가 비용을 지원해주는 거거든\n\n해외 전시회가 진짜 효과 있는 건 다들 알잖아\n근데 혼자 나가면 비용이 부담이지\n항공, 부스, 현지 물류... 다 합치면 만만치 않으니까\n\n이게 딱 그 부분을 채워주는 구조야\n부산정보산업진흥원에서 수행하고 마감이 6월 10일이니까\n관심 있으면 지금 공고 한번 확인해봐",
+        "char_count": 231,
+        "reasoning": "특정 지원사업의 대상, 구조, 효용을 풀어서 설명하는 흐름이라 자금해설 타입이 적합함"
       },
       "verdict": {
-        "slot": "late_evening",
+        "slot": "afternoon",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "스마트제조 R&D 바우처",
-            "대체인력 인건비 지원"
+            "[부산] 가상융합 기업 해외 전시회 참가 지원사업"
           ],
           "unverified_programs": [],
-          "issues": [
-            "대체인력 인건비 지원은 announcement의 '소상공인 육아휴직자 대체인력 인건비 지원사업'과 매칭, 스마트제조 바우처는 일반 명칭 수준"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 8,
+          "score": 10,
           "risky_claims": [
-            "매출 3억대",
-            "분기 첫 흑자",
-            "고정비가 눈에 띄게 꺾였대"
+            "마감 6월 10일"
           ],
           "issues": [
-            "익명 케이스, 일반화된 표현"
+            "announcement와 일치(D-10, 2026-06-10)"
           ]
         },
         "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-05-29_케이스스터디_같은_자금에_2년_연속_떨어진_후_받은_케이스.md"
-          ],
-          "issues": [
-            "케이스스터디 반복이나 메시지는 다름"
-          ]
-        },
-        "tone_check": {
           "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "안전한 케이스 서술, 자금명 일반화 적절"
-        }
-      }
-    },
-    "night": {
-      "status": "approved",
-      "topic": "5인 미만 기업은 받을 자금이 없다는 오해",
-      "post": {
-        "post_type": "오해풀기",
-        "main_post": "5인 미만이라 자금 못 받는다는 거 진짜 오해야\n\n솔직히 이 말 믿고 아예 찾아보지도 않는 사람이 너무 많은데\n소상공인특화지원센터, 바우처류 사업, 지역 기반 지원사업들 상당수가\n오히려 소규모 사업자를 타겟으로 설계된 거거든\n\n이번에 마감 임박한 충청호남권 상생소공인특화지원센터도 그렇고\nAX 원스톱 바우처도 수요기업 추가 모집 중인데\n규모 작다고 자격이 없는 게 아니라\n업종·업력·소재지 조건이 안 맞아서 떨어지는 경우가 대부분이야\n\n\"우리 같은 작은 데는 몰라도\" 하고 넘기지 말고\n조건 먼저 읽어봐. 생각보다 문이 열려 있어",
-        "char_count": 236,
-        "reasoning": "5인 미만 기업이 정책자금 수혜 대상이 아니라는 잘못된 통념을 실제 공고(소공인특화지원센터, AX바우처)를 근거로 교정하는 내용이라 오해풀기 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "night",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "충청호남권 상생소공인특화지원센터",
-            "AX 원스톱 바우처",
-            "소상공인특화지원센터"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "둘 다 announcement에 존재"
-          ]
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
@@ -346,7 +272,182 @@
         "overall": {
           "score": 10,
           "decision": "pass",
-          "reasoning": "실제 공고 정확 인용, 오해풀기 콘텐츠로 가치 있음"
+          "reasoning": "공고 정확, 톤 양호, 중복 없음"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "approved",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 창업 지원 생태계 보면서 계속 드는 생각인데\n\n청년창업은 진짜 많아. 청년창업사관학교, 초기창업패키지, 로컬크리에이터... 만 39세 이하 조건만 맞으면 들어갈 문이 꽤 있거든.\n\n근데 40대 중반~50대 창업은? 솔직히 선택지가 확 줄어.\n시니어 대상이라 해도 60세 이상 소상공인 위주라서 그 사이 낀 세대는 애매한 거야.\n\n\"청년 아니어도, 시니어도 아닌\" 40-55 창업자들이 제일 사각지대에 있는 것 같더라.\n\n경험은 제일 많은 나이대인데 정책 혜택은 제일 얇음. 이거 좀 이상하지 않아?",
+        "char_count": 225,
+        "reasoning": "청년 vs 시니어 창업 지원 격차 트렌드를 요즘 정책 흐름 관점에서 자연스럽게 풀기에 '트렌드' 타입이 적합하고, 사장님·창업자 공감을 유도하는 구조로 작성했음"
+      },
+      "verdict": {
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "청년창업사관학교",
+            "초기창업패키지",
+            "로컬크리에이터"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "모두 잘 알려진 화이트리스트 사업"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "만 39세 이하",
+            "60세 이상 소상공인"
+          ],
+          "issues": [
+            "청창사 만 39세는 상수, 시니어 기준은 일반론 범위"
+          ]
+        },
+        "duplication_check": {
+          "score": 10,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "트렌드 관점 신선하고 사실관계 안정적"
+        }
+      }
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "대표가 직접 가야 하는 미팅이 뭔지 물어보면 다들 \"중요한 거\"라고 하는데\n그게 제일 애매한 말이야.\n\n내가 보기엔 기준이 하나야.\n\"이 자리에서 즉석으로 방향을 틀 수 있는 사람이 대표밖에 없냐?\"\n\n그게 yes면 가야 하고, no면 위임해도 돼.\n\n투자사 미팅, 핵심 파트너십, 갑작스럽게 판이 바뀔 수 있는 협상 — 이건 대표 자리야.\n반면 진도 확인, 정보 수집, 1차 탐색 — 이건 팀원이 더 잘 할 수도 있어.\n\n솔직히 대표가 다 가고 싶은 건 불안해서인 경우가 많더라.\n위임 못 하면 대표 시간이 제일 싸게 쓰이는 거야.",
+        "char_count": 228,
+        "reasoning": "대표의 시간 배분과 의사결정 위임에 관한 경험 기반 통찰을 전달하는 주제라 솔직인사이트 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": [
+            "정책자금 무관한 대표 의사결정 인사이트"
+          ]
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 10,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 10,
+          "decision": "pass",
+          "reasoning": "솔직인사이트, 검증 리스크 없음"
+        }
+      }
+    },
+    "late_evening": {
+      "status": "approved",
+      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 연락 온 제조업 대표 케이스인데\n\n\"보고서 퀄리티 너무 낮아서 떨어질 줄 알았는데 붙었어요\"\n\n내용 보니까 이해됐어\n\n기술 설명은 허접했는데 — 왜 이 문제를 풀어야 하는지,\n시장이 왜 지금 이걸 필요로 하는지가 진짜 선명하게 적혀 있었거든\n\nR&D 심사는 문장력 심사가 아니야\n\"이 사람이 문제를 제대로 보고 있나\" 확인하는 과정에 가까움\n\n잘 쓴 보고서보다 잘 이해한 보고서가 더 잘 붙더라",
+        "char_count": 196,
+        "reasoning": "실제 익명 사례를 중심으로 통과 이유에 대한 인사이트를 자연스럽게 녹이는 케이스스터디 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "late_evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": [
+            "기존 케이스스터디들과 주제(R&D 보고서 통과 이유)가 달라 신선"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 10,
+          "decision": "pass",
+          "reasoning": "케이스스터디 톤 자연스럽고 인사이트 명확"
+        }
+      }
+    },
+    "night": {
+      "status": "approved",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "사업자등록증 하나로 뭐 받을 수 있는지 궁금해서 검색 시작했거든\n\n1시간 지났는데 기업마당, 중기부 홈피, 소진공 사이트 다 열어놓고\n아직도 '내가 신청 가능한 건지' 모르는 상태야\n\n업종이 맞는 것 같기도 하고, 창업 몇 년 차 기준도 애매하고\n읽다 보면 수행기관이 또 달라서 거기 가면 또 다른 공고가 있고\n\n결국 탭 20개 열어두고 멍하니 있는 나 발견함\n\n이거 나만 이래?",
+        "char_count": 186,
+        "reasoning": "사업자등록증으로 받을 수 있는 지원을 찾다가 정보 미로에 빠지는 경험은 소상공인·중소기업 대표 대부분이 공감하는 전형적인 페인이라 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "night",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "기업마당",
+            "중기부",
+            "소진공"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "모두 공식 채널명"
+          ]
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "[3] 월요일 루틴 글과 기업마당 탐색 페인 일부 겹치지만 각도(페인 vs 루틴)는 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공감페인 자연스럽고 위험 요소 없음"
         }
       }
     }
