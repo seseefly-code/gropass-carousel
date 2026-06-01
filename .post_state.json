@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
-    "케이스스터디": 13,
+    "케이스스터디": 14,
     "숫자팩트": 12,
     "마감알림": 14,
     "오해풀기": 10,
@@ -70,20 +70,6 @@
     "PBLN_000000000122610"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "신년 새 자금 공고 예고",
-      "char_count": 161,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18102865250081096",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYnkmgUib0P",
-      "posted_at": "2026-05-21T22:58:28.064Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1712,6 +1698,28 @@
       "media_id": "17947183050189391",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZC3-GnGrQW",
       "posted_at": "2026-06-01T13:27:12.729Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "매출 0원에서 자금 받은 초기 스타트업",
+      "char_count": 232,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-01_케이스스터디_매출_0원에서_자금_받은_초기_스타트업.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 '초기 창업자 대상 자금'이라는 일반적 표현 사용 — 화이트리스트 범위 내",
+          "익명 케이스 기반 자기 경험 서술이고 구체 금액·선정률·기관명 없음 — 위험도 낮음",
+          "[2] '매출 부족 = 자금 거절' 페인 포인트와 주제 인접 — 다만 각도는 반대(받은 사례 vs 거절 사례)로 차별화됨"
+        ]
+      },
+      "posted_at": "2026-06-01T15:51:21.985Z",
+      "review_required": true
     }
   ]
 }
