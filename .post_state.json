@@ -71,27 +71,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-21_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "[8] 컨설팅사 관련 인사이트와 주제 겹침. 다만 [8]은 '컨설팅 잘 활용하는 법' 인사이트 각도이고, 이번 글은 '미팅에서 영업만 당한 페인' 1인칭 공감 각도라 톤·관점이 다름. 같은 주에 컨설팅사 주제가 두 번 나온다는 점은 약한 중복 신호"
-        ]
-      },
-      "posted_at": "2026-05-21T16:17:01.784Z",
-      "media_id": "18104431273950244",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYm2rGmmp5-"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "신년 새 자금 공고 예고",
@@ -1719,6 +1698,20 @@
       "media_id": "17885308593571015",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZCqPgyFIBA",
       "posted_at": "2026-06-01T11:27:13.587Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "char_count": 225,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17947183050189391",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZC3-GnGrQW",
+      "posted_at": "2026-06-01T13:27:12.729Z"
     }
   ]
 }
