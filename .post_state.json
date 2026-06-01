@@ -73,20 +73,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "12월에 사라지는 정책자금 예산 규모",
-      "char_count": 211,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18154682350415267",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYoa0zxkc7B",
-      "posted_at": "2026-05-22T06:52:15.804Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
@@ -1734,6 +1720,20 @@
       "posted_at": "2026-06-01T18:41:19.683Z",
       "media_id": "17860521075650321",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZDb7khGHyJ"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "마감 일주일 전 시작하는 절대 안 되는 이유",
+      "char_count": 212,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18110882953903318",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZD8CTbkQTV",
+      "posted_at": "2026-06-01T23:21:58.213Z"
     }
   ]
 }
