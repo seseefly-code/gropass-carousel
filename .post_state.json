@@ -1,6 +1,6 @@
 {
   "evening_index": 0,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
@@ -8,7 +8,7 @@
     "숫자팩트": 12,
     "마감알림": 14,
     "오해풀기": 10,
-    "트렌드": 5
+    "트렌드": 6
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -70,20 +70,6 @@
     "PBLN_000000000122610"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17971657764056788",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYoNcjKjqGU",
-      "posted_at": "2026-05-22T04:55:21.079Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1721,6 +1707,31 @@
       "posted_at": "2026-06-01T17:19:57.153Z",
       "media_id": "18031975142810587",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZDSni8FKdx"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-01_트렌드_디지털전환DX_관련_자금_폭증.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 DX/디지털전환/스마트공장/클라우드/AI 도입 지원 같은 일반 카테고리만 언급해서 사실관계 리스크 낮음",
+          "구체 수치·금액·비율 없이 추상적 표현 위주라 BAN 트리거 수준은 아님",
+          "'우리 데이터 봐도'는 자기 경험 영역이라 OK",
+          "최근 트렌드 글들과 '정책자금 비중 변화' 포맷이 유사하나 주제(DX)는 새로움",
+          "후킹 문장 '요즘 진짜 느끼는 게'가 [11] '요즘 정책자금 트렌드 보면'과 유사한 톤"
+        ]
+      },
+      "posted_at": "2026-06-01T18:41:19.683Z",
+      "media_id": "17860521075650321",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZDb7khGHyJ"
     }
   ]
 }
