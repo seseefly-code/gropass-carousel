@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
-    "케이스스터디": 14,
+    "케이스스터디": 15,
     "숫자팩트": 12,
     "마감알림": 14,
     "오해풀기": 10,
@@ -70,29 +70,6 @@
     "PBLN_000000000122610"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[경기] 부천시 2026년 BIFAN 지역상생마켓 참가기업 모집 공고 D-5 마감 임박 (경기도)",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-22_마감알림_경기_부천시_2026년_BIFAN_지역상생마켓_참가기업.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "모든 수치가 announcement 컨텍스트와 정확히 일치",
-          "마감알림 타입이 최근에 2건 있으나 대상 공고(BIFAN 내수 마켓)는 완전히 다른 주제·각도라 중복 아님",
-          "218자, 반말 유지, 해시태그 없음, 이모지 없음, 도입부도 자연스러움"
-        ]
-      },
-      "posted_at": "2026-05-22T00:01:05.564Z",
-      "media_id": "18096346595127288",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYnrx8oEY1n"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1720,6 +1697,30 @@
       },
       "posted_at": "2026-06-01T15:51:21.985Z",
       "review_required": true
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-01_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 호명 없음, R&D 심사 일반론으로 안전",
+          "'평가위원 3~5명'은 R&D 평가에서 일반적으로 알려진 범위로 큰 리스크는 아님",
+          "나머지는 모두 추상화된 서술 (익명 사례, '평균보다 확')",
+          "[6]과 [11]이 '심사 통과의 진짜 변수' 주제로 겹치지만, 이번 글은 '평가위원 개인 영향력·질문 대비'라는 새로운 각도라 차별화됨"
+        ]
+      },
+      "posted_at": "2026-06-01T17:19:57.153Z",
+      "media_id": "18031975142810587",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZDSni8FKdx"
     }
   ]
 }
