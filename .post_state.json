@@ -71,20 +71,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "정책자금 검색하느라 본업 못 한 하루",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18091421912217657",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYl9cyFld9e",
-      "posted_at": "2026-05-21T07:57:04.784Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[강원] 2026년 농식품 베트남 수출상담회 참여기업 모집 공고(베트남본부 협업) 자금 해설 (강원특별자치도)",
@@ -1719,6 +1705,20 @@
       "media_id": "17898432165309494",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZBTpHumK3s",
       "posted_at": "2026-05-31T22:50:31.586Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 2차 연장 공고 D-4 마감 임박 (전북특별자치도)",
+      "char_count": 181,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17863488468630955",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZBcDMnjac_",
+      "posted_at": "2026-06-01T00:03:58.000Z"
     }
   ]
 }
