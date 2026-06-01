@@ -71,20 +71,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "char_count": 224,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18422047237130236",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYmsIAcEW7L",
-      "posted_at": "2026-05-21T14:44:57.017Z"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
@@ -1719,6 +1705,20 @@
       "media_id": "17875009896491468",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZCcuaMDdcl",
       "posted_at": "2026-06-01T09:29:08.535Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[부산] 가상융합 기업 해외 전시회 참가 지원사업 모집 연장 공고 자금 해설 (부산광역시)",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "17885308593571015",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZCqPgyFIBA",
+      "posted_at": "2026-06-01T11:27:13.587Z"
     }
   ]
 }
