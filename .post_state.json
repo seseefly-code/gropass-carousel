@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 11,
     "공감페인": 10,
-    "케이스스터디": 1,
+    "케이스스터디": 2,
     "숫자팩트": 13,
     "마감알림": 15,
     "오해풀기": 10,
@@ -72,20 +72,6 @@
     "PBLN_000000000122658"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[충남] 2026년 영화ㆍ드라마 원천 IP 기획개발 지원 사업 공고 D-7 마감 임박 (충청남도)",
-      "char_count": 163,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18395515567086841",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYqRACtlFyd",
-      "posted_at": "2026-05-23T00:04:53.148Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1715,6 +1701,33 @@
       "media_id": "17968625025098675",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZFf5_7lq1B",
       "posted_at": "2026-06-02T13:54:37.795Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
+      "char_count": 233,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-02_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 7,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "'청년창업패키지'는 정확한 공식 사업명이 아님. 실제로는 '청년창업사관학교' 또는 '초기창업패키지'가 정식 명칭. 다만 통상적으로 혼용되는 표현이고 구체 조건·금액을 명시하지 않아 BAN 리스크는 낮음",
+          "TIPS는 화이트리스트 사업으로 OK",
+          "구체 수치·비용·조건 없음. '시리즈A까지 성장'은 일반적 서술",
+          "'어제 데이터 보다가'는 자기 경험 톤으로 OK",
+          "같은 날(6/1) 케이스스터디 타입이 3개 이미 게시됨. 본 포스트까지 합치면 케이스스터디 4개 연속",
+          "다만 각도는 다름: 본 포스트는 '자금 간 연결 설계'라는 메타 관점이라 인사이트 자체는 새로움",
+          "존댓말·해시태그·이모지·여러분 없음. 233자로 글자수 OK",
+          "'~거든', '~더라' 등 반말 톤 일관성 좋음"
+        ]
+      },
+      "posted_at": "2026-06-02T16:03:59.305Z",
+      "review_required": true
     }
   ]
 }
