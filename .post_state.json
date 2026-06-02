@@ -73,20 +73,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "2026년 사라진 자금, 새로 생긴 자금",
-      "char_count": 278,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18101550014516578",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYo1Br5Fnij",
-      "posted_at": "2026-05-22T10:41:12.586Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "수출바우처로 첫 해외 수주 만든 케이스",
@@ -1725,6 +1711,20 @@
       "media_id": "18110100004728817",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZElYGMDQcj",
       "posted_at": "2026-06-02T05:23:11.252Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "수출바우처 평균 활용 금액",
+      "char_count": 221,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17871831174616975",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZEzkB4Fdji",
+      "posted_at": "2026-06-02T07:27:09.764Z"
     }
   ]
 }
