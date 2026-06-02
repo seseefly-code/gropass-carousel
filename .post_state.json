@@ -6,7 +6,7 @@
     "공감페인": 13,
     "케이스스터디": 4,
     "숫자팩트": 14,
-    "마감알림": 15,
+    "마감알림": 1,
     "오해풀기": 10,
     "트렌드": 8
   },
@@ -75,20 +75,6 @@
     "PBLN_000000000122707"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18105641534053470",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYq7Y3FDkvP",
-      "posted_at": "2026-05-23T06:15:16.619Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1739,6 +1725,29 @@
       "posted_at": "2026-06-02T17:26:05.226Z",
       "media_id": "18082487909330667",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZF4HViHCm1"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "이번 주 마감 임박 자금 체크 권유",
+      "char_count": 160,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-02_마감알림_이번_주_마감_임박_자금_체크_권유.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 10,
+        "dup": 5,
+        "tone": 10,
+        "issues": [
+          "모두 announcement 컨텍스트에 존재하는 D-3 공고이고 수행기관도 정확함",
+          "마감일은 announcement와 일치, 5분 검색은 일반 표현",
+          "오늘(6/2) 같은 두 공고를 각각 개별 마감알림으로 이미 게시했는데, 본 포스트는 두 개를 묶은 형태로 메시지가 중첩됨",
+          "다만 '두 개 묶음 + 기업마당 검색 권유'라는 각도는 약간 다름"
+        ]
+      },
+      "posted_at": "2026-06-02T23:28:15.059Z",
+      "review_required": true
     }
   ]
 }
