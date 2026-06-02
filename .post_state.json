@@ -73,20 +73,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "추경 자금 신청 임박 알림",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18046048670773302",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYqIgihARHy",
-      "posted_at": "2026-05-22T22:50:43.036Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[충남] 2026년 영화ㆍ드라마 원천 IP 기획개발 지원 사업 공고 D-7 마감 임박 (충청남도)",
@@ -1715,6 +1701,20 @@
       "media_id": "18129478528552353",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZFSb5XFEtf",
       "posted_at": "2026-06-02T11:56:55.133Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "신청서에 쓰면 안 되는 표현 5가지",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17968625025098675",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZFf5_7lq1B",
+      "posted_at": "2026-06-02T13:54:37.795Z"
     }
   ]
 }
