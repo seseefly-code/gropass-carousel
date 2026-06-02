@@ -1,9 +1,9 @@
 {
   "evening_index": 1,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
-    "공감페인": 10,
+    "공감페인": 11,
     "케이스스터디": 2,
     "숫자팩트": 13,
     "마감알림": 15,
@@ -72,20 +72,6 @@
     "PBLN_000000000122658"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18164727814387218",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYqvp07lJqd",
-      "posted_at": "2026-05-23T04:32:43.754Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1728,6 +1714,28 @@
       },
       "posted_at": "2026-06-02T16:03:59.305Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "자격 한 줄 차이로 안 된 신청",
+      "char_count": 231,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-02_공감페인_자격_한_줄_차이로_안_된_신청.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "구체 수치나 비용 언급 없이 일반적인 자격조건 예시(업력 7년, 업종코드, 본점주소)만 사용 — 안전",
+          "[2]번 '정책자금 카페 검색 3시간'과 큰 틀(자격/매칭 어려움 페인)은 유사하지만, 각도는 다름 — [2]는 '정보 찾는 비용', 이번 글은 '한 줄 차이 탈락' 페인. 충분히 구분되는 수준"
+        ]
+      },
+      "posted_at": "2026-06-02T17:26:05.226Z",
+      "media_id": "18082487909330667",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZF4HViHCm1"
     }
   ]
 }
