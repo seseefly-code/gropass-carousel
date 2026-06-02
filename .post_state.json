@@ -73,29 +73,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[전남] 2026년 유망 중소기업 지정 계획 재공고 자금 해설 (전라남도)",
-      "char_count": 233,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-22_자금해설_전남_2026년_유망_중소기업_지정_계획_재공고_자금_.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 9,
-        "tone": 10,
-        "issues": [
-          "마감일 6월 2일은 announcement와 일치하여 정확",
-          "'1차 미달 또는 추가 선발' 추정은 단정이지만 '거나'로 가능성 표현해 위험도 낮음",
-          "최근 자금해설은 인천 베트남 통상촉진단 건이라 주제·지역·구조 모두 달라 중복 아님"
-        ]
-      },
-      "posted_at": "2026-05-22T08:57:49.074Z",
-      "media_id": "18071122598331197",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYopNEQEQAl"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "2026년 사라진 자금, 새로 생긴 자금",
@@ -1734,6 +1711,20 @@
       "media_id": "18094865501191578",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZEBvgnDv0M",
       "posted_at": "2026-06-02T00:11:50.781Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "char_count": 224,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18110100004728817",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZElYGMDQcj",
+      "posted_at": "2026-06-02T05:23:11.252Z"
     }
   ]
 }
