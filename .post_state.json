@@ -73,30 +73,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "2026년 정책자금 트렌드 키워드",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-22_트렌드_2026년_정책자금_트렌드_키워드.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "언급된 키워드 모두 announcement 컨텍스트의 실제 공고와 매칭됨 (IP-R&D 전략지원, 미래국방혁신기술개발사업, 첨단소재공정고도화, 지역특화형 스마트공장, 제조데이터 기반 디지털전환 실증, 물류영역 서비스로봇)",
-          "구체 수치·금액·선정률 없음. 모두 추상적 표현으로 처리됨",
-          "[12]번 트렌드 게시물에서 'AI·딥테크 관련 예산이 많이 늘었다'는 동일 메시지가 이미 나왔음. 다만 본 글은 3개 키워드를 나열하는 각도라 완전 중복은 아님",
-          "이모지 숫자(1️⃣2️⃣3️⃣)는 리스트 표기용으로 3개이지만 자연스러움. 존댓말·해시태그·클릭베이트 없음. 글자수 228자로 적정"
-        ]
-      },
-      "posted_at": "2026-05-22T15:50:35.650Z",
-      "media_id": "17863043115629652",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYpYcTNGh5h"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "추경 자금 신청 임박 알림",
@@ -1725,6 +1701,20 @@
       "media_id": "18373595512203602",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZFHNaknFld",
       "posted_at": "2026-06-02T10:18:49.794Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "지역특화 자금이 늘어나는 이유",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18129478528552353",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZFSb5XFEtf",
+      "posted_at": "2026-06-02T11:56:55.133Z"
     }
   ]
 }
