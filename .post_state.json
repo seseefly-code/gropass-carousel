@@ -73,20 +73,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18093927320586244",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYohUAqlD7f",
-      "posted_at": "2026-05-22T07:48:57.388Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[전남] 2026년 유망 중소기업 지정 계획 재공고 자금 해설 (전라남도)",
@@ -1734,6 +1720,20 @@
       "media_id": "18110882953903318",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZD8CTbkQTV",
       "posted_at": "2026-06-01T23:21:58.213Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[경북] 울진군 2026년 2차 블루(blue)푸드 산업 활성화 지원사업 기업지원 프로그램 참여기업 모집 연장 공고(시군구연고산업육성 협업프로젝트) D-4 마감 임박 (중소벤처기업부)",
+      "char_count": 168,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18094865501191578",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZEBvgnDv0M",
+      "posted_at": "2026-06-02T00:11:50.781Z"
     }
   ]
 }
