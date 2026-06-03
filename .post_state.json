@@ -76,28 +76,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
-      "char_count": 190,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-23_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "'4번 연속 탈락'은 익명 사례 일화로 검증 불가하지만 일반 경험담 범위",
-          "케이스스터디 형식과 '조건 안 맞는데 신청' 메시지가 [10]과 일부 겹치고, 컨설팅 비용 화두가 [5]와 일부 겹침. 다만 각도(4번 탈락→구조적 미스매치)는 다름"
-        ]
-      },
-      "posted_at": "2026-05-23T13:04:17.956Z",
-      "media_id": "18090897359264108",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYrqNNplcOh"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "정책자금 = 정부 돈 공짜로 주는 거라는 인식",
@@ -1727,6 +1705,20 @@
       "media_id": "17920777725364502",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZHelv_FMtK",
       "posted_at": "2026-06-03T08:21:36.590Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
+      "char_count": 174,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18105304642951449",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZHiuCrHJlA",
+      "posted_at": "2026-06-03T08:57:41.637Z"
     }
   ]
 }
