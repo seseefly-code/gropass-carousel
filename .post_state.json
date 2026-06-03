@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
-      "char_count": 197,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17999647826765763",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYtn8-6lno8",
-      "posted_at": "2026-05-24T07:23:09.151Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[부산] 2026년 상반기 사회적경제 공공구매 페어 참가기업 모집 공고 자금 해설 (부산광역시)",
@@ -1736,6 +1722,20 @@
       "posted_at": "2026-06-03T18:01:19.017Z",
       "media_id": "18069091838355822",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZIg8O6FAev"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "월말 마감 자금 정리",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18175805560408192",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJGOLGjrGb",
+      "posted_at": "2026-06-03T23:27:08.883Z"
     }
   ]
 }
