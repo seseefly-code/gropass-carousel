@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 12,
     "공감페인": 13,
     "케이스스터디": 5,
     "숫자팩트": 14,
     "마감알림": 1,
-    "오해풀기": 10,
+    "오해풀기": 11,
     "트렌드": 8
   },
   "used_announcements": [
@@ -75,20 +75,6 @@
     "PBLN_000000000122707"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "올해 정부 정책자금 예산 30조 시대",
-      "char_count": 157,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18438205828188543",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYti-RFFtJV",
-      "posted_at": "2026-05-24T06:39:38.725Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1727,6 +1713,27 @@
       },
       "posted_at": "2026-06-03T16:20:03.993Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "사업자등록 1년 미만은 자격 안 된다는 오해",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-03_오해풀기_사업자등록_1년_미만은_자격_안_된다는_오해.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "케이스스터디[10]에서 청년창업패키지 초기 자금 언급, [12]에서 '자격 됐는데 모르고 지나쳤다'는 메시지가 유사하나 본 글은 '1년 미만=자격 안됨' 오해 교정으로 각도 다름"
+        ]
+      },
+      "posted_at": "2026-06-03T18:01:19.017Z",
+      "media_id": "18069091838355822",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZIg8O6FAev"
     }
   ]
 }
