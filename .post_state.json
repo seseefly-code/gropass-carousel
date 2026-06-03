@@ -76,33 +76,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "char_count": 174,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-23_트렌드_그린환경_분야_신규_자금_급증.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 7,
-        "halluc": 8,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "언급된 3개 사업명 모두 announcement 컨텍스트에 실재함: '2026년 그린에너텍 수출상담회 참가기업 모집 공고', '[전남] 2026년 스마트그린산단 스마트제조 전환지원 참여기업 모집 공고', '2026년 2분기 국내 저온 수송차량 지원업체 모집 공고'",
-          "다만 '저온 수송차량 지원'은 해양수산부 수산물 저온 수송차량 지원으로 '환경·에너지'보다는 수산물 콜드체인 성격이 강해, '환경 키워드로 묶인다'는 해석은 다소 과한 일반화",
-          "구체 수치·금액·비용 없음",
-          "'환경 키워드 없으면 예산 끊기는 느낌'은 주관적 표현으로 처리되어 있어 risky 수준은 낮음",
-          "증가 추세 주장은 데이터 근거 약하지만 '느낌'으로 완화",
-          "최근 트렌드 포스트 3개와 형식적 유사성 있음(요즘 ~ 느끼는데, 키워드 나열 패턴)",
-          "다만 주제는 '그린·환경'으로 AI·딥테크 트렌드와 차별화됨",
-          "후킹 문장 '요즘 진짜 느끼는 게 있는데'가 다른 트렌드 글의 '요즘 ~ 보다 보면'과 톤이 유사"
-        ]
-      },
-      "posted_at": "2026-05-23T09:43:34.089Z",
-      "review_required": true
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
@@ -1748,6 +1721,20 @@
       "media_id": "18005413661922748",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZGoOZejaV5",
       "posted_at": "2026-06-03T00:26:33.680Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17913382026202106",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZHN8h3lRqR",
+      "posted_at": "2026-06-03T05:56:11.344Z"
     }
   ]
 }
