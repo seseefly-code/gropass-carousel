@@ -76,28 +76,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-23_솔직인사이트_대표가_직접_가야_하는_미팅_vs_위임해도_되는_미팅.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 9,
-        "tone": 9,
-        "issues": [
-          "최근 15개는 대부분 정책자금 주제이고, 이 포스트는 '대표 위임/미팅' 일반 경영 인사이트라 주제 중복 없음",
-          "'팀이 안 큼' 같은 구어체 OK, 반말 일관, 해시태그·이모지 없음, 글자수 OK"
-        ]
-      },
-      "posted_at": "2026-05-23T11:05:36.379Z",
-      "media_id": "17934100671071044",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYrcn4Gkd4d"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
@@ -1735,6 +1713,20 @@
       "media_id": "17913382026202106",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZHN8h3lRqR",
       "posted_at": "2026-06-03T05:56:11.344Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "12월에 사라지는 정책자금 예산 규모",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17920777725364502",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZHelv_FMtK",
+      "posted_at": "2026-06-03T08:21:36.590Z"
     }
   ]
 }
