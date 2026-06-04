@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "사전 등록 필요한 자금 안내",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18121062451678335",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYvRwjZj712",
-      "posted_at": "2026-05-24T22:47:44.077Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 하반기 3차 IP-R&D 전략지원(인공지능ㆍ첨단 바이오 분야 지정공모) 사업 시행 계획 공고(지재권 연계 연구개발 전략지원 사업) D-5 마감 임박 (지식재산처)",
@@ -1729,6 +1715,20 @@
       "media_id": "17867942334622827",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZKNy9wFJhQ",
       "posted_at": "2026-06-04T09:52:34.922Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18589952305035672",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKUyoXEcxw",
+      "posted_at": "2026-06-04T10:53:44.044Z"
     }
   ]
 }
