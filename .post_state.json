@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "char_count": 219,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18100000988101310",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuYT9_laGe",
-      "posted_at": "2026-05-24T14:25:44.656Z"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "사전 등록 필요한 자금 안내",
@@ -1729,6 +1715,20 @@
       "media_id": "17867393886625171",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZKDiySFbV4",
       "posted_at": "2026-06-04T08:23:00.206Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[경북] 포항시 2026년 유망강소기업 재지정 신청 공고 자금 해설 (경상북도)",
+      "char_count": 243,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "17867942334622827",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKNy9wFJhQ",
+      "posted_at": "2026-06-04T09:52:34.922Z"
     }
   ]
 }
