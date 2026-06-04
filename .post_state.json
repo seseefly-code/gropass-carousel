@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18082348097138819",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuO12FEQy8",
-      "posted_at": "2026-05-24T13:02:59.655Z"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "청년창업 자금 vs 시니어창업 자금 격차",
@@ -1729,6 +1715,20 @@
       "media_id": "17854252155680320",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZJ9JGwlsXQ",
       "posted_at": "2026-06-04T07:27:05.384Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
+      "char_count": 167,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17867393886625171",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKDiySFbV4",
+      "posted_at": "2026-06-04T08:23:00.206Z"
     }
   ]
 }
