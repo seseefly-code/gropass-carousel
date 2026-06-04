@@ -80,28 +80,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-25_숫자팩트_벤처기업_보유_vs_미보유_기업_평균_매출_격차.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "'매년 통계에서 나오거든'은 일반화된 표현이라 큰 위험은 없으나 구체 출처는 없음",
-          "최근 게시물 중 벤처인증 직접 다룬 글은 없어 중복 낮음"
-        ]
-      },
-      "posted_at": "2026-05-25T07:18:09.734Z",
-      "media_id": "18098272952141450",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwMLwCFAvk"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
@@ -1740,6 +1718,20 @@
       "posted_at": "2026-06-04T16:22:02.267Z",
       "media_id": "18102317060093766",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZK6X-8kUrv"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "분기 끝나기 전 신청해야 할 자금",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18253394161306833",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZLoITgGP8z",
+      "posted_at": "2026-06-04T23:01:57.099Z"
     }
   ]
 }
