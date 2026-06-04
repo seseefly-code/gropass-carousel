@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18099759380009174",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYt4c28kafY",
-      "posted_at": "2026-05-24T09:47:21.878Z"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "신청서에 쓰면 안 되는 표현 5가지",
@@ -1736,6 +1722,20 @@
       "media_id": "18127095853542390",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZJNVkglG43",
       "posted_at": "2026-06-04T00:29:19.502Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "char_count": 211,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18108615491486922",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJyH17Fd0n",
+      "posted_at": "2026-06-04T05:50:54.510Z"
     }
   ]
 }
