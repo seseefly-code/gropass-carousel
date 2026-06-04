@@ -78,20 +78,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 하반기 3차 IP-R&D 전략지원(인공지능ㆍ첨단 바이오 분야 지정공모) 사업 시행 계획 공고(지재권 연계 연구개발 전략지원 사업) D-5 마감 임박 (지식재산처)",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18315111424277720",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYvZ0Egl4KW",
-      "posted_at": "2026-05-24T23:58:06.347Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "현장 평가 떨어지는 이유 90%",
@@ -1729,6 +1715,20 @@
       "media_id": "18589952305035672",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZKUyoXEcxw",
       "posted_at": "2026-06-04T10:53:44.044Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18101280560175276",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKg2sIESuy",
+      "posted_at": "2026-06-04T12:39:08.276Z"
     }
   ]
 }
