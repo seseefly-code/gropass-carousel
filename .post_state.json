@@ -1,9 +1,9 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 14,
-    "공감페인": 14,
+    "공감페인": 15,
     "케이스스터디": 6,
     "숫자팩트": 15,
     "마감알림": 2,
@@ -77,20 +77,6 @@
     "PBLN_000000000122706"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "현장 평가 떨어지는 이유 90%",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17939633103235333",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYv-GoGDQex",
-      "posted_at": "2026-05-25T05:15:12.025Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1729,6 +1715,29 @@
       "media_id": "18101280560175276",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZKg2sIESuy",
       "posted_at": "2026-06-04T12:39:08.276Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "12월에 사라지는 예산 보면서 드는 생각",
+      "char_count": 222,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-04_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 사업명을 호명하지 않고 '연말 예산 소진 관행'이라는 일반적 현상을 다룸. 기업마당은 실재 플랫폼이므로 문제없음.",
+          "연말 예산 소진은 업계에서 널리 알려진 현상이라 일반론으로 수용 가능. 다만 '1~2월에 예산 다 짜놓고'는 정확히는 전년도 말~당해 초 편성이라 다소 단순화됨. 큰 문제는 아님.",
+          "최근 15개 중 '연말 예산 소진/12월 마감 쏠림' 주제는 없음. [8] 숫자팩트와 '몰라서 못 받는다' 메시지가 일부 겹치나 각도가 다름(타이밍 vs 정보접근성)."
+        ]
+      },
+      "posted_at": "2026-06-04T16:22:02.267Z",
+      "media_id": "18102317060093766",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZK6X-8kUrv"
     }
   ]
 }
