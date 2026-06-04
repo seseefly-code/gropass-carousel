@@ -78,27 +78,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "신청서에 쓰면 안 되는 표현 5가지",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-24_솔직인사이트_신청서에_쓰면_안_되는_표현_5가지.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 10,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 9,
-        "tone": 10,
-        "issues": [
-          "신청서 작성 관련 인사이트는 최근 게시물에 없음. 케이스스터디들과 주제 다름"
-        ]
-      },
-      "posted_at": "2026-05-24T11:10:29.794Z",
-      "media_id": "18080670554168927",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYuB-mdG73i"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
@@ -1736,6 +1715,20 @@
       "media_id": "18108615491486922",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZJyH17Fd0n",
       "posted_at": "2026-06-04T05:50:54.510Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
+      "char_count": 141,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17854252155680320",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJ9JGwlsXQ",
+      "posted_at": "2026-06-04T07:27:05.384Z"
     }
   ]
 }
