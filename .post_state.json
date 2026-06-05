@@ -1,6 +1,6 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 2,
@@ -8,7 +8,7 @@
     "숫자팩트": 2,
     "마감알림": 3,
     "오해풀기": 11,
-    "트렌드": 12
+    "트렌드": 13
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -79,27 +79,6 @@
     "PBLN_000000000122785"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "정책자금 검색만 하다 시간 보내는 사람들 공통점",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_솔직인사이트_정책자금_검색만_하다_시간_보내는_사람들_공통점.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 5,
-        "tone": 10,
-        "issues": [
-          "'90%', '최소 30분' 같은 수치는 검증 불가하나 체감 표현 수준으로 허용 범위",
-          "[4] 마감알림 글이 '기업마당에서 공고 찾기, 30분 날아간다, 내 분야 맞는지 확인' 이라는 거의 동일한 페인포인트를 다룸. 본 글의 핵심 인사이트(검색 시간 길수록 신청 안 함)와 [4]의 인사이트(필터/알림 설정 안 해서 놓침)가 같은 문제의식·같은 30분 수치까지 일치. 각도가 약간 다르지만 중복도 높음"
-        ]
-      },
-      "posted_at": "2026-05-26T04:57:17.355Z",
-      "review_required": true
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1753,6 +1732,29 @@
       "posted_at": "2026-06-05T14:28:02.329Z",
       "media_id": "17964574514935863",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZNSH79oFpD"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "융자 vs 보증 vs 출연금 비중 변화",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_트렌드_융자_vs_보증_vs_출연금_비중_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 일반 카테고리(R&D, AI, 딥테크)만 언급. 출연금 비중 증가는 일반적으로 알려진 트렌드",
+          "추상적 표현으로 위험도 낮음. 구체 수치·금액·비율 없음",
+          "최근 트렌드 게시물 2개와 형식·구조 유사('예전엔 ~였는데 요즘은 ~'). 다만 주제(자금 유형별 구조 변화)는 다름"
+        ]
+      },
+      "posted_at": "2026-06-05T15:57:02.258Z",
+      "media_id": "17908016643244100",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNcTwzmhpN"
     }
   ]
 }
