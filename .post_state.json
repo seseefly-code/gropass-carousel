@@ -80,20 +80,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18211956199335488",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwy97ckTDk",
-      "posted_at": "2026-05-25T12:57:08.528Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
@@ -1753,6 +1739,20 @@
       },
       "posted_at": "2026-06-05T07:12:16.129Z",
       "review_required": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 142,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18145410652506893",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZMm2PqlhFg",
+      "posted_at": "2026-06-05T08:09:58.410Z"
     }
   ]
 }
