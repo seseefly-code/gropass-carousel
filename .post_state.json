@@ -8,7 +8,7 @@
     "숫자팩트": 2,
     "마감알림": 3,
     "오해풀기": 11,
-    "트렌드": 11
+    "트렌드": 12
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -79,28 +79,6 @@
     "PBLN_000000000122785"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "R&D 자금은 박사급만 받는다는 편견",
-      "char_count": 220,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-25_오해풀기_RD_자금은_박사급만_받는다는_편견.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "연구전담부서 요건을 단순화했지만 일반적으로 알려진 내용 수준이라 큰 위험은 없음",
-          "#9 매년 미집행되는 정책자금 글과 '심리적 장벽으로 자금 포기' 메시지가 약간 결이 비슷하나 각도는 다름(R&D 박사급 통념 vs 신청 자체 안 함)"
-        ]
-      },
-      "posted_at": "2026-05-25T15:53:32.765Z",
-      "media_id": "18105456661959744",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYxHKl0IPvI"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1753,6 +1731,28 @@
       "media_id": "18102994451280617",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZMxUndEcJz",
       "posted_at": "2026-06-05T09:41:30.304Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "콘텐츠·플랫폼 자금 변화",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_트렌드_콘텐츠플랫폼_자금_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 수치 없음, 일반화된 트렌드 서술",
+          "'사업화·판로 자금 증가' 트렌드와 일부 결이 비슷하지만 콘텐츠/플랫폼 영역으로 좁히고 실제 공고를 근거로 들어 각도가 다름"
+        ]
+      },
+      "posted_at": "2026-06-05T11:18:07.985Z",
+      "media_id": "18133386442577481",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZM8ZASEThL"
     }
   ]
 }
