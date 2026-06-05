@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 2,
-    "케이스스터디": 8,
+    "케이스스터디": 9,
     "숫자팩트": 2,
     "마감알림": 3,
     "오해풀기": 11,
@@ -79,29 +79,6 @@
     "PBLN_000000000122785"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[서울] 2026년 2차 서울어워드 우수제품 모집 공고 D-9 마감 (서울특별시)",
-      "char_count": 138,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_마감알림_서울_2026년_2차_서울어워드_우수제품_모집_공고_D.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 9,
-        "tone": 10,
-        "issues": [
-          "announcement에 '[서울] 2026년 2차 서울어워드 우수제품 모집 공고' D-9, 서울경제진흥원 수행으로 확인됨. 마감일 6월 4일 일치.",
-          "서울어워드는 실제로 공공구매 우선구매 및 판로지원과 연계되는 사업이라 일반적으로 알려진 사실 범주. 구체 수치 없음.",
-          "최근 마감알림 2건(KOSME-PUNE, 자금알림 등록)과 주제·각도 모두 다름."
-        ]
-      },
-      "posted_at": "2026-05-26T00:04:16.977Z",
-      "media_id": "18109559987309046",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYx_U05Dx1t"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1753,6 +1730,29 @@
       "media_id": "18158110993461128",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZNE6tUnCJQ",
       "posted_at": "2026-06-05T12:32:44.897Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "char_count": 231,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 8,
+        "issues": [
+          "구체 수치이지만 익명 케이스 디테일 수준이라 위험도 낮음",
+          "6/5 솔직인사이트와 '탈락 패턴' 주제 겹침. 다만 각도가 다름 — 솔직인사이트는 '맞는 자금 찾기'가 핵심, 이 글은 '조건 통과 후 진짜 싸움'이 핵심",
+          "도입부 '충격적이었어' 표현이 클릭베이트성으로 살짝 걸릴 수 있으나, 자기 경험 톤이라 허용 범위"
+        ]
+      },
+      "posted_at": "2026-06-05T14:28:02.329Z",
+      "media_id": "17964574514935863",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNSH79oFpD"
     }
   ]
 }
