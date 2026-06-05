@@ -82,20 +82,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18586730077036945",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYytxwYlpWw",
-      "posted_at": "2026-05-26T06:50:16.650Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
@@ -1757,6 +1743,20 @@
       "posted_at": "2026-06-05T15:57:02.258Z",
       "media_id": "17908016643244100",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZNcTwzmhpN"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "상시 모집이지만 예산 소진 임박 자금",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17908219218244482",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZOMkualF1T",
+      "posted_at": "2026-06-05T22:58:51.690Z"
     }
   ]
 }
