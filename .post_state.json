@@ -80,20 +80,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "내 분야 자금 알림 등록 권유",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18103064275815732",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYx3ETLjkT5",
-      "posted_at": "2026-05-25T22:52:13.753Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[서울] 2026년 2차 서울어워드 우수제품 모집 공고 D-9 마감 (서울특별시)",
@@ -1753,6 +1739,20 @@
       "posted_at": "2026-06-05T11:18:07.985Z",
       "media_id": "18133386442577481",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZM8ZASEThL"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "char_count": 213,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18158110993461128",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNE6tUnCJQ",
+      "posted_at": "2026-06-05T12:32:44.897Z"
     }
   ]
 }
