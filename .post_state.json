@@ -80,20 +80,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18112084669870206",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYw-azzkXQo",
-      "posted_at": "2026-05-25T14:37:12.882Z"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "R&D 자금은 박사급만 받는다는 편견",
@@ -1753,6 +1739,20 @@
       "media_id": "18145410652506893",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZMm2PqlhFg",
       "posted_at": "2026-06-05T08:09:58.410Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[강원] 동해시 2026년 3차 수소 전주기 분야 R&D과제 지원사업 기업지원 재공고 자금 해설 (강원특별자치도)",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18102994451280617",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZMxUndEcJz",
+      "posted_at": "2026-06-05T09:41:30.304Z"
     }
   ]
 }
