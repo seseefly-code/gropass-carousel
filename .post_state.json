@@ -5,7 +5,7 @@
     "솔직인사이트": 1,
     "공감페인": 2,
     "케이스스터디": 8,
-    "숫자팩트": 1,
+    "숫자팩트": 2,
     "마감알림": 3,
     "오해풀기": 11,
     "트렌드": 11
@@ -79,20 +79,6 @@
     "PBLN_000000000122785"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "디지털전환(DX) 관련 자금 폭증",
-      "char_count": 232,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17886163239558022",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwqXdclS0e",
-      "posted_at": "2026-05-25T11:41:58.923Z"
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1741,6 +1727,31 @@
         ]
       },
       "posted_at": "2026-06-05T05:10:22.198Z",
+      "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "매년 미집행되는 정책자금 규모",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_숫자팩트_매년_미집행되는_정책자금_규모.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 없이 '정책자금'이라는 일반 명칭만 사용. 모드 B 일반화 적절.",
+          "'수십조'는 일반화된 표현으로 안전. 구체 미집행 금액·비율 수치 없음. 모드 B 적절히 적용.",
+          "[9] 숫자팩트 '예산 30조 시대' 글과 핵심 메시지(예산은 많은데 정보 격차로 못 받음)가 거의 동일. 후킹 구조와 인사이트 모두 유사.",
+          "[3] 공감페인 글도 '필요한 회사들한테 제때 못 감' 메시지 중복.",
+          "주제 각도가 새롭지 않음.",
+          "존댓말·해시태그·이모지·클릭베이트 없음. 반말 톤 일관. 196자로 적정."
+        ]
+      },
+      "posted_at": "2026-06-05T07:12:16.129Z",
       "review_required": true
     }
   ]
