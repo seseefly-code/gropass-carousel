@@ -2,7 +2,7 @@
   "evening_index": 0,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 15,
+    "솔직인사이트": 1,
     "공감페인": 2,
     "케이스스터디": 8,
     "숫자팩트": 1,
@@ -79,20 +79,6 @@
     "PBLN_000000000122785"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경북] 2026년 메디엑스포 및 수출상담회 참가기업 모집 공고 자금 해설 (경상북도)",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18113722558888538",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYwetuaFup4",
-      "posted_at": "2026-05-25T10:00:09.666Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1732,6 +1718,30 @@
       "media_id": "18089052191090314",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZLvSgpFMNP",
       "posted_at": "2026-06-05T00:04:29.687Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 5,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 호명 없이 '정책자금' 일반 명칭만 사용",
+          "'탈락률 절반 감소'는 검증 불가 수치지만 일반화된 표현이라 위험도 낮음",
+          "[9]번 솔직인사이트와 핵심 메시지가 거의 동일: '내 회사에 맞는 자금 찾기가 진짜 어려운 거다'라는 동일 인사이트",
+          "[12]번 케이스스터디도 '자기에게 정확히 맞는 자금 찾기'가 핵심 → 최근 게시물에서 같은 각도 반복",
+          "타입은 같은 솔직인사이트인데 메시지도 유사해 중복도 높음"
+        ]
+      },
+      "posted_at": "2026-06-05T05:10:22.198Z",
+      "review_required": true
     }
   ]
 }
