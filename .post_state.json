@@ -84,20 +84,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 글로벌 웹툰 IP 제작지원 추가 모집 공고 자금 해설 (문화체육관광부)",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18067966073496431",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1mF0BFXKV",
-      "posted_at": "2026-05-27T09:40:49.651Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "메타버스·블록체인 자금이 줄어든 이유",
@@ -1739,6 +1725,20 @@
       "media_id": "17863115253651590",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZP4qrVFeZ6",
       "posted_at": "2026-06-06T14:43:24.176Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "추가공고 가능성 높은 자금",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17931376809293953",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZQxDrWj2xM",
+      "posted_at": "2026-06-06T22:56:10.326Z"
     }
   ]
 }
