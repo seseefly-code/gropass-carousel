@@ -82,27 +82,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "평가위원 한 명이 결과를 바꾼 사례",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "[10] R&D 보고서 통과 케이스와 '평가위원 시각 차이로 결과가 갈린다'는 인사이트가 부분적으로 겹치지만, 본 글은 '동일 서류 재신청 → 평가위원 구성 차이'라는 다른 각도라 중복도 낮음"
-        ]
-      },
-      "posted_at": "2026-05-26T14:48:13.403Z",
-      "media_id": "18104870692987227",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYzke_Fkdtu"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "비R&D 사업화 자금이 새로 생기는 이유",
@@ -1757,6 +1736,20 @@
       "media_id": "18083283323551771",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZO0WO8FvH_",
       "posted_at": "2026-06-06T04:46:26.078Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18032061893814132",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPAhXCkV2u",
+      "posted_at": "2026-06-06T06:32:50.667Z"
     }
   ]
 }
