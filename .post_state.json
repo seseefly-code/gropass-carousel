@@ -82,20 +82,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경남] 2026년 마산자유무역지역 역량강화 기업지원사업 지원기업 추가 모집 공고 자금 해설 (산업통상부)",
-      "char_count": 238,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18104980063787389",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYzCRk9lpeA",
-      "posted_at": "2026-05-26T09:49:23.027Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "평가위원 한 명이 결과를 바꾼 사례",
@@ -1757,6 +1743,20 @@
       "media_id": "18126906709617874",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZOUIhWjXJ5",
       "posted_at": "2026-06-06T00:04:56.137Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 받고도 망하는 회사들 공통점",
+      "char_count": 182,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18083283323551771",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZO0WO8FvH_",
+      "posted_at": "2026-06-06T04:46:26.078Z"
     }
   ]
 }
