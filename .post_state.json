@@ -82,29 +82,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
-      "char_count": 268,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-26_트렌드_비RD_사업화_자금이_새로_생기는_이유.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "announcement에 '2026년 3차 민관공동기술사업화R&D(구매연계ㆍ상생협력) 시행계획 공고'로 실재함",
-          "구체 수치나 금액 없이 일반론으로 서술됨",
-          "[11] 여성기업 우대 트렌드와 같은 '트렌드' 타입이지만 주제(비R&D 사업화 자금)가 다름"
-        ]
-      },
-      "posted_at": "2026-05-26T16:44:31.658Z",
-      "media_id": "17941345191211078",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYzxy2JlTKD"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "[전북] 2026년 인공지능 기술고도화 지원사업 추가 모집 공고(AI융합 지능형 농업 생태계 구축 사업) D-3 마감 임박 (과학기술정보통신부)",
@@ -1750,6 +1727,20 @@
       "media_id": "18032061893814132",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZPAhXCkV2u",
       "posted_at": "2026-06-06T06:32:50.667Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "떨어졌다는 메일 받은 날 표정",
+      "char_count": 131,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17991476072989173",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPDGotluZI",
+      "posted_at": "2026-06-06T06:55:20.690Z"
     }
   ]
 }
