@@ -82,20 +82,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
-      "char_count": 163,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18058774016533457",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYy07EplnsD",
-      "posted_at": "2026-05-26T07:52:41.783Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[경남] 2026년 마산자유무역지역 역량강화 기업지원사업 지원기업 추가 모집 공고 자금 해설 (산업통상부)",
@@ -1757,6 +1743,20 @@
       "media_id": "17908219218244482",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZOMkualF1T",
       "posted_at": "2026-06-05T22:58:51.690Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화프로젝트 레전드50+2.0) 사업화지원 모집 공고(지능형 모빌리티 부품 및 기능성 바이오 소재 산업) D-7 마감 임박 (중소벤처기업부)",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18126906709617874",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZOUIhWjXJ5",
+      "posted_at": "2026-06-06T00:04:56.137Z"
     }
   ]
 }
