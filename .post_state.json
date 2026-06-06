@@ -8,7 +8,7 @@
     "숫자팩트": 3,
     "마감알림": 4,
     "오해풀기": 12,
-    "트렌드": 14
+    "트렌드": 15
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -81,20 +81,6 @@
     "PBLN_000000000122823"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[충남] 2026년 2차 소기업형 스마트공장 구축 지원사업 공고 D-3 마감 임박 (충청남도)",
-      "char_count": 189,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17967538152113102",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY0j16kjF2E",
-      "posted_at": "2026-05-27T00:01:56.128Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1741,6 +1727,31 @@
       "media_id": "18101330126022063",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZPN_uhnI35",
       "posted_at": "2026-06-06T08:30:32.697Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "2026년 사라진 자금, 새로 생긴 자금",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-06_트렌드_2026년_사라진_자금_새로_생긴_자금.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "언급된 두 사업 모두 announcement 컨텍스트에 존재함 (경기 제조로봇ㆍAI융합 실증지원, 한국형 ARPA-H 프로젝트)",
+          "구체 수치 없이 일반화된 표현으로 위험도 낮음",
+          "'사라지거나 규모 줄어든 자금'은 구체 명시 안 해서 안전",
+          "같은 날짜에 '정책자금 트렌드 변화' 주제 트렌드 글이 이미 3개 있음",
+          "'요즘 ~ 바뀌고 있어' 후킹 패턴이 [12][13]과 유사",
+          "다만 각도(업종별 신규/소멸 자금)는 약간 다름 - review 수준"
+        ]
+      },
+      "posted_at": "2026-06-06T09:52:53.553Z",
+      "review_required": true
     }
   ]
 }
