@@ -82,20 +82,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[전북] 2026년 인공지능 기술고도화 지원사업 추가 모집 공고(AI융합 지능형 농업 생태계 구축 사업) D-3 마감 임박 (과학기술정보통신부)",
-      "char_count": 153,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17982769653007567",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY0c9nAkvam",
-      "posted_at": "2026-05-26T23:01:51.273Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[충남] 2026년 2차 소기업형 스마트공장 구축 지원사업 공고 D-3 마감 임박 (충청남도)",
@@ -1741,6 +1727,20 @@
       "media_id": "17991476072989173",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZPDGotluZI",
       "posted_at": "2026-06-06T06:55:20.690Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[충북] 2026년 수출ㆍ온라인 자문관 활용 현장지원 사업 참여기업 모집공고 (해외 부문) 자금 해설 (충청북도)",
+      "char_count": 210,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18101330126022063",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPN_uhnI35",
+      "posted_at": "2026-06-06T08:30:32.697Z"
     }
   ]
 }
