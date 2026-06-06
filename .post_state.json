@@ -1,8 +1,8 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 3,
+    "솔직인사이트": 4,
     "공감페인": 3,
     "케이스스터디": 10,
     "숫자팩트": 3,
@@ -81,27 +81,6 @@
     "PBLN_000000000122823"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 받고도 망하는 회사들 공통점",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-27_솔직인사이트_자금_받고도_망하는_회사들_공통점.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "최근 솔직인사이트 2건이 '못 받는 회사 패턴'을 다뤘는데, 이번 글은 '받고 나서 망하는 회사 패턴'으로 각도가 다름. 패턴 분석 프레임은 반복되나 인사이트는 새로움."
-        ]
-      },
-      "posted_at": "2026-05-27T05:09:58.680Z",
-      "media_id": "18112677796864742",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1HGrGFcVC"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1752,6 +1731,27 @@
       },
       "posted_at": "2026-06-06T09:52:53.553Z",
       "review_required": true
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-06_솔직인사이트_사업계획서_잘_쓰는_대표_vs_못_쓰는_대표_차이.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "[3] 글에서 '저희 제품은 혁신적입니다'만 가득한 사업계획서 탈락 패턴 언급과 일부 겹침. 다만 본 글은 '심사위원 관점'이라는 각도로 차별화됨"
+        ]
+      },
+      "posted_at": "2026-06-06T11:19:26.110Z",
+      "media_id": "17939161338247703",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPhVaBkazW"
     }
   ]
 }
