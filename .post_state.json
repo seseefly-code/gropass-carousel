@@ -82,27 +82,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-27_공감페인_사업계획서_양식_또_바뀐_걸_발견한_순간.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "정책자금 신청 페인포인트라는 큰 주제는 최근 게시물(0, 4, 14)과 겹치지만, '사업계획서 양식 변경 미고지' 라는 구체 각도는 새로움"
-        ]
-      },
-      "posted_at": "2026-05-27T08:06:59.865Z",
-      "media_id": "18097490531145701",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY1bXNIFH0r"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 글로벌 웹툰 IP 제작지원 추가 모집 공고 자금 해설 (문화체육관광부)",
@@ -1744,6 +1723,20 @@
       "media_id": "18051984350769315",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZPuDysllsn",
       "posted_at": "2026-06-06T13:10:42.124Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "신용등급 낮으면 자금 못 받는다는 오해",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17863115253651590",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZP4qrVFeZ6",
+      "posted_at": "2026-06-06T14:43:24.176Z"
     }
   ]
 }
