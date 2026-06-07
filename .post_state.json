@@ -85,20 +85,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경기] 용인시 2026년 2차 소공인ㆍ스타트업 허브 제품화 지원사업 모집 공고 자금 해설 (경기도)",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18082654322146576",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4My5jkUOB",
-      "posted_at": "2026-05-28T09:57:31.464Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "콘텐츠·플랫폼 자금 변화",
@@ -1755,6 +1741,20 @@
       },
       "posted_at": "2026-06-07T13:24:02.038Z",
       "discarded": true
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "정책자금 받으면 세무조사 들어온다는 소문",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18075010874689814",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZSevR0GmSb",
+      "posted_at": "2026-06-07T14:54:34.893Z"
     }
   ]
 }
