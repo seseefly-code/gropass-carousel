@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 5,
     "공감페인": 4,
-    "케이스스터디": 12,
+    "케이스스터디": 13,
     "숫자팩트": 4,
     "마감알림": 5,
     "오해풀기": 13,
@@ -84,20 +84,6 @@
     "PBLN_000000000122830"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "평가위원 질문 하나에 망친 발표",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17896218735328201",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY3_oJnllbp",
-      "posted_at": "2026-05-28T08:02:27.526Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1746,6 +1732,29 @@
       "media_id": "18118486270742247",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZSI7PHILCt",
       "posted_at": "2026-06-07T11:43:57.809Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
+      "char_count": 0,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-07_케이스스터디_RD_보고서_잘_못_쓴_줄_알았는데_통과된_사례.md",
+      "verdict": {
+        "decision": "fail",
+        "score": 3,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 5,
+        "issues": [
+          "본문이 미완성 상태로 잘림. 구체 사업명 없이 일반 명칭만 언급.",
+          "본문이 중간에 잘려서 검증할 구체 수치가 없음.",
+          "케이스스터디 카테고리 최근 2건 있으나 본문이 미완성이라 의미적 중복 판단 불가.",
+          "본문이 미완성 상태(중간에 끊김). char_count=0이고 문장이 '제출하고 나서'에서 끊김. 게시 불가."
+        ]
+      },
+      "posted_at": "2026-06-07T13:24:02.038Z",
+      "discarded": true
     }
   ]
 }
