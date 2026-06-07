@@ -85,20 +85,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18179223685403657",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY34NykllfJ",
-      "posted_at": "2026-05-28T06:57:41.494Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "평가위원 질문 하나에 망친 발표",
@@ -1746,6 +1732,20 @@
       },
       "posted_at": "2026-06-07T10:20:45.632Z",
       "review_required": true
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
+      "char_count": 264,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18118486270742247",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZSI7PHILCt",
+      "posted_at": "2026-06-07T11:43:57.809Z"
     }
   ]
 }
