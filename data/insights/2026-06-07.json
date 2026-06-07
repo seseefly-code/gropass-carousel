@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-06-07T14:12:45.254Z",
+  "collected_at": "2026-06-07T15:26:02.521Z",
   "user_id": "26071251839222721",
   "days": 30,
   "count": 268,
   "threads": [
+    {
+      "id": "18075010874689814",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZSevR0GmSb",
+      "timestamp": "2026-06-07T14:54:31+0000",
+      "text": "정책자금 받으면 세무조사 들어온다는 말 진짜 많이 들음\n\n근데 이거 거의 오해야\n\n국세청이랑 중기부는 시스템이 아예 달라\n정책자금 수혜 이력이 세무조사 트리거가 되진 않거든\n\n실제로 문제 생기는 건 다른 케이스야\n자금 받고 용도 외 사용하거나,\n실적 보고서 부실하게 냈을 때 — 이건 세무조사가 아니라 환수 이슈고\n\n오히려 정책자금 받으면서 재무 정리하고,\n회계 깔끔하게 하는 대표님들이 더 많더라\n\n무서워서 안 받는 거면 진짜 손해인 거 알지?",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 0,
+        "likes": 1,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "오해풀기",
+        "topic": "정책자금 받으면 세무조사 들어온다는 소문",
+        "char_count": 228
+      }
+    },
     {
       "id": "18118486270742247",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZSI7PHILCt",
@@ -12,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 8,
+        "views": 9,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 232,
+        "views": 237,
         "likes": 3,
         "replies": 0,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 197,
+        "views": 200,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -96,7 +117,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 56,
+        "views": 57,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -117,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 474,
+        "views": 513,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 327,
+        "views": 329,
         "likes": 3,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +180,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 150,
+        "views": 151,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -266,7 +287,7 @@
       "insights": {
         "views": 439,
         "likes": 8,
-        "replies": 2,
+        "replies": 4,
         "reposts": 0,
         "quotes": 0
       },
@@ -2008,10 +2029,10 @@
         "quotes": 0
       },
       "meta": {
-        "slot": "afternoon",
-        "type": "자금해설",
-        "topic": "[경기] 용인시 2026년 2차 소공인ㆍ스타트업 허브 제품화 지원사업 모집 공고 자금 해설 (경기도)",
-        "char_count": 228
+        "slot": "unknown",
+        "type": "unknown",
+        "topic": "소공인·스타트업 허브 제품화 지원사업이 뭐냐면",
+        "char_count": 283
       }
     },
     {
@@ -3843,7 +3864,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 1900,
+        "views": 1901,
         "likes": 26,
         "replies": 2,
         "reposts": 0,
@@ -5579,27 +5600,6 @@
         "type": "unknown",
         "topic": "이번 달 안에 마감되는 자금 빠르게 정리해줄게.",
         "char_count": 278
-      }
-    },
-    {
-      "id": "17998123619934445",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DYFO0y8lZJ-",
-      "timestamp": "2026-05-08T14:53:56+0000",
-      "text": "벤처인증 = 세제혜택. 다들 이렇게만 알더라.\n\n근데 솔직히 세제혜택은 부수적인 거야. 진짜 큰 건 따로 있어.\n\n정책자금이나 R&D 공고 보면 '벤처기업 우대' 가점이 거의 디폴트로 박혀 있거든. 같은 점수대에서 벤처인증 하나로 뒤집히는 케이스 진짜 많이 봤어.\n\n그리고 스톡옵션 부여 범위도 넓어지고, 병역특례 신청 자격도 열리고.\n\n그러니까 벤처인증은 '세금 깎으려고' 받는 게 아니라 '게임판에 들어가려고' 받는 거야. 이거 모르고 미루는 대표들 너무 많아.",
-      "media_type": "TEXT_POST",
-      "is_quote_post": false,
-      "insights": {
-        "views": 408,
-        "likes": 3,
-        "replies": 0,
-        "reposts": 0,
-        "quotes": 0
-      },
-      "meta": {
-        "slot": "unknown",
-        "type": "unknown",
-        "topic": "벤처인증 = 세제혜택. 다들 이렇게만 알더라.",
-        "char_count": 260
       }
     }
   ]
