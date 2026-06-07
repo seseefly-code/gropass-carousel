@@ -84,20 +84,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
-      "char_count": 232,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18171336538413899",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY2KUM9EUA3",
-      "posted_at": "2026-05-27T14:57:24.947Z"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "헬스케어 자금 신규 증가 추세",
@@ -1739,6 +1725,20 @@
       "media_id": "18109847782909724",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZQ4okgFlAF",
       "posted_at": "2026-06-07T00:02:21.081Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17892109896519863",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZRcle_DkC8",
+      "posted_at": "2026-06-07T05:16:32.055Z"
     }
   ]
 }
