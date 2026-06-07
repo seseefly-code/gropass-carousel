@@ -8,7 +8,7 @@
     "숫자팩트": 4,
     "마감알림": 5,
     "오해풀기": 13,
-    "트렌드": 1
+    "트렌드": 2
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -84,20 +84,6 @@
     "PBLN_000000000122830"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18098389913157283",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY3rLCTjf72",
-      "posted_at": "2026-05-28T05:03:43.686Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1737,6 +1723,29 @@
       "posted_at": "2026-06-07T08:53:02.929Z",
       "media_id": "17913903492199372",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZR1YHRlU9O"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-07_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md",
+      "verdict": {
+        "decision": "review",
+        "score": 5,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 4,
+        "tone": 9,
+        "issues": [
+          "구체 수치 없이 추상적 표현 사용 — 안전",
+          "[12] '사라진 자금/새로 생긴 자금'에서 이미 '경기도 제조로봇·AI융합 실증지원'과 '한국형 ARPA-H' 두 공고를 똑같이 인용하며 AI·바이오 쪽으로 예산 옮겨간다는 메시지 전달함",
+          "[13] '2026 정책자금 트렌드 키워드'에서도 AI융합·제조로봇 흐름과 '제조 전통업종도 디지털전환 포장하면 기회'라는 거의 동일한 인사이트 제시",
+          "세 글이 같은 공고·같은 인사이트(전통 제조→AI 무게중심 이동)를 반복"
+        ]
+      },
+      "posted_at": "2026-06-07T10:20:45.632Z",
+      "review_required": true
     }
   ]
 }
