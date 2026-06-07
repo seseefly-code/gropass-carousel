@@ -87,20 +87,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "콘텐츠·플랫폼 자금 변화",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18081848765182956",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4XKdoloqm",
-      "posted_at": "2026-05-28T11:28:07.729Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "폐업 위기에서 정책자금으로 살아난 회사",
@@ -1757,6 +1743,20 @@
       "media_id": "18075010874689814",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZSevR0GmSb",
       "posted_at": "2026-06-07T14:54:34.893Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
+      "char_count": 200,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17934908517268045",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZTVt2zljIX",
+      "posted_at": "2026-06-07T22:54:56.992Z"
     }
   ]
 }
