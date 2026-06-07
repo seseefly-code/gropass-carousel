@@ -84,20 +84,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[전남] 2026년 글로벌강소기업 1000+ 프로젝트 자율 프로그램 모집 연장 공고 D-2 마감 임박 (전라남도)",
-      "char_count": 174,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18042735599583464",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY3CvxjGmf4",
-      "posted_at": "2026-05-27T23:10:29.853Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[광주] 2026년 해외 전시박람회 단체참가 업체 추가모집 공고 D-2 마감 임박 (광주광역시)",
@@ -1728,6 +1714,20 @@
       "media_id": "18137977627531624",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZRpXQplVyy",
       "posted_at": "2026-06-07T07:08:08.806Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18106266928976977",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZRu-bOkSxI",
+      "posted_at": "2026-06-07T07:57:12.735Z"
     }
   ]
 }
