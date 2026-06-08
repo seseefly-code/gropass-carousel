@@ -87,20 +87,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[부산] 2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 연장모집 공고 D-5 마감 임박 (부산광역시)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18026935364822015",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY5uR55jZ8V",
-      "posted_at": "2026-05-29T00:09:19.507Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
@@ -1740,6 +1726,20 @@
       "media_id": "18048342059783834",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZUal51lsuV",
       "posted_at": "2026-06-08T08:56:49.052Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 연장ㆍ추가모집 공고 자금 해설 (문화체육관광부)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18092936339004127",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUnR_TgUPo",
+      "posted_at": "2026-06-08T10:47:46.201Z"
     }
   ]
 }
