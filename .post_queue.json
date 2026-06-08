@@ -1,23 +1,71 @@
 {
-  "date": "2026-06-08",
-  "generated_at": "2026-06-07T22:08:04.377Z",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-08T22:31:47.932Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
+      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
       "post": {
         "post_type": "마감알림",
-        "main_post": "이번 주 안에 마감되는 공고들 체크했어?\n\n세종 지역특화프로젝트 레전드50+ 2.0이 이번 주 목요일(6/12) 마감이고\n경남 스타트업 핵심 IP 권리화 지원도 6/15까지야.\n\nR&D·창업 초기 기업들한테 이런 지역 특화 공고가 의외로 기회인데\n경쟁이 덜하거든 — 전국 단위 공고에만 눈 돌리다가 이런 거 놓치는 경우 많더라.\n\n특히 창업 초기라면 IP 권리화는 나중에 하려면 훨씬 비용 드니까\n공짜로 지원해주는 지금 챙겨두는 게 맞아.",
-        "char_count": 200,
-        "reasoning": "특정 마감일이 임박한 실제 공고(세종 R&D, 경남 IP/창업)를 기반으로 긴급성과 정보를 함께 전달하는 마감알림 타입이 가장 적합하며, 타입도 명시적으로 지정되었음"
+        "main_post": "D-4짜리 공고들 보이지?\n\n세종 사이버보안 지원, 베트남 K-브랜드 EXPO, 광주 글로벌 PoC연계 창업기업 모집\n전부 이번 주 목요일(6월 12일) 마감이야.\n\n이런 지역 특화 자금들 공통점이\n공고 뜨고 1~2주 안에 끊기거든.\n예산 소진이든 모집 완료든 이유도 다양해.\n\n기업마당 들어가서 D-4 확인하고 아직 안 봤으면 오늘 봐야 해.\n내일 또 마감 지났다고 아쉬워하지 말고",
+        "char_count": 176,
+        "reasoning": "마감 임박 공고(D-4)를 실제 데이터 기반으로 긴급성 전달하는 구조로 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
-          "score": 10,
+          "score": 9,
           "cited_programs": [
-            "세종 지역특화프로젝트 레전드50+2.0",
-            "경남 스타트업 핵심 IP 권리화 지원"
+            "세종 사이버보안 지원(레전드 50+)",
+            "베트남 K-브랜드 EXPO",
+            "광주 글로벌 PoC연계 창업기업"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "6월 12일 마감",
+            "D-4"
+          ],
+          "issues": [
+            "마감일·D-day는 announcement와 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "[1]번 게시물과 세종 레전드50+ 언급 겹치나 각도(여러 공고 묶음)는 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "실제 공고 3건을 정확히 인용, 마감일 일치, 톤 자연스러움"
+        }
+      }
+    },
+    "morning": {
+      "status": "approved",
+      "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안) D-4 마감 임박 (중소벤처기업부)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "세종 쪽 사이버보안 하는 분들, 이거 D-4야\n\n중기부 '지역특화 프로젝트 레전드 50+' — 세종 사이버보안 분야\n이번 주 목요일(6/12) 마감인데 아직 모르는 곳 있을까봐 올려\n\n지역주력산업 연계 지원이라 세종 소재 기업이어야 하고\n사이버보안 관련 기술·제품 하는 회사면 한 번 봐볼 만해\n\n상세 조건은 세종테크노파크 공고 직접 확인하는 게 맞고\n기업마당에 '레전드 50+ 세종 사이버보안' 검색하면 바로 나와",
+        "char_count": 198,
+        "reasoning": "D-4 마감 임박 공고로 긴급성 전달이 핵심이라 마감알림 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "morning",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "지역특화 프로젝트 레전드 50+ 1.0 세종 사이버보안"
           ],
           "unverified_programs": [],
           "issues": []
@@ -26,324 +74,105 @@
           "score": 9,
           "risky_claims": [
             "6/12 마감",
-            "6/15 마감"
+            "세종 소재 기업 요건",
+            "사이버보안 분야"
           ],
           "issues": [
-            "마감일은 announcement와 일치"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "실제 공고와 마감일이 정확히 일치하고 톤도 규칙 준수"
-        }
-      }
-    },
-    "morning": {
-      "status": "approved",
-      "topic": "2026년 4차 수출 도전기업 IP위험 대응역량 강화사업 모집 공고 D-8 마감 (지식재산처)",
-      "post": {
-        "post_type": "마감알림",
-        "main_post": "수출하는 회사인데 IP 분쟁 한 번도 안 걸린 거, 운 좋은 거일 수 있어.\n\n해외 나가면 상표 선점이나 특허 침해 이슈가 생각보다 빠르게 터지거든.\n근데 대응할 준비는 없는 채로 나가는 경우가 대부분이더라.\n\n지식재산처에서 수출 도전기업 대상으로\nIP 위험 대응역량 강화사업 모집하고 있어.\n\nD-8이야. 이번 주 안에 봐야 함.\n6월 15일까지니까 공고 한번 확인해봐.",
-        "char_count": 194,
-        "reasoning": "마감일이 D-8로 구체적이고, 실제 공고 정보(지식재산처, 수출 도전기업, 마감 6/15)가 있어 마감알림 타입이 가장 적합함. 단, IP 분쟁이라는 페인 공감으로 시작해 정보가 자연스럽게 녹아들도록 구성."
-      },
-      "verdict": {
-        "slot": "morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "지식재산처 수출 도전기업 IP 위험 대응역량 강화사업"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "D-8",
-            "6월 15일 마감"
-          ],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고·마감 정확, 페인 진입도 자연스러움"
-        }
-      }
-    },
-    "late_morning": {
-      "status": "approved",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
-      "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 같은 자금인데 결과가 갈리는 이유 중 하나가 신청 타이밍이야.\n\n공고 초반에 넣으면 심사관이 여유 있을 때 보고,\n마감 직전에 몰리면 피로도가 쌓인 상태에서 서류를 봐.\n\n그리고 예산이 정해진 자금은 선착순으로 조기 마감되는 경우도 있어.\n강원 수출물류비 지원 같은 '예산 소진 시까지' 공고가 대표적이고.\n\n근데 대부분 사장님들이 마감 1~2일 전에 존재를 알고 뒤늦게 뛰어다니거든.\n\n자금 자체를 잘 아는 것만큼, 언제 넣느냐도 진짜 중요해.",
-        "char_count": 216,
-        "reasoning": "타이밍이라는 전략적 인사이트를 사장님 관점에서 데이터·경험 기반으로 전달하는 구조라 솔직인사이트가 가장 적합하고, 공고 목록 중 '예산 소진시까지' 상시 공고를 실제 사례로 자연스럽게 녹였음"
-      },
-      "verdict": {
-        "slot": "late_morning",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "강원 수출물류비 지원(홍천군 중소기업 수출물류비 지원사업)"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": [
-            "일반화된 표현 사용"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": [
-            "타이밍 인사이트는 [10]번 케이스스터디에서도 일부 언급되지만 각도 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "실제 상시 공고 인용, 인사이트 적절"
-        }
-      }
-    },
-    "noon": {
-      "status": "approved",
-      "topic": "신청 대비 평균 선정률",
-      "post": {
-        "post_type": "숫자팩트",
-        "main_post": "정책자금 선정률, 솔직히 얼마나 될 것 같아?\n\n내가 데이터 계속 보면서 느끼는 건데\n지원 많은 사업들 평균 선정률이 10~20% 안팎이야.\n\n그러니까 10명 신청하면 1~2명만 붙는다는 거지.\n\n근데 떨어지는 사람들 보면 자격이 없어서가 아냐.\n자금 자체를 잘못 골라서, 서류 준비가 엉성해서,\n아니면 그냥 타이밍이 애매해서인 경우가 훨씬 많아.\n\n경쟁이 세다는 건 맞는데\n그게 '나는 안 된다'는 뜻은 아니거든.",
-        "char_count": 213,
-        "reasoning": "선정률이라는 수치를 중심으로 사실 기반 인사이트를 전달하는 구조가 숫자팩트 타입에 가장 잘 맞고, 단순 통계 전달에서 끝내지 않고 '왜 떨어지는가'로 감정 연결까지 이어지도록 구성했음"
-      },
-      "verdict": {
-        "slot": "noon",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": [
-            "구체 사업명 없음"
-          ]
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "선정률 10~20%"
-          ],
-          "issues": [
-            "선정률 범위는 일반적으로 알려진 수준이라 허용 가능"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "수치 추상화 적절, 감정 연결도 자연스러움"
-        }
-      }
-    },
-    "lunch": {
-      "status": "approved",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "기업마당 들어가서 공고 10개 보면\n\n전부 \"○○지원사업 참여기업 모집 공고\"\n\"○○ 재공고\"\n\"○○ 연장 공고\"\n\n이름만 다르지 생긴 건 다 똑같아.\n\n오늘도 세종 지역주력산업이 내 업종에 해당하는지\n경북 디지털전환이 뭘 해주는 건지\n30분 읽다가 그냥 탭 꺼버렸어.\n\n공고 제목만 봐서는 나한테 맞는 건지 아닌지\n진짜 하나도 모르겠거든.\n\n이거 나만 그런 거 아니지?",
-        "char_count": 188,
-        "reasoning": "공고 제목이 다 비슷하게 생겨서 뭐가 뭔지 모르겠다는 주제는 사장님·창업자가 공통으로 겪는 탐색 페인 경험이라 공감페인 타입이 가장 적합하고, 실제 공고 목록(세종 지역주력산업, 경북 디지털전환 등)을 활용해 구체성을 높였음"
-      },
-      "verdict": {
-        "slot": "lunch",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "세종 지역주력산업",
-            "경북 디지털전환"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "실제 공고 활용한 공감페인, 깔끔함"
-        }
-      }
-    },
-    "afternoon": {
-      "status": "approved",
-      "topic": "2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 연장ㆍ추가모집 공고 자금 해설 (문화체육관광부)",
-      "post": {
-        "post_type": "자금해설",
-        "main_post": "뉴욕 코믹콘이라고 들어봤지?\n\n미국 최대 팝컬처 행사인데, 문체부가 거기에 한국 콘텐츠 기업 데려가는 사업을 하고 있어.\n\n단순 전시 부스 아니고 '비즈매칭' 특화라는 게 포인트거든.\n현지 바이어, 유통사, 퍼블리셔랑 직접 미팅 붙여주는 구조야.\n\n만화, 웹툰, 캐릭터, IP 관련 사업 하는 회사라면 진짜 핏 맞는 자리지.\n이미 1차 모집 끝났는데 연장·추가모집까지 뜬 거 보면 자리 아직 있다는 거고.\n\n마감이 6월 17일이니까 관심 있으면 지금 한국콘텐츠진흥원 공고 확인해봐.",
-        "char_count": 228,
-        "reasoning": "특정 공고 내용을 알기 쉽게 설명하는 구조이고, 자금명·기관·마감일이 명확하게 존재하므로 자금해설 타입이 적합함"
-      },
-      "verdict": {
-        "slot": "afternoon",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "뉴욕 코믹콘 마켓플레이스 특화 비즈매칭(한국콘텐츠진흥원)"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "6월 17일 마감"
-          ],
-          "issues": [
-            "마감일 정확"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고·기관·마감일 모두 정확"
-        }
-      }
-    },
-    "late_afternoon": {
-      "status": "rejected",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "reason": "review"
-    },
-    "evening": {
-      "status": "approved",
-      "topic": "매출 0원에서 자금 받은 초기 스타트업",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들은 케이스인데 좀 신기했어.\n\n매출 0원 스타트업인데 정책자금 받음.\n창업한 지 6개월, 제품도 아직 베타 수준.\n근데 IP 권리화 지원 붙었거든.\n\n자격 조건이 매출이 아니라 '아이디어 보호 필요성'이었던 거야.\n경쟁력 있는 기술이나 콘텐츠가 있으면 매출 없어도 되는 자금이 꽤 있거든.\n\n근데 대부분 사장님들이 \"우리 아직 매출도 없는데요\" 하고 알아보지도 않음.\n매출 = 자격요건이라는 공식이 머릿속에 박혀 있는 거지.\n\n꼭 그렇지 않아. 단계에 맞는 자금이 따로 있어.",
-        "char_count": 216,
-        "reasoning": "매출 0원 초기 스타트업이 자금 받은 구체 사례를 다루는 주제라 케이스스터디 타입이 가장 적합하고, 공고 중 IP 권리화 지원(경남 스타트업 핵심 IP 권리화 지원사업)이 초기 창업기업 대상이라 연결해 활용함."
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "경남 스타트업 핵심 IP 권리화 지원사업"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "창업 6개월, 매출 0원 케이스"
-          ],
-          "issues": [
-            "자기 경험 케이스, 검증 불가지만 허용"
+            "조건은 일반화 표현이며 '세종테크노파크 공고 직접 확인' 안내로 안전"
           ]
         },
         "duplication_check": {
           "score": 7,
           "similar_recent_files": [
-            "2026-06-07_자금해설_2026년_경남_스타트업_핵심_IP지식재산권_권리화_지.md"
+            "2026-06-07_마감알림_정기_공고_시즌_임박_알림_RD_청년창업.md"
           ],
           "issues": [
-            "하루 전 IP 권리화 자금해설과 주제 겹치지만 각도(케이스스터디) 다름"
+            "[1]번에서도 '세종 레전드50+ 2.0 6/12 마감' 언급 — 본 포스트는 1.0 사이버보안 단독 심화라 각도 다르지만 사업명 겹침"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 8,
           "decision": "pass",
-          "reasoning": "각도 차별화 OK, 통과 가능"
+          "reasoning": "공고 정확, 단 어제 글과 동일 사업 언급으로 약간 중복"
         }
       }
     },
-    "late_evening": {
+    "late_morning": {
       "status": "approved",
-      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
       "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 나온 케이스 하나 공유하려고.\n\n발표 점수까지 다 합쳐서 컷라인에서 0.3점 떨어진 회사가 있었어.\n\n나중에 알고 보니 평가위원 한 명이 사업계획서에서 '시장 규모 근거'가 약하다고 감점을 줬던 거야.\n\n다른 위원 두 명은 평균 이상으로 줬는데.\n\n결국 그 한 명 때문에 떨어진 셈이거든.\n\n그 회사 다음 라운드에서 시장 근거 데이터를 두 배로 보강해서 재신청했고, 최종 선발됐어.\n\n평가위원 구성이 운처럼 느껴지겠지만, 사실 '지적 받을 가능성 있는 부분'을 미리 막아놓는 게 진짜 전략이야.",
-        "char_count": 238,
-        "reasoning": "특정 평가위원 한 명이 결과를 바꾼 익명 실제 사례를 구체적으로 풀어내는 구조라 케이스스터디가 가장 적합함"
+        "post_type": "솔직인사이트",
+        "main_post": "정책자금 결과 보면 진짜 신기해.\n\n사업 내용 비슷한데 누군 붙고 누군 떨어지거든.\n\n솔직히 말하면 차이가 사업 자체가 아닌 경우가 많아.\n\n심사위원이 보는 건 결국 \"이 팀이 이 돈 받으면 뭘 할 건지\" 거든.\n\n그게 사업계획서에서 느껴지냐 안 느껴지냐의 차이야.\n\n숫자 틀리거나 자격조건 아슬아슬한 것도 있는데,\n진짜 많이 보이는 패턴은 \"왜 지금, 왜 우리 회사\"가 없는 것.\n\n정보가 부족한 게 아니라 설득이 없는 거야.",
+        "char_count": 199,
+        "reasoning": "동일 사업에서 결과가 갈리는 이유를 경험 기반 인사이트로 풀기에 솔직인사이트 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "late_evening",
+        "slot": "late_morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "구체 사업명 없음, 일반 케이스"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "0.3점 차이",
-            "평가위원 3명 구성"
+          "score": 9,
+          "risky_claims": [],
+          "issues": [
+            "구체 수치 없음, 일반론"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [
+            "2026-06-07_솔직인사이트_자금_신청_타이밍이_결과를_가르는_이유.md"
           ],
           "issues": [
-            "자기 경험 케이스 표현으로 허용"
+            "같은 '솔직인사이트' 형식으로 '결과가 갈리는 이유' 주제 비슷 — 다만 타이밍 vs 사업계획서 설득력으로 각도 차별"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "일반 인사이트라 사실 리스크 없음, 주제 각도 다름"
+        }
+      }
+    },
+    "noon": {
+      "status": "approved",
+      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
+      "post": {
+        "post_type": "숫자팩트",
+        "main_post": "정책자금 종류가 몇 개인지 알아?\n\n중앙부처 공고만 연간 수천 건.\n지자체까지 합치면 1만 개 넘는다는 얘기도 나와.\n\n근데 중소기업 대표 한 명이 실제로 자기 회사에 맞는 자금을\n파악하고 있어야 하는 건 그중에 많아야 10~20개 수준이야.\n\n문제는 그 10~20개를 찾는 게\n1만 개를 다 보는 것만큼 힘들다는 거지.\n\n기업마당 들어가서 검색하다 결국 포기한 사람 손 들어봐 ✋",
+        "char_count": 196,
+        "reasoning": "자금의 방대한 수와 실제 필요한 수의 격차라는 숫자 대비 구조가 핵심이라 숫자팩트 타입이 가장 적합하고, 마지막에 공감 유발 요소로 마무리해 reach를 노림"
+      },
+      "verdict": {
+        "slot": "noon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "기업마당"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 7,
+          "risky_claims": [
+            "연간 수천 건",
+            "1만 개 넘는다",
+            "10~20개"
+          ],
+          "issues": [
+            "'1만 개 넘는다는 얘기도 나와'는 추정 표현으로 완충 처리됨, 추상화 수준"
           ]
         },
         "duplication_check": {
@@ -352,54 +181,258 @@
           "issues": []
         },
         "tone_check": {
+          "score": 9,
+          "issues": [
+            "이모지 1개 OK"
+          ]
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "수치는 추정 어조로 완충, 주제 새로움"
+        }
+      }
+    },
+    "lunch": {
+      "status": "approved",
+      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "정책자금 신청 마감 1시간 전에\n사업자등록증 발급일자가 요건 안 맞는 거 발견한 적 있어.\n\n그 순간 진짜 머릿속이 하얘지더라고\n어떻게든 해보려고 담당자 전화 돌리는데\n당연히 안 받지 ㅋㅋ\n\n이 경험 한 번이라도 있는 사람은 알아\n다음엔 꼭 미리 확인한다고 다짐하는데\n또 바빠지면 똑같이 반복됨\n\n사장님들 이런 거 나만 있는 거 아니지?",
+        "char_count": 163,
+        "reasoning": "마감 1시간 전 서류 부족 발견이라는 상황은 사장님이라면 누구나 공감할 수 있는 페인포인트여서 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
           "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": [
+            "자기 경험 회고형, 검증 대상 없음"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "케이스스터디로 신선한 각도"
+          "reasoning": "공감페인 적절, 위험 요소 없음"
         }
       }
     },
+    "afternoon": {
+      "status": "approved",
+      "topic": "2026년 2차 만화웹툰 해외진출지원 KOMICS 프랑스 참가기업 모집 공고 자금 해설 (문화체육관광부)",
+      "post": {
+        "post_type": "자금해설",
+        "main_post": "KOMICS 프랑스가 뭔지 모르는 웹툰·만화 회사 있을까봐 적어\n\n문체부에서 프랑스 앙굴렘인지 파리 현지 전시·행사에 한국 만화웹툰 기업 데려가는 사업이야\n항공비, 부스 세팅, 현지 바이어 연결까지 지원되는 구조거든\n\n근데 이 사업 모르는 콘텐츠 스튜디오가 의외로 많아\n\n해외 진출하고 싶은데 '어디서부터 시작하지?' 막막한 회사한테 딱 맞음\n혼자 프랑스 바이어 찾으면 시간·비용이 얼마야\n\n한국콘텐츠진흥원에서 수행하고 6월 16일 마감이니까 지금 공고 한 번만 봐",
+        "char_count": 218,
+        "reasoning": "특정 공고(KOMICS 프랑스)의 개념과 혜택을 풀어 설명하는 교육형 콘텐츠이므로 자금해설 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "KOMICS 프랑스(2026년 2차 만화웹툰 해외진출지원)",
+            "한국콘텐츠진흥원"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "공고 정확, 6월 16일 마감 일치"
+          ]
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "항공비, 부스 세팅, 현지 바이어 연결 지원",
+            "앙굴렘·파리 현지"
+          ],
+          "issues": [
+            "지원 항목 디테일은 listing에 없으나 일반적으로 알려진 콘진원 해외진출 사업 패턴, '인지' 표현으로 완충"
+          ]
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [
+            "2026-06-07_자금해설_2026년_마켓플레이스_특화_비즈매칭_뉴욕_코믹콘New.md"
+          ],
+          "issues": [
+            "뉴욕 코믹콘 자금해설과 구조·문체 유사하나 사업·국가 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "실제 공고 정확, 디테일은 일반적 수준"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "approved",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 진짜 느끼는 게\n\nDX 관련 자금 예산이 조용히 엄청 늘었어.\n\nAI 서비스 개발·확산 지원, 데이터 마케팅 컨설팅, 디지털 콘텐츠 규제개혁 어드바이저까지\n이름만 다르지 다 DX야.\n\n예전엔 제조업 기반 자금 위주였는데\n지금은 업종 불문하고 디지털 전환이라는 키워드만 있으면\n신청 가능한 자금이 눈에 띄게 많아졌거든.\n\n근데 문제는 '나는 DX랑 거리 먼 업종인데' 하고 넘기는 대표님들이 많다는 거.\n\n식품사도 데이터 마케팅 지원 받고, 출판사도 DX 자금 들어가는 시대야.\n이제 DX = IT 회사만의 것 아님.",
+        "char_count": 228,
+        "reasoning": "디지털전환 관련 자금 증가 트렌드를 소개하는 내용으로, 공고 목록 내 AI 서비스 개발, 데이터 마케팅 컨설팅, 디지털 콘텐츠 관련 공고를 실제로 참조하며 여러 자금을 빠르게 나열하고 인사이트로 마무리하는 트렌드 타입이 적합"
+      },
+      "verdict": {
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "AI 서비스 개발·확산 지원사업",
+            "데이터 마케팅 컨설팅 지원",
+            "디지털 콘텐츠 산업 규제개혁 어드바이저"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "세 사업 모두 announcement에 존재"
+          ]
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "DX 자금 예산이 늘었다",
+            "식품사·출판사도 DX 자금"
+          ],
+          "issues": [
+            "트렌드 일반화 진술로 큰 위험 아님"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "실제 공고 3건을 근거로 트렌드 제시, 정확"
+        }
+      }
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "솔직히 말하면, 컨설팅비 100만원이 아까워서 직접 알아보다가 결국 아무것도 못 받는 케이스 엄청 많아.\n\n기업마당 들어가면 공고 수백 개야.\n업종·규모·지역·신청기간 다 다르고,\n조건 안 맞는 거 걸러내다 보면 반나절이 그냥 사라지거든.\n\n근데 진짜 문제는 시간이 아니야.\n'내가 알아서 찾은 자금'이 최선인지 모른다는 거지.\n더 좋은 게 있었는데 모르고 넘어가는 경우가 훨씬 많아.\n\n컨설팅비 100만원이 비싸 보여도,\n그 돈으로 500~1000만원짜리 자금 연결되면 계산이 달라지잖아.\n뭐가 더 비싼 건지 한 번쯤 생각해볼 문제야.",
+        "char_count": 248,
+        "reasoning": "컨설팅비 대비 직접 탐색의 기회비용을 다루는 주제라 솔직한 현장 시각과 데이터 기반 인사이트가 필요한 솔직인사이트 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "기업마당"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 7,
+          "risky_claims": [
+            "컨설팅비 100만원",
+            "500~1000만원짜리 자금"
+          ],
+          "issues": [
+            "'100만원'은 일반적 상정 수치로 그로패스 자체 가격이라면 안전, 자금 규모는 예시 수준"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "수치가 예시·비교 맥락이라 허용 범위"
+        }
+      }
+    },
+    "late_evening": {
+      "status": "rejected",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
+      "reason": "review"
+    },
     "night": {
       "status": "approved",
-      "topic": "보증서 발급이 무조건 어렵다는 인식",
+      "topic": "지역특화 자금이 늘어나는 이유",
       "post": {
-        "post_type": "오해풀기",
-        "main_post": "보증서 발급이 어렵다는 인식 진짜 많은데\n\n솔직히 말하면 어려운 게 아니라 낯선 거야.\n\n신용보증기금이나 기술보증기금 가면\n매출 있고 연체 없으면 생각보다 빠르게 나오거든.\n\n근데 대부분 \"보증 = 복잡\" 이미지 때문에\n시도를 안 해. 그냥 포기하고 지인한테 빌리거나\n아니면 고금리 대출 그냥 씀.\n\n진짜 막히는 건 발급 자체가 아니라\n어떤 보증 상품이 나한테 맞는지 모르는 거야.\n\n그러니까 일단 신보나 기보 지점 한번 가봐.\n생각보다 문 낮아.",
-        "char_count": 202,
-        "reasoning": "보증서 발급에 대한 잘못된 인식을 교정하는 내용으로, 오해풀기 타입이 가장 적합함"
+        "post_type": "트렌드",
+        "main_post": "요즘 정책자금 공고 보면 앞에 [세종], [전북], [강원] 이런 지역명이 붙은 게 진짜 많아졌거든\n\n예전엔 중기부가 전국 단위로 쫙 뿌리는 구조였는데\n지금은 테크노파크·진흥원 통해서 지역별로 쪼개서 내려보내는 방식이 대세가 됐어\n\n이유가 있어 — 전국 단위 자금은 수도권 기업이 싹쓸이하는 패턴이 반복되니까\n지역에 예산을 직접 배분해서 그 지역 기업한테 먼저 기회 주는 구조로 바뀐 거지\n\n근데 이게 신청하는 입장에선 좋은 거야\n경쟁률이 전국 단위보다 훨씬 낮거든\n내 사업장 소재지 지역 공고만 잘 챙겨도 생각보다 기회가 많아",
+        "char_count": 248,
+        "reasoning": "지역특화 자금 증가 트렌드를 설명하는 주제이고, 실제 공고 목록에 지역 단위 공고가 다수 포함되어 있어 트렌드 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "신용보증기금",
-            "기술보증기금"
+            "테크노파크",
+            "진흥원"
           ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "[세종][전북][강원] 등 announcement 다수와 일치"
+          ]
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
+          "score": 8,
+          "risky_claims": [
+            "전국 단위 자금은 수도권 기업 싹쓸이",
+            "지역 경쟁률이 훨씬 낮다"
+          ],
+          "issues": [
+            "일반적 통념 수준의 추상화"
+          ]
         },
         "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
+          "score": 8,
+          "similar_recent_files": [
+            "2026-06-08_트렌드_글로벌_진출_자금_비중_변화.md"
+          ],
+          "issues": [
+            "[13] 글로벌 트렌드 글이 '지역별로 흩어져 있다'는 포인트 일부 다룸. 본 글은 지역특화 자체가 주제라 각도 다름"
+          ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "오해풀기 깔끔, 일반화 적절"
+          "reasoning": "실제 공고 패턴 기반 트렌드, 일반화 적절"
         }
       }
     }
