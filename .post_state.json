@@ -87,20 +87,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
-      "char_count": 246,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18103517684095407",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4mhsUlCyo",
-      "posted_at": "2026-05-28T13:42:21.670Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
@@ -1757,6 +1743,20 @@
       "media_id": "17934908517268045",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZTVt2zljIX",
       "posted_at": "2026-06-07T22:54:56.992Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 4차 수출 도전기업 IP위험 대응역량 강화사업 모집 공고 D-8 마감 (지식재산처)",
+      "char_count": 194,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18104848595056291",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZTdt0JDkb1",
+      "posted_at": "2026-06-08T00:04:52.813Z"
     }
   ]
 }
