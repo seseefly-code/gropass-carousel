@@ -87,30 +87,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "12월에 사라지는 예산 보면서 드는 생각",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-28_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "구체 사업명을 호명하지 않고 일반론으로 풀어냄. D-1 공고가 있다는 언급은 announcement의 경북 상장지원사업 D-1과 일치하여 사실 부합",
-          "예산 이월/소멸 관련 일반 상식 수준 표현이며 구체 수치 없음. 위험도 낮음",
-          "최근 15개 중 '예산 소멸' 또는 '연말 예산' 각도는 없음. 정보 비대칭 페인은 [11]과 일부 겹치나 각도 다름",
-          "반말 톤 유지, 해시태그·이모지·여러분 없음, 글자수 196자로 적정"
-        ]
-      },
-      "posted_at": "2026-05-28T16:55:41.239Z",
-      "media_id": "18069502247679477",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY48qT5GpBK"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "[경북] 2026년 유망 중소ㆍ벤처기업 상장 및 투자활성화 지원사업 기업 모집 연장 공고 D-1 마감 임박 (경상북도)",
@@ -1750,6 +1726,20 @@
       "media_id": "18055173776571433",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZUCJI9FoQy",
       "posted_at": "2026-06-08T05:23:09.628Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "신청 대비 평균 선정률",
+      "char_count": 213,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18086537381564552",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUVpBOlbdH",
+      "posted_at": "2026-06-08T08:13:32.399Z"
     }
   ]
 }
