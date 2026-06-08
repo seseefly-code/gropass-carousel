@@ -87,27 +87,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-28_케이스스터디_TIPS_떨어진_회사가_다음_회차에_선정된_비결.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "최근 케이스스터디 2건이 있으나 주제(TIPS 재선정 비결)와 인사이트(시장 타이밍+팀 서사) 모두 다름"
-        ]
-      },
-      "posted_at": "2026-05-28T15:31:31.574Z",
-      "media_id": "18205892158338762",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY4zB5bkdDa"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "12월에 사라지는 예산 보면서 드는 생각",
@@ -1757,6 +1736,20 @@
       "media_id": "18104848595056291",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZTdt0JDkb1",
       "posted_at": "2026-06-08T00:04:52.813Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18055173776571433",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUCJI9FoQy",
+      "posted_at": "2026-06-08T05:23:09.628Z"
     }
   ]
 }
