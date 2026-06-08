@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 6,
     "공감페인": 5,
-    "케이스스터디": 15,
+    "케이스스터디": 1,
     "숫자팩트": 5,
     "마감알림": 6,
     "오해풀기": 14,
@@ -86,20 +86,6 @@
     "PBLN_000000000122848"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "char_count": 168,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17925186366347958",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY6kL3ClXOA",
-      "posted_at": "2026-05-29T08:00:24.204Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1738,6 +1724,29 @@
       "media_id": "18092373266345482",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZU9dnykbmX",
       "posted_at": "2026-06-08T14:01:32.443Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "매출 1억 회사가 R&D 5억 받은 사례",
+      "char_count": 217,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-08_케이스스터디_매출_1억_회사가_RD_5억_받은_사례.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 7,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 없이 일반 명칭 '정책자금 R&D'만 사용. '5억 가까이'는 추상 표현으로 OK",
+          "'5억 가까이'는 가능 범위지만 매출 1억 초반대 기업이 단일 R&D로 5억 수령은 흔치 않은 케이스 - 자기 경험 케이스로 표현되어 검증 불가지만 BAN 위험은 낮음",
+          "평가 기준 일반화는 대체로 맞는 방향",
+          "[10] 매출 0원 스타트업이 자금 받은 케이스와 구조/메시지가 거의 동일 ('매출 작아도 받을 수 있다', '대부분 사장님들이 매출 작아서 알아보지도 않음' → 동일 결말 문장). 각도는 미세하게 다르지만(0원 IP지원 vs 1억 R&D) 인사이트는 사실상 동일"
+        ]
+      },
+      "posted_at": "2026-06-08T15:31:59.587Z",
+      "review_required": true
     }
   ]
 }
