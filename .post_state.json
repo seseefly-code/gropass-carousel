@@ -87,31 +87,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
-      "char_count": 224,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-29_숫자팩트_사업계획서_평균_작성_시간_직접_vs_컨설팅.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 10,
-        "halluc": 7,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "'평균 3~5일', '반나절~하루' 같은 시간 수치는 출처 불명이지만 일반적 체감 범위라 치명적이지 않음",
-          "컨설팅 비용 범위는 시장에서 통용되는 수준이라 무난",
-          "최근 15개 중 사업계획서 관련 포스트가 이미 3개 존재 (공감페인, 솔직인사이트, 케이스스터디)",
-          "'방향이 틀려서 떨어진다' 메시지는 솔직인사이트(심사 포인트), 케이스스터디(언어 안 맞아 탈락)와 결이 비슷",
-          "다만 '시간/비용' 각도는 새로움",
-          "전반적으로 반말체·자연스러운 톤 유지, 해시태그·이모지·존댓말 없음"
-        ]
-      },
-      "posted_at": "2026-05-29T06:57:59.655Z",
-      "review_required": true
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "사업계획서 쓰다가 새벽 3시인 대표",
@@ -1749,6 +1724,20 @@
       "posted_at": "2026-06-08T12:21:13.762Z",
       "media_id": "18109494985840813",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZUx_w9EYcG"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "매출 0원에서 자금 받은 초기 스타트업",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18092373266345482",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZU9dnykbmX",
+      "posted_at": "2026-06-08T14:01:32.443Z"
     }
   ]
 }
