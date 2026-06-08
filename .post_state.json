@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "융자 vs 보증 vs 출연금 비중 변화",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18108642851300739",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY667M1FFtI",
-      "posted_at": "2026-05-29T11:19:03.880Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "수출바우처로 첫 해외 수주 만든 케이스",
@@ -1763,6 +1749,20 @@
       "posted_at": "2026-06-08T16:51:12.420Z",
       "media_id": "17852158335696822",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZVQ5HSlAXE"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
+      "char_count": 176,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18001054169761379",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZV8Dd4GkgQ",
+      "posted_at": "2026-06-08T23:08:27.645Z"
     }
   ]
 }
