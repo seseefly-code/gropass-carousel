@@ -8,7 +8,7 @@
     "숫자팩트": 5,
     "마감알림": 6,
     "오해풀기": 14,
-    "트렌드": 3
+    "트렌드": 4
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -86,20 +86,6 @@
     "PBLN_000000000122848"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17934848778256463",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY6QL9alrLj",
-      "posted_at": "2026-05-29T05:05:37.601Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1740,6 +1726,29 @@
       "media_id": "18092936339004127",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZUnR_TgUPo",
       "posted_at": "2026-06-08T10:47:46.201Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "char_count": 241,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-08_트렌드_글로벌_진출_자금_비중_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "언급된 모든 사업이 announcement 컨텍스트에 실제 존재하는 공고와 일치함",
+          "'절반 가까이'는 추상화된 표현이며 실제 30건 중 수출 분야 7건+해외진출 관련 1건 등 글로벌 비중이 실제로 높은 편이라 과장 아님",
+          "[1] 트렌드 키워드와 일부 주제 겹침(수출·글로벌 언급)이 있으나, 이 글은 '지역별로 흩어진 글로벌 공고'라는 각도라 차별화됨"
+        ]
+      },
+      "posted_at": "2026-06-08T12:21:13.762Z",
+      "media_id": "18109494985840813",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUx_w9EYcG"
     }
   ]
 }
