@@ -89,30 +89,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "정책자금 평가 기준이 바뀌는 방향",
-      "char_count": 222,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-29_트렌드_정책자금_평가_기준이_바뀌는_방향.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "AX 원스톱 바우처는 announcement 컨텍스트에 '2026년 AX 원스톱 바우처 지원사업 수요기업 추가 모집 공고'로 실재함. AI 전환을 지원 요건으로 한다는 설명도 사업명과 일치.",
-          "구체 수치나 비용 없이 평가 기준 변화 트렌드를 일반화해서 서술. 안전한 수준.",
-          "[12]번 글이 정책자금 구조 변화 트렌드를 다룸. 본 글은 '평가 기준 변화(재무→기술/AI/ESG)'로 각도가 다르긴 하나 '정책자금 흐름이 바뀌고 있다' 메타 메시지가 겹침. 다만 핵심 인사이트(평가 관점 변화)는 새로움.",
-          "반말 톤 유지, 해시태그·이모지·여러분·클릭베이트 없음. 222자로 분량 적정. 도입부도 AI 정형구 아님."
-        ]
-      },
-      "posted_at": "2026-05-29T16:43:13.947Z",
-      "media_id": "18142762489519112",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY7gB_qmqSI"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "자금 캘린더 만드는 법",
@@ -1753,6 +1729,20 @@
       "media_id": "18106126990798014",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZWkLAJjh94",
       "posted_at": "2026-06-09T04:59:00.206Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17954054060983081",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZWxMkMlZ-V",
+      "posted_at": "2026-06-09T06:52:48.419Z"
     }
   ]
 }
