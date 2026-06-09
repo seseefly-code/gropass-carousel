@@ -1,13 +1,13 @@
 {
   "evening_index": 1,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 8,
     "공감페인": 6,
     "케이스스터디": 3,
     "숫자팩트": 6,
     "마감알림": 7,
-    "오해풀기": 14,
+    "오해풀기": 15,
     "트렌드": 7
   },
   "used_announcements": [
@@ -88,20 +88,6 @@
     "PBLN_000000000122895"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 6월 문화콘텐츠기업보증 공고 자금 해설 (문화체육관광부)",
-      "char_count": 211,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18589882423016068",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY9L1ydFYRL",
-      "posted_at": "2026-05-30T08:25:22.164Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1745,6 +1731,27 @@
       "posted_at": "2026-06-09T14:29:17.911Z",
       "media_id": "18103649618109090",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZXlcoUDp-D"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "사업계획서만 잘 쓰면 된다는 오해",
+      "char_count": 202,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-09_오해풀기_사업계획서만_잘_쓰면_된다는_오해.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "[4]번 글과 '심사위원이 보는 관점'이라는 메타 주제는 유사하나, [4]는 '설득력 부재'에 초점, 본 글은 '지원 자격 사전 점검'에 초점이라 각도가 다름"
+        ]
+      },
+      "posted_at": "2026-06-09T15:58:23.109Z",
+      "media_id": "18126384427554204",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXvpHUlFpF"
     }
   ]
 }
