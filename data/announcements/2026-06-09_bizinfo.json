@@ -1,9 +1,23 @@
 {
-  "crawled_at": "2026-06-09T07:52:33.474Z",
+  "crawled_at": "2026-06-09T09:37:39.751Z",
   "source": "bizinfo.go.kr",
   "pages_crawled": 2,
   "count": 30,
   "announcements": [
+    {
+      "no": "1487",
+      "category": "인력",
+      "title": "2026년 2차 안전일터 조성지원 사업 수정 공고",
+      "start_date": null,
+      "end_date": null,
+      "period_text": "사업별 상이",
+      "ministry": "고용노동부",
+      "agency": "한국산업안전보건공단",
+      "registered_at": "2026-06-09",
+      "views": "90",
+      "pblancId": "PBLN_000000000122968",
+      "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122968"
+    },
     {
       "no": "1486",
       "category": "기술",
@@ -14,7 +28,7 @@
       "ministry": "경상북도",
       "agency": "포항테크노파크",
       "registered_at": "2026-06-09",
-      "views": "648",
+      "views": "727",
       "pblancId": "PBLN_000000000122967",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122967"
     },
@@ -28,7 +42,7 @@
       "ministry": "경상북도",
       "agency": "포항테크노파크",
       "registered_at": "2026-06-09",
-      "views": "647",
+      "views": "714",
       "pblancId": "PBLN_000000000122966",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122966"
     },
@@ -42,7 +56,7 @@
       "ministry": "농림축산식품부",
       "agency": "한국농수산식품유통공사",
       "registered_at": "2026-06-09",
-      "views": "646",
+      "views": "709",
       "pblancId": "PBLN_000000000122965",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122965"
     },
@@ -56,7 +70,7 @@
       "ministry": "인천광역시",
       "agency": "인천지식재산센터",
       "registered_at": "2026-06-09",
-      "views": "642",
+      "views": "706",
       "pblancId": "PBLN_000000000122964",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122964"
     },
@@ -70,7 +84,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "627",
+      "views": "681",
       "pblancId": "PBLN_000000000122963",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122963"
     },
@@ -84,7 +98,7 @@
       "ministry": "전라남도",
       "agency": "한국농수산식품유통공사",
       "registered_at": "2026-06-09",
-      "views": "631",
+      "views": "686",
       "pblancId": "PBLN_000000000122962",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122962"
     },
@@ -98,7 +112,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "639",
+      "views": "694",
       "pblancId": "PBLN_000000000122961",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122961"
     },
@@ -112,7 +126,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "632",
+      "views": "685",
       "pblancId": "PBLN_000000000122960",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122960"
     },
@@ -126,7 +140,7 @@
       "ministry": "과학기술정보통신부",
       "agency": "원주의료기기산업진흥원",
       "registered_at": "2026-06-09",
-      "views": "640",
+      "views": "700",
       "pblancId": "PBLN_000000000122959",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122959"
     },
@@ -140,7 +154,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "631",
+      "views": "684",
       "pblancId": "PBLN_000000000122958",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122958"
     },
@@ -154,7 +168,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "633",
+      "views": "685",
       "pblancId": "PBLN_000000000122957",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122957"
     },
@@ -168,7 +182,7 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "629",
+      "views": "676",
       "pblancId": "PBLN_000000000122956",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122956"
     },
@@ -182,7 +196,7 @@
       "ministry": "서울특별시",
       "agency": "한국과학기술연구원",
       "registered_at": "2026-06-09",
-      "views": "648",
+      "views": "709",
       "pblancId": "PBLN_000000000122955",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122955"
     },
@@ -196,7 +210,7 @@
       "ministry": "부산광역시",
       "agency": "부산정보산업진흥원",
       "registered_at": "2026-06-09",
-      "views": "629",
+      "views": "672",
       "pblancId": "PBLN_000000000122954",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122954"
     },
@@ -210,9 +224,9 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-09",
-      "views": "645",
+      "views": "697",
       "pblancId": "PBLN_000000000122953",
-      "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122953"
+      "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122953"
     },
     {
       "no": "1471",
@@ -224,7 +238,7 @@
       "ministry": "광주광역시",
       "agency": "광주경제진흥상생일자리재단",
       "registered_at": "2026-06-09",
-      "views": "53",
+      "views": "128",
       "pblancId": "PBLN_000000000122952",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122952"
     },
@@ -238,7 +252,7 @@
       "ministry": "광주광역시",
       "agency": "광주테크노파크",
       "registered_at": "2026-06-09",
-      "views": "33",
+      "views": "88",
       "pblancId": "PBLN_000000000122951",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122951"
     },
@@ -252,7 +266,7 @@
       "ministry": "부산광역시",
       "agency": "부산정보산업진흥원",
       "registered_at": "2026-06-09",
-      "views": "32",
+      "views": "71",
       "pblancId": "PBLN_000000000122950",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122950"
     },
@@ -266,7 +280,7 @@
       "ministry": "경기도",
       "agency": "기초자치단체",
       "registered_at": "2026-06-09",
-      "views": "34",
+      "views": "81",
       "pblancId": "PBLN_000000000122949",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122949"
     },
@@ -280,7 +294,7 @@
       "ministry": "경기도",
       "agency": "시흥산업진흥원",
       "registered_at": "2026-06-09",
-      "views": "31",
+      "views": "71",
       "pblancId": "PBLN_000000000122948",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122948"
     },
@@ -294,7 +308,7 @@
       "ministry": "문화체육관광부",
       "agency": "한국콘텐츠진흥원",
       "registered_at": "2026-06-09",
-      "views": "33",
+      "views": "81",
       "pblancId": "PBLN_000000000122947",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122947"
     },
@@ -308,7 +322,7 @@
       "ministry": "산업통상부",
       "agency": "원주의료기기산업진흥원",
       "registered_at": "2026-06-09",
-      "views": "33",
+      "views": "76",
       "pblancId": "PBLN_000000000122946",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122946"
     },
@@ -322,7 +336,7 @@
       "ministry": "대구광역시",
       "agency": "대구경북패션사업협동조합",
       "registered_at": "2026-06-09",
-      "views": "30",
+      "views": "70",
       "pblancId": "PBLN_000000000122945",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122945"
     },
@@ -336,7 +350,7 @@
       "ministry": "대구광역시",
       "agency": "대구문화예술진흥원",
       "registered_at": "2026-06-09",
-      "views": "28",
+      "views": "70",
       "pblancId": "PBLN_000000000122944",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122944"
     },
@@ -350,7 +364,7 @@
       "ministry": "산업통상부",
       "agency": "전남테크노파크",
       "registered_at": "2026-06-09",
-      "views": "32",
+      "views": "77",
       "pblancId": "PBLN_000000000122943",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122943"
     },
@@ -364,7 +378,7 @@
       "ministry": "세종특별자치시",
       "agency": "세종상공회의소",
       "registered_at": "2026-06-09",
-      "views": "32",
+      "views": "89",
       "pblancId": "PBLN_000000000122942",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122942"
     },
@@ -378,7 +392,7 @@
       "ministry": "경상북도",
       "agency": "포스텍인공지능연구원",
       "registered_at": "2026-06-09",
-      "views": "32",
+      "views": "73",
       "pblancId": "PBLN_000000000122941",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122941"
     },
@@ -392,7 +406,7 @@
       "ministry": "세종특별자치시",
       "agency": "세종상공회의소",
       "registered_at": "2026-06-09",
-      "views": "32",
+      "views": "80",
       "pblancId": "PBLN_000000000122940",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122940"
     },
@@ -406,23 +420,9 @@
       "ministry": "경상북도",
       "agency": "경북지식재산센터",
       "registered_at": "2026-06-09",
-      "views": "35",
+      "views": "76",
       "pblancId": "PBLN_000000000122939",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122939"
-    },
-    {
-      "no": "1457",
-      "category": "수출",
-      "title": "[전남] 2026년 중앙아시아(우즈베키스탄, 몽골) 시장개척단 파견 참가기업 모집 공고",
-      "start_date": "2026-06-08",
-      "end_date": "2026-07-10",
-      "period_text": "2026-06-08 ~ 2026-07-10",
-      "ministry": "전라남도",
-      "agency": "KOTRA광주전남지원본부",
-      "registered_at": "2026-06-09",
-      "views": "33",
-      "pblancId": "PBLN_000000000122938",
-      "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122938"
     }
   ]
 }

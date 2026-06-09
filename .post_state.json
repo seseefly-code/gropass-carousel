@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[광주] 2026년 김치 온라인 마케팅 지원 대상자 추가 모집 공고(광주김치 온라인 판로 개척 및 홍보) D-4 마감 임박 (광주광역시)",
-      "char_count": 144,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18105785542894484",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8S8ZzGG92",
-      "posted_at": "2026-05-30T00:08:12.785Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "한 가지만 알면 자금 50% 더 받는 비결",
@@ -1743,6 +1729,20 @@
       "media_id": "18099129755139313",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZW4C0wFc04",
       "posted_at": "2026-06-09T07:52:37.824Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 2차 만화웹툰 해외진출지원 KOMICS 프랑스 참가기업 모집 공고 자금 해설 (문화체육관광부)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18078456092647582",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXEEpXEbE1",
+      "posted_at": "2026-06-09T09:37:45.514Z"
     }
   ]
 }
