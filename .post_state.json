@@ -89,30 +89,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-29_케이스스터디_대표_혼자_신청서_써서_5천_받은_케이스.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 8,
-        "halluc": 6,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "구체 사업명을 명시하지 않고 '제조업 소공인' 일반 맥락으로 처리. announcement의 충청호남권 상생소공인특화지원센터를 직접 호명하지 않음 — 안전한 처리",
-          "5천만원이라는 구체 금액이 자칫 '소공인도 혼자 신청하면 5천 받을 수 있다'는 오해를 만들 수 있음. 다만 케이스스터디 형식의 자기 경험 narrative이므로 BAN 트리거까지는 아님",
-          "최근 케이스스터디가 3건이나 있고 모두 '어제 케이스/사례 들었는데' 도입부가 동일. 후킹 패턴 반복",
-          "다만 주제(소공인 혼자 신청 → 5천만원)는 기존과 다름",
-          "본문이 '근데 이 분이 처음 상담할 때'에서 끊겨 있음 — 미완성 본문일 가능성. 글자수 248자로 짧고 결말부 누락 의심"
-        ]
-      },
-      "posted_at": "2026-05-29T14:43:14.595Z",
-      "review_required": true
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "정책자금 평가 기준이 바뀌는 방향",
@@ -1763,6 +1739,20 @@
       "media_id": "17943129681038455",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZWCYwul_9f",
       "posted_at": "2026-06-09T00:03:46.836Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
+      "char_count": 199,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18106126990798014",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZWkLAJjh94",
+      "posted_at": "2026-06-09T04:59:00.206Z"
     }
   ]
 }
