@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "char_count": 225,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18103980347008377",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY7EnvfFJE4",
-      "posted_at": "2026-05-29T12:43:48.121Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
@@ -1763,6 +1749,20 @@
       "media_id": "18001054169761379",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZV8Dd4GkgQ",
       "posted_at": "2026-06-08T23:08:27.645Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안) D-4 마감 임박 (중소벤처기업부)",
+      "char_count": 198,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17943129681038455",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZWCYwul_9f",
+      "posted_at": "2026-06-09T00:03:46.836Z"
     }
   ]
 }
