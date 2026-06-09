@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 8,
     "공감페인": 6,
-    "케이스스터디": 2,
+    "케이스스터디": 3,
     "숫자팩트": 6,
     "마감알림": 7,
     "오해풀기": 14,
@@ -88,28 +88,6 @@
     "PBLN_000000000122895"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
-      "char_count": 222,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-30_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "구체 수치는 자기 경험 묘사 수준으로 검증 불필요",
-          "#11 컨설팅 관련 케이스스터디와 주제 인접하나 각도(공감페인 vs 케이스)가 달라 중복 수준은 낮음"
-        ]
-      },
-      "posted_at": "2026-05-30T06:48:16.710Z",
-      "media_id": "17986778384817552",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY9AvRClra_"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1743,6 +1721,30 @@
       "media_id": "18015681194893726",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZXYBopEeEQ",
       "posted_at": "2026-06-09T12:32:06.580Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
+      "char_count": 226,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-09_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 8,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "언급된 두 사업 모두 announcement 컨텍스트에 존재 (김천시 중소기업 기술성장 디딤돌 사업, 경북 중소벤처기업 AI 기술융합 스케일업 지원사업). 경북 지역, 테크노파크 수행 모두 부합",
+          "자기 경험·전언 형태로 추상화되어 있고 구체 금액·비용·선정률 같은 검증 위험 수치 없음. 케이스 디테일은 익명화되어 BAN 리스크 낮음",
+          "최근 케이스스터디 2건(청년창업패키지→시리즈A, 매출1억 R&D 5억)과 주제·각도 모두 다름. 폐업 위기 제조업체 회생 서사는 새로운 각도",
+          "반말 유지, 해시태그 없음, 이모지 없음, 226자로 분량 적정, AI 정형 도입부 없음"
+        ]
+      },
+      "posted_at": "2026-06-09T14:29:17.911Z",
+      "media_id": "18103649618109090",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXlcoUDp-D"
     }
   ]
 }
