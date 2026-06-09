@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18078199166640104",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8ykzxnBwx",
-      "posted_at": "2026-05-30T04:44:37.512Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
@@ -1743,6 +1729,20 @@
       "media_id": "18078456092647582",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZXEEpXEbE1",
       "posted_at": "2026-06-09T09:37:45.514Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18155899081461561",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXMgrXlAzi",
+      "posted_at": "2026-06-09T10:51:28.818Z"
     }
   ]
 }
