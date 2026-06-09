@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18053101841737771",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8-NzMkZUZ",
-      "posted_at": "2026-05-30T06:26:19.764Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
@@ -1743,6 +1729,20 @@
       "media_id": "18155899081461561",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZXMgrXlAzi",
       "posted_at": "2026-06-09T10:51:28.818Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18015681194893726",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXYBopEeEQ",
+      "posted_at": "2026-06-09T12:32:06.580Z"
     }
   ]
 }
