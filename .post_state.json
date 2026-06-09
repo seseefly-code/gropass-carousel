@@ -89,20 +89,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "자금 캘린더 만드는 법",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18020619860674322",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY8LmTMj6zM",
-      "posted_at": "2026-05-29T23:04:01.833Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[광주] 2026년 김치 온라인 마케팅 지원 대상자 추가 모집 공고(광주김치 온라인 판로 개척 및 홍보) D-4 마감 임박 (광주광역시)",
@@ -1743,6 +1729,20 @@
       "media_id": "17954054060983081",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZWxMkMlZ-V",
       "posted_at": "2026-06-09T06:52:48.419Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
+      "char_count": 163,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18099129755139313",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZW4C0wFc04",
+      "posted_at": "2026-06-09T07:52:37.824Z"
     }
   ]
 }
