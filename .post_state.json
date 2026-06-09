@@ -91,29 +91,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
-      "char_count": 231,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-30_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md",
-      "verdict": {
-        "decision": "review",
-        "score": 5,
-        "fact": 8,
-        "halluc": 8,
-        "dup": 4,
-        "tone": 9,
-        "issues": [
-          "언급된 3개 사업 모두 announcement 컨텍스트에 실재함 (AX 원스톱 바우처, 바이오헬스분야 연구개발사업, 자동차산업기술개발사업)",
-          "구체 수치/비용 없음. 다만 '심사에서 밀린다'는 단정적 주장은 검증 어려운 분위기 진술이나 추상화 수준이라 허용 가능",
-          "최근 트렌드 게시물 3개와 메시지가 상당히 겹침: [11]은 'AI·딥테크·바이오헬스로 예산 쏠림 + AX바우처/바이오헬스R&D/자동차기술개발 인용'으로 거의 동일한 사업명 나열, [12]는 'AI·자동화·바이오헬스·콘텐츠IP 키워드 쏠림', [13]은 'AI 활용 여부가 평가기준에 들어옴'. 각도(AI 억지로 붙이면 걸러진다)는 약간 새롭지만 핵심 인사이트와 인용 사업명이 [11]과 거의 중복",
-          "존댓말/해시태그/이모지/클릭베이트 없음. 231자로 분량 적절. 반말 톤 일관"
-        ]
-      },
-      "posted_at": "2026-05-30T09:50:50.608Z",
-      "review_required": true
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
@@ -1754,6 +1731,20 @@
       "posted_at": "2026-06-09T15:58:23.109Z",
       "media_id": "18126384427554204",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZXvpHUlFpF"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "신년 새 자금 공고 예고",
+      "char_count": 193,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18031061039819998",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZYhMwRmt1W",
+      "posted_at": "2026-06-09T23:11:31.743Z"
     }
   ]
 }
