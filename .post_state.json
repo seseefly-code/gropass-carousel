@@ -91,28 +91,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "char_count": 211,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-31_트렌드_글로벌_진출_자금_비중_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "구체 수치 없이 트렌드 관찰만 서술해 위험 낮음",
-          "같은 날 트렌드 글이 3건(AI R&D, 그린환경, 본 글) 있으나 각도(글로벌 진출)가 달라 의미적 중복은 낮음"
-        ]
-      },
-      "posted_at": "2026-05-31T10:07:23.422Z",
-      "media_id": "18117689671684673",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_8UdNlsMi"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
@@ -1728,6 +1706,20 @@
       "media_id": "17941597320231906",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ1xoJkbgn",
       "posted_at": "2026-06-10T11:30:32.739Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
+      "char_count": 226,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18128650435616548",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ-5QSkfqa",
+      "posted_at": "2026-06-10T12:50:14.325Z"
     }
   ]
 }
