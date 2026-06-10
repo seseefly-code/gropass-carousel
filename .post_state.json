@@ -91,20 +91,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
-      "char_count": 226,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17888797965550974",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_sV6_lnNl",
-      "posted_at": "2026-05-31T07:47:52.108Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 6월 문화산업 완성보증 공고 자금 해설 (문화체육관광부)",
@@ -1737,6 +1723,20 @@
       "media_id": "17879396535603146",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZe5VLFcw7",
       "posted_at": "2026-06-10T08:10:36.449Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[인천] 2026년 3차 지식재산 긴급지원 사업 모집 공고 자금 해설 (인천광역시)",
+      "char_count": 238,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18045704030788751",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZquRKkeIE",
+      "posted_at": "2026-06-10T09:53:58.168Z"
     }
   ]
 }
