@@ -91,29 +91,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 6월 문화산업 완성보증 공고 자금 해설 (문화체육관광부)",
-      "char_count": 214,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-31_자금해설_2026년_6월_문화산업_완성보증_공고_자금_해설_문화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "announcement에 '2026년 6월 문화산업 완성보증 공고'가 6/1~6/8로 명시되어 있어 일치",
-          "마감일 6/8은 announcement와 일치. 보증 구조 설명은 일반론 수준이라 위험도 낮음",
-          "같은 날 콘텐츠IP보증 자금해설 게시됨. 둘 다 한국콘텐츠진흥원/문체부 6월 8일 마감 보증 상품 해설이라 포맷·각도가 유사. 다만 IP보증과 완성보증은 다른 상품이고 설명 각도(IP 담보 vs 제작 막바지 자금 쇼트)는 구분됨"
-        ]
-      },
-      "posted_at": "2026-05-31T08:42:21.958Z",
-      "media_id": "18099321421890090",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_ylvWFWso"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "글로벌 진출 자금 비중 변화",
@@ -1737,6 +1714,20 @@
       "media_id": "18045704030788751",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZquRKkeIE",
       "posted_at": "2026-06-10T09:53:58.168Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "여성기업 우대 자금 변화",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17941597320231906",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ1xoJkbgn",
+      "posted_at": "2026-06-10T11:30:32.739Z"
     }
   ]
 }
