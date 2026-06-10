@@ -91,20 +91,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18128263489618232",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_arpGluiR",
-      "posted_at": "2026-05-31T05:13:31.608Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "정책자금 받은 기업의 3년 생존율",
@@ -1737,6 +1723,20 @@
       "media_id": "18598155367016646",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZKSP8FJGb",
       "posted_at": "2026-06-10T05:10:31.966Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18094314686211705",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZYNu0lg3A",
+      "posted_at": "2026-06-10T07:12:14.642Z"
     }
   ]
 }
