@@ -91,28 +91,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
-      "char_count": 210,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-30_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "자기 경험 기반 수치라 검증 불가하나 위험하지 않음",
-          "기업마당 활용 팁이 [2]에 있으나 각도가 다름(캘린더 vs 공고 가독성 페인). 중복 아님"
-        ]
-      },
-      "posted_at": "2026-05-30T14:42:55.049Z",
-      "media_id": "18111109855920368",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY93Dq5kbPT"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "매주 월요일 신규 공고 체크 루틴",
@@ -1745,6 +1723,20 @@
       "media_id": "18031061039819998",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZYhMwRmt1W",
       "posted_at": "2026-06-09T23:11:31.743Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[전남] 2026년 프랑스 파리 식품박람회(SIAL Paris) 참가 희망기업 모집 공고 D-8 마감 (전라남도)",
+      "char_count": 168,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17952143466159586",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZYn_lBGntA",
+      "posted_at": "2026-06-10T00:10:53.298Z"
     }
   ]
 }
