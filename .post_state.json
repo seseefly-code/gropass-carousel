@@ -91,20 +91,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "매주 월요일 신규 공고 체크 루틴",
-      "char_count": 234,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18084258752111382",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY-upJ_CbIJ",
-      "posted_at": "2026-05-30T22:48:43.508Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 신청 타이밍이 결과를 가르는 이유",
@@ -1737,6 +1723,20 @@
       "media_id": "17952143466159586",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZYn_lBGntA",
       "posted_at": "2026-06-10T00:10:53.298Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18598155367016646",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZKSP8FJGb",
+      "posted_at": "2026-06-10T05:10:31.966Z"
     }
   ]
 }
