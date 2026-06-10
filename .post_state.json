@@ -91,20 +91,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "정책자금 받은 기업의 3년 생존율",
-      "char_count": 224,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18222290335316194",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DY_m4vElulw",
-      "posted_at": "2026-05-31T07:00:10.344Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "마감 1시간 전 서류 부족 알아챈 순간",
@@ -1737,6 +1723,20 @@
       "media_id": "18094314686211705",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZYNu0lg3A",
       "posted_at": "2026-06-10T07:12:14.642Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17879396535603146",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZe5VLFcw7",
+      "posted_at": "2026-06-10T08:10:36.449Z"
     }
   ]
 }
