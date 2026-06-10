@@ -91,28 +91,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
-      "char_count": 237,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-05-31_솔직인사이트_똑같은_사업인데_누군_5천_받고_누군_못_받는_진짜_이.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "5천만원이라는 금액이 구체적이지만 자기 경험 사례로 일반화된 수준이라 허용 가능",
-          "솔직인사이트 톤과 '심사위원이 보는 관점' 각도가 비슷하지만, 타이밍 vs 사업계획서 연결성으로 메시지 각도는 다름"
-        ]
-      },
-      "posted_at": "2026-05-31T11:29:42.186Z",
-      "media_id": "18098532278229332",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZAFvV7FArN"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
@@ -1720,6 +1698,20 @@
       "media_id": "18128650435616548",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ-5QSkfqa",
       "posted_at": "2026-06-10T12:50:14.325Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17899723074454978",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZaNPYLkehe",
+      "posted_at": "2026-06-10T14:55:35.426Z"
     }
   ]
 }
