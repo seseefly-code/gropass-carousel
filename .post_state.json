@@ -1,6 +1,6 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
@@ -8,7 +8,7 @@
     "숫자팩트": 7,
     "마감알림": 8,
     "오해풀기": 15,
-    "트렌드": 8
+    "트렌드": 9
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -90,20 +90,6 @@
     "PBLN_000000000122964"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
-      "char_count": 232,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18432626515189107",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZASEGBCT_i",
-      "posted_at": "2026-05-31T13:17:33.292Z"
-    },
     {
       "slot": "night",
       "type": "오해풀기",
@@ -1712,6 +1698,29 @@
       "media_id": "17899723074454978",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZaNPYLkehe",
       "posted_at": "2026-06-10T14:55:35.426Z"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
+      "char_count": 232,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-10_트렌드_비RD_사업화_자금이_새로_생기는_이유.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "'동남권 M1형'은 announcement의 '2026년 동남권 지역혁신클러스터육성사업(비R&D) 추가모집 공고(동남권 M1형)'에 정확히 매칭됨. 사업 성격(비R&D 실증·사업화)도 공고명과 일치.",
+          "구체 수치·비용·선정률 없음. 모두 일반화된 트렌드 진술로 위험도 낮음.",
+          "최근 트렌드 글([0] DX, [1] 지역특화, [2] 청년/시니어, [14] 여성기업)과 주제·각도 모두 다름. 'R&D vs 비R&D 사업화' 축은 새로움."
+        ]
+      },
+      "posted_at": "2026-06-10T16:37:01.889Z",
+      "media_id": "17996940527975161",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZaY3A_ESuM"
     }
   ]
 }
