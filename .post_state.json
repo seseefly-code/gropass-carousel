@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
-    "공감페인": 10,
+    "공감페인": 11,
     "케이스스터디": 8,
     "숫자팩트": 9,
     "마감알림": 9,
@@ -92,30 +92,6 @@
     "PBLN_000000000123024"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "평가위원 한 명이 결과를 바꾼 사례",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-01_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 8,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "구체 사업명 호명 없음, R&D 심사 일반론으로 안전",
-          "'평가위원 3~5명'은 R&D 평가에서 일반적으로 알려진 범위로 큰 리스크는 아님",
-          "나머지는 모두 추상화된 서술 (익명 사례, '평균보다 확')",
-          "[6]과 [11]이 '심사 통과의 진짜 변수' 주제로 겹치지만, 이번 글은 '평가위원 개인 영향력·질문 대비'라는 새로운 각도라 차별화됨"
-        ]
-      },
-      "posted_at": "2026-06-01T17:19:57.153Z",
-      "media_id": "18031975142810587",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZDSni8FKdx"
-    },
     {
       "slot": "night",
       "type": "트렌드",
@@ -1757,6 +1733,28 @@
       },
       "posted_at": "2026-06-11T15:38:05.332Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "자격 한 줄 차이로 안 된 신청",
+      "char_count": 198,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_공감페인_자격_한_줄_차이로_안_된_신청.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "구체 수치가 등장하지만 가상의 예시 상황을 묘사하는 맥락이라 특정 사업을 단정짓지 않음",
+          "최근 공감페인 2건과 같은 카테고리지만 각도는 다름 (자격 미달 페인은 새로운 주제)"
+        ]
+      },
+      "posted_at": "2026-06-11T16:56:35.228Z",
+      "media_id": "18105199328007582",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZc_5JRFFlm"
     }
   ]
 }
