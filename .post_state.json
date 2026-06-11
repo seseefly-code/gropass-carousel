@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
     "공감페인": 10,
-    "케이스스터디": 6,
+    "케이스스터디": 7,
     "숫자팩트": 9,
     "마감알림": 9,
     "오해풀기": 1,
@@ -92,20 +92,6 @@
     "PBLN_000000000123024"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "char_count": 225,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17947183050189391",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZC3-GnGrQW",
-      "posted_at": "2026-06-01T13:27:12.729Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1740,6 +1726,33 @@
       "media_id": "18199069420366508",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZcePj3lf69",
       "posted_at": "2026-06-11T12:02:38.390Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "char_count": 282,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
+      "verdict": {
+        "decision": "fail",
+        "score": 4,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 4,
+        "issues": [
+          "일화 기반 케이스로 검증 불가하나 구체 수치·비용·사업명이 없어 BAN 리스크는 낮음",
+          "단, 본문이 중간에 끊겨 있어 결론부가 없는 상태",
+          "최근 이틀간 케이스스터디 2건이 이미 게시됨 (폐업위기 케이스, 수출바우처 케이스)",
+          "'어제 얘기 들은 케이스/어제 재밌는 케이스' 도입 패턴이 반복됨 — 후킹 문장 유사",
+          "주제(사업계획서 한 줄 변경)는 새롭지만 형식·톤이 매우 유사",
+          "본문이 '사업 목적 첫 줄에' 에서 끊겨 있음 — 핵심 인사이트(어떻게 바꿨는지)가 누락된 미완성 포스트",
+          "282자라고 표기되어 있으나 실제로는 결론 없이 단절되어 게시 불가 상태",
+          "케이스스터디의 핵심인 '교훈/인사이트' 부분이 통째로 빠져 있음"
+        ]
+      },
+      "posted_at": "2026-06-11T13:54:06.707Z",
+      "discarded": true
     }
   ]
 }
