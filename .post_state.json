@@ -93,20 +93,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "17875009896491468",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZCcuaMDdcl",
-      "posted_at": "2026-06-01T09:29:08.535Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[부산] 가상융합 기업 해외 전시회 참가 지원사업 모집 연장 공고 자금 해설 (부산광역시)",
@@ -1740,6 +1726,20 @@
       },
       "posted_at": "2026-06-11T08:48:56.405Z",
       "review_required": true
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[광주] 청년창업기업 엑셀러레이팅 프로그램 참여기업 추가 모집 공고 자금 해설 (광주광역시)",
+      "char_count": 230,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18094903229263057",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZcSW2FETaU",
+      "posted_at": "2026-06-11T10:18:48.807Z"
     }
   ]
 }
