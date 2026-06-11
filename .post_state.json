@@ -93,20 +93,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "2026년 마켓플레이스 특화 비즈매칭(캐나다) K-Animation Spotlight 참가기업 모집 공고 D-3 마감 임박 (문화체육관광부)",
-      "char_count": 193,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17898432165309494",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZBTpHumK3s",
-      "posted_at": "2026-05-31T22:50:31.586Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 2차 연장 공고 D-4 마감 임박 (전북특별자치도)",
@@ -1723,6 +1709,20 @@
       "media_id": "18070088279364154",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZbG5kGktac",
       "posted_at": "2026-06-10T23:19:28.699Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[경남] 2026년 지진안전산업 기술지원 수혜기업 모집 공고(행정안전부 지진 안전 기반 구축 사업) D-5 마감 임박 (행정안전부)",
+      "char_count": 207,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18064267970472399",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZbNDygjX6Z",
+      "posted_at": "2026-06-11T00:13:14.214Z"
     }
   ]
 }
