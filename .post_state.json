@@ -93,20 +93,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[전북] 2026년 SW강소기업 도약 패키지 지원사업 2차 연장 공고 D-4 마감 임박 (전북특별자치도)",
-      "char_count": 181,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17863488468630955",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZBcDMnjac_",
-      "posted_at": "2026-06-01T00:03:58.000Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "컨설팅비 1천 vs 직접 알아서 하기",
@@ -1723,6 +1709,20 @@
       "media_id": "18064267970472399",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZbNDygjX6Z",
       "posted_at": "2026-06-11T00:13:14.214Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "char_count": 280,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18400752112153045",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZbwXTxDrHe",
+      "posted_at": "2026-06-11T05:21:45.408Z"
     }
   ]
 }
