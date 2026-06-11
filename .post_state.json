@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
-    "공감페인": 9,
+    "공감페인": 10,
     "케이스스터디": 6,
     "숫자팩트": 9,
     "마감알림": 9,
@@ -92,20 +92,6 @@
     "PBLN_000000000123024"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
-      "char_count": 198,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18064752662687592",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZCW2EHlqQO",
-      "posted_at": "2026-06-01T08:37:43.618Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1732,6 +1718,28 @@
       },
       "posted_at": "2026-06-11T08:06:57.249Z",
       "discarded": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "정책자금 카페에서 검색만 3시간",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_공감페인_정책자금_카페에서_검색만_3시간.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "자기 경험 묘사로 보이는 수치라 위험도 낮음",
+          "[3]번 게시물과 '기업마당 들어가서 30분 헤맴' 모티프가 거의 동일. 각도(옆 회사 소식 vs 카페 검색 시간낭비)는 다르지만 핵심 페인(기업마당 검색 시간낭비)이 겹침",
+          "이모지 2개 사용 — 한도 내지만 경계선"
+        ]
+      },
+      "posted_at": "2026-06-11T08:48:56.405Z",
+      "review_required": true
     }
   ]
 }
