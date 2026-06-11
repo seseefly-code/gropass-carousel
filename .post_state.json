@@ -93,20 +93,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[부산] 가상융합 기업 해외 전시회 참가 지원사업 모집 연장 공고 자금 해설 (부산광역시)",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "17885308593571015",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZCqPgyFIBA",
-      "posted_at": "2026-06-01T11:27:13.587Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "청년창업 자금 vs 시니어창업 자금 격차",
@@ -1740,6 +1726,20 @@
       "media_id": "18094903229263057",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZcSW2FETaU",
       "posted_at": "2026-06-11T10:18:48.807Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "메타버스·블록체인 자금이 줄어든 이유",
+      "char_count": 268,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18199069420366508",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZcePj3lf69",
+      "posted_at": "2026-06-11T12:02:38.390Z"
     }
   ]
 }
