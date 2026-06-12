@@ -95,20 +95,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18561523405066322",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZE75ZilEvk",
-      "posted_at": "2026-06-02T08:40:01.213Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[경북] 2026년 G-Star Pitchday 1차 예선 모집 연장 공고 자금 해설 (경상북도)",
@@ -1746,6 +1732,20 @@
       "media_id": "17953684647170650",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZeqZJlFozH",
       "posted_at": "2026-06-12T08:27:16.784Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[인천] 2026년 푸드위크 코리아(FOOD WEEK KOREA 2026) 참가기업 모집 공고(6차산업 경쟁력 강화 지원사업) 자금 해설 (인천광역시)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18113949406849884",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZe1wrSlXtU",
+      "posted_at": "2026-06-12T10:06:36.604Z"
     }
   ]
 }
