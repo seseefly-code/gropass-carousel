@@ -95,20 +95,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
-      "char_count": 224,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18110100004728817",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZElYGMDQcj",
-      "posted_at": "2026-06-02T05:23:11.252Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "수출바우처 평균 활용 금액",
@@ -1746,6 +1732,20 @@
       "media_id": "18166517005432713",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZeVpM0Dhg8",
       "posted_at": "2026-06-12T05:25:59.124Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
+      "char_count": 219,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18100665380165918",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZejU-iFamU",
+      "posted_at": "2026-06-12T07:25:33.397Z"
     }
   ]
 }
