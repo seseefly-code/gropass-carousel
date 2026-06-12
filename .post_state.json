@@ -95,20 +95,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "수출바우처 평균 활용 금액",
-      "char_count": 221,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17871831174616975",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZEzkB4Fdji",
-      "posted_at": "2026-06-02T07:27:09.764Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
@@ -1746,6 +1732,20 @@
       "media_id": "18100665380165918",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZejU-iFamU",
       "posted_at": "2026-06-12T07:25:33.397Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17953684647170650",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZeqZJlFozH",
+      "posted_at": "2026-06-12T08:27:16.784Z"
     }
   ]
 }
