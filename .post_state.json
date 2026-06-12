@@ -98,20 +98,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "신청서에 쓰면 안 되는 표현 5가지",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17968625025098675",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZFf5_7lq1B",
-      "posted_at": "2026-06-02T13:54:37.795Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
@@ -1759,6 +1745,20 @@
       "media_id": "17885073228580570",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZfIfwilUhO",
       "posted_at": "2026-06-12T12:50:19.383Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "[강원] 원주시 2026년 임업인수당 지원사업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
+      "char_count": 178,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18077421011273680",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZgPO2zD7zD",
+      "posted_at": "2026-06-12T23:08:26.509Z"
     }
   ]
 }
