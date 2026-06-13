@@ -98,20 +98,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 글로벌 게임 현지화 지원(해외 이용자평가) 참가 프로젝트 추가모집 공고 D-3 마감 임박 (문화체육관광부)",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18005413661922748",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZGoOZejaV5",
-      "posted_at": "2026-06-03T00:26:33.680Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "현장 평가 떨어지는 이유 90%",
@@ -1729,6 +1715,20 @@
       "media_id": "18110969512918632",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZhFUODFb5C",
       "posted_at": "2026-06-13T07:01:01.060Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
+      "char_count": 153,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 7
+      },
+      "media_id": "18160855696460378",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhLEwVFtYF",
+      "posted_at": "2026-06-13T07:51:20.595Z"
     }
   ]
 }
