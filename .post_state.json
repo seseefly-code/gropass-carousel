@@ -98,33 +98,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
-      "char_count": 233,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-02_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 7,
-        "halluc": 9,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "'청년창업패키지'는 정확한 공식 사업명이 아님. 실제로는 '청년창업사관학교' 또는 '초기창업패키지'가 정식 명칭. 다만 통상적으로 혼용되는 표현이고 구체 조건·금액을 명시하지 않아 BAN 리스크는 낮음",
-          "TIPS는 화이트리스트 사업으로 OK",
-          "구체 수치·비용·조건 없음. '시리즈A까지 성장'은 일반적 서술",
-          "'어제 데이터 보다가'는 자기 경험 톤으로 OK",
-          "같은 날(6/1) 케이스스터디 타입이 3개 이미 게시됨. 본 포스트까지 합치면 케이스스터디 4개 연속",
-          "다만 각도는 다름: 본 포스트는 '자금 간 연결 설계'라는 메타 관점이라 인사이트 자체는 새로움",
-          "존댓말·해시태그·이모지·여러분 없음. 233자로 글자수 OK",
-          "'~거든', '~더라' 등 반말 톤 일관성 좋음"
-        ]
-      },
-      "posted_at": "2026-06-02T16:03:59.305Z",
-      "review_required": true
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "자격 한 줄 차이로 안 된 신청",
@@ -1759,6 +1732,20 @@
       "media_id": "18077421011273680",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZgPO2zD7zD",
       "posted_at": "2026-06-12T23:08:26.509Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[대전] 2026년 인디(inD) 게임스쿨ㆍ인턴십 지원사업 인턴십 프로그램 참가기업 모집 공고 D-5 마감 임박 (대전광역시)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17899410261309286",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZgXQ0YlJ0I",
+      "posted_at": "2026-06-13T00:18:35.396Z"
     }
   ]
 }
