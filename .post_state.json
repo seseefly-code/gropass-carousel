@@ -6,7 +6,7 @@
     "공감페인": 15,
     "케이스스터디": 12,
     "숫자팩트": 12,
-    "마감알림": 11,
+    "마감알림": 12,
     "오해풀기": 2,
     "트렌드": 2
   },
@@ -99,20 +99,6 @@
     "PBLN_000000000123114"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "여성기업 우대 자금 변화",
-      "char_count": 238,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18103956131049498",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZH6-pUFsIT",
-      "posted_at": "2026-06-03T12:29:42.155Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1754,6 +1740,26 @@
         ]
       },
       "posted_at": "2026-06-13T15:03:40.383Z",
+      "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "내 분야 자금 알림 등록 권유",
+      "char_count": 231,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-13_마감알림_내_분야_자금_알림_등록_권유.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "[6] 게시물과 주제가 유사함 - 기업마당 검색의 어려움, 업종·지역·업력 기준으로 필터링 필요성을 동일하게 언급. 다만 본 포스트는 '마감 놓침'에서 출발한 각도이고, [6]은 '검색 시작점'에서 출발한 각도라 완전 중복은 아님"
+        ]
+      },
+      "posted_at": "2026-06-13T22:55:09.489Z",
       "review_required": true
     }
   ]
