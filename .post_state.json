@@ -98,20 +98,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
-      "char_count": 174,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18105304642951449",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZHiuCrHJlA",
-      "posted_at": "2026-06-03T08:57:41.637Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[전북] 2026년 2차 벤처기업 혁신제품 시장진출 지원사업 모집 공고 자금 해설 (전북특별자치도)",
@@ -1745,6 +1731,20 @@
       "posted_at": "2026-06-13T11:49:59.380Z",
       "media_id": "18079063232652105",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZhmZaRkhk5"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
+      "char_count": 225,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18139412401546150",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhxplhkXRo",
+      "posted_at": "2026-06-13T13:28:25.956Z"
     }
   ]
 }
