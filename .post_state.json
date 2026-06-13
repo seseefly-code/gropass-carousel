@@ -98,29 +98,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "이번 주 마감 임박 자금 체크 권유",
-      "char_count": 160,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-02_마감알림_이번_주_마감_임박_자금_체크_권유.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 9,
-        "halluc": 10,
-        "dup": 5,
-        "tone": 10,
-        "issues": [
-          "모두 announcement 컨텍스트에 존재하는 D-3 공고이고 수행기관도 정확함",
-          "마감일은 announcement와 일치, 5분 검색은 일반 표현",
-          "오늘(6/2) 같은 두 공고를 각각 개별 마감알림으로 이미 게시했는데, 본 포스트는 두 개를 묶은 형태로 메시지가 중첩됨",
-          "다만 '두 개 묶음 + 기업마당 검색 권유'라는 각도는 약간 다름"
-        ]
-      },
-      "posted_at": "2026-06-02T23:28:15.059Z",
-      "review_required": true
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 글로벌 게임 현지화 지원(해외 이용자평가) 참가 프로젝트 추가모집 공고 D-3 마감 임박 (문화체육관광부)",
@@ -1738,6 +1715,20 @@
       "media_id": "17857731612660337",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZg5MXtlSYg",
       "posted_at": "2026-06-13T05:15:05.764Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 받은 기업의 3년 생존율",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18110969512918632",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhFUODFb5C",
+      "posted_at": "2026-06-13T07:01:01.060Z"
     }
   ]
 }
