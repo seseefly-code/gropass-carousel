@@ -100,20 +100,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
-      "char_count": 141,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17854252155680320",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJ9JGwlsXQ",
-      "posted_at": "2026-06-04T07:27:05.384Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "받았는데 통장에 들어오기까지 2달 기다림",
@@ -1759,6 +1745,20 @@
       "media_id": "17926633488127247",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZkLOH9FX23",
       "posted_at": "2026-06-14T11:50:19.912Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 214,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17893828515487258",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkWv3JkTrk",
+      "posted_at": "2026-06-14T13:31:04.367Z"
     }
   ]
 }
