@@ -1,226 +1,83 @@
 {
-  "date": "2026-06-14",
-  "generated_at": "2026-06-13T22:08:14.061Z",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-14T22:15:50.989Z",
   "slots": {
     "early_morning": {
-      "status": "rejected",
-      "topic": "사전 등록 필요한 자금 안내",
-      "reason": "review"
-    },
-    "morning": {
       "status": "approved",
-      "topic": "2026년 지역혁신중심 대학지원체계(RISE) 패션기업 신규시장 진출 호주 시드니 팝업스토어 참여 기업 모집 공고 D-4 마감 임박 (대구광역시)",
+      "topic": "자금 캘린더 만드는 법",
       "post": {
         "post_type": "마감알림",
-        "main_post": "대구 패션 브랜드 하는 분들, 이번 주 금요일 마감이야\n\n호주 시드니 팝업스토어 참여기업 모집인데\nRISE 사업 연계라 비용 지원받으면서 신규시장 진출하는 구조거든\n\n시드니가 요즘 K-패션 관심 꽤 올라온 시장이라\n타이밍 나쁘지 않다고 생각해\n\n근데 대구 패션기업 대상이고 D-4라 진짜 얼마 안 남았어\n공고명은 '2026년 RISE 패션기업 신규시장 진출 호주 시드니 팝업스토어 참여기업 모집'\n기업마당에서 바로 찾을 수 있으니까 지금 확인해봐",
-        "char_count": 218,
-        "reasoning": "마감일이 D-4로 임박한 공고를 알려주는 긴급성 콘텐츠라 마감알림 타입이 적합함"
+        "main_post": "자금 캘린더 없이 정책자금 챙기는 건 진짜 불가능해.\n\n매달 공고 수십 개가 뜨는데, 신청기간이 다 달라.\n이번 주만 봐도 D-1짜리 있고, D-3, D-4, D-8짜리 줄줄이야.\n\n내가 쓰는 방법은 단순해.\n기업마당 들어가서 마감일 확인하고, 구글 캘린더에 마감일 기준 -7일 알림 설정.\n그냥 이것만 해도 \"어 이거 어제 마감이었네\" 는 안 생겨.\n\n진짜 중요한 건 공고 뜨자마자 캘린더 꽂는 습관.\n나중에 몰아서 하려다 항상 놓치거든.\n\n지금 이번 주 마감 공고 하나만 먼저 찾아봐.",
+        "char_count": 231,
+        "reasoning": "자금 캘린더 만드는 법은 정보 전달 + 긴급성 유도 구조라 마감알림 타입이 자연스럽고, 실제 이번 주 공고 D-day 데이터를 활용해 현실감을 줄 수 있음"
       },
       "verdict": {
-        "slot": "morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "2026년 RISE 패션기업 신규시장 진출 호주 시드니 팝업스토어 참여기업 모집"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "D-4",
-            "금요일 마감"
-          ],
-          "issues": [
-            "announcement상 D-4·6월 17일 수요일과 일치 여부는 요일 검증 필요하나 D-day는 정확"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "실제 공고 기반, 톤·사실 모두 양호"
-        }
-      }
-    },
-    "late_morning": {
-      "status": "approved",
-      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
-      "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "정책자금 떨어지는 회사들 패턴이 진짜 명확해.\n\n자격 조건 안 맞는 자금에 넣거나,\n지원 한도보다 훨씬 큰 매출 규모인 회사가 그냥 신청하거나.\n\n근데 사실 이것보다 더 많은 케이스가 따로 있어.\n'왜 이 자금이 우리 회사에 필요한가'를 사업계획서에 못 쓰는 거야.\n\n심사자 입장에서 하루에 수십 개 검토하거든.\n읽는 순간 \"이 회사 우리 자금 이해하고 신청한 거 맞아?\" 싶으면 그냥 탈락이야.\n\n정보 찾는 시간보다 왜 이 자금인지 설명하는 시간이 훨씬 중요한 거 맞아.",
-        "char_count": 228,
-        "reasoning": "정책자금 탈락 패턴이라는 주제는 경험 기반 인사이트를 솔직하게 풀어내는 솔직인사이트 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "late_morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "정책자금"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "하루에 수십 개 검토"
-          ],
-          "issues": [
-            "추상화된 표현, 위험 낮음"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-12_케이스스터디_같은_자금에_2년_연속_떨어진_후_받은_케이스.md"
-          ],
-          "issues": [
-            "'왜 이 자금이 우리 회사에 필요한가'를 못 써서 떨어진다는 메시지가 [7]의 '심사관 눈에 왜 이 자금이 필요한지가 안 보였다'와 유사. 각도는 일반론 vs 케이스로 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "중복 우려는 있지만 각도가 달라 통과 가능"
-        }
-      }
-    },
-    "noon": {
-      "status": "approved",
-      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
-      "post": {
-        "post_type": "숫자팩트",
-        "main_post": "TIPS 통해 선정된 기업들, 후속 투자 유치율이 일반 스타트업보다 훨씬 높아.\n\n근데 생각해보면 당연한 구조야.\nTIPS는 민간 VC가 먼저 투자하고 → 정부가 매칭해주는 방식이거든.\n이미 투자 심사를 한 번 통과한 셈이니까.\n\n그러니까 TIPS 선정 = 정부 돈만 받는 게 아니라,\n민간 투자자한테도 \"얘 됩니다\" 신호를 받은 거잖아.\n\n창업 3~7년차 기술 스타트업이라면\nTIPS를 그냥 지원금으로만 보지 말고\n투자 레퍼런스로 봐야 함.",
-        "char_count": 221,
-        "reasoning": "TIPS의 구조적 특성과 후속 투자 연결성을 다루는 주제라 숫자팩트 타입이 적합하지만, 정확한 수치를 모르므로 모드 B(일반화)로 구조적 인사이트 중심으로 작성했다."
-      },
-      "verdict": {
-        "slot": "noon",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "TIPS"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "TIPS 화이트리스트, 민간VC 매칭 구조도 사실"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "후속 투자 유치율이 일반 스타트업보다 훨씬 높아"
-          ],
-          "issues": [
-            "일반화된 표현, 구체 숫자 없음"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "TIPS 구조 설명 정확, 톤 양호"
-        }
-      }
-    },
-    "lunch": {
-      "status": "approved",
-      "topic": "12월에 사라지는 예산 보면서 드는 생각",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "12월 되면 기업마당 들어가면 진짜 웃긴 현상이 있어\n\n갑자기 공고가 쏟아지는 거야\n\n6월에는 \"예산 소진시까지\" 붙은 공고들이 반쯤 열려 있다가\n12월 되면 \"연말 예산 소진 전 마지막 모집\" 이런 게 우르르 뜸\n\n그 돈이 어디서 나온 거냐면\n1~11월 동안 신청 안 해서 남은 거거든\n\n공고를 몰라서 못 받은 회사들 예산이\n연말에 급하게 소진용으로 풀리는 거 보면\n매년 뭔가 진짜 이상하다는 생각 드는 건 나만 그래?",
-        "char_count": 221,
-        "reasoning": "12월 연말 예산 소진 현상에 대한 사장님·창업자라면 공감하는 페인 포인트를 1인칭 관찰자 시점으로 풀어내는 구조가 공감페인 타입에 가장 적합함"
-      },
-      "verdict": {
-        "slot": "lunch",
+        "slot": "early_morning",
         "fact_check": {
           "score": 9,
           "cited_programs": [
             "기업마당"
           ],
           "unverified_programs": [],
-          "issues": [
-            "일반 관찰, 구체 사업명 없음"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "연말 예산 소진 현상"
+            "이번 주 D-1, D-3, D-4, D-8"
           ],
           "issues": [
-            "일반화된 관찰, 위험 낮음"
+            "구체 D-day 나열이지만 announcement와 대체로 일치(D-1 임업인수당, D-3 RISE/인디게임, D-4 부산 AX, D-8 알리바바)"
           ]
         },
         "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
+          "score": 7,
+          "similar_recent_files": [
+            "2026-06-13_마감알림_내_분야_자금_알림_등록_권유.md"
+          ],
+          "issues": [
+            "자금 캘린더/마감 알림 관리라는 주제가 최근 마감알림 게시물과 유사하지만 각도(구글 캘린더 -7일)는 새로움"
+          ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "공감페인 톤 자연스럽고 사실 위험 없음"
+          "reasoning": "사업명을 일반화하고 D-day 정보가 announcement와 일치. 톤·중복 모두 양호."
         }
       }
     },
-    "afternoon": {
+    "morning": {
       "status": "approved",
-      "topic": "[강원] 2026년 4차 알리바바닷컴 입점 지원사업 참가기업 모집 공고 자금 해설 (강원특별자치도)",
+      "topic": "[부산] 2026년 1차 제조업 AI융합 기반 조성 사업 AX클리닉 지원기업 모집 공고 D-4 마감 임박 (부산광역시)",
       "post": {
-        "post_type": "자금해설",
-        "main_post": "알리바바닷컴 입점 지원사업, 이거 생각보다 진짜 쓸 만해\n\n알리바바닷컴은 B2B 글로벌 플랫폼인데\n혼자 입점하려면 초기 비용도 그렇고\n중국어·영어 상세페이지 세팅이 진짜 장벽이거든\n\n강원도에서 이걸 지원해줘\n입점 비용 부담 줄여주고, 운영 컨설팅까지 묶어서\n\n수출 첫 발 떼는 강원 소재 기업한테는\n해외 전시 나가는 것보다 초기 진입 허들이 낮아서 좋아\n\n근데 D-9이야. 이번 주 안에 검토해봐야 함\n강원특별자치도경제진흥원에서 모집 중이고\n6월 22일 마감이니까 서둘러",
-        "char_count": 228,
-        "reasoning": "특정 공고(알리바바닷컴 입점 지원사업)를 풀어 설명하는 내용으로 자금해설 타입이 가장 적합하며, 지원 배경·효용·마감을 녹여 사장님 시점에서 해설함"
+        "post_type": "마감알림",
+        "main_post": "부산에 제조업 하는 사람들 이거 알아?\n\n[부산] 제조업 AI융합 기반 조성 사업 AX클리닉 — 이번 주 D-4 마감이야\n\n쉽게 말하면 제조 현장에 AI 어떻게 붙일지\n진단 + 컨설팅 해주는 거거든\n\n혼자 \"우리 공장에 AI 적용 어떻게 해요\" 고민하다가\n시간만 버리는 회사들 진짜 많더라\n\n부산 소재 제조업체면 확인해봐\n부산정보산업진흥원 통해서 신청하면 됨, 6월 18일까지",
+        "char_count": 188,
+        "reasoning": "D-4 마감 임박 공고에 대한 시간 압박과 정보 전달이 핵심이라 마감알림 타입이 적합하며, 사장님 1인칭 시점의 페인(AI 적용 고민)을 녹여 광고처럼 안 읽히도록 구성했음"
       },
       "verdict": {
-        "slot": "afternoon",
+        "slot": "morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "[강원] 2026년 4차 알리바바닷컴 입점 지원사업",
-            "강원특별자치도경제진흥원"
+            "[부산] 제조업 AI융합 기반 조성 사업 AX클리닉",
+            "부산정보산업진흥원"
           ],
           "unverified_programs": [],
-          "issues": [
-            "announcement에 정확히 매칭, D-9·6월 22일 마감 일치"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 8,
+          "score": 10,
           "risky_claims": [
-            "입점 비용 부담 줄여주고, 운영 컨설팅까지 묶어서"
+            "D-4",
+            "6월 18일 마감"
           ],
           "issues": [
-            "지원 디테일은 listing에 없으나 일반적으로 알려진 사업 구조 수준이라 위험 낮음"
+            "announcement와 정확히 일치(2026-06-18 마감, D-4)"
           ]
         },
         "duplication_check": {
@@ -229,32 +86,27 @@
           "issues": []
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "공고 매칭 정확, 톤·사실 양호"
+          "reasoning": "실제 공고 정확히 호명, 마감일·수행기관 일치. 톤 자연스러움."
         }
       }
     },
-    "late_afternoon": {
-      "status": "rejected",
-      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
-      "reason": "review"
-    },
-    "evening": {
+    "late_morning": {
       "status": "approved",
-      "topic": "자금 받고도 망하는 회사들 공통점",
+      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 자금 받고 망하는 회사들 패턴이 너무 명확해.\n\n제일 많은 케이스가 \"자금 받는 것\"이 목표가 된 경우야.\n사업 방향이 불명확한데 일단 돈부터 받으면 뭔가 될 것 같은 느낌.\n근데 돈이 들어오면 본래 문제가 해결되는 게 아니라 더 선명해지거든.\n\n두 번째는 자금 조건에 맞춰 회사를 끼워 맞추는 경우.\n원래 하던 것 버리고 지원 분야에 억지로 얹어서 신청하는 거.\n그렇게 받은 돈은 회사 근본이랑 안 맞으니까 대부분 흐지부지 쓰여.\n\n자금은 방향이 맞는 회사한테 속도를 붙여주는 도구지,\n방향을 만들어주는 게 아니야.",
-        "char_count": 248,
-        "reasoning": "자금 수령 후 실패 패턴은 데이터·경험 기반의 냉정한 인사이트를 전달하는 솔직인사이트 타입이 가장 적합함"
+        "main_post": "정책자금 컨설팅 맡기면 잘 되는 케이스랑 안 되는 케이스, 패턴이 진짜 명확해.\n\n잘 되는 건 단순해.\n본인이 자기 사업 제대로 설명할 수 있고, 컨설팅사한테 '방향 잡는 것'만 맡기는 경우.\n서류 작성이나 제출 타이밍 같은 실무만 위임하는 거지.\n\n안 되는 건 반대야.\n\"우리 뭐 받을 수 있어요?\"부터 시작하는 경우.\n자기 사업 모델도 모르면서 컨설팅사가 알아서 해주길 기대하는 거거든.\n그 상태로 서류 냈다가 심사 PT에서 바로 탈락하는 거 많이 봤어.\n\n솔직히 컨설팅사가 대신해줄 수 있는 건 정보력이랑 서류 형식이지,\n\"이 회사가 왜 이 자금을 받아야 하는가\"는 결국 본인이 만들어야 해.",
+        "char_count": 233,
+        "reasoning": "컨설팅 위임 성패 패턴을 경험 기반 인사이트로 풀어내는 구조라 솔직인사이트 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "evening",
+        "slot": "late_morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [],
@@ -264,125 +116,256 @@
         "hallucination_check": {
           "score": 10,
           "risky_claims": [],
-          "issues": [
-            "일반 인사이트, 구체 수치 없음"
-          ]
+          "issues": []
         },
         "duplication_check": {
           "score": 8,
-          "similar_recent_files": [],
+          "similar_recent_files": [
+            "2026-06-13_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md"
+          ],
           "issues": [
-            "[12] '검색만 하다 시간 보내는 사람들'과 톤·구조 비슷하나 메시지(받은 후 망함 vs 검색만 함) 다름"
+            "사업계획서/심사 관련 인사이트가 최근 솔직인사이트와 결이 비슷하나 각도(컨설팅 위임)는 차별화됨"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "솔직인사이트로 사실·할루시 위험 없음"
+          "reasoning": "구체 사업명·수치 없는 경험 기반 인사이트. 각도가 컨설팅 위임으로 차별화."
         }
       }
     },
-    "late_evening": {
+    "noon": {
       "status": "approved",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "topic": "수출바우처 평균 활용 금액",
       "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들은 케이스인데 좀 신기해서.\n\n매출 정체된 소형 제조업 대표인데\n클라우드 도입 바우처로 재고관리 자동화하고\n디지털전환 지원으로 수주 프로세스 싹 바꿨대.\n\n직접 비용 아낀 건 크지 않았는데\n그게 쌓이니까 분기 말에 처음으로 흑자 찍었다고.\n\n이게 포인트인데 — 정책자금을 '공짜 돈'으로 생각하면 쓸 곳이 없고,\n'비용 구조 바꾸는 트리거'로 생각하면 쓸 곳이 생기거든.\n\n받은 금액보다 어디다 쓰냐가 진짜 변수인 것 같아.",
-        "char_count": 214,
-        "reasoning": "익명 사례를 중심으로 정책자금 활용 → 흑자 전환 흐름을 보여주는 구조라 케이스스터디가 가장 자연스럽고, 공고 중 부산 클라우드 도입 지원사업을 참조해 현실감을 살렸음."
+        "post_type": "숫자팩트",
+        "main_post": "수출바우처 쓰는 회사들 평균 활용 금액이 얼마인지 알아?\n\n지원 한도 다 채워서 쓰는 회사가 생각보다 많지 않아.\n절반 이상이 한도의 절반도 못 써\n\n이유가 뭔지 보면 대부분 비슷해\n바우처 쓸 수 있는 서비스 목록을 잘 모르거나,\n쓰고 싶은 서비스 공급사 찾는 게 귀찮아서 그냥 방치\n\n돈을 받아놓고 못 쓰는 거야.\n정부가 줬는데 기업이 소화를 못 하는 구조\n\n수출바우처 가지고 있으면 유효기간 전에 꼭 공급사 목록 한 번 더 확인해봐",
+        "char_count": 224,
+        "reasoning": "수출바우처 활용 금액이라는 데이터·통계 중심 주제라서 숫자팩트 타입이 적합하지만, 정확한 수치가 확인되지 않으므로 모드 B(일반화)로 작성하면서 숫자팩트 타입 특유의 충격·여운 구조를 유지함"
       },
       "verdict": {
-        "slot": "late_evening",
+        "slot": "noon",
         "fact_check": {
           "score": 9,
           "cited_programs": [
-            "클라우드 도입 바우처",
-            "디지털전환 지원"
+            "수출바우처"
           ],
           "unverified_programs": [],
           "issues": [
-            "부산 클라우드 서비스 도입 지원사업이 announcement에 존재, 일반화된 표현으로 사용"
+            "수출바우처는 잘 알려진 화이트리스트 사업"
           ]
         },
         "hallucination_check": {
-          "score": 8,
+          "score": 7,
           "risky_claims": [
-            "분기 말에 처음으로 흑자 찍었다"
+            "절반 이상이 한도의 절반도 못 써"
           ],
           "issues": [
-            "익명 사례, 검증 불가지만 자기 경험 형식으로 허용 범위"
+            "'절반 이상이 한도의 절반도 못 써'는 구체 통계처럼 읽히는데 출처 불명. 일반화 표현이지만 단정조라 리스크 약간"
           ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "수출바우처는 화이트리스트. 다만 활용률 관련 단정 표현은 약한 리스크."
+        }
+      }
+    },
+    "lunch": {
+      "status": "approved",
+      "topic": "정책자금 검색하느라 본업 못 한 하루",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "오늘 오전 내내 기업마당이랑 중소기업통합정보시스템 왔다갔다 했어\n\n검색어 조금 다르게 쓰면 결과가 싹 달라지고\n필터 눌렀더니 공고가 하나도 안 나오고\n겨우 찾았더니 마감이 D-1이고\n\n점심 먹고 나서야 알았는데 오늘 진짜 해야 할 거 하나도 못 함\n\n정책자금 찾는 게 본업인 것도 아닌데\n이게 매번 이렇더라\n\n다들 어떻게 찾아? 나만 이렇게 오래 걸려?",
+        "char_count": 165,
+        "reasoning": "정책자금 검색에 시간을 다 쓰고 본업을 못 한 경험은 사장님들이 공통으로 겪는 페인포인트라 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "기업마당",
+            "중소기업통합정보시스템"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
         },
         "duplication_check": {
           "score": 7,
           "similar_recent_files": [
-            "2026-06-12_케이스스터디_직원_5명에서_50명까지_자금만으로_키운_회사.md"
+            "2026-06-13_솔직인사이트_정책자금_검색만_하다_시간_보내는_사람들_공통점.md"
           ],
           "issues": [
-            "케이스스터디 + 정책자금을 도구로 봐야 한다는 메시지가 [8]과 유사 ('자금은 도구인데 순서가 전략' vs '비용 구조 바꾸는 트리거'). 각도는 다름"
+            "정책자금 검색하다 시간 보낸다는 페인이 최근 솔직인사이트와 주제 겹침. 다만 1인칭 페인 톤으로 각도는 다름"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 8,
           "decision": "pass",
-          "reasoning": "중복 우려 약간 있으나 각도 다르고 사실 위험 없음"
+          "reasoning": "공감페인 톤 자연스럽고 사실 위반 없음. 최근 게시물과 주제 인접하지만 각도 차별."
+        }
+      }
+    },
+    "afternoon": {
+      "status": "approved",
+      "topic": "[강원] 원주시 2026년 몽골 의공학회 전시부스 참가기업 모집 공고 자금 해설 (강원특별자치도)",
+      "post": {
+        "post_type": "자금해설",
+        "main_post": "몽골 의공학회 전시부스 지원, 이거 의료기기 수출 준비 중인 회사한테 꽤 쏠쏠한 기회야.\n\n몽골은 의료 인프라 수입 의존도가 높은 시장이거든.\n한국 의료기기 수요도 꾸준히 있고, 현지 의공학회 같은 전문 전시는 바이어 질이 달라.\n\n원주는 원래 의료기기 클러스터로 유명한 곳이라 이쪽 지원사업이 진짜 자주 나와.\n원주의료기기산업진흥원이 수행기관이라 실무 지원도 제대로 붙음.\n\n마감이 6월 23일이니까 강원 쪽 의료기기 회사면 지금 당장 확인해봐.\n부스비 지원 조건·범위는 공고 직접 확인해야 하는데, 이런 해외전시 참가지원은 대부분 비용 일부를 매칭해주는 방식이야.",
+        "char_count": 248,
+        "reasoning": "특정 공고를 풀어 설명하는 콘텐츠로, 자금의 특성과 배경을 교육적으로 해설하는 자금해설 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "afternoon",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "몽골 의공학회 전시부스",
+            "원주의료기기산업진흥원"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "6월 23일 마감",
+            "비용 일부 매칭 방식"
+          ],
+          "issues": [
+            "announcement와 정확히 일치(2026-06-23). 비용 조건은 '공고 확인 필요'로 안전하게 처리"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 10,
+          "decision": "pass",
+          "reasoning": "공고 정확 호명, 마감·수행기관 일치. 디테일을 안전하게 처리."
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "rejected",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "reason": "review"
+    },
+    "evening": {
+      "status": "rejected",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "reason": "review"
+    },
+    "late_evening": {
+      "status": "approved",
+      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 진짜 신기한 케이스 봤어.\n\n제조업 하는 대표님인데, R&D 보고서 제출하고 나서\n\"이거 망했다\"고 했거든.\n목적·기대효과 쪽 서술이 두루뭉술하다고 스스로도 알고 있었대.\n\n근데 통과됨.\n\n나중에 담당자한테 확인해보니\n기술의 신규성이랑 시장 필요성 부분이 명확하게 써져 있었던 게\n결정적이었다는 거야.\n\n보고서가 '완벽한 문서'일 필요는 없어.\n심사자가 보고 싶은 핵심 포인트만 찍혀 있으면\n나머지가 좀 허술해도 넘어가는 경우 생각보다 많더라.\n\n잘 못 쓴 것 같아서 포기하려던 사람, 일단 내봐.",
+        "char_count": 225,
+        "reasoning": "익명 실제 사례를 통해 인사이트를 전달하는 구조라 케이스스터디 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "late_evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [
+            "2026-06-13_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md"
+          ],
+          "issues": [
+            "케이스스터디 형식 유사하나 주제(R&D 보고서 통과 포인트)는 차별화"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "검증 불가지만 자기 경험 케이스로 처리되어 안전. 톤·메시지 새로움."
         }
       }
     },
     "night": {
       "status": "approved",
-      "topic": "정책자금 = 무이자 대출이라는 오해",
+      "topic": "떨어졌다는 메일 받은 날 표정",
       "post": {
-        "post_type": "오해풀기",
-        "main_post": "정책자금 = 무이자 대출이라고 알고 있는 사람 꽤 많더라\n\n근데 이거 완전 다른 개념이야\n\n정책자금 안에 대출도 있고, 보조금도 있고, 바우처도 있고, R&D도 있어\n이 중에 저금리 대출은 일부고, 나머지는 갚는 개념 자체가 없는 거거든\n\n반대로 대출형 정책자금은 무이자가 아니라 시중보다 낮은 금리인 거고\n'무이자'라는 단어 자체가 맞는 경우는 거의 없어\n\n솔직히 이 오해 때문에 바우처나 보조금은 신청 안 하고\n'대출은 싫다'고 정책자금 자체를 통으로 skip하는 사람도 봤음\n\n용어 하나 잘못 알고 있으면 돈 버리는 거야",
-        "char_count": 235,
-        "reasoning": "정책자금에 대한 잘못된 상식을 바로잡는 내용으로 오해풀기 타입이 가장 적합함"
+        "post_type": "공감페인",
+        "main_post": "정책자금 탈락 메일 오는 거\n왜 항상 오전 10시쯤 오는 거야\n\n업무 한창 집중하다가 받으면\n그냥 하루 끝난 느낌\n\n'아쉽게도 이번 심사에서...' 첫 줄 보는 순간\n뒤는 안 읽어도 알잖아\n\n그리고 또 신기한 게\n표정은 그냥 무표정인데\n속은 진짜 복잡한 그 느낌\n\n화가 나는 건지 허탈한 건지\n그냥 멍한 건지도 모르겠음\n\n다들 그런 날 어떻게 보내?",
+        "char_count": 168,
+        "reasoning": "정책자금 탈락 메일을 받은 날의 감정과 상황을 사장님 1인칭 시점에서 공감대 형성하는 내용이라 공감페인 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
           "score": 10,
-          "cited_programs": [
-            "정책자금",
-            "바우처",
-            "보조금",
-            "R&D"
-          ],
+          "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "모두 일반 카테고리"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 10,
-          "risky_claims": [
-            "대출형은 시중보다 낮은 금리"
-          ],
-          "issues": [
-            "사실 부합"
-          ]
+          "risky_claims": [],
+          "issues": []
         },
         "duplication_check": {
           "score": 9,
-          "similar_recent_files": [],
-          "issues": []
+          "similar_recent_files": [
+            "2026-06-14_공감페인_사업계획서_쓰다가_새벽_3시인_대표.md"
+          ],
+          "issues": [
+            "같은 날 공감페인 카테고리지만 주제(탈락 메일 vs 사업계획서 새벽 작업)는 차별화"
+          ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "오해풀기 톤 자연스럽고 모든 차원 양호"
+          "reasoning": "감정 공감 톤 자연스럽고 사실 위반 없음. 같은 배치 lunch 포스트와는 페인 결이 다름."
         }
       }
     }
