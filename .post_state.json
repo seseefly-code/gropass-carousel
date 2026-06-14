@@ -100,20 +100,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "월말 마감 자금 정리",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18175805560408192",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJGOLGjrGb",
-      "posted_at": "2026-06-03T23:27:08.883Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[대전] 2026년 대기업 유통사 연계 판로확대 지원사업 참여기업 추가모집 공고(롯데백화점 연계) D-4 마감 임박 (대전광역시)",
@@ -1746,6 +1732,20 @@
       "media_id": "18046298915569078",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZjs6EkFQBj",
       "posted_at": "2026-06-14T07:25:28.523Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "12월에 사라지는 예산 보면서 드는 생각",
+      "char_count": 221,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17937782061257272",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZjyymakYwj",
+      "posted_at": "2026-06-14T08:16:52.587Z"
     }
   ]
 }
