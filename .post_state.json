@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 2,
-    "공감페인": 15,
+    "공감페인": 1,
     "케이스스터디": 12,
     "숫자팩트": 12,
     "마감알림": 12,
@@ -99,20 +99,6 @@
     "PBLN_000000000123114"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
-      "char_count": 167,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17867393886625171",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKDiySFbV4",
-      "posted_at": "2026-06-04T08:23:00.206Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1759,6 +1745,28 @@
       "media_id": "17893828515487258",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZkWv3JkTrk",
       "posted_at": "2026-06-14T13:31:04.367Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 152,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-14_공감페인_사업계획서_쓰다가_새벽_3시인_대표.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "개인 경험 묘사 수준이라 검증 불필요",
+          "사업계획서 작성 페인은 최근 15개 중 직접 다룬 글 없음"
+        ]
+      },
+      "posted_at": "2026-06-14T15:08:35.309Z",
+      "media_id": "18079235969644190",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkh6wQFeNY"
     }
   ]
 }
