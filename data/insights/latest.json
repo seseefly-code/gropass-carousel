@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-06-14T14:23:17.104Z",
+  "collected_at": "2026-06-14T15:51:20.986Z",
   "user_id": "26071251839222721",
   "days": 30,
-  "count": 255,
+  "count": 256,
   "threads": [
+    {
+      "id": "18079235969644190",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkh6wQFeNY",
+      "timestamp": "2026-06-14T15:08:37+0000",
+      "text": "사업계획서 쓰다가 시계 보니까 새벽 3시\n\n분량이 30페이지인데 아직 8페이지야\n\n사업 배경, 현황분석, 기대효과, 추진일정...\n근데 제일 막히는 건 '사업화 전략' 한 챕터거든\n\n내가 매일 하는 일인데\n막상 쓰려니까 왜 이렇게 낯설지 ㅋㅋ\n\n커피는 세 잔째고, 제출 마감은 내일 오전\n\n이거 나만 매년 겪는 거 아니지?",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 80,
+        "likes": 1,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "공감페인",
+        "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+        "char_count": 152
+      }
+    },
     {
       "id": "17893828515487258",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZkWv3JkTrk",
@@ -12,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 183,
+        "views": 241,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 89,
+        "views": 98,
         "likes": 0,
         "replies": 0,
         "reposts": 1,
@@ -54,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 18,
+        "views": 22,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 401,
+        "views": 427,
         "likes": 2,
         "replies": 0,
         "reposts": 0,
@@ -117,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 10,
+        "views": 11,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 211,
+        "views": 212,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +180,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 83,
+        "views": 85,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -180,7 +201,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 14,
+        "views": 15,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -201,7 +222,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 164,
+        "views": 166,
         "likes": 1,
         "replies": 2,
         "reposts": 0,
@@ -1888,10 +1909,10 @@
         "quotes": 0
       },
       "meta": {
-        "slot": "lunch",
-        "type": "공감페인",
-        "topic": "받았는데 통장에 들어오기까지 2달 기다림",
-        "char_count": 167
+        "slot": "unknown",
+        "type": "unknown",
+        "topic": "정책자금 합격 문자 받은 날",
+        "char_count": 199
       }
     },
     {
@@ -5145,7 +5166,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 229,
+        "views": 230,
         "likes": 7,
         "replies": 2,
         "reposts": 0,
