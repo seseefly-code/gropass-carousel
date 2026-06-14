@@ -100,28 +100,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "char_count": 236,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-03_케이스스터디_TIPS_떨어진_회사가_다음_회차에_선정된_비결.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 7,
-        "issues": [
-          "구체 수치 없음. '추천 운용사 변경', '기술성 설명 방식' 등 추상화된 표현으로 안전",
-          "[11] 케이스스터디에서 TIPS 언급되지만 각도 다름(연계 패턴 vs 재도전 성공 요인). 중복 아님",
-          "본문이 '다른 하나는 기술성 설명 방식.'에서 끊김 — 미완성 문장. 게시 전 보완 필요"
-        ]
-      },
-      "posted_at": "2026-06-03T16:20:03.993Z",
-      "review_required": true
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "사업자등록 1년 미만은 자격 안 된다는 오해",
@@ -1761,6 +1739,20 @@
       "media_id": "18076687838457367",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZi6eEhlMF4",
       "posted_at": "2026-06-14T00:04:42.732Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18065556260477493",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZjfEscDiKb",
+      "posted_at": "2026-06-14T05:24:35.823Z"
     }
   ]
 }
