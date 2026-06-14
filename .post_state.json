@@ -100,20 +100,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
-      "char_count": 211,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18108615491486922",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZJyH17Fd0n",
-      "posted_at": "2026-06-04T05:50:54.510Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
@@ -1759,6 +1745,20 @@
       },
       "posted_at": "2026-06-14T10:44:00.661Z",
       "review_required": true
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "자금 받고도 망하는 회사들 공통점",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17926633488127247",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkLOH9FX23",
+      "posted_at": "2026-06-14T11:50:19.912Z"
     }
   ]
 }
