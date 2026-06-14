@@ -102,20 +102,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경북] 포항시 2026년 유망강소기업 재지정 신청 공고 자금 해설 (경상북도)",
-      "char_count": 243,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "17867942334622827",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKNy9wFJhQ",
-      "posted_at": "2026-06-04T09:52:34.922Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "비R&D 사업화 자금이 새로 생기는 이유",
@@ -1769,6 +1755,20 @@
       "posted_at": "2026-06-14T15:08:35.309Z",
       "media_id": "18079235969644190",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZkh6wQFeNY"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "자금 캘린더 만드는 법",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18268839451288957",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZlX1qtD8SH",
+      "posted_at": "2026-06-14T22:59:51.560Z"
     }
   ]
 }
