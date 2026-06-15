@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 4,
-    "공감페인": 3,
+    "공감페인": 4,
     "케이스스터디": 15,
     "숫자팩트": 13,
     "마감알림": 13,
@@ -101,20 +101,6 @@
     "PBLN_000000000123113"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[강원] 동해시 2026년 3차 수소 전주기 분야 R&D과제 지원사업 기업지원 재공고 자금 해설 (강원특별자치도)",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18102994451280617",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZMxUndEcJz",
-      "posted_at": "2026-06-05T09:41:30.304Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1769,6 +1755,28 @@
       "posted_at": "2026-06-15T17:00:56.674Z",
       "media_id": "18420262411176343",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZnTkkakd6L"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
+      "char_count": 224,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "[6] 컨설팅사 관련 인사이트와 주제 겹침 (각도는 다름: [6]은 위임 패턴, 본문은 영업 경험담)",
+          "[2] 기업마당 직접 뒤지는 시간 낭비 페인과 후반부 메시지 유사",
+          "이모지 ✋ 1개 사용 — 허용 범위지만 체크"
+        ]
+      },
+      "posted_at": "2026-06-15T17:58:50.325Z",
+      "review_required": true
     }
   ]
 }
