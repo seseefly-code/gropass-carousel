@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 4,
     "공감페인": 3,
-    "케이스스터디": 14,
+    "케이스스터디": 15,
     "숫자팩트": 13,
     "마감알림": 13,
     "오해풀기": 2,
@@ -101,20 +101,6 @@
     "PBLN_000000000123113"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "char_count": 142,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18145410652506893",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZMm2PqlhFg",
-      "posted_at": "2026-06-05T08:09:58.410Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1761,6 +1747,28 @@
       "posted_at": "2026-06-15T15:39:06.933Z",
       "media_id": "17858022945658263",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZnKNOkFF9y"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "char_count": 279,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "익명 케이스의 구체 수치지만 자기 경험 서술로 허용 범위",
+          "[10] R&D 보고서 케이스, [6] 사업계획서 잘 쓰는 대표와 '심사자 관점' 주제가 겹치지만 각도(발표평가 위원 구성 리스크)는 새로움"
+        ]
+      },
+      "posted_at": "2026-06-15T17:00:56.674Z",
+      "media_id": "18420262411176343",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZnTkkakd6L"
     }
   ]
 }
