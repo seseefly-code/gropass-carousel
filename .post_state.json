@@ -104,28 +104,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "콘텐츠·플랫폼 자금 변화",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_트렌드_콘텐츠플랫폼_자금_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "구체 수치 없음, 일반화된 트렌드 서술",
-          "'사업화·판로 자금 증가' 트렌드와 일부 결이 비슷하지만 콘텐츠/플랫폼 영역으로 좁히고 실제 공고를 근거로 들어 각도가 다름"
-        ]
-      },
-      "posted_at": "2026-06-05T11:18:07.985Z",
-      "media_id": "18133386442577481",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZM8ZASEThL"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
@@ -1779,6 +1757,20 @@
       },
       "posted_at": "2026-06-15T17:58:50.325Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "매주 월요일 신규 공고 체크 루틴",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17859953622643585",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZoAAaXDgsO",
+      "posted_at": "2026-06-15T23:29:19.362Z"
     }
   ]
 }
