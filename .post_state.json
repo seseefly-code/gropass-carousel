@@ -8,7 +8,7 @@
     "숫자팩트": 13,
     "마감알림": 13,
     "오해풀기": 2,
-    "트렌드": 4
+    "트렌드": 5
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -101,30 +101,6 @@
     "PBLN_000000000123113"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 5,
-        "tone": 9,
-        "issues": [
-          "구체 사업명 호명 없이 '정책자금' 일반 명칭만 사용",
-          "'탈락률 절반 감소'는 검증 불가 수치지만 일반화된 표현이라 위험도 낮음",
-          "[9]번 솔직인사이트와 핵심 메시지가 거의 동일: '내 회사에 맞는 자금 찾기가 진짜 어려운 거다'라는 동일 인사이트",
-          "[12]번 케이스스터디도 '자기에게 정확히 맞는 자금 찾기'가 핵심 → 최근 게시물에서 같은 각도 반복",
-          "타입은 같은 솔직인사이트인데 메시지도 유사해 중복도 높음"
-        ]
-      },
-      "posted_at": "2026-06-05T05:10:22.198Z",
-      "review_required": true
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1760,6 +1736,33 @@
       "media_id": "18410676115148464",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZmw9tdEWwp",
       "posted_at": "2026-06-15T11:58:38.367Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "char_count": 226,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "'청년사관학교'는 청년창업사관학교의 약칭으로 화이트리스트 OK",
+          "'청년전용 보증'은 신용보증기금/기술보증기금의 일반 청년전용 보증 상품 카테고리로 일반 명칭 OK",
+          "'청년 도약 패키지'는 다소 모호하나 청년창업 패키지류의 일반 카테고리 지칭으로 해석 가능, 구체 마감일·금액 없음",
+          "구체 비용·심사비·예산 수치 없음",
+          "추상적 트렌드 서술로 검증 리스크 낮음",
+          "최근 트렌드 글이 AI·로봇·반도체, ESG, 글로벌 진출 등 산업/분야 트렌드 위주였음",
+          "청년 vs 시니어 창업자금 격차라는 인구통계 관점은 새로운 각도"
+        ]
+      },
+      "posted_at": "2026-06-15T13:46:07.448Z",
+      "media_id": "18117720172835920",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZm9RpWkV0v"
     }
   ]
 }
