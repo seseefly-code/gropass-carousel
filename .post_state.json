@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 4,
     "공감페인": 3,
-    "케이스스터디": 13,
+    "케이스스터디": 14,
     "숫자팩트": 13,
     "마감알림": 13,
     "오해풀기": 2,
@@ -101,31 +101,6 @@
     "PBLN_000000000123113"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "매년 미집행되는 정책자금 규모",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_숫자팩트_매년_미집행되는_정책자금_규모.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "구체 사업명 없이 '정책자금'이라는 일반 명칭만 사용. 모드 B 일반화 적절.",
-          "'수십조'는 일반화된 표현으로 안전. 구체 미집행 금액·비율 수치 없음. 모드 B 적절히 적용.",
-          "[9] 숫자팩트 '예산 30조 시대' 글과 핵심 메시지(예산은 많은데 정보 격차로 못 받음)가 거의 동일. 후킹 구조와 인사이트 모두 유사.",
-          "[3] 공감페인 글도 '필요한 회사들한테 제때 못 감' 메시지 중복.",
-          "주제 각도가 새롭지 않음.",
-          "존댓말·해시태그·이모지·클릭베이트 없음. 반말 톤 일관. 196자로 적정."
-        ]
-      },
-      "posted_at": "2026-06-05T07:12:16.129Z",
-      "review_required": true
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1763,6 +1738,29 @@
       "posted_at": "2026-06-15T13:46:07.448Z",
       "media_id": "18117720172835920",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZm9RpWkV0v"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "매출 0원에서 자금 받은 초기 스타트업",
+      "char_count": 277,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_케이스스터디_매출_0원에서_자금_받은_초기_스타트업.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "'울산 AI 데이터센터 연계 기술창업 프로그램'은 announcement의 '[울산] 2026년 창업시리즈N 참여기업 모집 공고(AI datacenter-Infra 연계 기술창업프로그램)'와 일치",
+          "구체 수치·비용·조건 없이 일반화된 진술 위주로 안전함",
+          "[11] 케이스스터디(R&D 보고서)와 형식은 비슷하지만 주제·각도 다름 — 매출 0원도 가능한 자금 트랙 안내라는 인사이트는 새로움"
+        ]
+      },
+      "posted_at": "2026-06-15T15:39:06.933Z",
+      "media_id": "17858022945658263",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZnKNOkFF9y"
     }
   ]
 }
