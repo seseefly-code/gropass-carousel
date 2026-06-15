@@ -102,20 +102,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18101280560175276",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZKg2sIESuy",
-      "posted_at": "2026-06-04T12:39:08.276Z"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "12월에 사라지는 예산 보면서 드는 생각",
@@ -1769,6 +1755,20 @@
       "media_id": "18092769359362989",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZlffLAiTo8",
       "posted_at": "2026-06-15T00:06:40.727Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18057426566722155",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZmJj73kSbB",
+      "posted_at": "2026-06-15T06:14:20.769Z"
     }
   ]
 }
