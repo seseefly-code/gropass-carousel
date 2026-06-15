@@ -102,20 +102,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "분기 끝나기 전 신청해야 할 자금",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18253394161306833",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZLoITgGP8z",
-      "posted_at": "2026-06-04T23:01:57.099Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[제주] 2026년 지역 대표 K-브랜드 100 지원 사업 지원 대상 모집 공고 D-6 마감 임박 (제주특별자치도)",
@@ -1760,6 +1746,20 @@
       "media_id": "18118838002805638",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZmfjZ3kfHc",
       "posted_at": "2026-06-15T09:26:29.218Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "정책자금 검색하느라 본업 못 한 하루",
+      "char_count": 165,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18047367812787818",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZmmYZ6lSSt",
+      "posted_at": "2026-06-15T10:26:08.802Z"
     }
   ]
 }
