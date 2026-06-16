@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 5,
     "공감페인": 5,
@@ -8,7 +8,7 @@
     "숫자팩트": 14,
     "마감알림": 14,
     "오해풀기": 2,
-    "트렌드": 7
+    "트렌드": 8
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -103,20 +103,6 @@
     "PBLN_000000000123169"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 받고도 망하는 회사들 공통점",
-      "char_count": 182,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18083283323551771",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZO0WO8FvH_",
-      "posted_at": "2026-06-06T04:46:26.078Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1762,6 +1748,30 @@
       "posted_at": "2026-06-16T16:26:17.776Z",
       "media_id": "18069201839375227",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZp0Ztaji_S"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "여성기업 우대 자금 변화",
+      "char_count": 244,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-16_트렌드_여성기업_우대_자금_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 7,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 일반 명칭과 카테고리만 사용. 여성기업확인서는 실재하는 제도이고 테크노파크/창조경제혁신센터는 화이트리스트 기관",
+          "'여성 대표 기업 생존율이 높다는 데이터'는 검증되지 않은 주장이나 추상적 수준이고 단정이 아닌 '데이터가 쌓이면서'로 완곡하게 처리됨",
+          "'여성 대표 전용 트랙', '별도 쿼터'는 일부 사업에서 실제 존재하나 '늘어나고 있다'는 추세 단정은 약한 근거. 다만 추상화 수준이라 BAN 트리거는 아님",
+          "트렌드 카테고리 게시물(DX 폭증, 지역특화, 청년vs시니어)과 형식은 유사하나 '여성기업 우대'라는 주제와 각도는 신규"
+        ]
+      },
+      "posted_at": "2026-06-16T18:06:17.791Z",
+      "media_id": "18101733425024702",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZp_2FaHFKS"
     }
   ]
 }
