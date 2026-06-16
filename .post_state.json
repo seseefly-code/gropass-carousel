@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 5,
     "공감페인": 5,
-    "케이스스터디": 2,
+    "케이스스터디": 3,
     "숫자팩트": 14,
     "마감알림": 14,
     "오해풀기": 2,
@@ -103,20 +103,6 @@
     "PBLN_000000000123169"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화프로젝트 레전드50+2.0) 사업화지원 모집 공고(지능형 모빌리티 부품 및 기능성 바이오 소재 산업) D-7 마감 임박 (중소벤처기업부)",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18126906709617874",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZOUIhWjXJ5",
-      "posted_at": "2026-06-06T00:04:56.137Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1753,6 +1739,29 @@
       "media_id": "18009303920875220",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZpPtzGlWaQ",
       "posted_at": "2026-06-16T11:05:48.835Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
+      "char_count": 232,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-16_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 '중기부 계열 위기 대응', '지역 테크노파크' 같은 일반 명칭만 사용. 부산 중소기업 밀집지역 위기대응 체계 구축사업 등 실제 announcement와도 부합하는 톤",
+          "수치가 추상적이고 익명 케이스 스토리 형식. 검증 불가능하나 위험 수준은 낮음",
+          "최근 케이스스터디 4개(1인기업 TIPS, 매출0원, 매출1억 R&D 5억, 평가위원)와 주제 각도가 다름. 폐업위기/위기대응 자금 조합이라는 새로운 앵글"
+        ]
+      },
+      "posted_at": "2026-06-16T16:26:17.776Z",
+      "media_id": "18069201839375227",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZp0Ztaji_S"
     }
   ]
 }
