@@ -104,29 +104,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "융자 vs 보증 vs 출연금 비중 변화",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_트렌드_융자_vs_보증_vs_출연금_비중_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "구체 사업명 없이 일반 카테고리(R&D, AI, 딥테크)만 언급. 출연금 비중 증가는 일반적으로 알려진 트렌드",
-          "추상적 표현으로 위험도 낮음. 구체 수치·금액·비율 없음",
-          "최근 트렌드 게시물 2개와 형식·구조 유사('예전엔 ~였는데 요즘은 ~'). 다만 주제(자금 유형별 구조 변화)는 다름"
-        ]
-      },
-      "posted_at": "2026-06-05T15:57:02.258Z",
-      "media_id": "17908016643244100",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNcTwzmhpN"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "상시 모집이지만 예산 소진 임박 자금",
@@ -1762,6 +1739,20 @@
       "media_id": "18599610256039331",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZovjd_kc24",
       "posted_at": "2026-06-16T06:24:47.273Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "12월에 사라지는 정책자금 예산 규모",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18103590902078472",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZpAFudlc5r",
+      "posted_at": "2026-06-16T08:49:18.215Z"
     }
   ]
 }
