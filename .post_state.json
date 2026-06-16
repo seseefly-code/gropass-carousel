@@ -104,20 +104,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18158110993461128",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNE6tUnCJQ",
-      "posted_at": "2026-06-05T12:32:44.897Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
@@ -1771,6 +1757,20 @@
       "media_id": "17859953622643585",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZoAAaXDgsO",
       "posted_at": "2026-06-15T23:29:19.362Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[대전] 2026년 NICAB Workshop 참여기업 모집 공고(연구산업기업 인도네시아 진출지원 프로그램) D-4 마감 임박 (대전광역시)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "17930669889312036",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZoGyZACU8i",
+      "posted_at": "2026-06-16T00:28:33.973Z"
     }
   ]
 }
