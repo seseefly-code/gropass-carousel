@@ -107,20 +107,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18032061893814132",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPAhXCkV2u",
-      "posted_at": "2026-06-06T06:32:50.667Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "떨어졌다는 메일 받은 날 표정",
@@ -1775,6 +1761,20 @@
       "posted_at": "2026-06-16T18:06:17.791Z",
       "media_id": "18101733425024702",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZp_2FaHFKS"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "2026년 김해형 액셀러레이팅 프로그램 참가기업 모집 공고 D-2 마감 임박 (경상남도)",
+      "char_count": 210,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18057398261727613",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZqjfLBDlgS",
+      "posted_at": "2026-06-16T23:17:50.118Z"
     }
   ]
 }
