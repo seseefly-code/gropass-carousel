@@ -104,29 +104,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
-      "char_count": 231,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-05_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 8,
-        "issues": [
-          "구체 수치이지만 익명 케이스 디테일 수준이라 위험도 낮음",
-          "6/5 솔직인사이트와 '탈락 패턴' 주제 겹침. 다만 각도가 다름 — 솔직인사이트는 '맞는 자금 찾기'가 핵심, 이 글은 '조건 통과 후 진짜 싸움'이 핵심",
-          "도입부 '충격적이었어' 표현이 클릭베이트성으로 살짝 걸릴 수 있으나, 자기 경험 톤이라 허용 범위"
-        ]
-      },
-      "posted_at": "2026-06-05T14:28:02.329Z",
-      "media_id": "17964574514935863",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZNSH79oFpD"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "융자 vs 보증 vs 출연금 비중 변화",
@@ -1771,6 +1748,20 @@
       "media_id": "17930669889312036",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZoGyZACU8i",
       "posted_at": "2026-06-16T00:28:33.973Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "char_count": 238,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18599610256039331",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZovjd_kc24",
+      "posted_at": "2026-06-16T06:24:47.273Z"
     }
   ]
 }
