@@ -104,20 +104,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "상시 모집이지만 예산 소진 임박 자금",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17908219218244482",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZOMkualF1T",
-      "posted_at": "2026-06-05T22:58:51.690Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화프로젝트 레전드50+2.0) 사업화지원 모집 공고(지능형 모빌리티 부품 및 기능성 바이오 소재 산업) D-7 마감 임박 (중소벤처기업부)",
@@ -1753,6 +1739,20 @@
       "media_id": "18103590902078472",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZpAFudlc5r",
       "posted_at": "2026-06-16T08:49:18.215Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[광주] 2026년 떡 산업 고도화 지원사업(농촌자원복합산업화) 대상자 모집 공고 자금 해설 (광주광역시)",
+      "char_count": 255,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18009303920875220",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZpPtzGlWaQ",
+      "posted_at": "2026-06-16T11:05:48.835Z"
     }
   ]
 }
