@@ -107,20 +107,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "추가공고 가능성 높은 자금",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17931376809293953",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZQxDrWj2xM",
-      "posted_at": "2026-06-06T22:56:10.326Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[울산] 유망 소상공인 로컬브랜드 육성사업 참여기업 모집 연장 공고 D-6 마감 임박 (울산광역시)",
@@ -1768,6 +1754,20 @@
       "media_id": "18054874883747848",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZsF721kTby",
       "posted_at": "2026-06-17T13:38:06.125Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
+      "char_count": 253,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18094121015264498",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZsOitRERE4",
+      "posted_at": "2026-06-17T14:53:17.460Z"
     }
   ]
 }
