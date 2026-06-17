@@ -1,140 +1,81 @@
 {
-  "date": "2026-06-17",
-  "generated_at": "2026-06-16T22:56:32.511Z",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-17T22:48:22.327Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "2026년 김해형 액셀러레이팅 프로그램 참가기업 모집 공고 D-2 마감 임박 (경상남도)",
+      "topic": "마감 일주일 전 시작하는 절대 안 되는 이유",
       "post": {
         "post_type": "마감알림",
-        "main_post": "이번 주 수요일 마감인데 아직 모르는 분 있을까봐.\n\n김해형 액셀러레이팅 프로그램, 6월 18일까지야.\n경상남도 창업 초기 기업이라면 한 번쯤 볼 만한 거거든.\n\n액셀러레이팅 프로그램 특성상\n멘토링·IR 연결·네트워킹까지 패키지로 엮이는 경우 많아서\n현금 지원만 보고 판단하면 손해임.\n\n김해의생명산업진흥원 수행인 거 보면 바이오·의료 쪽 창업팀한테는 더 핏이 잘 맞을 것 같고.\n\n경남 창업 초기라면 이틀 안에 기업마당에서 공고 한 번 확인해봐.",
+        "main_post": "경북 소상공인 AI 어벤져스 지원사업, 이번 주 월요일(23일) 마감이야.\n\n근데 오늘 시작하면 진짜 안 돼.\n\n정책자금 신청서 쓰다 보면 재무제표, 사업계획서, 증빙서류 챙기는 것만 3~4일 걸려.\n거기에 경진흥원 담당자한테 문의 하나 보내면 답변 오는 데 하루.\n마감 전날은 시스템 폭주로 접수 안 되는 경우도 있어.\n\n일주일 전 시작 = 사실상 시간 없음.\n\n지금 바로 기업마당에서 공고 원문 열어봐.",
         "char_count": 210,
-        "reasoning": "D-2 마감 임박 공고로, 긴급성 전달과 대상 독자 좁히기가 핵심이라 마감알림 타입이 적합함"
+        "reasoning": "공고 마감이 D-6으로 실제 임박한 자금이 있고, 주제 자체가 마감 긴박성과 신청 준비 기간 문제를 다루므로 마감알림 타입이 가장 자연스럽게 연결됨."
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
-          "score": 10,
+          "score": 9,
           "cited_programs": [
-            "김해형 액셀러레이팅 프로그램"
+            "경북 소상공인 AI 어벤져스 지원사업",
+            "기업마당",
+            "경진흥원"
           ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "'경진흥원'은 '경상북도경제진흥원'의 축약으로 보임, 큰 문제 아님"
+          ]
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "announcement에 있는 공고 정확히 인용, 마감일·수행기관 정확, 톤 자연스러움"
-        }
-      }
-    },
-    "morning": {
-      "status": "approved",
-      "topic": "[강원] 2026년 수출 스타기업 육성 지원사업 참가기업 2차 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
-      "post": {
-        "post_type": "마감알림",
-        "main_post": "강원에 있는데 수출 준비 중인 회사라면 지금 바로 봐야 해\n\n2026년 수출 스타기업 육성 지원사업 2차 추가 모집이\n이번 주 목요일(6/19) 마감이거든\n\n강원특별자치도경제진흥원에서 하는 사업인데\n수출 스타기업 타이틀 달리면 육성 지원 꽤 실한 편이야\n\n2차 추가 모집이라는 게 이미 1차에서 못 들어온 거 한 번 더 주는 거니까\n이거 놓치면 올해는 진짜 끝이야\n\n강원 소재 기업만 해당되니까\n해당되면 지금 기업마당에서 공고 확인해",
-        "char_count": 213,
-        "reasoning": "마감이 D-3으로 임박한 수출 지원사업이라 긴급성 전달이 핵심이고, 공고 정보가 명확해 마감알림 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "2026년 수출 스타기업 육성 지원사업 2차 추가 모집"
+          "score": 8,
+          "risky_claims": [
+            "서류 준비 3~4일",
+            "마감 전날 시스템 폭주"
           ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "공고 정확 인용, 마감일·수행기관 일치"
-        }
-      }
-    },
-    "late_morning": {
-      "status": "approved",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
-      "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 같은 자금인데 신청 타이밍에 따라 결과가 달라지는 경우가 생각보다 많아.\n\n정책자금은 예산이 정해져 있거든.\n초반엔 심사관도 여유 있고, 후반으로 갈수록 예산 소진되거나 남은 자리에 경쟁이 몰려.\n\n특히 요즘처럼 D-2, D-3 공고들이 쏟아지는 시기엔\n\"나중에 봐야지\" 하다가 마감일에 서류 급하게 올리는 케이스가 진짜 많아.\n\n급하게 낸 서류는 티가 나.\n심사관이 하루에 수십 건 보는데, 꼼꼼하게 준비된 거랑 아닌 거 1초 만에 구분해.\n\n타이밍은 운이 아니라 준비의 문제더라.",
-        "char_count": 227,
-        "reasoning": "자금 신청 타이밍이라는 전략적 인사이트 주제는 경험 기반의 컨설팅 시각을 담는 솔직인사이트 타입이 가장 적합하고, 현재 D-2~D-3 공고들이 실제로 다수 존재해 구체적 맥락으로 활용 가능함"
-      },
-      "verdict": {
-        "slot": "late_morning",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": []
+          "issues": [
+            "수치는 일반적 경험치 수준, 위험도 낮음"
+          ]
         },
         "duplication_check": {
           "score": 8,
           "similar_recent_files": [],
           "issues": [
-            "타이밍 인사이트는 일반적 주제로 신선함 있음"
+            "최근 마감알림 톤과 유사하지만 사업 자체는 새로움"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "구체 사업명 없이 일반적 인사이트, 추상화 잘 됨"
+          "reasoning": "실제 announcement에 있는 공고이고 마감일도 정확함. 톤 위반 없음."
         }
       }
     },
+    "morning": {
+      "status": "rejected",
+      "topic": "[경북] 2026년 소상공인 AI 어벤져스 지원사업 추가모집 공고 D-6 마감 임박 (경상북도)",
+      "reason": "review"
+    },
+    "late_morning": {
+      "status": "rejected",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
+      "reason": "review"
+    },
     "noon": {
       "status": "rejected",
-      "topic": "1인 창업자가 받을 수 있는 자금 평균 개수",
+      "topic": "매년 미집행되는 정책자금 규모",
       "reason": "review"
     },
     "lunch": {
       "status": "approved",
-      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
       "post": {
         "post_type": "공감페인",
-        "main_post": "정책자금 마감 1시간 전에 서류 하나 빠진 거 알아챈 적 있어?\n\n나만 그런 거 아니겠지...\n\n사업자등록증은 있는데 납세증명서가 없고\n납세증명서 받으러 갔더니 이번엔 건강보험료 완납증명서가 없고\n\n그 1시간 동안 진짜 헛땀 흘리면서 정부24 탭 6개 열었던 기억\n\n지금 D-2, D-3 마감 공고들 꽤 있던데\n서류 미리 한 번 점검해 봐 😅",
-        "char_count": 176,
-        "reasoning": "마감 직전 서류 누락이라는 공감 유발 경험을 1인칭 감정+상황 묘사로 풀어내는 공감페인 타입이 가장 적합하며, D-2/D-3 공고 언급으로 실질적 가치도 자연스럽게 녹임"
+        "main_post": "정책자금 처음 신청했을 때\n매출 없다고 바로 탈락했어.\n\n그때 진짜 황당했던 게,\n'자금이 필요한 이유'가 매출이 없어서인데\n매출이 없으면 신청조차 안 된다는 거잖아.\n\n닭이 먼저냐 달걀이 먼저냐 얘기가\n창업 초기 자금 신청이랑 똑같더라.\n\n처음 신청해보는 사람들 이거 모르고 들어갔다가\n서류 다 준비하고 나서 알게 되는 경우 엄청 많거든.\n\n나만 이런 거 겪은 건 아니지?",
+        "char_count": 216,
+        "reasoning": "매출 부족으로 거절당한 경험은 창업자/소상공인 누구나 공감하는 전형적인 페인포인트라, 1인칭 경험 서술 + 공감 요청 구조의 공감페인 타입이 가장 적합함."
       },
       "verdict": {
         "slot": "lunch",
@@ -145,97 +86,58 @@
           "issues": []
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
+          "score": 9,
+          "risky_claims": [
+            "매출 없다고 바로 탈락"
+          ],
+          "issues": [
+            "자기 경험 서술이라 검증 불가하지만 OK"
+          ]
         },
         "duplication_check": {
-          "score": 9,
+          "score": 8,
           "similar_recent_files": [],
-          "issues": []
+          "issues": [
+            "공감페인 톤은 6/16과 유사하지만 주제는 다름"
+          ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "공감 사례 자연스럽고 구체 사업명 없음"
+          "reasoning": "개인 경험 기반 공감페인, 사실/할루 문제 없음"
         }
       }
     },
     "afternoon": {
       "status": "approved",
-      "topic": "[경기] 2026년 소공인 박람회 지원 사업 추가모집 공고 자금 해설 (경기도)",
+      "topic": "2026년 베트남 방한 지역특화 우수상품 개발ㆍ운영 공모 자금 해설 (문화체육관광부)",
       "post": {
         "post_type": "자금해설",
-        "main_post": "소공인 박람회 지원 사업이 뭔지 모르는 사람 많더라\n\n소공인은 10인 미만 제조업체를 말하는데\n이 사람들이 판로를 못 찾아서 기술 좋아도 묻히는 경우가 진짜 많거든\n\n경기도에서 이 박람회 참가 비용 자체를 지원해주는 거야\n부스비, 운송비 같은 것들 직접 쓰면서 나가기엔 소공인한테 부담이 크니까\n\n지금 추가모집 중이고 마감이 6월 24일이야\n경기도에 제조업 기반 소공인이면 한번 봐두는 게 좋아\n\n제품은 있는데 보여줄 기회가 없던 거라면\n이런 지원이 딱 맞는 타이밍일 수 있어",
-        "char_count": 218,
-        "reasoning": "특정 자금의 개념과 지원 구조를 쉽게 풀어주는 게 목적이고, 소공인 박람회 지원 사업 자체를 해설하는 흐름이 맞기 때문에 자금해설 타입 선택"
+        "main_post": "베트남 방한 지역특화 우수상품 개발·운영 공모, 이거 뭔지 아는 사람 별로 없을 것 같아서\n\n한마디로 하면 — 베트남 관광객이 한국 와서 살 만한 지역 특산품이나 체험 상품을 만들면 지원해주는 사업이야\n\n문화체육관광부가 발주하고 한국관광공사가 수행하는데\n수출 같은 느낌이 아니라 인바운드 관광 소비를 겨냥한 거거든\n\n즉, 우리 제품이 해외 나가는 게 아니라 베트남 사람이 한국에 들어와서 사가는 구조\n\n지역에서 F&B, 공예, 뷰티 같은 거 하고 있으면 한번 들여다볼 만해\n마감이 6월 25일이니까 지금 당장 기업마당 들어가서 확인해봐",
+        "char_count": 243,
+        "reasoning": "특정 공고(베트남 방한 지역특화 우수상품)의 개념과 구조를 풀어주는 내용이라 자금해설 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "afternoon",
         "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "경기 소공인 박람회 지원 사업 추가모집"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "announcement 마감일은 6/24로 일치"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "소공인 = 10인 미만 제조업체"
-          ],
-          "issues": [
-            "소공인 정의는 일반 상식(소공인특별법 기준)으로 통과"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
           "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고·마감일 일치, 해설 적절"
-        }
-      }
-    },
-    "late_afternoon": {
-      "status": "approved",
-      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 진짜 체감하는 게 있어\n\n중기부 쪽에서 R&D 아닌 사업화 자금이 새로 계속 나오고 있거든\n\n이유가 뭔지 알아?\n\n정부 입장에서 R&D는 성과 측정이 너무 어려워\n기술 개발했는데 매출로 안 이어지면 예산 낭비 소리 듣잖아\n\n그러다 보니 \"개발\" 보다 \"팔아라\"에 돈 붙는 방향으로 바뀌고 있어\n마케팅, 유통채널 입점, 해외 바이어 연결 이런 것들\n\n실제로 지금 올라와 있는 공고들 보면 수출 스타기업 육성, 라이브커머스 지원, 글로벌 공동관 참가 같은 비R&D 계열이 꽤 많거든\n\n기술 있는데 못 파는 회사라면 지금 이 흐름 타는 게 맞아",
-        "char_count": 248,
-        "reasoning": "비R&D 사업화 자금이 새로 생기는 이유라는 정책 트렌드 변화를 다루는 주제라 트렌드 타입이 가장 적합하고, 현재 공고 목록에서 수출·내수 관련 비R&D 사업화 공고들을 실제 예시로 녹여냄"
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
-          "score": 9,
           "cited_programs": [
-            "수출 스타기업 육성",
-            "라이브커머스 지원",
-            "글로벌 공동관 참가"
+            "베트남 방한 지역특화 우수상품 개발ㆍ운영 공모",
+            "문화체육관광부",
+            "한국관광공사",
+            "기업마당"
           ],
           "unverified_programs": [],
           "issues": [
-            "언급된 카테고리 모두 announcement에 매칭됨"
+            "announcement와 정확히 일치, 마감일 6/25도 맞음"
           ]
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [],
           "issues": []
         },
@@ -245,158 +147,119 @@
           "issues": []
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "트렌드 인사이트가 실제 공고 분포와 일치"
+          "reasoning": "사실 정확, 톤·할루 모두 양호"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "approved",
+      "topic": "헬스케어 자금 신규 증가 추세",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 정책자금 보다 보면 헬스케어 쪽 예산이 조용히 계속 늘고 있어\n\n예전엔 제조·IT 쪽에 집중됐는데\n보건복지형 예비사회적기업이나 디지털헬스 관련 R&D 자금이 하나둘씩 늘어나는 게 보이거든\n\n특히 AI 결합한 헬스케어 솔루션이면\n기술 분야 자금이랑 보건복지부 자금 동시에 노릴 수 있는 구조가 생기고 있어\n\n단순 의료기기 아니더라도 건강관리 앱이나 시니어케어 서비스도 해당되는 경우 많으니까\n내 업종이 헬스케어랑 조금이라도 닿아 있으면 한 번쯤 훑어볼 타이밍이야",
+        "char_count": 228,
+        "reasoning": "헬스케어 자금 증가 추세라는 주제는 요즘 뜨는 자금 흐름을 캐주얼하게 풀기 적합해서 트렌드 타입이 맞고, 공고 중 보건복지형 예비사회적기업 공고를 참조해 구체성을 일부 살렸음"
+      },
+      "verdict": {
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 8,
+          "cited_programs": [
+            "보건복지형 예비사회적기업",
+            "디지털헬스 관련 R&D 자금"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "보건복지형 예비사회적기업은 announcement에 있음. 디지털헬스 R&D는 일반 명칭"
+          ]
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "헬스케어 예산이 조용히 계속 늘고 있다"
+          ],
+          "issues": [
+            "추세 주장이지만 구체 수치 없음"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "트렌드 포스트들과 형식은 유사하나 헬스케어 주제는 새로움"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "사실 검증 통과, 추세 주장도 일반화 수준"
         }
       }
     },
     "evening": {
-      "status": "approved",
-      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "지난달 매칭된 제조업 대표 케이스인데\n\n매출 8억짜리 회사였는데 기보 보증 한도가 계속 벽에 막혀 있던 상황이었어.\n\n벤처인증 받고 나서 얼마 지나지 않아 보증 한도가 기존 대비 두 배 가까이 올라갔다고 하더라.\n\n이거 의외로 모르는 사람 많은데, 벤처인증은 세제 혜택 때문에 받는다고 알고 있는 분들이 대부분이거든.\n\n근데 사실 금융 접근성 자체가 달라지는 게 진짜 임팩트야.\n\n인증 하나가 자금 조달 구조를 바꿔버리는 케이스, 생각보다 자주 봐.",
-        "char_count": 213,
-        "reasoning": "실제 익명 사례를 통해 벤처인증의 보증한도 효과를 보여주는 구체적 케이스 포맷이 가장 적합하고, 공고 목록에 매칭 공고가 없어 일반 도메인 지식 기반으로 작성했음"
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 8,
-          "cited_programs": [
-            "벤처인증",
-            "기보 보증"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "벤처기업확인제도는 화이트리스트"
-          ]
-        },
-        "hallucination_check": {
-          "score": 7,
-          "risky_claims": [
-            "벤처인증 후 보증 한도 두 배 가까이 상승"
-          ],
-          "issues": [
-            "'두 배 가까이'는 일반화된 표현이지만 구체 케이스로 단정한 점 약간 위험"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [],
-          "issues": [
-            "벤처인증 = 보증한도 효과 메시지가 도메인에서 자주 다뤄지는 주제이나 최근 15개에는 동일 메시지 없음"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "화이트리스트 사업, 표현 일반화 양호"
-        }
-      }
+      "status": "rejected",
+      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
+      "reason": "review"
     },
     "late_evening": {
-      "status": "approved",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들었는데 진짜 신기했어.\n\nTIPS 한 번 떨어진 회사가 6개월 뒤 다시 넣어서 붙었거든.\n\n바뀐 게 뭔지 물어봤더니\n기술이나 팀이 아니었어.\n\n첫 번째 땐 IR 자료가 투자자 언어가 아니라 \"우리 기술 소개서\" 수준이었대.\nTIPS는 결국 민간 VC가 먼저 투자를 결정해야 하는 구조잖아.\n\n그래서 두 번째엔 VC 미팅을 30번 돌면서 피드백 받고,\n자료를 \"기술\" 중심에서 \"시장 + 엑싯\" 중심으로 갈아엎었대.\n\n결과는 선정.\n\nTIPS 떨어졌다고 회사가 안 되는 게 아니야.\n프레이밍 문제인 경우가 생각보다 많더라.",
-        "char_count": 253,
-        "reasoning": "TIPS 재도전 성공 사례는 익명 기업의 구체적 경험 흐름을 통해 인사이트를 전달하는 케이스스터디 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "late_evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "TIPS"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "VC 미팅 30번"
-          ],
-          "issues": [
-            "사례 디테일로 검증 불가하지만 일반 경험 범주"
-          ]
-        },
-        "duplication_check": {
-          "score": 9,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "TIPS는 화이트리스트, 케이스 구성 자연스러움"
-        }
-      }
+      "status": "rejected",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "reason": "fail"
     },
     "night": {
       "status": "approved",
-      "topic": "메타버스·블록체인 자금이 줄어든 이유",
+      "topic": "콘텐츠·플랫폼 자금 변화",
       "post": {
         "post_type": "트렌드",
-        "main_post": "요즘 정책자금 공고 보다 보면 느끼는 거 있어.\n\n메타버스, NFT, 블록체인 붙은 사업이 거의 안 보여.\n2~3년 전이랑 완전 딴 세상임.\n\n그때 \"메타버스 바우처\" \"블록체인 실증\" 엄청 많았는데\n지금은 AI, 기후테크, 방산 이쪽으로 싹 다 옮겨갔거든.\n\n정부가 예산 편성하는 방식 보면 민간 투자 트렌드 6~12개월 뒤따라가는 경향이 있어.\n메타버스에 VC 돈 끊기니까 정책자금도 자연스럽게 빠진 거지.\n\n근데 이게 좋은 신호기도 해.\n지금 AI 전환, 기후테크 쪽 공고 폭발적으로 늘고 있으니까\n이 흐름 타는 업종이라면 지금이 진짜 타이밍임.",
-        "char_count": 225,
-        "reasoning": "특정 자금 마감보다 정책자금 예산 흐름 변화를 다루는 주제라 트렌드 타입이 가장 자연스럽고, 공고 데이터에서도 AI·기후테크·방산 공고 증가 흐름을 실제 근거로 활용 가능함"
+        "main_post": "요즘 콘텐츠·플랫폼 쪽 정책자금 분위기가 진짜 바뀌고 있어\n\n예전엔 콘텐츠 = 영상·영화 이런 느낌이었는데\n지금은 라이선싱, 한류연계, 라이브커머스까지 다 자금이 붙어\n\n이번에 공고 보다가 브랜드 라이선싱 유럽 참가 지원이 있는 거 봤는데\nIP 가진 콘텐츠 기업이면 진짜 좋은 기회거든\n차이나 라이선싱 엑스포, 한복웨이브 같은 것도 같이 뜸\n\n근데 다들 이 쪽 자금은 잘 모르더라\n제조나 R&D 자금만 열심히 찾고\n콘텐츠 쪽은 놓치는 경우가 많아\n\n플랫폼이나 IP 있으면 이쪽도 한번 들여다봐",
+        "char_count": 228,
+        "reasoning": "콘텐츠·플랫폼 자금 변화라는 트렌드성 주제에, 실제 공고(브랜드 라이선싱 유럽, 차이나 라이선싱 엑스포, 한복웨이브, 관광 라이브커머스)를 자연스럽게 엮어 트렌드 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "AI",
-            "기후테크",
-            "방산"
+            "브랜드 라이선싱 유럽",
+            "차이나 라이선싱 엑스포",
+            "한복웨이브",
+            "관광 라이브커머스"
           ],
           "unverified_programs": [],
           "issues": [
-            "announcement에 기후테크/방산/AI 공고 실제 다수 존재해 정합"
+            "네 개 모두 announcement에 정확히 존재"
           ]
         },
         "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "정부 예산이 민간 투자 트렌드 6~12개월 뒤따라감"
-          ],
-          "issues": [
-            "일반화된 정성 표현으로 위험 낮음"
-          ]
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
         },
         "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-15_트렌드_디지털전환DX_관련_자금_폭증.md"
-          ],
+          "score": 9,
+          "similar_recent_files": [],
           "issues": [
-            "DX/AI 트렌드 메시지와 부분 중복이나 각도(과거 트렌드 소멸 비교)가 달라 차별성 있음"
+            "트렌드 형식이지만 콘텐츠/IP 주제는 새로움"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 8,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "트렌드 비교 각도가 차별적, 실제 공고 분포와 정합"
+          "reasoning": "실제 공고 4건을 정확히 활용한 양질의 트렌드 포스트"
         }
       }
     }
