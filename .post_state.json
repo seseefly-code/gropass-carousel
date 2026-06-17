@@ -107,27 +107,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-06_솔직인사이트_사업계획서_잘_쓰는_대표_vs_못_쓰는_대표_차이.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "[3] 글에서 '저희 제품은 혁신적입니다'만 가득한 사업계획서 탈락 패턴 언급과 일부 겹침. 다만 본 글은 '심사위원 관점'이라는 각도로 차별화됨"
-        ]
-      },
-      "posted_at": "2026-06-06T11:19:26.110Z",
-      "media_id": "17939161338247703",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPhVaBkazW"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
@@ -1775,6 +1754,20 @@
       "posted_at": "2026-06-17T08:31:29.562Z",
       "media_id": "17987747114826440",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZri3ABlnAX"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[경기] 2026년 소공인 박람회 지원 사업 추가모집 공고 자금 해설 (경기도)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18097047389216525",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZryudKkTPC",
+      "posted_at": "2026-06-17T10:50:14.030Z"
     }
   ]
 }
