@@ -107,20 +107,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[충북] 2026년 수출ㆍ온라인 자문관 활용 현장지원 사업 참여기업 모집공고 (해외 부문) 자금 해설 (충청북도)",
-      "char_count": 210,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18101330126022063",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPN_uhnI35",
-      "posted_at": "2026-06-06T08:30:32.697Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "2026년 사라진 자금, 새로 생긴 자금",
@@ -1775,6 +1761,20 @@
       "media_id": "18097927330929662",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZqp71Qjndu",
       "posted_at": "2026-06-17T00:14:09.676Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 227,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18102236735118816",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZrRnC6jpC9",
+      "posted_at": "2026-06-17T06:00:50.686Z"
     }
   ]
 }
