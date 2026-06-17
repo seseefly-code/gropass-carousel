@@ -107,20 +107,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "떨어졌다는 메일 받은 날 표정",
-      "char_count": 131,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17991476072989173",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPDGotluZI",
-      "posted_at": "2026-06-06T06:55:20.690Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[충북] 2026년 수출ㆍ온라인 자문관 활용 현장지원 사업 참여기업 모집공고 (해외 부문) 자금 해설 (충청북도)",
@@ -1775,6 +1761,20 @@
       "media_id": "18057398261727613",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZqjfLBDlgS",
       "posted_at": "2026-06-16T23:17:50.118Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[강원] 2026년 수출 스타기업 육성 지원사업 참가기업 2차 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
+      "char_count": 213,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18097927330929662",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZqp71Qjndu",
+      "posted_at": "2026-06-17T00:14:09.676Z"
     }
   ]
 }
