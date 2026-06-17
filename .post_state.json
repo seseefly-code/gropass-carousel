@@ -5,7 +5,7 @@
     "솔직인사이트": 6,
     "공감페인": 6,
     "케이스스터디": 5,
-    "숫자팩트": 15,
+    "숫자팩트": 1,
     "마감알림": 14,
     "오해풀기": 2,
     "트렌드": 10
@@ -106,31 +106,6 @@
     "PBLN_000000000123253"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "2026년 사라진 자금, 새로 생긴 자금",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-06_트렌드_2026년_사라진_자금_새로_생긴_자금.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "언급된 두 사업 모두 announcement 컨텍스트에 존재함 (경기 제조로봇ㆍAI융합 실증지원, 한국형 ARPA-H 프로젝트)",
-          "구체 수치 없이 일반화된 표현으로 위험도 낮음",
-          "'사라지거나 규모 줄어든 자금'은 구체 명시 안 해서 안전",
-          "같은 날짜에 '정책자금 트렌드 변화' 주제 트렌드 글이 이미 3개 있음",
-          "'요즘 ~ 바뀌고 있어' 후킹 패턴이 [12][13]과 유사",
-          "다만 각도(업종별 신규/소멸 자금)는 약간 다름 - review 수준"
-        ]
-      },
-      "posted_at": "2026-06-06T09:52:53.553Z",
-      "review_required": true
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1775,6 +1750,31 @@
       "media_id": "18102236735118816",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZrRnC6jpC9",
       "posted_at": "2026-06-17T06:00:50.686Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "올해 정부 정책자금 예산 30조 시대",
+      "char_count": 230,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-17_숫자팩트_올해_정부_정책자금_예산_30조_시대.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "언급된 3개 사업 모두 announcement 컨텍스트에 존재함 - 강원 수출 스타기업 육성 지원사업, 경북 기후테크 기업 육성지원, 충북 산업 AI 도입·실증 지원사업과 매칭됨",
+          "30조원은 일반적으로 알려진 추상화된 규모로 OK",
+          "'매년 수천억 규모 사라진다'는 검증 어렵지만 추상적 표현이라 허용 범위",
+          "'모르는 게 문제' 메시지가 [11] 폐업위기 케이스스터디의 '정보 격차가 생존 격차' 메시지와 유사하나 각도 다름",
+          "숫자팩트 타입은 [7]에 1건 있으나 주제(1인 창업자 자금 개수 vs 전체 예산 규모)가 명확히 다름"
+        ]
+      },
+      "posted_at": "2026-06-17T08:31:29.562Z",
+      "media_id": "17987747114826440",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZri3ABlnAX"
     }
   ]
 }
