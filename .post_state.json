@@ -107,20 +107,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
-      "char_count": 278,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18051984350769315",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZPuDysllsn",
-      "posted_at": "2026-06-06T13:10:42.124Z"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "신용등급 낮으면 자금 못 받는다는 오해",
@@ -1768,6 +1754,20 @@
       "media_id": "18097047389216525",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZryudKkTPC",
       "posted_at": "2026-06-17T10:50:14.030Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18085092839635317",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZr7xNsFJCm",
+      "posted_at": "2026-06-17T12:09:14.988Z"
     }
   ]
 }
