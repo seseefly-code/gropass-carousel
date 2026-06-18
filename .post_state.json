@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 8,
     "공감페인": 7,
-    "케이스스터디": 7,
+    "케이스스터디": 8,
     "숫자팩트": 3,
     "마감알림": 15,
     "오해풀기": 2,
@@ -109,29 +109,6 @@
     "PBLN_000000000123311"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
-      "char_count": 0,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-07_케이스스터디_RD_보고서_잘_못_쓴_줄_알았는데_통과된_사례.md",
-      "verdict": {
-        "decision": "fail",
-        "score": 3,
-        "fact": 8,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 5,
-        "issues": [
-          "본문이 미완성 상태로 잘림. 구체 사업명 없이 일반 명칭만 언급.",
-          "본문이 중간에 잘려서 검증할 구체 수치가 없음.",
-          "케이스스터디 카테고리 최근 2건 있으나 본문이 미완성이라 의미적 중복 판단 불가.",
-          "본문이 미완성 상태(중간에 끊김). char_count=0이고 문장이 '제출하고 나서'에서 끊김. 게시 불가."
-        ]
-      },
-      "posted_at": "2026-06-07T13:24:02.038Z",
-      "discarded": true
-    },
     {
       "slot": "night",
       "type": "오해풀기",
@@ -1781,6 +1758,32 @@
       "media_id": "18353301937211559",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZudpvxFa0I",
       "posted_at": "2026-06-18T11:43:47.963Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_케이스스터디_대표_혼자_신청서_써서_5천_받은_케이스.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 7,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 없이 '정책자금'이라는 일반 명칭만 사용, 화이트리스트 범위 내",
+          "'5천(만원)'은 자기 경험 사례로 제시되어 검증 불가지만, 정책자금 일반 한도 내 수치라 큰 문제 없음",
+          "'컨설팅 비용 수백만원'은 추상적 범위 표현이라 허용 가능",
+          "[8] 사업계획서 한 줄 바꿔서 통과된 사례와 '신청서 작성의 본질' 메시지가 유사",
+          "[13] 컨설팅비 1천 vs 직접 하기와 '컨설팅 없이 직접 작성'이라는 대비 구도가 겹침",
+          "다만 각도(솔직함이 핵심)는 다소 새로움",
+          "존댓말, 해시태그, 클릭베이트 없음. 글자수 218자 적정"
+        ]
+      },
+      "posted_at": "2026-06-18T12:47:24.274Z",
+      "review_required": true
     }
   ]
 }
