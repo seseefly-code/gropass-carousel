@@ -2,7 +2,7 @@
   "evening_index": 1,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 7,
+    "솔직인사이트": 8,
     "공감페인": 7,
     "케이스스터디": 7,
     "숫자팩트": 2,
@@ -109,20 +109,6 @@
     "PBLN_000000000123311"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
-      "char_count": 220,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18137977627531624",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZRpXQplVyy",
-      "posted_at": "2026-06-07T07:08:08.806Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1778,6 +1764,30 @@
       "posted_at": "2026-06-18T00:15:10.826Z",
       "media_id": "18078943751397255",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZtO22CE7Mp"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
+      "char_count": 230,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_솔직인사이트_컨설팅비_1천_vs_직접_알아서_하기.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 없이 일반론으로 작성되어 사실 검증 위험 낮음",
+          "컨설팅비 1천만원은 시장 통념상 합리적 예시 범위이고 단정적 비용 주장이 아니라 비교 프레임으로 사용됨",
+          "최근 게시물에 컨설팅 vs 직접 처리 주제는 없음. [6] 솔직인사이트와 톤 유사하지만 각도 다름",
+          "존댓말/해시태그/이모지 없음, 글자수 230자 적정, 반말 일관"
+        ]
+      },
+      "posted_at": "2026-06-18T05:28:34.662Z",
+      "media_id": "18124111090675357",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZtyuJ4jsQz"
     }
   ]
 }
