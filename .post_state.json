@@ -110,20 +110,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "char_count": 264,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18118486270742247",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZSI7PHILCt",
-      "posted_at": "2026-06-07T11:43:57.809Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
@@ -1781,6 +1767,20 @@
       "media_id": "18106164046984167",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZuTtrsIC5_",
       "posted_at": "2026-06-18T10:17:00.206Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "헬스케어 자금 신규 증가 추세",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18353301937211559",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZudpvxFa0I",
+      "posted_at": "2026-06-18T11:43:47.963Z"
     }
   ]
 }
