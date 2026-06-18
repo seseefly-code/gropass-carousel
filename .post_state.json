@@ -110,28 +110,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 경남 스타트업 핵심 IP(지식재산권) 권리화 지원사업 창업기업 모집 연장 공고(경남동부권 창업지원거점 G-Space@East) 자금 해설 (경상남도)",
-      "char_count": 224,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-07_자금해설_2026년_경남_스타트업_핵심_IP지식재산권_권리화_지.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 9,
-        "tone": 10,
-        "issues": [
-          "마감일 6월 15일은 announcement와 일치하여 문제 없음",
-          "IP/특허 관련 트렌드 언급은 [14]에 있으나 각도가 다름 (트렌드 vs 특정 사업 해설)"
-        ]
-      },
-      "posted_at": "2026-06-07T08:53:02.929Z",
-      "media_id": "17913903492199372",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZR1YHRlU9O"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
@@ -1798,6 +1776,20 @@
       },
       "posted_at": "2026-06-18T08:11:47.994Z",
       "review_required": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
+      "char_count": 216,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17871634068619785",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZuJ82UkXMY",
+      "posted_at": "2026-06-18T08:51:41.779Z"
     }
   ]
 }
