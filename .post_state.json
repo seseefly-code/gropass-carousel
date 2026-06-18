@@ -112,20 +112,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
-      "char_count": 200,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17934908517268045",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZTVt2zljIX",
-      "posted_at": "2026-06-07T22:54:56.992Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 4차 수출 도전기업 IP위험 대응역량 강화사업 모집 공고 D-8 마감 (지식재산처)",
@@ -1795,6 +1781,20 @@
       },
       "posted_at": "2026-06-18T14:49:53.132Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "이번 주 마감 임박 자금 체크 권유",
+      "char_count": 198,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18359773699239842",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZvuWW5AZDC",
+      "posted_at": "2026-06-18T23:28:58.908Z"
     }
   ]
 }
