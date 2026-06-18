@@ -105,23 +105,10 @@
     "PBLN_000000000123256",
     "PBLN_000000000123253",
     "PBLN_000000000123289",
-    "PBLN_000000000123313"
+    "PBLN_000000000123313",
+    "PBLN_000000000123311"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17892109896519863",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZRcle_DkC8",
-      "posted_at": "2026-06-07T05:16:32.055Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1770,6 +1757,27 @@
       "media_id": "17944638498031571",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZtILqND2EC",
       "posted_at": "2026-06-17T23:16:59.475Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 튀르키예 GlobeMeets 트래블마트  참가기관 모집 공고 D-6 마감 임박 (문화체육관광부)",
+      "char_count": 224,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_마감알림_2026년_튀르키예_GlobeMeets_트래블마트_참가.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 9,
+        "issues": [
+          "최근 마감알림이 2건 있으나 사업·각도 모두 다름"
+        ]
+      },
+      "posted_at": "2026-06-18T00:15:10.826Z",
+      "media_id": "18078943751397255",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZtO22CE7Mp"
     }
   ]
 }
