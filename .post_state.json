@@ -112,29 +112,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "char_count": 241,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-08_트렌드_글로벌_진출_자금_비중_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "언급된 모든 사업이 announcement 컨텍스트에 실제 존재하는 공고와 일치함",
-          "'절반 가까이'는 추상화된 표현이며 실제 30건 중 수출 분야 7건+해외진출 관련 1건 등 글로벌 비중이 실제로 높은 편이라 과장 아님",
-          "[1] 트렌드 키워드와 일부 주제 겹침(수출·글로벌 언급)이 있으나, 이 글은 '지역별로 흩어진 글로벌 공고'라는 각도라 차별화됨"
-        ]
-      },
-      "posted_at": "2026-06-08T12:21:13.762Z",
-      "media_id": "18109494985840813",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUx_w9EYcG"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "매출 0원에서 자금 받은 초기 스타트업",
@@ -1795,6 +1772,20 @@
       "media_id": "17980411788010840",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZw5D17le67",
       "posted_at": "2026-06-19T10:21:46.368Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "융자 vs 보증 vs 출연금 비중 변화",
+      "char_count": 212,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18480870592096766",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZxEINxFD_3",
+      "posted_at": "2026-06-19T11:58:29.590Z"
     }
   ]
 }
