@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
     "케이스스터디": 12,
     "숫자팩트": 4,
     "마감알림": 1,
-    "오해풀기": 2,
+    "오해풀기": 3,
     "트렌드": 14
   },
   "used_announcements": [
@@ -111,34 +111,6 @@
     "PBLN_000000000123367"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "char_count": 233,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-08_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 8,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "언급된 3개 사업 모두 화이트리스트(청창사) 또는 상시 운영되는 잘 알려진 청년 대상 정책자금으로 사실관계 OK",
-          "'만 39세 이하' 조건도 청창사 일반 상수와 일치",
-          "구체 수치·금액·마감일 없음, 모두 일반화된 표현이라 위험도 낮음",
-          "최근 15개 중 트렌드 3건([11] AI R&D, [12] 그린환경, [14] 글로벌)이 있으나 '세대 격차/시니어 창업'은 새로운 각도",
-          "후킹·인사이트·소재 모두 차별화됨",
-          "존댓말·해시태그·여러분·이모지·클릭베이트 없음",
-          "글자수 233자로 적정",
-          "반말 일관성 유지"
-        ]
-      },
-      "posted_at": "2026-06-08T16:51:12.420Z",
-      "media_id": "17852158335696822",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZVQ5HSlAXE"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1791,6 +1763,26 @@
       "media_id": "18586283323065118",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZxXL6RFZ0R",
       "posted_at": "2026-06-19T14:45:01.675Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "컨설팅 받으면 100% 받는다는 환상",
+      "char_count": 224,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-19_오해풀기_컨설팅_받으면_100_받는다는_환상.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "최근 컨설팅 효용 관련 글이 3건 있고(솔직인사이트, 케이스스터디 2건) 본 포스트도 컨설팅 한계를 다룸. 다만 각도는 '자격 조건 자체가 안 되면 컨설팅도 무용'이라는 새로운 프레임이라 완전 중복은 아님"
+        ]
+      },
+      "posted_at": "2026-06-19T16:07:40.969Z",
+      "review_required": true
     }
   ]
 }
