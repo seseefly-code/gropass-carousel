@@ -112,20 +112,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 4차 수출 도전기업 IP위험 대응역량 강화사업 모집 공고 D-8 마감 (지식재산처)",
-      "char_count": 194,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18104848595056291",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZTdt0JDkb1",
-      "posted_at": "2026-06-08T00:04:52.813Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 신청 타이밍이 결과를 가르는 이유",
@@ -1795,6 +1781,20 @@
       "media_id": "18359773699239842",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZvuWW5AZDC",
       "posted_at": "2026-06-18T23:28:58.908Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 경남진주강소특구 이노테크 기업육성 사업 테크코어ㆍ테크스타트ㆍ테크플래그십 시행 공고 D-4 마감 임박 (과학기술정보통신부)",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18094240517590458",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZv0u5PjXlJ",
+      "posted_at": "2026-06-19T00:24:43.644Z"
     }
   ]
 }
