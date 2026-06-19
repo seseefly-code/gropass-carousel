@@ -112,20 +112,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "신청 대비 평균 선정률",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18086537381564552",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUVpBOlbdH",
-      "posted_at": "2026-06-08T08:13:32.399Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
@@ -1795,6 +1781,20 @@
       "media_id": "18115838785847213",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZwcJDXkVjZ",
       "posted_at": "2026-06-19T06:09:05.076Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
+      "char_count": 214,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18352087039245407",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZwsx7OmJoO",
+      "posted_at": "2026-06-19T08:34:30.472Z"
     }
   ]
 }
