@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 8,
-    "케이스스터디": 11,
+    "케이스스터디": 12,
     "숫자팩트": 4,
     "마감알림": 1,
     "오해풀기": 2,
@@ -111,20 +111,6 @@
     "PBLN_000000000123367"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "매출 0원에서 자금 받은 초기 스타트업",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18092373266345482",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZU9dnykbmX",
-      "posted_at": "2026-06-08T14:01:32.443Z"
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1786,6 +1772,34 @@
       "media_id": "18480870592096766",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZxEINxFD_3",
       "posted_at": "2026-06-19T11:58:29.590Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-19_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 7,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 9,
+        "issues": [
+          "사업명을 일반화해서 표현했고, announcement의 '첨단로봇·AI 활용 중소기업 제조혁신 사업', '중소기업 산업보안 진단 컨설팅', '소상공인 직원 신규채용 인건비 지원사업'과 매칭됨",
+          "다만 세 사업이 지역(전남/충북/울산 울주군)이 다 달라서 한 회사가 동시에 받기는 현실적으로 어려운데, 케이스가 익명·일반화되어 큰 사실 위반은 아님",
+          "구체 비용/심사비/예산 숫자는 없음",
+          "매출 3억·흑자 전환은 익명 케이스의 일반적 추상화 수준으로 BAN 트리거 아님",
+          "'어제 데이터 보다가' 도입부가 [11]과 동일",
+          "다만 인사이트(고정비 구조 변화 vs 선순환 스케일업)는 각도가 다름",
+          "글자수 248자, 반말 유지, 해시태그·이모지·여러분 없음",
+          "도입부가 [11]과 같은 패턴이라 약간 정형화 우려"
+        ]
+      },
+      "posted_at": "2026-06-19T13:29:36.179Z",
+      "media_id": "17958280056167976",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZxOkKHEe-P"
     }
   ]
 }
