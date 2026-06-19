@@ -114,20 +114,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
-      "char_count": 176,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18001054169761379",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZV8Dd4GkgQ",
-      "posted_at": "2026-06-08T23:08:27.645Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안) D-4 마감 임박 (중소벤처기업부)",
@@ -1785,6 +1771,20 @@
       },
       "posted_at": "2026-06-19T16:07:40.969Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "월말 마감 자금 정리",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18085140635183529",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZyOEDsEjyO",
+      "posted_at": "2026-06-19T22:44:34.609Z"
     }
   ]
 }
