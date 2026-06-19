@@ -112,20 +112,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
-      "char_count": 188,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18048342059783834",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZUal51lsuV",
-      "posted_at": "2026-06-08T08:56:49.052Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 연장ㆍ추가모집 공고 자금 해설 (문화체육관광부)",
@@ -1795,6 +1781,20 @@
       "media_id": "18352087039245407",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZwsx7OmJoO",
       "posted_at": "2026-06-19T08:34:30.472Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "char_count": 197,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18226340365317315",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZwwedPCWe2",
+      "posted_at": "2026-06-19T09:06:48.192Z"
     }
   ]
 }
