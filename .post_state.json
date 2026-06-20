@@ -114,20 +114,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
-      "char_count": 163,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18099129755139313",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZW4C0wFc04",
-      "posted_at": "2026-06-09T07:52:37.824Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 2차 만화웹툰 해외진출지원 KOMICS 프랑스 참가기업 모집 공고 자금 해설 (문화체육관광부)",
@@ -1785,6 +1771,20 @@
       "media_id": "18099001067167576",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZzHGerEXIz",
       "posted_at": "2026-06-20T07:02:57.381Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17995590050789523",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzM0d6EW_C",
+      "posted_at": "2026-06-20T07:52:56.331Z"
     }
   ]
 }
