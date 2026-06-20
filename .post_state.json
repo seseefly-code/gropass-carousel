@@ -6,7 +6,7 @@
     "공감페인": 11,
     "케이스스터디": 15,
     "숫자팩트": 6,
-    "마감알림": 3,
+    "마감알림": 4,
     "오해풀기": 4,
     "트렌드": 3
   },
@@ -115,20 +115,6 @@
     "PBLN_000000000123396"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "신년 새 자금 공고 예고",
-      "char_count": 193,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18031061039819998",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZYhMwRmt1W",
-      "posted_at": "2026-06-09T23:11:31.743Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1784,6 +1770,29 @@
       },
       "posted_at": "2026-06-20T15:04:46.508Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "상시 모집이지만 예산 소진 임박 자금",
+      "char_count": 216,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-20_마감알림_상시_모집이지만_예산_소진_임박_자금.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "언급된 사업명이 announcement 컨텍스트에 정확히 존재함('[울산] 울주군 2026년 소상공인 직원 신규채용 인건비 지원사업', 예산 소진시까지)",
+          "구체 수치나 비용 없이 일반적 메시지 위주, 검증 위험 낮음",
+          "최근 마감알림 게시물들과 주제가 겹치지 않음 — 상시 모집의 함정이라는 각도는 새로움"
+        ]
+      },
+      "posted_at": "2026-06-20T22:58:42.263Z",
+      "media_id": "18069363971415780",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ00fSXD62y"
     }
   ]
 }
