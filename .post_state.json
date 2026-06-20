@@ -114,20 +114,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18015681194893726",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXYBopEeEQ",
-      "posted_at": "2026-06-09T12:32:06.580Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "폐업 위기에서 정책자금으로 살아난 회사",
@@ -1792,6 +1778,20 @@
       },
       "posted_at": "2026-06-20T10:25:27.941Z",
       "review_required": true
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "신청서에 쓰면 안 되는 표현 5가지",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17928525030346219",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzoLz1lEpm",
+      "posted_at": "2026-06-20T11:52:02.713Z"
     }
   ]
 }
