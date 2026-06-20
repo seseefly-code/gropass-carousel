@@ -8,7 +8,7 @@
     "숫자팩트": 5,
     "마감알림": 2,
     "오해풀기": 3,
-    "트렌드": 1
+    "트렌드": 2
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -113,20 +113,6 @@
     "PBLN_000000000123405"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "디지털전환(DX) 관련 자금 폭증",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18155899081461561",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXMgrXlAzi",
-      "posted_at": "2026-06-09T10:51:28.818Z"
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1785,6 +1771,27 @@
       "media_id": "18115428946889950",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZzTe31FILH",
       "posted_at": "2026-06-20T08:51:07.161Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
+      "char_count": 238,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-20_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 4,
+        "tone": 10,
+        "issues": [
+          "구체 수치 없이 일반화된 표현으로 작성됨",
+          "6/19에 이미 'AI·딥테크 쪽 예산 늘고 있다'는 동일 메시지의 트렌드 글이 2개 게시됨 (사라진/새로 생긴 자금, 2026 트렌드 키워드). 본 포스트가 인용하는 3개 공고(온디바이스 AI 스케일업, 딥테크 창업중심대학, 로봇 기반 공간컴퓨팅)도 [14]번에서 거의 동일하게 언급됨. 핵심 인사이트(AI 스타트업을 예전 벤처처럼 육성)가 신선하긴 하나 근거 사례가 완전 중복"
+        ]
+      },
+      "posted_at": "2026-06-20T10:25:27.941Z",
+      "review_required": true
     }
   ]
 }
