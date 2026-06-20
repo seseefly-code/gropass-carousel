@@ -114,20 +114,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안) D-4 마감 임박 (중소벤처기업부)",
-      "char_count": 198,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17943129681038455",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZWCYwul_9f",
-      "posted_at": "2026-06-09T00:03:46.836Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
@@ -1785,6 +1771,20 @@
       "media_id": "18085140635183529",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZyOEDsEjyO",
       "posted_at": "2026-06-19T22:44:34.609Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[서울] 2026년 중국(광저우ㆍ청두) 시장개척단 참가기업 모집 공고 D-5 마감 임박 (서울특별시)",
+      "char_count": 207,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18431823139192784",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZyXidmHKxT",
+      "posted_at": "2026-06-20T00:07:20.932Z"
     }
   ]
 }
