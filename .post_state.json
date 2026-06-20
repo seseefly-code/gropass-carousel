@@ -114,20 +114,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 2차 만화웹툰 해외진출지원 KOMICS 프랑스 참가기업 모집 공고 자금 해설 (문화체육관광부)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18078456092647582",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXEEpXEbE1",
-      "posted_at": "2026-06-09T09:37:45.514Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "디지털전환(DX) 관련 자금 폭증",
@@ -1785,6 +1771,20 @@
       "media_id": "17995590050789523",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZzM0d6EW_C",
       "posted_at": "2026-06-20T07:52:56.331Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 5차 신규프로젝트 탐색연구사업 신규과제(탐사) 공고 자금 해설 (과학기술정보통신부)",
+      "char_count": 247,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18115428946889950",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzTe31FILH",
+      "posted_at": "2026-06-20T08:51:07.161Z"
     }
   ]
 }
