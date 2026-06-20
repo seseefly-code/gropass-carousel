@@ -114,30 +114,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
-      "char_count": 226,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-09_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 8,
-        "halluc": 8,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "언급된 두 사업 모두 announcement 컨텍스트에 존재 (김천시 중소기업 기술성장 디딤돌 사업, 경북 중소벤처기업 AI 기술융합 스케일업 지원사업). 경북 지역, 테크노파크 수행 모두 부합",
-          "자기 경험·전언 형태로 추상화되어 있고 구체 금액·비용·선정률 같은 검증 위험 수치 없음. 케이스 디테일은 익명화되어 BAN 리스크 낮음",
-          "최근 케이스스터디 2건(청년창업패키지→시리즈A, 매출1억 R&D 5억)과 주제·각도 모두 다름. 폐업 위기 제조업체 회생 서사는 새로운 각도",
-          "반말 유지, 해시태그 없음, 이모지 없음, 226자로 분량 적정, AI 정형 도입부 없음"
-        ]
-      },
-      "posted_at": "2026-06-09T14:29:17.911Z",
-      "media_id": "18103649618109090",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXlcoUDp-D"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "사업계획서만 잘 쓰면 된다는 오해",
@@ -1792,6 +1768,20 @@
       "media_id": "17928525030346219",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZzoLz1lEpm",
       "posted_at": "2026-06-20T11:52:02.713Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
+      "char_count": 234,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17885612883595282",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzzboJEfC5",
+      "posted_at": "2026-06-20T13:30:18.881Z"
     }
   ]
 }
