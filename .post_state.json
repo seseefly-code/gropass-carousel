@@ -1,9 +1,9 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 11,
-    "공감페인": 9,
+    "공감페인": 10,
     "케이스스터디": 13,
     "숫자팩트": 5,
     "마감알림": 2,
@@ -113,27 +113,6 @@
     "PBLN_000000000123405"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "사업계획서만 잘 쓰면 된다는 오해",
-      "char_count": 202,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-09_오해풀기_사업계획서만_잘_쓰면_된다는_오해.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "[4]번 글과 '심사위원이 보는 관점'이라는 메타 주제는 유사하나, [4]는 '설득력 부재'에 초점, 본 글은 '지원 자격 사전 점검'에 초점이라 각도가 다름"
-        ]
-      },
-      "posted_at": "2026-06-09T15:58:23.109Z",
-      "media_id": "18126384427554204",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZXvpHUlFpF"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1782,6 +1761,27 @@
       "media_id": "17885612883595282",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZzzboJEfC5",
       "posted_at": "2026-06-20T13:30:18.881Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "정책자금 카페에서 검색만 3시간",
+      "char_count": 178,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-20_공감페인_정책자금_카페에서_검색만_3시간.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "수치들이 모두 과장된 일상 표현 수준이라 위험 없음",
+          "'옆 회사가 자금 받았다는 소식' 공감페인과 메시지 겹침 - 둘 다 '기업마당 공고 너무 많아서 못 찾는다/모르면 없는 거다'가 핵심 메시지. 다만 각도는 다름(타인 비교 vs 본인 탐색 피로)"
+        ]
+      },
+      "posted_at": "2026-06-20T15:04:46.508Z",
+      "review_required": true
     }
   ]
 }
