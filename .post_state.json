@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 11,
-    "케이스스터디": 15,
+    "케이스스터디": 1,
     "숫자팩트": 6,
     "마감알림": 4,
     "오해풀기": 4,
@@ -116,20 +116,6 @@
     "PBLN_000000000123391"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17899723074454978",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZaNPYLkehe",
-      "posted_at": "2026-06-10T14:55:35.426Z"
-    },
     {
       "slot": "night",
       "type": "트렌드",
@@ -1818,6 +1804,30 @@
       "posted_at": "2026-06-21T12:07:07.076Z",
       "media_id": "18204856372345245",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2OtwDlaFz"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "매출 1억 회사가 R&D 5억 받은 사례",
+      "char_count": 228,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_케이스스터디_매출_1억_회사가_RD_5억_받은_사례.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 일반 'R&D 자금' 명칭만 사용 - 안전",
+          "구체 수치이지만 본인 경험담 형식이라 검증 불가 영역, 일반화된 인사이트로 마무리되어 위험도 낮음",
+          "[8] 매출 0원 케이스스터디와 메시지 거의 동일 (매출 적어도 자금 받음 + 사장님들이 지레 포기)",
+          "[6] 오해풀기와도 핵심 인사이트 중복 (매출 기준 아님)",
+          "각도가 R&D 평가 기준으로 조금 다르긴 하나 결론이 유사"
+        ]
+      },
+      "posted_at": "2026-06-21T13:50:25.338Z",
+      "review_required": true
     }
   ]
 }
