@@ -117,20 +117,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18094314686211705",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZYNu0lg3A",
-      "posted_at": "2026-06-10T07:12:14.642Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "매출 부족하다고 거절당한 첫 자금 신청",
@@ -1802,6 +1788,20 @@
       "media_id": "18106088167789810",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1j3L1lMvT",
       "posted_at": "2026-06-21T05:52:45.089Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
+      "char_count": 219,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18052003607765213",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1yznHFQfr",
+      "posted_at": "2026-06-21T08:03:24.753Z"
     }
   ]
 }
