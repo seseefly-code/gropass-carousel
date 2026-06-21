@@ -117,20 +117,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[인천] 2026년 3차 지식재산 긴급지원 사업 모집 공고 자금 해설 (인천광역시)",
-      "char_count": 238,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18045704030788751",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZquRKkeIE",
-      "posted_at": "2026-06-10T09:53:58.168Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "여성기업 우대 자금 변화",
@@ -1802,6 +1788,20 @@
       "media_id": "18175060705407416",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ12oynFfIx",
       "posted_at": "2026-06-21T08:36:48.266Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "2026년 농식품 분야 시뮬레이션 서비스 기반 실증 지원사업 모집 공고 자금 해설 (전북특별자치도)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18103592954025040",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1-d9SFuh7",
+      "posted_at": "2026-06-21T09:45:14.397Z"
     }
   ]
 }
