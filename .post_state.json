@@ -117,20 +117,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18598155367016646",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZKSP8FJGb",
-      "posted_at": "2026-06-10T05:10:31.966Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "R&D 자금 평균 지원 규모와 자기부담률",
@@ -1802,6 +1788,20 @@
       "posted_at": "2026-06-21T00:04:08.812Z",
       "media_id": "17867928267562863",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ07-o0gRS_"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "char_count": 225,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18106088167789810",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1j3L1lMvT",
+      "posted_at": "2026-06-21T05:52:45.089Z"
     }
   ]
 }
