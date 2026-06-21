@@ -112,23 +112,10 @@
     "PBLN_000000000123382",
     "PBLN_000000000123405",
     "PBLN_000000000123395",
-    "PBLN_000000000123396"
+    "PBLN_000000000123396",
+    "PBLN_000000000123391"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[전남] 2026년 프랑스 파리 식품박람회(SIAL Paris) 참가 희망기업 모집 공고 D-8 마감 (전라남도)",
-      "char_count": 168,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17952143466159586",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZYn_lBGntA",
-      "posted_at": "2026-06-10T00:10:53.298Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1793,6 +1780,28 @@
       "posted_at": "2026-06-20T22:58:42.263Z",
       "media_id": "18069363971415780",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ00fSXD62y"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[대구] 군위군 2026년 3차 식품산업 밸류업(value-up) 프로젝트 사업 참여기업 모집 공고(시군구 연고산업 협업프로젝트) D-5 마감 임박 (중소벤처기업부)",
+      "char_count": 210,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_마감알림_대구_군위군_2026년_3차_식품산업_밸류업value-.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "announcement에 '[대구] 군위군 2026년 3차 식품산업 밸류업(value-up) 프로젝트' 실재, 마감 6/26 D-5 일치, 중기부 주관 일치",
+          "부산 블록체인 D-5 마감알림 포맷과 구조가 유사하지만 지역·업종·사업이 완전히 다르고 메시지 각도(연고산업=낮은 경쟁률)가 새로움"
+        ]
+      },
+      "posted_at": "2026-06-21T00:04:08.812Z",
+      "media_id": "17867928267562863",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ07-o0gRS_"
     }
   ]
 }
