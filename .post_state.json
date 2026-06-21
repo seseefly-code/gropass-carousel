@@ -119,20 +119,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "추경 자금 신청 임박 알림",
-      "char_count": 190,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18070088279364154",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZbG5kGktac",
-      "posted_at": "2026-06-10T23:19:28.699Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[경남] 2026년 지진안전산업 기술지원 수혜기업 모집 공고(행정안전부 지진 안전 기반 구축 사업) D-5 마감 임박 (행정안전부)",
@@ -1831,6 +1817,20 @@
       "posted_at": "2026-06-21T15:12:58.616Z",
       "media_id": "18450363505143984",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2j_CMlMGO"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "추가공고 가능성 높은 자금",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17892907308550644",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ3ZiEWFDOH",
+      "posted_at": "2026-06-21T23:00:59.424Z"
     }
   ]
 }
