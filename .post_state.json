@@ -1,8 +1,8 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 2,
   "topic_pool_indexes": {
-    "솔직인사이트": 12,
+    "솔직인사이트": 13,
     "공감페인": 11,
     "케이스스터디": 15,
     "숫자팩트": 6,
@@ -116,20 +116,6 @@
     "PBLN_000000000123391"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
-      "char_count": 226,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18128650435616548",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ-5QSkfqa",
-      "posted_at": "2026-06-10T12:50:14.325Z"
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1810,6 +1796,28 @@
       "posted_at": "2026-06-21T10:59:09.130Z",
       "media_id": "17885954589420806",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2G78Ylgpx"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "char_count": 222,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_솔직인사이트_자금_받고_첫_1년에_꼭_해야_하는_것.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 수치 없음, 일반론 수준",
+          "자금 수령 후 관리라는 각도는 최근 15개 중 다룬 적 없음"
+        ]
+      },
+      "posted_at": "2026-06-21T12:07:07.076Z",
+      "media_id": "18204856372345245",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2OtwDlaFz"
     }
   ]
 }
