@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 11,
@@ -8,7 +8,7 @@
     "숫자팩트": 6,
     "마감알림": 4,
     "오해풀기": 4,
-    "트렌드": 4
+    "트렌드": 5
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -116,29 +116,6 @@
     "PBLN_000000000123391"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
-      "char_count": 232,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-10_트렌드_비RD_사업화_자금이_새로_생기는_이유.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "'동남권 M1형'은 announcement의 '2026년 동남권 지역혁신클러스터육성사업(비R&D) 추가모집 공고(동남권 M1형)'에 정확히 매칭됨. 사업 성격(비R&D 실증·사업화)도 공고명과 일치.",
-          "구체 수치·비용·선정률 없음. 모두 일반화된 트렌드 진술로 위험도 낮음.",
-          "최근 트렌드 글([0] DX, [1] 지역특화, [2] 청년/시니어, [14] 여성기업)과 주제·각도 모두 다름. 'R&D vs 비R&D 사업화' 축은 새로움."
-        ]
-      },
-      "posted_at": "2026-06-10T16:37:01.889Z",
-      "media_id": "17996940527975161",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZaY3A_ESuM"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1828,6 +1805,30 @@
       },
       "posted_at": "2026-06-21T13:50:25.338Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "char_count": 233,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "언급된 3개 사업명 모두 announcement 컨텍스트에 실제 존재함",
+          "구체 수치나 비용 없이 체감 기반 서술로 처리됨",
+          "[9] AI 스타트업 R&D 트렌드, [10] 그린·환경 트렌드, [14] 글로벌 진출 트렌드 등 트렌드 글이 연속되나, 청년 vs 시니어 자금 격차라는 각도는 새로움",
+          "존댓말·해시태그·여러분·클릭베이트 없음, 233자로 적정, 반말체 유지"
+        ]
+      },
+      "posted_at": "2026-06-21T15:12:58.616Z",
+      "media_id": "18450363505143984",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2j_CMlMGO"
     }
   ]
 }
