@@ -8,7 +8,7 @@
     "숫자팩트": 6,
     "마감알림": 4,
     "오해풀기": 4,
-    "트렌드": 3
+    "트렌드": 4
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -116,20 +116,6 @@
     "PBLN_000000000123391"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "여성기업 우대 자금 변화",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17941597320231906",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZ1xoJkbgn",
-      "posted_at": "2026-06-10T11:30:32.739Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1802,6 +1788,28 @@
       "media_id": "18103592954025040",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1-d9SFuh7",
       "posted_at": "2026-06-21T09:45:14.397Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "char_count": 222,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_트렌드_글로벌_진출_자금_비중_변화.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "과거 비교는 검증 어렵지만 추상적 일반화 수준이라 큰 문제 아님",
+          "최근 트렌드 타입 게시물 3개와 형식이 유사 (요즘 ~ 늘었어 → 사례 나열 → 인사이트 마무리), 다만 주제(수출/글로벌)는 새로움"
+        ]
+      },
+      "posted_at": "2026-06-21T10:59:09.130Z",
+      "media_id": "17885954589420806",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2G78Ylgpx"
     }
   ]
 }
