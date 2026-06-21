@@ -1,46 +1,41 @@
 {
-  "date": "2026-06-21",
-  "generated_at": "2026-06-20T22:12:49.301Z",
+  "date": "2026-06-22",
+  "generated_at": "2026-06-21T22:19:03.740Z",
   "slots": {
     "early_morning": {
-      "status": "rejected",
-      "topic": "분기 끝나기 전 신청해야 할 자금",
-      "reason": "review"
-    },
-    "morning": {
-      "status": "rejected",
-      "topic": "[부산] 2026년 블록체인기업 글로벌 사업화 지원사업 참가기업 모집 연장 공고 D-5 마감 임박 (부산광역시)",
-      "reason": "review"
-    },
-    "late_morning": {
       "status": "approved",
-      "topic": "현장 평가 떨어지는 이유 90%",
+      "topic": "추가공고 가능성 높은 자금",
       "post": {
-        "post_type": "솔직인사이트",
-        "main_post": "현장 평가에서 떨어지는 회사들 보면 진짜 패턴이 똑같아\n\n서류는 잘 썼는데 평가 당일에 무너지는 거거든\n\n가장 많은 경우가 사업계획서랑 대표가 하는 말이 다를 때야\n\n\"이 아이템 어떻게 생각하셨어요?\" 물으면\n컨설턴트가 써준 문장 외우다가 막히는 거지\n\n평가위원들 그거 하루에 수십 번 봐왔어\n1분만 얘기해봐도 대표가 직접 고민한 건지 아닌지 바로 알거든\n\n솔직히 현장 평가는 사업 설명보다\n\"이 대표 이거 진짜로 알고 있나\" 보는 자리에 더 가까워",
-        "char_count": 225,
-        "reasoning": "현장 평가 실패 패턴이라는 주제는 데이터·경험 기반의 컨설팅 인사이트를 전달하는 솔직인사이트 타입이 가장 적합하고, 매칭되는 공고는 없어 일반 도메인 지식으로 작성했음"
+        "post_type": "마감알림",
+        "main_post": "추가공고 뜨는 자금 패턴이 진짜 있어\n\n한 번 마감됐다가 '추가 모집'으로 다시 열리는 건데,\n이번에도 부산 블록체인 글로벌 사업화 지원이 연장 공고 났고\n광주 온디바이스 AI 스케일업 밸리도 추가 모집 중이야\n\n이런 자금들은 1차 모집에서 TO가 안 찼거나,\n적합한 기업을 못 찾아서 다시 여는 경우가 대부분이거든\n\n즉 경쟁률이 일반 공고보다 낮을 가능성이 높아\n\n'추가', '연장', '재공고' 키워드로 기업마당 필터 걸어두면\n남들보다 한 발 빠르게 잡을 수 있음",
+        "char_count": 218,
+        "reasoning": "추가공고 가능성 높은 자금이라는 주제는 타이밍 기반 정보 전달이 핵심이고, 실제 공고 데이터(연장·추가 모집 공고)를 활용해 긴급성과 실용 팁을 전달하는 마감알림 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "late_morning",
+        "slot": "early_morning",
         "fact_check": {
-          "score": 10,
-          "cited_programs": [],
+          "score": 9,
+          "cited_programs": [
+            "부산 블록체인기업 글로벌 사업화 지원사업 연장 공고",
+            "광주 온디바이스 AI 스케일업 밸리 추가모집"
+          ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "하루에 수십 번"
+            "경쟁률이 일반 공고보다 낮을 가능성이 높음"
           ],
-          "issues": []
+          "issues": [
+            "경쟁률 추론은 일반화 표현이라 허용 범위"
+          ]
         },
         "duplication_check": {
           "score": 8,
           "similar_recent_files": [],
           "issues": [
-            "신청서/평가 관련 인사이트가 최근 5,9번과 영역 겹치나 각도 다름"
+            "[0] 마감알림과 주제가 다름(추가/연장 패턴 vs 분기말 마감)"
           ]
         },
         "tone_check": {
@@ -50,128 +45,35 @@
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "일반 인사이트로 사실 위험 없고 톤 적합"
+          "reasoning": "announcement 컨텍스트 내 공고만 호명, 추상화 표현 적절"
         }
       }
     },
-    "noon": {
+    "morning": {
       "status": "approved",
-      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
+      "topic": "[부산] 2026년 명지녹산 스마트그린 AX 실증산단 구축 사업 지원대상기업 모집 추가 공고 D-9 마감 (산업통상부)",
       "post": {
-        "post_type": "숫자팩트",
-        "main_post": "정부 정책자금 종류가 몇 개인지 알아?\n\n중기부, 산업부, 과기부, 지자체 다 합치면 연간 수천 개가 넘어.\n근데 실제로 중소기업 대표 한 명이 내 회사에 맞는 자금을 직접 파악해야 하는 종류는\n업종·규모·지역·단계 다 따지면 현실적으로 수십 개는 돼.\n\n문제는 그걸 다 뒤지는 데만 몇 시간이 날아간다는 거고,\n어차피 대부분은 자격 조건 안 맞아서 걸러짐.\n\n사장님이 사업에 집중해야 하는데\n이걸 직접 찾고 있는 게 맞는 건지 가끔 의문이야.",
-        "char_count": 219,
-        "reasoning": "중소기업 대표가 파악해야 하는 자금 종류 수라는 주제는 숫자 기반 인사이트를 전달하기에 적합하고, '숫자팩트' 타입으로 충격적 규모 → 현실적 문제 → 여운 구조로 자연스럽게 연결됨"
+        "post_type": "마감알림",
+        "main_post": "부산 제조업 하는 대표들 주목\n\n명지녹산 스마트그린 AX 실증산단 사업\n이거 D-9이야. 6월 30일 마감.\n\n산업통상부에서 지원하는 거고\n부산 명지녹산 쪽 제조 기반 기업이면 한 번 들여다볼 만해\n\nAX(AI전환) 실증 관련 사업이라 디지털 전환 고민 중인 곳에 맞아\n세부 조건은 공고 직접 확인해야 하는데\n\n솔직히 이런 거 타이밍이야\n부산테크노파크에서 수행하니까 거기 통해서 문의하는 게 제일 빠름",
+        "char_count": 209,
+        "reasoning": "마감 D-9 긴급 공고이므로 마감알림 타입이 적합하며, 부산 지역 제조업 대표의 시점에서 시간 압박을 자연스럽게 전달하는 구조로 작성"
       },
       "verdict": {
-        "slot": "noon",
+        "slot": "morning",
         "fact_check": {
           "score": 9,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "연간 수천 개",
-            "현실적으로 수십 개"
-          ],
-          "issues": [
-            "수치 추상화되어 있어 큰 문제 없음"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-20_공감페인_정책자금_카페에서_검색만_3시간.md"
-          ],
-          "issues": [
-            "'찾는 데 시간 날린다' 메시지가 6/20 공감페인과 유사하나 각도 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "사실 위험 낮고 메시지 새로움"
-        }
-      }
-    },
-    "lunch": {
-      "status": "approved",
-      "topic": "자격 한 줄 차이로 안 된 신청",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "정책자금 신청하다가 자격 조건 딱 한 줄에 막혀본 적 있어?\n\n업력 7년 미만인데 작년에 창업해서 8년차 됐다거나\n직원 수 9명인데 10인 이상부터 신청 가능하다거나\n\n이거 진짜 억울하지\n완전히 틀린 것도 아니고, 거의 다 맞는데 딱 하나가 안 맞아서 탈락\n\n근데 더 웃긴 건 그 조건 몰라서 서류까지 다 준비하고 제출했다가 반려당하는 경우\n시간이 다 날아가는 거잖아\n\n다들 이런 거 한 번쯤은 있지?",
-        "char_count": 197,
-        "reasoning": "자격 한 줄 차이로 신청이 막히는 상황은 사장님이라면 누구나 공감하는 구체적인 페인 포인트로, 공감페인 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "lunch",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "업력 7년 미만",
-            "직원 9명/10인 이상"
-          ],
-          "issues": [
-            "예시 수준의 가상 시나리오로 허용 범위"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-19_오해풀기_컨설팅_받으면_100_받는다는_환상.md"
-          ],
-          "issues": [
-            "자격 조건 미달 페인 주제가 일부 겹치나 톤·각도 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "공감 페인 톤 적합, 큰 위험 없음"
-        }
-      }
-    },
-    "afternoon": {
-      "status": "approved",
-      "topic": "2026년 농식품 분야 시뮬레이션 서비스 기반 실증 지원사업 모집 공고 자금 해설 (전북특별자치도)",
-      "post": {
-        "post_type": "자금해설",
-        "main_post": "농식품 분야 시뮬레이션 서비스 기반 실증 지원사업, 이름이 길어서 그냥 넘기는 사람 많던데\n\n쉽게 말하면 농식품 관련 제품이나 공정을 실제로 만들기 전에 디지털로 먼저 시뮬레이션 돌려보고, 그 결과를 실증까지 연결해주는 사업이야\n\n직접 시제품 만들다 날린 비용 생각하면 이게 얼마나 실용적인지 바로 느낌 오지\n\n전북테크노파크가 수행기관이라 전북 기반 농식품 기업이 유리하긴 한데, 정확한 자격 조건은 공고 직접 확인 필요해\n\n마감이 6월 30일이야. 열흘도 안 남았거든\n\n농식품 쪽이면 지금 바로 기업마당에서 공고 찾아봐",
-        "char_count": 228,
-        "reasoning": "특정 공고를 풀어 설명하는 내용이라 자금해설 타입이 적합하고, 어려운 사업명을 쉽게 풀어주는 것이 핵심이라 교육적 톤의 자금해설로 작성"
-      },
-      "verdict": {
-        "slot": "afternoon",
-        "fact_check": {
-          "score": 10,
           "cited_programs": [
-            "농식품 분야 시뮬레이션 서비스 기반 실증 지원사업",
-            "전북테크노파크"
+            "부산 명지녹산 스마트그린 AX 실증산단 구축 사업"
           ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "소관부처를 '산업통상부'로 표기했는데 announcement도 동일하게 '산업통상부'로 되어있음"
+          ]
         },
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "6월 30일 마감"
+            "D-9, 6월 30일 마감"
           ],
           "issues": [
             "announcement와 일치"
@@ -189,29 +91,230 @@
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "사실 정확, 자금해설 톤 적절"
+          "reasoning": "공고 사실 정확, 톤 자연스러움"
         }
       }
     },
+    "late_morning": {
+      "status": "approved",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "솔직히 말하면, 두 번째 자금 신청이 첫 번째보다 훨씬 어려워.\n\n처음엔 아무것도 모르니까 그냥 냅다 넣거든.\n근데 한 번 받고 나면 오히려 멈춰.\n\n\"이미 받은 회사야\"라는 이력이 생기고,\n일부 자금은 중복 수혜 제한에 걸리고,\n심사위원 눈에는 \"또 신청하는 회사\"로 보이기도 해.\n\n근데 진짜 함정은 다른 데 있어.\n첫 번째 자금 받을 때 어떻게 통과했는지 모르는 채로 넣었기 때문에,\n두 번째엔 뭘 더 잘해야 하는지를 모르는 거야.\n\n운이 전략처럼 느껴졌던 것뿐인데,\n전략인 줄 알고 똑같이 다시 하면 떨어지는 거지.",
+        "char_count": 233,
+        "reasoning": "두 번째 자금 신청의 역설적 어려움을 경험·심리 관점에서 풀기 적합해서 솔직인사이트 타입 선택"
+      },
+      "verdict": {
+        "slot": "late_morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "일부 자금은 중복 수혜 제한"
+          ],
+          "issues": [
+            "일반론 수준이라 허용"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "[11] 솔직인사이트(자금 받고 첫 1년)와 결이 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "경험 기반 일반 인사이트, 안전함"
+        }
+      }
+    },
+    "noon": {
+      "status": "approved",
+      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
+      "post": {
+        "post_type": "숫자팩트",
+        "main_post": "R&D 자금, 지원금 받으면 100% 다 주는 줄 아는 사람 꽤 있더라\n\n아니야. 정부 R&D 대부분 자기 부담이 있어.\n\n일반적으로 중소기업 기준 총 개발비의 20~30%는 회사 돈으로 채워야 해\n나머지를 정부가 지원하는 구조거든\n\n그러니까 지원금 1억짜리 과제라고 해서\n내 지출이 0이 아니라는 소리야\n\n규모도 과제마다 천차만별인데\n소규모 탐색·기획 단계는 수천만원 수준이고\nR&D 본 과제 들어가면 억 단위 넘어가는 경우 많아\n\n자기부담률 계산 안 하고 냅다 신청했다가\n나중에 현금 못 맞춰서 중도 포기하는 케이스가 생각보다 많거든\n\n신청 전에 '내가 매칭할 수 있는 금액이 얼마야'부터 따져보는 게 맞아",
+        "char_count": 253,
+        "reasoning": "R&D 지원 규모와 자기부담률이라는 데이터/구조적 사실을 전달하는 주제라 숫자팩트 타입이 적합하며, 공고 데이터에 직접 매칭되는 R&D 공고가 없어 일반 도메인 지식 기반으로 모드B 일반화 표현으로 작성함"
+      },
+      "verdict": {
+        "slot": "noon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 7,
+          "risky_claims": [
+            "중소기업 기준 총 개발비의 20~30%는 회사 돈",
+            "소규모 탐색·기획 단계는 수천만원",
+            "R&D 본 과제 억 단위"
+          ],
+          "issues": [
+            "자기부담률 20~30%는 일반적으로 알려진 범위지만 과제별 편차 큼, 표현이 단정적"
+          ]
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "[8] 트렌드(AI R&D)와 주제 다름"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "자기부담률 수치는 일반 상식 범위지만 단정적 표현 약간 우려"
+        }
+      }
+    },
+    "lunch": {
+      "status": "approved",
+      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "사업계획서 다 썼는데\n\n양식이 바뀐 거 마감 3일 전에 발견함\n\n심지어 바뀐 항목이 핵심 섹션임\n\"사업화 계획\" → \"성과창출 전략\"으로 이름만 바뀐 건지\n아니면 내용 자체가 달라진 건지도 모르겠는 거야\n\n그냥 복붙하면 될 것 같기도 하고\n근데 괜히 틀렸다가 감점되면 억울하니까\n결국 처음부터 다시 읽게 됨\n\n공고 PDF 5번 정독하는 그 시간\n이거 진짜 나만 겪는 거 아니지",
+        "char_count": 210,
+        "reasoning": "사업계획서 양식 변경을 뒤늦게 발견하는 상황은 중소기업 대표·창업자라면 누구나 공감하는 구체적 페인 포인트라 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공감페인, 구체 사업명·수치 없음"
+        }
+      }
+    },
+    "afternoon": {
+      "status": "rejected",
+      "topic": "[전남ㆍ광주] Age-Tech 맞춤형 성장지원 사업 참여기업 모집 공고(에이지테크(Age-Tech) 종합지원센터 지원사업) 자금 해설 (광주광역시)",
+      "reason": "review"
+    },
     "late_afternoon": {
       "status": "rejected",
-      "topic": "그린·환경 분야 신규 자금 급증",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
       "reason": "review"
     },
     "evening": {
-      "status": "rejected",
-      "topic": "매출 0원에서 자금 받은 초기 스타트업",
-      "reason": "review"
+      "status": "approved",
+      "topic": "정책자금 검색만 하다 시간 보내는 사람들 공통점",
+      "post": {
+        "post_type": "솔직인사이트",
+        "main_post": "정책자금 찾다가 시간만 날리는 사람들 패턴이 진짜 명확해.\n\n기업마당 들어가서 키워드 검색하고,\n공고 20개 열어보고,\n\"내가 해당되나?\" 읽다가 지쳐서 그냥 닫음.\n\n이거 반복하는 사람들 공통점이 있는데 —\n\"내 회사가 어떤 자금을 받을 수 있는지\" 기준이 없어.\n\n자금을 먼저 보는 게 아니라,\n내 업종·규모·목적 먼저 정리하고 그다음에 찾아야 해.\n\n순서가 바뀌면 아무리 열심히 뒤져도 결론이 안 남.",
+        "char_count": 189,
+        "reasoning": "'검색만 하다 시간 보내는 사람들 공통점'은 경험 기반 통찰을 전달하는 솔직인사이트 타입이 가장 적합하고, 컨설팅 관점에서 패턴을 짚어주는 구조가 자연스럽게 맞아떨어짐."
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "안전한 경험 기반 인사이트"
+        }
+      }
     },
     "late_evening": {
       "status": "rejected",
-      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
       "reason": "fail"
     },
     "night": {
-      "status": "rejected",
-      "topic": "매출 적으면 자금 못 받는다는 오해",
-      "reason": "review"
+      "status": "approved",
+      "topic": "평가위원 질문 하나에 망친 발표",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "정책자금 발표 준비 진짜 열심히 했는데\n평가위원 질문 하나에 다 무너진 적 있어?\n\n사업계획서 몇 주 동안 다듬고\n발표 연습도 했는데\n\"이 시장 규모 근거가 뭐예요?\" 한 마디에\n머릿속 하얘지는 그 느낌.\n\n준비 안 한 것도 아닌데\n그 질문 하나가 전체 흐름을 다 끊어버리거든.\n\n뒤에 남은 발표를 이어가긴 하는데\n이미 평가위원 표정이 달라진 거 느껴지잖아.\n\n발표 준비랑 질문 대비는 진짜 다른 영역이더라.\n다들 이런 경험 한 번쯤은 있지?",
+        "char_count": 213,
+        "reasoning": "정책자금 발표 중 예상 못한 질문으로 무너지는 경험은 사장·창업자라면 공통으로 가진 페인포인트라 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "night",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 8,
+          "similar_recent_files": [],
+          "issues": [
+            "[2] 현장 평가 떨어지는 이유와 주제 인접하나 각도 다름(질문 대비 vs 사업 이해도)"
+          ]
+        },
+        "tone_check": {
+          "score": 9,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공감페인, 구체 사업명·수치 없음"
+        }
+      }
     }
   }
 }
