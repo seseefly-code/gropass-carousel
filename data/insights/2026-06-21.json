@@ -1,9 +1,30 @@
 {
-  "collected_at": "2026-06-21T14:28:42.136Z",
+  "collected_at": "2026-06-21T15:51:48.541Z",
   "user_id": "26071251839222721",
   "days": 30,
-  "count": 270,
+  "count": 271,
   "threads": [
+    {
+      "id": "18450363505143984",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2j_CMlMGO",
+      "timestamp": "2026-06-21T15:13:02+0000",
+      "text": "요즘 창업 자금 찾다 보면 진짜 체감되는 게 있어\n\n청년창업 쪽은 딥테크 특화 창업중심대학, 로봇·공간컴퓨팅 창업지원까지\n이름도 다양하고 공고도 꾸준히 나오거든\n\n근데 시니어 창업 쪽은? 솔직히 찾기가 훨씬 힘들어\n'에이지테크' 같은 시니어 대상 사업이 생기긴 했는데\n창업 지원인지 기술 실증인지 경계도 애매하고\n\n자금 공고 수 자체가 다르니까\n정보 접근성 격차가 그냥 자연스럽게 생기는 구조야\n\n나이 때문에 자금 접근이 좁아진다는 게\n정책이 의도한 건 아닐 텐데, 결과는 그렇게 되고 있는 거지",
+      "media_type": "TEXT_POST",
+      "is_quote_post": false,
+      "insights": {
+        "views": 86,
+        "likes": 0,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "meta": {
+        "slot": "night",
+        "type": "트렌드",
+        "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+        "char_count": 233
+      }
+    },
     {
       "id": "18204856372345245",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2OtwDlaFz",
@@ -12,7 +33,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 71,
+        "views": 74,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -33,7 +54,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 17,
+        "views": 19,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -54,7 +75,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 261,
+        "views": 270,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -75,7 +96,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 202,
+        "views": 207,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -96,7 +117,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 157,
+        "views": 171,
         "likes": 0,
         "replies": 2,
         "reposts": 0,
@@ -117,7 +138,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 176,
+        "views": 177,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -138,7 +159,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 193,
+        "views": 198,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -159,7 +180,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 9,
+        "views": 10,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -348,7 +369,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 3980,
+        "views": 3982,
         "likes": 0,
         "replies": 4,
         "reposts": 6,
@@ -558,7 +579,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 326,
+        "views": 327,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
@@ -1840,10 +1861,10 @@
         "quotes": 0
       },
       "meta": {
-        "slot": "night",
-        "type": "트렌드",
-        "topic": "비R&D 사업화 자금이 새로 생기는 이유",
-        "char_count": 232
+        "slot": "unknown",
+        "type": "unknown",
+        "topic": "요즘 비R&D 사업화 자금이 진짜 많이 생기고 있는데",
+        "char_count": 280
       }
     },
     {
@@ -3534,7 +3555,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 111,
+        "views": 112,
         "likes": 1,
         "replies": 0,
         "reposts": 0,
@@ -3681,7 +3702,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 6795,
+        "views": 6796,
         "likes": 182,
         "replies": 38,
         "reposts": 4,
@@ -4410,7 +4431,7 @@
       "media_type": "TEXT_POST",
       "is_quote_post": false,
       "insights": {
-        "views": 381,
+        "views": 382,
         "likes": 0,
         "replies": 5,
         "reposts": 0,
