@@ -117,20 +117,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17879396535603146",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZZe5VLFcw7",
-      "posted_at": "2026-06-10T08:10:36.449Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[인천] 2026년 3차 지식재산 긴급지원 사업 모집 공고 자금 해설 (인천광역시)",
@@ -1802,6 +1788,20 @@
       "media_id": "18052003607765213",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1yznHFQfr",
       "posted_at": "2026-06-21T08:03:24.753Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "자격 한 줄 차이로 안 된 신청",
+      "char_count": 197,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18175060705407416",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ12oynFfIx",
+      "posted_at": "2026-06-21T08:36:48.266Z"
     }
   ]
 }
