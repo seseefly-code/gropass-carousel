@@ -119,20 +119,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[경남] 2026년 지진안전산업 기술지원 수혜기업 모집 공고(행정안전부 지진 안전 기반 구축 사업) D-5 마감 임박 (행정안전부)",
-      "char_count": 207,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18064267970472399",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZbNDygjX6Z",
-      "posted_at": "2026-06-11T00:13:14.214Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "매출 1억과 10억의 자금 신청 전략 차이",
@@ -1831,6 +1817,20 @@
       "media_id": "17892907308550644",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ3ZiEWFDOH",
       "posted_at": "2026-06-21T23:00:59.424Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[부산] 2026년 명지녹산 스마트그린 AX 실증산단 구축 사업 지원대상기업 모집 추가 공고 D-9 마감 (산업통상부)",
+      "char_count": 209,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18105785161825357",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ3hXJWmdZe",
+      "posted_at": "2026-06-22T00:09:23.877Z"
     }
   ]
 }
