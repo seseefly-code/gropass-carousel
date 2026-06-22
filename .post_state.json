@@ -115,23 +115,10 @@
     "PBLN_000000000123396",
     "PBLN_000000000123391",
     "PBLN_000000000123393",
-    "PBLN_000000000123376"
+    "PBLN_000000000123376",
+    "PBLN_000000000123460"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[광주] 청년창업기업 엑셀러레이팅 프로그램 참여기업 추가 모집 공고 자금 해설 (광주광역시)",
-      "char_count": 230,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18094903229263057",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZcSW2FETaU",
-      "posted_at": "2026-06-11T10:18:48.807Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1814,6 +1801,29 @@
       "media_id": "17980512638865605",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4jydqICg7",
       "posted_at": "2026-06-22T09:49:50.680Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[부산] 2026년 마을기업 온라인 마케팅 역량 컨설팅 모집 공고 자금 해설 (부산광역시)",
+      "char_count": 233,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_자금해설_부산_2026년_마을기업_온라인_마케팅_역량_컨설팅_모.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 9,
+        "issues": [
+          "마감일과 수행기관 모두 announcement와 일치하여 안전",
+          "같은 날짜 자금해설 [9]가 있으나 주제(Age-Tech vs 마을기업)와 각도가 완전히 달라 중복 아님",
+          "존댓말·해시태그·이모지·클릭베이트 없음, 글자수 233자로 적정"
+        ]
+      },
+      "posted_at": "2026-06-22T11:48:08.540Z",
+      "media_id": "18144571675517973",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4xVqtlc07"
     }
   ]
 }
