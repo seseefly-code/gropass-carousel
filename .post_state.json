@@ -1,8 +1,8 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 1,
   "topic_pool_indexes": {
-    "솔직인사이트": 15,
+    "솔직인사이트": 1,
     "공감페인": 13,
     "케이스스터디": 2,
     "숫자팩트": 7,
@@ -119,33 +119,6 @@
     "PBLN_000000000123460"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
-      "char_count": 282,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
-      "verdict": {
-        "decision": "fail",
-        "score": 4,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 6,
-        "tone": 4,
-        "issues": [
-          "일화 기반 케이스로 검증 불가하나 구체 수치·비용·사업명이 없어 BAN 리스크는 낮음",
-          "단, 본문이 중간에 끊겨 있어 결론부가 없는 상태",
-          "최근 이틀간 케이스스터디 2건이 이미 게시됨 (폐업위기 케이스, 수출바우처 케이스)",
-          "'어제 얘기 들은 케이스/어제 재밌는 케이스' 도입 패턴이 반복됨 — 후킹 문장 유사",
-          "주제(사업계획서 한 줄 변경)는 새롭지만 형식·톤이 매우 유사",
-          "본문이 '사업 목적 첫 줄에' 에서 끊겨 있음 — 핵심 인사이트(어떻게 바꿨는지)가 누락된 미완성 포스트",
-          "282자라고 표기되어 있으나 실제로는 결론 없이 단절되어 게시 불가 상태",
-          "케이스스터디의 핵심인 '교훈/인사이트' 부분이 통째로 빠져 있음"
-        ]
-      },
-      "posted_at": "2026-06-11T13:54:06.707Z",
-      "discarded": true
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1837,6 +1810,27 @@
       "posted_at": "2026-06-22T13:26:36.160Z",
       "media_id": "18148058635507734",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ48mzrFCxK"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
+      "char_count": 225,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "'30분'은 체감 표현으로 위험도 낮음",
+          "[5]번 게시물과 주제·인사이트가 상당히 겹침. '내 회사에 맞는 자금을 먼저 정의하지 않고 공고만 뒤지면 실패한다'는 메시지가 거의 동일. 다만 [5]는 '검색 단계'에서 멈추는 사람, 이번 글은 '신청 후 탈락'하는 사람으로 각도가 약간 다름"
+        ]
+      },
+      "posted_at": "2026-06-22T15:14:33.367Z",
+      "review_required": true
     }
   ]
 }
