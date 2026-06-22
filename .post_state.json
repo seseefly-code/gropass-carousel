@@ -122,20 +122,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "12월 폭주하는 자금 신청 미리 준비",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17885970510578923",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZdrLXFAc5B",
-      "posted_at": "2026-06-11T23:14:54.427Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[대구] 2026년 해외전시회 참가 지원사업 참가업체 모집 공고(모드 상하이) D-5 마감 임박 (대구광역시)",
@@ -1833,6 +1819,20 @@
       },
       "posted_at": "2026-06-22T17:41:54.096Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18012679352871678",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ5_qETCd-e",
+      "posted_at": "2026-06-22T23:12:35.924Z"
     }
   ]
 }
