@@ -119,29 +119,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
-      "char_count": 269,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_숫자팩트_사업계획서_평균_작성_시간_직접_vs_컨설팅.md",
-      "verdict": {
-        "decision": "fail",
-        "score": 5,
-        "fact": 10,
-        "halluc": 7,
-        "dup": 8,
-        "tone": 6,
-        "issues": [
-          "사업계획서 작성 소요시간 '2~3주' vs '5~7일'은 출처 없는 평균치이지만, 범위로 표현되어 있고 일반적으로 통용되는 체감 범위라 BAN 트리거 수준은 아님",
-          "최근 15개 중 사업계획서 작성 시간/컨설팅 비교 주제는 없어 중복 아님",
-          "본문이 '직접 쓰면' 에서 잘려있어 미완성 포스트로 보임 — 게시 불가",
-          "글자수 269자는 OK, 존댓말·해시태그·이모지 위반 없음"
-        ]
-      },
-      "posted_at": "2026-06-11T08:06:57.249Z",
-      "discarded": true
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "정책자금 카페에서 검색만 3시간",
@@ -1831,6 +1808,20 @@
       "media_id": "18095092304187308",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4MA6elohF",
       "posted_at": "2026-06-22T06:22:04.487Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
+      "char_count": 253,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18088533602079874",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4fpPgluMZ",
+      "posted_at": "2026-06-22T09:13:38.200Z"
     }
   ]
 }
