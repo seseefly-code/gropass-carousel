@@ -119,20 +119,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
-      "char_count": 280,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18400752112153045",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZbwXTxDrHe",
-      "posted_at": "2026-06-11T05:21:45.408Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
@@ -1831,6 +1817,20 @@
       "media_id": "18105785161825357",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ3hXJWmdZe",
       "posted_at": "2026-06-22T00:09:23.877Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18095092304187308",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4MA6elohF",
+      "posted_at": "2026-06-22T06:22:04.487Z"
     }
   ]
 }
