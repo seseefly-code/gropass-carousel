@@ -8,7 +8,7 @@
     "숫자팩트": 7,
     "마감알림": 5,
     "오해풀기": 4,
-    "트렌드": 6
+    "트렌드": 7
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -119,20 +119,6 @@
     "PBLN_000000000123460"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "메타버스·블록체인 자금이 줄어든 이유",
-      "char_count": 268,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18199069420366508",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZcePj3lf69",
-      "posted_at": "2026-06-11T12:02:38.390Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1824,6 +1810,33 @@
       "posted_at": "2026-06-22T11:48:08.540Z",
       "media_id": "18144571675517973",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4xVqtlc07"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "지역특화 자금이 늘어나는 이유",
+      "char_count": 246,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_트렌드_지역특화_자금이_늘어나는_이유.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 7,
+        "tone": 9,
+        "issues": [
+          "언급된 3개 사업 모두 announcement 컨텍스트에 실재함 (철원군 중소기업 무역교육 및 컨설팅, 창원시·거제시·하동군 청년여성 일경험 지원, 경북 해양기업 혁신성장 R&BD 패키지)",
+          "'절반 넘어'는 실제 announcement 30건 중 지역명 달린 게 대다수라 사실에 부합",
+          "경쟁률 비교는 일반론으로 추상화되어 있어 위험 낮음",
+          "최근 트렌드 게시물들이 '특정 분야 자금 증가'를 다뤘고, 이번 글은 '지역 붙은 자금 증가'로 각도는 다름",
+          "글로벌/DX 트렌드와 구조적으로 비슷한 '○○ 자금 폭증' 포맷 반복 우려는 있지만 인사이트 자체는 새로움",
+          "반말 톤 유지, 해시태그·이모지 없음, 글자수 246자로 적정",
+          "'사장님들' 표현은 '여러분/~하시는 분'과는 결이 달라 OK"
+        ]
+      },
+      "posted_at": "2026-06-22T13:26:36.160Z",
+      "media_id": "18148058635507734",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ48mzrFCxK"
     }
   ]
 }
