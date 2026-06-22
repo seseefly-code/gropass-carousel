@@ -1,13 +1,13 @@
 {
   "evening_index": 1,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 13,
     "케이스스터디": 3,
     "숫자팩트": 7,
     "마감알림": 5,
-    "오해풀기": 4,
+    "오해풀기": 5,
     "트렌드": 7
   },
   "used_announcements": [
@@ -119,28 +119,6 @@
     "PBLN_000000000123460"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "자격 한 줄 차이로 안 된 신청",
-      "char_count": 198,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-11_공감페인_자격_한_줄_차이로_안_된_신청.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "구체 수치가 등장하지만 가상의 예시 상황을 묘사하는 맥락이라 특정 사업을 단정짓지 않음",
-          "최근 공감페인 2건과 같은 카테고리지만 각도는 다름 (자격 미달 페인은 새로운 주제)"
-        ]
-      },
-      "posted_at": "2026-06-11T16:56:35.228Z",
-      "media_id": "18105199328007582",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZc_5JRFFlm"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1829,6 +1807,30 @@
       "posted_at": "2026-06-22T16:30:27.090Z",
       "media_id": "17975311230025360",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ5RpUulAh-"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "한 번 떨어지면 끝이라는 생각",
+      "char_count": 212,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_오해풀기_한_번_떨어지면_끝이라는_생각.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 7,
+        "issues": [
+          "구체 사업명·금액·조건 언급 없음. '정책자금' 일반 명칭만 사용",
+          "구체 수치·비용 없음. '거의 없어', '대부분' 등 추상화 표현 사용",
+          "탈락/재신청 관련 인사이트가 최근 [1], [11]과 주제 인접. 다만 각도(재도전 가능 여부 교정)는 다름",
+          "본문이 '대부분' 에서 잘려있음 — 미완성 문장. 글 마무리 부재",
+          "212자로 짧지만 마지막 문장이 끊겨 게시 부적합"
+        ]
+      },
+      "posted_at": "2026-06-22T17:41:54.096Z",
+      "review_required": true
     }
   ]
 }
