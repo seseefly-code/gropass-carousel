@@ -1,8 +1,8 @@
 {
-  "evening_index": 0,
+  "evening_index": 1,
   "night_index": 0,
   "topic_pool_indexes": {
-    "솔직인사이트": 2,
+    "솔직인사이트": 3,
     "공감페인": 14,
     "케이스스터디": 5,
     "숫자팩트": 9,
@@ -121,20 +121,6 @@
     "PBLN_000000000123455"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17885073228580570",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZfIfwilUhO",
-      "posted_at": "2026-06-12T12:50:19.383Z"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1833,6 +1819,26 @@
       "media_id": "18108970892477344",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7PywvlZ_z",
       "posted_at": "2026-06-23T10:53:00.314Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-23_솔직인사이트_컨설팅사에_맡겨서_잘_되는_경우_vs_아닌_경우.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "바로 직전 게시물(14번)이 '컨설팅 vs 직접' 주제로 컨설팅 활용 관점을 이미 다룸. 본 포스트는 '대표가 알고 맡기느냐'라는 각도로 차별화되지만 컨설팅 주제 연속 노출이라 약간 중복감 있음"
+        ]
+      },
+      "posted_at": "2026-06-23T12:29:27.774Z",
+      "review_required": true
     }
   ]
 }
