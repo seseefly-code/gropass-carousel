@@ -122,30 +122,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "콘텐츠·플랫폼 자금 변화",
-      "char_count": 234,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-12_트렌드_콘텐츠플랫폼_자금_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 8,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "언급된 두 사업 모두 announcement 컨텍스트에 존재함 - 대전 인디(inD) 게임스쿨ㆍ인턴십 지원사업, 목포벤처문화산업지원센터 운영 사업화 지원사업(AX화/마케팅/권리화) 모두 확인됨",
-          "구체 수치·금액·조건 없음, 일반화된 표현 위주로 안전",
-          "[14] 헬스케어 트렌드 글과 구조가 유사함 ('예전엔 X였는데 지금은 Y' + '업종으로 넘기지 말고 사업 내용으로 확인') - 다만 주제(헬스케어 vs 콘텐츠)와 구체 공고가 달라 중복까지는 아님",
-          "존댓말·해시태그·여러분·이모지 없음, 234자로 적정, 반말 톤 일관"
-        ]
-      },
-      "posted_at": "2026-06-12T11:33:55.765Z",
-      "media_id": "18061362323489280",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZe_wyvFQjB"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
@@ -1843,6 +1819,20 @@
       "media_id": "18016796162883410",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7Gwocm8Ut",
       "posted_at": "2026-06-23T09:33:55.472Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "여성기업 우대 자금 변화",
+      "char_count": 232,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18108970892477344",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7PywvlZ_z",
+      "posted_at": "2026-06-23T10:53:00.314Z"
     }
   ]
 }
