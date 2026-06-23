@@ -5,7 +5,7 @@
     "솔직인사이트": 2,
     "공감페인": 14,
     "케이스스터디": 5,
-    "숫자팩트": 8,
+    "숫자팩트": 9,
     "마감알림": 6,
     "오해풀기": 5,
     "트렌드": 9
@@ -121,20 +121,6 @@
     "PBLN_000000000123455"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
-      "char_count": 219,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18100665380165918",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZejU-iFamU",
-      "posted_at": "2026-06-12T07:25:33.397Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1833,6 +1819,30 @@
       "media_id": "17910118464424905",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ6mzMYFoif",
       "posted_at": "2026-06-23T04:54:37.562Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
+      "char_count": 222,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-23_숫자팩트_사업계획서_평균_작성_시간_직접_vs_컨설팅.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 6,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명·공고명 언급 없음. 일반론(사업계획서 작성 시간/컨설팅 비용)이라 사실 검증 대상 적음.",
+          "'평균 3~4주', '평균 1주일' 같은 평균치 단언이 출처 불명. 사업·공고·규모에 따라 천차만별인데 '평균'으로 박은 게 위험.",
+          "컨설팅 비용 100~300만원도 시장 범위 일반화로는 그럴듯하지만 검증 불가. 단, 정책자금 컨설팅 시장에서 통용되는 범위 안이라 치명적이진 않음.",
+          "최근 15개 중 사업계획서 작성 시간/컨설팅 비용 비교 주제는 없음. 각도 새로움.",
+          "존댓말·해시태그·여러분·이모지 없음. 222자로 분량 OK. 도입부 자연스러움."
+        ]
+      },
+      "posted_at": "2026-06-23T06:54:08.396Z",
+      "review_required": true
     }
   ]
 }
