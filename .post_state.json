@@ -125,20 +125,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[대전] 2026년 인디(inD) 게임스쿨ㆍ인턴십 지원사업 인턴십 프로그램 참가기업 모집 공고 D-5 마감 임박 (대전광역시)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17899410261309286",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZgXQ0YlJ0I",
-      "posted_at": "2026-06-13T00:18:35.396Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
@@ -1856,6 +1842,20 @@
       "posted_at": "2026-06-23T15:51:18.170Z",
       "media_id": "18128347600626146",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7x9gqmgoM"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "[경북] 2026년 2차 내일은 디자인 컨설턴트 지원사업 수혜기업 모집 공고 D-3 마감 임박 (경상북도)",
+      "char_count": 202,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18107644201784265",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ8jATvCSBn",
+      "posted_at": "2026-06-23T22:59:57.385Z"
     }
   ]
 }
