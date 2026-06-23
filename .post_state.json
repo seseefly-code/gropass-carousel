@@ -122,20 +122,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[대구] 2026년 해외전시회 참가 지원사업 참가업체 모집 공고(모드 상하이) D-5 마감 임박 (대구광역시)",
-      "char_count": 192,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18185619919382141",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZdyYAfjlce",
-      "posted_at": "2026-06-12T00:17:49.251Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "현장 평가 떨어지는 이유 90%",
@@ -1833,6 +1819,20 @@
       "media_id": "18012679352871678",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ5_qETCd-e",
       "posted_at": "2026-06-22T23:12:35.924Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[강원] 철원군 2026년 중소기업 무역교육 및 컨설팅 참여기업 모집 공고 D-4 마감 임박 (강원특별자치도)",
+      "char_count": 201,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17997219173971551",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ6FgtpjrG_",
+      "posted_at": "2026-06-23T00:03:45.889Z"
     }
   ]
 }
