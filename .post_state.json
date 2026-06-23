@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 3,
     "공감페인": 14,
@@ -8,7 +8,7 @@
     "숫자팩트": 9,
     "마감알림": 6,
     "오해풀기": 5,
-    "트렌드": 9
+    "트렌드": 10
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -121,20 +121,6 @@
     "PBLN_000000000123455"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[강원] 원주시 2026년 임업인수당 지원사업 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
-      "char_count": 178,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18077421011273680",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZgPO2zD7zD",
-      "posted_at": "2026-06-12T23:08:26.509Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1839,6 +1825,34 @@
       },
       "posted_at": "2026-06-23T12:29:27.774Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "메타버스·블록체인 자금이 줄어든 이유",
+      "char_count": 277,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-23_트렌드_메타버스블록체인_자금이_줄어든_이유.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 8,
+        "halluc": 7,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "언급된 키워드(AI클라우드, 푸드테크, 미래차 비R&D)는 announcement 컨텍스트에 실제 공고로 존재함 - 부천시 AI 클라우드 컴퓨팅, 안동/경산 푸드테크, 충남 미래차 산업 혁신 지원사업",
+          "'메타버스·블록체인 자금 공고가 줄었다'는 일반적 트렌드 서술로 검증 가능 범위",
+          "'6~12개월 후행'은 구체 수치이지만 일반론적 추정으로 통용되는 범위, 치명적이지 않음",
+          "'반도 안 됨'은 체감 표현으로 처리",
+          "[10] 비R&D 사업화 자금, [12] 지역특화 자금과 트렌드 카테고리 겹침이나 각도 다름 (이건 산업 분야 트렌드 - AI/딥테크/미래차 전환)",
+          "주제 신선도 OK",
+          "반말체 유지, 해시태그 없음, 글자수 277자로 적정",
+          "'~시대야' 마무리가 약간 정형적이지만 허용 범위"
+        ]
+      },
+      "posted_at": "2026-06-23T15:51:18.170Z",
+      "media_id": "18128347600626146",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7x9gqmgoM"
     }
   ]
 }
