@@ -122,20 +122,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17953684647170650",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZeqZJlFozH",
-      "posted_at": "2026-06-12T08:27:16.784Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[인천] 2026년 푸드위크 코리아(FOOD WEEK KOREA 2026) 참가기업 모집 공고(6차산업 경쟁력 강화 지원사업) 자금 해설 (인천광역시)",
@@ -1843,6 +1829,20 @@
       },
       "posted_at": "2026-06-23T06:54:08.396Z",
       "review_required": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
+      "char_count": 188,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18366513913226700",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ67Gn6HA3H",
+      "posted_at": "2026-06-23T07:52:01.593Z"
     }
   ]
 }
