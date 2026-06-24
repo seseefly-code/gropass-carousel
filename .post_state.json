@@ -127,20 +127,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18065556260477493",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZjfEscDiKb",
-      "posted_at": "2026-06-14T05:24:35.823Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "TIPS 누적 선정 수와 후속 투자 비율",
@@ -1837,6 +1823,20 @@
       "posted_at": "2026-06-24T15:33:58.671Z",
       "media_id": "18105540188074583",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-Uxe4lh00"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
+      "char_count": 197,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17990791481814206",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_HvbWDxSI",
+      "posted_at": "2026-06-24T22:59:27.249Z"
     }
   ]
 }
