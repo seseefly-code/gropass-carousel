@@ -125,20 +125,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
-      "char_count": 153,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 7
-      },
-      "media_id": "18160855696460378",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhLEwVFtYF",
-      "posted_at": "2026-06-13T07:51:20.595Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "2026년 사라진 자금, 새로 생긴 자금",
@@ -1856,6 +1842,20 @@
       "media_id": "17960063268134638",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9L-NllWNb",
       "posted_at": "2026-06-24T04:57:55.445Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
+      "char_count": 184,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18108546286991064",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9ZAnVkfYi",
+      "posted_at": "2026-06-24T06:51:52.377Z"
     }
   ]
 }
