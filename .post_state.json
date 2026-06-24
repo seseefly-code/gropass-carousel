@@ -125,26 +125,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "내 분야 자금 알림 등록 권유",
-      "char_count": 231,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-13_마감알림_내_분야_자금_알림_등록_권유.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "[6] 게시물과 주제가 유사함 - 기업마당 검색의 어려움, 업종·지역·업력 기준으로 필터링 필요성을 동일하게 언급. 다만 본 포스트는 '마감 놓침'에서 출발한 각도이고, [6]은 '검색 시작점'에서 출발한 각도라 완전 중복은 아님"
-        ]
-      },
-      "posted_at": "2026-06-13T22:55:09.489Z",
-      "review_required": true
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 지역혁신중심 대학지원체계(RISE) 패션기업 신규시장 진출 호주 시드니 팝업스토어 참여 기업 모집 공고 D-4 마감 임박 (대구광역시)",
@@ -1832,6 +1812,20 @@
       "media_id": "18134000071583963",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ998nrlN1Z",
       "posted_at": "2026-06-24T12:14:36.979Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
+      "char_count": 269,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18096154945973052",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-LCbGkaGw",
+      "posted_at": "2026-06-24T14:09:00.487Z"
     }
   ]
 }
