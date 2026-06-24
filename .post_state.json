@@ -125,28 +125,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "2026년 정책자금 트렌드 키워드",
-      "char_count": 224,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-13_트렌드_2026년_정책자금_트렌드_키워드.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 5,
-        "tone": 9,
-        "issues": [
-          "구체 수치나 비용 언급 없이 일반화된 표현 사용",
-          "바로 직전(6/13) 트렌드 글이 'AI·로봇·반도체 쪽은 예산이 늘었어, K-온디바이스 AI반도체, AI로봇 실증사업 추경'을 똑같이 인용함 — 핵심 메시지(AI/로봇/반도체 예산 증가, 같은 공고 사례)가 거의 동일",
-          "6/12 '정책자금 평가 기준이 바뀌는 방향'에서도 AX클리닉, AI훈련확산센터를 같은 맥락으로 언급 — 인사이트 각도 중복"
-        ]
-      },
-      "posted_at": "2026-06-13T15:03:40.383Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "내 분야 자금 알림 등록 권유",
@@ -1840,6 +1818,20 @@
       "media_id": "18081534359210442",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9zE67laD6",
       "posted_at": "2026-06-24T10:39:37.383Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18134000071583963",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ998nrlN1Z",
+      "posted_at": "2026-06-24T12:14:36.979Z"
     }
   ]
 }
