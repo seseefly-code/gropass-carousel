@@ -125,20 +125,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "직원 5명에서 50명까지 자금만으로 키운 회사",
-      "char_count": 225,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18139412401546150",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhxplhkXRo",
-      "posted_at": "2026-06-13T13:28:25.956Z"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "2026년 정책자금 트렌드 키워드",
@@ -1840,6 +1826,20 @@
       "media_id": "18062166998710465",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9qVGLllfa",
       "posted_at": "2026-06-24T09:23:11.038Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "헬스케어 자금 신규 증가 추세",
+      "char_count": 220,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18081534359210442",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9zE67laD6",
+      "posted_at": "2026-06-24T10:39:37.383Z"
     }
   ]
 }
