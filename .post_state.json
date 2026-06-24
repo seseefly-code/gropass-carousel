@@ -125,20 +125,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "정책자금 받은 기업의 3년 생존율",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18110969512918632",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZhFUODFb5C",
-      "posted_at": "2026-06-13T07:01:01.060Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "받았는데 통장에 들어오기까지 2달 기다림",
@@ -1856,6 +1842,20 @@
       "media_id": "18108560590766454",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ8pNuEFtQP",
       "posted_at": "2026-06-23T23:54:11.196Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17960063268134638",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9L-NllWNb",
+      "posted_at": "2026-06-24T04:57:55.445Z"
     }
   ]
 }
