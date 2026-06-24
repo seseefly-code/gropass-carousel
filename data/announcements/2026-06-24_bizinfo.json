@@ -1,11 +1,11 @@
 {
-  "crawled_at": "2026-06-24T14:08:54.162Z",
+  "crawled_at": "2026-06-24T15:33:36.075Z",
   "source": "bizinfo.go.kr",
   "pages_crawled": 2,
   "count": 30,
   "announcements": [
     {
-      "no": "1549",
+      "no": "1513",
       "category": "경영",
       "title": "2026년 2차 SaaS 전환ㆍ컨설팅 수요기업 모집 공고",
       "start_date": "2026-06-23",
@@ -14,12 +14,12 @@
       "ministry": "과학기술정보통신부",
       "agency": "정보통신산업진흥원",
       "registered_at": "2026-06-24",
-      "views": "837",
+      "views": "860",
       "pblancId": "PBLN_000000000123576",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123576"
     },
     {
-      "no": "1548",
+      "no": "1512",
       "category": "기술",
       "title": "인천 공공 실증 오픈이노베이션 참여기업 모집 공고",
       "start_date": "2026-06-22",
@@ -28,12 +28,12 @@
       "ministry": "인천광역시",
       "agency": "인천창조경제혁신센터",
       "registered_at": "2026-06-24",
-      "views": "685",
+      "views": "700",
       "pblancId": "PBLN_000000000123575",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123575"
     },
     {
-      "no": "1547",
+      "no": "1511",
       "category": "경영",
       "title": "2026년 3차 AI 대전환 컨설팅 프로그램 참여 수요기업 및 스타트업 모집 공고",
       "start_date": "2026-06-15",
@@ -42,12 +42,12 @@
       "ministry": "대구광역시",
       "agency": "대구창조경제혁신센터",
       "registered_at": "2026-06-24",
-      "views": "729",
+      "views": "754",
       "pblancId": "PBLN_000000000123574",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123574"
     },
     {
-      "no": "1546",
+      "no": "1510",
       "category": "수출",
       "title": "[충북] 2026년 농식품 홍콩 무역사절단 파견 참여기업 모집 연장 공고",
       "start_date": "2026-06-04",
@@ -56,12 +56,12 @@
       "ministry": "충청북도",
       "agency": "충청북도기업진흥원",
       "registered_at": "2026-06-24",
-      "views": "629",
+      "views": "644",
       "pblancId": "PBLN_000000000123573",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123573"
     },
     {
-      "no": "1545",
+      "no": "1509",
       "category": "기술",
       "title": "[충남] 2026년 2차 에너지기술공유대학 산학공동 에너지프로젝트 지원사업 공고",
       "start_date": "2026-06-09",
@@ -70,12 +70,12 @@
       "ministry": "충청남도",
       "agency": "충남테크노파크",
       "registered_at": "2026-06-24",
-      "views": "641",
+      "views": "654",
       "pblancId": "PBLN_000000000123572",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123572"
     },
     {
-      "no": "1544",
+      "no": "1508",
       "category": "경영",
       "title": "[충북] 2026년 3차 지역중소기업 밀집지역 생태계 공동회복 지원과제 수요기업 모집 공고(중소기업 밀집지역 위기대응 체계 구축사업)",
       "start_date": "2026-06-22",
@@ -84,12 +84,12 @@
       "ministry": "중소벤처기업부",
       "agency": "충북테크노파크",
       "registered_at": "2026-06-24",
-      "views": "628",
+      "views": "642",
       "pblancId": "PBLN_000000000123571",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123571"
     },
     {
-      "no": "1543",
+      "no": "1507",
       "category": "수출",
       "title": "[충북] 2026년 전략품목 해외유통망 입점 지원 사업 참여기업 모집 공고",
       "start_date": "2026-06-23",
@@ -98,12 +98,12 @@
       "ministry": "충청북도",
       "agency": "청주상공회의소",
       "registered_at": "2026-06-24",
-      "views": "643",
+      "views": "660",
       "pblancId": "PBLN_000000000123570",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123570"
     },
     {
-      "no": "1542",
+      "no": "1506",
       "category": "기술",
       "title": "[충북] 2026년 제조 AI 현장 적용 지원 사업 수혜기업 모집 연장 공고",
       "start_date": "2026-06-22",
@@ -112,12 +112,12 @@
       "ministry": "중소벤처기업부",
       "agency": "충북테크노파크",
       "registered_at": "2026-06-24",
-      "views": "655",
+      "views": "672",
       "pblancId": "PBLN_000000000123569",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123569"
     },
     {
-      "no": "1541",
+      "no": "1505",
       "category": "수출",
       "title": "[경북] 포항시 2026년 IFA 공동관 참가기업 모집 공고",
       "start_date": "2026-06-23",
@@ -126,12 +126,12 @@
       "ministry": "경상북도",
       "agency": "포항테크노파크",
       "registered_at": "2026-06-24",
-      "views": "630",
+      "views": "642",
       "pblancId": "PBLN_000000000123568",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123568"
     },
     {
-      "no": "1540",
+      "no": "1504",
       "category": "수출",
       "title": "2026년 밉컴(MIPCOM) 피칭쇼케이스 참가사 모집 공고",
       "start_date": "2026-06-23",
@@ -140,12 +140,12 @@
       "ministry": "문화체육관광부",
       "agency": "한국콘텐츠진흥원",
       "registered_at": "2026-06-24",
-      "views": "647",
+      "views": "663",
       "pblancId": "PBLN_000000000123567",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123567"
     },
     {
-      "no": "1539",
+      "no": "1503",
       "category": "수출",
       "title": "2026년 밉컴(MIPCOM) 한국공동관 애니메이션 참가기업 모집 공고",
       "start_date": "2026-06-23",
@@ -154,12 +154,12 @@
       "ministry": "문화체육관광부",
       "agency": "한국콘텐츠진흥원",
       "registered_at": "2026-06-24",
-      "views": "626",
+      "views": "642",
       "pblancId": "PBLN_000000000123566",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123566"
     },
     {
-      "no": "1538",
+      "no": "1502",
       "category": "수출",
       "title": "2026년 스페인 바르셀로나 및 라코루냐 SPA브랜드 패션 상담회 참여기업 모집 공고",
       "start_date": "2026-06-22",
@@ -168,12 +168,12 @@
       "ministry": "중소벤처기업부",
       "agency": "한국섬유마케팅센터",
       "registered_at": "2026-06-24",
-      "views": "631",
+      "views": "648",
       "pblancId": "PBLN_000000000123565",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123565"
     },
     {
-      "no": "1537",
+      "no": "1501",
       "category": "수출",
       "title": "2026년 대한민국산업전시회 수출컨소시엄 단체관 참가기업 모집 공고",
       "start_date": "2026-06-16",
@@ -182,12 +182,12 @@
       "ministry": "경기도",
       "agency": "킨텍스",
       "registered_at": "2026-06-24",
-      "views": "672",
+      "views": "695",
       "pblancId": "PBLN_000000000123564",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123564"
     },
     {
-      "no": "1536",
+      "no": "1500",
       "category": "경영",
       "title": "[경북] 2026년 지역중소기업 밀집지역 생태계 공동회복 지원과제 수요기업 모집 공고(중소기업 밀집지역 위기대응 체계 구축사업)",
       "start_date": "2026-06-23",
@@ -196,12 +196,12 @@
       "ministry": "중소벤처기업부",
       "agency": "경북테크노파크",
       "registered_at": "2026-06-24",
-      "views": "624",
+      "views": "639",
       "pblancId": "PBLN_000000000123563",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123563"
     },
     {
-      "no": "1535",
+      "no": "1499",
       "category": "경영",
       "title": "[경기] 2026년 글로벌 오픈이노베이션 프로그램 참가기업 모집 공고",
       "start_date": "2026-06-23",
@@ -210,12 +210,12 @@
       "ministry": "경기도",
       "agency": "경기도경제과학진흥원",
       "registered_at": "2026-06-24",
-      "views": "696",
+      "views": "710",
       "pblancId": "PBLN_000000000123562",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123562"
     },
     {
-      "no": "1534",
+      "no": "1498",
       "category": "수출",
       "title": "[제주] 2026년 기업자율형 해외마켓 참가지원 참여기업 추가모집 공고(글로벌 문화콘텐츠 제작 지원사업)",
       "start_date": "2026-07-01",
@@ -224,12 +224,12 @@
       "ministry": "제주특별자치도",
       "agency": "제주콘텐츠진흥원",
       "registered_at": "2026-06-24",
-      "views": "133",
+      "views": "146",
       "pblancId": "PBLN_000000000123561",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123561"
     },
     {
-      "no": "1533",
+      "no": "1497",
       "category": "기술",
       "title": "[경북] 안동시 2026년 중소기업 기술성장 디딤돌 사업 참여기업 추가모집 공고",
       "start_date": "2026-06-23",
@@ -238,12 +238,12 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-24",
-      "views": "148",
+      "views": "160",
       "pblancId": "PBLN_000000000123560",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123560"
     },
     {
-      "no": "1532",
+      "no": "1496",
       "category": "경영",
       "title": "[인천] 2026년 하반기 중소기업 디자인개발지원사업(일반기업 지원분야) 과제 모집 공고",
       "start_date": "2026-06-29",
@@ -252,12 +252,12 @@
       "ministry": "인천광역시",
       "agency": "인천테크노파크",
       "registered_at": "2026-06-24",
-      "views": "171",
+      "views": "184",
       "pblancId": "PBLN_000000000123559",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123559"
     },
     {
-      "no": "1531",
+      "no": "1495",
       "category": "경영",
       "title": "[경북] 2026년 2차 전통시장 및 상점가 빈 점포 상생거래소 운영 참여자 추가 모집 공고",
       "start_date": "2026-06-23",
@@ -266,12 +266,12 @@
       "ministry": "경상북도",
       "agency": "경상북도경제진흥원",
       "registered_at": "2026-06-24",
-      "views": "125",
+      "views": "137",
       "pblancId": "PBLN_000000000123558",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123558"
     },
     {
-      "no": "1530",
+      "no": "1494",
       "category": "기술",
       "title": "[전북] 익산시 2026년 주얼리기업 성과형 장비 활용 지원 사업 참여기업 모집 공고(귀금속장비운영사업)",
       "start_date": "2026-06-23",
@@ -280,12 +280,12 @@
       "ministry": "전북특별자치도",
       "agency": "전북테크노파크",
       "registered_at": "2026-06-24",
-      "views": "136",
+      "views": "147",
       "pblancId": "PBLN_000000000123557",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123557"
     },
     {
-      "no": "1529",
+      "no": "1493",
       "category": "창업",
       "title": "2026년 GIF 창업 아이디어 경진대회 참가자 모집 안내",
       "start_date": "2026-06-19",
@@ -294,12 +294,12 @@
       "ministry": "대구광역시",
       "agency": "대구창조경제혁신센터",
       "registered_at": "2026-06-24",
-      "views": "187",
+      "views": "202",
       "pblancId": "PBLN_000000000123556",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123556"
     },
     {
-      "no": "1528",
+      "no": "1492",
       "category": "기술",
       "title": "[전북] 2026년 3차 벤처기업 혁신제품 시장진출 지원사업 모집 공고",
       "start_date": "2026-06-23",
@@ -308,12 +308,12 @@
       "ministry": "전북특별자치도",
       "agency": "전북벤처산업발전협의회",
       "registered_at": "2026-06-24",
-      "views": "162",
+      "views": "174",
       "pblancId": "PBLN_000000000123555",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123555"
     },
     {
-      "no": "1527",
+      "no": "1491",
       "category": "수출",
       "title": "[부산] 가상융합 기업 해외 전시회 참가 지원사업 모집 추가 공고",
       "start_date": "2026-06-23",
@@ -322,12 +322,12 @@
       "ministry": "부산광역시",
       "agency": "부산정보산업진흥원",
       "registered_at": "2026-06-24",
-      "views": "135",
+      "views": "146",
       "pblancId": "PBLN_000000000123554",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123554"
     },
     {
-      "no": "1526",
+      "no": "1490",
       "category": "창업",
       "title": "2026년 2차 민관협력 오픈이노베이션 지원 전략과제 해결형(Top-Down) 창업기업 모집 공고",
       "start_date": "2026-06-24",
@@ -336,12 +336,12 @@
       "ministry": "중소벤처기업부",
       "agency": "서울창조경제혁신센터",
       "registered_at": "2026-06-24",
-      "views": "216",
+      "views": "234",
       "pblancId": "PBLN_000000000123553",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123553"
     },
     {
-      "no": "1525",
+      "no": "1489",
       "category": "경영",
       "title": "[충남] 2026년 재난안전산업 진흥시설 조성지원사업 교육훈련 및 사업화 지원 참여기업 모집 공고",
       "start_date": "2026-06-15",
@@ -350,12 +350,12 @@
       "ministry": "충청남도",
       "agency": "충남테크노파크",
       "registered_at": "2026-06-24",
-      "views": "136",
+      "views": "147",
       "pblancId": "PBLN_000000000123552",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123552"
     },
     {
-      "no": "1524",
+      "no": "1488",
       "category": "경영",
       "title": "[전남] 2026년 소상공인 브랜드ㆍ디자인 융합개발 지원기업 추가 모집 공고",
       "start_date": "2026-06-23",
@@ -364,12 +364,12 @@
       "ministry": "전라남도",
       "agency": "전남테크노파크",
       "registered_at": "2026-06-24",
-      "views": "155",
+      "views": "171",
       "pblancId": "PBLN_000000000123551",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123551"
     },
     {
-      "no": "1523",
+      "no": "1487",
       "category": "창업",
       "title": "2026년 K-DeepTech Global Landing Pad 모집 공고(4대 과기원 글로벌 딥테크 창업지원)",
       "start_date": "2026-06-23",
@@ -378,12 +378,12 @@
       "ministry": "과학기술정보통신부",
       "agency": "한국과학기술원",
       "registered_at": "2026-06-24",
-      "views": "202",
+      "views": "217",
       "pblancId": "PBLN_000000000123550",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123550"
     },
     {
-      "no": "1522",
+      "no": "1486",
       "category": "기술",
       "title": "[경기] 용인시 제2차 반도체기업 기술보호 지원사업 모집 공고",
       "start_date": "2026-06-18",
@@ -392,12 +392,12 @@
       "ministry": "경기도",
       "agency": "용인시산업진흥원",
       "registered_at": "2026-06-24",
-      "views": "139",
+      "views": "148",
       "pblancId": "PBLN_000000000123549",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123549"
     },
     {
-      "no": "1521",
+      "no": "1485",
       "category": "수출",
       "title": "[충남] 2026년 중동 시장개척단 참가기업 모집 공고",
       "start_date": "2026-06-22",
@@ -406,12 +406,12 @@
       "ministry": "충청남도",
       "agency": "충남경제진흥원",
       "registered_at": "2026-06-24",
-      "views": "136",
+      "views": "150",
       "pblancId": "PBLN_000000000123548",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123548"
     },
     {
-      "no": "1520",
+      "no": "1484",
       "category": "기술",
       "title": "[충남] 서천군 2026년 3차 해양바이오 인큐베이팅사업 수혜기업 모집기간 연장 공고(시군구연고산업육성 협업프로젝트)",
       "start_date": "2026-06-08",
@@ -420,7 +420,7 @@
       "ministry": "중소벤처기업부",
       "agency": "충남테크노파크",
       "registered_at": "2026-06-24",
-      "views": "127",
+      "views": "144",
       "pblancId": "PBLN_000000000123547",
       "detail_url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=2&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123547"
     }

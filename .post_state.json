@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 5,
     "공감페인": 15,
     "케이스스터디": 6,
     "숫자팩트": 10,
     "마감알림": 6,
-    "오해풀기": 6,
+    "오해풀기": 7,
     "트렌드": 11
   },
   "used_announcements": [
@@ -124,20 +124,6 @@
     "PBLN_000000000123526"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "2026년 지역혁신중심 대학지원체계(RISE) 패션기업 신규시장 진출 호주 시드니 팝업스토어 참여 기업 모집 공고 D-4 마감 임박 (대구광역시)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18076687838457367",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZi6eEhlMF4",
-      "posted_at": "2026-06-14T00:04:42.732Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1826,6 +1812,29 @@
       "media_id": "18096154945973052",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-LCbGkaGw",
       "posted_at": "2026-06-24T14:09:00.487Z"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "정책자금 = 정부 돈 공짜로 주는 거라는 인식",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-24_오해풀기_정책자금_정부_돈_공짜로_주는_거라는_인식.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 수치나 비용 언급 없음. '대출형이 압도적으로 많다', 'R&D/바우처는 환수' 등은 일반적으로 알려진 사실",
+          "[10] 청년창업 오해풀기와 형식은 유사하나 주제(공짜 마인드 vs 청년 유리)가 명확히 다름. 중복 아님",
+          "반말 톤, 해시태그 없음, 글자수 196자 적정, AI 정형 도입부 없음"
+        ]
+      },
+      "posted_at": "2026-06-24T15:33:58.671Z",
+      "media_id": "18105540188074583",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-Uxe4lh00"
     }
   ]
 }
