@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 6,
     "공감페인": 1,
-    "케이스스터디": 9,
+    "케이스스터디": 10,
     "숫자팩트": 11,
     "마감알림": 7,
     "오해풀기": 7,
@@ -127,20 +127,6 @@
     "PBLN_000000000123573"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[부산] 2026년 1차 제조업 AI융합 기반 조성 사업 AX클리닉 지원기업 모집 공고 D-4 마감 임박 (부산광역시)",
-      "char_count": 188,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18092769359362989",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZlffLAiTo8",
-      "posted_at": "2026-06-15T00:06:40.727Z"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1833,6 +1819,27 @@
       "posted_at": "2026-06-25T12:13:26.938Z",
       "media_id": "18093739247621463",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaAino0FE6p"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
+      "char_count": 231,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-25_케이스스터디_같은_자금에_2년_연속_떨어진_후_받은_케이스.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 5,
+        "tone": 10,
+        "issues": [
+          "익명 케이스 기반 자기 경험 서술로 검증 불가하나 구체 수치·금액 없어 위험도 낮음",
+          "최근 2일간 '제조업 대표가 탈락 후 합격/탈락' 케이스스터디가 이미 3건 게시됨. '제조업 대표', '어제 들은 케이스' 도입부 패턴 반복. 각도는 '탈락 피드백 반영'으로 차별화되긴 함"
+        ]
+      },
+      "posted_at": "2026-06-25T14:05:51.421Z",
+      "review_required": true
     }
   ]
 }
