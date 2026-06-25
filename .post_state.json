@@ -128,20 +128,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "자금 받고도 망하는 회사들 공통점",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17926633488127247",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkLOH9FX23",
-      "posted_at": "2026-06-14T11:50:19.912Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
@@ -1833,6 +1819,20 @@
       "media_id": "17977655190046309",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_9qtuEYp5",
       "posted_at": "2026-06-25T06:50:40.651Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 208,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18071082884367964",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaAENEwFRl6",
+      "posted_at": "2026-06-25T07:47:45.931Z"
     }
   ]
 }
