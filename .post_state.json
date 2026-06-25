@@ -128,20 +128,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "12월에 사라지는 예산 보면서 드는 생각",
-      "char_count": 221,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17937782061257272",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZjyymakYwj",
-      "posted_at": "2026-06-14T08:16:52.587Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "그린·환경 분야 신규 자금 급증",
@@ -1846,6 +1832,20 @@
       "posted_at": "2026-06-25T00:09:24.013Z",
       "media_id": "18414410374147983",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_Pwi4kSS0"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
+      "char_count": 234,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18113621059715472",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_wuWLjrlI",
+      "posted_at": "2026-06-25T04:57:32.746Z"
     }
   ]
 }
