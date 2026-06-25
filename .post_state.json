@@ -1,10 +1,10 @@
 {
-  "evening_index": 1,
+  "evening_index": 0,
   "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 6,
     "공감페인": 1,
-    "케이스스터디": 8,
+    "케이스스터디": 9,
     "숫자팩트": 11,
     "마감알림": 7,
     "오해풀기": 7,
@@ -127,20 +127,6 @@
     "PBLN_000000000123573"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "자금 캘린더 만드는 법",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18268839451288957",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZlX1qtD8SH",
-      "posted_at": "2026-06-14T22:59:51.560Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1825,6 +1811,28 @@
       "media_id": "18095401055253217",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaAXJMrFmpp",
       "posted_at": "2026-06-25T10:33:15.471Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "char_count": 224,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-25_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "자기 경험 기반 익명 케이스라 검증 불가하지만 구체 수치·비용 주장은 없음",
+          "최근 케이스스터디 2건과 '제조업 대표 + 사업계획서 방향' 주제가 겹침. 각도는 다르지만(탈락 원인 vs 통과 비결) 유사 톤"
+        ]
+      },
+      "posted_at": "2026-06-25T12:13:26.938Z",
+      "media_id": "18093739247621463",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaAino0FE6p"
     }
   ]
 }
