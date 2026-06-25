@@ -128,28 +128,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
-      "char_count": 152,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-14_공감페인_사업계획서_쓰다가_새벽_3시인_대표.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 9,
-        "tone": 10,
-        "issues": [
-          "개인 경험 묘사 수준이라 검증 불필요",
-          "사업계획서 작성 페인은 최근 15개 중 직접 다룬 글 없음"
-        ]
-      },
-      "posted_at": "2026-06-14T15:08:35.309Z",
-      "media_id": "18079235969644190",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZkh6wQFeNY"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "자금 캘린더 만드는 법",
@@ -1833,6 +1811,20 @@
       "media_id": "17942610666231830",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaAMIuPGzdH",
       "posted_at": "2026-06-25T08:57:05.201Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "콘텐츠·플랫폼 자금 변화",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18095401055253217",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaAXJMrFmpp",
+      "posted_at": "2026-06-25T10:33:15.471Z"
     }
   ]
 }
