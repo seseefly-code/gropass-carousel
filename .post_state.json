@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 6,
     "공감페인": 1,
     "케이스스터디": 10,
     "숫자팩트": 11,
     "마감알림": 7,
-    "오해풀기": 7,
+    "오해풀기": 8,
     "트렌드": 13
   },
   "used_announcements": [
@@ -127,20 +127,6 @@
     "PBLN_000000000123573"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18057426566722155",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZmJj73kSbB",
-      "posted_at": "2026-06-15T06:14:20.769Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1840,6 +1826,29 @@
       },
       "posted_at": "2026-06-25T14:05:51.421Z",
       "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "R&D 자금은 박사급만 받는다는 편견",
+      "char_count": 267,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-25_오해풀기_RD_자금은_박사급만_받는다는_편견.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "구미시 핵심부품·소재기술 개발사업은 announcement에 실제로 있음 (D-20). 중소기업 R&D 지원사업·기업부설연구소는 일반 명칭/제도로 OK",
+          "구미 사업의 구체 자격 요건(박사 요건 유무)을 단정했는데 listing에는 상세 자격이 없음. 다만 단기상용화R&D·기술컨설팅은 통상 중소기업 대상이고 박사 학위 요건이 없는 게 일반적이라 큰 위험은 아님",
+          "최근 15개 중 R&D 박사 요건 오해를 다룬 글 없음. 오해풀기 [6]은 '공짜 돈' 주제로 각도 다름"
+        ]
+      },
+      "posted_at": "2026-06-25T15:41:21.306Z",
+      "media_id": "18059796350561896",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaA6aaRnAH3"
     }
   ]
 }
