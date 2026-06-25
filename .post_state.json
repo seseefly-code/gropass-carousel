@@ -128,33 +128,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-14_트렌드_그린환경_분야_신규_자금_급증.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 8,
-        "halluc": 7,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "'공급망 ESG 지원사업'은 announcement의 '2026년 고탄소배출업종 공급망 ESG 지원 시범사업'과 일치",
-          "AI로봇 실증사업, 클라우드 도입 지원사업 모두 announcement에 존재",
-          "'AI로봇 실증, 클라우드 도입 같은 디지털 자금도 환경 연계 조건이 붙는 경우가 많아졌어'는 사실 검증이 어려운 일반화된 주장 — 실제 공고에 환경 연계 조건이 명시되어 있는지 불명확",
-          "디지털 자금에 환경 연계 조건이 많아졌다는 주장은 검증되지 않은 일반화 — 다만 구체 수치/비용이 없어 BAN 트리거 수준은 아님",
-          "ESG 트렌드 관찰은 데이터 기반 의견 표현으로 처리 가능",
-          "최근 트렌드 글 3건이 모두 'AI/디지털 자금 흐름 변화'를 다뤘으나, 본 포스트는 '그린·ESG' 각도로 차별화됨",
-          "다만 AI로봇·클라우드를 다시 인용한 부분은 [12][13]과 겹침 — 각도는 다르지만 주제 피로도 있음",
-          "존댓말, 해시태그, 클릭베이트, 이모지 과다 모두 없음"
-        ]
-      },
-      "posted_at": "2026-06-14T10:44:00.661Z",
-      "review_required": true
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "자금 받고도 망하는 회사들 공통점",
@@ -1846,6 +1819,20 @@
       "media_id": "18113621059715472",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_wuWLjrlI",
       "posted_at": "2026-06-25T04:57:32.746Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 받은 기업의 3년 생존율",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17977655190046309",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_9qtuEYp5",
+      "posted_at": "2026-06-25T06:50:40.651Z"
     }
   ]
 }
