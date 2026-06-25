@@ -123,23 +123,10 @@
     "PBLN_000000000123498",
     "PBLN_000000000123526",
     "PBLN_000000000123563",
-    "PBLN_000000000123574"
+    "PBLN_000000000123574",
+    "PBLN_000000000123573"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
-      "char_count": 221,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18046298915569078",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZjs6EkFQBj",
-      "posted_at": "2026-06-14T07:25:28.523Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1837,6 +1824,28 @@
       "media_id": "17990791481814206",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_HvbWDxSI",
       "posted_at": "2026-06-24T22:59:27.249Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[충북] 2026년 농식품 홍콩 무역사절단 파견 참여기업 모집 연장 공고 D-5 마감 임박 (충청북도)",
+      "char_count": 194,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-25_마감알림_충북_2026년_농식품_홍콩_무역사절단_파견_참여기업_.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "마감일과 D-day 모두 announcement와 일치",
+          "[5],[6] 마감알림과 형식이 비슷하나 주제(수출/홍콩 사절단)와 대상(농식품)이 명확히 다름"
+        ]
+      },
+      "posted_at": "2026-06-25T00:09:24.013Z",
+      "media_id": "18414410374147983",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_Pwi4kSS0"
     }
   ]
 }
