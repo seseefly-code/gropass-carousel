@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 0,
+  "night_index": 1,
   "topic_pool_indexes": {
     "솔직인사이트": 8,
     "공감페인": 2,
@@ -8,7 +8,7 @@
     "숫자팩트": 13,
     "마감알림": 8,
     "오해풀기": 9,
-    "트렌드": 14
+    "트렌드": 15
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -130,20 +130,6 @@
     "PBLN_000000000123604"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
-      "char_count": 238,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18599610256039331",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZovjd_kc24",
-      "posted_at": "2026-06-16T06:24:47.273Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1833,6 +1819,30 @@
       "media_id": "18596769622010758",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaDUMFnEfom",
       "posted_at": "2026-06-26T14:05:11.206Z"
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "2026년 사라진 자금, 새로 생긴 자금",
+      "char_count": 211,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-26_트렌드_2026년_사라진_자금_새로_생긴_자금.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 없이 분야 트렌드만 일반화함. announcement에 '디지털의료제품 전주기 규제 적합성 진단', '이차전지 소재부품 기업대상 기술개발 패키지', '생성형 AI SW 활용 지원사업' 등 실제 공고가 있어 근거 충족",
+          "통폐합·축소 관련 주장은 구체 수치 없이 일반화되어 위험도 낮음. 전반적으로 추상화 잘 됨",
+          "[12] 트렌드 글이 '심사 기준 변화'를 다뤘다면, 이 글은 '예산 편성·자금 라인업 변화'를 다뤄 각도가 다름. 약간 인접하지만 중복은 아님",
+          "존댓말·해시태그·이모지·클릭베이트 없음. 반말체 일관. 글자수 211자로 적정"
+        ]
+      },
+      "posted_at": "2026-06-26T15:25:36.655Z",
+      "media_id": "18106839583954801",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaDdZ8SEZiU"
     }
   ]
 }
