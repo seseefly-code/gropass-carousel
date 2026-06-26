@@ -131,20 +131,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "매주 월요일 신규 공고 체크 루틴",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17859953622643585",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZoAAaXDgsO",
-      "posted_at": "2026-06-15T23:29:19.362Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[대전] 2026년 NICAB Workshop 참여기업 모집 공고(연구산업기업 인도네시아 진출지원 프로그램) D-4 마감 임박 (대전광역시)",
@@ -1833,6 +1819,20 @@
       "media_id": "18062233829536474",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaC9CHAlOWS",
       "posted_at": "2026-06-26T10:42:49.176Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "컨설팅비 1천 vs 직접 알아서 하기",
+      "char_count": 213,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18107504290797658",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaDGsZKoABb",
+      "posted_at": "2026-06-26T12:07:15.658Z"
     }
   ]
 }
