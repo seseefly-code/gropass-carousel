@@ -131,28 +131,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "평가위원 한 명이 결과를 바꾼 사례",
-      "char_count": 279,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_케이스스터디_평가위원_한_명이_결과를_바꾼_사례.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "익명 케이스의 구체 수치지만 자기 경험 서술로 허용 범위",
-          "[10] R&D 보고서 케이스, [6] 사업계획서 잘 쓰는 대표와 '심사자 관점' 주제가 겹치지만 각도(발표평가 위원 구성 리스크)는 새로움"
-        ]
-      },
-      "posted_at": "2026-06-15T17:00:56.674Z",
-      "media_id": "18420262411176343",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZnTkkakd6L"
-    },
-    {
       "slot": "night",
       "type": "공감페인",
       "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
@@ -1849,6 +1827,20 @@
       "media_id": "18104853455038948",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaCqCe8ll8q",
       "posted_at": "2026-06-26T07:56:50.064Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[대구] 2026년 마을기업 로컬 업 협업 지원사업 참여기업 추가 모집 공고 자금 해설 (대구광역시)",
+      "char_count": 206,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18158057059482208",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaCxKvLEVcz",
+      "posted_at": "2026-06-26T08:59:10.535Z"
     }
   ]
 }
