@@ -126,23 +126,10 @@
     "PBLN_000000000123574",
     "PBLN_000000000123573",
     "PBLN_000000000123610",
-    "PBLN_000000000123625"
+    "PBLN_000000000123625",
+    "PBLN_000000000123604"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "정책자금 검색하느라 본업 못 한 하루",
-      "char_count": 165,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18047367812787818",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZmmYZ6lSSt",
-      "posted_at": "2026-06-15T10:26:08.802Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1851,6 +1838,32 @@
       "media_id": "18128104642715807",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaBtkB3jhMb",
       "posted_at": "2026-06-25T23:08:28.780Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 미래내일 일경험(인턴형) 참여기업 모집 공고 D-5 마감 임박 (고용노동부)",
+      "char_count": 219,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-26_마감알림_2026년_미래내일_일경험인턴형_참여기업_모집_공고_D.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 5,
+        "issues": [
+          "announcement에 '2026년 미래내일 일경험(인턴형) 참여기업 모집 공고' D-5로 실재 확인됨. 고용노동부 소관 정확.",
+          "D-5는 announcement와 일치. '인건비 일부 지원'은 인턴형 사업의 일반적 구조로 OK. 구체 금액·비율 없음.",
+          "[3] 신년 새 자금 공고 예고에서 이미 '미래내일 일경험 인턴형 D-6 (7/1)'을 동일하게 언급하며 '인건비 부담 있는 중소기업들한테 진짜 쓸만해'라는 거의 동일한 메시지 사용. 같은 공고를 D-6→D-5로 하루 차이로 반복.",
+          "'이거 모르고 있는 대표들 있을까봐 올려' — 클릭베이트성 도입부에 가까움",
+          "'대표님들' 표현 1회 사용 (시스템 규칙상 '여러분/~하시는 분' 회피와 유사 톤 문제)",
+          "'일석이조임' 등 정형 표현",
+          "전반적으로는 반말체 유지, 해시태그/이모지 없음, 글자수 OK"
+        ]
+      },
+      "posted_at": "2026-06-26T00:07:30.063Z",
+      "review_required": true
     }
   ]
 }
