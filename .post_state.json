@@ -131,29 +131,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "매출 0원에서 자금 받은 초기 스타트업",
-      "char_count": 277,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_케이스스터디_매출_0원에서_자금_받은_초기_스타트업.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "'울산 AI 데이터센터 연계 기술창업 프로그램'은 announcement의 '[울산] 2026년 창업시리즈N 참여기업 모집 공고(AI datacenter-Infra 연계 기술창업프로그램)'와 일치",
-          "구체 수치·비용·조건 없이 일반화된 진술 위주로 안전함",
-          "[11] 케이스스터디(R&D 보고서)와 형식은 비슷하지만 주제·각도 다름 — 매출 0원도 가능한 자금 트랙 안내라는 인사이트는 새로움"
-        ]
-      },
-      "posted_at": "2026-06-15T15:39:06.933Z",
-      "media_id": "17858022945658263",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZnKNOkFF9y"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "평가위원 한 명이 결과를 바꾼 사례",
@@ -1858,6 +1835,20 @@
       },
       "posted_at": "2026-06-26T06:58:01.479Z",
       "review_required": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "정책자금 검색하느라 본업 못 한 하루",
+      "char_count": 214,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18104853455038948",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaCqCe8ll8q",
+      "posted_at": "2026-06-26T07:56:50.064Z"
     }
   ]
 }
