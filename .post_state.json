@@ -5,7 +5,7 @@
     "솔직인사이트": 8,
     "공감페인": 2,
     "케이스스터디": 11,
-    "숫자팩트": 12,
+    "숫자팩트": 13,
     "마감알림": 8,
     "오해풀기": 9,
     "트렌드": 14
@@ -130,33 +130,6 @@
     "PBLN_000000000123604"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
-      "char_count": 226,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_트렌드_청년창업_자금_vs_시니어창업_자금_격차.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "'청년사관학교'는 청년창업사관학교의 약칭으로 화이트리스트 OK",
-          "'청년전용 보증'은 신용보증기금/기술보증기금의 일반 청년전용 보증 상품 카테고리로 일반 명칭 OK",
-          "'청년 도약 패키지'는 다소 모호하나 청년창업 패키지류의 일반 카테고리 지칭으로 해석 가능, 구체 마감일·금액 없음",
-          "구체 비용·심사비·예산 수치 없음",
-          "추상적 트렌드 서술로 검증 리스크 낮음",
-          "최근 트렌드 글이 AI·로봇·반도체, ESG, 글로벌 진출 등 산업/분야 트렌드 위주였음",
-          "청년 vs 시니어 창업자금 격차라는 인구통계 관점은 새로운 각도"
-        ]
-      },
-      "posted_at": "2026-06-15T13:46:07.448Z",
-      "media_id": "18117720172835920",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZm9RpWkV0v"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1864,6 +1837,27 @@
       "media_id": "18130996045596519",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaCWM9EkVpA",
       "posted_at": "2026-06-26T05:03:31.425Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "수출바우처 평균 활용 금액",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-26_숫자팩트_수출바우처_평균_활용_금액.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 5,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "'평균 사용률 60~70%'라는 구체 수치는 출처 불명. 공식 통계로 확인되지 않은 수치를 단정적으로 제시하면 도메인 전문가에게 신뢰 잃을 위험",
+          "[8]번 글이 수출바우처 활용 가능성 주제. 다만 이번 글은 '사용률/활용 설계'라는 다른 각도라 완전 중복은 아님"
+        ]
+      },
+      "posted_at": "2026-06-26T06:58:01.479Z",
+      "review_required": true
     }
   ]
 }
