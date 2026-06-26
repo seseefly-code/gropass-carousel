@@ -131,20 +131,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[강원] 원주시 2026년 몽골 의공학회 전시부스 참가기업 모집 공고 자금 해설 (강원특별자치도)",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18410676115148464",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZmw9tdEWwp",
-      "posted_at": "2026-06-15T11:58:38.367Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "청년창업 자금 vs 시니어창업 자금 격차",
@@ -1864,6 +1850,20 @@
       },
       "posted_at": "2026-06-26T00:07:30.063Z",
       "review_required": true
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "똑같은 사업인데 누군 5천 받고 누군 못 받는 진짜 이유",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18130996045596519",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaCWM9EkVpA",
+      "posted_at": "2026-06-26T05:03:31.425Z"
     }
   ]
 }
