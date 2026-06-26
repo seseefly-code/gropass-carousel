@@ -133,20 +133,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "12월에 사라지는 정책자금 예산 규모",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18103590902078472",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZpAFudlc5r",
-      "posted_at": "2026-06-16T08:49:18.215Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[광주] 2026년 떡 산업 고도화 지원사업(농촌자원복합산업화) 대상자 모집 공고 자금 해설 (광주광역시)",
@@ -1845,6 +1831,20 @@
       "posted_at": "2026-06-26T15:25:36.655Z",
       "media_id": "18106839583954801",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaDdZ8SEZiU"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "추경 자금 신청 임박 알림",
+      "char_count": 153,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18106977025813882",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaERUbdj1Vf",
+      "posted_at": "2026-06-26T22:59:20.928Z"
     }
   ]
 }
