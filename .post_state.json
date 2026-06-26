@@ -131,28 +131,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "컨설팅사 미팅 가니까 영업만 받고 나온 경험",
-      "char_count": 224,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-15_공감페인_컨설팅사_미팅_가니까_영업만_받고_나온_경험.md",
-      "verdict": {
-        "decision": "review",
-        "score": 8,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "[6] 컨설팅사 관련 인사이트와 주제 겹침 (각도는 다름: [6]은 위임 패턴, 본문은 영업 경험담)",
-          "[2] 기업마당 직접 뒤지는 시간 낭비 페인과 후반부 메시지 유사",
-          "이모지 ✋ 1개 사용 — 허용 범위지만 체크"
-        ]
-      },
-      "posted_at": "2026-06-15T17:58:50.325Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "매주 월요일 신규 공고 체크 루틴",
@@ -1841,6 +1819,20 @@
       "media_id": "18158057059482208",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaCxKvLEVcz",
       "posted_at": "2026-06-26T08:59:10.535Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "정책자금 평가 기준이 바뀌는 방향",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18062233829536474",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaC9CHAlOWS",
+      "posted_at": "2026-06-26T10:42:49.176Z"
     }
   ]
 }
