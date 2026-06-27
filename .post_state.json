@@ -133,20 +133,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "2026년 김해형 액셀러레이팅 프로그램 참가기업 모집 공고 D-2 마감 임박 (경상남도)",
-      "char_count": 210,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18057398261727613",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZqjfLBDlgS",
-      "posted_at": "2026-06-16T23:17:50.118Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[강원] 2026년 수출 스타기업 육성 지원사업 참가기업 2차 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
@@ -1826,6 +1812,20 @@
       "media_id": "17959179725965912",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFFFpikftY",
       "posted_at": "2026-06-27T06:31:42.559Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "떨어졌다는 메일 받은 날 표정",
+      "char_count": 189,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18075504782680747",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaFHrq0nOWH",
+      "posted_at": "2026-06-27T06:54:21.867Z"
     }
   ]
 }
