@@ -1,13 +1,13 @@
 {
   "evening_index": 0,
-  "night_index": 2,
+  "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 3,
     "케이스스터디": 14,
     "숫자팩트": 14,
     "마감알림": 9,
-    "오해풀기": 9,
+    "오해풀기": 10,
     "트렌드": 2
   },
   "used_announcements": [
@@ -132,20 +132,6 @@
     "PBLN_000000000123670"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "비R&D 사업화 자금이 새로 생기는 이유",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18085092839635317",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZr7xNsFJCm",
-      "posted_at": "2026-06-17T12:09:14.988Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1824,6 +1810,28 @@
       "posted_at": "2026-06-27T13:13:26.823Z",
       "media_id": "18061466123739836",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFzE07EWDt"
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "5인 미만 기업은 받을 자금이 없다는 오해",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-27_오해풀기_5인_미만_기업은_받을_자금이_없다는_오해.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 7,
+        "halluc": 7,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "언급된 사업명들은 announcement의 '경남 제조 스타트업 제품화 지원', '경기 고양시 혁신 창업 스타트업 챌린지', '지역 R&D 관련 사업'을 축약/일반화한 표현으로 보임. 인원 제한 없음을 단정적으로 말한 부분은 약간 위험할 수 있으나, 일반론으로 추상화되어 있어 큰 문제는 아님",
+          "'다 인원 제한 없어'는 단정적 표현. 실제 공고별로 다를 수 있어 약간 위험. 다만 마지막에 '자격 조건은 자금마다 다 달라'로 안전장치를 둠",
+          "[14] 매출 0원 스타트업 케이스가 '초기 단계라고 포기하지 마' 메시지와 유사하나, 본 글은 '인원 수' 관점이라 각도가 다름"
+        ]
+      },
+      "posted_at": "2026-06-27T14:45:20.533Z",
+      "review_required": true
     }
   ]
 }
