@@ -133,20 +133,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
-      "char_count": 227,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18102236735118816",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZrRnC6jpC9",
-      "posted_at": "2026-06-17T06:00:50.686Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "올해 정부 정책자금 예산 30조 시대",
@@ -1826,6 +1812,20 @@
       "media_id": "18417013351183729",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFS-ERm_8H",
       "posted_at": "2026-06-27T08:33:01.307Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "2026년 정책자금 트렌드 키워드",
+      "char_count": 210,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18107911226058802",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaFcZu3FcHV",
+      "posted_at": "2026-06-27T09:55:25.234Z"
     }
   ]
 }
