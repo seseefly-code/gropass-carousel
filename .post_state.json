@@ -133,20 +133,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[강원] 2026년 수출 스타기업 육성 지원사업 참가기업 2차 추가 모집 공고 D-3 마감 임박 (강원특별자치도)",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18097927330929662",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZqp71Qjndu",
-      "posted_at": "2026-06-17T00:14:09.676Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 신청 타이밍이 결과를 가르는 이유",
@@ -1826,6 +1812,20 @@
       "media_id": "18075504782680747",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFHrq0nOWH",
       "posted_at": "2026-06-27T06:54:21.867Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[부산] 영도구 2026년 3차 부산 커피산업 생태계 R&D 클러스트 구축사업 기업지원 프로그램 통합 모집 공고(시군구연고산업육성 협업프로젝트) 자금 해설 (중소벤처기업부)",
+      "char_count": 253,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18417013351183729",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaFS-ERm_8H",
+      "posted_at": "2026-06-27T08:33:01.307Z"
     }
   ]
 }
