@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 9,
     "공감페인": 3,
-    "케이스스터디": 13,
+    "케이스스터디": 14,
     "숫자팩트": 14,
     "마감알림": 9,
     "오해풀기": 9,
@@ -132,20 +132,6 @@
     "PBLN_000000000123670"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[경기] 2026년 소공인 박람회 지원 사업 추가모집 공고 자금 해설 (경기도)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18097047389216525",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZryudKkTPC",
-      "posted_at": "2026-06-17T10:50:14.030Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1815,6 +1801,29 @@
       "media_id": "18112123573841668",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFmcKmG1rr",
       "posted_at": "2026-06-27T11:23:12.000Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "매출 0원에서 자금 받은 초기 스타트업",
+      "char_count": 236,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-27_케이스스터디_매출_0원에서_자금_받은_초기_스타트업.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "announcement에 있는 '2026년 제조 스타트업 제품화 지원 수혜기업 모집 공고(경남)'와 매칭됨. 사업명을 정확히 박지 않고 '경남 쪽 제조 스타트업 제품화 지원'으로 자연스럽게 언급",
+          "수치는 케이스 상황 묘사 수준이고 검증 가능한 공식 통계가 아님. 자기 경험/사례 인용이라 OK 범위",
+          "최근 케이스스터디 3건과 형식(어제 들은 케이스 도입)이 유사하나, 인사이트 각도는 다름(매출 0원 초기 스타트업도 받을 수 있다는 단계별 자금 메시지)"
+        ]
+      },
+      "posted_at": "2026-06-27T13:13:26.823Z",
+      "media_id": "18061466123739836",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaFzE07EWDt"
     }
   ]
 }
