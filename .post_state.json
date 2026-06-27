@@ -135,20 +135,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
-      "char_count": 213,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18054874883747848",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZsF721kTby",
-      "posted_at": "2026-06-17T13:38:06.125Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
@@ -1834,6 +1820,20 @@
       },
       "posted_at": "2026-06-27T14:45:20.533Z",
       "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "12월 폭주하는 자금 신청 미리 준비",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18105135908022556",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaG1qk6j8Y7",
+      "posted_at": "2026-06-27T22:55:25.818Z"
     }
   ]
 }
