@@ -133,31 +133,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "올해 정부 정책자금 예산 30조 시대",
-      "char_count": 230,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-17_숫자팩트_올해_정부_정책자금_예산_30조_시대.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "언급된 3개 사업 모두 announcement 컨텍스트에 존재함 - 강원 수출 스타기업 육성 지원사업, 경북 기후테크 기업 육성지원, 충북 산업 AI 도입·실증 지원사업과 매칭됨",
-          "30조원은 일반적으로 알려진 추상화된 규모로 OK",
-          "'매년 수천억 규모 사라진다'는 검증 어렵지만 추상적 표현이라 허용 범위",
-          "'모르는 게 문제' 메시지가 [11] 폐업위기 케이스스터디의 '정보 격차가 생존 격차' 메시지와 유사하나 각도 다름",
-          "숫자팩트 타입은 [7]에 1건 있으나 주제(1인 창업자 자금 개수 vs 전체 예산 규모)가 명확히 다름"
-        ]
-      },
-      "posted_at": "2026-06-17T08:31:29.562Z",
-      "media_id": "17987747114826440",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZri3ABlnAX"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[경기] 2026년 소공인 박람회 지원 사업 추가모집 공고 자금 해설 (경기도)",
@@ -1826,6 +1801,20 @@
       "media_id": "18107911226058802",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaFcZu3FcHV",
       "posted_at": "2026-06-27T09:55:25.234Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18112123573841668",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaFmcKmG1rr",
+      "posted_at": "2026-06-27T11:23:12.000Z"
     }
   ]
 }
