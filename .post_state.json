@@ -133,20 +133,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[광주] 2026년 떡 산업 고도화 지원사업(농촌자원복합산업화) 대상자 모집 공고 자금 해설 (광주광역시)",
-      "char_count": 255,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18009303920875220",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZpPtzGlWaQ",
-      "posted_at": "2026-06-16T11:05:48.835Z"
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "폐업 위기에서 정책자금으로 살아난 회사",
@@ -1845,6 +1831,20 @@
       "media_id": "18106977025813882",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaERUbdj1Vf",
       "posted_at": "2026-06-26T22:59:20.928Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 디지털의료제품 전주기 규제 적합성 진단 및 맞춤형 컨설팅 지원 대상 모집 연장 공고 D-5 마감 임박 (식품의약품안전처)",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "17883904188433876",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaEYze5kefc",
+      "posted_at": "2026-06-27T00:04:44.477Z"
     }
   ]
 }
