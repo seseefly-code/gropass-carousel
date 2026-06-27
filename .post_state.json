@@ -133,29 +133,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
-      "char_count": 232,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-16_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "구체 사업명 없이 '중기부 계열 위기 대응', '지역 테크노파크' 같은 일반 명칭만 사용. 부산 중소기업 밀집지역 위기대응 체계 구축사업 등 실제 announcement와도 부합하는 톤",
-          "수치가 추상적이고 익명 케이스 스토리 형식. 검증 불가능하나 위험 수준은 낮음",
-          "최근 케이스스터디 4개(1인기업 TIPS, 매출0원, 매출1억 R&D 5억, 평가위원)와 주제 각도가 다름. 폐업위기/위기대응 자금 조합이라는 새로운 앵글"
-        ]
-      },
-      "posted_at": "2026-06-16T16:26:17.776Z",
-      "media_id": "18069201839375227",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZp0Ztaji_S"
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "여성기업 우대 자금 변화",
@@ -1845,6 +1822,20 @@
       "media_id": "17883904188433876",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaEYze5kefc",
       "posted_at": "2026-06-27T00:04:44.477Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
+      "char_count": 224,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18154923478434374",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaE41Qvju1W",
+      "posted_at": "2026-06-27T04:44:37.758Z"
     }
   ]
 }
