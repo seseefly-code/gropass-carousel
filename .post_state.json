@@ -135,30 +135,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
-      "char_count": 222,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_숫자팩트_벤처기업_보유_vs_미보유_기업_평균_매출_격차.md",
-      "verdict": {
-        "decision": "review",
-        "score": 8,
-        "fact": 9,
-        "halluc": 7,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "벤처기업확인제도는 화이트리스트에 있는 상시 제도. 구체 사업명 없이 일반 명칭(정책자금, 세제혜택, R&D 자금)만 사용.",
-          "'몇 배 이상'으로 일반화했지만 여전히 정량적 주장. 다만 모드 B 추상화 수준은 유지함. '벤처기업 보유 vs 미보유 매출 격차' 통계는 벤처기업협회 등에서 매년 발표되는 알려진 사실이라 큰 문제 없음.",
-          "'세제혜택, 투자 유치 가능성, R&D 자금 연결'은 벤처인증 혜택으로 잘 알려진 내용.",
-          "[2]번 게시물에서 '닭이 먼저냐 달걀이 먼저냐' 비유를 이미 사용함. 본 포스트도 동일 비유 사용 — 표현 중복. 다만 주제(벤처인증 매출 격차)는 새로움.",
-          "존댓말/해시태그/이모지/클릭베이트 없음. 반말 일관됨. 글자수 222자로 적정."
-        ]
-      },
-      "posted_at": "2026-06-18T08:11:47.994Z",
-      "review_required": true
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "매출 부족하다고 거절당한 첫 자금 신청",
@@ -1827,6 +1803,20 @@
       "posted_at": "2026-06-28T07:53:31.566Z",
       "media_id": "18598243114015111",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaHzQhum45M"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[전남] 2026년 생성형 AI SW 활용 지원사업 공고(가상융합산업 혁신센터 운영사업) 자금 해설 (전라남도)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18114613163501511",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaH5eiQFSVy",
+      "posted_at": "2026-06-28T08:47:58.644Z"
     }
   ]
 }
