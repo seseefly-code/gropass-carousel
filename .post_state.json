@@ -135,20 +135,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 베트남 방한 지역특화 우수상품 개발ㆍ운영 공모 자금 해설 (문화체육관광부)",
-      "char_count": 243,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18106164046984167",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZuTtrsIC5_",
-      "posted_at": "2026-06-18T10:17:00.206Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "헬스케어 자금 신규 증가 추세",
@@ -1817,6 +1803,20 @@
       "media_id": "18106255481051820",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaID-qvliBr",
       "posted_at": "2026-06-28T10:19:43.606Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "평가위원 한 명이 결과를 바꾼 사례",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18368024500226368",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaINpjVlrDB",
+      "posted_at": "2026-06-28T11:44:13.567Z"
     }
   ]
 }
