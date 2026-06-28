@@ -135,20 +135,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
-      "char_count": 216,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17871634068619785",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZuJ82UkXMY",
-      "posted_at": "2026-06-18T08:51:41.779Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 베트남 방한 지역특화 우수상품 개발ㆍ운영 공모 자금 해설 (문화체육관광부)",
@@ -1817,6 +1803,20 @@
       "media_id": "18114613163501511",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaH5eiQFSVy",
       "posted_at": "2026-06-28T08:47:58.644Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "그린·환경 분야 신규 자금 급증",
+      "char_count": 220,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18106255481051820",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaID-qvliBr",
+      "posted_at": "2026-06-28T10:19:43.606Z"
     }
   ]
 }
