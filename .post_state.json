@@ -135,20 +135,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "마감 일주일 전 시작하는 절대 안 되는 이유",
-      "char_count": 210,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17944638498031571",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZtILqND2EC",
-      "posted_at": "2026-06-17T23:16:59.475Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 튀르키예 GlobeMeets 트래블마트  참가기관 모집 공고 D-6 마감 임박 (문화체육관광부)",
@@ -1834,6 +1820,20 @@
       "media_id": "18112320955915270",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaG9B4skSzz",
       "posted_at": "2026-06-27T23:59:45.519Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "char_count": 247,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18115713361875960",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaHgwK4jaNf",
+      "posted_at": "2026-06-28T05:11:55.542Z"
     }
   ]
 }
