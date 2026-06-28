@@ -135,32 +135,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
-      "char_count": 218,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_케이스스터디_대표_혼자_신청서_써서_5천_받은_케이스.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 7,
-        "dup": 6,
-        "tone": 9,
-        "issues": [
-          "구체 사업명 없이 '정책자금'이라는 일반 명칭만 사용, 화이트리스트 범위 내",
-          "'5천(만원)'은 자기 경험 사례로 제시되어 검증 불가지만, 정책자금 일반 한도 내 수치라 큰 문제 없음",
-          "'컨설팅 비용 수백만원'은 추상적 범위 표현이라 허용 가능",
-          "[8] 사업계획서 한 줄 바꿔서 통과된 사례와 '신청서 작성의 본질' 메시지가 유사",
-          "[13] 컨설팅비 1천 vs 직접 하기와 '컨설팅 없이 직접 작성'이라는 대비 구도가 겹침",
-          "다만 각도(솔직함이 핵심)는 다소 새로움",
-          "존댓말, 해시태그, 클릭베이트 없음. 글자수 218자 적정"
-        ]
-      },
-      "posted_at": "2026-06-18T12:47:24.274Z",
-      "review_required": true
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
@@ -1827,6 +1801,20 @@
       },
       "posted_at": "2026-06-28T13:19:51.381Z",
       "discarded": true
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "공고가 다 똑같이 생겨서 뭐가 뭔지 모르겠을 때",
+      "char_count": 152,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18093047546042407",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaIi7znHGkb",
+      "posted_at": "2026-06-28T14:50:13.515Z"
     }
   ]
 }
