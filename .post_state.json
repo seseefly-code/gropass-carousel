@@ -137,29 +137,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
-      "char_count": 216,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-18_케이스스터디_컨설팅_안_받고_직접_하다가_4번_떨어진_회사.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "구체 사업명 없이 일반 명칭'정책자금'만 사용해 사실 검증 리스크 낮음",
-          "구체 비용·심사비·선정률 등 위험 수치 없음. 자기 상담 경험 기반이라 허용 범위",
-          "'컨설팅 비용 vs 직접 하기' 메시지는 [12] 솔직인사이트와 결론 방향이 유사 (컨설팅 옹호)",
-          "'반복 낙방 후 패턴 분석' 각도는 [3]과 일부 겹침. 다만 본 글은 '낙방 비용' 관점이라 각도 차이 있음"
-        ]
-      },
-      "posted_at": "2026-06-18T14:49:53.132Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "이번 주 마감 임박 자금 체크 권유",
@@ -1817,6 +1794,20 @@
       "media_id": "18093047546042407",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaIi7znHGkb",
       "posted_at": "2026-06-28T14:50:13.515Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "사전 등록 필요한 자금 안내",
+      "char_count": 230,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18016577549903140",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaJaYcIDgM3",
+      "posted_at": "2026-06-28T22:54:43.777Z"
     }
   ]
 }
