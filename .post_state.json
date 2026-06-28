@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 10,
     "공감페인": 6,
-    "케이스스터디": 1,
+    "케이스스터디": 2,
     "숫자팩트": 15,
     "마감알림": 10,
     "오해풀기": 10,
@@ -134,20 +134,6 @@
     "PBLN_000000000123685"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "헬스케어 자금 신규 증가 추세",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18353301937211559",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZudpvxFa0I",
-      "posted_at": "2026-06-18T11:43:47.963Z"
-    },
     {
       "slot": "evening",
       "type": "케이스스터디",
@@ -1817,6 +1803,30 @@
       "media_id": "18368024500226368",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaINpjVlrDB",
       "posted_at": "2026-06-28T11:44:13.567Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
+      "char_count": 254,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-28_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md",
+      "verdict": {
+        "decision": "fail",
+        "score": 5,
+        "fact": 5,
+        "halluc": 8,
+        "dup": 6,
+        "tone": 9,
+        "issues": [
+          "'청년창업패키지'는 announcement에 없고, 일반적으로 알려진 정식 사업명은 '청년창업사관학교' 또는 '예비창업패키지/초기창업패키지'임. '청년창업패키지'라는 명칭은 실재하지 않는 혼합형 명칭으로 보임",
+          "기보(기술보증기금)는 상시 운영 정책금융기관으로 OK",
+          "구체 금액·조건 수치 없음. 익명 케이스 스토리텔링으로 검증 불가하지만 위험 수치 없음",
+          "같은 날 케이스스터디 3건이 이미 게시됨. '초기 스타트업이 정책자금으로 시작' 각도가 [10]번과 겹침. 다만 본 포스트는 '시리즈A까지 가는 성장 흐름' 각도라 완전 중복은 아님",
+          "전반적으로 반말톤, 해시태그·이모지 없음, 글자수 254자로 양호"
+        ]
+      },
+      "posted_at": "2026-06-28T13:19:51.381Z",
+      "discarded": true
     }
   ]
 }
