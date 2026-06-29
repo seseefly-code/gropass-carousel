@@ -137,20 +137,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "이번 주 마감 임박 자금 체크 권유",
-      "char_count": 198,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18359773699239842",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZvuWW5AZDC",
-      "posted_at": "2026-06-18T23:28:58.908Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 경남진주강소특구 이노테크 기업육성 사업 테크코어ㆍ테크스타트ㆍ테크플래그십 시행 공고 D-4 마감 임박 (과학기술정보통신부)",
@@ -1808,6 +1794,20 @@
       "media_id": "18016577549903140",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaJaYcIDgM3",
       "posted_at": "2026-06-28T22:54:43.777Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[인천] 부평구 2026년 베트남(호치민) 수출 통상촉진단 참가업체 추가모집 공고 D-5 마감 임박 (인천광역시)",
+      "char_count": 219,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18020195543849326",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaJikVPFKsz",
+      "posted_at": "2026-06-29T00:06:14.360Z"
     }
   ]
 }
