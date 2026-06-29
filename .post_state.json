@@ -137,20 +137,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "융자 vs 보증 vs 출연금 비중 변화",
-      "char_count": 212,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18480870592096766",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZxEINxFD_3",
-      "posted_at": "2026-06-19T11:58:29.590Z"
-    },
-    {
       "slot": "evening",
       "type": "케이스스터디",
       "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
@@ -1808,6 +1794,20 @@
       "media_id": "18107151031804900",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaK24PoIM6e",
       "posted_at": "2026-06-29T12:23:00.223Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "현장 평가 떨어지는 이유 90%",
+      "char_count": 277,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "17868813156629392",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaLB6pskSR0",
+      "posted_at": "2026-06-29T13:59:26.012Z"
     }
   ]
 }
