@@ -137,20 +137,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[강원] 태백시ㆍ영월군 2026년 2차 광물자원 활용 기반산업 경쟁력 강화 지원모집 공고(시군구 연고산업 육성사업) 자금 해설 (중소벤처기업부)",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17980411788010840",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZw5D17le67",
-      "posted_at": "2026-06-19T10:21:46.368Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "융자 vs 보증 vs 출연금 비중 변화",
@@ -1808,6 +1794,20 @@
       "media_id": "18104453102122542",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaKsb9XERIN",
       "posted_at": "2026-06-29T10:51:44.005Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "글로벌 진출 자금 비중 변화",
+      "char_count": 218,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18107151031804900",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaK24PoIM6e",
+      "posted_at": "2026-06-29T12:23:00.223Z"
     }
   ]
 }
