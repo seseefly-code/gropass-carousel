@@ -137,20 +137,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "대표가 직접 가야 하는 미팅 vs 위임해도 되는 미팅",
-      "char_count": 231,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18115838785847213",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZwcJDXkVjZ",
-      "posted_at": "2026-06-19T06:09:05.076Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
@@ -1808,6 +1794,20 @@
       "media_id": "18106260124821082",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaKGz7xkYQc",
       "posted_at": "2026-06-29T05:22:58.251Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "올해 정부 정책자금 예산 30조 시대",
+      "char_count": 168,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18005002820755505",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaKarh9nEmS",
+      "posted_at": "2026-06-29T08:16:33.805Z"
     }
   ]
 }
