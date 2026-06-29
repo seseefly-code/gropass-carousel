@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 12,
     "공감페인": 7,
-    "케이스스터디": 3,
+    "케이스스터디": 4,
     "숫자팩트": 1,
     "마감알림": 11,
     "오해풀기": 11,
@@ -136,34 +136,6 @@
     "PBLN_000000000123677"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "케이스스터디",
-      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-19_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 7,
-        "halluc": 8,
-        "dup": 7,
-        "tone": 9,
-        "issues": [
-          "사업명을 일반화해서 표현했고, announcement의 '첨단로봇·AI 활용 중소기업 제조혁신 사업', '중소기업 산업보안 진단 컨설팅', '소상공인 직원 신규채용 인건비 지원사업'과 매칭됨",
-          "다만 세 사업이 지역(전남/충북/울산 울주군)이 다 달라서 한 회사가 동시에 받기는 현실적으로 어려운데, 케이스가 익명·일반화되어 큰 사실 위반은 아님",
-          "구체 비용/심사비/예산 숫자는 없음",
-          "매출 3억·흑자 전환은 익명 케이스의 일반적 추상화 수준으로 BAN 트리거 아님",
-          "'어제 데이터 보다가' 도입부가 [11]과 동일",
-          "다만 인사이트(고정비 구조 변화 vs 선순환 스케일업)는 각도가 다름",
-          "글자수 248자, 반말 유지, 해시태그·이모지·여러분 없음",
-          "도입부가 [11]과 같은 패턴이라 약간 정형화 우려"
-        ]
-      },
-      "posted_at": "2026-06-19T13:29:36.179Z",
-      "media_id": "17958280056167976",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZxOkKHEe-P"
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1808,6 +1780,29 @@
       "media_id": "17868813156629392",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaLB6pskSR0",
       "posted_at": "2026-06-29T13:59:26.012Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "벤처인증 받자마자 보증한도 2배 늘어난 사례",
+      "char_count": 226,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-29_케이스스터디_벤처인증_받자마자_보증한도_2배_늘어난_사례.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 7,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "벤처인증과 기보 보증 우대는 일반적으로 알려진 사실, 화이트리스트 범위 내",
+          "'두 배 가까이'는 케이스 일화로 추상화 수준 OK, 다만 일반화 위험 있음",
+          "벤처인증 기업 보증 우대는 사실이나 한도 2배는 케이스 의존적",
+          "[12]에서 기보 보증 활용 케이스가 이미 등장, 벤처인증→보증 우대 각도는 다르지만 기보 보증 활용이라는 주제가 최근 등장"
+        ]
+      },
+      "posted_at": "2026-06-29T15:33:03.551Z",
+      "review_required": true
     }
   ]
 }
