@@ -139,26 +139,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "컨설팅 받으면 100% 받는다는 환상",
-      "char_count": 224,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-19_오해풀기_컨설팅_받으면_100_받는다는_환상.md",
-      "verdict": {
-        "decision": "review",
-        "score": 8,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "최근 컨설팅 효용 관련 글이 3건 있고(솔직인사이트, 케이스스터디 2건) 본 포스트도 컨설팅 한계를 다룸. 다만 각도는 '자격 조건 자체가 안 되면 컨설팅도 무용'이라는 새로운 프레임이라 완전 중복은 아님"
-        ]
-      },
-      "posted_at": "2026-06-19T16:07:40.969Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "월말 마감 자금 정리",
@@ -1814,6 +1794,20 @@
       "posted_at": "2026-06-29T16:39:18.351Z",
       "media_id": "18538797325077815",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaLUOUQFL4f"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "내 분야 자금 알림 등록 권유",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18421916575178057",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaL-OeCGqcy",
+      "posted_at": "2026-06-29T22:46:27.019Z"
     }
   ]
 }
