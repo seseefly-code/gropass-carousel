@@ -137,20 +137,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
-      "char_count": 197,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18226340365317315",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZwwedPCWe2",
-      "posted_at": "2026-06-19T09:06:48.192Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[강원] 태백시ㆍ영월군 2026년 2차 광물자원 활용 기반산업 경쟁력 강화 지원모집 공고(시군구 연고산업 육성사업) 자금 해설 (중소벤처기업부)",
@@ -1808,6 +1794,20 @@
       "media_id": "18326510605256929",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaKfvgJm2pN",
       "posted_at": "2026-06-29T09:00:48.882Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[제주] 건강기능식품 양산화 지원 사업 수혜기업 모집 공고(기능성식품공장운영 및 제품생산활성화사업) 자금 해설 (제주특별자치도)",
+      "char_count": 196,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18104453102122542",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaKsb9XERIN",
+      "posted_at": "2026-06-29T10:51:44.005Z"
     }
   ]
 }
