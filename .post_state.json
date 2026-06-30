@@ -142,27 +142,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "공감페인",
-      "topic": "정책자금 카페에서 검색만 3시간",
-      "char_count": 178,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-20_공감페인_정책자금_카페에서_검색만_3시간.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "수치들이 모두 과장된 일상 표현 수준이라 위험 없음",
-          "'옆 회사가 자금 받았다는 소식' 공감페인과 메시지 겹침 - 둘 다 '기업마당 공고 너무 많아서 못 찾는다/모르면 없는 거다'가 핵심 메시지. 다만 각도는 다름(타인 비교 vs 본인 탐색 피로)"
-        ]
-      },
-      "posted_at": "2026-06-20T15:04:46.508Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "상시 모집이지만 예산 소진 임박 자금",
@@ -1832,6 +1811,20 @@
       "posted_at": "2026-06-30T15:30:58.207Z",
       "media_id": "17968848314917259",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaNxMsCFDy6"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "[대전] 2026년 2차 대기업 유통사 연계 판로확대 지원사업 참여기업 추가모집 공고(꿈씨상회 및 아시나요(롯데백화점 연계)) D-2 마감 임박 (대전광역시)",
+      "char_count": 178,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18003339122951571",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaOk_lamlFG",
+      "posted_at": "2026-06-30T23:03:40.254Z"
     }
   ]
 }
