@@ -1,206 +1,198 @@
 {
-  "date": "2026-06-30",
-  "generated_at": "2026-06-29T22:11:23.138Z",
+  "date": "2026-07-01",
+  "generated_at": "2026-06-30T22:19:03.636Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "내 분야 자금 알림 등록 권유",
+      "topic": "[대전] 2026년 2차 대기업 유통사 연계 판로확대 지원사업 참여기업 추가모집 공고(꿈씨상회 및 아시나요(롯데백화점 연계)) D-2 마감 임박 (대전광역시)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "기업마당에서 공고 찾다가 30분 날린 적 있는데\n\n근데 진짜 문제는 찾다가 지쳐서 그냥 닫는 거야\n\n지금 광주 컨설팅 D-4, 서울 보스턴 액셀러레이팅 D-8, 경북 AI 수출지원 D-9...\n이런 거 매주 수십 개씩 올라오거든\n\n문제는 내 업종·지역에 맞는 거만 골라서 보는 게 진짜 어렵다는 거지\n\n내 분야 자금만 따로 알림 받으면 훨씬 낫지 않을까\n지금 그로패스에서 분야별 알림 등록 해두면 마감 전에 챙겨줌 🔔",
-        "char_count": 231,
-        "reasoning": "자금 공고 탐색 피로감이라는 공감 페인에서 시작해서 실제 마감 임박 공고로 긴급성을 주고, 알림 등록으로 자연스럽게 유도하는 마감알림 타입이 가장 적합함"
+        "main_post": "대전 소재 제조·식품·생활용품 만드는 사장님들 주목\n\n롯데백화점 연계 판로확대 지원사업이 모레 마감이야\n\n'꿈씨상회'랑 '아시나요' 입점 연계해주는 건데\n대기업 유통사 들어가는 거 혼자 뚫기 진짜 어렵잖아\n이런 공공 지원 타서 들어가는 게 훨씬 빠르거든\n\n대전일자리경제진흥원 주관이고 7월 2일까지\n대전 기업만 해당되니까 해당되면 오늘 바로 봐",
+        "char_count": 178,
+        "reasoning": "D-2 마감 임박 공고를 긴급성 위주로 전달하는 내용이므로 마감알림 타입이 가장 적합"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "광주 컨설팅(2026년 2차 중소기업 맞춤형 성장지원)",
-            "서울 보스턴 액셀러레이팅",
-            "경북 AI 수출지원"
+            "대전 2026년 2차 대기업 유통사 연계 판로확대 지원사업(꿈씨상회, 아시나요-롯데백화점 연계)"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [
-            "D-4",
-            "D-8",
-            "D-9"
+            "7월 2일까지",
+            "대전 소재 제조·식품·생활용품"
           ],
-          "issues": [
-            "D-day는 announcement와 일치"
-          ]
+          "issues": []
         },
         "duplication_check": {
-          "score": 8,
+          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "실제 공고 3개 정확히 호명, 톤 자연스러움"
+          "reasoning": "announcement에 정확히 매칭, 마감일·지역 일치, 톤 적절"
         }
       }
     },
     "morning": {
       "status": "approved",
-      "topic": "[광주] 2026년 2차 중소기업 맞춤형 성장지원(컨설팅) 참여기업 모집 기간 연장 공고 D-4 마감 임박 (광주광역시)",
+      "topic": "[충남] 2026년 중국 상하이 시장개척단 참가기업 모집 공고(충남지역기업 성장사다리지원사업(수출디딤돌지원사업)) D-3 마감 임박 (중소벤처기업부)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "광주 중소기업 대표들 잠깐만\n\n2차 중소기업 맞춤형 성장지원 컨설팅, 7월 3일까지야\n D-4 남았어\n\n원래도 접수 받다가 기간 연장했거든\n그 말은 아직 자리 있다는 얘기고\n뒤늦게라도 신청할 수 있다는 뜻\n\n광주 소재 중소기업이면 한번 봐\n컨설팅 지원이라 돈 받는 구조는 아닌데\n경영 고민 있는 회사한테는 꽤 쓸 만해\n\n기업마당에서 공고명 그대로 검색하면 바로 나와",
-        "char_count": 191,
-        "reasoning": "D-4 마감 임박 공고이므로 긴급성 전달이 핵심 — 마감알림 타입이 가장 적합"
+        "main_post": "충남 기업이면 이거 D-3이야\n\n2026년 중국 상하이 시장개척단 참가기업 모집 —\n충남 소재 기업 대상으로 중기부에서 지원하는 수출디딤돌 사업인데\n이번 주 목요일(7/3) 마감임\n\n상하이 현지에서 바이어 미팅이나 시장 조사 기회 주는 프로그램이라\n중국 쪽 판로 뚫어보려는 제조·소비재 업체한테 특히 맞는 구조야\n\n자부담 있어도 이런 류 해외 시장개척단은\n단독으로 현지 나가는 것보다 훨씬 효율 좋거든\n\n충남 기업이면 기업마당 들어가서 '상하이 시장개척단'으로 검색해봐\n오늘 내일 안에 신청해야 해",
+        "char_count": 231,
+        "reasoning": "마감 D-3 긴급성이 핵심이고, 특정 지역(충남) + 수출 분야 공고 정보를 빠르게 전달해야 하는 상황이라 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "광주 2차 중소기업 맞춤형 성장지원 컨설팅"
+            "충남 2026년 중국 상하이 시장개척단(수출디딤돌지원사업)"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [
-            "7월 3일까지",
-            "D-4"
+            "7/3 마감"
           ],
-          "issues": [
-            "announcement와 일치"
-          ]
+          "issues": []
         },
         "duplication_check": {
-          "score": 7,
+          "score": 9,
           "similar_recent_files": [],
-          "issues": [
-            "포스트 1과 같은 광주 컨설팅 언급이지만 각도 다름"
-          ]
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "공고 정보 정확, 톤 OK"
+          "reasoning": "공고 정확 매칭, 마감일 일치"
         }
       }
     },
     "late_morning": {
       "status": "approved",
-      "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 정책자금 받고 나서 첫 1년을 어떻게 쓰냐에 따라 다음 자금이 결정돼.\n\n자금 받은 첫 해에 꼭 해야 하는 거 하나만 꼽으면 — 실적 만들기야.\n\n중간점검이든 성과보고든, 담당자가 보는 건 결국 \"이 회사 자금 줄 만했나\"거든.\n매출 올랐는지, 고용 늘었는지, R&D면 뭔가 나왔는지.\n\n이게 쌓이면 다음 자금 신청할 때 심사위원이 이력 보면서 \"이 회사는 실행력 있네\" 이렇게 읽혀.\n\n반대로 자금 받고 1년 동안 실적 정리 안 하면 — 다음 자금에서 탈락 확률이 눈에 띄게 올라가더라.",
-        "char_count": 225,
-        "reasoning": "정책자금을 받은 이후의 활용 전략과 인사이드 뷰를 데이터·경험 기반으로 풀어주는 내용이라 솔직인사이트가 가장 적합함"
+        "main_post": "솔직히 말하면, 두 번째 자금 신청이 더 어려워\n\n처음엔 '일단 해보자'는 마음으로 신청서 쓰거든\n근데 한 번 받고 나면 갑자기 기준이 생겨\n\n'이 자금이 우리한테 맞나?'\n'지난번보다 금액이 작은데 굳이?'\n'담당자가 바뀌었는데 다시 관계 맺어야 하나?'\n\n이 생각들이 오히려 발목을 잡아\n\n더 큰 문제는 첫 번째 받은 자금이 '기준점'이 돼버린다는 거야\n그 이하는 눈에 안 들어오고, 그 이상은 겁나고\n\n근데 실제로 보면 두 번째, 세 번째 자금을 빠르게 이어붙이는 대표들이\n훨씬 유리한 위치에서 성장하더라\n\n첫 번째 자금은 운이 반이야. 두 번째부터가 실력이지",
+        "char_count": 248,
+        "reasoning": "두 번째 자금 신청의 심리적·구조적 어려움을 경험 기반으로 풀어내는 주제라 컨설팅 노하우형 '솔직인사이트'가 가장 적합함"
       },
       "verdict": {
         "slot": "late_morning",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "일반론 위주, 구체 사업명 없음"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [],
-          "issues": [
-            "구체 수치 없음"
-          ]
+          "issues": []
         },
         "duplication_check": {
           "score": 8,
           "similar_recent_files": [],
-          "issues": []
+          "issues": [
+            "6/29 솔직인사이트(자금 받고 첫 1년)와 주제 인접하나 각도 다름"
+          ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "일반화된 인사이트로 안전"
+          "reasoning": "일반 인사이트, 구체 수치 없음, 톤 적절"
         }
       }
     },
     "noon": {
-      "status": "rejected",
-      "topic": "매년 미집행되는 정책자금 규모",
-      "reason": "review"
-    },
-    "lunch": {
       "status": "approved",
-      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
       "post": {
-        "post_type": "공감페인",
-        "main_post": "사업자등록증 하나로 뭐 받을 수 있는지 궁금해서 검색했는데\n\n1시간 지나도 아직도 첫 페이지야\n\n기업마당, 소상공인포털, 중기부 홈페이지 다 돌아다녔는데\n자격 조건이 다 달라서 나한테 맞는 건지 알 수가 없음\n\n결국 탭 15개 열어놓고 아무것도 신청 못 함\n\n이거 나만 이래?",
-        "char_count": 136,
-        "reasoning": "사업자등록증 하나로 지원 자금 찾다가 시간만 날리는 경험은 자영업자·소상공인 거의 모두가 공감하는 페인포인트라 공감페인이 가장 적합함"
+        "post_type": "숫자팩트",
+        "main_post": "정책자금 신청하고 얼마나 기다려야 하는지 아는 사람 별로 없더라\n\n보통 서류 접수 끝나고 결과 나오기까지 짧으면 4주, 길면 3~4개월\n\nR&D 과제나 기술보증 같은 건 실사·현장방문 일정이 따로 있어서 더 걸리기도 해\n\n문제는 이 기간 동안 다른 자금 신청을 멈추는 회사들이 꽤 있다는 거야\n\n심사 중이라고 해서 다른 자금 못 넣는 건 아닌데\n\"결과 나오면 그때 다음 거 넣지 뭐\" 하다가 분기 넘어가는 경우 진짜 많음\n\n정책자금은 한 번에 하나 전략이 아니라 동시 다발로 굴려야 유리해",
+        "char_count": 233,
+        "reasoning": "정책자금 심사 기간이라는 숫자 기반 정보를 전달하고, 그 숫자가 실제 대표들의 행동에 어떤 영향을 미치는지까지 풀어주는 구조라 숫자팩트 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "lunch",
+        "slot": "noon",
         "fact_check": {
-          "score": 10,
-          "cited_programs": [],
+          "score": 9,
+          "cited_programs": [
+            "R&D 과제",
+            "기술보증"
+          ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-28_공감페인_매출_부족하다고_거절당한_첫_자금_신청.md"
+          "score": 8,
+          "risky_claims": [
+            "짧으면 4주, 길면 3~4개월"
           ],
           "issues": [
-            "공감페인 톤 비슷하나 페인포인트 각도 다름"
+            "심사 기간 수치는 일반적 범위라 큰 위험 아님"
           ]
         },
-        "tone_check": {
+        "duplication_check": {
           "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 8,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "안전한 공감페인"
+          "reasoning": "일반화된 수치, 새로운 각도"
         }
       }
     },
+    "lunch": {
+      "status": "rejected",
+      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
+      "reason": "review"
+    },
     "afternoon": {
       "status": "approved",
-      "topic": "[서울] 2026년 서울창업허브 글로벌 진출 미국(보스턴) 액셀러레이팅 프로그램 모집 공고 자금 해설 (서울특별시)",
+      "topic": "[충남] 2026년 대한민국 에너지대전 공동부스 참여기업 모집 공고 자금 해설 (충청남도)",
       "post": {
         "post_type": "자금해설",
-        "main_post": "서울창업허브 보스턴 액셀러레이팅이 뭐냐면\n\n미국 진출 노리는 스타트업한테 서울시가 직접 보스턴 현지 액셀러레이팅 기회를 열어주는 프로그램이야\n\n보스턴이 왜냐고? 바이오·딥테크·대학 클러스터로는 미국에서 실리콘밸리랑 양대산맥이거든\n그쪽 네트워크 뚫기가 진짜 어려운데, 현지 연결고리를 공공에서 만들어준다는 게 핵심\n\n서울경제진흥원이 수행기관이고 7월 7일까지 신청 받아\n미국 시장 보고 있는 초기 팀이라면 한 번 훑어볼 만해",
-        "char_count": 210,
-        "reasoning": "특정 공고를 풀어서 설명하는 내용이라 자금해설 타입이 가장 적합하고, 프로그램의 배경과 의미를 교육적으로 전달하는 구조와 맞음"
+        "main_post": "대한민국 에너지대전이라고 들어봤어?\n\n산업통상자원부가 여는 국내 최대 에너지 분야 전시회인데,\n충남이 이번에 공동부스 지원 신청 받고 있거든.\n\n쉽게 말하면 — 전시 참가비, 부스 세팅, 이런 거 혼자 감당하면 수백만원이잖아.\n근데 공동부스로 들어가면 그 부담을 확 줄이면서\n에너지 분야 바이어·관계자들한테 노출 기회를 얻는 거야.\n\n에너지 관련 제품이나 기술 갖고 있는 충남 소재 기업이면 한번 볼 만해.\n7월 9일까지니까 일단 충남테크노파크 공고 확인해봐.",
+        "char_count": 228,
+        "reasoning": "해당 공고(충남 에너지대전 공동부스)를 직접 설명하는 자금해설 타입이 가장 적합하며, 전시 공동부스 지원 사업의 의미와 혜택을 풀어쓰는 방식으로 작성했습니다."
       },
       "verdict": {
         "slot": "afternoon",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "서울창업허브 보스턴 액셀러레이팅"
+            "충남 2026년 대한민국 에너지대전 공동부스",
+            "산업통상자원부 대한민국 에너지대전"
           ],
           "unverified_programs": [],
           "issues": []
@@ -208,178 +200,166 @@
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "7월 7일까지"
+            "수백만원",
+            "7월 9일까지"
           ],
           "issues": [
-            "announcement와 일치"
+            "참가비 수백만원은 일반화된 표현으로 허용"
           ]
         },
         "duplication_check": {
-          "score": 7,
+          "score": 9,
           "similar_recent_files": [],
-          "issues": [
-            "포스트 1에서도 보스턴 언급되지만 여기는 해설로 각도 다름"
-          ]
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "공고 정확, 해설 톤 좋음"
+          "reasoning": "announcement 정확 매칭, 마감일 일치"
         }
       }
     },
     "late_afternoon": {
       "status": "approved",
-      "topic": "디지털전환(DX) 관련 자금 폭증",
+      "topic": "여성기업 우대 자금 변화",
       "post": {
         "post_type": "트렌드",
-        "main_post": "요즘 진짜 체감되는 게 있어\n\nDX 관련 자금이 눈에 띄게 늘었거든\n\n경북에서는 생성형 AI 활용 수출지원사업 모집 중이고\n강원에서는 바이오·헬스케어 AI 대전환 실증기업 모집도 뜨고\n경기도는 AI 진단보조기기 실증지원까지\n\n예전엔 DX 하면 대기업 얘기였는데\n지금은 지방 중소기업 대상 공고가 이 정도로 쏟아지는 거잖아\n\n근데 정작 현장 사장님들은 이게 나랑 상관 있는 건지 모르고 지나치더라\n\n\"우리 같은 데가 AI 자금을요?\" 이러면서 ㅋㅋ\n\n지금이 딱 초입이야. 예산 많고 경쟁 덜할 때",
-        "char_count": 232,
-        "reasoning": "DX 자금 폭증이라는 트렌드 주제에, 실제 공고 데이터(경북 생성형 AI 수출지원, 강원 바이오헬스케어 AI 대전환, 경기 AI 진단보조기기) 3개를 자연스럽게 엮어서 요즘 뜨는 자금 흐름을 보여주는 트렌드 타입이 가장 적합하다고 판단."
+        "main_post": "요즘 여성기업 우대 자금 분위기가 조금씩 바뀌고 있어\n\n예전엔 \"여성기업이면 가산점\" 정도였는데\n지금은 아예 여성 대표 전용으로 설계된 자금들이 늘고 있거든\n\n중기부 쪽도 그렇고 지자체별로도 여성창업 특화 트랙이 따로 생기는 추세야\n가산점 받는 구조에서 → 별도 풀(pool)로 분리되는 구조로\n\n근데 반대로 일부 자금은 여성 우대 조항이 조용히 빠지기도 했더라\n정책 방향이 한쪽으로만 가는 게 아니라 자금마다 달라\n\n그러니까 여성 대표라면 \"우대 받겠지\" 하고 막연하게 있지 말고\n지금 신청하려는 자금이 어떤 구조인지 직접 확인하는 게 맞아",
+        "char_count": 233,
+        "reasoning": "여성기업 우대 자금의 변화 흐름을 다루는 주제라 트렌드 타입이 가장 자연스럽고, 공고 목록에 직접 매칭되는 여성기업 공고가 없어 일반 인사이트 기반으로 작성함"
       },
       "verdict": {
         "slot": "late_afternoon",
         "fact_check": {
-          "score": 10,
+          "score": 8,
           "cited_programs": [
-            "경북 생성형 AI 활용 수출지원사업",
-            "강원 바이오·헬스케어 AI 대전환 실증기업",
-            "경기 AI 진단보조기기 실증지원사업"
+            "중기부 여성창업 특화 트랙",
+            "지자체 여성창업"
           ],
+          "unverified_programs": [],
+          "issues": [
+            "구체 사업명 없이 일반화 — OK"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "여성 우대 조항이 조용히 빠지기도"
+          ],
+          "issues": [
+            "일반화된 트렌드 진술"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "일반 트렌드, 구체 사업명 없음"
+        }
+      }
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 들어온 케이스 공유.\n\n직원 없는 1인 제조업 대표,\n외부 컨설턴트 한 명도 안 쓰고\n본인이 직접 신청서 써서 5천만원짜리 자금 붙었어.\n\n비결 물어봤더니 특별한 거 없었음.\n자기 사업이랑 자격 조건이 딱 맞는 자금 찾는 데 시간 쏟고,\n사업계획서도 화려하게 쓴 게 아니라\n\"내가 왜 이 자금이 필요한지\"를 구체적으로 적었다고.\n\n컨설팅 비용 수백 쓰면서도 떨어지는 회사가 있고,\n혼자 써서 붙는 케이스가 있는 거 보면\n결국 자금이랑 회사가 얼마나 맞느냐가 핵심인 것 같더라.",
+        "char_count": 228,
+        "reasoning": "대표 혼자 신청서를 써서 자금을 받은 실제 사례를 다루는 주제라 케이스스터디 타입이 가장 적합하고, 타입 강제 지정도 있음"
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
           "score": 9,
           "risky_claims": [
-            "예산 많고 경쟁 덜할 때"
+            "5천만원짜리 자금"
           ],
           "issues": [
-            "일반화 표현"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-27_트렌드_그린환경_분야_신규_자금_급증.md",
-            "2026-06-28_트렌드_글로벌_진출_자금_비중_변화.md"
-          ],
-          "issues": [
-            "트렌드 형식 반복되지만 주제(DX/AI)는 새로움"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고 3건 정확히 인용, 트렌드 각도 신선"
-        }
-      }
-    },
-    "evening": {
-      "status": "approved",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 대화한 대표 케이스인데 — TIPS 탈락 후 다음 회차에 붙은 회사야.\n\n처음엔 기술력 얘기만 잔뜩 썼대. IR 덱이 아니라 논문 같았다고 본인이 그러더라고.\n\n다음 회차에서 바꾼 건 딱 두 가지였어.\n엑셀러레이터 먼저 붙고, 시장 크기 얘기를 앞으로 당긴 거.\n\nTIPS는 기술 심사가 아니라 투자 심사에 가깝거든.\n\"이게 되는 기술이냐\"가 아니라 \"이게 팔리냐\"를 보는 거야.\n\n떨어졌다고 다음 회차 포기하는 회사들 진짜 많던데 — 아까운 케이스가 너무 많아.",
-        "char_count": 218,
-        "reasoning": "실제 익명 사례를 중심으로 TIPS 재도전 성공 비결을 풀어내는 구조라 케이스스터디가 가장 적합함"
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "TIPS"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "TIPS는 화이트리스트"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": [
-            "구체 수치 없음"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-06-28_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md"
-          ],
-          "issues": [
-            "케이스스터디 반복이지만 TIPS 재도전 각도는 신선"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "안전한 케이스스터디"
-        }
-      }
-    },
-    "late_evening": {
-      "status": "rejected",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "reason": "review"
-    },
-    "night": {
-      "status": "approved",
-      "topic": "신용등급 낮으면 자금 못 받는다는 오해",
-      "post": {
-        "post_type": "오해풀기",
-        "main_post": "신용등급 낮으면 정책자금 못 받는다고 생각하는 사람 많은데\n\n사실 정책자금이랑 신용등급은 생각보다 관계가 덜 해.\n\n은행 대출이랑 헷갈리는 거거든.\n\n정책자금은 신용등급보다 사업성, 업력, 업종, 매출 추이 같은 걸 더 봐.\n특히 보증서 기반 자금은 신보·기보가 보증을 서주는 구조라\n은행이 신용등급 낮다고 거절하는 회사도 통과되는 케이스가 꽤 있어.\n\n물론 연체 중이거나 회생·파산 이력 있으면 얘기가 다르지만\n그냥 신용등급 낮다는 이유 하나로 포기했다면 다시 알아볼 만해.",
-        "char_count": 229,
-        "reasoning": "잘못된 통념(신용등급 = 정책자금 탈락)을 바로잡는 내용이라 오해풀기 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "night",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "신보",
-            "기보"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "신보·기보 보증 일반론, 화이트리스트"
-          ]
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": [
-            "구체 수치 없음"
+            "자기 경험 케이스로 일반 범위 — 허용"
           ]
         },
         "duplication_check": {
           "score": 8,
           "similar_recent_files": [],
-          "issues": []
+          "issues": [
+            "6/29 케이스스터디 다수와 동일 패턴(어제 케이스)이나 인사이트는 다름"
+          ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "오해풀기 안전하게 일반화"
+          "reasoning": "자체 경험 사례, 검증 가능 범위"
         }
       }
+    },
+    "late_evening": {
+      "status": "approved",
+      "topic": "컨설팅 안 받고 직접 하다가 4번 떨어진 회사",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 상담한 회사 얘기인데\n\n정책자금 4번 연속으로 떨어졌대\n근데 이유가 매번 달라\n\n첫 번째는 업력 조건 미충족\n두 번째는 재무제표 기준 미달\n세 번째는 이미 지원 받은 자금과 중복\n네 번째는 사업계획서 항목 누락\n\n다 직접 찾아서 직접 썼는데\n떨어지고 나서야 왜 떨어졌는지 알게 된 거야\n\n솔직히 이게 진짜 흔한 패턴이거든\n\n자금 검색은 어떻게든 하는데\n내 회사가 자격 요건에 맞는지\n사업계획서에 뭘 써야 하는지\n이 두 가지에서 계속 막히는 거지\n\n시간은 시간대로, 기회는 기회대로 날리는 케이스",
+        "char_count": 228,
+        "reasoning": "컨설팅 없이 혼자 시도하다 4번 탈락한 실제 사례를 익명으로 풀어내는 흐름이라 케이스스터디가 가장 적합함"
+      },
+      "verdict": {
+        "slot": "late_evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "4번 연속 탈락"
+          ],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 7,
+          "similar_recent_files": [],
+          "issues": [
+            "배치 내 포스트 8(혼자 신청 성공)과 대비 구조 — 같은 날 케이스스터디 2개 연달아"
+          ]
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 8,
+          "decision": "pass",
+          "reasoning": "각도는 다르지만 같은 슬롯 그룹에 케이스 2개. 통과 가능"
+        }
+      }
+    },
+    "night": {
+      "status": "rejected",
+      "topic": "정책자금 카페에서 검색만 3시간",
+      "reason": "review"
     }
   }
 }
