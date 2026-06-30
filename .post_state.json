@@ -139,20 +139,6 @@
   ],
   "history": [
     {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "신청 대비 평균 선정률",
-      "char_count": 146,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18099001067167576",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzHGerEXIz",
-      "posted_at": "2026-06-20T07:02:57.381Z"
-    },
-    {
       "slot": "lunch",
       "type": "공감페인",
       "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
@@ -1815,6 +1801,20 @@
       },
       "posted_at": "2026-06-30T06:58:46.717Z",
       "review_required": true
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업자등록증 하나로 뭐 받을 수 있는지 1시간 검색",
+      "char_count": 136,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "17873717343654159",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaM9FtXlkCO",
+      "posted_at": "2026-06-30T07:55:43.545Z"
     }
   ]
 }
