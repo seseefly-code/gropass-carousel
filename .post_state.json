@@ -1,6 +1,6 @@
 {
   "evening_index": 1,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 8,
@@ -8,7 +8,7 @@
     "숫자팩트": 3,
     "마감알림": 12,
     "오해풀기": 12,
-    "트렌드": 6
+    "트렌드": 7
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -138,20 +138,6 @@
     "PBLN_000000000123702"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
-      "char_count": 234,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17885612883595282",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzzboJEfC5",
-      "posted_at": "2026-06-20T13:30:18.881Z"
-    },
     {
       "slot": "night",
       "type": "공감페인",
@@ -1820,6 +1806,29 @@
       },
       "posted_at": "2026-06-30T13:59:21.235Z",
       "discarded": true
+    },
+    {
+      "slot": "night",
+      "type": "트렌드",
+      "topic": "지역특화 자금이 늘어나는 이유",
+      "char_count": 256,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-30_트렌드_지역특화_자금이_늘어나는_이유.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "언급된 지역 태그와 충북 영동군 와인산업 활성화 지원사업은 announcement에 실재함",
+          "구체 수치 없이 일반화된 트렌드 서술",
+          "DX 트렌드 글과 '지방 중소기업 대상 공고가 쏟아진다'는 메시지가 일부 겹치나, 각도는 '지역 태그/지방소멸'로 차별화됨"
+        ]
+      },
+      "posted_at": "2026-06-30T15:30:58.207Z",
+      "media_id": "17968848314917259",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaNxMsCFDy6"
     }
   ]
 }
