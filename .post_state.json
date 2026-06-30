@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 13,
     "공감페인": 8,
-    "케이스스터디": 6,
+    "케이스스터디": 7,
     "숫자팩트": 3,
     "마감알림": 12,
     "오해풀기": 12,
@@ -138,20 +138,6 @@
     "PBLN_000000000123702"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "신청서에 쓰면 안 되는 표현 5가지",
-      "char_count": 222,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17928525030346219",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzoLz1lEpm",
-      "posted_at": "2026-06-20T11:52:02.713Z"
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1808,6 +1794,32 @@
       "media_id": "18406413700154695",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaNZrzekayB",
       "posted_at": "2026-06-30T12:05:36.080Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "char_count": -1,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-30_케이스스터디_사업계획서_한_줄_바꿔서_통과된_사례.md",
+      "verdict": {
+        "decision": "fail",
+        "score": 3,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 4,
+        "tone": 5,
+        "issues": [
+          "구체 사업명 없이 일반적인 케이스 서술",
+          "구체 수치 거의 없음, 자기 경험 기반 서술로 OK",
+          "[9] TIPS 케이스와 구조 유사: '어제 대화한 대표 케이스 - 떨어졌다가 다음 회차에 붙음 - 바꾼 건 OO뿐' 패턴 반복",
+          "후킹 문장 '어제 얘기 들은 케이스' 가 최근 케이스스터디 4개와 거의 동일 ([0],[9],[10],[11] 모두 '어제 ~ 케이스')",
+          "본문이 '사업 목적 첫 줄을' 에서 끊김 - 미완성 포스트",
+          "char_count: -1 비정상",
+          "핵심 인사이트가 전달되지 않음"
+        ]
+      },
+      "posted_at": "2026-06-30T13:59:21.235Z",
+      "discarded": true
     }
   ]
 }
