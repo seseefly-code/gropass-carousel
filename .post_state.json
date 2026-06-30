@@ -139,20 +139,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "월말 마감 자금 정리",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18085140635183529",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZyOEDsEjyO",
-      "posted_at": "2026-06-19T22:44:34.609Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[서울] 2026년 중국(광저우ㆍ청두) 시장개척단 참가기업 모집 공고 D-5 마감 임박 (서울특별시)",
@@ -1808,6 +1794,20 @@
       "media_id": "18421916575178057",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaL-OeCGqcy",
       "posted_at": "2026-06-29T22:46:27.019Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[광주] 2026년 2차 중소기업 맞춤형 성장지원(컨설팅) 참여기업 모집 기간 연장 공고 D-4 마감 임박 (광주광역시)",
+      "char_count": 191,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17952717198186720",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaMG4uDlop5",
+      "posted_at": "2026-06-30T00:02:06.546Z"
     }
   ]
 }
