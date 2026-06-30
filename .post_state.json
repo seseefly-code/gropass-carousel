@@ -139,20 +139,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "옆 회사가 자금 받았다는 소식 들었을 때",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17995590050789523",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzM0d6EW_C",
-      "posted_at": "2026-06-20T07:52:56.331Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 5차 신규프로젝트 탐색연구사업 신규과제(탐사) 공고 자금 해설 (과학기술정보통신부)",
@@ -1815,6 +1801,20 @@
       "media_id": "17873717343654159",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaM9FtXlkCO",
       "posted_at": "2026-06-30T07:55:43.545Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[서울] 2026년 서울창업허브 글로벌 진출 미국(보스턴) 액셀러레이팅 프로그램 모집 공고 자금 해설 (서울특별시)",
+      "char_count": 210,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17901181956306994",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaNHxAolryT",
+      "posted_at": "2026-06-30T09:29:01.677Z"
     }
   ]
 }
