@@ -139,20 +139,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 5차 신규프로젝트 탐색연구사업 신규과제(탐사) 공고 자금 해설 (과학기술정보통신부)",
-      "char_count": 247,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18115428946889950",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZzTe31FILH",
-      "posted_at": "2026-06-20T08:51:07.161Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "AI 스타트업 위주로 바뀌는 R&D 자금",
@@ -1815,6 +1801,20 @@
       "media_id": "17901181956306994",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaNHxAolryT",
       "posted_at": "2026-06-30T09:29:01.677Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "디지털전환(DX) 관련 자금 폭증",
+      "char_count": 232,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18083475182179279",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaNQwpiES0v",
+      "posted_at": "2026-06-30T10:47:37.157Z"
     }
   ]
 }
