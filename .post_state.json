@@ -5,7 +5,7 @@
     "솔직인사이트": 13,
     "공감페인": 8,
     "케이스스터디": 6,
-    "숫자팩트": 2,
+    "숫자팩트": 3,
     "마감알림": 12,
     "오해풀기": 12,
     "트렌드": 6
@@ -138,20 +138,6 @@
     "PBLN_000000000123702"
   ],
   "history": [
-    {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
-      "char_count": 229,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17947200126192008",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZy5dAnlRew",
-      "posted_at": "2026-06-20T05:03:42.796Z"
-    },
     {
       "slot": "noon",
       "type": "숫자팩트",
@@ -1808,6 +1794,27 @@
       "media_id": "18013957340876185",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaMou1Dlq9w",
       "posted_at": "2026-06-30T04:57:50.539Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-30_숫자팩트_벤처기업_보유_vs_미보유_기업_평균_매출_격차.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "'수 배 이상'으로 일반화했으나 통계 출처는 명시 안 됨. 다만 벤처기업 실태조사에서 매년 나오는 일반적 통계라 큰 위험은 아님",
+          "[11] 벤처인증+보증한도 우대 주제와 일부 겹침. 다만 각도는 다름(케이스 vs 매출격차 통계). 리뷰 권장"
+        ]
+      },
+      "posted_at": "2026-06-30T06:58:46.717Z",
+      "review_required": true
     }
   ]
 }
