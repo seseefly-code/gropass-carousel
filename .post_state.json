@@ -142,29 +142,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "상시 모집이지만 예산 소진 임박 자금",
-      "char_count": 216,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-20_마감알림_상시_모집이지만_예산_소진_임박_자금.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "언급된 사업명이 announcement 컨텍스트에 정확히 존재함('[울산] 울주군 2026년 소상공인 직원 신규채용 인건비 지원사업', 예산 소진시까지)",
-          "구체 수치나 비용 없이 일반적 메시지 위주, 검증 위험 낮음",
-          "최근 마감알림 게시물들과 주제가 겹치지 않음 — 상시 모집의 함정이라는 각도는 새로움"
-        ]
-      },
-      "posted_at": "2026-06-20T22:58:42.263Z",
-      "media_id": "18069363971415780",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ00fSXD62y"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "[대구] 군위군 2026년 3차 식품산업 밸류업(value-up) 프로젝트 사업 참여기업 모집 공고(시군구 연고산업 협업프로젝트) D-5 마감 임박 (중소벤처기업부)",
@@ -1825,6 +1802,20 @@
       "media_id": "18003339122951571",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaOk_lamlFG",
       "posted_at": "2026-06-30T23:03:40.254Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[충남] 2026년 중국 상하이 시장개척단 참가기업 모집 공고(충남지역기업 성장사다리지원사업(수출디딤돌지원사업)) D-3 마감 임박 (중소벤처기업부)",
+      "char_count": 231,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18107604857106045",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaOr-DaoE0Z",
+      "posted_at": "2026-07-01T00:04:38.689Z"
     }
   ]
 }
