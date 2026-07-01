@@ -142,20 +142,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "현장 평가 떨어지는 이유 90%",
-      "char_count": 225,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18106088167789810",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1j3L1lMvT",
-      "posted_at": "2026-06-21T05:52:45.089Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
@@ -1808,6 +1794,20 @@
       "media_id": "18179975212363245",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaPPi27Fu5c",
       "posted_at": "2026-07-01T05:15:30.034Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18109470976898963",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaPdM_all9q",
+      "posted_at": "2026-07-01T07:14:50.543Z"
     }
   ]
 }
