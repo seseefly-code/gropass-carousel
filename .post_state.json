@@ -144,30 +144,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "매출 1억 회사가 R&D 5억 받은 사례",
-      "char_count": 228,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_케이스스터디_매출_1억_회사가_RD_5억_받은_사례.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "구체 사업명 없이 일반 'R&D 자금' 명칭만 사용 - 안전",
-          "구체 수치이지만 본인 경험담 형식이라 검증 불가 영역, 일반화된 인사이트로 마무리되어 위험도 낮음",
-          "[8] 매출 0원 케이스스터디와 메시지 거의 동일 (매출 적어도 자금 받음 + 사장님들이 지레 포기)",
-          "[6] 오해풀기와도 핵심 인사이트 중복 (매출 기준 아님)",
-          "각도가 R&D 평가 기준으로 조금 다르긴 하나 결론이 유사"
-        ]
-      },
-      "posted_at": "2026-06-21T13:50:25.338Z",
-      "review_required": true
-    },
-    {
       "slot": "night",
       "type": "트렌드",
       "topic": "청년창업 자금 vs 시니어창업 자금 격차",
@@ -1811,6 +1787,20 @@
       "posted_at": "2026-07-01T15:44:17.682Z",
       "media_id": "18544442965073852",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaQXhKMFPDe"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "자금 캘린더 만드는 법",
+      "char_count": 268,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18607405513046989",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaRJtu4n_Go",
+      "posted_at": "2026-07-01T23:03:07.242Z"
     }
   ]
 }
