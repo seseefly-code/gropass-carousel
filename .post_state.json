@@ -142,28 +142,6 @@
   ],
   "history": [
     {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "글로벌 진출 자금 비중 변화",
-      "char_count": 222,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_트렌드_글로벌_진출_자금_비중_변화.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 7,
-        "tone": 10,
-        "issues": [
-          "과거 비교는 검증 어렵지만 추상적 일반화 수준이라 큰 문제 아님",
-          "최근 트렌드 타입 게시물 3개와 형식이 유사 (요즘 ~ 늘었어 → 사례 나열 → 인사이트 마무리), 다만 주제(수출/글로벌)는 새로움"
-        ]
-      },
-      "posted_at": "2026-06-21T10:59:09.130Z",
-      "media_id": "17885954589420806",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ2G78Ylgpx"
-    },
-    {
       "slot": "evening",
       "type": "솔직인사이트",
       "topic": "자금 받고 첫 1년에 꼭 해야 하는 것",
@@ -1816,6 +1794,20 @@
       "media_id": "17867854218627427",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaP4zjKINCf",
       "posted_at": "2026-07-01T11:16:02.041Z"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18108035398797191",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaQBE5BlAfy",
+      "posted_at": "2026-07-01T12:28:21.667Z"
     }
   ]
 }
