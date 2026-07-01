@@ -3,7 +3,7 @@
   "night_index": 0,
   "topic_pool_indexes": {
     "솔직인사이트": 14,
-    "공감페인": 10,
+    "공감페인": 11,
     "케이스스터디": 9,
     "숫자팩트": 4,
     "마감알림": 12,
@@ -141,20 +141,6 @@
     "PBLN_000000000123786"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
-      "char_count": 219,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18052003607765213",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1yznHFQfr",
-      "posted_at": "2026-06-21T08:03:24.753Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1808,6 +1794,28 @@
       "media_id": "18109470976898963",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaPdM_all9q",
       "posted_at": "2026-07-01T07:14:50.543Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "자격 한 줄 차이로 안 된 신청",
+      "char_count": 198,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-01_공감페인_자격_한_줄_차이로_안_된_신청.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 9,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "구체 수치들이 예시로 사용됐고 특정 사업을 지목하지 않아 위험 낮음",
+          "'자격 요건 미충족으로 떨어짐' 주제가 [12] 케이스스터디와 부분 중첩되지만 각도(공감페인 vs 케이스)가 달라 REVIEW 수준은 아님"
+        ]
+      },
+      "posted_at": "2026-07-01T08:16:21.304Z",
+      "media_id": "17955046104186728",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaPkQXKFTVi"
     }
   ]
 }
