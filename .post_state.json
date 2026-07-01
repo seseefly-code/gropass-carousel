@@ -142,20 +142,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "2026년 농식품 분야 시뮬레이션 서비스 기반 실증 지원사업 모집 공고 자금 해설 (전북특별자치도)",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18103592954025040",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ1-d9SFuh7",
-      "posted_at": "2026-06-21T09:45:14.397Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "글로벌 진출 자금 비중 변화",
@@ -1816,6 +1802,20 @@
       "media_id": "18154623469427979",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaPt5YtlRQI",
       "posted_at": "2026-07-01T09:40:41.017Z"
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "여성기업 우대 자금 변화",
+      "char_count": 233,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17867854218627427",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaP4zjKINCf",
+      "posted_at": "2026-07-01T11:16:02.041Z"
     }
   ]
 }
