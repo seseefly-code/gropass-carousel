@@ -142,28 +142,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[대구] 군위군 2026년 3차 식품산업 밸류업(value-up) 프로젝트 사업 참여기업 모집 공고(시군구 연고산업 협업프로젝트) D-5 마감 임박 (중소벤처기업부)",
-      "char_count": 210,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-21_마감알림_대구_군위군_2026년_3차_식품산업_밸류업value-.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "announcement에 '[대구] 군위군 2026년 3차 식품산업 밸류업(value-up) 프로젝트' 실재, 마감 6/26 D-5 일치, 중기부 주관 일치",
-          "부산 블록체인 D-5 마감알림 포맷과 구조가 유사하지만 지역·업종·사업이 완전히 다르고 메시지 각도(연고산업=낮은 경쟁률)가 새로움"
-        ]
-      },
-      "posted_at": "2026-06-21T00:04:08.812Z",
-      "media_id": "17867928267562863",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ07-o0gRS_"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "현장 평가 떨어지는 이유 90%",
@@ -1816,6 +1794,20 @@
       "media_id": "18107604857106045",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaOr-DaoE0Z",
       "posted_at": "2026-07-01T00:04:38.689Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
+      "char_count": 248,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18179975212363245",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaPPi27Fu5c",
+      "posted_at": "2026-07-01T05:15:30.034Z"
     }
   ]
 }
