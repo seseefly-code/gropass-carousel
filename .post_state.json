@@ -142,20 +142,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "자격 한 줄 차이로 안 된 신청",
-      "char_count": 197,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18175060705407416",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ12oynFfIx",
-      "posted_at": "2026-06-21T08:36:48.266Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "2026년 농식품 분야 시뮬레이션 서비스 기반 실증 지원사업 모집 공고 자금 해설 (전북특별자치도)",
@@ -1816,6 +1802,20 @@
       "posted_at": "2026-07-01T08:16:21.304Z",
       "media_id": "17955046104186728",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaPkQXKFTVi"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[충남] 2026년 대한민국 에너지대전 공동부스 참여기업 모집 공고 자금 해설 (충청남도)",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18154623469427979",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaPt5YtlRQI",
+      "posted_at": "2026-07-01T09:40:41.017Z"
     }
   ]
 }
