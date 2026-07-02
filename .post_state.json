@@ -144,20 +144,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[부산] 2026년 명지녹산 스마트그린 AX 실증산단 구축 사업 지원대상기업 모집 추가 공고 D-9 마감 (산업통상부)",
-      "char_count": 209,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18105785161825357",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ3hXJWmdZe",
-      "posted_at": "2026-06-22T00:09:23.877Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
@@ -1803,6 +1789,20 @@
       },
       "posted_at": "2026-07-02T04:53:54.751Z",
       "discarded": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "신청 대비 평균 선정률",
+      "char_count": 220,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18342700900300247",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaR-YhFG6yx",
+      "posted_at": "2026-07-02T06:43:14.830Z"
     }
   ]
 }
