@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 1,
     "공감페인": 12,
-    "케이스스터디": 11,
+    "케이스스터디": 12,
     "숫자팩트": 5,
     "마감알림": 13,
     "오해풀기": 13,
@@ -144,29 +144,6 @@
     "PBLN_000000000123910"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[부산] 2026년 마을기업 온라인 마케팅 역량 컨설팅 모집 공고 자금 해설 (부산광역시)",
-      "char_count": 233,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_자금해설_부산_2026년_마을기업_온라인_마케팅_역량_컨설팅_모.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 9,
-        "tone": 9,
-        "issues": [
-          "마감일과 수행기관 모두 announcement와 일치하여 안전",
-          "같은 날짜 자금해설 [9]가 있으나 주제(Age-Tech vs 마을기업)와 각도가 완전히 달라 중복 아님",
-          "존댓말·해시태그·이모지·클릭베이트 없음, 글자수 233자로 적정"
-        ]
-      },
-      "posted_at": "2026-06-22T11:48:08.540Z",
-      "media_id": "18144571675517973",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4xVqtlc07"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1814,6 +1791,34 @@
       "media_id": "18084364253168685",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaSjKaOm9n8",
       "posted_at": "2026-07-02T12:04:37.845Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "정책자금 100% 활용해서 분기 흑자 만든 사례",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-02_케이스스터디_정책자금_100_활용해서_분기_흑자_만든_사례.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 8,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "'로봇도입 엔지니어링 컨설팅'은 announcement의 '2026년 4차 제조공정 로봇도입 엔지니어링 컨설팅 모집 공고'와 매칭됨",
+          "'AI·DX 컨설팅'은 announcement의 '[울산] 2026년 지역 중소ㆍ중견기업 제조 AIㆍDX 컨설팅 지원 공고'와 매칭됨",
+          "두 사업 모두 '컨설팅' 지원이라 '비용 0원'은 대체로 맞으나, 중복 신청 가능 여부는 공고 원문에서 확인 필요 - 다만 소관부처(산업통상부/울산광역시)와 수행기관이 달라 실제로 중복 가능성 높음",
+          "구체 금액·심사비·선정률 같은 검증 위험 수치 없음",
+          "익명 케이스 형식으로 처리되어 검증 불가지만 리스크는 낮음",
+          "'중복 신청 가능'이라는 단정적 표현이 살짝 걸림 - 실제 공고에서 확인 필요",
+          "[10]번과 도입부('어제 데이터 보다가...') 및 자금 조합 전략 앵글이 유사하나, [10]은 성장 단계별 조합, 이번 건은 '비용 절감형 자금 중복 신청'이라는 다른 각도",
+          "주제 자체는 신선 - '돈 받는 게 아니라 비용 없애는 구조'라는 인사이트는 최근 15개에 없음"
+        ]
+      },
+      "posted_at": "2026-07-02T13:40:39.421Z",
+      "media_id": "18084244136445010",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaSuKgKkc8C"
     }
   ]
 }
