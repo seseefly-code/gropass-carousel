@@ -144,20 +144,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "두 번째 자금 신청이 첫 번째보다 어려운 이유",
-      "char_count": 233,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18095092304187308",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4MA6elohF",
-      "posted_at": "2026-06-22T06:22:04.487Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "R&D 자금 평균 지원 규모와 자기부담률",
@@ -1803,6 +1789,20 @@
       "media_id": "18342700900300247",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaR-YhFG6yx",
       "posted_at": "2026-07-02T06:43:14.830Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
+      "char_count": 222,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18105973100031153",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaSEUHNlXi0",
+      "posted_at": "2026-07-02T07:35:03.603Z"
     }
   ]
 }
