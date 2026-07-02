@@ -145,20 +145,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "사업계획서 양식 또 바뀐 걸 발견한 순간",
-      "char_count": 210,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17980512638865605",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4jydqICg7",
-      "posted_at": "2026-06-22T09:49:50.680Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[부산] 2026년 마을기업 온라인 마케팅 역량 컨설팅 모집 공고 자금 해설 (부산광역시)",
@@ -1814,6 +1800,20 @@
       "posted_at": "2026-07-02T08:51:49.147Z",
       "media_id": "18472987342099482",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaSNG-_HAoZ"
+    },
+    {
+      "slot": "evening",
+      "type": "케이스스터디",
+      "topic": "같은 자금에 2년 연속 떨어진 후 받은 케이스",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18084364253168685",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaSjKaOm9n8",
+      "posted_at": "2026-07-02T12:04:37.845Z"
     }
   ]
 }
