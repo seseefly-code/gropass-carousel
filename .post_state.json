@@ -147,27 +147,6 @@
   ],
   "history": [
     {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "정책자금 떨어지는 회사들 진짜 패턴",
-      "char_count": 225,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_솔직인사이트_정책자금_떨어지는_회사들_진짜_패턴.md",
-      "verdict": {
-        "decision": "review",
-        "score": 7,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 6,
-        "tone": 10,
-        "issues": [
-          "'30분'은 체감 표현으로 위험도 낮음",
-          "[5]번 게시물과 주제·인사이트가 상당히 겹침. '내 회사에 맞는 자금을 먼저 정의하지 않고 공고만 뒤지면 실패한다'는 메시지가 거의 동일. 다만 [5]는 '검색 단계'에서 멈추는 사람, 이번 글은 '신청 후 탈락'하는 사람으로 각도가 약간 다름"
-        ]
-      },
-      "posted_at": "2026-06-22T15:14:33.367Z",
-      "review_required": true
-    },
-    {
       "slot": "late_evening",
       "type": "케이스스터디",
       "topic": "폐업 위기에서 정책자금으로 살아난 회사",
@@ -1815,6 +1794,20 @@
       "posted_at": "2026-07-02T15:18:37.857Z",
       "media_id": "17956325417980950",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaS5YHBoOiQ"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "매주 월요일 신규 공고 체크 루틴",
+      "char_count": 220,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17884365864436371",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaTt0dKFKZP",
+      "posted_at": "2026-07-02T22:56:58.577Z"
     }
   ]
 }
