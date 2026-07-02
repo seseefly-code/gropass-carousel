@@ -140,23 +140,10 @@
     "PBLN_000000000123774",
     "PBLN_000000000123786",
     "PBLN_000000000123825",
-    "PBLN_000000000123829"
+    "PBLN_000000000123829",
+    "PBLN_000000000123910"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
-      "char_count": 253,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18088533602079874",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ4fpPgluMZ",
-      "posted_at": "2026-06-22T09:13:38.200Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1803,6 +1790,30 @@
       "media_id": "18105973100031153",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaSEUHNlXi0",
       "posted_at": "2026-07-02T07:35:03.603Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[전남광주] 2026년 5차 공산품 수출 중소기업 글로벌 경쟁력 강화 긴급지원 사업 대상 모집 변경 공고 자금 해설 (전남광주통합특별시)",
+      "char_count": 245,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-02_자금해설_전남광주_2026년_5차_공산품_수출_중소기업_글로벌_.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 9,
+        "tone": 9,
+        "issues": [
+          "announcement 컨텍스트 내 실제 공고와 사업명·마감일(7/10, D-8)·수행기관(전라남도중소기업일자리경제진흥원)·소관(전남광주통합특별시) 모두 일치",
+          "구체 금액·심사비·경쟁률 등 위험 수치 없음. 해석성 문장은 있으나 단정적 수치 주장 아님",
+          "최근 15개 중 동일 사업 해설 없음. 자금해설 타입은 [9] 충북 산학융합지구가 있으나 주제·지역·내용 모두 다름",
+          "존댓말·해시태그·이모지·클릭베이트 없음. 반말체 유지, 245자로 분량 적정"
+        ]
+      },
+      "posted_at": "2026-07-02T08:51:49.147Z",
+      "media_id": "18472987342099482",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaSNG-_HAoZ"
     }
   ]
 }
