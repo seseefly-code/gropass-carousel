@@ -147,20 +147,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "자금 받고도 망하는 회사들 공통점",
-      "char_count": 172,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17910118464424905",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ6mzMYFoif",
-      "posted_at": "2026-06-23T04:54:37.562Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
@@ -1797,6 +1783,20 @@
       "media_id": "18129202633557808",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaUntZAFMmM",
       "posted_at": "2026-07-03T07:22:50.481Z"
+    },
+    {
+      "slot": "afternoon",
+      "type": "자금해설",
+      "topic": "[경남] 김해시ㆍ하동군 2026년 10차 청년여성 일경험 지원사업 참여기업 모집 공고 자금 해설 (경상남도)",
+      "char_count": 224,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18091450364624941",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaUymrTlljM",
+      "posted_at": "2026-07-03T08:58:01.973Z"
     }
   ]
 }
