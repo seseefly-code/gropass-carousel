@@ -147,30 +147,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "한 번 떨어지면 끝이라는 생각",
-      "char_count": 212,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_오해풀기_한_번_떨어지면_끝이라는_생각.md",
-      "verdict": {
-        "decision": "review",
-        "score": 6,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 6,
-        "tone": 7,
-        "issues": [
-          "구체 사업명·금액·조건 언급 없음. '정책자금' 일반 명칭만 사용",
-          "구체 수치·비용 없음. '거의 없어', '대부분' 등 추상화 표현 사용",
-          "탈락/재신청 관련 인사이트가 최근 [1], [11]과 주제 인접. 다만 각도(재도전 가능 여부 교정)는 다름",
-          "본문이 '대부분' 에서 잘려있음 — 미완성 문장. 글 마무리 부재",
-          "212자로 짧지만 마지막 문장이 끊겨 게시 부적합"
-        ]
-      },
-      "posted_at": "2026-06-22T17:41:54.096Z",
-      "review_required": true
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
@@ -1798,6 +1774,20 @@
       "media_id": "18104675521853998",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaT1dR8mB2X",
       "posted_at": "2026-07-03T00:03:45.452Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "자금 받고도 망하는 회사들 공통점",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18210647539339925",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaUUns4oOAA",
+      "posted_at": "2026-07-03T04:36:02.745Z"
     }
   ]
 }
