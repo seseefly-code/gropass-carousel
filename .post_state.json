@@ -5,7 +5,7 @@
     "솔직인사이트": 3,
     "공감페인": 14,
     "케이스스터디": 13,
-    "숫자팩트": 6,
+    "숫자팩트": 7,
     "마감알림": 14,
     "오해풀기": 14,
     "트렌드": 11
@@ -146,20 +146,6 @@
     "PBLN_000000000123908"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "정기 공고 시즌 임박 알림 (R&D, 청년창업)",
-      "char_count": 196,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18012679352871678",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ5_qETCd-e",
-      "posted_at": "2026-06-22T23:12:35.924Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1788,6 +1774,29 @@
       "media_id": "18210647539339925",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaUUns4oOAA",
       "posted_at": "2026-07-03T04:36:02.745Z"
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "R&D 자금 평균 지원 규모와 자기부담률",
+      "char_count": 213,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-03_숫자팩트_RD_자금_평균_지원_규모와_자기부담률.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 8,
+        "fact": 9,
+        "halluc": 7,
+        "dup": 9,
+        "tone": 10,
+        "issues": [
+          "구체 사업명 없이 '정부 R&D' 일반 명칭만 사용 - OK",
+          "R&D 자기부담률 20~30%는 일반적으로 알려진 범위이지만 사업마다 편차가 큼(중기부 R&D는 25~35%, 첫걸음/디딤돌은 20%, 산업부 사업은 다름). 다만 '보통'이라는 완화 표현을 썼고 상식 범위 안이라 심각한 할루시네이션은 아님",
+          "R&D 관련 게시물([12])은 있으나 각도가 완전히 다름(보고서 vs 자기부담률). 중복 아님"
+        ]
+      },
+      "posted_at": "2026-07-03T06:35:15.565Z",
+      "media_id": "18120163291819417",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaUiRqmnNay"
     }
   ]
 }
