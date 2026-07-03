@@ -147,20 +147,6 @@
   ],
   "history": [
     {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[대구] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 대구 1.0) 기업지원프로그램 모집 공고(로봇) 자금 해설 (중소벤처기업부)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18016796162883410",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7Gwocm8Ut",
-      "posted_at": "2026-06-23T09:33:55.472Z"
-    },
-    {
       "slot": "late_afternoon",
       "type": "트렌드",
       "topic": "여성기업 우대 자금 변화",
@@ -1787,6 +1773,20 @@
       "media_id": "18344920675168693",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaVHx80oPez",
       "posted_at": "2026-07-03T12:03:05.796Z"
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "R&D 보고서 잘 못 쓴 줄 알았는데 통과된 사례",
+      "char_count": 260,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18085207052211399",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaVTbqgoA45",
+      "posted_at": "2026-07-03T13:44:55.418Z"
     }
   ]
 }
