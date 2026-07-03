@@ -147,30 +147,6 @@
   ],
   "history": [
     {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
-      "char_count": 248,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-22_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 9,
-        "halluc": 8,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "구체 사업명 없이 일반 명칭만 사용 - 안전",
-          "자기 경험 케이스로 제시되어 검증 불가하지만 일반적 범위 내, 구체 금액·심사비 등 위험 수치 없음",
-          "케이스스터디 타입이 최근 2건 있으나(1인 기업 청창사→TIPS, 매출 1억 R&D 5억) 주제·각도가 다름 (폐업 위기 운전자금 케이스)",
-          "반말 유지, 해시태그 없음, 글자수 248자, 이모지 없음, AI 정형 도입부 없음"
-        ]
-      },
-      "posted_at": "2026-06-22T16:30:27.090Z",
-      "media_id": "17975311230025360",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ5RpUulAh-"
-    },
-    {
       "slot": "night",
       "type": "오해풀기",
       "topic": "한 번 떨어지면 끝이라는 생각",
@@ -1808,6 +1784,20 @@
       "media_id": "17884365864436371",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaTt0dKFKZP",
       "posted_at": "2026-07-02T22:56:58.577Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "[울산] 2026년 지역 중소ㆍ중견기업 제조 AIㆍDX 컨설팅 지원 공고 D-4 마감 임박 (울산광역시)",
+      "char_count": 183,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18104675521853998",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaT1dR8mB2X",
+      "posted_at": "2026-07-03T00:03:45.452Z"
     }
   ]
 }
