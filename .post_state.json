@@ -147,20 +147,6 @@
   ],
   "history": [
     {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[강원] 철원군 2026년 중소기업 무역교육 및 컨설팅 참여기업 모집 공고 D-4 마감 임박 (강원특별자치도)",
-      "char_count": 201,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17997219173971551",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ6FgtpjrG_",
-      "posted_at": "2026-06-23T00:03:45.889Z"
-    },
-    {
       "slot": "late_morning",
       "type": "솔직인사이트",
       "topic": "자금 받고도 망하는 회사들 공통점",
@@ -1797,6 +1783,20 @@
       "posted_at": "2026-07-03T06:35:15.565Z",
       "media_id": "18120163291819417",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaUiRqmnNay"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
+      "char_count": 165,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18129202633557808",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaUntZAFMmM",
+      "posted_at": "2026-07-03T07:22:50.481Z"
     }
   ]
 }
