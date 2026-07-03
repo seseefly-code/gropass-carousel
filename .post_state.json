@@ -1,9 +1,9 @@
 {
   "evening_index": 0,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 3,
-    "공감페인": 14,
+    "공감페인": 15,
     "케이스스터디": 13,
     "숫자팩트": 7,
     "마감알림": 14,
@@ -146,20 +146,6 @@
     "PBLN_000000000123908"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "여성기업 우대 자금 변화",
-      "char_count": 232,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18108970892477344",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7PywvlZ_z",
-      "posted_at": "2026-06-23T10:53:00.314Z"
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1787,6 +1773,29 @@
       "media_id": "18085207052211399",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaVTbqgoA45",
       "posted_at": "2026-07-03T13:44:55.418Z"
+    },
+    {
+      "slot": "night",
+      "type": "공감페인",
+      "topic": "12월에 사라지는 예산 보면서 드는 생각",
+      "char_count": 191,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-03_공감페인_12월에_사라지는_예산_보면서_드는_생각.md",
+      "verdict": {
+        "decision": "pass",
+        "score": 9,
+        "fact": 10,
+        "halluc": 10,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "구체 사업명이나 공고명을 언급하지 않음. '예산 소진 시까지' 표현은 실제 공고 유형이며 announcement에도 상시 공고 존재",
+          "구체 수치·비용·조건 없음. 12월 예산 소진 현상은 일반적 사실",
+          "최근 게시물 중 '정보 필터링/모르는 게 문제'라는 인사이트가 [5],[7]에 있으나 각도가 다름(공감페인 vs 인사이트/숫자). 중복 아님"
+        ]
+      },
+      "posted_at": "2026-07-03T15:13:37.319Z",
+      "media_id": "18113025676729061",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaVdmfmEnhc"
     }
   ]
 }
