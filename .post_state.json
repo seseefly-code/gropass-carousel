@@ -147,20 +147,6 @@
   ],
   "history": [
     {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "받았는데 통장에 들어오기까지 2달 기다림",
-      "char_count": 188,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18366513913226700",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ67Gn6HA3H",
-      "posted_at": "2026-06-23T07:52:01.593Z"
-    },
-    {
       "slot": "afternoon",
       "type": "자금해설",
       "topic": "[대구] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 대구 1.0) 기업지원프로그램 모집 공고(로봇) 자금 해설 (중소벤처기업부)",
@@ -1787,6 +1773,20 @@
       "media_id": "18118903057846826",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaU8mYcIOEQ",
       "posted_at": "2026-07-03T10:25:23.359Z"
+    },
+    {
+      "slot": "evening",
+      "type": "솔직인사이트",
+      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
+      "char_count": 287,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 8
+      },
+      "media_id": "18344920675168693",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaVHx80oPez",
+      "posted_at": "2026-07-03T12:03:05.796Z"
     }
   ]
 }
