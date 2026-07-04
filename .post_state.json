@@ -150,34 +150,6 @@
   ],
   "history": [
     {
-      "slot": "night",
-      "type": "트렌드",
-      "topic": "메타버스·블록체인 자금이 줄어든 이유",
-      "char_count": 277,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-23_트렌드_메타버스블록체인_자금이_줄어든_이유.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 8,
-        "fact": 8,
-        "halluc": 7,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "언급된 키워드(AI클라우드, 푸드테크, 미래차 비R&D)는 announcement 컨텍스트에 실제 공고로 존재함 - 부천시 AI 클라우드 컴퓨팅, 안동/경산 푸드테크, 충남 미래차 산업 혁신 지원사업",
-          "'메타버스·블록체인 자금 공고가 줄었다'는 일반적 트렌드 서술로 검증 가능 범위",
-          "'6~12개월 후행'은 구체 수치이지만 일반론적 추정으로 통용되는 범위, 치명적이지 않음",
-          "'반도 안 됨'은 체감 표현으로 처리",
-          "[10] 비R&D 사업화 자금, [12] 지역특화 자금과 트렌드 카테고리 겹침이나 각도 다름 (이건 산업 분야 트렌드 - AI/딥테크/미래차 전환)",
-          "주제 신선도 OK",
-          "반말체 유지, 해시태그 없음, 글자수 277자로 적정",
-          "'~시대야' 마무리가 약간 정형적이지만 허용 범위"
-        ]
-      },
-      "posted_at": "2026-06-23T15:51:18.170Z",
-      "media_id": "18128347600626146",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ7x9gqmgoM"
-    },
-    {
       "slot": "early_morning",
       "type": "마감알림",
       "topic": "[경북] 2026년 2차 내일은 디자인 컨설턴트 지원사업 수혜기업 모집 공고 D-3 마감 임박 (경상북도)",
@@ -1793,6 +1765,20 @@
       "media_id": "18011673704728530",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaWSagsm-zh",
       "posted_at": "2026-07-03T22:55:14.562Z"
+    },
+    {
+      "slot": "morning",
+      "type": "마감알림",
+      "topic": "2026년 2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고 D-6 마감 임박 (과학기술정보통신부)",
+      "char_count": 168,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 10
+      },
+      "media_id": "18476839306100700",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaWaKYwFlpY",
+      "posted_at": "2026-07-04T00:02:54.910Z"
     }
   ]
 }
