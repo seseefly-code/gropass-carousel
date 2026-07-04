@@ -150,20 +150,6 @@
   ],
   "history": [
     {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "[경북] 2026년 2차 내일은 디자인 컨설턴트 지원사업 수혜기업 모집 공고 D-3 마감 임박 (경상북도)",
-      "char_count": 202,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18107644201784265",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ8jATvCSBn",
-      "posted_at": "2026-06-23T22:59:57.385Z"
-    },
-    {
       "slot": "morning",
       "type": "마감알림",
       "topic": "2026년 2차 민관협력 오픈이노베이션 지원 방산 스타트업 챌린지(모두의 챌린지–방산) 수요기업 협업 과제 모집 수정 공고 D-6 마감 임박 (중소벤처기업부)",
@@ -1779,6 +1765,20 @@
       "media_id": "18476839306100700",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaWaKYwFlpY",
       "posted_at": "2026-07-04T00:02:54.910Z"
+    },
+    {
+      "slot": "late_morning",
+      "type": "솔직인사이트",
+      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "char_count": 228,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "17859674565661882",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaW4giwDggh",
+      "posted_at": "2026-07-04T04:28:05.679Z"
     }
   ]
 }
