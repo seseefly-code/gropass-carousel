@@ -150,20 +150,6 @@
   ],
   "history": [
     {
-      "slot": "late_morning",
-      "type": "솔직인사이트",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "17960063268134638",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9L-NllWNb",
-      "posted_at": "2026-06-24T04:57:55.445Z"
-    },
-    {
       "slot": "noon",
       "type": "숫자팩트",
       "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
@@ -1779,6 +1765,20 @@
       "media_id": "18042453629608724",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaXFtCOkWQm",
       "posted_at": "2026-07-04T06:23:24.401Z"
+    },
+    {
+      "slot": "lunch",
+      "type": "공감페인",
+      "topic": "사업계획서 쓰다가 새벽 3시인 대표",
+      "char_count": 193,
+      "source": "batch_queue",
+      "verdict": {
+        "decision": "pass",
+        "score": 9
+      },
+      "media_id": "18101084828517869",
+      "permalink": "https://www.threads.com/@buildup_kyo/post/DaXIohxEcz2",
+      "posted_at": "2026-07-04T06:48:59.979Z"
     }
   ]
 }
