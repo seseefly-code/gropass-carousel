@@ -6,7 +6,7 @@
     "공감페인": 5,
     "케이스스터디": 4,
     "숫자팩트": 11,
-    "마감알림": 2,
+    "마감알림": 3,
     "오해풀기": 15,
     "트렌드": 2
   },
@@ -155,20 +155,6 @@
     "PBLN_000000000123944"
   ],
   "history": [
-    {
-      "slot": "noon",
-      "type": "숫자팩트",
-      "topic": "첫 자금 신청부터 통장 입금까지 평균 소요 시간",
-      "char_count": 184,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18108546286991064",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9ZAnVkfYi",
-      "posted_at": "2026-06-24T06:51:52.377Z"
-    },
     {
       "slot": "lunch",
       "type": "공감페인",
@@ -1785,6 +1771,29 @@
       "media_id": "18101084828517869",
       "permalink": "https://www.threads.com/@buildup_kyo/post/DaXIohxEcz2",
       "posted_at": "2026-07-04T06:48:59.979Z"
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "분기 끝나기 전 신청해야 할 자금",
+      "char_count": 196,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-06_마감알림_분기_끝나기_전_신청해야_할_자금.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 5,
+        "tone": 9,
+        "issues": [
+          "3개 사업 모두 announcement 컨텍스트에 존재하며 마감일도 정확함 (7/6, 7/10, 7/12)",
+          "구체 금액·조건 언급 없이 마감일만 인용, 마감일은 announcement와 일치",
+          "같은 날(7/6) 산림복지 창업 패키지 마감을 다룬 [7] 마감알림 포스트와 주제·후킹·언급 사업이 상당히 겹침. [7]도 '오늘 자정 마감', 산림복지 패키지, 추가로 이번주 마감 나열 구조. 각도가 거의 동일해서 중복 위험 있음",
+          "존댓말·해시태그·클릭베이트 없음, 이모지 1개, 반말 톤 일관, 글자수 196자로 적절"
+        ]
+      },
+      "posted_at": "2026-07-06T22:59:05.523Z",
+      "review_required": true
     }
   ]
 }
