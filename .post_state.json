@@ -1,13 +1,13 @@
 {
   "evening_index": 1,
-  "night_index": 1,
+  "night_index": 2,
   "topic_pool_indexes": {
     "솔직인사이트": 10,
     "공감페인": 6,
     "케이스스터디": 6,
     "숫자팩트": 12,
     "마감알림": 4,
-    "오해풀기": 15,
+    "오해풀기": 1,
     "트렌드": 4
   },
   "used_announcements": [
@@ -157,20 +157,6 @@
     "PBLN_000000000123951"
   ],
   "history": [
-    {
-      "slot": "lunch",
-      "type": "공감페인",
-      "topic": "12월에 사라지는 예산 보면서 드는 생각",
-      "char_count": 228,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "17860698645644937",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9e5-Llanx",
-      "posted_at": "2026-06-24T07:43:22.004Z"
-    },
     {
       "slot": "afternoon",
       "type": "자금해설",
@@ -1795,6 +1781,29 @@
         ]
       },
       "posted_at": "2026-07-06T22:59:05.523Z",
+      "review_required": true
+    },
+    {
+      "slot": "night",
+      "type": "오해풀기",
+      "topic": "벤처인증 받으면 진짜로 좋은 점",
+      "char_count": 233,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-08_오해풀기_벤처인증_받으면_진짜로_좋은_점.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 5,
+        "tone": 9,
+        "issues": [
+          "벤처인증 및 정책자금은 일반 명칭/화이트리스트 범위. 조달 우대는 벤처확인 기업 대상 실제 존재하는 혜택.",
+          "구체 수치 없이 '체감상' 등 추상 표현 사용. 조달 우대는 실제 벤처확인 혜택 중 하나로 사실.",
+          "[1]번 게시물에서 '벤처인증 = 세제혜택 이게 다인 줄 아는 사람 많은데'라는 거의 동일한 프레임 사용. 본 포스트도 '세제혜택이 전부인 줄 아는 사람 많더라'로 시작. 각도는 금융→조달/자금접근으로 약간 다르지만 오프닝 후킹과 핵심 메시지가 상당히 겹침.",
+          "존댓말 없음, 해시태그 없음, 이모지 없음, 글자수 233자로 적정. 반말 톤 일관."
+        ]
+      },
+      "posted_at": "2026-07-08T15:24:13.237Z",
       "review_required": true
     }
   ]
