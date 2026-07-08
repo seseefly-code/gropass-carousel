@@ -1,73 +1,75 @@
 {
-  "date": "2026-07-08",
-  "generated_at": "2026-07-07T22:14:31.436Z",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-08T22:10:32.068Z",
   "slots": {
     "early_morning": {
       "status": "approved",
-      "topic": "상시 모집이지만 예산 소진 임박 자금",
+      "topic": "추가공고 가능성 높은 자금",
       "post": {
         "post_type": "마감알림",
-        "main_post": "'예산 소진시까지'라는 말 그냥 지나치는 사람 많은데\n\n이거 사실상 마감 있는 거야.\n\n예산 다 차면 그날로 끝이거든. D-day 없으니까 안 급한 줄 알다가\n갑자기 '마감됐습니다' 문자 받는 케이스 진짜 많아.\n\n지금 기업마당에 '2026 디지털커머스 전문기관(소담스퀘어 in 전남) 지원사업'이\n상시 모집 중인데, 이런 자금일수록 빨리 신청한 회사가 받는 구조야.\n\n달력에 마감일 없다고 나중에 보려다가 날리지 말고\n관심 있으면 지금 바로 확인해봐",
-        "char_count": 229,
-        "reasoning": "예산 소진 임박 자금의 긴급성과 정보 전달이 핵심이라 마감알림 타입이 가장 적합하고, 실제 공고(소담스퀘어 in 전남)를 참조해 구체성을 살렸음"
+        "main_post": "이번 주 마감인데 다들 알고 있어?\n\n수출바우처 3차가 7월 22일까지야.\n중기부 소관이라 예산 규모도 크고, 매년 추가공고 나오는 자금 중에 거의 빠지지 않는 편이거든.\n\n근데 추가공고는 본공고 마감 후 예산 남을 때 나오는 거라\n'어차피 나중에 또 뜨겠지'하고 기다리면 그게 함정이야.\n\n추가공고는 일정도 짧고 조건도 살짝 달라질 수 있어서\n지금 신청 가능하면 본공고에서 넣는 게 훨씬 나아.\n\n7월 22일, 아직 2주 남았으니까 지금 바로 확인해봐.",
+        "char_count": 207,
+        "reasoning": "마감 임박 공고(수출바우처 D-14)를 활용하면서, '추가공고 가능성' 주제를 '기다리면 손해'라는 긴급성 메시지로 연결하는 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "early_morning",
         "fact_check": {
           "score": 9,
           "cited_programs": [
-            "2026 디지털커머스 전문기관(소담스퀘어 in 전남) 지원사업"
+            "수출바우처 3차 (2026년 3차 수출지원기반활용사업)"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
           "score": 9,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [],
+          "risky_claims": [
+            "7월 22일 마감"
+          ],
           "issues": [
-            "최근 마감알림 다수 있으나 각도(예산 소진 방식) 다름"
+            "마감일은 announcement와 일치"
           ]
         },
-        "tone_check": {
+        "duplication_check": {
           "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "announcement에 있는 공고 정확히 인용, 톤 문제 없음"
+          "reasoning": "수출바우처 3차 마감일이 announcement와 정확히 일치, 톤·중복 이슈 없음"
         }
       }
     },
     "morning": {
       "status": "approved",
-      "topic": "2026년 두바이국제콘텐츠마켓(DICM) 한국공동관 참가기업 모집공고 D-9 마감 (문화체육관광부)",
+      "topic": "[충북] 2026년 지능형첨단부품산업 특화 찾아가는 수출상담회 참가기업 모집 공고(지역혁신클러스터육성사업) D-5 마감 임박 (산업통상부)",
       "post": {
         "post_type": "마감알림",
-        "main_post": "두바이국제콘텐츠마켓(DICM) 한국공동관 모집이 D-9이야.\n\n콘텐츠 수출 노리는 회사라면 진지하게 볼 만한 공고인데,\n중동 시장 진입을 정부 지원 받으면서 해볼 수 있는 기회거든.\n\n문화체육관광부에서 주관하고 한국콘텐츠진흥원이 수행하는 거라\n콘텐츠 관련 업종이면 신청 대상 해당될 가능성 높아.\n\n마감은 7월 16일.\n관심 있으면 지금 기업마당에서 공고 한 번 확인해봐.",
-        "char_count": 167,
-        "reasoning": "특정 자금의 마감일을 안내하며 긴급성을 전달하는 구조라 마감알림 타입이 가장 적합함"
+        "main_post": "충북 제조·부품 쪽 사장님들 혹시 알고 있어?\n\n'찾아가는 수출상담회' 이번 주 일요일(7/13)이 마감이야.\n\n지능형첨단부품 특화라서 기계·전자·소재 업종이면 진짜 딱인 자리고,\n충북테크노파크가 직접 기업 찾아와서 수출 상담 연결해주는 구조거든.\n\n해외 바이어 찾는 거 혼자 하면 진짜 막막한데,\n이런 자리는 그냥 나가는 것만으로도 의미 있어.\n\nD-5니까 지금 바로 기업마당에서 확인해봐.",
+        "char_count": 175,
+        "reasoning": "마감이 D-5로 임박한 공고를 긴급성 있게 알려야 하고, 특정 자금명·조건 대신 업종 타겟과 가치를 사장님 시점에서 풀어내는 마감알림 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "morning",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "두바이국제콘텐츠마켓(DICM) 한국공동관"
+            "충북 지능형첨단부품산업 특화 찾아가는 수출상담회"
           ],
           "unverified_programs": [],
           "issues": []
         },
         "hallucination_check": {
-          "score": 10,
+          "score": 9,
           "risky_claims": [
-            "D-9",
-            "7월 16일 마감"
+            "7/13 마감",
+            "D-5"
           ],
           "issues": [
             "announcement와 일치"
@@ -79,120 +81,114 @@
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "공고·마감일 announcement와 일치, 톤 정상"
+          "reasoning": "공고 사실 정확, 톤 자연스러움"
         }
       }
     },
     "late_morning": {
       "status": "approved",
-      "topic": "매출 1억과 10억의 자금 신청 전략 차이",
+      "topic": "신청서에 쓰면 안 되는 표현 5가지",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면 매출 1억이랑 10억 회사가 같은 자금 신청하면 안 돼.\n\n매출 1억대는 창업 초기 자금이 열려 있고,\n심사도 '가능성' 중심이라 사업계획서 퀄리티가 거의 전부야.\n\n근데 매출 10억 가면 얘기가 완전 달라져.\n초기 자금은 자격 안 되는 경우 많고,\n이제 성장 단계 자금, R&D, 수출 바우처 같은 걸 봐야 해.\n심사 기준도 '숫자 증명'이 훨씬 강하게 들어와.\n\n내가 보는 사람들 중에 매출 8~9억인데 아직도 창업 초기 공고만 뒤지는 경우가 꽤 있거든.\n그 자금 이미 자격 조건 밖인 게 많아.\n\n매출 구간 바뀌면 봐야 할 자금 지형 자체가 달라진다는 거,\n이거 모르면 준비는 열심히 했는데 처음부터 틀린 문 두드린 거야.",
-        "char_count": 278,
-        "reasoning": "매출 구간별로 정책자금 전략이 다르다는 실무 인사이트를 전달하는 내용이라 '솔직인사이트' 타입이 가장 자연스럽게 맞음"
+        "main_post": "정책자금 신청서 쓰다가 탈락하는 거 보면 표현 문제인 경우가 꽤 있어\n\n심사위원이 제일 싫어하는 게 뭔지 알아?\n\n\"글로벌 시장을 선도하겠다\" — 아무 숫자 없이 이런 말 쓰면 그냥 패스\n\"혁신적인 기술로\" — 뭐가 혁신인지 설명 없으면 의미 없음\n\"차별화된 역량\" — 뭐랑 차별화? 비교 대상이 없으면 공허해\n\"고객 중심 경영\" — 모두가 쓰는 말, 아무도 안 믿는 말\n\"최선을 다하겠습니다\" — 의지 표현인데 심사관한텐 그냥 빈칸이야\n\n공통점이 뭔지 알아?\n전부 검증 불가능한 말이야\n\n신청서는 설득문이거든\n\"우린 잘 할 것 같아요\"가 아니라\n\"이래서 우리가 이걸 받을 자격 있어요\"를 증명하는 거야",
+        "char_count": 264,
+        "reasoning": "신청서 작성 시 피해야 할 표현 정리는 현장 경험 기반 노하우 전달로 솔직인사이트 타입이 가장 자연스럽고, 실제 심사 관점에서 쓸모없는 표현을 콕 집어주는 컨설팅 관점과 맞아떨어짐"
       },
       "verdict": {
         "slot": "late_morning",
         "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "R&D",
-            "수출 바우처"
-          ],
+          "score": 10,
+          "cited_programs": [],
           "unverified_programs": [],
           "issues": [
-            "일반 명칭만 사용"
+            "구체 사업명 없이 일반 인사이트"
           ]
         },
         "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "매출 1억/10억 구분"
-          ],
-          "issues": [
-            "개념 설명 수준, 구체 수치 아님"
-          ]
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
         },
         "duplication_check": {
           "score": 9,
           "similar_recent_files": [],
-          "issues": []
+          "issues": [
+            "기존 솔직인사이트와 각도 다름"
+          ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "일반화된 인사이트, 위험 요소 없음"
+          "reasoning": "검증 리스크 낮고 인사이트 신선"
         }
       }
     },
     "noon": {
       "status": "approved",
-      "topic": "TIPS 누적 선정 수와 후속 투자 비율",
+      "topic": "수출바우처 평균 활용 금액",
       "post": {
         "post_type": "숫자팩트",
-        "main_post": "TIPS 통과하면 그냥 좋다고 아는데\n실제로 후속 투자 연결되는 비율이 얼마나 되는지 알아?\n\n누적 선정 기업이 수천 개를 넘는데\n그중 시리즈A 이상으로 넘어가는 비율이 생각보다 훨씬 낮아\n\n문제는 TIPS를 '최종 목표'로 착각하는 팀들이 많다는 거야\nTIPS는 그냥 입장권이지, 투자 보장서가 아니거든\n\n선정되고 나서도 IR 계속 돌리고 PMF 증명 못 하면\n결국 정부 돈만 쓰고 조용히 사라지는 팀들 꽤 많더라",
-        "char_count": 221,
-        "reasoning": "TIPS 관련 구체 수치는 공식 확인이 어려워 후속 투자 연결률과 누적 선정 규모를 일반화·개념적으로 전달하는 숫자팩트 타입이 적합하며, 수치 대신 패턴과 맥락으로 팩트를 전달하는 방식이 오해를 줄임"
+        "main_post": "수출바우처 받은 회사들, 평균 얼마나 쓰는지 알아?\n\n실제로 보면 한도 다 채우는 회사가 생각보다 많지 않아.\n절반도 못 쓰고 반납하는 경우가 꽤 나와.\n\n이유 들어보면 대부분 비슷해 —\n\"서비스 업체 찾기가 너무 귀찮아서\",\n\"어디다 쓸 수 있는지 몰라서\"\n\n자금이 없는 게 아니라 쓰는 방법을 모르는 거거든.\n지금도 3차 수출바우처 모집 중인데,\n받고 나서 어떻게 활용할지부터 생각해두는 게 맞아",
+        "char_count": 196,
+        "reasoning": "구체적인 평균 활용 금액 수치는 검증 불가해서 모드 B 일반화로 처리하되, 수출바우처 활용률이라는 숫자 기반 인사이트를 전달하는 숫자팩트 타입이 가장 적합하고, 공고 데이터에 3차 수출바우처 모집이 있어 자연스럽게 연결"
       },
       "verdict": {
         "slot": "noon",
         "fact_check": {
           "score": 9,
           "cited_programs": [
-            "TIPS"
+            "3차 수출바우처"
           ],
           "unverified_programs": [],
-          "issues": [
-            "화이트리스트 프로그램"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 7,
           "risky_claims": [
-            "누적 선정 기업 수천 개",
-            "시리즈A 이상 비율 낮음"
+            "절반도 못 쓰고 반납"
           ],
           "issues": [
-            "구체 숫자 회피, 추상화 잘 됨"
+            "수출바우처 실집행률에 대한 구체 검증은 어렵지만 '절반도 못 쓰는 경우'는 추상적 표현으로 완화됨"
           ]
         },
         "duplication_check": {
           "score": 8,
-          "similar_recent_files": [],
+          "similar_recent_files": [
+            "2026-07-07_케이스스터디_수출바우처로_첫_해외_수주_만든_케이스.md"
+          ],
           "issues": [
-            "TIPS 언급 최근 있으나 각도 다름"
+            "수출바우처 주제가 배치 내 포스트 9와도 겹침 — 각도는 다름(활용률 vs 케이스)"
           ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "수치를 의도적으로 추상화, 톤 정상"
+          "reasoning": "수치가 추상화되어 있고 공고 매칭 정확. 배치 내 수출바우처 중복은 각도가 달라 허용 가능"
         }
       }
     },
     "lunch": {
       "status": "approved",
-      "topic": "마감 1시간 전 서류 부족 알아챈 순간",
+      "topic": "매출 부족하다고 거절당한 첫 자금 신청",
       "post": {
         "post_type": "공감페인",
-        "main_post": "마감 1시간 전에 서류 하나 빠진 거 발견한 적 있어?\n\n그 순간 심장 떨어지는 거 진짜 다들 알겠지\n\n중소기업확인서, 사업자등록증 사본, 재무제표 확인본...\n어디서 뽑는지는 알겠는데 지금 당장 시간이 없잖아\n\n결국 반차 내고, 담당자한테 전화하고, 온라인 발급 안 되는 거 확인하고\n마감 10분 전에 이메일 보내면서 '내일 제출해도 되냐'고 묻는 그 수모 😮‍💨\n\n정책자금 신청하다 이 상황 겪어본 사람 분명 있을 텐데\n나만 이런 거 아니지?",
-        "char_count": 212,
-        "reasoning": "마감 직전 서류 누락이라는 구체적인 페인포인트는 대표들이 공통으로 겪는 감정적 경험이라 공감페인 타입이 가장 적합함"
+        "main_post": "처음 정책자금 신청했다가 매출 부족하다고 거절당한 거\n나만 겪은 거 아니지?\n\n서류 다 챙겨서 냈는데\n\"매출 기준 미달\" 한 줄로 끝나는 거 보고\n진짜 허탈하더라\n\n근데 웃긴 건 그 기준, 공고문 어디에도\n명확하게 안 나와 있었거든\n신청하고 나서야 알게 되는 구조\n\n매출 적을 때 자금이 필요한 거잖아\n그 타이밍에 못 받으면 도대체 언제 받냐고",
+        "char_count": 186,
+        "reasoning": "초기 자금 신청 거절이라는 구체적 경험은 대표라면 누구나 공감하는 페인 포인트이고, 정보 전달보다 감정·상황 묘사가 중심이라 공감페인 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "lunch",
@@ -205,207 +201,8 @@
         "hallucination_check": {
           "score": 10,
           "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-06_공감페인_공고가_다_똑같이_생겨서_뭐가_뭔지_모르겠을_때.md"
-          ],
           "issues": [
-            "같은 공감페인 계열이나 다른 상황(마감 서류 vs 공고 읽기)"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": [
-            "이모지 1개, 허용 범위"
-          ]
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "경험 기반 공감, 사실 위반 없음"
-        }
-      }
-    },
-    "afternoon": {
-      "status": "approved",
-      "topic": "2026년 모험ㆍ도전적 AI 스타트업 투자대상 발굴 경진대회 참가기업 모집 공고 자금 해설 (과학기술정보통신부)",
-      "post": {
-        "post_type": "자금해설",
-        "main_post": "'모험·도전적 AI 스타트업 투자대상 발굴 경진대회'라는 이름이 좀 길긴 한데\n\n풀어쓰면 과기정통부가 AI 스타트업한테 투자자 연결 기회 주는 경진대회야\n\n근데 포인트가 '투자대상 발굴'이거든\n지원금 주는 게 아니라 VC·기관투자자 앞에 세워주는 구조인 거지\n\n그러니까 지금 당장 현금이 급한 회사보다\n'우리 IR 한번 제대로 해보고 싶다'는 AI 스타트업한테 맞는 자리야\n\n마감이 7월 16일이니까 AI 쪽이면 한 번쯤 봐둬도 나쁘지 않아",
-        "char_count": 216,
-        "reasoning": "경진대회 형식의 자금 지원 공고를 풀어 설명하는 구조라 자금해설 타입이 적합하고, '투자대상 발굴'이라는 독특한 구조(보조금이 아닌 IR 기회)를 핵심 인사이트로 짚는 해설형 콘텐츠로 작성했음"
-      },
-      "verdict": {
-        "slot": "afternoon",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "모험·도전적 AI 스타트업 투자대상 발굴 경진대회"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [
-            "7월 16일 마감"
-          ],
-          "issues": [
-            "announcement와 일치"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-06_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md"
-          ],
-          "issues": [
-            "AI 스타트업 주제 언급 있으나 자금해설로 각도 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "실제 공고 정확 인용, 구조 설명 정확"
-        }
-      }
-    },
-    "late_afternoon": {
-      "status": "approved",
-      "topic": "그린·환경 분야 신규 자금 급증",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 그린·환경 쪽 정책자금이 조용히 많아지고 있어\n\n예전엔 제조·수출·창업이 정책자금의 메인이었는데\n지금은 ESG, 탄소중립, 친환경 인증 관련 지원이 슬금슬금 늘어나는 중이거든\n\n경북 같은 경우 이미 ESG 경영지원 구축사업을 올해 2차 모집까지 하고 있고\n환경 분야는 이제 슬슬 주류 자금 카테고리로 올라오는 분위기야\n\n지금은 아직 경쟁률이 상대적으로 낮은 편이라\n제조·식품·소재 쪽 대표들한테는 오히려 지금이 타이밍일 수 있음\n\n\"ESG는 대기업 얘기\"라고 넘겼다면 한번 다시 봐도 될 것 같아",
-        "char_count": 248,
-        "reasoning": "그린·환경 자금 급증이라는 트렌드 주제이고, 공고 중 ESG 경영지원 사업이 실제 존재하므로 이를 활용해 트렌드 타입으로 구성하는 것이 가장 자연스러움"
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
-          "score": 8,
-          "cited_programs": [
-            "경북 ESG 경영지원 구축사업"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "announcement에 있음"
-          ]
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "ESG 자금이 급증 중",
-            "경쟁률 낮음"
-          ],
-          "issues": [
-            "트렌드 주장이지만 검증하기 어려운 일반화, 큰 위험은 아님"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-07-06_마감알림_경북_김천시ㆍ구미시_2026년_중소기업_ESG_경영지원.md",
-            "2026-07-05_트렌드_2026년_사라진_자금_새로_생긴_자금.md"
-          ],
-          "issues": [
-            "ESG 자금 언급 최근 있음, 트렌드 각도로 유사"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "실제 공고 활용, 트렌드 주장 약간 추상적이나 큰 문제 없음"
-        }
-      }
-    },
-    "evening": {
-      "status": "approved",
-      "topic": "TIPS 떨어진 회사가 다음 회차에 선정된 비결",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 얘기 들은 케이스인데.\n\nTIPS 1차에서 떨어진 스타트업, 다음 회차에 그대로 재신청해서 또 떨어짐.\n\n근데 3차에서 붙었거든.\n\n뭐가 달라졌냐고 물어봤더니 — 추천 액셀러레이터를 바꿨대.\n\n기술이나 팀은 그대로인데, AC가 바뀌니까 피칭 프레임이 완전히 달라진 거야.\n\nTIPS는 AC가 보증을 서는 구조니까, 사실 AC 궁합이 절반이라고 봐도 과언이 아니거든.\n\n떨어지면 아이템 탓부터 하는데 — 먼저 볼 건 내 편 AC가 나를 제대로 세팅해줬냐는 거더라.",
-        "char_count": 213,
-        "reasoning": "TIPS 탈락 후 재선정된 실제 흐름을 익명 사례로 풀어, 핵심 인사이트(AC 선택의 중요성)를 자연스럽게 전달하는 케이스스터디 타입이 가장 적합함."
-      },
-      "verdict": {
-        "slot": "evening",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "TIPS"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "AC가 보증을 서는 구조"
-          ],
-          "issues": [
-            "TIPS 구조 상식 부합"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-05_케이스스터디_1인_기업이_청년창업패키지로_시작해_시리즈A까지.md"
-          ],
-          "issues": [
-            "TIPS 케이스스터디 최근 있으나 각도(AC 궁합) 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "사실 기반 인사이트, 각도 신선"
-        }
-      }
-    },
-    "late_evening": {
-      "status": "approved",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 대화한 회사 케이스인데.\n\n직원 8명짜리 제조업 대표인데, 수출은 꿈도 못 꾸고 있었대.\n\"해외 나가려면 뭐가 필요한지도 모르겠고, 돈도 없고\" 이랬던 분임.\n\n근데 수출바우처 신청해서 해외 마케팅 대행이랑 번역·현지화 비용 지원받았고,\n결국 동남아 바이어 붙여서 첫 수주 만들어냄.\n\n바우처 자체가 수출 뭐든 다 갖다 쓸 수 있는 구조거든.\n인증, 홍보, 컨설팅, 전시... 본인이 뭐가 필요한지 골라 쓰는 방식.\n\n처음 수출하는 회사한테 이게 진입장벽을 확 낮춰줌.\n단순 자금이 아니라 '어디서부터 시작해야 해?'를 같이 풀어주는 자금임.",
-        "char_count": 239,
-        "reasoning": "익명 사례를 통해 수출바우처 활용법을 자연스럽게 전달하는 구조로, 케이스스터디 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "late_evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "수출바우처"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "화이트리스트"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "직원 8명",
-            "동남아 바이어"
-          ],
-          "issues": [
-            "익명 케이스 형식, 검증 불가하나 허용"
+            "개인 경험 서술"
           ]
         },
         "duplication_check": {
@@ -414,67 +211,196 @@
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 9,
+          "score": 10,
           "decision": "pass",
-          "reasoning": "경험 사례 자연스러움, 사실 위반 없음"
+          "reasoning": "공감페인 톤 자연스럽고 검증 리스크 없음"
         }
       }
     },
-    "night": {
+    "afternoon": {
       "status": "approved",
-      "topic": "글로벌 진출 자금 비중 변화",
+      "topic": "[강원] 강릉시 2026년 2차 중소기업 해외 라이브커머스 지원사업 참가기업 모집 공고 자금 해설 (강원특별자치도)",
       "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 정책자금 공고 보면 진짜 글로벌 쪽이 많아졌어\n\n두바이 콘텐츠마켓, 캐나다 애니메이션 쇼케이스, 동유럽 무역사절단, 해외 규격인증 지원...\n이번 달 마감 공고만 추려봐도 수출·해외 관련이 절반 가까이 되더라\n\n예전엔 글로벌 지원이라고 하면 대기업 얘기 같았는데\n요즘은 지역 중소기업·스타트업 대상 해외 진출 지원이 엄청 세분화된 느낌\n\n업종별, 타깃 국가별로 쪼개져서 나오니까\n내 업종이랑 진출하려는 나라 맞춰서 찾으면 의외로 딱 맞는 게 있거든\n\n글로벌 생각 있으면 지금이 오히려 타이밍이야",
-        "char_count": 233,
-        "reasoning": "글로벌 진출 자금 비중 변화라는 주제 + 실제 공고에 수출/해외 관련 다수 포함되어 있어 트렌드 타입이 최적, 최근 공고 흐름을 캐주얼하게 정리하는 방식으로 작성"
+        "post_type": "자금해설",
+        "main_post": "해외 라이브커머스 지원사업이 뭔지 아는 사람 의외로 별로 없더라\n\n간단히 말하면 — 중국·동남아 라이브 플랫폼에서 판매할 때 드는 비용을 지자체가 일부 대줌\n촬영, 현지 진행자(왕홍) 섭외, 플랫폼 입점 같은 것들\n\n근데 진짜 포인트는 이게 수출 실적이 없어도 신청할 수 있다는 거야\n일반 수출바우처는 어느 정도 실적 있는 회사 기준이라 처음 나가는 회사는 진입장벽이 있거든\n\n강릉시 이번 2차 모집은 7월 16일까지고 강원도 중소기업이면 봐볼 만해\n해외 판로 첫 시도라면 이런 로컬 지원사업이 오히려 진입장벽 낮음",
+        "char_count": 248,
+        "reasoning": "특정 사업의 개념과 혜택을 풀어설명하는 구조라 자금해설 타입이 가장 적합함"
       },
       "verdict": {
-        "slot": "night",
+        "slot": "afternoon",
         "fact_check": {
-          "score": 10,
+          "score": 9,
           "cited_programs": [
-            "두바이 콘텐츠마켓",
-            "캐나다 애니메이션 쇼케이스",
-            "동유럽 무역사절단",
-            "해외 규격인증 지원"
+            "강릉시 2026년 2차 중소기업 해외 라이브커머스 지원사업"
           ],
           "unverified_programs": [],
           "issues": [
-            "모두 announcement에 실존"
+            "마감일 7/16은 announcement와 일치"
           ]
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 8,
           "risky_claims": [
-            "수출·해외 관련이 절반 가까이"
+            "수출 실적 없어도 신청 가능",
+            "촬영·왕홍 섭외·플랫폼 입점 지원 항목"
           ],
           "issues": [
-            "실제 목록 보면 근접함"
+            "지원 항목·자격 세부사항은 listing에 없어 일반화 필요하지만 라이브커머스 지원사업의 일반 특성과 부합"
           ]
         },
         "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-07-06_트렌드_2026년_정책자금_트렌드_키워드.md",
-            "2026-07-06_트렌드_AI_스타트업_위주로_바뀌는_RD_자금.md"
-          ],
-          "issues": [
-            "최근 트렌드 포스트 다수, 글로벌/수출 다변화 언급 겹침"
-          ]
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 8,
           "decision": "pass",
-          "reasoning": "실공고 정확 활용, 최근 트렌드 계열과 약간 겹치나 각도 구분됨"
+          "reasoning": "공고명·마감일 정확, 세부 지원 항목은 일반적 라이브커머스 지원 구조와 부합"
+        }
+      }
+    },
+    "late_afternoon": {
+      "status": "approved",
+      "topic": "청년창업 자금 vs 시니어창업 자금 격차",
+      "post": {
+        "post_type": "트렌드",
+        "main_post": "요즘 창업 지원 들여다보면 진짜 온도차가 느껴지거든\n\n청년창업사관학교, TIPS 연계, 예비창업패키지...\n만 39세 이하 창업자 대상 자금은 이름도 많고 예산도 두툼해\n\n근데 40대 이후 창업자 전용 자금 찾으면?\n손에 꼽혀. 그냥 일반 창업 자금에 섞여 경쟁하는 구조야\n\n서울 TIPS 투자 연계 컨설팅도 이번 주 마감인데,\n이런 좋은 프로그램들 대부분 타겟이 명확하게 '청년' 쪽이잖아\n\n50대에 첫 창업하는 사람이 늘고 있는 현실이랑\n정책 설계가 아직 안 맞아가는 느낌이야\n\n경험 많은 시니어 창업자한테 맞는 자금이\n더 많아져야 한다고 생각하는데, 다들 어떻게 봐?",
+        "char_count": 258,
+        "reasoning": "청년 vs 시니어 창업 자금 격차는 트렌드 타입이 가장 적합하며, 실제 공고(서울 TIPS 투자 연계 컨설팅)를 자연스럽게 녹여 현재 정책 흐름과 격차 문제를 캐주얼하게 짚는 구조로 작성"
+      },
+      "verdict": {
+        "slot": "late_afternoon",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [
+            "청년창업사관학교",
+            "TIPS",
+            "예비창업패키지",
+            "서울 TIPS 투자 연계 컨설팅"
+          ],
+          "unverified_programs": [],
+          "issues": [
+            "모두 화이트리스트 또는 announcement에 있음"
+          ]
+        },
+        "hallucination_check": {
+          "score": 9,
+          "risky_claims": [
+            "만 39세 이하"
+          ],
+          "issues": [
+            "청창사 연령 기준은 알려진 상수"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "사업명 모두 검증됨, 트렌드 인사이트 각도 새로움"
+        }
+      }
+    },
+    "evening": {
+      "status": "approved",
+      "topic": "사업계획서 한 줄 바꿔서 통과된 사례",
+      "post": {
+        "post_type": "케이스스터디",
+        "main_post": "어제 얘기 들은 케이스인데 진짜 소름이었어\n\n제조업 대표님이 두 번 떨어진 자금에 세 번째 도전했거든\n바꾼 거 딱 하나 — 사업 목적 첫 문장\n\n기존: \"매출 확대를 위한 설비 도입\"\n수정: \"공정 자동화를 통한 원가 구조 개선\"\n\n내용은 똑같아. 설비도 똑같고 금액도 똑같고\n근데 이번엔 붙었어\n\n심사위원이 보는 건 '니 회사 이익'이 아니라\n'이 사업이 지원 취지에 맞냐'거든\n\n사업계획서는 내 계획 설명하는 문서가 아니라\n심사위원 언어로 번역하는 작업이야",
+        "char_count": 222,
+        "reasoning": "익명 사례 기반으로 구체 케이스를 보여주고 인사이트를 뽑는 구조가 주제에 딱 맞아서 케이스스터디 선택"
+      },
+      "verdict": {
+        "slot": "evening",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 10,
+          "decision": "pass",
+          "reasoning": "익명 사례 중심, 검증 리스크 없음"
+        }
+      }
+    },
+    "late_evening": {
+      "status": "rejected",
+      "topic": "대표 혼자 신청서 써서 5천 받은 케이스",
+      "reason": "review"
+    },
+    "night": {
+      "status": "approved",
+      "topic": "정책자금 = 무이자 대출이라는 오해",
+      "post": {
+        "post_type": "오해풀기",
+        "main_post": "정책자금 = 무이자 대출이라고 아는 사람 생각보다 엄청 많아\n\n근데 팩트는, 정책자금도 이자 있어\n정책금리 기반으로 변동되는데 요즘 같은 금리 환경에서 2~4%대 보는 경우도 많거든\n\n진짜 무이자에 가까운 건 '보조금' 형태 — 바우처나 사업화지원금 같은 거\n이건 갚을 필요 없는 돈인데, 오히려 여기가 더 좋은 조건인데도 잘 몰라서 신청 안 하는 경우가 많아\n\n그러니까 정책자금 알아볼 때 \"대출이냐 보조금이냐\" 먼저 구분하고 접근해\n그거 하나 차이가 나중에 꽤 크게 느껴지더라",
+        "char_count": 214,
+        "reasoning": "정책자금이 무이자 대출이라는 잘못된 상식을 교정하는 내용으로, 통념→진실→결론 구조의 오해풀기 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "night",
+        "fact_check": {
+          "score": 9,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": [
+            "일반 개념 설명"
+          ]
+        },
+        "hallucination_check": {
+          "score": 8,
+          "risky_claims": [
+            "정책금리 2~4%대"
+          ],
+          "issues": [
+            "정책금리 대략 범위는 알려진 상수 수준이나 시점에 따라 변동. '보는 경우도 많거든'으로 완화됨"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "오해풀기 구조 자연스럽고 수치 표현 완화됨"
         }
       }
     }
