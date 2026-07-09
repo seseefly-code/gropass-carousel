@@ -6,7 +6,7 @@
     "공감페인": 8,
     "케이스스터디": 10,
     "숫자팩트": 14,
-    "마감알림": 6,
+    "마감알림": 7,
     "오해풀기": 3,
     "트렌드": 6
   },
@@ -161,20 +161,6 @@
     "PBLN_000000000124132"
   ],
   "history": [
-    {
-      "slot": "afternoon",
-      "type": "자금해설",
-      "topic": "[충남] 2026년 산학연 협동프로그램 참여기업 지원사업 모집 재공고(테크노파크 생산장비 고도화) 자금 해설 (충청남도)",
-      "char_count": 218,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 10
-      },
-      "media_id": "18062166998710465",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9qVGLllfa",
-      "posted_at": "2026-06-24T09:23:11.038Z"
-    },
     {
       "slot": "late_afternoon",
       "type": "트렌드",
@@ -1808,6 +1794,30 @@
         ]
       },
       "posted_at": "2026-07-08T15:24:13.237Z",
+      "review_required": true
+    },
+    {
+      "slot": "early_morning",
+      "type": "마감알림",
+      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
+      "char_count": 186,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-09_마감알림_경상적으로_마감_빨리_끝나는_자금_주의.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 8,
+        "halluc": 9,
+        "dup": 5,
+        "tone": 10,
+        "issues": [
+          "서울 TIPS 투자 연계 컨설팅 마감일 7/15는 announcement와 일치",
+          "충북 수출상담회는 announcement상 7/13 마감 일치",
+          "강원 바이오·헬스케어 AI 대전환은 7/17 마감 일치",
+          "최근 [6], [7] 두 게시물이 모두 서울 TIPS 7/15 마감을 다룸. 이번 포스트도 서울 TIPS 마감을 재언급하여 3번째 반복",
+          "다만 이번 포스트는 3개 자금을 묶어서 D-7 이하 리스트로 각도를 달리했고, 기업마당 알림 설정이라는 새 인사이트 추가"
+        ]
+      },
+      "posted_at": "2026-07-09T23:03:17.428Z",
       "review_required": true
     }
   ]
