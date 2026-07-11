@@ -5,7 +5,7 @@
     "솔직인사이트": 13,
     "공감페인": 10,
     "케이스스터디": 12,
-    "숫자팩트": 15,
+    "숫자팩트": 16,
     "마감알림": 8,
     "오해풀기": 3,
     "트렌드": 7
@@ -163,20 +163,6 @@
     "PBLN_000000000124136"
   ],
   "history": [
-    {
-      "slot": "late_afternoon",
-      "type": "트렌드",
-      "topic": "헬스케어 자금 신규 증가 추세",
-      "char_count": 220,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18081534359210442",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ9zE67laD6",
-      "posted_at": "2026-06-24T10:39:37.383Z"
-    },
     {
       "slot": "evening",
       "type": "솔직인사이트",
@@ -1820,6 +1806,30 @@
         ]
       },
       "posted_at": "2026-07-09T23:03:17.428Z",
+      "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "회사 뒷일을 따로따로 맡길 때 새는 비용",
+      "char_count": 248,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-11_숫자팩트_회사_뒷일을_따로따로_맡길_때_새는_비용.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 9,
+        "halluc": 6,
+        "dup": 8,
+        "tone": 9,
+        "issues": [
+          "구체 사업명 언급 없음, 일반적인 관리비용 이야기라 팩트 리스크 낮음",
+          "'각각 월 100~200만원씩'이라는 구체 비용 레인지가 검증 어려움. 세무 기장료는 보통 10~30만원 수준이라 노무·컨설팅 등과 묶어 '각각 100~200만원'이라 하면 사장님들 체감과 어긋날 수 있음",
+          "다만 세무+노무+인증+자금+IT 전체 합산으로 보면 그 정도 나올 수도 있어 애매함",
+          "최근 15개는 대부분 정책자금 관련이고, 회사 백오피스 아웃소싱 비용 구조 이야기는 새로운 각도",
+          "존댓말·해시태그·이모지 없음, 반말체 유지, 글자수 248자로 적정"
+        ]
+      },
+      "posted_at": "2026-07-11T05:43:47.261Z",
       "review_required": true
     }
   ]
