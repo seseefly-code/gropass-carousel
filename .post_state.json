@@ -5,7 +5,7 @@
     "솔직인사이트": 17,
     "공감페인": 12,
     "케이스스터디": 14,
-    "숫자팩트": 18,
+    "숫자팩트": 19,
     "마감알림": 8,
     "오해풀기": 3,
     "트렌드": 11
@@ -169,20 +169,6 @@
     "PBLN_000000000124251"
   ],
   "history": [
-    {
-      "slot": "evening",
-      "type": "솔직인사이트",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
-      "char_count": 248,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "18134000071583963",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ998nrlN1Z",
-      "posted_at": "2026-06-24T12:14:36.979Z"
-    },
     {
       "slot": "late_evening",
       "type": "케이스스터디",
@@ -1836,6 +1822,30 @@
         ]
       },
       "posted_at": "2026-07-11T05:43:47.261Z",
+      "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "부설연구소 세액공제로 돌려받는 규모",
+      "char_count": 211,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-13_숫자팩트_부설연구소_세액공제로_돌려받는_규모.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 8,
+        "halluc": 5,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "부설연구소(기업부설연구소) R&D 세액공제는 조세특례제한법상 상시 제도로 화이트리스트 범주에 해당",
+          "중소기업 R&D 세액공제율은 일반 25%가 맞으나, 신성장·원천기술 여부·당기분/증가분 방식에 따라 달라짐. 25%를 단정한 것은 다소 위험",
+          "'매출 30억이면 2500만원 돌려받는다'는 계산은 최저한세·이월공제 등 변수 무시한 단순화라 오해 소지",
+          "부설연구소 인력요건은 기업 규모별로 다름(소기업 3명, 벤처/연구원창업 2명 등)—'1명'은 특정 특례 케이스만 해당해 부정확",
+          "[9]에서 부설연구소 인증→R&D 자금 흐름을 언급했으나 각도는 다름(세액공제 수치 중심 vs 통합 진행 인사이트). 중복도 낮음"
+        ]
+      },
+      "posted_at": "2026-07-13T06:23:27.236Z",
       "review_required": true
     }
   ]
