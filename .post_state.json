@@ -5,7 +5,7 @@
     "솔직인사이트": 2,
     "공감페인": 15,
     "케이스스터디": 16,
-    "숫자팩트": 2,
+    "숫자팩트": 3,
     "마감알림": 9,
     "오해풀기": 3,
     "트렌드": 14
@@ -174,20 +174,6 @@
     "PBLN_000000000124348"
   ],
   "history": [
-    {
-      "slot": "late_evening",
-      "type": "케이스스터디",
-      "topic": "수출바우처로 첫 해외 수주 만든 케이스",
-      "char_count": 269,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 9
-      },
-      "media_id": "18096154945973052",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-LCbGkaGw",
-      "posted_at": "2026-06-24T14:09:00.487Z"
-    },
     {
       "slot": "night",
       "type": "오해풀기",
@@ -1851,6 +1837,27 @@
         ]
       },
       "posted_at": "2026-07-13T06:23:27.236Z",
+      "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "벤처기업 보유 vs 미보유 기업 평균 매출 격차",
+      "char_count": 177,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-15_숫자팩트_벤처기업_보유_vs_미보유_기업_평균_매출_격차.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 9,
+        "halluc": 6,
+        "dup": 8,
+        "tone": 10,
+        "issues": [
+          "'평균 매출 격차 2배 넘는다'는 구체 수치가 검증되지 않음. 벤처기업협회 실태조사 등에서 유사 통계가 인용되긴 하지만 연도·출처 없이 단정하는 건 리스크. 다만 본문에서 인과관계 논쟁까지 스스로 언급하며 완화한 점은 긍정적",
+          "벤처인증/이노비즈/메인비즈 관련해서 [13] 케이스스터디가 있으나 각도가 다름(패키지 순서 vs 매출 격차 데이터). 중복 아님"
+        ]
+      },
+      "posted_at": "2026-07-15T05:35:34.771Z",
       "review_required": true
     }
   ]
