@@ -1,418 +1,222 @@
 {
-  "date": "2026-07-16",
-  "generated_at": "2026-07-15T22:05:00.444Z",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-16T22:07:24.079Z",
   "slots": {
     "early_morning": {
-      "status": "approved",
-      "topic": "12월 폭주하는 자금 신청 미리 준비",
-      "post": {
-        "post_type": "마감알림",
-        "main_post": "12월 되면 정책자금 담당자들 다 정신없어\n\n예산 소진 막차 자금들 한꺼번에 쏟아지거든\n근데 그때 가서 준비하면 이미 늦어\n\n서류 준비가 문제야\n재무제표, 사업계획서, 사업자 관련 서류들 — 빠르게 뽑히는 게 없거든\n\n지금 이 시점에 해놔야 하는 게 두 가지야\n하나는 내 회사 업력·매출·업종 기준으로 받을 수 있는 자금 리스트 파악\n둘은 자주 쓰이는 서류들 최신으로 갱신해두기\n\n12월에 '이거 나 되겠다' 싶은 거 발견해도\n서류 없으면 그냥 구경만 하다 끝남 😅",
-        "char_count": 221,
-        "reasoning": "12월 자금 신청 준비를 미리 촉구하는 내용으로, 긴급성·정보 전달에 특화된 마감알림 타입이 가장 적합하며, 사장님 1인칭 페인을 녹여 광고처럼 읽히지 않게 구성했다."
-      },
-      "verdict": {
-        "slot": "early_morning",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "정책자금"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "일반명칭만 사용, 구체 사업명 없음"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-14_공감페인_12월에_사라지는_예산_보면서_드는_생각.md"
-          ],
-          "issues": [
-            "12월 예산 주제 겹치나 각도 다름(준비 촉구 vs 회고)"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "구체 사업명·수치 없이 일반화 잘됨. 12월 관련 최근글과 각도 다름."
-        }
-      }
+      "status": "rejected",
+      "topic": "사전 등록 필요한 자금 안내",
+      "reason": "review"
     },
     "morning": {
-      "status": "approved",
-      "topic": "[경남] 2026년 7차 중대재해 예방 사각지대 해소 지원사업 안전관리 컨설팅 지원사업 참여기업 모집 공고 D-6 마감 임박 (경상남도)",
-      "post": {
-        "post_type": "마감알림",
-        "main_post": "경남에서 중대재해 예방 컨설팅 지원해준다는 거 알고 있어?\n\n안전관리 때문에 머리 아픈데 돈까지 써야 하면 진짜 부담이잖아.\n근데 경남테크노파크에서 안전관리 컨설팅을 지원해준다고 하거든.\n\n이게 이번 주 월요일, 7월 21일 마감이야.\nD-6밖에 안 남았으니까 경남 소재 제조업체면 지금 바로 기업마당에서 확인해봐.\n\n중대재해처벌법 때문에 부담 느끼는 사장님들한테 딱 맞는 공고야.",
-        "char_count": 168,
-        "reasoning": "특정 마감일이 명확하고(D-6, 7월 21일), 긴급성 전달이 핵심이라 마감알림 타입이 가장 적합함"
-      },
-      "verdict": {
-        "slot": "morning",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [
-            "[경남] 2026년 7차 중대재해 예방 사각지대 해소 지원사업 안전관리 컨설팅 지원사업",
-            "경남테크노파크"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 10,
-          "risky_claims": [
-            "7월 21일 마감",
-            "D-6"
-          ],
-          "issues": [
-            "announcement와 일치"
-          ]
-        },
-        "duplication_check": {
-          "score": 10,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": [
-            "'~잖아' 반말체 유지 OK, 존댓말 없음"
-          ]
-        },
-        "overall": {
-          "score": 10,
-          "decision": "pass",
-          "reasoning": "공고 정확 인용, 마감일 일치, 톤 OK"
-        }
-      }
+      "status": "rejected",
+      "topic": "[경남] 2026년 4차 중대재해 예방 사각지대 해소 지원사업 안전환경 개선 패키지 지원사업 참여기업 모집 공고 D-5 마감 임박 (경상남도)",
+      "reason": "fail"
     },
     "late_morning": {
       "status": "approved",
-      "topic": "컨설팅사에 맡겨서 잘 되는 경우 vs 아닌 경우",
+      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "컨설팅사 맡겼다고 다 되는 게 아니야.\n\n잘 되는 케이스 보면 공통점이 있어.\n대표가 자기 회사 숫자 꿰고 있고, 어떤 자금이 왜 필요한지 스스로 설명할 수 있거든.\n컨설턴트가 방향 잡으면 대표가 디테일로 받쳐주는 구조.\n\n안 되는 케이스는 반대야.\n\"알아서 해주세요\" 모드로 맡기고 본인은 아예 손 놓음.\n서류 요청해도 2주 뒤에 주고, 담당자 바뀌면 다시 처음부터.\n\n솔직히 컨설팅사는 길을 아는 사람이지, 대신 걸어주는 사람이 아니거든.\n같이 뛰어야 돼.",
-        "char_count": 198,
-        "reasoning": "컨설팅 위임의 성공/실패 패턴을 현장 경험 기반으로 풀어내는 주제라 솔직인사이트 타입이 가장 자연스럽고, 교훈보다 관찰 중심으로 쓰면 광고처럼 안 읽힘"
+        "main_post": "솔직히 말하면, 정책자금 더 받는 비결 같은 거 없어.\n\n근데 진짜 딱 하나 있긴 해.\n\n\"받을 수 있는 자금을 여러 개 동시에 신청하는 것.\"\n\n대부분 사장님들이 자금 하나 골라서 거기에 올인하거든.\n근데 정책자금은 중복 수혜 안 되는 것도 있지만, 분야가 다르면 동시에 받는 게 가능한 경우가 꽤 많아.\n\n예를 들면 지식재산 지원이랑 AI 전환 지원이랑 해외규격인증 지원은 서로 충돌 안 해.\n다 다른 소관부처, 다른 목적이거든.\n\n하나 신청하고 결과 기다리는 동안 다른 거 또 신청할 수 있는데\n그 시간을 그냥 날리는 사람이 진짜 많더라.",
+        "char_count": 253,
+        "reasoning": "비결·인사이트 주제는 솔직인사이트 타입이 가장 자연스럽고, 컨텍스트의 지식재산·AI·해외규격인증 등 다양한 공고를 실제 예시로 녹여 설득력을 높일 수 있어서 선택함."
       },
       "verdict": {
         "slot": "late_morning",
         "fact_check": {
-          "score": 10,
-          "cited_programs": [],
+          "score": 9,
+          "cited_programs": [
+            "지식재산 지원",
+            "AI 전환 지원",
+            "해외규격인증 지원"
+          ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "모두 일반 명칭 또는 announcement에 존재하는 사업군"
+          ]
         },
         "hallucination_check": {
-          "score": 10,
+          "score": 9,
           "risky_claims": [],
-          "issues": []
+          "issues": [
+            "구체 수치 없음"
+          ]
         },
         "duplication_check": {
-          "score": 9,
+          "score": 8,
           "similar_recent_files": [],
           "issues": [
-            "솔직인사이트 계열 다수지만 주제(컨설팅 위임)는 신규"
+            "동시 신청 인사이트는 새로운 각도"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "현장 인사이트, 검증 이슈 없음"
+          "reasoning": "사실·톤·중복 모두 양호."
         }
       }
     },
     "noon": {
       "status": "approved",
-      "topic": "정책자금 평균 심사 기간이 얼마나 걸리는지",
+      "topic": "신청 대비 평균 선정률",
       "post": {
         "post_type": "숫자팩트",
-        "main_post": "정책자금 신청하고 돈 들어오기까지 보통 2~3개월 걸려.\n\n빠른 거 1개월, 느린 거 6개월 넘는 것도 있고.\n\n근데 사장님들이 이걸 모르고 신청하는 게 문제야.\n\n\"이번 달 자금 급하다\" 싶을 때 신청하면 이미 늦은 거거든.\n\n서류 준비 → 심사 → 이의신청 기간 → 최종 승인 → 지급\n이 단계가 다 있으니까.\n\n정책자금은 급할 때 쓰는 게 아니라 미리 세팅해두는 거야.",
-        "char_count": 178,
-        "reasoning": "정책자금 심사 기간이라는 구체 데이터를 전달하는 주제라 숫자팩트 타입이 가장 적합하며, 수치는 일반적으로 알려진 범위(1~6개월)로 표현해 사실 오류를 피했음"
+        "main_post": "정책자금 평균 선정률, 보통 어느 정도인지 알아?\n\n자금마다 다르긴 한데, 경쟁률 높은 곳은 10:1 넘는 게 흔해.\n즉 10명 신청하면 1명만 되는 거지.\n\n근데 더 충격적인 건 따로 있어.\n떨어진 9명 중 절반 이상이 \"자격 요건 자체가 안 맞는\" 케이스라는 거야.\n업종 안 맞거나, 업력 조건 초과거나, 그냥 쓰면 되겠지 하고 넣은 것들.\n\n경쟁에서 진 게 아니라 처음부터 게임이 아니었던 거야.\n신청 전에 내가 붙을 수 있는 자금인지부터 확인하는 게 먼저야.",
+        "char_count": 213,
+        "reasoning": "선정률이라는 수치 기반 주제이고, 구체적 숫자와 그 의미를 풀어내는 숫자팩트 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "noon",
         "fact_check": {
           "score": 9,
-          "cited_programs": [
-            "정책자금"
-          ],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 8,
-          "risky_claims": [
-            "2~3개월",
-            "1개월",
-            "6개월"
-          ],
-          "issues": [
-            "일반 상식 범위 내 표현, 위험 낮음"
-          ]
-        },
-        "duplication_check": {
-          "score": 7,
-          "similar_recent_files": [
-            "2026-07-14_공감페인_받았는데_통장에_들어오기까지_2달_기다림.md"
-          ],
-          "issues": [
-            "'받고 통장 들어오기까지 2달' 최근 페인글과 주제 유사, 각도는 프로세스 설명으로 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 9,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "유사 주제 있으나 각도(사전 준비 프레임)가 달라 pass"
-        }
-      }
-    },
-    "lunch": {
-      "status": "approved",
-      "topic": "세금계산서·정산에 월말마다 붙잡힌 사장",
-      "post": {
-        "post_type": "공감페인",
-        "main_post": "월말마다 진짜 죽겠어.\n\n거래처 세금계산서 발행 요청 몇 개 들어오고,\n수기로 정산 맞추다 보면 어느 순간 저녁 10시야.\n\n숫자 하나 틀리면 다시 처음부터 보는 거고,\n발행 빠진 거 있으면 거래처한테 전화 와서 또 멘붕.\n\n이게 매달 반복되는데 익숙해질 것 같지가 않음.\n아직도 월말 되면 괜히 몸이 먼저 긴장해 😮‍💨\n\n나만 그런 거 아니지?",
-        "char_count": 152,
-        "reasoning": "월말 세금계산서·정산 반복 페인은 사장님 공통 경험이라 공감페인 타입이 가장 자연스럽게 reach 나오는 구조"
-      },
-      "verdict": {
-        "slot": "lunch",
-        "fact_check": {
-          "score": 10,
           "cited_programs": [],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "구체 사업명 없이 일반론"
+          ]
         },
         "hallucination_check": {
-          "score": 10,
-          "risky_claims": [],
-          "issues": []
+          "score": 7,
+          "risky_claims": [
+            "경쟁률 10:1 넘는 게 흔해",
+            "떨어진 9명 중 절반 이상이 자격 요건 미달"
+          ],
+          "issues": [
+            "'절반 이상 자격 미달'은 검증 어려운 구체 비율. 다만 추상 수준이라 위험 중간"
+          ]
         },
         "duplication_check": {
-          "score": 9,
+          "score": 8,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 8,
           "decision": "pass",
-          "reasoning": "공감페인, 검증 이슈 없음"
+          "reasoning": "'절반 이상' 수치가 살짝 걸리지만 통상적 인사이트 범위. 게시 가능."
         }
       }
     },
+    "lunch": {
+      "status": "rejected",
+      "topic": "고객 문의 답하다 본업 한 줄도 못 한 하루",
+      "reason": "fail"
+    },
     "afternoon": {
       "status": "approved",
-      "topic": "2026년 중소기업 제조물책임(PL)보험료 지원사업 신청 공고(6월 가입자) 자금 해설 (중소벤처기업부)",
+      "topic": "2026년 식물백신 품질고도화 지원사업(제품상용화지원) 수혜기업 모집 공고 자금 해설 (농림축산식품부)",
       "post": {
         "post_type": "자금해설",
-        "main_post": "PL보험 지원사업, 알고 있어?\n\n제조물책임(PL)보험이라고 — 내가 만든 제품에서 문제 생겨서 소비자가 다치거나 피해 입으면 그 손해배상 커버하는 보험이야.\n\n근데 중기부에서 이 보험료를 일부 지원해줘. 중소기업 대상으로.\n\n제조업 하는데 PL보험 안 들어놓으면 진짜 위험한 거거든. 사고 한 번에 폐업까지 갈 수 있는 리스크라서.\n\n6월 가입자 대상 이번 공고는 7월 24일까지야. 중소기업중앙회 통해서 신청하면 돼.\n\n보험 이미 들어놨는데 이거 몰라서 지원 못 받은 회사들 꽤 있더라.",
-        "char_count": 228,
-        "reasoning": "특정 지원사업의 개념과 혜택을 쉽게 풀어 설명하는 구조라 자금해설 타입이 가장 적합함"
+        "main_post": "식물백신이라는 단어 자체를 처음 듣는 사람도 있을 것 같아서\n\n식물백신은 말 그대로 식물에 쓰는 백신이야\n농작물 병해충을 화학농약 대신 생물학적으로 막는 기술인데\n친환경 농업 확대되면서 이 시장 진짜 빠르게 커지고 있거든\n\n농림축산식품부가 이번에 뽑는 건\n식물백신 제품을 이미 개발했는데 상용화 단계에서 막혀있는 기업이야\n기술은 있는데 품질 기준 맞추거나 제품화하는 데 비용이 부담이었던 곳이라면 눈여겨볼 만해\n\n마감이 7월 24일이니까 지금 바로 공고 확인해봐\n농식품 쪽 기술 가진 회사 중에 의외로 모르고 지나치는 케이스 많더라",
+        "char_count": 238,
+        "reasoning": "특정 자금의 개념과 대상을 풀어설명하는 구조이므로 자금해설 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "afternoon",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "2026년 중소기업 제조물책임(PL)보험료 지원사업",
-            "중소기업중앙회",
-            "중기부"
+            "식물백신 품질고도화 지원사업(농림축산식품부)"
           ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "announcement와 마감일(7/24) 일치"
+          ]
         },
         "hallucination_check": {
-          "score": 9,
+          "score": 10,
           "risky_claims": [
-            "7월 24일 마감",
-            "6월 가입자 대상"
+            "7월 24일 마감"
           ],
           "issues": [
-            "announcement와 일치"
+            "정확"
           ]
         },
         "duplication_check": {
-          "score": 10,
+          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
-          "score": 10,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "공고 정확 인용, 톤 OK"
+          "reasoning": "공고 정확, 톤 자연스러움."
         }
       }
     },
     "late_afternoon": {
-      "status": "approved",
-      "topic": "2026년 사라진 자금, 새로 생긴 자금",
-      "post": {
-        "post_type": "트렌드",
-        "main_post": "올해 정책자금 지형이 꽤 바뀐 것 같다는 느낌 받은 사람 있어?\n\n슬쩍 사라진 것들 — 코로나 시기 생긴 긴급 운전자금류, 한시적 특별보증 같은 거.\n당시엔 신청만 해도 거의 다 됐는데 이제 없어.\n\n대신 새로 뜨는 것들 — AI 전환 관련 사업, 지식재산 긴급지원, 프리팁스처럼 초기 창업 전 단계 지원이 눈에 띄게 늘었어.\n경남 AI 전환 미니프로젝트, 2차 프리팁스 모집 같은 게 그 흐름이거든.\n\n정부 예산이 어디로 쏠리나 보면 트렌드가 보여.\n지금은 명확히 AI·딥테크·초기창업 쪽으로 무게가 옮겨가는 중이야.\n작년에 받던 자금이 올해 없어졌다면, 대체 공고 찾아보는 게 맞아.",
-        "char_count": 257,
-        "reasoning": "자금 지형 변화(사라진 자금 vs 새로 생긴 자금)는 트렌드 타입이 가장 적합하고, 공고 데이터의 AI·프리팁스·지식재산 공고를 실제 근거로 활용해 신뢰감을 줄 수 있음"
-      },
-      "verdict": {
-        "slot": "late_afternoon",
-        "fact_check": {
-          "score": 9,
-          "cited_programs": [
-            "경남 AI 전환 미니프로젝트",
-            "2차 프리팁스",
-            "지식재산 긴급지원"
-          ],
-          "unverified_programs": [],
-          "issues": [
-            "모두 announcement에 존재"
-          ]
-        },
-        "hallucination_check": {
-          "score": 9,
-          "risky_claims": [
-            "코로나 시기 긴급 운전자금 사라짐"
-          ],
-          "issues": [
-            "일반적 관찰, 위험 낮음"
-          ]
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-13_트렌드_융자_vs_보증_vs_출연금_비중_변화.md",
-            "2026-07-14_트렌드_정책자금_평가_기준이_바뀌는_방향.md"
-          ],
-          "issues": [
-            "트렌드 계열 최근 다수지만 주제(사라진 vs 뜨는 자금)는 다름"
-          ]
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 9,
-          "decision": "pass",
-          "reasoning": "공고 기반 근거 명확, 트렌드 각도 신규"
-        }
-      }
+      "status": "rejected",
+      "topic": "중소기업도 AI 자동화를 붙이기 시작한 추세",
+      "reason": "review"
     },
     "evening": {
       "status": "rejected",
-      "topic": "사업계획서 잘 쓰는 대표 vs 못 쓰는 대표 차이",
+      "topic": "정관 정비부터 시작해 메인비즈까지 간 회사",
       "reason": "review"
     },
     "late_evening": {
-      "status": "approved",
-      "topic": "고객 문의 92%를 AI로 넘기고 본업에 집중한 쇼핑몰",
-      "post": {
-        "post_type": "케이스스터디",
-        "main_post": "어제 상담한 쇼핑몰 대표 케이스인데\n\n월 300건 넘는 고객 문의를 본인이 직접 다 답하고 있었어.\n\"사이즈 어떻게 돼요\" \"반품 어떻게 해요\" \"배송 언제 와요\"\n이런 거 하루에 수십 건씩.\n\n근데 진짜 문제는 그게 아니더라고.\n그걸 처리하느라 신상 기획이랑 마케팅을 못 하고 있던 거야.\n\n문의 자동응답 붙이고 나서 92%가 AI로 해결됨.\n나머지 8%만 직접 대응하는 구조로 바꿨고.\n\n그 이후로 신상 출시 주기가 2배 빨라졌어.\n사장이 본업에 집중할 수 있게 됐으니까.\n\n반복 문의가 많은 업종이라면 이거 진짜 먼저 해결해야 함",
-        "char_count": 228,
-        "reasoning": "AI 자동응답으로 고객 문의를 처리한 실제 사례를 익명으로 풀어내는 구조라 케이스스터디가 가장 자연스럽고 설득력 있음"
-      },
-      "verdict": {
-        "slot": "late_evening",
-        "fact_check": {
-          "score": 10,
-          "cited_programs": [],
-          "unverified_programs": [],
-          "issues": []
-        },
-        "hallucination_check": {
-          "score": 7,
-          "risky_claims": [
-            "월 300건 문의",
-            "92% AI 해결",
-            "8% 직접 대응",
-            "신상 출시 주기 2배"
-          ],
-          "issues": [
-            "구체 수치 다수지만 자기 경험 케이스로 프레이밍됨, 검증 불가하나 위험 중간"
-          ]
-        },
-        "duplication_check": {
-          "score": 10,
-          "similar_recent_files": [],
-          "issues": []
-        },
-        "tone_check": {
-          "score": 10,
-          "issues": []
-        },
-        "overall": {
-          "score": 8,
-          "decision": "pass",
-          "reasoning": "자기 경험 케이스로 수치 사용, 위험 감수 가능"
-        }
-      }
+      "status": "rejected",
+      "topic": "회사 살림 통째로 맡기고 매출에만 집중한 대표",
+      "reason": "review"
     },
     "night": {
       "status": "approved",
-      "topic": "회사 뒷일을 하나로 묶어 맡기는 흐름",
+      "topic": "매출 적으면 자금 못 받는다는 오해",
       "post": {
-        "post_type": "트렌드",
-        "main_post": "요즘 사장님들 사이에서 조용히 바뀌고 있는 게 있어\n\n예전엔 세금은 세무사, 인증은 컨설팅사, 자금은 또 다른 데\n이렇게 따로따로 쪼개서 맡겼거든\n\n근데 요즘은 \"그냥 한 데서 다 처리\"를 찾는 쪽으로 넘어가고 있어\n\n이유가 있어. 백오피스 일을 여러 군데 나눠 맡기면\n커뮤니케이션 비용이 장난 아니거든\n각자 자기 범위만 보니까 누락이 생기고, 책임 소재도 애매해지고\n\n한 곳에서 묶어서 보면 \"이 자금 받으려면 이 인증이 먼저\"같은\n연결고리가 보이는데 따로 맡기면 그게 안 보여\n\n지금 이 방향으로 움직이는 회사들이 조금씩 늘고 있는 것 같더라",
-        "char_count": 248,
-        "reasoning": "회사 뒷일을 하나로 묶어 맡기는 흐름은 업계 변화 트렌드 관찰 포스트로 자연스럽게 녹여낼 수 있어서 트렌드 타입이 가장 적합함"
+        "post_type": "오해풀기",
+        "main_post": "매출 작으면 정책자금 못 받는다고 생각하는 사람 많던데\n\n사실 반대인 자금이 꽤 많아.\n\n초기 창업자나 매출 0원짜리 회사 타겟으로 설계된 자금이 따로 있거든.\n\n예를 들어 프리팁스(Pre-TIPS)는 아직 매출 없는 창업 초기 기업이 주 대상이야.\n창업진흥원이 수행하고 지금도 8월까지 모집 중이고.\n\n오히려 매출 크면 조건 안 맞는 자금들이 많아.\n\"초기 단계\" \"예비창업자\" 요건 붙은 자금들은 매출 있으면 못 받거든.\n\n그러니까 매출 적다고 포기하지 말고\n내 단계에 맞는 자금이 뭔지부터 찾아봐",
+        "char_count": 220,
+        "reasoning": "매출 적으면 못 받는다는 잘못된 통념을 교정하는 내용으로, 오해풀기 타입이 자연스럽고, 실제 공고(프리팁스 D-25)를 구체적 근거로 활용 가능"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
           "score": 10,
-          "cited_programs": [],
+          "cited_programs": [
+            "프리팁스(Pre-TIPS)",
+            "창업진흥원"
+          ],
           "unverified_programs": [],
-          "issues": []
+          "issues": [
+            "announcement의 2차 프리팁스 D-25 일치, 창업진흥원 수행 일치"
+          ]
         },
         "hallucination_check": {
           "score": 10,
-          "risky_claims": [],
-          "issues": []
-        },
-        "duplication_check": {
-          "score": 8,
-          "similar_recent_files": [
-            "2026-07-14_케이스스터디_인증_3개에_지원금까지_6개월_패키지로_받은_제조사.md"
+          "risky_claims": [
+            "8월까지 모집"
           ],
           "issues": [
-            "'묶어서 보면 연결고리 보인다' 메시지가 인증 패키지 케이스와 결이 유사, 각도는 트렌드 관찰로 다름"
+            "announcement상 2026-08-10 마감 — 정확"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": [
+            "오해풀기 각도로 새로움"
           ]
         },
         "tone_check": {
-          "score": 10,
+          "score": 9,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "트렌드 관찰 각도, 검증 이슈 없음"
+          "reasoning": "사실 정확, 각도 새로움, 톤 양호."
         }
       }
     }
