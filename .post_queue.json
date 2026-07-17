@@ -1,143 +1,244 @@
 {
-  "date": "2026-07-17",
-  "generated_at": "2026-07-16T22:07:24.079Z",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-17T21:57:50.641Z",
   "slots": {
     "early_morning": {
-      "status": "rejected",
-      "topic": "사전 등록 필요한 자금 안내",
-      "reason": "review"
+      "status": "approved",
+      "topic": "내 분야 자금 알림 등록 권유",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "기업마당 들어가서 검색하면 공고가 너무 많아서\n내가 받을 수 있는 게 뭔지 하나도 모르겠는 상태 됨\n\n그냥 업종이랑 지역 딱 설정해두고\n내 분야 공고만 알림 받는 게 훨씬 낫더라\n\n실제로 지원금 잘 받는 대표들 보면\n공고 뜨자마자 바로 신청하는 사람들이거든\n마감 임박해서 보면 이미 서류 준비할 시간도 없음\n\n알림 하나 설정해두면 그게 다야\n기업마당 마이페이지에서 관심분야 설정 가능하니까 한 번만 해놔봐",
+        "char_count": 204,
+        "reasoning": "특정 공고 마감 안내보다 '알림 등록 권유'라는 행동 촉구가 핵심이라 마감알림 타입의 긴급성·정보 전달 톤으로 작성"
+      },
+      "verdict": {
+        "slot": "early_morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "기업마당"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "실제 공고 언급 없이 알림 설정 팁만 다룸. 톤·중복 모두 OK."
+        }
+      }
     },
     "morning": {
-      "status": "rejected",
-      "topic": "[경남] 2026년 4차 중대재해 예방 사각지대 해소 지원사업 안전환경 개선 패키지 지원사업 참여기업 모집 공고 D-5 마감 임박 (경상남도)",
-      "reason": "fail"
+      "status": "approved",
+      "topic": "[충북] 북부 2026년 3차 지식재산 긴급지원 모집 공고 D-7 마감 임박 (충청북도)",
+      "post": {
+        "post_type": "마감알림",
+        "main_post": "충북 북부 지역에 사업체 있으면 이거 오늘 당장 봐야 해\n\n지식재산 긴급지원 3차 모집 D-7이야\n\n'긴급지원'이라는 이름 붙은 거 이유 있어\n빠르게 처리해주는 거거든\n특허나 상표 등록 준비 중인데 비용 부담됐으면\n이런 게 딱인데 왜 홍보가 이렇게 안 되지\n\n충북북부지식재산센터 주관이고\n마감 7월 24일이야\n지나가면 4차 기다려야 하는데 언제 뜰지 모르니까\n지금 바로 기업마당 검색해봐",
+        "char_count": 197,
+        "reasoning": "D-7 마감 임박 공고를 전달하는 긴급성 콘텐츠이므로 마감알림 타입이 가장 적합하며, 지식재산 비용 부담이라는 사장님 페인을 앞세워 정보를 자연스럽게 녹였음"
+      },
+      "verdict": {
+        "slot": "morning",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [
+            "충북 북부 2026년 3차 지식재산 긴급지원",
+            "충북북부지식재산센터"
+          ],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [
+            "마감 7월 24일"
+          ],
+          "issues": [
+            "announcement의 D-7 및 2026-07-24 마감과 일치"
+          ]
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "공고명·마감일 정확. 문제 없음."
+        }
+      }
     },
     "late_morning": {
       "status": "approved",
-      "topic": "한 가지만 알면 자금 50% 더 받는 비결",
+      "topic": "자금 신청 타이밍이 결과를 가르는 이유",
       "post": {
         "post_type": "솔직인사이트",
-        "main_post": "솔직히 말하면, 정책자금 더 받는 비결 같은 거 없어.\n\n근데 진짜 딱 하나 있긴 해.\n\n\"받을 수 있는 자금을 여러 개 동시에 신청하는 것.\"\n\n대부분 사장님들이 자금 하나 골라서 거기에 올인하거든.\n근데 정책자금은 중복 수혜 안 되는 것도 있지만, 분야가 다르면 동시에 받는 게 가능한 경우가 꽤 많아.\n\n예를 들면 지식재산 지원이랑 AI 전환 지원이랑 해외규격인증 지원은 서로 충돌 안 해.\n다 다른 소관부처, 다른 목적이거든.\n\n하나 신청하고 결과 기다리는 동안 다른 거 또 신청할 수 있는데\n그 시간을 그냥 날리는 사람이 진짜 많더라.",
-        "char_count": 253,
-        "reasoning": "비결·인사이트 주제는 솔직인사이트 타입이 가장 자연스럽고, 컨텍스트의 지식재산·AI·해외규격인증 등 다양한 공고를 실제 예시로 녹여 설득력을 높일 수 있어서 선택함."
+        "main_post": "솔직히 말하면 정책자금은 '얼마나 좋은 사업계획서냐'보다 '언제 넣었냐'가 결과를 가르는 경우가 진짜 많아.\n\n대부분의 자금은 선착순이거나, 예산 소진되면 그냥 끝나거든.\n심사 기준이 동일해도 3월에 넣은 회사랑 10월에 넣은 회사는 남은 예산 자체가 달라.\n\n그리고 마감 직전에 몰리면 심사관도 사람이야.\n서류 쌓이면 볼 여유가 없어지고, 초반에 들어온 것들이 더 꼼꼼하게 검토되는 경향이 있어.\n\n지금 공고 중인 프리팁스(Pre-TIPS)도 8월 10일 마감인데, 이미 절반 지났거든.\n고민하다가 마지막 주에 넣으려는 사람들 — 그게 제일 위험한 타이밍이야.",
+        "char_count": 277,
+        "reasoning": "자금 신청 타이밍이라는 주제는 실무 경험 기반의 통찰을 담아야 하고, 데이터+경험으로 사장님께 인사이트를 주는 '솔직인사이트' 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "late_morning",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [
-            "지식재산 지원",
-            "AI 전환 지원",
-            "해외규격인증 지원"
+            "프리팁스(Pre-TIPS) 2026년 2차"
           ],
           "unverified_programs": [],
-          "issues": [
-            "모두 일반 명칭 또는 announcement에 존재하는 사업군"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 9,
-          "risky_claims": [],
+          "risky_claims": [
+            "8월 10일 마감"
+          ],
           "issues": [
-            "구체 수치 없음"
+            "announcement D-24, 2026-08-10과 일치"
           ]
         },
         "duplication_check": {
           "score": 8,
           "similar_recent_files": [],
           "issues": [
-            "동시 신청 인사이트는 새로운 각도"
+            "Pre-TIPS 언급이 최근 [10]에도 있으나 각도 다름(타이밍 vs 매출자격)"
           ]
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "사실·톤·중복 모두 양호."
+          "reasoning": "사실·톤 모두 양호. 신청 타이밍 인사이트로 각도 새로움."
         }
       }
     },
     "noon": {
       "status": "approved",
-      "topic": "신청 대비 평균 선정률",
+      "topic": "중소기업 대표 한 명이 알아야 하는 자금 종류 수",
       "post": {
         "post_type": "숫자팩트",
-        "main_post": "정책자금 평균 선정률, 보통 어느 정도인지 알아?\n\n자금마다 다르긴 한데, 경쟁률 높은 곳은 10:1 넘는 게 흔해.\n즉 10명 신청하면 1명만 되는 거지.\n\n근데 더 충격적인 건 따로 있어.\n떨어진 9명 중 절반 이상이 \"자격 요건 자체가 안 맞는\" 케이스라는 거야.\n업종 안 맞거나, 업력 조건 초과거나, 그냥 쓰면 되겠지 하고 넣은 것들.\n\n경쟁에서 진 게 아니라 처음부터 게임이 아니었던 거야.\n신청 전에 내가 붙을 수 있는 자금인지부터 확인하는 게 먼저야.",
-        "char_count": 213,
-        "reasoning": "선정률이라는 수치 기반 주제이고, 구체적 숫자와 그 의미를 풀어내는 숫자팩트 타입이 가장 적합함"
+        "main_post": "정부 정책자금 종류가 몇 개인지 알아?\n\n중기부만 따져도 수십 개, 부처별로 합치면 수백 개 넘어.\n지역별 공고까지 더하면 솔직히 끝이 없어.\n\n근데 진짜 문제는 숫자가 아니야.\n'내 회사가 지금 받을 수 있는 게 뭔지'를 모른다는 거.\n\n오늘 올라온 공고만 봐도 금융·기술·수출·경영·창업... 분야도 다 달라.\n하나하나 들어가서 자격 조건 읽다 보면 반나절이 그냥 날아가.\n\n이걸 대표가 직접 다 챙기는 구조 자체가 문제지.",
+        "char_count": 196,
+        "reasoning": "중소기업 대표가 파악해야 하는 자금 종류 수라는 주제는 숫자·규모의 충격을 전달하는 숫자팩트 타입이 가장 적합하고, 공고 목록의 다양한 분야를 실제 근거로 활용 가능함"
       },
       "verdict": {
         "slot": "noon",
         "fact_check": {
-          "score": 9,
+          "score": 10,
           "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "구체 사업명 없이 일반론"
-          ]
+          "issues": []
         },
         "hallucination_check": {
-          "score": 7,
+          "score": 9,
           "risky_claims": [
-            "경쟁률 10:1 넘는 게 흔해",
-            "떨어진 9명 중 절반 이상이 자격 요건 미달"
+            "중기부만 수십 개, 부처별 합치면 수백 개"
           ],
           "issues": [
-            "'절반 이상 자격 미달'은 검증 어려운 구체 비율. 다만 추상 수준이라 위험 중간"
+            "일반적 추상 표현으로 큰 문제 없음"
           ]
         },
         "duplication_check": {
-          "score": 8,
+          "score": 9,
           "similar_recent_files": [],
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
-          "score": 8,
+          "score": 9,
           "decision": "pass",
-          "reasoning": "'절반 이상' 수치가 살짝 걸리지만 통상적 인사이트 범위. 게시 가능."
+          "reasoning": "구체 사업명 없이 일반화. 안전."
         }
       }
     },
     "lunch": {
-      "status": "rejected",
-      "topic": "고객 문의 답하다 본업 한 줄도 못 한 하루",
-      "reason": "fail"
+      "status": "approved",
+      "topic": "인증 서류 반려당하고 새벽에 다시 쓰는 밤",
+      "post": {
+        "post_type": "공감페인",
+        "main_post": "인증 서류 반려당하고 새벽에 다시 쓰는 밤 💻\n\n이유도 진짜 황당해\n'작성 형식이 다름' 이 한 줄이야\n\n어떤 형식인지 가이드도 없고\n예시도 없고\n그냥 틀렸으니까 다시 내라는 거지\n\n결국 밤 11시에 혼자 담당자 연락 붙잡고\n어디가 틀렸는지 유추하면서 다시 쓰는 중\n\n인증이 어려운 게 아니라\n이 과정이 어려운 거더라\n\n이거 나만 겪은 거 아니지?",
+        "char_count": 168,
+        "reasoning": "인증 서류 반려라는 사장님 실제 페인 포인트를 1인칭 경험처럼 풀어내는 공감페인 타입이 가장 적합함"
+      },
+      "verdict": {
+        "slot": "lunch",
+        "fact_check": {
+          "score": 10,
+          "cited_programs": [],
+          "unverified_programs": [],
+          "issues": []
+        },
+        "hallucination_check": {
+          "score": 10,
+          "risky_claims": [],
+          "issues": []
+        },
+        "duplication_check": {
+          "score": 9,
+          "similar_recent_files": [],
+          "issues": []
+        },
+        "tone_check": {
+          "score": 10,
+          "issues": []
+        },
+        "overall": {
+          "score": 9,
+          "decision": "pass",
+          "reasoning": "자기 경험 톤, 구체 수치 없음. 이모지 1개 OK."
+        }
+      }
     },
     "afternoon": {
       "status": "approved",
-      "topic": "2026년 식물백신 품질고도화 지원사업(제품상용화지원) 수혜기업 모집 공고 자금 해설 (농림축산식품부)",
+      "topic": "[충북] 2026년 제천한방천연물산업박람회 체험ㆍ플리마켓 참가자 모집 공고 자금 해설 (충청북도)",
       "post": {
         "post_type": "자금해설",
-        "main_post": "식물백신이라는 단어 자체를 처음 듣는 사람도 있을 것 같아서\n\n식물백신은 말 그대로 식물에 쓰는 백신이야\n농작물 병해충을 화학농약 대신 생물학적으로 막는 기술인데\n친환경 농업 확대되면서 이 시장 진짜 빠르게 커지고 있거든\n\n농림축산식품부가 이번에 뽑는 건\n식물백신 제품을 이미 개발했는데 상용화 단계에서 막혀있는 기업이야\n기술은 있는데 품질 기준 맞추거나 제품화하는 데 비용이 부담이었던 곳이라면 눈여겨볼 만해\n\n마감이 7월 24일이니까 지금 바로 공고 확인해봐\n농식품 쪽 기술 가진 회사 중에 의외로 모르고 지나치는 케이스 많더라",
-        "char_count": 238,
-        "reasoning": "특정 자금의 개념과 대상을 풀어설명하는 구조이므로 자금해설 타입이 가장 적합함"
+        "main_post": "제천한방천연물산업박람회 체험·플리마켓 참가 공고가 떴어.\n\n충북 제천에서 매년 열리는 한방 테마 박람회인데, 이번에 체험 부스랑 플리마켓 참가기업을 따로 모집하는 거야.\n\n한방·천연물 관련 제품 판매하는 소상공인이라면 눈여겨볼 만해.\n\n박람회 참가 자체가 유통 채널 하나 생기는 거거든 — 직접 판매 + 브랜드 노출까지 한 번에 가져가는 거라 의외로 가성비가 좋아.\n\n마감이 7월 27일이라 D-10이야.\n관심 있으면 기업마당에서 공고 한번 직접 확인해봐.",
+        "char_count": 213,
+        "reasoning": "박람회 체험·플리마켓 참가 공고를 풀어서 어떤 기회인지 설명하는 구조라 자금해설 타입이 가장 적합함"
       },
       "verdict": {
         "slot": "afternoon",
         "fact_check": {
           "score": 10,
           "cited_programs": [
-            "식물백신 품질고도화 지원사업(농림축산식품부)"
+            "제천한방천연물산업박람회 체험ㆍ플리마켓 참가자 모집"
           ],
           "unverified_programs": [],
-          "issues": [
-            "announcement와 마감일(7/24) 일치"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 10,
           "risky_claims": [
-            "7월 24일 마감"
+            "마감 7월 27일 D-10"
           ],
           "issues": [
-            "정확"
+            "announcement와 일치"
           ]
         },
         "duplication_check": {
@@ -146,77 +247,66 @@
           "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "공고 정확, 톤 자연스러움."
+          "reasoning": "공고명·마감 정확. 문제 없음."
         }
       }
     },
     "late_afternoon": {
       "status": "rejected",
-      "topic": "중소기업도 AI 자동화를 붙이기 시작한 추세",
+      "topic": "인증과 지원금을 연계 설계하는 게 중요해진 이유",
       "reason": "review"
     },
     "evening": {
       "status": "rejected",
-      "topic": "정관 정비부터 시작해 메인비즈까지 간 회사",
+      "topic": "매출 1억 회사가 R&D 5억 받은 사례",
       "reason": "review"
     },
     "late_evening": {
       "status": "rejected",
-      "topic": "회사 살림 통째로 맡기고 매출에만 집중한 대표",
+      "topic": "1인 기업이 청년창업패키지로 시작해 시리즈A까지",
       "reason": "review"
     },
     "night": {
       "status": "approved",
-      "topic": "매출 적으면 자금 못 받는다는 오해",
+      "topic": "한 번 떨어지면 끝이라는 생각",
       "post": {
         "post_type": "오해풀기",
-        "main_post": "매출 작으면 정책자금 못 받는다고 생각하는 사람 많던데\n\n사실 반대인 자금이 꽤 많아.\n\n초기 창업자나 매출 0원짜리 회사 타겟으로 설계된 자금이 따로 있거든.\n\n예를 들어 프리팁스(Pre-TIPS)는 아직 매출 없는 창업 초기 기업이 주 대상이야.\n창업진흥원이 수행하고 지금도 8월까지 모집 중이고.\n\n오히려 매출 크면 조건 안 맞는 자금들이 많아.\n\"초기 단계\" \"예비창업자\" 요건 붙은 자금들은 매출 있으면 못 받거든.\n\n그러니까 매출 적다고 포기하지 말고\n내 단계에 맞는 자금이 뭔지부터 찾아봐",
-        "char_count": 220,
-        "reasoning": "매출 적으면 못 받는다는 잘못된 통념을 교정하는 내용으로, 오해풀기 타입이 자연스럽고, 실제 공고(프리팁스 D-25)를 구체적 근거로 활용 가능"
+        "main_post": "정책자금 한 번 떨어지면 끝이라고 생각하는 사람 많던데\n\n아니야, 진짜로.\n\n같은 사업 다음 차수에 다시 넣는 거 얼마든지 돼.\n실제로 2차에서 붙는 케이스가 꽤 많고,\n떨어진 이유 피드백 받아서 보완하면 오히려 다음에 유리하기도 해.\n\n근데 한 번 떨어지고 \"우리 회사는 안 되나보다\" 하고 포기하는 거 주변에 너무 많이 봤어.\n\n정책자금은 탈락이 끝이 아니라 방향 수정의 신호에 가깝거든.\n다시 넣어봐.",
+        "char_count": 202,
+        "reasoning": "정책자금 탈락 후 재도전을 포기하는 잘못된 통념을 바로잡는 내용이라 오해풀기가 가장 적합함"
       },
       "verdict": {
         "slot": "night",
         "fact_check": {
           "score": 10,
-          "cited_programs": [
-            "프리팁스(Pre-TIPS)",
-            "창업진흥원"
-          ],
+          "cited_programs": [],
           "unverified_programs": [],
-          "issues": [
-            "announcement의 2차 프리팁스 D-25 일치, 창업진흥원 수행 일치"
-          ]
+          "issues": []
         },
         "hallucination_check": {
           "score": 10,
-          "risky_claims": [
-            "8월까지 모집"
-          ],
-          "issues": [
-            "announcement상 2026-08-10 마감 — 정확"
-          ]
+          "risky_claims": [],
+          "issues": []
         },
         "duplication_check": {
           "score": 9,
           "similar_recent_files": [],
-          "issues": [
-            "오해풀기 각도로 새로움"
-          ]
+          "issues": []
         },
         "tone_check": {
-          "score": 9,
+          "score": 10,
           "issues": []
         },
         "overall": {
           "score": 9,
           "decision": "pass",
-          "reasoning": "사실 정확, 각도 새로움, 톤 양호."
+          "reasoning": "구체 사업명 없이 오해풀기. 최근 오해풀기와 주제 다름."
         }
       }
     }
