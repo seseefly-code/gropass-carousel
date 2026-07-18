@@ -4,7 +4,7 @@
   "topic_pool_indexes": {
     "솔직인사이트": 6,
     "공감페인": 18,
-    "케이스스터디": 2,
+    "케이스스터디": 3,
     "숫자팩트": 6,
     "마감알림": 12,
     "오해풀기": 5,
@@ -180,20 +180,6 @@
     "PBLN_000000000124403"
   ],
   "history": [
-    {
-      "slot": "early_morning",
-      "type": "마감알림",
-      "topic": "경상적으로 마감 빨리 끝나는 자금 주의",
-      "char_count": 197,
-      "source": "batch_queue",
-      "verdict": {
-        "decision": "pass",
-        "score": 8
-      },
-      "media_id": "17990791481814206",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_HvbWDxSI",
-      "posted_at": "2026-06-24T22:59:27.249Z"
-    },
     {
       "slot": "morning",
       "type": "마감알림",
@@ -1863,6 +1849,30 @@
         ]
       },
       "posted_at": "2026-07-18T09:15:27.668Z",
+      "review_required": true
+    },
+    {
+      "slot": "late_evening",
+      "type": "케이스스터디",
+      "topic": "폐업 위기에서 정책자금으로 살아난 회사",
+      "char_count": 265,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-18_케이스스터디_폐업_위기에서_정책자금으로_살아난_회사.md",
+      "verdict": {
+        "decision": "review",
+        "score": 6,
+        "fact": 9,
+        "halluc": 8,
+        "dup": 8,
+        "tone": 6,
+        "issues": [
+          "announcement 컨텍스트에 '광양시 2026년 3차 지역산업 위기대응 맞춤형 지원사업 통합공고'가 실제 존재하므로 사실 부합",
+          "자기 상담 경험담 형식이고 구체 금액/수치는 없음. '운전자금이랑 컨설팅까지 엮어서'는 해당 사업이 경영 분야 통합공고라 일반적으로 그럴듯함",
+          "최근 케이스스터디가 3건 있지만 주제가 각각 정관정비/메인비즈, 회사살림 위임, 청창사→시리즈A, R&D 5억으로 모두 다름. 이번 폐업위기→지역위기대응자금 케이스는 각도가 새로움",
+          "본문이 미완결 상태로 끝남 — \"근데 이 사람이 말한 게 기억에 남아.\" 다음에 인용문이 나와야 하는데 잘림. 마무리 문장 없이 갑자기 종료되어 독자 몰입 붕괴",
+          "반말·해시태그 없음·이모지 없음은 규칙 준수"
+        ]
+      },
+      "posted_at": "2026-07-18T12:54:42.323Z",
       "review_required": true
     }
   ]
