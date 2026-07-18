@@ -8,7 +8,7 @@
     "숫자팩트": 6,
     "마감알림": 12,
     "오해풀기": 5,
-    "트렌드": 18
+    "트렌드": 1
   },
   "used_announcements": [
     "PBLN_000000000121636",
@@ -180,29 +180,6 @@
     "PBLN_000000000124403"
   ],
   "history": [
-    {
-      "slot": "night",
-      "type": "오해풀기",
-      "topic": "정책자금 = 정부 돈 공짜로 주는 거라는 인식",
-      "char_count": 196,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-24_오해풀기_정책자금_정부_돈_공짜로_주는_거라는_인식.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 9,
-        "dup": 8,
-        "tone": 9,
-        "issues": [
-          "구체 수치나 비용 언급 없음. '대출형이 압도적으로 많다', 'R&D/바우처는 환수' 등은 일반적으로 알려진 사실",
-          "[10] 청년창업 오해풀기와 형식은 유사하나 주제(공짜 마인드 vs 청년 유리)가 명확히 다름. 중복 아님",
-          "반말 톤, 해시태그 없음, 글자수 196자 적정, AI 정형 도입부 없음"
-        ]
-      },
-      "posted_at": "2026-06-24T15:33:58.671Z",
-      "media_id": "18105540188074583",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ-Uxe4lh00"
-    },
     {
       "slot": "early_morning",
       "type": "마감알림",
@@ -1864,6 +1841,28 @@
         ]
       },
       "posted_at": "2026-07-15T05:35:34.771Z",
+      "review_required": true
+    },
+    {
+      "slot": "late_afternoon",
+      "type": "트렌드",
+      "topic": "2026년 정책자금 트렌드 키워드",
+      "char_count": 218,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-18_트렌드_2026년_정책자금_트렌드_키워드.md",
+      "verdict": {
+        "decision": "review",
+        "score": 8,
+        "fact": 9,
+        "halluc": 9,
+        "dup": 6,
+        "tone": 10,
+        "issues": [
+          "언급된 사업들이 모두 announcement 컨텍스트에 존재함. 경남 AX 미니프로젝트, 경기·울산·세종 지식재산 긴급지원, 경남 중대재해 예방 컨설팅 모두 실재 공고",
+          "AI 채점 유리 언급은 다소 주관적 추론이나 트렌드 관찰 형태로 완곡하게 표현되어 있어 큰 문제는 아님. 구체 수치나 비용은 없음",
+          "7/16 트렌드 포스트가 이미 '중소기업 AI 전환'과 '경남 산업 AI 전환 지원 공고'를 언급함. 이번 포스트는 AI+지식재산+안전관리 3키워드로 확장하고 각도가 다르지만, AI 트렌드+경남 공고 언급이 겹침"
+        ]
+      },
+      "posted_at": "2026-07-18T09:15:27.668Z",
       "review_required": true
     }
   ]
