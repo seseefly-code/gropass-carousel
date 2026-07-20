@@ -5,7 +5,7 @@
     "솔직인사이트": 9,
     "공감페인": 2,
     "케이스스터디": 6,
-    "숫자팩트": 8,
+    "숫자팩트": 9,
     "마감알림": 14,
     "오해풀기": 6,
     "트렌드": 3
@@ -184,28 +184,6 @@
     "PBLN_000000000124447"
   ],
   "history": [
-    {
-      "slot": "morning",
-      "type": "마감알림",
-      "topic": "[충북] 2026년 농식품 홍콩 무역사절단 파견 참여기업 모집 연장 공고 D-5 마감 임박 (충청북도)",
-      "char_count": 194,
-      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-06-25_마감알림_충북_2026년_농식품_홍콩_무역사절단_파견_참여기업_.md",
-      "verdict": {
-        "decision": "pass",
-        "score": 9,
-        "fact": 10,
-        "halluc": 10,
-        "dup": 8,
-        "tone": 10,
-        "issues": [
-          "마감일과 D-day 모두 announcement와 일치",
-          "[5],[6] 마감알림과 형식이 비슷하나 주제(수출/홍콩 사절단)와 대상(농식품)이 명확히 다름"
-        ]
-      },
-      "posted_at": "2026-06-25T00:09:24.013Z",
-      "media_id": "18414410374147983",
-      "permalink": "https://www.threads.com/@buildup_kyo/post/DZ_Pwi4kSS0"
-    },
     {
       "slot": "late_morning",
       "type": "솔직인사이트",
@@ -1877,6 +1855,28 @@
         ]
       },
       "posted_at": "2026-07-18T12:54:42.323Z",
+      "review_required": true
+    },
+    {
+      "slot": "noon",
+      "type": "숫자팩트",
+      "topic": "사업계획서 평균 작성 시간 (직접 vs 컨설팅)",
+      "char_count": 232,
+      "filepath": "/home/runner/work/gropass-carousel/gropass-carousel/threads/2026-07-20_숫자팩트_사업계획서_평균_작성_시간_직접_vs_컨설팅.md",
+      "verdict": {
+        "decision": "review",
+        "score": 7,
+        "fact": 10,
+        "halluc": 6,
+        "dup": 7,
+        "tone": 10,
+        "issues": [
+          "'평균 40~80시간'이라는 구체 수치는 출처가 불명확한 통계로 보일 수 있음. 다만 범위형이라 심각도는 중간",
+          "컨설팅 시 '10시간 안쪽'도 검증되지 않은 구체 수치지만 경험적 진술로 해석 가능",
+          "최근 [5] 공감페인 글이 사업계획서 쓰느라 새벽 태우는 대표 얘기라 주제가 겹침. 다만 이 글은 시간·기회비용 프레임으로 각도가 달라 완전 중복은 아님"
+        ]
+      },
+      "posted_at": "2026-07-20T06:21:00.749Z",
       "review_required": true
     }
   ]
